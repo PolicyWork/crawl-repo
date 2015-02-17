@@ -1,0 +1,124 @@
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+//import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Example1 {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		FirefoxProfile p = new FirefoxProfile();
+		p.setPreference("javascript.enabled", false);
+
+		
+		// Create a new instance of the Firefox driver
+		org.openqa.selenium.WebDriver driver = new FirefoxDriver();
+
+		// Maximize the window
+		driver.manage().window().maximize();
+
+		driver.get("https://github.com");
+
+		WebElement element;
+
+		// Enter Login Credentials
+		element = driver.findElement(By.name("q"));
+
+		element.sendKeys("hasRole()");
+
+		element.submit();
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+
+		element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, 'type=Code')]")));
+
+		// element.sendKeys("Code");
+
+		element.click();
+
+		element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, 'l=java')]")));
+
+		element.click();
+
+		Thread.sleep(4000L);
+
+		System.out.println("Marker...");
+
+		element = driver.findElement(By.className("code-list-item"));
+
+		element = wait.until(ExpectedConditions.elementToBeClickable(By
+				.xpath("//a[contains(@href, 'type=Code')]")));
+
+		// List<WebElement> elementList = (List<WebElement>)
+		// driver.findElement(By.className("code-list-item"));
+
+		// element =
+		// driver.findElement(By.cssSelector(".code-list>div:nth-child(1)>a"));
+		//
+		// element.click();
+
+		// System.out.println("ELEMENT LIST PRINT ::::-->>"+elementList);
+
+		// for(WebElement iterator: elementList)
+		// {
+		// iterator =driver.findElement(By.)
+		// }
+		//
+		//
+
+		// Gets List of links that are to be crawled
+		// List<String> lnkList = new LinkedList<String>();
+		// for(String lnk: lnkList)
+		// {
+		// //follow individual links
+		// element = driver.findElement(By.linkText(lnk));
+		// element.click();
+		// wait(driver);
+		// processSource(lnk, driver.getPageSource());
+		// //get back to List page
+		// driver.navigate().back();
+		// wait(driver);
+		// }
+
+		// Close the browser
+		// driver.quit();
+	}
+
+	private static void processSource(String id, String pageSource) {
+
+		try {
+			FileWriter fileWriter = new FileWriter(
+					"/home/manish/research/ResearchScripts/selenium/"
+							+ id.replaceAll("\\s", "_") + ".html");
+			BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+			bufferedWriter.write(pageSource);
+			bufferedWriter.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		// TODO Write Code to create XLS Sheet
+		// Document doc = Jsoup.parse(pageSource);
+		// DataRow row = new DataRow();
+		// row.setActivity("");
+	}
+
+	// private static void wait(WebDriver driver) {
+	// (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
+	// public Boolean apply(WebDriver d) {
+	// return
+	// d.findElement(By.linkText("List")).getText().toLowerCase().startsWith("list");
+	// }
+	// });
+	// }
+}

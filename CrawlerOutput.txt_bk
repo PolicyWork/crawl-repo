@@ -1,0 +1,2281 @@
+======================================================
+[OUTPUT-FILENAME]: MainMenuViewSecutiry.java
+======================================================
+
++import com.qlkh.core.client.constant.UserRoleEnum;
++import com.smvp4g.mvp.client.core.utils.LoginUtils;
++        if (LoginUtils.getRole().equals(UserRoleEnum.USER.getRole())) {
++            subToolBar.setEnabled(false);
++        }
+-        MyNumberField quantityNumberField = new MyNumberField();
+-        quantityNumberField.setSelectOnFocus(true);
+-        quantityColumnConfig.setEditor(new CellEditor(quantityNumberField));
++
++        if (!LoginUtils.getRole().equals(UserRoleEnum.USER.getRole())) {
++            MyNumberField quantityNumberField = new MyNumberField();
++            quantityNumberField.setSelectOnFocus(true);
++            quantityColumnConfig.setEditor(new CellEditor(quantityNumberField));
++        }
++
+-        return new HasRole[]{UserRoleEnum.MANAGER};
++        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
++import com.google.gwt.user.client.ui.HTML;
++        contentPanel.add(new HTML("<b>Cập nhật phiên bản 1.4.0</b>" +
++                "<ul>" +
++                "<li>- User xí nghiệp có thể xem định mức cho từng công việc</li>" +
++                "<li>- Số chứng từ hoá đơn xẽ tự động reset về 1 khi chuyển sang năm mới</li>" +
++                "</ul>"));
++
+-        return new HasRole[]{UserRoleEnum.MANAGER};
++        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
+-        return new HasRole[]{UserRoleEnum.ADMIN};
++        return new HasRole[]{UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
+-        mnlGroupManager.setStyleName("menulink");
+-        mainPanel.add(mnlGroupManager, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++        mnlGroupManager.setStyleName("menulink");
++        mainPanel.add(mnlGroupManager, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
+-        return new HasRole[]{UserRoleEnum.ADMIN};
++        return new HasRole[]{UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
+-import com.extjs.gxt.ui.client.event.ButtonEvent;
+-import com.extjs.gxt.ui.client.event.Listener;
+-import com.extjs.gxt.ui.client.event.MessageBoxEvent;
+-import com.extjs.gxt.ui.client.event.SelectionListener;
++import com.extjs.gxt.ui.client.event.*;
++import com.extjs.gxt.ui.client.store.ListStore;
+-import com.qlkh.core.client.action.core.DeleteAction;
+-import com.qlkh.core.client.action.core.DeleteResult;
+-import com.qlkh.core.client.action.core.SaveAction;
+-import com.qlkh.core.client.action.core.SaveResult;
++import com.qlkh.core.client.action.core.*;
++import com.qlkh.core.client.model.Group;
++    private Station currentStation;
+-        view.getCbStation().setStore(GridUtils.createListStoreForCb(Station.class, ClientRestrictions.ne("id", 27l)));
++        view.getCbStation().setStore(GridUtils.createListStoreForCb(Station.class));
++
++        view.getCbStation().addSelectionChangedListener(new SelectionChangedListener<BeanModel>() {
++            @Override
++            public void selectionChanged(SelectionChangedEvent<BeanModel> beanModelSelectionChangedEvent) {
++                currentStation = view.getCbStation().getValue().getBean();
++                view.getCbGroup().reset();
++                view.getCbGroup().setStore(createGroupListStore());
++            }
++        });
++
++        view.getCbGroup().setStore(createGroupListStore());
++                view.getCbGroup().reset();
++                view.getTxtPersonName().setValue("");
++                view.getTxtPersonName().reset();
+-                BeanModelFactory factory = BeanModelLookup.get().getFactory(Station.class);
+-                view.getCbStation().setValue(factory.createModel(selectedMaterial.getStation()));
++                BeanModelFactory stationFactory = BeanModelLookup.get().getFactory(Station.class);
++                view.getCbStation().setValue(stationFactory.createModel(selectedMaterial.getStation()));
++                    if(view.getCbGroup().getValue() != null) {
++                        Group group = view.getCbGroup().getValue().getBean();
++                        currentMaterial.setGroup(group);
++                    }
++    public ListStore<BeanModel> createGroupListStore() {
++        final BeanModelFactory factory = BeanModelLookup.get().getFactory(Group.class);
++        final ListStore<BeanModel> store = new ListStore<BeanModel>();
++        Long stationId = null;
++        if (currentStation != null) {
++            stationId = currentStation.getId();
++        }
++        StandardDispatchAsync.INSTANCE
++                .execute(new LoadAction(Group.class.getName(), ClientRestrictions.eq("station.id", stationId)),
++                        new AbstractAsyncCallback<LoadResult>() {
++                            @Override
++                            public void onSuccess(LoadResult result) {
++                                for (Group entity : result.<Group>getList()) {
++                                    store.add(factory.createModel(entity));
++                                }
++
++                                if (currentMaterial != null && currentMaterial.getGroup() != null) {
++                                    BeanModelFactory groupFactory = BeanModelLookup.get().getFactory(Group.class);
++                                    view.getCbGroup().setValue(groupFactory.createModel(currentMaterial.getGroup()));
++                                }
++                            }
++                        });
++        return store;
++    }
++    public static final String GROUP_COLUMN = "group.name";
++    public static final int GROUP_WIDTH = 200;
++    ComboBox<BeanModel> cbGroup = new ComboBox<BeanModel>();
++
++    @I18nField
+-        ColumnConfig codeColumnConfig = new ColumnConfig(STATION_COLUMN, getConstant().stationColumnTitle(), STATION_WIDTH);
+-        columnConfigs.add(codeColumnConfig);
++        ColumnConfig stationColumnConfig = new ColumnConfig(STATION_COLUMN, getConstant().stationColumnTitle(), STATION_WIDTH);
++        columnConfigs.add(stationColumnConfig);
++
++        ColumnConfig groupColumnConfig = new ColumnConfig(GROUP_COLUMN, getConstant().groupColumnTitle(), GROUP_WIDTH);
++        columnConfigs.add(groupColumnConfig);
+-            cbStation.setAllowBlank(false);
++        if (!cbGroup.isRendered()) {
++            cbGroup.setDisplayField("name");
++            cbGroup.setEditable(false);
++            cbGroup.setSelectOnFocus(true);
++            cbGroup.setTriggerAction(ComboBox.TriggerAction.ALL);
++            cbGroup.setForceSelection(true);
++        }
++
++        editPanel.add(cbGroup);
++
++    public ComboBox<BeanModel> getCbGroup() {
++        return cbGroup;
++    }
++    String groupColumnTitle();
++    String cbGroup();
+-stationColumnTitle=Tên đơn vị
++stationColumnTitle=Tên trạm
+-cbStation=Tên đơn vị
++cbStation=Tên trạm
++cbGroup=Tên phòng
+-deleteErrorMessage=Du lieu nay da duoc su dung, ban khong the xoa!
++deleteErrorMessage=Du lieu nay da duoc su dung, ban khong the xoa!
++groupColumnTitle=Tên phòng
+-mnlGroupManager=Quản lý phòng
++mnlGroupManager=Quản lý phòng bang
++    public HasRole[] mnlGroupManager() {
++        return new HasRole[]{UserRoleEnum.ADMIN};
++    }
++
++        <many-to-one name="group" class="com.qlkh.core.client.model.Group" lazy="false" fetch="join" outer-join="auto">
++            <column name="groupId" not-null="false"/>
++        </many-to-one>
++
++    private Group group;
++    public Group getGroup() {
++        return group;
++    }
++
++    public void setGroup(Group group) {
++        this.group = group;
++    }
++
++
++        view.getBtnMaterialInReportXls().addSelectionListener(new SelectionListener<ButtonEvent>() {
++            @Override
++            public void componentSelected(ButtonEvent buttonEvent) {
++                materialInReport();
++            }
++        });
++    }
++
++    private void materialInReport() {
++        dispatch.execute(new MaterialInReportAction(), new AbstractAsyncCallback<MaterialInReportResult>() {
++            @Override
++            public void onSuccess(MaterialInReportResult result) {
++                reportWindow = view.createReportWindow(result.getReportUrl());
++                reportWindow.show();
++            }
++        });
++import com.extjs.gxt.ui.client.widget.form.TextField;
++    @FieldSecurity
++    FormPanel wareHouseReportPanel = new FormPanel();
++
++    @I18nField
++    @I18nField
++    Button btnMaterialInReportXls = new Button();
++
++        wareHouseReportPanel.setFrame(true);
++        HorizontalPanel hp4 = new HorizontalPanel();
++        hp4.setSpacing(4);
++        hp4.add(new Label("Tu so"));
++        hp4.add(new TextField<String>());
++        hp4.add(new Label("Den so"));
++        hp4.add(new TextField<String>());
++        hp4.add(btnMaterialInReportXls);
++
++        wareHouseReportPanel.add(hp4);
++
++        vp.add(wareHouseReportPanel);
++
++    public Button getBtnMaterialInReportXls() {
++        return btnMaterialInReportXls;
++    }
++    String wareHouseReportPanel();
++    String btnMaterialInReportXls();
+-btnMaterialReportXls=In báo cáo(Excel)
++btnMaterialReportXls=In báo cáo(Excel)
++wareHouseReportPanel=Báo cáo kho
++btnMaterialInReportXls=In báo cáo(Excel)
+-        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
++        return new HasRole[]{
++                UserRoleEnum.MANAGER,
++                UserRoleEnum.MATERIAL_MANAGER,
++                UserRoleEnum.WAREHOUSE_MANAGER,
++                UserRoleEnum.USER
++        };
++
++    public HasRole[] wareHouseReportPanel() {
++        return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
++    }
++
+-        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
++        return new HasRole[]{
++                UserRoleEnum.MANAGER,
++                UserRoleEnum.MATERIAL_MANAGER,
++                UserRoleEnum.USER,
++                UserRoleEnum.WAREHOUSE_MANAGER
++        };
++package com.qlkh.core.client.action.report;
++
++import net.customware.gwt.dispatch.shared.Action;
++
++/**
++ * The Class MaterialInReportAction.
++ *
++ * @author Nguyen Duc Dung
++ * @since 5/24/13 11:42 AM
++ */
++public class MaterialInReportAction implements Action<MaterialInReportResult> {
++
++}
++package com.qlkh.core.client.action.report;
++
++import net.customware.gwt.dispatch.shared.Result;
++
++/**
++ * The Class MaterialInReportAction.
++ *
++ * @author Nguyen Duc Dung
++ * @since 5/24/13 11:42 AM
++ */
++public class MaterialInReportResult implements Result {
++
++    private String reportUrl;
++
++    public MaterialInReportResult() {
++    }
++
++    public MaterialInReportResult(String reportUrl) {
++        this.reportUrl = reportUrl;
++    }
++
++    public String getReportUrl() {
++        return reportUrl;
++    }
++}
+-        <dynamicJasperVersion>3.2.6</dynamicJasperVersion>
+-        <jasperreportsVersion>3.7.1</jasperreportsVersion>
++        <dynamicJasperVersion>4.0.3</dynamicJasperVersion>
+-                <exclusion>
+-                    <groupId>jasperreports</groupId>
+-                    <artifactId>jasperreports</artifactId>
+-                </exclusion>
+-            </exclusions>
+-        </dependency>
+-
+-        <dependency>
+-            <groupId>jasperreports</groupId>
+-            <artifactId>jasperreports</artifactId>
+-            <version>${jasperreportsVersion}</version>
+-            <exclusions>
+-                <exclusion>
+-                    <groupId>commons-collections</groupId>
+-                    <artifactId>commons-collections</artifactId>
+-                </exclusion>
+-                <exclusion>
+-                    <groupId>commons-logging</groupId>
+-                    <artifactId>commons-logging</artifactId>
+-                </exclusion>
+-                <exclusion>
+-                    <groupId>bouncycastle</groupId>
+-                    <artifactId>bcmail-jdk14</artifactId>
+-                </exclusion>
+-                <exclusion>
+-                    <groupId>bouncycastle</groupId>
+-                    <artifactId>bcprov-jdk14</artifactId>
+-                </exclusion>
+-                <exclusion>
+-                    <groupId>eclipse</groupId>
+-                    <artifactId>jdtcore</artifactId>
+-                </exclusion>
++package com.qlkh.server.handler.report;
++
++import com.qlkh.core.client.action.report.MaterialInReportAction;
++import com.qlkh.core.client.action.report.MaterialInReportResult;
++import com.qlkh.core.client.model.Material;
++import com.qlkh.server.dao.core.GeneralDao;
++import com.qlkh.server.handler.core.AbstractHandler;
++import com.qlkh.server.servlet.ReportServlet;
++import com.qlkh.server.util.ReportExporter;
++import com.qlkh.server.util.ServletUtils;
++import net.customware.gwt.dispatch.server.ExecutionContext;
++import net.customware.gwt.dispatch.shared.DispatchException;
++import net.sf.jasperreports.engine.JRException;
++import net.sf.jasperreports.engine.JasperFillManager;
++import net.sf.jasperreports.engine.JasperPrint;
++import net.sf.jasperreports.engine.data.JRBeanCollectionDataSource;
++import org.springframework.beans.factory.annotation.Autowired;
++
++import java.io.FileNotFoundException;
++import java.util.List;
++
++/**
++ * The Class MaterialInReportHandler.
++ *
++ * @author Nguyen Duc Dung
++ * @since 5/24/13 11:43 AM
++ */
++public class MaterialInReportHandler extends AbstractHandler<MaterialInReportAction, MaterialInReportResult> {
++
++    public static final String JASPER_REPORT_FILE_NAME = "phieuxuatkho.jasper";
++    public static final String EXCEL_FILE_NAME = "phieuxuatkho.xls";
++
++    @Autowired
++    private GeneralDao generalDao;
++
++    @Override
++    public Class<MaterialInReportAction> getActionType() {
++        return MaterialInReportAction.class;
++    }
++
++    @Override
++    public MaterialInReportResult execute(MaterialInReportAction action, ExecutionContext context) throws DispatchException {
++        try {
++            String reportFilePath = ServletUtils.getInstance().getRealPath(ReportServlet.REPORT_DIRECTORY, JASPER_REPORT_FILE_NAME);
++            String xlsFilePath = ServletUtils.getInstance().getRealPath(ReportServlet.REPORT_DIRECTORY, EXCEL_FILE_NAME);
++            List<Material> materials = generalDao.getAll(Material.class);
++            JasperPrint jasperPrint = JasperFillManager.fillReport(reportFilePath, null, new JRBeanCollectionDataSource(materials));
++            ReportExporter.exportReportXls(jasperPrint, xlsFilePath);
++        } catch (JRException e) {
++            e.printStackTrace();
++        } catch (FileNotFoundException e) {
++            e.printStackTrace();
++        }
++        return null;
++    }
++}
+-        headerStyle.setBorder(Border.THIN);
++        headerStyle.setBorder(Border.THIN());
+-        detailStyle.setBorderLeft(Border.THIN);
+-        detailStyle.setBorderRight(Border.THIN);
+-        detailStyle.setBorderBottom(Border.THIN);
++        detailStyle.setBorderLeft(Border.THIN());
++        detailStyle.setBorderRight(Border.THIN());
++        detailStyle.setBorderBottom(Border.THIN());
+-        numberStyle.setBorder(Border.THIN);
++        numberStyle.setBorder(Border.THIN());
+-        numberStyle.setBorderLeft(Border.THIN);
+-        numberStyle.setBorderRight(Border.THIN);
+-        numberStyle.setBorderBottom(Border.THIN);
++        numberStyle.setBorderLeft(Border.THIN());
++        numberStyle.setBorderRight(Border.THIN());
++        numberStyle.setBorderBottom(Border.THIN());
+-        nameStyle.setBorder(Border.THIN);
++        nameStyle.setBorder(Border.THIN());
+-        nameStyle.setBorderLeft(Border.THIN);
+-        nameStyle.setBorderRight(Border.THIN);
+-        nameStyle.setBorderBottom(Border.THIN);
++        nameStyle.setBorderLeft(Border.THIN());
++        nameStyle.setBorderRight(Border.THIN());
++        nameStyle.setBorderBottom(Border.THIN());
+-        headerStyle.setBorder(Border.THIN);
++        headerStyle.setBorder(Border.THIN());
+-        detailStyle.setBorderLeft(Border.THIN);
+-        detailStyle.setBorderRight(Border.THIN);
+-        detailStyle.setBorderBottom(Border.THIN);
++        detailStyle.setBorderLeft(Border.THIN());
++        detailStyle.setBorderRight(Border.THIN());
++        detailStyle.setBorderBottom(Border.THIN());
+-        numberStyle.setBorder(Border.THIN);
++        numberStyle.setBorder(Border.THIN());
+-        numberStyle.setBorderLeft(Border.THIN);
+-        numberStyle.setBorderRight(Border.THIN);
+-        numberStyle.setBorderBottom(Border.THIN);
++        numberStyle.setBorderLeft(Border.THIN());
++        numberStyle.setBorderRight(Border.THIN());
++        numberStyle.setBorderBottom(Border.THIN());
+-        nameStyle.setBorder(Border.THIN);
++        nameStyle.setBorder(Border.THIN());
+-        nameStyle.setBorderLeft(Border.THIN);
+-        nameStyle.setBorderRight(Border.THIN);
+-        nameStyle.setBorderBottom(Border.THIN);
++        nameStyle.setBorderLeft(Border.THIN());
++        nameStyle.setBorderRight(Border.THIN());
++        nameStyle.setBorderBottom(Border.THIN());
+-        headerStyle.setBorder(Border.THIN);
++        headerStyle.setBorder(Border.THIN());
+-        detailStyle.setBorderLeft(Border.THIN);
+-        detailStyle.setBorderRight(Border.THIN);
+-        detailStyle.setBorderBottom(Border.THIN);
++        detailStyle.setBorderLeft(Border.THIN());
++        detailStyle.setBorderRight(Border.THIN());
++        detailStyle.setBorderBottom(Border.THIN());
+-        numberStyle.setBorder(Border.THIN);
++        numberStyle.setBorder(Border.THIN());
+-        numberStyle.setBorderLeft(Border.THIN);
+-        numberStyle.setBorderRight(Border.THIN);
+-        numberStyle.setBorderBottom(Border.THIN);
++        numberStyle.setBorderLeft(Border.THIN());
++        numberStyle.setBorderRight(Border.THIN());
++        numberStyle.setBorderBottom(Border.THIN());
+-        nameStyle.setBorder(Border.THIN);
++        nameStyle.setBorder(Border.THIN());
+-        nameStyle.setBorderLeft(Border.THIN);
+-        nameStyle.setBorderRight(Border.THIN);
+-        nameStyle.setBorderBottom(Border.THIN);
++        nameStyle.setBorderLeft(Border.THIN());
++        nameStyle.setBorderRight(Border.THIN());
++        nameStyle.setBorderBottom(Border.THIN());
+-        exporter.setParameter(JRXlsExporterParameter.IS_IGNORE_GRAPHICS, Boolean.FALSE);
++        exporter.setParameter(JRXlsExporterParameter.IS_REMOVE_EMPTY_SPACE_BETWEEN_COLUMNS, Boolean.TRUE);
++        exporter.setParameter(JRXlsExporterParameter.IS_IGNORE_GRAPHICS, Boolean.TRUE);
+-        return new StringBuilder().append(SPE_PATH).append(this.getClass().getResource(SPE_PATH).getPath().replaceFirst(SPE_PATH, StringUtils.EMPTY).
+-                replace(CLASS_PATH, dirName + SPE_PATH)).append(fileName).toString();
++        return new StringBuilder().append(SPE_PATH)
++                .append(this.getClass()
++                        .getResource(SPE_PATH).getPath()
++                        .replaceFirst(SPE_PATH, StringUtils.EMPTY).
++                                replace(CLASS_PATH, dirName + SPE_PATH)).append(fileName).toString();
++                <ref bean="materialInReportHandler"/>
++    <bean class="com.qlkh.server.handler.report.MaterialInReportHandler" id="materialInReportHandler"/>
++<?xml version="1.0" encoding="UTF-8"?>
++<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="phieuxuatkho" pageWidth="842" pageHeight="595" orientation="Landscape" whenNoDataType="AllSectionsNoDetail" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="7ccc3238-19b5-4bd5-a54d-db814f98afad">
++ <property name="ireport.zoom" value="1.0"/>
++ <property name="ireport.x" value="0"/>
++ <property name="ireport.y" value="0"/>
++ <style name="default" isDefault="true" hAlign="Left" vAlign="Middle" fontName="Arial" fontSize="12" pdfFontName="Times-Roman" pdfEncoding="Identity-H" isPdfEmbedded="true"/>
++ <field name="name" class="java.lang.String"/>
++ <background>
++  <band splitType="Stretch"/>
++ </background>
++ <title>
++  <band height="114" splitType="Stretch">
++   <staticText>
++    <reportElement uuid="0a4ce9ac-0031-4b74-b7a5-c586eabf93b8" style="default" x="15" y="16" width="61" height="20"/>
++    <textElement>
++     <font size="12" isBold="false"/>
++    </textElement>
++    <text><![CDATA[Đơn vị:]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="bf9f9336-d5a5-4969-b222-bc0ee8edbeb3" style="default" x="265" y="10" width="212" height="26"/>
++    <textElement textAlignment="Center">
++     <font size="20" isBold="false"/>
++    </textElement>
++    <text><![CDATA[Phiếu xuất kho]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="5afc330f-da77-4849-8087-318728958391" style="default" x="246" y="36" width="248" height="20"/>
++    <textElement>
++     <font size="12" isBold="false"/>
++    </textElement>
++    <text><![CDATA[Ngày:]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="541b7d4b-4555-4b01-b717-ccac21c2dbb3" style="default" x="299" y="56" width="144" height="20"/>
++    <textElement>
++     <font size="12" isBold="false"/>
++    </textElement>
++    <text><![CDATA[Số:]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="d64d1eb5-35c1-4bb2-a06c-c09662561f36" style="default" x="527" y="16" width="275" height="84"/>
++    <textElement textAlignment="Center">
++     <font size="12" isBold="false"/>
++    </textElement>
++    <text><![CDATA[Mẫu số 02 - VT
++(BH theo QĐ số 15/2006/QĐ-BTC ngày 20/03/2006 và QĐ số 48/2006/QĐ-BTC ngày 14/9/2006 Của Bộ Trưởng BTC)
++Nợ:………………………...……..
++Có:…………………………….....]]></text>
++   </staticText>
++  </band>
++ </title>
++ <pageHeader>
++  <band height="71" splitType="Stretch">
++   <staticText>
++    <reportElement uuid="1e373601-ddda-4b62-be40-e8fa5785fe8a" style="default" x="0" y="40" width="771" height="20"/>
++    <textElement>
++     <font size="12" isBold="false"/>
++    </textElement>
++    <text><![CDATA[- Xuất tại kho: Công ty                          Địa điểm: 25B Lệ Ninh Quán Bàu - Tp Vinh]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="07068684-32c0-4887-a622-41d126a86a1a" style="default" x="0" y="20" width="231" height="20"/>
++    <textElement>
++     <font size="12" isBold="false"/>
++    </textElement>
++    <text><![CDATA[- Lí do xuất kho:]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="8123a929-07c7-454c-8a9a-846e0f761c3f" style="default" x="307" y="0" width="155" height="20"/>
++    <textElement>
++     <font size="12" isBold="false"/>
++    </textElement>
++    <text><![CDATA[- Địa chỉ( Bộ phận):]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="4dafaddd-1d15-439e-9d8d-1bea8d5d4f4b" style="default" x="0" y="0" width="231" height="20"/>
++    <textElement>
++     <font size="12" isBold="false"/>
++    </textElement>
++    <text><![CDATA[- Họ tên người nhận hàng:]]></text>
++   </staticText>
++  </band>
++ </pageHeader>
++ <columnHeader>
++  <band height="70" splitType="Stretch">
++   <staticText>
++    <reportElement uuid="0eeedebd-f0a0-4c5d-9e14-676b83d22c7c" style="default" mode="Transparent" x="0" y="0" width="59" height="70"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[STT]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="afc6e5ec-69ed-4171-aa99-3ebbf1720647" style="default" x="59" y="0" width="231" height="70"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[Tên, nhãn hiệu, quy cách, phẩm chất vật tư, dụng cụ, sản phẩm, hàng hoá]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="061e4a8b-10f0-49dc-805b-ded992e80051" style="default" x="290" y="0" width="76" height="70"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[Mã số]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="8a566764-c36a-4ea5-b2f1-3cb0eb0d3b2f" style="default" x="366" y="0" width="77" height="70"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[Đơn vị tính]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="861b1179-53c9-4184-a3ca-d3d39da7f8c4" style="default" x="443" y="0" width="175" height="31"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[Số lượng]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="5f4b770b-a0f8-4985-abd0-32b482e145e6" style="default" x="443" y="31" width="80" height="39"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[Yêu cầu]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="68d9ae0e-2fc3-4923-a121-4667b1bb3963" style="default" x="523" y="31" width="95" height="39"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[Thực xuất]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="73874d1d-40d3-451e-87ae-aea50302bb1c" style="default" x="618" y="0" width="76" height="70"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[Đơn vị tính]]></text>
++   </staticText>
++   <staticText>
++    <reportElement uuid="c2e71c67-ebb7-435d-8b2d-4642d2d2e221" style="default" x="694" y="0" width="108" height="70"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement textAlignment="Center" verticalAlignment="Middle">
++     <font size="11" isBold="true"/>
++    </textElement>
++    <text><![CDATA[Thành tiền]]></text>
++   </staticText>
++  </band>
++ </columnHeader>
++ <detail>
++  <band height="23" splitType="Stretch">
++   <textField>
++    <reportElement uuid="fc313ea0-60d2-43d5-b565-4297ac905f75" x="0" y="0" width="59" height="23"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement verticalAlignment="Middle">
++     <font isItalic="true"/>
++    </textElement>
++    <textFieldExpression><![CDATA[$V{PAGE_COUNT}]]></textFieldExpression>
++   </textField>
++   <textField>
++    <reportElement uuid="235395d0-f6f4-491d-8abe-cef0a757aa05" x="59" y="0" width="231" height="23"/>
++    <box>
++     <pen lineWidth="0.5"/>
++     <topPen lineWidth="0.5"/>
++     <leftPen lineWidth="0.5"/>
++     <bottomPen lineWidth="0.5"/>
++     <rightPen lineWidth="0.5"/>
++    </box>
++    <textElement verticalAlignment="Middle">
++     <font isItalic="true"/>
++    </textElement>
++    <textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
++   </textField>
++  </band>
++ </detail>
++ <columnFooter>
++  <band height="45" splitType="Stretch"/>
++ </columnFooter>
++ <pageFooter>
++  <band height="54" splitType="Stretch"/>
++ </pageFooter>
++ <summary>
++  <band height="42" splitType="Stretch"/>
++ </summary>
++</jasperReport>
++    @FieldSecurity
++    @FieldSecurity
+-        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
++        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
+-        return new HasRole[]{UserRoleEnum.MANAGER};
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
++
++    public HasRole[] planReportPanel() {
++        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
++    }
++
++    public HasRole[] priceReportPanel() {
++        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
+-        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
++        return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
+-@Place
++@Place(defaultPlace = true)
++                    view.getExportDate().setValue(currentMaterial.getExportDate());
++                            currentMaterial.setExportDate(view.getExportDate().getValue());
++import com.extjs.gxt.ui.client.widget.form.DateField;
++    @I18nField
++    DateField exportDate = new DateField();
++
+-        ColumnConfig dateColumnConfig = new ColumnConfig("createdDate", getConstant().dateColumnTitle(), 80);
+-        dateColumnConfig.setDateTimeFormat(DateTimeFormat.getFormat("d-MM-yyyy"));
++        ColumnConfig dateColumnConfig = new ColumnConfig("exportDate", getConstant().dateColumnTitle(), 80);
++        dateColumnConfig.setDateTimeFormat(DateTimeFormat.getFormat("dd-MM-yyyy"));
++            exportDate.setAllowBlank(false);
++            exportDate.setEditable(false);
++            exportDate.getPropertyEditor().setFormat(DateTimeFormat.getFormat("dd-MM-yyyy"));
++
++            editPanel.add(exportDate);
++    public DateField getExportDate() {
++        return exportDate;
++    }
++
++        exportDate.clear();
++    String exportDate();
+-materialError=Chua chon vat tu
+-txtTotal=Yeu cau
+-totalError=Thuc xuat vuot qua yeu cau
++materialError=Chưa chọn vật tư
++txtTotal=Yêu cầu
++totalError=Thực xuất vuợt quá yêu cầu
+-btnCopy=Copy du lieu
++btnCopy=Copy dữ liệu
++exportDate=Ngày xuất
+-        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++        return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
+-        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++        return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
+-        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++        return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
+-                UserRoleEnum.MATERIAL_MANAGER
++                UserRoleEnum.MATERIAL_MANAGER,
++                UserRoleEnum.WAREHOUSE_MANAGER
+-                UserRoleEnum.MATERIAL_MANAGER
++                UserRoleEnum.MATERIAL_MANAGER,
++                UserRoleEnum.WAREHOUSE_MANAGER
+-        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++        return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
+-        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++        return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
+-        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++        return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
++     * The manager of warehouse.
++     */
++    WAREHOUSE_MANAGER("WAREHOUSE_MANAGER"),
++
++    /**
++        <property name="exportDate" column="exportDate" not-null="true"/>
++import java.util.Date;
++
++    private Date exportDate;
++
++    public Date getExportDate() {
++        return exportDate;
++    }
++
++    public void setExportDate(Date exportDate) {
++        this.exportDate = exportDate;
++    }
+-applicationVersion=1.2.2 (cập nhật ngày ${buildNumber})
++applicationVersion=1.2.3 (cập nhật ngày ${buildNumber})
++ALTER TABLE  `material_in` ADD  `exportDate` DATE NOT NULL AFTER  `stationId`;
++
++INSERT INTO `user` (`id`, `userName`, `passWord`, `userRole`, `stationId`, `createdDate`, `updatedDate`, `createBy`, `updateBy`) VALUES
++(50, 'thongke', '88f86247e8dc34a32ce1707877b5ee4f', 'WAREHOUSE_MANAGER', 27, '2013-05-03', '2013-05-03', 1, 1);
+-import java.util.ArrayList;
+-import java.util.HashMap;
+-import java.util.List;
+-import java.util.Map;
++import java.util.*;
++            materialIn.setExportDate(new Date());
++package com.qlkh.client.client.module.content.place;
++
++import com.smvp4g.mvp.client.core.place.AbstractPlace;
++import com.smvp4g.mvp.client.core.place.Place;
++
++/**
++ * The Class MaterialInPlace.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 4:00 AM
++ */
++@Place
++public class MaterialInPlace extends AbstractPlace {
++}
++package com.qlkh.client.client.module.content.presenter;
++
++import com.qlkh.client.client.module.content.place.MaterialInPlace;
++import com.qlkh.client.client.module.content.view.MaterialInView;
++import com.smvp4g.mvp.client.core.presenter.AbstractPresenter;
++import com.smvp4g.mvp.client.core.presenter.annotation.Presenter;
++
++/**
++ * The Class MaterialInPresenter.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 4:08 AM
++ */
++@Presenter(place = MaterialInPlace.class, view = MaterialInView.class)
++public class MaterialInPresenter extends AbstractPresenter<MaterialInView> {
++    @Override
++    public void onActivate() {
++        view.show();
++    }
++}
++package com.qlkh.client.client.module.content.view;
++
++import com.extjs.gxt.ui.client.widget.Label;
++import com.qlkh.client.client.constant.DomIdConstant;
++import com.qlkh.client.client.module.content.view.i18n.MaterialInViewConstant;
++import com.qlkh.client.client.module.content.view.security.MaterialInSecurity;
++import com.smvp4g.mvp.client.core.security.ViewSecurity;
++import com.smvp4g.mvp.client.core.view.AbstractView;
++import com.smvp4g.mvp.client.core.view.annotation.View;
++
++/**
++ * The Class MaterialInView.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 4:05 AM
++ */
++@ViewSecurity(configuratorClass = MaterialInSecurity.class)
++@View(constantsClass = MaterialInViewConstant.class, parentDomId = DomIdConstant.CONTENT_PANEL)
++public class MaterialInView extends AbstractView<MaterialInViewConstant> {
++
++    @Override
++    protected void initializeView() {
++        setWidget(new Label("121323"));
++    }
++}
++package com.qlkh.client.client.module.content.view.i18n;
++
++import com.smvp4g.mvp.client.core.i18n.Constants;
++
++/**
++ * The Class MaterialInViewConstant.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 4:05 AM
++ */
++public interface MaterialInViewConstant extends Constants {
++}
++package com.qlkh.client.client.module.content.view.security;
++
++import com.qlkh.core.client.constant.UserRoleEnum;
++import com.smvp4g.mvp.client.core.security.HasRole;
++import com.smvp4g.mvp.client.core.security.ViewSecurityConfigurator;
++
++/**
++ * The Class MaterialInViewSercurity.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 4:05 AM
++ */
++public class MaterialInSecurity implements ViewSecurityConfigurator {
++    @Override
++    public HasRole[] getRoles() {
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
++}
+-    MenuLink mlMaterialGroupPlace = new MenuLink(MaterialGroupPlace.class);
++    MenuLink mlMaterialGroup = new MenuLink(MaterialGroupPlace.class);
++
++    @FieldSecurity
++    @HistoryHandler
++    @I18nField
++    MenuLink mlMaterialIn = new MenuLink(MaterialInPlace.class);
+-        mlMaterialGroupPlace.setStyleName("menulink");
+-        mainPanel.add(mlMaterialGroupPlace, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++        mlMaterialGroup.setStyleName("menulink");
++        mainPanel.add(mlMaterialGroup, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++
++        mlMaterialIn.setStyleName("menulink");
++        mainPanel.add(mlMaterialIn, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
+-    String mlMaterialGroupPlace();
++    String mlMaterialGroup();
++    String mlMaterialIn();
+-mlMaterialGroupPlace=Khai báo mã công việc
++mlMaterialGroup=Khai báo mã công việc
++mlMaterialIn=Nhập vật tư
++
++    public HasRole[] mlMaterialGroup() {
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
++
++    public HasRole[] mlMaterialIn() {
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
++package com.qlkh.client.client.module.content.place;
++
++import com.smvp4g.mvp.client.core.place.AbstractPlace;
++import com.smvp4g.mvp.client.core.place.Place;
++
++/**
++ * The Class MaterialPersonPlace.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 3:16 AM
++ */
++@Place
++public class MaterialPersonPlace extends AbstractPlace {
++}
++package com.qlkh.client.client.module.content.presenter;
++
++import com.qlkh.client.client.module.content.place.MaterialPersonPlace;
++import com.qlkh.client.client.module.content.view.MaterialPersonView;
++import com.smvp4g.mvp.client.core.presenter.AbstractPresenter;
++import com.smvp4g.mvp.client.core.presenter.annotation.Presenter;
++
++/**
++ * The Class MaterialPersonPresenter.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 3:20 AM
++ */
++@Presenter(view = MaterialPersonView.class, place = MaterialPersonPlace.class)
++public class MaterialPersonPresenter extends AbstractPresenter<MaterialPersonView> {
++
++    @Override
++    public void onActivate() {
++        view.show();
++    }
++}
++package com.qlkh.client.client.module.content.view;
++
++import com.extjs.gxt.ui.client.widget.Label;
++import com.qlkh.client.client.constant.DomIdConstant;
++import com.qlkh.client.client.module.content.view.i18n.MaterialPersonConstant;
++import com.qlkh.client.client.module.content.view.security.MaterialPersonSecurity;
++import com.smvp4g.mvp.client.core.security.ViewSecurity;
++import com.smvp4g.mvp.client.core.view.AbstractView;
++import com.smvp4g.mvp.client.core.view.annotation.View;
++
++/**
++ * The Class MaterialPersonView.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 3:21 AM
++ */
++@ViewSecurity(configuratorClass = MaterialPersonSecurity.class)
++@View(parentDomId = DomIdConstant.CONTENT_PANEL, constantsClass = MaterialPersonConstant.class)
++public class MaterialPersonView extends AbstractView<MaterialPersonConstant> {
++
++    @Override
++    protected void initializeView() {
++        setWidget(new Label("dung ne"));
++    }
++}
++package com.qlkh.client.client.module.content.view.i18n;
++
++import com.smvp4g.mvp.client.core.i18n.Constants;
++
++/**
++ * The Class MaterialPersonConstrant.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 3:21 AM
++ */
++public interface MaterialPersonConstant extends Constants {
++}
++package com.qlkh.client.client.module.content.view.security;
++
++import com.qlkh.core.client.constant.UserRoleEnum;
++import com.smvp4g.mvp.client.core.security.HasRole;
++import com.smvp4g.mvp.client.core.security.ViewSecurityConfigurator;
++
++/**
++ * The Class MaterialPersonSecurity.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/23/13 3:22 AM
++ */
++public class MaterialPersonSecurity implements ViewSecurityConfigurator {
++    @Override
++    public HasRole[] getRoles() {
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
++}
++    MenuLink mlMaterialPerson = new MenuLink(MaterialPersonPlace.class);
++
++    @FieldSecurity
++    @HistoryHandler
++    @I18nField
++        mlMaterialPerson.setStyleName("menulink");
++        mainPanel.add(mlMaterialPerson, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++
++    String mlMaterialPerson();
+-mlMaterialPrice=Quản lý giá vật tư
++mlMaterialPrice=Quản lý giá vật tư
++mlMaterialPerson=Khai báo tên đơn vị
++    public HasRole[] mlMaterialPerson() {
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
+-applicationVersion=1.2.1 (cập nhật ngày ${buildNumber})
++applicationVersion=1.2.2 (cập nhật ngày ${buildNumber})
++package com.qlkh.client.client.module.content.place;
++
++import com.smvp4g.mvp.client.core.place.AbstractPlace;
++import com.smvp4g.mvp.client.core.place.Place;
++
++/**
++ * The Class MaterialPricePlace.
++ *
++ * @author Nguyen Duc Dung
++ * @since 3/22/13 1:06 PM
++ */
++@Place
++public class MaterialPricePlace extends AbstractPlace {
++}
++package com.qlkh.client.client.module.content.presenter;
++
++import com.qlkh.client.client.module.content.place.MaterialPlace;
++import com.qlkh.client.client.module.content.place.MaterialPricePlace;
++import com.qlkh.client.client.module.content.view.MaterialPriceView;
++import com.qlkh.client.client.module.content.view.MaterialView;
++import com.smvp4g.mvp.client.core.presenter.AbstractPresenter;
++import com.smvp4g.mvp.client.core.presenter.annotation.Presenter;
++
++/**
++ * The Class MaterialPricePresenter.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/4/13 11:41 PM
++ */
++@Presenter(view = MaterialView.class, place = MaterialPricePlace.class)
++public class MaterialPricePresenter extends AbstractPresenter<MaterialPriceView> {
++
++
++
++}
++package com.qlkh.client.client.module.content.view;
++
++import com.qlkh.client.client.constant.DomIdConstant;
++import com.qlkh.client.client.module.content.view.i18n.MaterialPriceConstants;
++import com.qlkh.client.client.module.content.view.security.MaterialPriceSecurity;
++import com.smvp4g.mvp.client.core.security.ViewSecurity;
++import com.smvp4g.mvp.client.core.view.AbstractView;
++import com.smvp4g.mvp.client.core.view.annotation.View;
++
++/**
++ * The Class MaterialPriceView.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/4/13 11:42 PM
++ */
++
++@ViewSecurity(configuratorClass = MaterialPriceSecurity.class)
++@View(parentDomId = DomIdConstant.CONTENT_PANEL, constantsClass = MaterialPriceConstants.class)
++public class MaterialPriceView extends AbstractView<MaterialPriceConstants> {
++
++}
++package com.qlkh.client.client.module.content.view.i18n;
++
++import com.smvp4g.mvp.client.core.i18n.Constants;
++
++/**
++ * The Class MaterialPriceConstants.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/4/13 11:43 PM
++ */
++public interface MaterialPriceConstants extends Constants {
++}
++package com.qlkh.client.client.module.content.view.security;
++
++import com.qlkh.core.client.constant.UserRoleEnum;
++import com.smvp4g.mvp.client.core.security.HasRole;
++import com.smvp4g.mvp.client.core.security.ViewSecurityConfigurator;
++
++/**
++ * The Class MaterialPriceSecurity.
++ *
++ * @author Nguyen Duc Dung
++ * @since 4/4/13 11:44 PM
++ */
++public class MaterialPriceSecurity implements ViewSecurityConfigurator {
++    @Override
++    public HasRole[] getRoles() {
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
++}
++    MenuLink mlMaterialPrice = new MenuLink(MaterialPricePlace.class);
++
++    @FieldSecurity
++    @HistoryHandler
++    @I18nField
++        mlMaterialPrice.setStyleName("menulink");
++        mainPanel.add(mlMaterialPrice, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++
++    String mlMaterialPrice();
++mlMaterialPrice=Quản lý giá
++    public HasRole[] mlMaterialPrice() {
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
++
+-@Place
++@Place(defaultPlace = true)
++import com.extjs.gxt.ui.client.event.ButtonEvent;
++import com.extjs.gxt.ui.client.event.SelectionListener;
++import com.extjs.gxt.ui.client.widget.Window;
++
++    private Window materialWindow;
++
++    @Override
++    public void onActivate() {
++        view.show();
++        view.getPagingToolBar().refresh();
++    }
++
++        view.getBtnAdd().addSelectionListener(new SelectionListener<ButtonEvent>() {
++            @Override
++            public void componentSelected(ButtonEvent buttonEvent) {
++                materialWindow = view.createMaterialEditWindow();
++                materialWindow.show();
++                materialWindow.layout(true);
++            }
++        });
+-import com.extjs.gxt.ui.client.event.ComponentEvent;
+-import com.extjs.gxt.ui.client.event.Events;
+-import com.extjs.gxt.ui.client.event.KeyListener;
++import com.extjs.gxt.ui.client.event.*;
+-import com.extjs.gxt.ui.client.widget.Label;
+-import com.qlkh.core.client.constant.TaskTypeEnum;
+-import com.qlkh.core.client.model.Task;
++import com.qlkh.client.client.widget.MyFormPanel;
+-import com.smvp4g.mvp.client.core.utils.StringUtils;
++    @I18nField
++    TextField<String> txtCode = new TextField<String>();
++
++    @I18nField
++    Button btnTaskEditOk = new Button();
++
++    @I18nField
++    Button btnTaskEditCancel = new Button();
++
++    private MyFormPanel materialEditPanel = new MyFormPanel();
++
++    public com.extjs.gxt.ui.client.widget.Window createMaterialEditWindow() {
++        com.extjs.gxt.ui.client.widget.Window window = new com.extjs.gxt.ui.client.widget.Window();
++        if (!materialEditPanel.isRendered()) {
++            materialEditPanel.setHeaderVisible(false);
++            materialEditPanel.setBodyBorder(false);
++            materialEditPanel.setBorders(false);
++            materialEditPanel.setLabelWidth(150);
++        }
++
++        if (!txtCode.isRendered()) {
++            txtCode.setAllowBlank(false);
++            txtCode.setSelectOnFocus(true);
++            txtCode.setMaxLength(11);
++        }
++        materialEditPanel.add(txtCode);
++        window.setFocusWidget(txtCode);
++
++        window.add(materialEditPanel);
++        window.addButton(btnTaskEditOk);
++        window.addButton(btnTaskEditCancel);
++        window.setSize(400, 250);
++        window.setAutoHeight(true);
++        window.setResizable(false);
++        window.setModal(true);
++        window.setHeading(getConstant().materialEditPanel());
++        window.addWindowListener(new WindowListener() {
++            @Override
++            public void windowHide(WindowEvent we) {
++                materialEditPanel.clear();
++                taskGird.focus();
++            }
++        });
++        return window;
++    }
++
++    String materialEditPanel();
++    String btnTaskEditOk();
++    String btnTaskEditCancel();
++    String txtCode();
+-txtNameSearch=Tìm theo tên CV
+-txtCodeSearch=Tìm theo mã CV
++txtNameSearch=Tìm theo tên VT
++txtCodeSearch=Tìm theo mã VT
++materialEditPanel=Chỉnh sửa VT
++btnTaskEditOk=Ok
++btnTaskEditCancel=Cancel
++txtCode=Mã VT
+-        return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
++        return new HasRole[]{
++                UserRoleEnum.USER,
++                UserRoleEnum.ADMIN,
++                UserRoleEnum.MANAGER,
++                UserRoleEnum.DEVELOPER,
++                UserRoleEnum.MATERIAL_MANAGER
++        };
+-        return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
++        return new HasRole[]{
++                UserRoleEnum.USER,
++                UserRoleEnum.ADMIN,
++                UserRoleEnum.MANAGER,
++                UserRoleEnum.DEVELOPER,
++                UserRoleEnum.MATERIAL_MANAGER
++        };
+-public class LimitJobPlace extends AbstractPlace {
++public class MaterialLimitPlace extends AbstractPlace {
++package com.qlkh.client.client.module.content.place;
++
++import com.smvp4g.mvp.client.core.place.AbstractPlace;
++import com.smvp4g.mvp.client.core.place.Place;
++
++/**
++ * The Class MaterailPlace.
++ *
++ * @author Nguyen Duc Dung
++ * @since 3/22/13 1:06 PM
++ */
++@Place
++public class MaterialPlace extends AbstractPlace {
++}
+-import com.qlkh.client.client.module.content.place.LimitJobPlace;
++import com.qlkh.client.client.module.content.place.MaterialLimitPlace;
+-import com.qlkh.client.client.module.content.view.MaterialView;
++import com.qlkh.client.client.module.content.view.MaterialLimitView;
+-@Presenter(view = MaterialView.class, place = LimitJobPlace.class)
+-public class MaterialPresenter extends AbstractTaskDetailPresenter<MaterialView> {
++@Presenter(view = MaterialLimitView.class, place = MaterialLimitPlace.class)
++public class MaterialLimitPresenter extends AbstractTaskDetailPresenter<MaterialLimitView> {
+-import com.qlkh.client.client.module.content.view.i18n.MaterialConstant;
+-import com.qlkh.client.client.module.content.view.security.MaterialSecurity;
++import com.qlkh.client.client.module.content.view.i18n.MaterialLimitConstant;
++import com.qlkh.client.client.module.content.view.security.MaterialLimitSecurity;
+-@ViewSecurity(configuratorClass = MaterialSecurity.class)
+-@View(parentDomId = DomIdConstant.CONTENT_PANEL, constantsClass = MaterialConstant.class)
+-public class MaterialView extends AbstractTaskDetailView<MaterialConstant> {
++@ViewSecurity(configuratorClass = MaterialLimitSecurity.class)
++@View(parentDomId = DomIdConstant.CONTENT_PANEL, constantsClass = MaterialLimitConstant.class)
++public class MaterialLimitView extends AbstractTaskDetailView<MaterialLimitConstant> {
+-public interface MaterialConstant extends TaskDetailDKConstant {
++public interface MaterialLimitConstant extends TaskDetailDKConstant {
+-public class MaterialSecurity implements ViewSecurityConfigurator {
++public class MaterialLimitSecurity implements ViewSecurityConfigurator {
+-    MenuLink mlLimitJob = new MenuLink(LimitJobPlace.class);
++    MenuLink mlLimitJob = new MenuLink(MaterialLimitPlace.class);
++
++    @FieldSecurity
++    @HistoryHandler
++    @I18nField
++    MenuLink mlMaterial = new MenuLink(MaterialPlace.class);
++        mlMaterial.setStyleName("menulink");
++        mainPanel.add(mlMaterial, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++
++    String mlMaterial();
++mlMaterial=Quản lý giá vật tư
++    public HasRole[] mlMaterial() {
++        return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++    }
++
++package com.qlkh.client.client.module.content.place;
++
++import com.smvp4g.mvp.client.core.place.AbstractPlace;
++import com.smvp4g.mvp.client.core.place.Place;
++
++/**
++ * The Class LimitJobPlace.
++ *
++ * @author Nguyen Duc Dung
++ * @since 3/20/13 9:57 AM
++ */
++@Place
++public class LimitJobPlace extends AbstractPlace {
++}
++package com.qlkh.client.client.module.content.presenter;
++
++import com.qlkh.client.client.module.content.place.LimitJobPlace;
++import com.qlkh.client.client.module.content.view.LimitJobView;
++import com.smvp4g.mvp.client.core.presenter.AbstractPresenter;
++import com.smvp4g.mvp.client.core.presenter.annotation.Presenter;
++
++/**
++ * The Class LimitJobPresenter.
++ *
++ * @author Nguyen Duc Dung
++ * @since 3/20/13 10:10 AM
++ */
++@Presenter(view = LimitJobView.class, place = LimitJobPlace.class)
++public class LimitJobPresenter extends AbstractPresenter<LimitJobView> {
++    @Override
++    public void onActivate() {
++        view.show();
++    }
++}
++package com.qlkh.client.client.module.content.view;
++
++import com.extjs.gxt.ui.client.widget.ContentPanel;
++import com.extjs.gxt.ui.client.widget.Label;
++import com.qlkh.client.client.constant.DomIdConstant;
++import com.qlkh.client.client.module.content.view.i18n.BranchManagerConstant;
++import com.qlkh.client.client.module.content.view.i18n.LimitJobConstant;
++import com.qlkh.client.client.module.content.view.security.BranchManagerSecurity;
++import com.qlkh.client.client.module.content.view.security.LimitJobSecurity;
++import com.smvp4g.mvp.client.core.security.ViewSecurity;
++import com.smvp4g.mvp.client.core.view.AbstractView;
++import com.smvp4g.mvp.client.core.view.annotation.View;
++
++/**
++ * The Class LimitJobView.
++ *
++ * @author Nguyen Duc Dung
++ * @since 3/20/13 10:10 AM
++ */
++@ViewSecurity(configuratorClass = LimitJobSecurity.class)
++@View(parentDomId = DomIdConstant.CONTENT_PANEL, constantsClass = LimitJobConstant.class)
++public class LimitJobView extends AbstractView<LimitJobConstant> {
++
++    private ContentPanel contentPanel = new ContentPanel();
++
++    @Override
++    protected void initializeView() {
++        contentPanel.add(new Label("dung ne"));
++        setWidget(contentPanel);
++    }
++}
++package com.qlkh.client.client.module.content.view.i18n;
++
++import com.smvp4g.mvp.client.core.i18n.Constants;
++
++/**
++ * The Class LimitJobConstant.
++ *
++ * @author Nguyen Duc Dung
++ * @since 3/20/13 10:10 AM
++ */
++public interface LimitJobConstant extends Constants {
++}
++package com.qlkh.client.client.module.content.view.security;
++
++import com.qlkh.core.client.constant.UserRoleEnum;
++import com.smvp4g.mvp.client.core.security.HasRole;
++import com.smvp4g.mvp.client.core.security.ViewSecurityConfigurator;
++
++/**
++ * The Class LimitJobSecurity.
++ *
++ * @author Nguyen Duc Dung
++ * @since 3/20/13 10:12 AM
++ */
++public class LimitJobSecurity implements ViewSecurityConfigurator {
++    @Override
++    public HasRole[] getRoles() {
++        return new HasRole[]{UserRoleEnum.MANAGER};
++    }
++}
++    MenuLink mlLimitJob = new MenuLink(LimitJobPlace.class);
++
++    @FieldSecurity
++    @HistoryHandler
++    @I18nField
++        //Lock
++        mlLimitJob.setStyleName("menulink");
++        mainPanel.add(mlLimitJob, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++
++    String mlLimitJob();
++mlLimitJob=Định mức vật tư
++    public HasRole[] mlLimitJob() {
++        return new HasRole[]{UserRoleEnum.MANAGER};
++    }
++
+-applicationVersion=1.1.7 (cập nhật ngày ${buildNumber})
++applicationVersion=1.1.8 (cập nhật ngày ${buildNumber})
+-        return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
++        return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
+-        return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
++        return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
++import com.extjs.gxt.ui.client.event.ButtonEvent;
++import com.extjs.gxt.ui.client.event.SelectionListener;
++import com.qlkh.client.client.core.dispatch.StandardDispatchAsync;
++import com.qlkh.client.client.core.rpc.AbstractAsyncCallback;
++import com.qlkh.client.client.utils.DiaLogUtils;
++import com.qlkh.core.client.action.system.UpgradeDatabaseAction;
++import com.qlkh.core.client.action.system.UpgradeDatabaseResult;
++import net.customware.gwt.dispatch.client.DispatchAsync;
++
++    private DispatchAsync dispatch = StandardDispatchAsync.INSTANCE;
++
++
++    @Override
++    protected void doBind() {
++        view.getUpgradeV11().addSelectionListener(new SelectionListener<ButtonEvent>() {
++            @Override
++            public void componentSelected(ButtonEvent ce) {
++                dispatch.execute(new UpgradeDatabaseAction(), new AbstractAsyncCallback<UpgradeDatabaseResult>() {
++                    @Override
++                    public void onSuccess(UpgradeDatabaseResult result) {
++                        DiaLogUtils.notify("Upgrade Successful");
++                    }
++                });
++            }
++        });
++    }
++import com.extjs.gxt.ui.client.Style;
+-import com.extjs.gxt.ui.client.widget.layout.CenterLayout;
++import com.extjs.gxt.ui.client.widget.button.Button;
++import com.extjs.gxt.ui.client.widget.form.FormPanel;
++import com.extjs.gxt.ui.client.widget.layout.RowLayout;
++import com.smvp4g.mvp.client.core.i18n.I18nField;
+-    private ContentPanel contentPanel = new ContentPanel(new CenterLayout());
++    @I18nField
++    FormPanel upgradePanel = new FormPanel();
++
++    @I18nField
++    Button upgradeV11 = new Button();
++
++    private ContentPanel contentPanel = new ContentPanel();
+-        contentPanel.setHeight(Window.getClientHeight() - 90);
++        upgradePanel.setFrame(true);
++        upgradePanel.setAutoWidth(true);
++        upgradePanel.setAutoHeight(true);
++
++        upgradePanel.add(upgradeV11);
++
++        contentPanel.add(upgradePanel);
++        contentPanel.setFrame(true);
++        contentPanel.setHeight(Window.getClientHeight() - 90);
++        contentPanel.setLayout(new RowLayout(Style.Orientation.HORIZONTAL));
++    public Button getUpgradeV11() {
++        return upgradeV11;
++    }
++    String upgradePanel();
++    String upgradeV11();
++upgradePanel=Upgrade database
++upgradeV11=Upgrade v.1.1.1
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.core.client.action.system;
++
++import net.customware.gwt.dispatch.shared.Action;
++
++/**
++ * The Class UpgradeDatabaseAction.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:23 PM
++ */
++public class UpgradeDatabaseAction implements Action<UpgradeDatabaseResult> {
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.core.client.action.system;
++
++import net.customware.gwt.dispatch.shared.Result;
++
++/**
++ * The Class UpgradeDatabaseResult.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:25 PM
++ */
++public class UpgradeDatabaseResult implements Result {
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.server.handler.system;
++
++import com.qlkh.core.client.action.system.UpgradeDatabaseAction;
++import com.qlkh.core.client.action.system.UpgradeDatabaseResult;
++import com.qlkh.core.client.constant.TaskTypeEnum;
++import com.qlkh.core.client.model.Task;
++import com.qlkh.core.client.model.TaskQuota;
++import com.qlkh.server.dao.core.GeneralDao;
++import com.qlkh.server.handler.core.AbstractHandler;
++import com.qlkh.server.util.DateTimeUtils;
++import net.customware.gwt.dispatch.server.ExecutionContext;
++import net.customware.gwt.dispatch.shared.DispatchException;
++import org.apache.commons.collections.CollectionUtils;
++import org.hibernate.criterion.Restrictions;
++import org.springframework.beans.factory.annotation.Autowired;
++
++import java.util.List;
++
++/**
++ * The Class UpgradeDatabaseHandler.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:25 PM
++ */
++public class UpgradeDatabaseHandler extends AbstractHandler<UpgradeDatabaseAction, UpgradeDatabaseResult> {
++
++    @Autowired
++    private GeneralDao generalDao;
++
++    @Override
++    public Class<UpgradeDatabaseAction> getActionType() {
++        return UpgradeDatabaseAction.class;
++    }
++
++    @Override
++    public UpgradeDatabaseResult execute(UpgradeDatabaseAction action, ExecutionContext context) throws DispatchException {
++        List<Task> tasks = generalDao.findCriteria(Task.class, Restrictions.eq("taskTypeCode", TaskTypeEnum.DK.getCode()));
++        for (Task task : tasks) {
++            List<TaskQuota> taskQuotas = generalDao.
++                    findCriteria(TaskQuota.class, Restrictions.eq("task.id", task.getId()),
++                            Restrictions.eq("year", DateTimeUtils.getCurrentYear()));
++            if (CollectionUtils.isEmpty(taskQuotas)) {
++                TaskQuota taskQuota = new TaskQuota();
++                taskQuota.setTask(task);
++                taskQuota.setQ1(task.getQuota());
++                taskQuota.setQ2(task.getQuota());
++                taskQuota.setQ3(task.getQuota());
++                taskQuota.setQ4(task.getQuota());
++                taskQuota.setYear(DateTimeUtils.getCurrentYear());
++                taskQuota.setCreateBy(1l);
++                taskQuota.setUpdateBy(1l);
++                generalDao.saveOrUpdate(taskQuota);
++            }
++        }
++        return new UpgradeDatabaseResult();
++    }
++}
++                <bean class="com.qlkh.server.handler.system.UpgradeDatabaseHandler"/>
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.server.handler.system;
++
++import com.qlkh.core.client.action.system.UpgradeDatabaseAction;
++import net.customware.gwt.dispatch.server.Dispatch;
++import net.customware.gwt.dispatch.shared.DispatchException;
++import org.junit.Test;
++import org.junit.runner.RunWith;
++import org.springframework.beans.factory.annotation.Autowired;
++import org.springframework.test.context.ContextConfiguration;
++import org.springframework.test.context.junit4.AbstractTransactionalJUnit4SpringContextTests;
++import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
++import org.springframework.test.context.transaction.TransactionConfiguration;
++import org.springframework.transaction.annotation.Transactional;
++
++/**
++ * The Class TestUpgradeDatabaseHandler.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:34 PM
++ */
++@RunWith(SpringJUnit4ClassRunner.class)
++@ContextConfiguration(locations = "/applicationContext.xml")
++@TransactionConfiguration
++@Transactional
++public class TestUpgradeDatabaseHandler extends AbstractTransactionalJUnit4SpringContextTests {
++
++    @Autowired
++    private Dispatch dispatch;
++
++    @Test
++    public void testUpgrade() throws DispatchException {
++        dispatch.execute(new UpgradeDatabaseAction());
++    }
++
++}
++import com.qlkh.client.client.module.system.place.ApplicationUpgradePlace;
++    @HistoryHandler
++    @I18nField
++    MenuLink mlUpgrade = new MenuLink(ApplicationUpgradePlace.class);
++
++    @FieldSecurity
++        //For developer
++        mlUpgrade.setStyleName("menulink");
++        mainPanel.add(mlUpgrade, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++
++    String mlUpgrade();
++mlUpgrade=Upgrade database
++
++    public HasRole[] mlUpgrade() {
++        return new HasRole[]{UserRoleEnum.DEVELOPER};
++    }
++
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.system;
++
++import com.smvp4g.mvp.client.core.module.AbstractModule;
++import com.smvp4g.mvp.client.core.module.annotation.Module;
++
++/**
++ * The Class SystemModule.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:03 PM
++ */
++@Module
++public class SystemModule extends AbstractModule {
++    @Override
++    public void configure() {
++    }
++
++    @Override
++    public void start() {
++    }
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.system.place;
++
++import com.smvp4g.mvp.client.core.place.AbstractPlace;
++import com.smvp4g.mvp.client.core.place.Place;
++
++/**
++ * The Class ApplicationUpgradePlace.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:07 PM
++ */
++@Place(defaultPlace = true)
++public class ApplicationUpgradePlace extends AbstractPlace {
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.system.presenter;
++
++import com.qlkh.client.client.module.system.place.ApplicationUpgradePlace;
++import com.qlkh.client.client.module.system.view.ApplicationUpgradeView;
++import com.smvp4g.mvp.client.core.presenter.AbstractPresenter;
++import com.smvp4g.mvp.client.core.presenter.annotation.Presenter;
++
++/**
++ * The Class ApplicationUpgradePresenter.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:08 PM
++ */
++@Presenter(view = ApplicationUpgradeView.class, place = ApplicationUpgradePlace.class)
++public class ApplicationUpgradePresenter extends AbstractPresenter<ApplicationUpgradeView> {
++    @Override
++    public void onActivate() {
++        view.show();
++    }
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.system.view;
++
++import com.extjs.gxt.ui.client.widget.ContentPanel;
++import com.extjs.gxt.ui.client.widget.layout.CenterLayout;
++import com.google.gwt.user.client.Window;
++import com.qlkh.client.client.constant.DomIdConstant;
++import com.qlkh.client.client.module.system.view.i18n.ApplicationUpgradeConstant;
++import com.qlkh.client.client.module.system.view.security.ApplicationUpgradeSecurity;
++import com.smvp4g.mvp.client.core.security.ViewSecurity;
++import com.smvp4g.mvp.client.core.view.AbstractView;
++import com.smvp4g.mvp.client.core.view.annotation.View;
++
++/**
++ * The Class ApplicationUpgradeView.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:04 PM
++ */
++@ViewSecurity(configuratorClass = ApplicationUpgradeSecurity.class)
++@View(constantsClass = ApplicationUpgradeConstant.class, parentDomId = DomIdConstant.CONTENT_PANEL)
++public class ApplicationUpgradeView extends AbstractView<ApplicationUpgradeConstant> {
++
++    private ContentPanel contentPanel = new ContentPanel(new CenterLayout());
++
++    @Override
++    protected void initializeView() {
++        contentPanel.setHeight(Window.getClientHeight() - 90);
++        contentPanel.setHeaderVisible(false);
++        setWidget(contentPanel);
++    }
++
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.system.view.i18n;
++
++import com.smvp4g.mvp.client.core.i18n.Constants;
++
++/**
++ * The Class ApplicationUpgradeConstant.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:04 PM
++ */
++public interface ApplicationUpgradeConstant extends Constants {
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.system.view.security;
++
++import com.qlkh.core.client.constant.UserRoleEnum;
++import com.smvp4g.mvp.client.core.security.HasRole;
++import com.smvp4g.mvp.client.core.security.ViewSecurityConfigurator;
++
++/**
++ * The Class ApplicationUpgradeSecurity.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/16/12, 7:06 PM
++ */
++public class ApplicationUpgradeSecurity implements ViewSecurityConfigurator {
++    @Override
++    public HasRole[] getRoles() {
++        return new HasRole[]{UserRoleEnum.DEVELOPER};
++    }
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.content.place;
++
++import com.smvp4g.mvp.client.core.place.AbstractPlace;
++import com.smvp4g.mvp.client.core.place.Place;
++
++/**
++ * The Class TaskDetailNamPlace.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/11/12, 9:02 PM
++ */
++@Place
++public class TaskDetailNamPlace extends AbstractPlace {
++}
+-        view.createSubTaskGrid(createSubTaskListStore(), q1Lock, q2Lock, q3Lock, q4Lock);
++        view.setQ1Lock(q1Lock);
++        view.setQ2Lock(q2Lock);
++        view.setQ3Lock(q3Lock);
++        view.setQ4Lock(q4Lock);
++        view.createSubTaskGrid(createSubTaskListStore());
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.content.presenter;
++
++import com.qlkh.client.client.module.content.place.TaskDetailNamPlace;
++import com.qlkh.client.client.module.content.presenter.share.AbstractTaskDetailPresenter;
++import com.qlkh.client.client.module.content.view.TaskDetailNamView;
++import com.smvp4g.mvp.client.core.presenter.annotation.Presenter;
++
++/**
++ * The Class TaskDetailNamPresenter.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/11/12, 9:06 PM
++ */
++@Presenter(view = TaskDetailNamView.class, place = TaskDetailNamPlace.class)
++public class TaskDetailNamPresenter extends AbstractTaskDetailPresenter<TaskDetailNamView> {
++}
+-import com.extjs.gxt.ui.client.event.*;
+-import com.extjs.gxt.ui.client.util.IconHelper;
+-import com.extjs.gxt.ui.client.util.Margins;
+-import com.extjs.gxt.ui.client.widget.ContentPanel;
+-import com.extjs.gxt.ui.client.widget.button.Button;
+-import com.extjs.gxt.ui.client.widget.layout.FitLayout;
+-import com.extjs.gxt.ui.client.widget.layout.RowData;
+-import com.extjs.gxt.ui.client.widget.layout.RowLayout;
+-import com.extjs.gxt.ui.client.widget.toolbar.PagingToolBar;
+-import com.extjs.gxt.ui.client.widget.toolbar.SeparatorToolItem;
+-import com.extjs.gxt.ui.client.widget.toolbar.ToolBar;
+-import com.google.gwt.user.client.Window;
+-import com.smvp4g.mvp.client.core.i18n.I18nField;
+-import com.smvp4g.mvp.client.core.view.AbstractView;
+-import com.smvp4g.mvp.client.widget.TextField;
+-    @I18nField
+-    Button btnSubTaskSave = new Button(null, IconHelper.createPath("assets/images/icons/fam/disk.png"));
+-
+-    @I18nField
+-    Button btnSubTaskRefresh = new Button(null, IconHelper.createPath("assets/images/icons/fam/arrow_refresh.png"));
+-
+-    private ContentPanel subTaskPanel = new ContentPanel();
+-    private PagingToolBar subTaskPagingToolBar;
+-    private EditorGrid<BeanModel> subTaskDetailGird;
+-
+-
+-    public void createSubTaskGrid(ListStore<BeanModel> listStore) {
+-        CheckBoxSelectionModel<BeanModel> selectionModel = new CheckBoxSelectionModel<BeanModel>();
+-        subTaskDetailGird = new EditorGrid<BeanModel>(listStore,
+-                new ColumnModel(createSubTaskColumnConfigs()));
+-        subTaskDetailGird.setBorders(true);
+-        subTaskDetailGird.setLoadMask(true);
+-        subTaskDetailGird.setStripeRows(true);
+-        subTaskDetailGird.setSelectionModel(selectionModel);
+-        subTaskDetailGird.addPlugin(selectionModel);
+-        subTaskDetailGird.getStore().getLoader().setSortDir(Style.SortDir.ASC);
+-        subTaskDetailGird.getStore().getLoader().setSortField(ID_COLUMN);
+-        subTaskDetailGird.setWidth(500);
+-        subTaskDetailGird.addListener(Events.OnKeyDown, new KeyListener() {
+-            @Override
+-            public void handleEvent(ComponentEvent e) {
+-                if (e.getKeyCode() == 113) {
+-                    btnSubTaskSave.fireEvent(Events.Select);
+-                } else if (e.getKeyCode() == 115) {
+-                    btnSubTaskRefresh.fireEvent(Events.Select);
+-                }
+-            }
+-        });
+-
+-        subTaskPagingToolBar = new PagingToolBar(TASK_LIST_SIZE);
+-        ToolBar toolBar = new ToolBar();
+-        toolBar.add(btnSubTaskSave);
+-        toolBar.add(new SeparatorToolItem());
+-        toolBar.add(btnSubTaskRefresh);
+-        subTaskPanel.setBodyBorder(false);
+-        subTaskPanel.setHeaderVisible(false);
+-        subTaskPanel.setHeight(Window.getClientHeight() - 90);
+-        subTaskPanel.setLayout(new FitLayout());
+-        subTaskPanel.setWidth("50%");
+-        subTaskPanel.add(subTaskDetailGird);
+-        subTaskPanel.setTopComponent(toolBar);
+-        subTaskPanel.setBottomComponent(subTaskPagingToolBar);
+-        contentPanel.add(subTaskPanel, new RowData(-1, 1));
+-        contentPanel.layout();
+-    }
+-
+-    private List<ColumnConfig> createSubTaskColumnConfigs() {
++    protected List<ColumnConfig> createSubTaskColumnConfigs() {
+-
+-    public EditorGrid<BeanModel> getSubTaskDetailGird() {
+-        return subTaskDetailGird;
+-    }
+-
+-    public PagingToolBar getSubTaskPagingToolBar() {
+-        return subTaskPagingToolBar;
+-    }
+-
+-    public Button getBtnSubTaskSave() {
+-        return btnSubTaskSave;
+-    }
+-
+-    public Button getBtnSubTaskRefresh() {
+-        return btnSubTaskRefresh;
+-    }
+-import com.extjs.gxt.ui.client.Style;
+-import com.extjs.gxt.ui.client.event.*;
+-import com.extjs.gxt.ui.client.util.IconHelper;
+-import com.extjs.gxt.ui.client.util.Margins;
+-import com.extjs.gxt.ui.client.widget.ContentPanel;
+-import com.extjs.gxt.ui.client.widget.button.Button;
+-import com.extjs.gxt.ui.client.widget.layout.FillLayout;
+-import com.extjs.gxt.ui.client.widget.layout.RowData;
+-import com.extjs.gxt.ui.client.widget.layout.RowLayout;
+-import com.extjs.gxt.ui.client.widget.toolbar.PagingToolBar;
+-import com.extjs.gxt.ui.client.widget.toolbar.SeparatorToolItem;
+-import com.extjs.gxt.ui.client.widget.toolbar.ToolBar;
+-import com.google.gwt.user.client.Window;
+-import com.qlkh.client.client.widget.MyCheckBoxSelectionModel;
+-import com.smvp4g.mvp.client.core.i18n.I18nField;
+-import com.smvp4g.mvp.client.core.view.AbstractView;
+-import com.smvp4g.mvp.client.widget.TextField;
+-    public static final int TASK_LIST_SIZE = 100;
++    private boolean q1Lock;
++    private boolean q2Lock;
++    private boolean q3Lock;
++    private boolean q4Lock;
+-    @I18nField
+-    Button btnSubTaskSave = new Button(null, IconHelper.createPath("assets/images/icons/fam/disk.png"));
+-
+-    @I18nField
+-    Button btnSubTaskRefresh = new Button(null, IconHelper.createPath("assets/images/icons/fam/arrow_refresh.png"));
+-
+-    private ContentPanel subTaskPanel = new ContentPanel(new FillLayout());
+-    private PagingToolBar subTaskPagingToolBar;
+-    private EditorGrid<BeanModel> subTaskDetailGird;
+-    private ColumnModel subTaskColumnModel;
+-    public void createSubTaskGrid(ListStore<BeanModel> listStore,
+-                                  boolean q1, boolean q2, boolean q3, boolean q4) {
+-        CheckBoxSelectionModel<BeanModel> selectionModel = new CheckBoxSelectionModel<BeanModel>();
+-        subTaskColumnModel = new ColumnModel(createSubTaskColumnConfigs(q1, q2, q3, q4));
+-        subTaskDetailGird = new EditorGrid<BeanModel>(listStore, subTaskColumnModel);
+-        subTaskDetailGird.setBorders(true);
+-        subTaskDetailGird.setLoadMask(true);
+-        subTaskDetailGird.setStripeRows(true);
+-        subTaskDetailGird.setSelectionModel(selectionModel);
+-        subTaskDetailGird.addPlugin(selectionModel);
+-        subTaskDetailGird.getStore().getLoader().setSortDir(Style.SortDir.ASC);
+-        subTaskDetailGird.getStore().getLoader().setSortField(ID_COLUMN);
+-        subTaskDetailGird.setWidth(500);
+-        subTaskDetailGird.addListener(Events.OnKeyDown, new KeyListener() {
+-            @Override
+-            public void handleEvent(ComponentEvent e) {
+-                if (e.getKeyCode() == 113) {
+-                    btnSubTaskSave.fireEvent(Events.Select);
+-                } else if (e.getKeyCode() == 115) {
+-                    btnSubTaskRefresh.fireEvent(Events.Select);
+-                }
+-            }
+-        });
+-
+-        subTaskPagingToolBar = new PagingToolBar(TASK_LIST_SIZE);
+-        ToolBar toolBar = new ToolBar();
+-        toolBar.add(btnSubTaskSave);
+-        toolBar.add(new SeparatorToolItem());
+-        toolBar.add(btnSubTaskRefresh);
+-        subTaskPanel.setBodyBorder(false);
+-        subTaskPanel.setHeaderVisible(false);
+-        subTaskPanel.setHeight(Window.getClientHeight() - 90);
+-        subTaskPanel.setWidth("50%");
+-        subTaskPanel.add(subTaskDetailGird);
+-        subTaskPanel.setTopComponent(toolBar);
+-        subTaskPanel.setBottomComponent(subTaskPagingToolBar);
+-        contentPanel.add(subTaskPanel, new RowData(-1, 1));
+-        contentPanel.layout();
+-    }
+-
+-    private List<ColumnConfig> createSubTaskColumnConfigs(boolean q1, boolean q2, boolean q3, boolean q4) {
++    protected List<ColumnConfig> createSubTaskColumnConfigs() {
+-        if (!q1) {
++        if (!q1Lock) {
+-        if (!q2) {
++        if (!q2Lock) {
+-        if (!q3) {
++        if (!q3Lock) {
+-        if (!q4) {
++        if (!q4Lock) {
+-    @Override
+-    public PagingToolBar getSubTaskPagingToolBar() {
+-        return subTaskPagingToolBar;
++    public void setQ1Lock(boolean q1Lock) {
++        this.q1Lock = q1Lock;
+-    @Override
+-    public EditorGrid<BeanModel> getSubTaskDetailGird() {
+-        return subTaskDetailGird;
++    public void setQ2Lock(boolean q2Lock) {
++        this.q2Lock = q2Lock;
+-    public Button getBtnSubTaskRefresh() {
+-        return btnSubTaskRefresh;
++    public void setQ3Lock(boolean q3Lock) {
++        this.q3Lock = q3Lock;
+-    public Button getBtnSubTaskSave() {
+-        return btnSubTaskSave;
++    public void setQ4Lock(boolean q4Lock) {
++        this.q4Lock = q4Lock;
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.content.view;
++
++import com.qlkh.client.client.constant.DomIdConstant;
++import com.qlkh.client.client.module.content.view.i18n.TaskDetailNamConstant;
++import com.qlkh.client.client.module.content.view.security.TaskDetailNamSecurity;
++import com.qlkh.client.client.module.content.view.share.AbstractTaskDetailView;
++import com.smvp4g.mvp.client.core.security.ViewSecurity;
++import com.smvp4g.mvp.client.core.view.annotation.View;
++
++/**
++ * The Class TaskDetailNamView.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/11/12, 9:03 PM
++ */
++@ViewSecurity(configuratorClass = TaskDetailNamSecurity.class)
++@View(parentDomId = DomIdConstant.CONTENT_PANEL, constantsClass = TaskDetailNamConstant.class)
++public class TaskDetailNamView extends AbstractTaskDetailView<TaskDetailNamConstant> {
++}
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.content.view.i18n;
++
++/**
++ * The Class TaskDetailNamConstant.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/11/12, 9:03 PM
++ */
++public interface TaskDetailNamConstant extends TaskDetailDKConstant {
++    String btnRefresh();
++    String sttColumnTitle();
++    String taskNameColumnTitle();
++    String taskCodeColumnTitle();
++    String taskUnitColumnTitle();
++    String taskDefaultValueColumnTitle();
++    String taskQuotaColumnTitle();
++    String saveMessageSuccess();
++    String loadStationError();
++    String taskHeaderGroup();
++    String lastYearValueColumnTitle();
++    String increaseValueColumnTitle();
++    String decreaseValueColumnTitle();
++    String realValueColumnTitle();
++    String txtSearch();
++    String btnSubTaskSave();
++    String btnSubTaskRefresh();
++    String branchNameColumnTitle();
++    String lockMessage();
++}
++btnRefresh=Làm mới (F4)
++sttColumnTitle=STT
++taskNameColumnTitle=Tên
++taskCodeColumnTitle=Mã CV
++taskUnitColumnTitle=Đơn vị
++taskDefaultValueColumnTitle=Định mức
++saveMessageSuccess=Cập nhật thành công
++loadStationError=Bạn hãy thử lại lần nữa hoặc refresh lại trang
++taskHeaderGroup=Công việc
++lastYearValueColumnTitle=Năm
++increaseValueColumnTitle=Tăng
++decreaseValueColumnTitle=Giảm
++realValueColumnTitle=KL t.tế
++txtSearch=Tìm theo mã CV hoặc tên CV
++btnSubTaskSave=Lưu (F2)
++btnSubTaskRefresh=Làm mới (F4)
++branchNameColumnTitle=Tên cung
++taskQuotaColumnTitle=Số lần
++lockMessage=<b>Công ty đã khóa nhập dữ liệu công tác tháng của bạn.</br> Liên hệ với công ty để tìm hiểu thêm.<b>
++/*
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
++ */
++
++package com.qlkh.client.client.module.content.view.security;
++
++import com.qlkh.core.client.constant.UserRoleEnum;
++import com.smvp4g.mvp.client.core.security.HasRole;
++import com.smvp4g.mvp.client.core.security.ViewSecurityConfigurator;
++
++/**
++ * The Class TaskDetailNamSecurity.
++ *
++ * @author Nguyen Duc Dung
++ * @since 6/11/12, 9:05 PM
++ */
++public class TaskDetailNamSecurity implements ViewSecurityConfigurator {
++    @Override
++    public HasRole[] getRoles() {
++        return new HasRole[]{UserRoleEnum.USER};
++    }
++}
+-import com.smvp4g.mvp.client.core.i18n.I18nField;
++    private Button btnSubTaskSave = new Button(null, IconHelper.createPath("assets/images/icons/fam/disk.png"));
++    private Button btnSubTaskRefresh = new Button(null, IconHelper.createPath("assets/images/icons/fam/arrow_refresh.png"));
++
++    private ContentPanel subTaskPanel = new ContentPanel();
++    private PagingToolBar subTaskPagingToolBar;
++    private EditorGrid<BeanModel> subTaskDetailGird;
++        btnSubTaskSave.setText(getConstant().btnSubTaskSave());
++        btnSubTaskRefresh.setText(getConstant().btnSubTaskRefresh());
++        CheckBoxSelectionModel<BeanModel> selectionModel = new CheckBoxSelectionModel<BeanModel>();
++        subTaskDetailGird = new EditorGrid<BeanModel>(listStore,
++                new ColumnModel(createSubTaskColumnConfigs()));
++        subTaskDetailGird.setBorders(true);
++        subTaskDetailGird.setLoadMask(true);
++        subTaskDetailGird.setStripeRows(true);
++        subTaskDetailGird.setSelectionModel(selectionModel);
++        subTaskDetailGird.addPlugin(selectionModel);
++        subTaskDetailGird.getStore().getLoader().setSortDir(Style.SortDir.ASC);
++        subTaskDetailGird.getStore().getLoader().setSortField(ID_COLUMN);
++        subTaskDetailGird.setWidth(500);
++        subTaskDetailGird.addListener(Events.OnKeyDown, new KeyListener() {
++            @Override
++            public void handleEvent(ComponentEvent e) {
++                if (e.getKeyCode() == 113) {
++                    btnSubTaskSave.fireEvent(Events.Select);
++                } else if (e.getKeyCode() == 115) {
++                    btnSubTaskRefresh.fireEvent(Events.Select);
++                }
++            }
++        });
++
++        subTaskPagingToolBar = new PagingToolBar(TASK_LIST_SIZE);
++        ToolBar toolBar = new ToolBar();
++        toolBar.add(btnSubTaskSave);
++        toolBar.add(new SeparatorToolItem());
++        toolBar.add(btnSubTaskRefresh);
++        subTaskPanel.setBodyBorder(false);
++        subTaskPanel.setHeaderVisible(false);
++        subTaskPanel.setHeight(Window.getClientHeight() - 90);
++        subTaskPanel.setLayout(new FitLayout());
++        subTaskPanel.setWidth("50%");
++        subTaskPanel.add(subTaskDetailGird);
++        subTaskPanel.setTopComponent(toolBar);
++        subTaskPanel.setBottomComponent(subTaskPagingToolBar);
++        contentPanel.add(subTaskPanel, new RowData(-1, 1));
++        contentPanel.layout();
++    }
++    public EditorGrid<BeanModel> getSubTaskDetailGird() {
++        return subTaskDetailGird;
+-    public void createSubTaskGrid(ListStore<BeanModel> listStore,
+-                                  boolean q1, boolean q2, boolean q3, boolean q4) {
++    public PagingToolBar getSubTaskPagingToolBar() {
++        return subTaskPagingToolBar;
++    }
++    public Button getBtnSubTaskSave() {
++        return btnSubTaskSave;
+-    public PagingToolBar getSubTaskPagingToolBar() {
+-        return null;
++    public Button getBtnSubTaskRefresh() {
++        return btnSubTaskRefresh;
+-    public Grid<BeanModel> getSubTaskDetailGird() {
++    protected List<ColumnConfig> createSubTaskColumnConfigs() {
++    MenuLink mnlTaskDetailNam = new MenuLink(TaskDetailNamPlace.class);
++
++    @FieldSecurity
++    @HistoryHandler
++    @I18nField
++        mnlTaskDetailNam.setStyleName("menulink");
++        mainPanel.add(mnlTaskDetailNam, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++    String mnlTaskDetailNam();
++mnlTaskDetailNam=Công tác năm
+-mlLock=Khóa trung tâm
++mlLock=Khóa trung tâm
++    public HasRole[] mnlTaskDetailNam() {
++        return new HasRole[]{UserRoleEnum.USER};
++    }
++
+-    MenuLink mnlTaskDetail = new MenuLink(TaskDetailKDKPlace.class);
++    MenuLink mnlTaskDetailKDK = new MenuLink(TaskDetailKDKPlace.class);
+-    MenuLink mnlTaskAnnualDetail = new MenuLink(TaskDetailDKPlace.class);
++    MenuLink mnlTaskDetailDK = new MenuLink(TaskDetailDKPlace.class);
+-        mnlTaskAnnualDetail.setStyleName("menulink");
+-        mainPanel.add(mnlTaskAnnualDetail, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
+-        mnlTaskDetail.setStyleName("menulink");
+-        mainPanel.add(mnlTaskDetail, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++        mnlTaskDetailDK.setStyleName("menulink");
++        mainPanel.add(mnlTaskDetailDK, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
++        mnlTaskDetailKDK.setStyleName("menulink");
++        mainPanel.add(mnlTaskDetailKDK, new HBoxLayoutData(new Margins(0, 5, 0, 0)));
+-    String mnlTaskDetail();
+-    String mnlTaskAnnualDetail();
++    String mnlTaskDetailKDK();
++    String mnlTaskDetailDK();
+-mnlTaskDetail=Công tác năm
++mnlTaskDetailKDK=Công tác không định kỳ
+-mnlTaskAnnualDetail=Công tác tháng
++mnlTaskDetailDK=Công tác tháng
+-    public HasRole[] mnlTaskDetail() {
++    public HasRole[] mnlTaskDetailKDK() {
+-    public HasRole[] mnlTaskAnnualDetail() {
++    public HasRole[] mnlTaskDetailDK() {
+-applicationVersion=1.0.9 (cập nhật ngày ${buildNumber})
++applicationVersion=1.1.0 (cập nhật ngày ${buildNumber})
+-    <bean class="com.qlkh.server.dao.impl.TaskDetailDaoImpl">
+-        <property name="sessionFactory" ref="sessionFactory"/>
+-    </bean>
+-
+-                <bean class="com.qlkh.server.handler.taskdetail.DeleteTaskDetailHandler"/>
+- * Copyright (C) 2011 - 2012 SMVP4G.COM
+- *
+- * This is free software; you can redistribute it and/or modify it
+- * under the terms of the GNU Lesser General Public License as
+- * published by the Free Software Foundation; either version 3 of
+- * the License, or (at your option) any later version.
+- *
+- * This software is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
+- * License along with this software; if not, write to the Free
+- * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+- * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
+- * Copyright (C) 2011 - 2012 SMVP4G.COM
+- *
+- * This is free software; you can redistribute it and/or modify it
+- * under the terms of the GNU Lesser General Public License as
+- * published by the Free Software Foundation; either version 3 of
+- * the License, or (at your option) any later version.
+- *
+- * This software is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
+- * License along with this software; if not, write to the Free
+- * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+- * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
+- * Copyright (C) 2011 - 2012 SMVP4G.COM
+- *
+- * This is free software; you can redistribute it and/or modify it
+- * under the terms of the GNU Lesser General Public License as
+- * published by the Free Software Foundation; either version 3 of
+- * the License, or (at your option) any later version.
+- *
+- * This software is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
+- * License along with this software; if not, write to the Free
+- * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+- * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
+- * Copyright (C) 2011 - 2012 SMVP4G.COM
+- *
+- * This is free software; you can redistribute it and/or modify it
+- * under the terms of the GNU Lesser General Public License as
+- * published by the Free Software Foundation; either version 3 of
+- * the License, or (at your option) any later version.
+- *
+- * This software is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
+- * License along with this software; if not, write to the Free
+- * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+- * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
+- * Copyright (C) 2011 - 2012 SMVP4G.COM
+- *
+- * This is free software; you can redistribute it and/or modify it
+- * under the terms of the GNU Lesser General Public License as
+- * published by the Free Software Foundation; either version 3 of
+- * the License, or (at your option) any later version.
+- *
+- * This software is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
+- * License along with this software; if not, write to the Free
+- * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+- * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
+- * Copyright (C) 2011 - 2012 SMVP4G.COM
+- *
+- * This is free software; you can redistribute it and/or modify it
+- * under the terms of the GNU Lesser General Public License as
+- * published by the Free Software Foundation; either version 3 of
+- * the License, or (at your option) any later version.
+- *
+- * This software is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
+- * License along with this software; if not, write to the Free
+- * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+- * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
++ * Copyright (C) 2012 - 2013 Nguyen Duc Dung (dungvn3000@gmail.com)
+- * Copyright (C) 2011 - 2012 SMVP4G.COM
+- *
+- * This is free software; you can redistribute it and/or modify it
+- * under the terms of the GNU Lesser General Public License as
+- * published by the Free Software Foundation; either version 3 of
+- * the License, or (at your option) any later version.
+- *
+- * This software is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
+- * License 
