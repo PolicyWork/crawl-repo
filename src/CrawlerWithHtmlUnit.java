@@ -9,15 +9,15 @@ import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 
-public class CrawlFinal {
+public class CrawlerWithHtmlUnit {
 
 	public static void main(String[] args) throws InterruptedException,	IOException {
 
@@ -37,49 +37,30 @@ public class CrawlFinal {
 					BufferedWriter outputHandle = new BufferedWriter(
 							new FileWriter(file));
 
-//					FirefoxProfile p = new FirefoxProfile();
-//
-//					p.setPreference("javascript.enabled", false);
+					FirefoxProfile p = new FirefoxProfile();
 
-					// Create a new instance of the Firefox driver
-//					org.openqa.selenium.WebDriver driver = new FirefoxDriver();
+					p.setPreference("javascript.enabled", false);
+
+//					 Create a new instance of the Firefox driver
+					org.openqa.selenium.WebDriver driver = new FirefoxDriver();
 					
-					WebDriver driver = new HtmlUnitDriver();
+//					WebDriver driver = new HtmlUnitDriver();
 
 					// Maximize the window
 					driver.manage().window().maximize();
 
-					//Send HTTP GET Request
-					driver.get("https://github.com");
 
 					WebElement element;
+					String lang="java";
 
-					//Query 
-					element = driver.findElement(By.name("q"));
-
-					// element.sendKeys("hasRole()");
-
-					element.sendKeys(keywordLine);
-
-					element.submit();
-
-					WebDriverWait wait = new WebDriverWait(driver, 10);
-
-					//We need to click on the Code link on the L.H.S of page
-					element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, 'type=Code')]")));
-
-					// element.sendKeys("Code");
-
-					element.click();
+					String urlToGet ="https://github.com/search?utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code";
 					
+					System.out.println("urlToGet is : "+urlToGet);
 					
-					//Now we click on the java link on L.H.S of page to view only code changes for java
-					element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, 'l=java')]")));
-
-					element.click();
-
-					//A sleep to give some room for page load
-					Thread.sleep(4000L);
+					//Send HTTP GET Request
+					driver.get(urlToGet);
+					
+			
 
 					/* 	Infinite loop starts here . You keep clicking on the next
 						button of search results. In case it fails, an exception is caught and
@@ -131,9 +112,7 @@ public class CrawlFinal {
 
 							// Thread.sleep(4000L);
 
-							element = wait
-									.until(ExpectedConditions.elementToBeClickable(By
-											.xpath("//a[contains(@class,'minibutton') and .//text()='History']")));
+							element =driver.findElement(By.xpath("//a[contains(@class,'minibutton') and .//text()='History']"));
 
 							element.click();
 
