@@ -15,6 +15,22 @@
 - return new HasRole[]{UserRoleEnum.ADMIN};
 + return new HasRole[]{UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
 =========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/0a3d827f7acc5892bc7a4bebeb93fcf96ae496fd
+
+=========================================================
++ public HasRole[] mnlGroupManager() {
++ return new HasRole[]{UserRoleEnum.ADMIN};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/a75e8c0f13f5d321cea5489c40c084385ae450b2
+
+=========================================================
+- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
++ return new HasRole[]{
++ public HasRole[] wareHouseReportPanel() {
++ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
+- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
++ return new HasRole[]{
+=========================================================
 [CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/0c98083509982849cfe7a0ba8b6f01a2df244b6b
 
 =========================================================
@@ -45,11 +61,83 @@
 - return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
 + return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
 =========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/64164e9df157818c45663bdd3c9b71a2bf3563b2
+
+=========================================================
++import com.smvp4g.mvp.client.core.security.HasRole;
++ public HasRole[] getRoles() {
++ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++ public HasRole[] mlMaterialGroup() {
++ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++ public HasRole[] mlMaterialIn() {
++ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/e6db5148bb197082001311ee9e13be7defd64c6a
+
+=========================================================
++import com.smvp4g.mvp.client.core.security.HasRole;
++ public HasRole[] getRoles() {
++ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++ public HasRole[] mlMaterialPerson() {
++ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/ca72e595e6f2b851a5b783f46ed432ba025ac855
+
+=========================================================
++import com.smvp4g.mvp.client.core.security.HasRole;
++ public HasRole[] getRoles() {
++ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
++ public HasRole[] mlMaterialPrice() {
++ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/f52cc1d27ef254e541a1f0134d13bb58edc9ae13
+
+=========================================================
+- return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
++ return new HasRole[]{
+- return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
++ return new HasRole[]{
+=========================================================
 [CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/28005e5c4b8ebffa21734890cffa20286894b573
 
 =========================================================
 + public HasRole[] mlMaterial() {
 + return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/016a5a2f804d3628bf265766d0813a78c6e8f06d
+
+=========================================================
++import com.smvp4g.mvp.client.core.security.HasRole;
++ public HasRole[] getRoles() {
++ return new HasRole[]{UserRoleEnum.MANAGER};
++ public HasRole[] mlLimitJob() {
++ return new HasRole[]{UserRoleEnum.MANAGER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/55823e67550f28db83356c68cdb755e27977ad7d
+
+=========================================================
+- return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
++ return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
+- return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
++ return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/1bb7ef6ae77a32125f68b82757d6315b496bf576
+
+=========================================================
++ public HasRole[] mlUpgrade() {
++ return new HasRole[]{UserRoleEnum.DEVELOPER};
++import com.smvp4g.mvp.client.core.security.HasRole;
++ public HasRole[] getRoles() {
++ return new HasRole[]{UserRoleEnum.DEVELOPER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/342d0ee9a7c0ace3906dc6cb46644e6f346a7041
+
+=========================================================
++import com.smvp4g.mvp.client.core.security.HasRole;
++ public HasRole[] getRoles() {
++ return new HasRole[]{UserRoleEnum.USER};
++ public HasRole[] mnlTaskDetailNam() {
++ return new HasRole[]{UserRoleEnum.USER};
 =========================================================
 [CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/2309e120cc174e5e5049bf197fd4e8c2b08b36ac
 
@@ -59,11 +147,29 @@
 - public HasRole[] mnlTaskAnnualDetail() {
 + public HasRole[] mnlTaskDetailDK() {
 =========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/a8b1c3a241ccf83f33819f4b04a8d647238bdaf8
+
+=========================================================
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/69664b32c1be842f880a155cfbc21aa27610675a
+
+=========================================================
+=========================================================
 [CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/87ebc18088f1cf5bb0a2782b36cd37db54d9cf76
 
 =========================================================
 + public HasRole[] taskDefaultValueReportPanel() {
 + return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.MANAGER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/a75e8c0f13f5d321cea5489c40c084385ae450b2
+
+=========================================================
+- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
++ return new HasRole[]{
++ public HasRole[] wareHouseReportPanel() {
++ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
+- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
++ return new HasRole[]{
 =========================================================
 [CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/0c98083509982849cfe7a0ba8b6f01a2df244b6b
 
@@ -79,88 +185,152 @@
 - return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
 + return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
 =========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/99df8d5ff6109439021a2d6ca656a2545b840d97
+
+=========================================================
++ public HasRole[] materialReportPanel() {
++ return new HasRole[]{UserRoleEnum.MANAGER};
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/54924ebd00a3d69927a9ba204203d46d3a53c626
+
+=========================================================
+- public HasRole[] cbbReportStation() {
++ public HasRole[] cbbTaskReportStation() {
+- public HasRole[] cbbReportBranch() {
++ public HasRole[] cbbPriceReportStation() {
++ return new HasRole[]{UserRoleEnum.MANAGER};
++ public HasRole[] cbbTaskReportBranch() {
++ return new HasRole[]{UserRoleEnum.USER};
++ public HasRole[] cbbPriceReportBranch() {
+=========================================================
 [CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/7576869326249e836244755610efc952311de74d
 
 =========================================================
 + public HasRole[] cbbReportBranch() {
 + return new HasRole[]{UserRoleEnum.USER};
 =========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/a8b1c3a241ccf83f33819f4b04a8d647238bdaf8
+
+=========================================================
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/69664b32c1be842f880a155cfbc21aa27610675a
+
+=========================================================
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/antonyraj/SpringSecurityPreAuthorize/commit/48d08f3031b60435504d20eeae62b8d9a649edc6
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER') OR hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/36c2699a5a822d111414304e5175725d23449493
+
+=========================================================
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/cfc352b34fa06e82001f50e0e1d44fa5dc05a141
+
+=========================================================
+- base when (hasRole(base, R.class)) {
++ base when (hasRole(base, R.class))
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/36c2699a5a822d111414304e5175725d23449493
+
+=========================================================
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/hernad/palo-colibriweb/commit/fa74c72ac3715cf49c24c65f43d86dc35114bc96
+
+=========================================================
++ String HAS_ROLE_SUPERADMIN = "#{s:hasRole('superadmin')}";
++ String HAS_ROLE_ADMIN = "#{s:hasRole('admin')}";
++ String HAS_ROLE_USER = "#{s:hasRole('user')}";
++ String HAS_ROLE_ADMINS = "#{s:hasRole('superadmin') or s:hasRole('admin')}";
++ if(Identity.instance().hasRole(role))
++ else if(identity.hasRole(role.getName()))
++ else if(identity.hasRole(role.getName()))
++ public static boolean hasRole(String... roles)
++ if(Identity.instance().hasRole(role))
++ public boolean hasRole(String roleName) {
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/dhhabi/courierapp/commit/78ce2211be3e38756df49d22f12bab4dbc12ffb7
+
+=========================================================
++ if(hasRole("ROLE_ADMIN"))
++ public boolean hasRole(String role) {
++ boolean hasRole = false;
++ hasRole = authority.getAuthority().equals(role);
++ if (hasRole) {
++ return hasRole;
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/grupocibertec/GProfesor/commit/8c43fddcef8c482e0273a2af8424b2628a4f819f
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_SUPER') or hasRole('ROLE_MANAGER')")
++ @PreAuthorize("hasRole('ROLE_SUPER') or hasRole('ROLE_MANAGER')")
+=========================================================
 [CODE-CHANGE_URL]:https://github.com/grupocibertec/GProfesor/commit/b43153bbafdb0829026ab13238d039028232a45d
 
 =========================================================
 +@PreAuthorize("hasRole('ROLE_SUPER')")
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/grupocibertec/GProfesor/commit/1d97c964d6098718e471bebd6b2623bff1aa6714
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/grupocibertec/GProfesor/commit/11ec4464429d3d26dfa19e2ce8499fa5665d90ef
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/raphaelLacerda/pluggedin/commit/8169dc11849112488cdc651b4071cd1bbfffe666
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/raphaelLacerda/pluggedin/commit/00103651538d5e908145e38e79e9d1df93ee039a
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ public boolean hasRole(String role) {
++ if (!userLogged.getUser().hasRole(roles[i])) {
++ assertTrue(user.hasRole("admin"));
++ assertTrue(user.hasRole("super"));
++ assertFalse(user.hasRole("admin123123"));
++ assertFalse(user.hasRole("admin"));
++ assertFalse(user.hasRole("super"));
++ assertFalse(user.hasRole("admin123123"));
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/cmontufa/checklist/commit/ad802aac7776ae04c2b189e3f3153f1bf5a88c3a
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
++ public static final String USER_ROLE = "hasRole('USER')";
++ public static final String ADMIN_ROLE = "hasRole('ADMIN')";
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/dscoppelletti/programmerpower/commit/28a8beaaa4cffd28410d9662ae9b16ec739b9c45
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ access="hasRole('it.scoppelletti.admin')" />
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ <sec:authorize access="!hasRole('it.scoppelletti.admin') or '${code}' == authentication.name">
++ <sec:authorize access="hasRole('it.scoppelletti.admin') and '${code}' != authentication.name">
++<sec:authorize access="hasRole('it.scoppelletti.admin') or '${code}' == authentication.name and !hasRole('it.scoppelletti.guest')">
++<sec:authorize access="hasRole('it.scoppelletti.admin')">
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/eneuwirt/vaadin-spring-jsp/commit/237a9a8e8daf1376f4fc149b2d02a6e69670f85d
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
-
-=========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
 [CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
 
@@ -171,86 +341,73 @@
 - if(!session.getUser().hasRole("is_user")){
 + if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/01eaeecc56027028461e12b23f14b76790e0ec64
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/contento3/Projects/commit/b43ebf9b399d06ae95ddfeb3bde951280f8d3f99
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/vdupain/gwt/commit/e0fa0bf1795e82c0d55afdcb5f22d387ebbb0271
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ //@PreAuthorize("hasRole('ROLE_SUPERVISOR') or hasRole('ROLE_TELLER') and (#account.balance + #amount >= -#account.overdraft)")
++ <intercept-url pattern="/SSGD/dispatch/fr.generali.gwt.dispatch.shared.ResetCounter" access="hasRole('ROLE_RESET')" />
++ <intercept-url pattern="/SSGD/dispatch/**IncrementCounter" access="hasRole('ROLE_INCREMENT')" />
++ <intercept-url pattern="/SSGD/dispatch/**DecrementCounter**" access="hasRole('ROLE_DECREMENT')" />
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/b1427fd4a32812eaa29b7c9204ce2c6af2dc9508
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ String expected = "base when (Team2.this.hasRole(base,R.class))"; //$NON-NLS-1$
++ " base when (hasRole(base)) {\n" +
++ " base when (hasRole(base)) {\n" +
++ base when (Team2.this.hasRole(base, R.class))
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/mateuszwenus/spring4-webapp/commit/f3b65e510477793f6d431d70b287ae7116b809ed
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ .antMatchers("/user").hasRole("USER")
++ .antMatchers("/manager").hasRole("MANAGER")
++ .antMatchers("/admin").hasRole("ADMIN")
+- @AuthorizeRequest("hasRole('ROLE_USER')")
+- @AuthorizeRequest("hasRole('ROLE_MANAGER')")
+- @AuthorizeRequest("hasRole('ROLE_ADMIN')")
++ @AuthorizeRequest("hasRole('ROLE_USER')")
++ @AuthorizeRequest("hasRole('ROLE_MANAGER')")
++ @AuthorizeRequest("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_MANAGER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/marcocaboni/Spring-Security-Authorization-Annotation/commit/d02dfe306e221a38b5b10753698bdff70f0305d3
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ @PreAuthorize("hasRole('USER') OR hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/jkuryla/checklist/commit/ad802aac7776ae04c2b189e3f3153f1bf5a88c3a
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
++ public static final String USER_ROLE = "hasRole('USER')";
++ public static final String ADMIN_ROLE = "hasRole('ADMIN')";
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/eneuwirt/vaadin-spring-jsp/commit/237a9a8e8daf1376f4fc149b2d02a6e69670f85d
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
-
-=========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
 [CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
 
@@ -261,104 +418,87 @@
 - if(!session.getUser().hasRole("is_user")){
 + if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/01eaeecc56027028461e12b23f14b76790e0ec64
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/dscoppelletti/programmerpower/commit/28a8beaaa4cffd28410d9662ae9b16ec739b9c45
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ access="hasRole('it.scoppelletti.admin')" />
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ <sec:authorize access="!hasRole('it.scoppelletti.admin') or '${code}' == authentication.name">
++ <sec:authorize access="hasRole('it.scoppelletti.admin') and '${code}' != authentication.name">
++<sec:authorize access="hasRole('it.scoppelletti.admin') or '${code}' == authentication.name and !hasRole('it.scoppelletti.guest')">
++<sec:authorize access="hasRole('it.scoppelletti.admin')">
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/contento3/Projects/commit/b43ebf9b399d06ae95ddfeb3bde951280f8d3f99
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/b1427fd4a32812eaa29b7c9204ce2c6af2dc9508
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ String expected = "base when (Team2.this.hasRole(base,R.class))"; //$NON-NLS-1$
++ " base when (hasRole(base)) {\n" +
++ " base when (hasRole(base)) {\n" +
++ base when (Team2.this.hasRole(base, R.class))
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/vdupain/gwt/commit/e0fa0bf1795e82c0d55afdcb5f22d387ebbb0271
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ //@PreAuthorize("hasRole('ROLE_SUPERVISOR') or hasRole('ROLE_TELLER') and (#account.balance + #amount >= -#account.overdraft)")
++ <intercept-url pattern="/SSGD/dispatch/fr.generali.gwt.dispatch.shared.ResetCounter" access="hasRole('ROLE_RESET')" />
++ <intercept-url pattern="/SSGD/dispatch/**IncrementCounter" access="hasRole('ROLE_INCREMENT')" />
++ <intercept-url pattern="/SSGD/dispatch/**DecrementCounter**" access="hasRole('ROLE_DECREMENT')" />
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/mateuszwenus/spring4-webapp/commit/f3b65e510477793f6d431d70b287ae7116b809ed
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ .antMatchers("/user").hasRole("USER")
++ .antMatchers("/manager").hasRole("MANAGER")
++ .antMatchers("/admin").hasRole("ADMIN")
+- @AuthorizeRequest("hasRole('ROLE_USER')")
+- @AuthorizeRequest("hasRole('ROLE_MANAGER')")
+- @AuthorizeRequest("hasRole('ROLE_ADMIN')")
++ @AuthorizeRequest("hasRole('ROLE_USER')")
++ @AuthorizeRequest("hasRole('ROLE_MANAGER')")
++ @AuthorizeRequest("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_MANAGER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/marcocaboni/Spring-Security-Authorization-Annotation/commit/d02dfe306e221a38b5b10753698bdff70f0305d3
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ @PreAuthorize("hasRole('USER') OR hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/jkuryla/checklist/commit/ad802aac7776ae04c2b189e3f3153f1bf5a88c3a
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
++ public static final String USER_ROLE = "hasRole('USER')";
++ public static final String ADMIN_ROLE = "hasRole('ADMIN')";
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/eneuwirt/vaadin-spring-jsp/commit/237a9a8e8daf1376f4fc149b2d02a6e69670f85d
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
-
-=========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
-
-=========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
 [CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
 
@@ -369,83 +509,80 @@
 - if(!session.getUser().hasRole("is_user")){
 + if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/01eaeecc56027028461e12b23f14b76790e0ec64
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/dscoppelletti/programmerpower/commit/28a8beaaa4cffd28410d9662ae9b16ec739b9c45
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ access="hasRole('it.scoppelletti.admin')" />
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ @PreAuthorize("hasRole('it.scoppelletti.admin')")
++ <sec:authorize access="!hasRole('it.scoppelletti.admin') or '${code}' == authentication.name">
++ <sec:authorize access="hasRole('it.scoppelletti.admin') and '${code}' != authentication.name">
++<sec:authorize access="hasRole('it.scoppelletti.admin') or '${code}' == authentication.name and !hasRole('it.scoppelletti.guest')">
++<sec:authorize access="hasRole('it.scoppelletti.admin')">
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/contento3/Projects/commit/b43ebf9b399d06ae95ddfeb3bde951280f8d3f99
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/b1427fd4a32812eaa29b7c9204ce2c6af2dc9508
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ String expected = "base when (Team2.this.hasRole(base,R.class))"; //$NON-NLS-1$
++ " base when (hasRole(base)) {\n" +
++ " base when (hasRole(base)) {\n" +
++ base when (Team2.this.hasRole(base, R.class))
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/vdupain/gwt/commit/e0fa0bf1795e82c0d55afdcb5f22d387ebbb0271
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ //@PreAuthorize("hasRole('ROLE_SUPERVISOR') or hasRole('ROLE_TELLER') and (#account.balance + #amount >= -#account.overdraft)")
++ <intercept-url pattern="/SSGD/dispatch/fr.generali.gwt.dispatch.shared.ResetCounter" access="hasRole('ROLE_RESET')" />
++ <intercept-url pattern="/SSGD/dispatch/**IncrementCounter" access="hasRole('ROLE_INCREMENT')" />
++ <intercept-url pattern="/SSGD/dispatch/**DecrementCounter**" access="hasRole('ROLE_DECREMENT')" />
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/mateuszwenus/spring4-webapp/commit/f3b65e510477793f6d431d70b287ae7116b809ed
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ .antMatchers("/user").hasRole("USER")
++ .antMatchers("/manager").hasRole("MANAGER")
++ .antMatchers("/admin").hasRole("ADMIN")
+- @AuthorizeRequest("hasRole('ROLE_USER')")
+- @AuthorizeRequest("hasRole('ROLE_MANAGER')")
+- @AuthorizeRequest("hasRole('ROLE_ADMIN')")
++ @AuthorizeRequest("hasRole('ROLE_USER')")
++ @AuthorizeRequest("hasRole('ROLE_MANAGER')")
++ @AuthorizeRequest("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_MANAGER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/marcocaboni/Spring-Security-Authorization-Annotation/commit/d02dfe306e221a38b5b10753698bdff70f0305d3
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
++ @PreAuthorize("hasRole('USER') OR hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[CODE-CHANGE_URL]:https://github.com/jkuryla/checklist/commit/ad802aac7776ae04c2b189e3f3153f1bf5a88c3a
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
-
-=========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER')")
++ public static final String USER_ROLE = "hasRole('USER')";
++ public static final String ADMIN_ROLE = "hasRole('ADMIN')";
