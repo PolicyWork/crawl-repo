@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.LinkedList;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -75,7 +76,135 @@ public class CrawlerWithHtmlUnit {
 						
 						System.out.println("Marker..."); //Only for tracking and debugging
 						
+//						Thread.sleep(10000L);
+						
+						List<WebElement> results = driver.findElements(By.xpath("//*[@id=\"code_search_results\"]/div[1]/div/p/a[2]"));
+						
+						List<String> urlsOfFileCommits = new LinkedList<String>();
+						
+						for(WebElement result : results){
+							urlsOfFileCommits.add(result.getAttribute("href").replace("blob", "commits"));
+							System.out.println("size of urls is:"+urlsOfFileCommits.size());
+						}
+						
+						for(String url : urlsOfFileCommits){
+							driver.get(url);
+							List<WebElement> commitsPerFile = driver.findElements(By.xpath("//*[@id=\"compare\"]/div[2]/ol/li/div[2]/p/a"));
+							
+							List<String> urlsOfcommitsPerFile = new LinkedList<String>();
+							
+							for(WebElement result : commitsPerFile){
+								urlsOfcommitsPerFile.add(result.getAttribute("href"));
+							}
+							
+							for(String codeChangeUrl:urlsOfcommitsPerFile){
+								driver.get(codeChangeUrl);
+								System.out.println("codChangeUrl:->"+codeChangeUrl);
+								outputHandle.write("=========================================================\n");
+								outputHandle.write("[CODE-CHANGE_URL]:"+codeChangeUrl+"\n\n");
+								outputHandle.write("=========================================================\n");
+//								Thread.sleep(5000L);
+								
+//								String search="//td[contains(@class,'blob-code blob-code-addition') and contains(text(),'hasRole') and contains(@class,'blob-code blob-code-deletion')]";
+								
+//								String search="//td[(contains(@class,'blob-code blob-code-addition') and contains(.,'HasRole')) or (contains(@class,'blob-code blob-code-deletion') and contains(.,'HasRole'))]";
+								
+								String search="//td[(contains(@class,'blob-code blob-code-addition') and contains(.,'"+keywordLine+"')) or (contains(@class,'blob-code blob-code-deletion') and contains(.,'"+keywordLine+"'))]";
+								
+								System.out.println("SEARCH STRING IS -->"+search);
+								List<WebElement> listChanges = driver.findElements(By.xpath(search));
+								
+								//============================
+								System.out.println("ListChanges size is :"+ listChanges.size());
 
+								if (listChanges.size() < 100 && listChanges.size()>0)
+								{
+																	
+									for (int count = 0; count < listChanges.size(); count++) {
+
+										//prints all the code changes associated with each commit
+										
+										String codeChanges = listChanges.get(count).getText();
+
+										// System.out.println("Writing code changes into file now *********");
+//										outputHandle.write("********************");
+										
+										//To print only keyword matching lines
+//										if(codeChanges.toLowerCase().contains(keywordLine.toLowerCase()))
+//										if(codeChanges.toLowerCase().contains("hasRole".toLowerCase()))
+//										{
+//											System.out.println("IT IS TRUE ******************************");
+											outputHandle.write(codeChanges);
+											System.out.println("********");
+											System.out.println(codeChanges);
+
+											outputHandle.write("\n");
+//										}
+										
+									}
+									
+								}//This is end of if condition for listChanges.size
+
+								
+								//=============================
+								
+							}
+							
+							
+						}
+						
+						System.out.println("ABOUT TO START SLEEPING +++++++++++++++++++++++++++++++");
+						Thread.sleep(1000L);
+						
+						
+						By getChanges = By.xpath("//td[contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion')]");
+						
+//						String getCount = By
+//								.xpath(count("//td[contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion')]"));
+
+						List<WebElement> listChanges = driver.findElements(getChanges);
+
+						System.out.println("ListChanges size is :"+ listChanges.size());
+
+						if (listChanges.size() < 100)
+						{
+															
+							for (int count = 0; count < listChanges.size(); count++) {
+
+								// System.out.println(driver.findElements(getChanges).get(count).getText());
+
+								// codeChanges=driver.findElements(getChanges).get(count).getText();
+
+								//prints all the code changes associated with each commit
+								
+								String codeChanges = listChanges.get(count).getText();
+
+								// System.out.println("Writing code changes into file now *********");
+
+								outputHandle.write(codeChanges);
+
+								outputHandle.write("\n");
+
+							}
+							
+						}//This is end of if condition for listChanges.size
+						
+						
+						Thread.sleep(10000L);
+						
+						List<WebElement> commitsPerFile = driver.findElements(By.xpath("//a[contains(@class,'sha button-outline')]"));
+						
+						List<String> urlsOfcommitsPerFile = new LinkedList<String>();
+						
+						//Extract the URLS from each of the WebElement and put it in list urlsOfcommitsPerFile
+						for(WebElement result : commitsPerFile){
+							urlsOfcommitsPerFile.add(result.getAttribute("href"));
+							System.out.println("size of urls is:"+urlsOfFileCommits.size());
+							
+						}
+						
+						
+						
 						element = driver.findElement(By.className("code-list-item")); // check // if // // this // line // // is // // required
 
 						By selector = By.xpath("//p[@class='title']/a[2]"); // returns // all // the // classes // with // title // on // search // results // page
@@ -116,8 +245,7 @@ public class CrawlerWithHtmlUnit {
 
 							element.click();
 
-							By getCommitList = By
-									.xpath("//a[contains(@class,'sha button-outline')]");
+							By getCommitList = By.xpath("//a[contains(@class,'sha button-outline')]");
 
 							List<WebElement> commitList = driver
 									.findElements(getCommitList);
@@ -144,12 +272,12 @@ public class CrawlerWithHtmlUnit {
 								driver.findElements(getCommitList)
 								.get(commitCount).click();
 
-								By getChanges = By.xpath("//td[contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion')]");
+//								By getChanges = By.xpath("//td[contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion')]");
 								
 //								String getCount = By
 //										.xpath(count("//td[contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion')]"));
 
-								List<WebElement> listChanges = driver.findElements(getChanges);
+//								List<WebElement> listChanges = driver.findElements(getChanges);
 
 								System.out.println("ListChanges size is :"+ listChanges.size());
 
