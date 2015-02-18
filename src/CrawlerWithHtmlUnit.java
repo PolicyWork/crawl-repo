@@ -8,13 +8,16 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+
+
 
 
 
@@ -35,20 +38,27 @@ public class CrawlerWithHtmlUnit {
 			while ((keywordLine = readHandle.readLine()) != null) {
 
 				try {
-					BufferedWriter outputHandle = new BufferedWriter(
-							new FileWriter(file));
+					BufferedWriter outputHandle = new BufferedWriter(new FileWriter(file));
 
-					FirefoxProfile p = new FirefoxProfile();
-
-					p.setPreference("javascript.enabled", false);
+//					
+//					FirefoxProfile p = new FirefoxProfile();
+//
+//					p.setPreference("javascript.enabled", false);
 
 //					 Create a new instance of the Firefox driver
-					org.openqa.selenium.WebDriver driver = new FirefoxDriver();
+//					org.openqa.selenium.WebDriver driver = new FirefoxDriver();
 					
-//					WebDriver driver = new HtmlUnitDriver();
+					
+					
+					WebDriver driver = new HtmlUnitDriver();
+					
+//					driver.setJavascriptEnabled(false);
+					
+					Logger logger = Logger.getLogger ("");
+					logger.setLevel (Level.SEVERE);
 
 					// Maximize the window
-					driver.manage().window().maximize();
+//					driver.manage().window().maximize();
 
 
 					WebElement element;
@@ -60,6 +70,10 @@ public class CrawlerWithHtmlUnit {
 					
 					//Send HTTP GET Request
 					driver.get(urlToGet);
+					
+					String nextPageUrl = driver.findElement(By.className("next_page")).getAttribute("href");
+					
+					System.out.println("Next Page URL is <><><><>:"+nextPageUrl);
 					
 			
 
@@ -100,25 +114,28 @@ public class CrawlerWithHtmlUnit {
 							for(String codeChangeUrl:urlsOfcommitsPerFile){
 								driver.get(codeChangeUrl);
 								System.out.println("codChangeUrl:->"+codeChangeUrl);
-								outputHandle.write("=========================================================\n");
-								outputHandle.write("[CODE-CHANGE_URL]:"+codeChangeUrl+"\n\n");
-								outputHandle.write("=========================================================\n");
+								
 //								Thread.sleep(5000L);
 								
-//								String search="//td[contains(@class,'blob-code blob-code-addition') and contains(text(),'hasRole') and contains(@class,'blob-code blob-code-deletion')]";
+								String search="//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]";
 								
 //								String search="//td[(contains(@class,'blob-code blob-code-addition') and contains(.,'HasRole')) or (contains(@class,'blob-code blob-code-deletion') and contains(.,'HasRole'))]";
 								
-								String search="//td[(contains((@class,'blob-code blob-code-addition') and contains(.,'"+keywordLine+"')) or (contains(@class,'blob-code blob-code-deletion') and contains(.,'"+keywordLine+"'))]";
+								//String search="//td[(contains((@class,'blob-code blob-code-addition') and contains(.,'"+keywordLine+"')) or (contains(@class,'blob-code blob-code-deletion') and contains(.,'"+keywordLine+"'))]";
 								
 								System.out.println("SEARCH STRING IS -->"+search);
 								List<WebElement> listChanges = driver.findElements(By.xpath(search));
+								
+								System.out.println("+++++++++++++++++++++++++++++++");
 								
 								//============================
 								System.out.println("ListChanges size is :"+ listChanges.size());
 
 								if (listChanges.size() < 100 && listChanges.size()>0)
 								{
+									outputHandle.write("=========================================================\n");
+									outputHandle.write("[CODE-CHANGE_URL]:"+codeChangeUrl+"\n\n");
+									outputHandle.write("=========================================================\n");
 																	
 									for (int count = 0; count < listChanges.size(); count++) {
 
@@ -126,20 +143,18 @@ public class CrawlerWithHtmlUnit {
 										
 										String codeChanges = listChanges.get(count).getText();
 
-										// System.out.println("Writing code changes into file now *********");
-//										outputHandle.write("********************");
-										
+																				
 										//To print only keyword matching lines
 //										if(codeChanges.toLowerCase().contains(keywordLine.toLowerCase()))
-//										if(codeChanges.toLowerCase().contains("hasRole".toLowerCase()))
-//										{
-//											System.out.println("IT IS TRUE ******************************");
+										if(codeChanges.toLowerCase().contains("hasRole".toLowerCase()))
+										{
+											System.out.println("IT IS TRUE ******************************");
 											outputHandle.write(codeChanges);
 											System.out.println("********");
 											System.out.println(codeChanges);
 
 											outputHandle.write("\n");
-//										}
+										}
 										
 									}
 									
@@ -154,7 +169,10 @@ public class CrawlerWithHtmlUnit {
 						}//match1
 						
 						try{
-								String nextPageUrl = driver.findElement(By.className("next_page")).getAttribute("href");
+								System.out.println("BEFORE GOING TO NEXT PAGE <><><>");
+								outputHandle.flush();
+								
+								System.out.println("BEFORE GET REQUEST _+_+_+_+_+_+");
 								driver.get(nextPageUrl);
 								
 						}catch(Exception e){
