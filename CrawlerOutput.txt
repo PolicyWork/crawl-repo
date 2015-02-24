@@ -1,588 +1,472 @@
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/3aa0e16944e2552a7863941f683f26c571cd464e
+[COMMIT-URL]:https://github.com/mihaimaruseac/cs680/commits/2f94534bd07bbeb4ad032458ab09c1ccf49350d4/src/UserPermissionType.java
 
-=========================================================
-- return new HasRole[]{UserRoleEnum.MANAGER};
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-- return new HasRole[]{UserRoleEnum.MANAGER};
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/38e7364d72b01b7c56f3cc899d1d8153a2ac4c77
+[COMMIT MESSAGE]:Better name.
 
-=========================================================
-- return new HasRole[]{UserRoleEnum.ADMIN};
-+ return new HasRole[]{UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
-- return new HasRole[]{UserRoleEnum.ADMIN};
-+ return new HasRole[]{UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/0a3d827f7acc5892bc7a4bebeb93fcf96ae496fd
+[COMMIT MESSAGE]:Granting permissions.
 
-=========================================================
-+ public HasRole[] mnlGroupManager() {
-+ return new HasRole[]{UserRoleEnum.ADMIN};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/a75e8c0f13f5d321cea5489c40c084385ae450b2
+[COMMIT MESSAGE]:Permissions for root (PERMISSION_ROOT = everything allowed).
 
-=========================================================
-- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
-+ return new HasRole[]{
-+ public HasRole[] wareHouseReportPanel() {
-+ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
-- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
-+ return new HasRole[]{
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/0c98083509982849cfe7a0ba8b6f01a2df244b6b
+[COMMIT MESSAGE]:Permission skeleton.
 
 =========================================================
-- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
-- return new HasRole[]{UserRoleEnum.MANAGER};
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ public HasRole[] planReportPanel() {
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-+ public HasRole[] priceReportPanel() {
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/36d8ae4367881b64c5144037ffff0d1758898758
+[COMMIT-URL]:https://github.com/LFPlugins/SocialLinks/commits/8abda2a33a77646ce1680ebaa17df7d9451816f9/newReloadCommand/src/com/gmail/lfplugins/newReloadCommand/Permissions.java
 
-=========================================================
-- return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
-- return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
-- return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
-- return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
-- return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
-- return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/64164e9df157818c45663bdd3c9b71a2bf3563b2
+[COMMIT MESSAGE]:Code / Src files Added
 
 =========================================================
-+import com.smvp4g.mvp.client.core.security.HasRole;
-+ public HasRole[] getRoles() {
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ public HasRole[] mlMaterialGroup() {
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ public HasRole[] mlMaterialIn() {
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/e6db5148bb197082001311ee9e13be7defd64c6a
+[COMMIT-URL]:https://github.com/nativebinary/java-common/commits/656204361c2d14fd98369c7a97e33548fd6d84b0/java-common-playframework1/app/logics/ExceptionNeedPermission.java
 
-=========================================================
-+import com.smvp4g.mvp.client.core.security.HasRole;
-+ public HasRole[] getRoles() {
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ public HasRole[] mlMaterialPerson() {
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/ca72e595e6f2b851a5b783f46ed432ba025ac855
+[COMMIT MESSAGE]:add legacy libraries
 
 =========================================================
-+import com.smvp4g.mvp.client.core.security.HasRole;
-+ public HasRole[] getRoles() {
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ public HasRole[] mlMaterialPrice() {
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/f52cc1d27ef254e541a1f0134d13bb58edc9ae13
+[COMMIT-URL]:https://github.com/jequeto/play_forums_orm/commits/69f089428b2dc40923cd23ed7afcc651cee1030e/app/controllers/Permissions.java
 
-=========================================================
-- return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
-+ return new HasRole[]{
-- return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
-+ return new HasRole[]{
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/28005e5c4b8ebffa21734890cffa20286894b573
+[COMMIT MESSAGE]:master recovered and ok runind Forums, Themes and Messages CRUD
 
 =========================================================
-+ public HasRole[] mlMaterial() {
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/016a5a2f804d3628bf265766d0813a78c6e8f06d
+[COMMIT-URL]:https://github.com/garyvidal/marklogic-ant-tasks/commits/3cfcf49911fd4e0c697c0769cb34031293d15c24/src/com/marklogic/ant/taskdefs/PermissionSet.java
 
-=========================================================
-+import com.smvp4g.mvp.client.core.security.HasRole;
-+ public HasRole[] getRoles() {
-+ return new HasRole[]{UserRoleEnum.MANAGER};
-+ public HasRole[] mlLimitJob() {
-+ return new HasRole[]{UserRoleEnum.MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/55823e67550f28db83356c68cdb755e27977ad7d
+[COMMIT MESSAGE]:Adding ML ANT Source Code
 
 =========================================================
-- return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
-+ return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
-- return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER};
-+ return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.ADMIN, UserRoleEnum.MANAGER, UserRoleEnum.DEVELOPER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/1bb7ef6ae77a32125f68b82757d6315b496bf576
+[COMMIT-URL]:https://github.com/shibaoxu/miniSPM/commits/69658b1bcf6ff0e30f5511a6d2d257ad8af9bf8e/src/main/java/org/minispm/security/service/PermissionResolverCustom.java
 
-=========================================================
-+ public HasRole[] mlUpgrade() {
-+ return new HasRole[]{UserRoleEnum.DEVELOPER};
-+import com.smvp4g.mvp.client.core.security.HasRole;
-+ public HasRole[] getRoles() {
-+ return new HasRole[]{UserRoleEnum.DEVELOPER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/342d0ee9a7c0ace3906dc6cb46644e6f346a7041
+[COMMIT MESSAGE]:临时
 
-=========================================================
-+import com.smvp4g.mvp.client.core.security.HasRole;
-+ public HasRole[] getRoles() {
-+ return new HasRole[]{UserRoleEnum.USER};
-+ public HasRole[] mnlTaskDetailNam() {
-+ return new HasRole[]{UserRoleEnum.USER};
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/2309e120cc174e5e5049bf197fd4e8c2b08b36ac
+[COMMIT-URL]:https://github.com/Coder5540/giftcode/commits/1bbc5cd628baa6526d790ef37227592787a84c3b/core/src/utils/networks/PermissionConfig.java
 
-=========================================================
-- public HasRole[] mnlTaskDetail() {
-+ public HasRole[] mnlTaskDetailKDK() {
-- public HasRole[] mnlTaskAnnualDetail() {
-+ public HasRole[] mnlTaskDetailDK() {
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/a8b1c3a241ccf83f33819f4b04a8d647238bdaf8
+[COMMIT MESSAGE]:Change Login
 
-=========================================================
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/69664b32c1be842f880a155cfbc21aa27610675a
+[COMMIT MESSAGE]:Add request block user and add the total giftcode view
 
-=========================================================
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/87ebc18088f1cf5bb0a2782b36cd37db54d9cf76
+[COMMIT MESSAGE]:Change Logout, menu, sell, history
 
 =========================================================
-+ public HasRole[] taskDefaultValueReportPanel() {
-+ return new HasRole[]{UserRoleEnum.USER, UserRoleEnum.MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/a75e8c0f13f5d321cea5489c40c084385ae450b2
+[COMMIT-URL]:https://github.com/LinkNing/security/commits/4a8ba19a105abf7de8fd06cfeff643f041a1b8f8/shiro/src/main/java/net/nifoo/security/dao/PermissionDao.java
 
-=========================================================
-- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
-+ return new HasRole[]{
-+ public HasRole[] wareHouseReportPanel() {
-+ return new HasRole[]{UserRoleEnum.WAREHOUSE_MANAGER};
-- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
-+ return new HasRole[]{
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/0c98083509982849cfe7a0ba8b6f01a2df244b6b
+[COMMIT MESSAGE]:加入git进行管理
 
 =========================================================
-- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
-- return new HasRole[]{UserRoleEnum.MANAGER};
-+ return new HasRole[]{UserRoleEnum.MATERIAL_MANAGER};
-+ public HasRole[] planReportPanel() {
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-+ public HasRole[] priceReportPanel() {
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-- return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.USER};
-+ return new HasRole[]{UserRoleEnum.MANAGER, UserRoleEnum.MATERIAL_MANAGER, UserRoleEnum.USER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/99df8d5ff6109439021a2d6ca656a2545b840d97
+[COMMIT-URL]:https://github.com/LinkNing/security/commits/4a8ba19a105abf7de8fd06cfeff643f041a1b8f8/shiro/src/main/java/net/nifoo/security/service/PermissionService.java
 
-=========================================================
-+ public HasRole[] materialReportPanel() {
-+ return new HasRole[]{UserRoleEnum.MANAGER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/54924ebd00a3d69927a9ba204203d46d3a53c626
+[COMMIT MESSAGE]:加入git进行管理
 
 =========================================================
-- public HasRole[] cbbReportStation() {
-+ public HasRole[] cbbTaskReportStation() {
-- public HasRole[] cbbReportBranch() {
-+ public HasRole[] cbbPriceReportStation() {
-+ return new HasRole[]{UserRoleEnum.MANAGER};
-+ public HasRole[] cbbTaskReportBranch() {
-+ return new HasRole[]{UserRoleEnum.USER};
-+ public HasRole[] cbbPriceReportBranch() {
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/7576869326249e836244755610efc952311de74d
+[COMMIT-URL]:https://github.com/kriyss/Bukkit-Plugin-Utils/commits/1a37376d96fe14f14dd03158fa2d7d000c6d1498/processing/src/main/java/org/kriyss/bukkit/utils/entity/HasPermission.java
 
-=========================================================
-+ public HasRole[] cbbReportBranch() {
-+ return new HasRole[]{UserRoleEnum.USER};
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/a8b1c3a241ccf83f33819f4b04a8d647238bdaf8
+[COMMIT MESSAGE]:cut in differents maven modules
 
-=========================================================
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/SunriseSoftVN/qlkh/commit/69664b32c1be842f880a155cfbc21aa27610675a
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=2&q=permission&type=Code&utf8=%E2%9C%93
 
-=========================================================
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/antonyraj/SpringSecurityPreAuthorize/commit/48d08f3031b60435504d20eeae62b8d9a649edc6
+[COMMIT-URL]:https://github.com/githubhhb/shiro/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter12/src/main/java/com/github/zhangkaitao/shiro/chapter12/service/PermissionServiceImpl.java
 
-=========================================================
-+ @PreAuthorize("hasRole('ROLE_USER') OR hasRole('ROLE_ADMIN')")
-+ @PreAuthorize("hasRole('ROLE_ADMIN')")
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/36c2699a5a822d111414304e5175725d23449493
+[COMMIT MESSAGE]:shiro教程-第十二章
 
-=========================================================
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/cfc352b34fa06e82001f50e0e1d44fa5dc05a141
+[COMMIT-URL]:https://github.com/githubhhb/shiro/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter13/src/main/java/com/github/zhangkaitao/shiro/chapter13/service/PermissionServiceImpl.java
 
-=========================================================
-- base when (hasRole(base, R.class)) {
-+ base when (hasRole(base, R.class))
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/36c2699a5a822d111414304e5175725d23449493
+[COMMIT MESSAGE]:shiro教程-第十三章
 
 =========================================================
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/hernad/palo-colibriweb/commit/fa74c72ac3715cf49c24c65f43d86dc35114bc96
+[COMMIT-URL]:https://github.com/githubhhb/shiro/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter14/src/main/java/com/github/zhangkaitao/shiro/chapter14/service/PermissionServiceImpl.java
 
-=========================================================
-+ String HAS_ROLE_SUPERADMIN = "#{s:hasRole('superadmin')}";
-+ String HAS_ROLE_ADMIN = "#{s:hasRole('admin')}";
-+ String HAS_ROLE_USER = "#{s:hasRole('user')}";
-+ String HAS_ROLE_ADMINS = "#{s:hasRole('superadmin') or s:hasRole('admin')}";
-+ if(Identity.instance().hasRole(role))
-+ else if(identity.hasRole(role.getName()))
-+ else if(identity.hasRole(role.getName()))
-+ public static boolean hasRole(String... roles)
-+ if(Identity.instance().hasRole(role))
-+ public boolean hasRole(String roleName) {
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/dhhabi/courierapp/commit/78ce2211be3e38756df49d22f12bab4dbc12ffb7
+[COMMIT MESSAGE]:shiro教程-第十七章
 
 =========================================================
-+ if(hasRole("ROLE_ADMIN"))
-+ public boolean hasRole(String role) {
-+ boolean hasRole = false;
-+ hasRole = authority.getAuthority().equals(role);
-+ if (hasRole) {
-+ return hasRole;
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/grupocibertec/GProfesor/commit/8c43fddcef8c482e0273a2af8424b2628a4f819f
+[COMMIT-URL]:https://github.com/githubhhb/shiro/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter15-client/src/main/java/com/github/zhangkaitao/shiro/chapter15/service/PermissionServiceImpl.java
 
-=========================================================
-+ @PreAuthorize("hasRole('ROLE_SUPER') or hasRole('ROLE_MANAGER')")
-+ @PreAuthorize("hasRole('ROLE_SUPER') or hasRole('ROLE_MANAGER')")
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/grupocibertec/GProfesor/commit/b43153bbafdb0829026ab13238d039028232a45d
+[COMMIT MESSAGE]:shiro教程-第十七章
 
 =========================================================
-+@PreAuthorize("hasRole('ROLE_SUPER')")
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/grupocibertec/GProfesor/commit/1d97c964d6098718e471bebd6b2623bff1aa6714
+[COMMIT-URL]:https://github.com/hxwang/Course-Projects/commits/dc3cb054f213b9f4e2ceec99b1f42f6ec2bbcbb4/RMICalendar/code/deploy/Grant.java
 
-=========================================================
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/grupocibertec/GProfesor/commit/11ec4464429d3d26dfa19e2ce8499fa5665d90ef
+[COMMIT MESSAGE]:rearchive
 
 =========================================================
-=========================================================
-[CODE-CHANGE_URL]:https://github.com/raphaelLacerda/pluggedin/commit/8169dc11849112488cdc651b4071cd1bbfffe666
+[COMMIT-URL]:https://github.com/healthy183/gitRep/commits/2b92323c0f4cb049b3267b67a9584107bb775826/myShiroSpringWeb/src/main/java/com/kang/spring/service/PermissionServiceImpl.java
 
-=========================================================
+[COMMIT MESSAGE]:init maven git
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/raphaelLacerda/pluggedin/commit/00103651538d5e908145e38e79e9d1df93ee039a
+[COMMIT-URL]:https://github.com/liulimin/shiro-example/commits/c5bcb0e85b07e7822ab375a473324c16d9301b71/shiro-example-chapter12/src/main/java/com/github/zhangkaitao/shiro/chapter12/service/PermissionServiceImpl.java
 
+[COMMIT MESSAGE]:first commit
+
 =========================================================
-+ public boolean hasRole(String role) {
-+ if (!userLogged.getUser().hasRole(roles[i])) {
-+ assertTrue(user.hasRole("admin"));
-+ assertTrue(user.hasRole("super"));
-+ assertFalse(user.hasRole("admin123123"));
-+ assertFalse(user.hasRole("admin"));
-+ assertFalse(user.hasRole("super"));
-+ assertFalse(user.hasRole("admin123123"));
+[COMMIT-URL]:https://github.com/liulimin/shiro-example/commits/c5bcb0e85b07e7822ab375a473324c16d9301b71/shiro-example-chapter13/src/main/java/com/github/zhangkaitao/shiro/chapter13/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:first commit
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/cmontufa/checklist/commit/ad802aac7776ae04c2b189e3f3153f1bf5a88c3a
+[COMMIT-URL]:https://github.com/liulimin/shiro-example/commits/c5bcb0e85b07e7822ab375a473324c16d9301b71/shiro-example-chapter14/src/main/java/com/github/zhangkaitao/shiro/chapter14/service/PermissionServiceImpl.java
 
+[COMMIT MESSAGE]:first commit
+
 =========================================================
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-+ public static final String USER_ROLE = "hasRole('USER')";
-+ public static final String ADMIN_ROLE = "hasRole('ADMIN')";
+[COMMIT-URL]:https://github.com/liulimin/shiro-example/commits/c5bcb0e85b07e7822ab375a473324c16d9301b71/shiro-example-chapter15-client/src/main/java/com/github/zhangkaitao/shiro/chapter15/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:first commit
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=3&q=permission&type=Code&utf8=%E2%9C%93
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/dscoppelletti/programmerpower/commit/28a8beaaa4cffd28410d9662ae9b16ec739b9c45
+[COMMIT-URL]:https://github.com/zhangkaitao/shiro-example/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter12/src/main/java/com/github/zhangkaitao/shiro/chapter12/service/PermissionServiceImpl.java
 
+[COMMIT MESSAGE]:shiro教程-第十二章
+
 =========================================================
-+ access="hasRole('it.scoppelletti.admin')" />
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ <sec:authorize access="!hasRole('it.scoppelletti.admin') or '${code}' == authentication.name">
-+ <sec:authorize access="hasRole('it.scoppelletti.admin') and '${code}' != authentication.name">
-+<sec:authorize access="hasRole('it.scoppelletti.admin') or '${code}' == authentication.name and !hasRole('it.scoppelletti.guest')">
-+<sec:authorize access="hasRole('it.scoppelletti.admin')">
+[COMMIT-URL]:https://github.com/zhangkaitao/shiro-example/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter13/src/main/java/com/github/zhangkaitao/shiro/chapter13/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:shiro教程-第十三章
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/eneuwirt/vaadin-spring-jsp/commit/237a9a8e8daf1376f4fc149b2d02a6e69670f85d
+[COMMIT-URL]:https://github.com/zhangkaitao/shiro-example/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter14/src/main/java/com/github/zhangkaitao/shiro/chapter14/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:shiro教程-第十七章
 
 =========================================================
+[COMMIT-URL]:https://github.com/zhangkaitao/shiro-example/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter15-client/src/main/java/com/github/zhangkaitao/shiro/chapter15/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:shiro教程-第十七章
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[COMMIT-URL]:https://github.com/krishnabunny/deliverysystem/commits/7f61610186a252f88a4e032f26316172b82624ce/DeliverySystem/src/com/delivery/pojo/Permission.java
+
+[COMMIT MESSAGE]:Inital Commit
 
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
+[COMMIT-URL]:https://github.com/heyliger/cayenne/commits/e7fb0240d57f6d503ffec78ab9710f735d9d0720/domain/src/main/java/com/dlab/models/domain/cayenne/UserAdministration/PermissionHolder.java
+
+[COMMIT MESSAGE]:adding permissions functionality to User
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/01eaeecc56027028461e12b23f14b76790e0ec64
+[COMMIT-URL]:https://github.com/StickChen/practice/commits/a9f7a536f0e342bcbae97ca2dcf9c4a66d03bbcd/practice-shiro/src/main/java/com/shallop/codepractice/shiro/spring/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:初始化提交
 
 =========================================================
+[COMMIT-URL]:https://github.com/gingerhotel/shiro/commits/d87a6e4ea5506d369e3c24043b2837e0f88f1770/shiro-example-web/shiro-example-web/src/main/java/com/yibaomd/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:综合实例
+
+[COMMIT MESSAGE]:rememberMe and authc
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/contento3/Projects/commit/b43ebf9b399d06ae95ddfeb3bde951280f8d3f99
+[COMMIT-URL]:https://github.com/AlanFoster/Giver/commits/3f1f2c7770044ebd594997d3fe6d44a8af011bae/src/me/alanfoster/giver/Permission.java
 
+[COMMIT MESSAGE]:Added permission system
+Config.yml now allows specific spawnLimits for each Permission type.
+Config is now properly extracted to the data folder if it doesn't already exist, and if it already exists those values are then loaded.
+Spawn limits now defined as a map within Spawner.java, mapping Permission to the integer spawn limit.
+
 =========================================================
+[COMMIT-URL]:https://github.com/dcw650/rendan/commits/141230eedac2fad39a09daceec5626ee7d76a5c8/src/com/jialin/service/privilege/IPermissionManage.java
+
+[COMMIT MESSAGE]:add file
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=4&q=permission&type=Code&utf8=%E2%9C%93
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/vdupain/gwt/commit/e0fa0bf1795e82c0d55afdcb5f22d387ebbb0271
+[COMMIT-URL]:https://github.com/ParaPenguin/PenguinPermissions/commits/f6fd1d745255df74eddc613cb671057db19478ff/src/main/java/in/parapengu/permissions/user/rank/Permission.java
 
+[COMMIT MESSAGE]:Initial Commit
+
 =========================================================
-+ //@PreAuthorize("hasRole('ROLE_SUPERVISOR') or hasRole('ROLE_TELLER') and (#account.balance + #amount >= -#account.overdraft)")
-+ <intercept-url pattern="/SSGD/dispatch/fr.generali.gwt.dispatch.shared.ResetCounter" access="hasRole('ROLE_RESET')" />
-+ <intercept-url pattern="/SSGD/dispatch/**IncrementCounter" access="hasRole('ROLE_INCREMENT')" />
-+ <intercept-url pattern="/SSGD/dispatch/**DecrementCounter**" access="hasRole('ROLE_DECREMENT')" />
+[COMMIT-URL]:https://github.com/meva77/calender-assignment-/commits/6291e79e1a829bec875f9aa8b345494dd23865b2/calendar/Grant.java
+
+[COMMIT MESSAGE]:the implementation of the calender assignment using Java RMI
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/b1427fd4a32812eaa29b7c9204ce2c6af2dc9508
+[COMMIT-URL]:https://github.com/tanliansheng/springshirodemo/commits/0d55b77ce9dac31f713ad5c10361a8bd1fa7487c/springShiroDemo/src/com/jovision/service/PermissionServiceImpl.java
 
+[COMMIT MESSAGE]:1
+
 =========================================================
-+ String expected = "base when (Team2.this.hasRole(base,R.class))"; //$NON-NLS-1$
-+ " base when (hasRole(base)) {\n" +
-+ " base when (hasRole(base)) {\n" +
-+ base when (Team2.this.hasRole(base, R.class))
+[COMMIT-URL]:https://github.com/leosdaydream/myoa_server/commits/6e7fc28b8b1698a5cad56fad0c555a3964463b13/src/com/chinapower/action/PermissionAction.java
+
+[COMMIT MESSAGE]:The first Version
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/mateuszwenus/spring4-webapp/commit/f3b65e510477793f6d431d70b287ae7116b809ed
+[COMMIT-URL]:https://github.com/xunengsqlite/officeApply/commits/bc5fb81e0e0ee4e29bfc770fc53c308e33fa6e87/src/com/fnst/officeapply/entity/Authority.java
 
+[COMMIT MESSAGE]:project first push in
+
 =========================================================
-+ .antMatchers("/user").hasRole("USER")
-+ .antMatchers("/manager").hasRole("MANAGER")
-+ .antMatchers("/admin").hasRole("ADMIN")
-- @AuthorizeRequest("hasRole('ROLE_USER')")
-- @AuthorizeRequest("hasRole('ROLE_MANAGER')")
-- @AuthorizeRequest("hasRole('ROLE_ADMIN')")
-+ @AuthorizeRequest("hasRole('ROLE_USER')")
-+ @AuthorizeRequest("hasRole('ROLE_MANAGER')")
-+ @AuthorizeRequest("hasRole('ROLE_ADMIN')")
-+ @PreAuthorize("hasRole('ROLE_USER')")
-+ @PreAuthorize("hasRole('ROLE_MANAGER')")
-+ @PreAuthorize("hasRole('ROLE_ADMIN')")
+[COMMIT-URL]:https://github.com/mg0324/mlmw.friend/commits/763217613975f665ab9f4142a2fd6198ca174415/src/com/friend/vo/Permission.java
+
+[COMMIT MESSAGE]:save friend to github
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/marcocaboni/Spring-Security-Authorization-Annotation/commit/d02dfe306e221a38b5b10753698bdff70f0305d3
+[COMMIT-URL]:https://github.com/leosdaydream/myoa_server/commits/6e7fc28b8b1698a5cad56fad0c555a3964463b13/src/com/chinapower/service/impl/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:The first Version
 
 =========================================================
-+ @PreAuthorize("hasRole('USER') OR hasRole('ADMIN')")
-+ @PreAuthorize("hasRole('ADMIN')")
+[COMMIT-URL]:https://github.com/onsip/jitsi/commits/c76c9b2a846e401230d7004e0d08d520feae5dce/src/net/java/sip/communicator/impl/protocol/sip/xcap/model/commonpolicy/TransformationsType.java
+
+[COMMIT MESSAGE]:Switches Jitsi trunk to libjitsi.
+
+git-svn-id: https://svn.java.net/svn/jitsi~svn/trunk@9686 198c5059-ef06-4ec0-9a75-fdd6b0ef00a6
+
+[COMMIT MESSAGE]:Changes project name in source license headers from SIP Communicator to Jitsi
+
+git-svn-id: https://svn.java.net/svn/jitsi~svn/trunk@9025 198c5059-ef06-4ec0-9a75-fdd6b0ef00a6
+
+[COMMIT MESSAGE]:Authorization for SIP protocol, implement subscribe for presence.winfo rfc3857, rfc3858, rfc5025. Add block and polite-block to the currently available allow rules in xcap implementation and using them fo the sip authorization.
+Fix - do not subscribe for not in contactlist contacts and for terminated subscriptions.
+Remove warning for not found AAAA and A records, warn when both are not found.
+Change some config properties for autoaway.
+
+git-svn-id: https://svn.java.net/svn/jitsi~svn/trunk@7790 198c5059-ef06-4ec0-9a75-fdd6b0ef00a6
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/jkuryla/checklist/commit/ad802aac7776ae04c2b189e3f3153f1bf5a88c3a
+[COMMIT-URL]:https://github.com/healthy183/gitRep/commits/2b92323c0f4cb049b3267b67a9584107bb775826/myShiroAuthorization/src/test/java/com/kang/shiro/permission/BitAndWildPermissionResolver.java
 
+[COMMIT MESSAGE]:init maven git
+
 =========================================================
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-+ public static final String USER_ROLE = "hasRole('USER')";
-+ public static final String ADMIN_ROLE = "hasRole('ADMIN')";
+[COMMIT-URL]:https://github.com/PAFTF/paftp/commits/aa97641431fb6a8d1e0d28411e9b102f2391eaa4/PAFTestPlatform/src/com/paftp/service/permission/PermissionService.java
+
+[COMMIT MESSAGE]:change for unique sql and role apply
+
+[COMMIT MESSAGE]:applySut
+
+[COMMIT MESSAGE]:add role and permission
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=5&q=permission&type=Code&utf8=%E2%9C%93
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/eneuwirt/vaadin-spring-jsp/commit/237a9a8e8daf1376f4fc149b2d02a6e69670f85d
+[COMMIT-URL]:https://github.com/mihaimaruseac/cs680/commits/125bf2f01a884c3b7db1a62981c8b543c5d9d93a/src/Permission.java
+
+[COMMIT MESSAGE]:Permission skeleton.
 
 =========================================================
+[COMMIT-URL]:https://github.com/GiulioGx/Jama/commits/3d124260e55c44bfba8fa98d0ee60697e3a28a6b/Jama/src/main/java/usersManagement/RolePermission.java
+
+[COMMIT MESSAGE]:fix
+
+[COMMIT MESSAGE]:modifica utenti WIP
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[COMMIT-URL]:https://github.com/nhatnxbk/WorkPlace2/commits/f6a22d49e8cb2a05291dcb6d148fc15090899a9a/War2048-core/src/utils/networks/PermissionConfig.java
 
+[COMMIT MESSAGE]:Fist commit
+
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
+[COMMIT-URL]:https://github.com/h-t-ren/social-knowledge/commits/e02e5aad623e1a3b9a415a83345ae26cc68d7639/src/main/java/com/huaxinshengyuan/socknow/domain/enums/Permission.java
+
+[COMMIT MESSAGE]:cache
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/01eaeecc56027028461e12b23f14b76790e0ec64
+[COMMIT-URL]:https://github.com/boomshroom/Minecraft-API/commits/0a9dc79f16926d0a545c1e75774973d8ffd3589b/src/main/java/net/minecraft/workbench/server/permission/PermissionHolder.java
 
+[COMMIT MESSAGE]:more work on commands, permisions, and starting recipes.
+
 =========================================================
+[COMMIT-URL]:https://github.com/gingerhotel/shiro/commits/d87a6e4ea5506d369e3c24043b2837e0f88f1770/shiro-example/src/test/java/com/yibaomd/shiro_example/authorization/permission/BitAndWildPermissionResolver.java
+
+[COMMIT MESSAGE]:authorization bitPermission and wildcardPermission
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/dscoppelletti/programmerpower/commit/28a8beaaa4cffd28410d9662ae9b16ec739b9c45
+[COMMIT-URL]:https://github.com/maciejjo/javatown/commits/fb2a5f8f6cdb40aacbdacbd8af5d87b255a3ac60/src/Permission.java
 
+[COMMIT MESSAGE]:Implementacja klasy Builder
+
 =========================================================
-+ access="hasRole('it.scoppelletti.admin')" />
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ <sec:authorize access="!hasRole('it.scoppelletti.admin') or '${code}' == authentication.name">
-+ <sec:authorize access="hasRole('it.scoppelletti.admin') and '${code}' != authentication.name">
-+<sec:authorize access="hasRole('it.scoppelletti.admin') or '${code}' == authentication.name and !hasRole('it.scoppelletti.guest')">
-+<sec:authorize access="hasRole('it.scoppelletti.admin')">
+[COMMIT-URL]:https://github.com/githubhhb/shiro/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter11/src/main/java/com/github/zhangkaitao/shiro/chapter11/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:shiro教程-第十章
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/contento3/Projects/commit/b43ebf9b399d06ae95ddfeb3bde951280f8d3f99
+[COMMIT-URL]:https://github.com/githubhhb/shiro/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/service/PermissionServiceImpl.java
 
+[COMMIT MESSAGE]:shiro教程
+
 =========================================================
+[COMMIT-URL]:https://github.com/bikashdora/UserManagementClone/commits/8406eb73b2c7203cd13e9268c16db8832e4f1f8a/user-management-api/src/main/java/com/talentica/resam/api/UserAuthorizationService.java
+
+[COMMIT MESSAGE]:User Management
+
+User Management Clone
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=6&q=permission&type=Code&utf8=%E2%9C%93
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/b1427fd4a32812eaa29b7c9204ce2c6af2dc9508
+[COMMIT-URL]:https://github.com/leosdaydream/myoa_server/commits/6e7fc28b8b1698a5cad56fad0c555a3964463b13/src/com/chinapower/dao/PermissionDao.java
 
+[COMMIT MESSAGE]:The first Version
+
 =========================================================
-+ String expected = "base when (Team2.this.hasRole(base,R.class))"; //$NON-NLS-1$
-+ " base when (hasRole(base)) {\n" +
-+ " base when (hasRole(base)) {\n" +
-+ base when (Team2.this.hasRole(base, R.class))
+[COMMIT-URL]:https://github.com/leosdaydream/myoa_server/commits/6e7fc28b8b1698a5cad56fad0c555a3964463b13/src/com/chinapower/service/PermissionService.java
+
+[COMMIT MESSAGE]:The first Version
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/vdupain/gwt/commit/e0fa0bf1795e82c0d55afdcb5f22d387ebbb0271
+[COMMIT-URL]:https://github.com/liulimin/shiro-example/commits/c5bcb0e85b07e7822ab375a473324c16d9301b71/shiro-example-chapter11/src/main/java/com/github/zhangkaitao/shiro/chapter11/service/PermissionServiceImpl.java
 
+[COMMIT MESSAGE]:first commit
+
 =========================================================
-+ //@PreAuthorize("hasRole('ROLE_SUPERVISOR') or hasRole('ROLE_TELLER') and (#account.balance + #amount >= -#account.overdraft)")
-+ <intercept-url pattern="/SSGD/dispatch/fr.generali.gwt.dispatch.shared.ResetCounter" access="hasRole('ROLE_RESET')" />
-+ <intercept-url pattern="/SSGD/dispatch/**IncrementCounter" access="hasRole('ROLE_INCREMENT')" />
-+ <intercept-url pattern="/SSGD/dispatch/**DecrementCounter**" access="hasRole('ROLE_DECREMENT')" />
+[COMMIT-URL]:https://github.com/liulimin/shiro-example/commits/c5bcb0e85b07e7822ab375a473324c16d9301b71/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:first commit
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/mateuszwenus/spring4-webapp/commit/f3b65e510477793f6d431d70b287ae7116b809ed
+[COMMIT-URL]:https://github.com/javagurulv/eTaxi/commits/ec19f3d38fd27397bd39f41c7a4bd58f2d60eb84/etaxi-core/src/main/java/ua/etaxi/core/domain/builders/PermissionBuilder.java
 
+[COMMIT MESSAGE]:PermissionDAOImplTest - refactoring
+
 =========================================================
-+ .antMatchers("/user").hasRole("USER")
-+ .antMatchers("/manager").hasRole("MANAGER")
-+ .antMatchers("/admin").hasRole("ADMIN")
-- @AuthorizeRequest("hasRole('ROLE_USER')")
-- @AuthorizeRequest("hasRole('ROLE_MANAGER')")
-- @AuthorizeRequest("hasRole('ROLE_ADMIN')")
-+ @AuthorizeRequest("hasRole('ROLE_USER')")
-+ @AuthorizeRequest("hasRole('ROLE_MANAGER')")
-+ @AuthorizeRequest("hasRole('ROLE_ADMIN')")
-+ @PreAuthorize("hasRole('ROLE_USER')")
-+ @PreAuthorize("hasRole('ROLE_MANAGER')")
-+ @PreAuthorize("hasRole('ROLE_ADMIN')")
+[COMMIT-URL]:https://github.com/zhangkaitao/shiro-example/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter11/src/main/java/com/github/zhangkaitao/shiro/chapter11/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:shiro教程-第十章
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/marcocaboni/Spring-Security-Authorization-Annotation/commit/d02dfe306e221a38b5b10753698bdff70f0305d3
+[COMMIT-URL]:https://github.com/zhangkaitao/shiro-example/commits/650a10d3a76546ec4895501e1c221af3d385f8f3/shiro-example-chapter6/src/main/java/com/github/zhangkaitao/shiro/chapter6/service/PermissionServiceImpl.java
 
+[COMMIT MESSAGE]:shiro教程
+
 =========================================================
-+ @PreAuthorize("hasRole('USER') OR hasRole('ADMIN')")
-+ @PreAuthorize("hasRole('ADMIN')")
+[COMMIT-URL]:https://github.com/XioCo/Vanilla-Server/commits/e3f2d6b9a5c0a45441687d16c47a302a89e00eae/XioCo%20Plugin/src/net/scratchforfun/xioco/permission/Permission.java
+
+[COMMIT MESSAGE]:Source Code
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/jkuryla/checklist/commit/ad802aac7776ae04c2b189e3f3153f1bf5a88c3a
+[COMMIT-URL]:https://github.com/chuckpu/BIAdmin/commits/25f80c8d1190da1be960f3cc968d852dda3b883f/src/com/changhong/admin/model/Permission.java
 
+[COMMIT MESSAGE]:add all
+
 =========================================================
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-+ public static final String USER_ROLE = "hasRole('USER')";
-+ public static final String ADMIN_ROLE = "hasRole('ADMIN')";
+[COMMIT-URL]:https://github.com/tidecc5/tideapp-example/commits/5e3ea6b47264ae9e0a41fc73b98edac3a5082aaa/src/main/java/com/tidecc/shiro/chapter06/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:新增"Realm及相关对象"示例代码.
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=7&q=permission&type=Code&utf8=%E2%9C%93
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/eneuwirt/vaadin-spring-jsp/commit/237a9a8e8daf1376f4fc149b2d02a6e69670f85d
+[COMMIT-URL]:https://github.com/gingerhotel/shiro/commits/d87a6e4ea5506d369e3c24043b2837e0f88f1770/shiro-example/src/main/java/com/yibaomd/shiro_example/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:综合实例
 
+[COMMIT MESSAGE]:permission role user / database and dao,service
+
 =========================================================
+[COMMIT-URL]:https://github.com/Nemesizz/VoteInformer/commits/5372cfdd40a307b6e202e1ef652d9a1e06a0bf4b/src/me/dazed/VoteInformer/Permissions.java
+
+[COMMIT MESSAGE]:Added command
+
+added vi stats and funcionality
+
+[COMMIT MESSAGE]:Made Naming Changes
+
+[COMMIT MESSAGE]:Renamed Plugin
+
+Renamed Plugin due to the name I had being taken already on Bukkit
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/b3ab590534494be862b059f85a4e01d70e30fb18
+[COMMIT-URL]:https://github.com/ankittiwari0105/ankit-ericsson-boot-camp-Jan2015/commits/18882cf86e0753405d74fc126533b57543d2434a/sef-core/src/main/java/com/ericsson/raso/sef/core/db/model/Permission.java
 
+[COMMIT MESSAGE]:- DB implementation. Just ported... might require some cleanup later
+
 =========================================================
-+ public boolean hasRole(de.atomfrede.members.domain.entities.user.role.Roles role);
-+ public boolean hasRole(
-+ return hasRole(role.toString());
-- if(!session.getUser().hasRole("is_user")){
-+ if(!session.getUser().hasRole(Roles.IS_USER)){
+[COMMIT-URL]:https://github.com/StickChen/practice/commits/a9f7a536f0e342bcbae97ca2dcf9c4a66d03bbcd/practice-shiro/src/test/java/com/shallop/codepractice/shiro/realm/service/PermissionServiceImpl.java
+
+[COMMIT MESSAGE]:初始化提交
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/atomfrede/clubmembers/commit/01eaeecc56027028461e12b23f14b76790e0ec64
+[COMMIT-URL]:https://github.com/LinkNing/security/commits/4a8ba19a105abf7de8fd06cfeff643f041a1b8f8/shiro/src/main/java/net/nifoo/security/shiro/BitAndWildPermissionResolver.java
 
+[COMMIT MESSAGE]:加入git进行管理
+
 =========================================================
+[COMMIT-URL]:https://github.com/plarsootej/dmini/commits/4cbba52236b994963f46913dbaa60dd39b0e8a67/src/me/net/minigames/Permissions/SpleefPermissions.java
+
+[COMMIT MESSAGE]:upload
+
+upload
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/dscoppelletti/programmerpower/commit/28a8beaaa4cffd28410d9662ae9b16ec739b9c45
+[COMMIT-URL]:https://github.com/plarsootej/dmini/commits/4cbba52236b994963f46913dbaa60dd39b0e8a67/src/me/net/minigames/Permissions/TNTRunPermissions.java
+
+[COMMIT MESSAGE]:upload
 
+upload
+
 =========================================================
-+ access="hasRole('it.scoppelletti.admin')" />
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ @PreAuthorize("hasRole('it.scoppelletti.admin')")
-+ <sec:authorize access="!hasRole('it.scoppelletti.admin') or '${code}' == authentication.name">
-+ <sec:authorize access="hasRole('it.scoppelletti.admin') and '${code}' != authentication.name">
-+<sec:authorize access="hasRole('it.scoppelletti.admin') or '${code}' == authentication.name and !hasRole('it.scoppelletti.guest')">
-+<sec:authorize access="hasRole('it.scoppelletti.admin')">
+[COMMIT-URL]:https://github.com/futuretab/hasoftware/commits/b5f653c8f0e85b7d1ab813ed3f5c5cbf7d7a9597/src/hasoftware-library/src/hasoftware/api/PermissionException.java
+
+[COMMIT MESSAGE]:Server and library code
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/contento3/Projects/commit/b43ebf9b399d06ae95ddfeb3bde951280f8d3f99
+[COMMIT-URL]:https://github.com/rogeryee/TechStudy/commits/29f7e728c3b0bdb759267c0ef9e8e22f66e7124e/src/com/yee/study/shiro/authorization/BitAndWildPermissionResolver.java
 
+[COMMIT MESSAGE]:move all the java files to study package
+
 =========================================================
+[COMMIT-URL]:https://github.com/doragoncraft/server-maintenace/commits/f73a0ada33f9b82d305b8428956a3815029ce01c/src/me/carl230690/servermaintenance/Permissions.java
+
+[COMMIT MESSAGE]:upload
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=8&q=permission&type=Code&utf8=%E2%9C%93
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/eclipse/objectteams/commit/b1427fd4a32812eaa29b7c9204ce2c6af2dc9508
+[COMMIT-URL]:https://github.com/CRM2014/cf/commits/044d3dd04b636f2cc2bc3022d34072d4aefcc7c6/src/cf/crm/util/Info/PermissionInfo.java
+
+[COMMIT MESSAGE]: 主管被降职
 
+[COMMIT MESSAGE]:修改
+
+[COMMIT MESSAGE]:页面权限控制
+
 =========================================================
-+ String expected = "base when (Team2.this.hasRole(base,R.class))"; //$NON-NLS-1$
-+ " base when (hasRole(base)) {\n" +
-+ " base when (hasRole(base)) {\n" +
-+ base when (Team2.this.hasRole(base, R.class))
+[COMMIT-URL]:https://github.com/ideaplat/ELF/commits/c4199d156ce70d1b914bdc389190d047e59486e1/client/plugins/elf.client.framework.model/src/main/java/elf/client/framework/model/security/OperationPermissionModel.java
+
+[COMMIT MESSAGE]:init
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/vdupain/gwt/commit/e0fa0bf1795e82c0d55afdcb5f22d387ebbb0271
+[COMMIT-URL]:https://github.com/rogeryee/WebStudy/commits/f02e16ebe2f8d04dbc30d88e993f45105e287f35/src/com/yee/webstudy/shiro/authorization/BitAndWildPermissionResolver.java
 
+[COMMIT MESSAGE]:Add Authorization Samples
+
 =========================================================
-+ //@PreAuthorize("hasRole('ROLE_SUPERVISOR') or hasRole('ROLE_TELLER') and (#account.balance + #amount >= -#account.overdraft)")
-+ <intercept-url pattern="/SSGD/dispatch/fr.generali.gwt.dispatch.shared.ResetCounter" access="hasRole('ROLE_RESET')" />
-+ <intercept-url pattern="/SSGD/dispatch/**IncrementCounter" access="hasRole('ROLE_INCREMENT')" />
-+ <intercept-url pattern="/SSGD/dispatch/**DecrementCounter**" access="hasRole('ROLE_DECREMENT')" />
+[COMMIT-URL]:https://github.com/exuugug/SMARTUI/commits/50d6136ced792a321002fc6655538bf1cb9b28d2/sef-core/src/main/java/com/ericsson/raso/sef/core/db/model/Permission.java
+
+[COMMIT MESSAGE]:a
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/mateuszwenus/spring4-webapp/commit/f3b65e510477793f6d431d70b287ae7116b809ed
+[COMMIT-URL]:https://github.com/TheUnnamedDude/GnostBot/commits/fca1f71c102ff482fa98067f2c59e2829ee2d209/src/main/java/pw/tud/gnostbot/irc/UserPermission.java
 
+[COMMIT MESSAGE]:Initial commit, very WIP and code needs cleanup.
+
 =========================================================
-+ .antMatchers("/user").hasRole("USER")
-+ .antMatchers("/manager").hasRole("MANAGER")
-+ .antMatchers("/admin").hasRole("ADMIN")
-- @AuthorizeRequest("hasRole('ROLE_USER')")
-- @AuthorizeRequest("hasRole('ROLE_MANAGER')")
-- @AuthorizeRequest("hasRole('ROLE_ADMIN')")
-+ @AuthorizeRequest("hasRole('ROLE_USER')")
-+ @AuthorizeRequest("hasRole('ROLE_MANAGER')")
-+ @AuthorizeRequest("hasRole('ROLE_ADMIN')")
-+ @PreAuthorize("hasRole('ROLE_USER')")
-+ @PreAuthorize("hasRole('ROLE_MANAGER')")
-+ @PreAuthorize("hasRole('ROLE_ADMIN')")
+[COMMIT-URL]:https://github.com/nk3310/jivejdon/commits/38448e26bd7d5157e35beeb94a7297e633da5019/src/main/java/com/jdon/jivejdon/auth/OperationAuthorization.java
+
+[COMMIT MESSAGE]:增加了在h2数据库上的脚本等
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/marcocaboni/Spring-Security-Authorization-Annotation/commit/d02dfe306e221a38b5b10753698bdff70f0305d3
+[COMMIT-URL]:https://github.com/jackmew/spring-boot-security/commits/6ceffe8b9b826a52ed8e0dd097016482e1237b91/src/main/java/org/qifeng/sbs/service/PermissionServiceImpl.java
 
+[COMMIT MESSAGE]:Method Security with Permission
+
 =========================================================
-+ @PreAuthorize("hasRole('USER') OR hasRole('ADMIN')")
-+ @PreAuthorize("hasRole('ADMIN')")
+[COMMIT-URL]:https://github.com/kodalisarath/sef/commits/18882cf86e0753405d74fc126533b57543d2434a/sef-core/src/main/java/com/ericsson/raso/sef/core/db/model/Permission.java
+
+[COMMIT MESSAGE]:- DB implementation. Just ported... might require some cleanup later
+
 =========================================================
-[CODE-CHANGE_URL]:https://github.com/jkuryla/checklist/commit/ad802aac7776ae04c2b189e3f3153f1bf5a88c3a
+[COMMIT-URL]:https://github.com/galahade/scommerce/commits/5077b49e72a61ae4dd61a85e978c641266b55d58/src/test/java/com/salmon/scommerce/test/shiro/BitAndWildPermissionResolver.java
+
+[COMMIT MESSAGE]:Remove @Override
+
+[COMMIT MESSAGE]:Shiro function test code
 
 =========================================================
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-- @PreAuthorize("hasRole('USER')")
-+ public static final String USER_ROLE = "hasRole('USER')";
-+ public static final String ADMIN_ROLE = "hasRole('ADMIN')";
+[COMMIT-URL]:https://github.com/vedannt/svem/commits/145d0d0335bdea1cc543132d7fbc06cb64f758f1/src/main/java/com/vedannt/svem/models/daos/IPermissionDAO.java
+
+[COMMIT MESSAGE]:Apartado de seguridad
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=9&q=permission&type=Code&utf8=%E2%9C%93
+

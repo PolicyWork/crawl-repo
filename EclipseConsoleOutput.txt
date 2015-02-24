@@ -1,0 +1,570 @@
+Next Page URL is <><><><>:https://github.com/search?l=java&p=97&q=HasRole&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java]
+size of urls is:2
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java]
+size of urls is:3
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java]
+size of urls is:4
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/55cc20e43620d58f3331ee4e3939c1d940356a4d/src/main/java/dash/service/HourService.java]
+size of urls is:5
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/55cc20e43620d58f3331ee4e3939c1d940356a4d/src/main/java/dash/service/HourService.java, https://github.com/WildSpirit94/LessonSchedule/commits/e1f37c1276ffc7d7089c3a8432260d002c57797b/src/main/java/scheduleApp/controller/ScheduleController.java]
+size of urls is:6
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/55cc20e43620d58f3331ee4e3939c1d940356a4d/src/main/java/dash/service/HourService.java, https://github.com/WildSpirit94/LessonSchedule/commits/e1f37c1276ffc7d7089c3a8432260d002c57797b/src/main/java/scheduleApp/controller/ScheduleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0b83ab3a1d0e1d1592c204201d18abbc005c8273/src/main/java/dash/service/HourService.java]
+size of urls is:7
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/55cc20e43620d58f3331ee4e3939c1d940356a4d/src/main/java/dash/service/HourService.java, https://github.com/WildSpirit94/LessonSchedule/commits/e1f37c1276ffc7d7089c3a8432260d002c57797b/src/main/java/scheduleApp/controller/ScheduleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0b83ab3a1d0e1d1592c204201d18abbc005c8273/src/main/java/dash/service/HourService.java, https://github.com/rodelcua03/metro-residences/commits/81f921b0b355d83ce06d9d8274036f3dbb072ffd/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/core/controller/ProjectController.java]
+size of urls is:8
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/55cc20e43620d58f3331ee4e3939c1d940356a4d/src/main/java/dash/service/HourService.java, https://github.com/WildSpirit94/LessonSchedule/commits/e1f37c1276ffc7d7089c3a8432260d002c57797b/src/main/java/scheduleApp/controller/ScheduleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0b83ab3a1d0e1d1592c204201d18abbc005c8273/src/main/java/dash/service/HourService.java, https://github.com/rodelcua03/metro-residences/commits/81f921b0b355d83ce06d9d8274036f3dbb072ffd/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/core/controller/ProjectController.java, https://github.com/DataAnalyticsinStudentHands/PublicArtBackend/commits/f8e42b326e242441b885f22a9a5a3d6c0ce88616/src/main/java/dash/service/SampleObjectService.java]
+size of urls is:9
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/55cc20e43620d58f3331ee4e3939c1d940356a4d/src/main/java/dash/service/HourService.java, https://github.com/WildSpirit94/LessonSchedule/commits/e1f37c1276ffc7d7089c3a8432260d002c57797b/src/main/java/scheduleApp/controller/ScheduleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0b83ab3a1d0e1d1592c204201d18abbc005c8273/src/main/java/dash/service/HourService.java, https://github.com/rodelcua03/metro-residences/commits/81f921b0b355d83ce06d9d8274036f3dbb072ffd/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/core/controller/ProjectController.java, https://github.com/DataAnalyticsinStudentHands/PublicArtBackend/commits/f8e42b326e242441b885f22a9a5a3d6c0ce88616/src/main/java/dash/service/SampleObjectService.java, https://github.com/cbensemann/SimpleSecurity/commits/30426809f0763fbe3de939f9b89ae523e61c5dc0/src/test/java/nz/co/nomadconsulting/simplesecurity/idm/IdentityManagerTest.java]
+size of urls is:10
+urlsOfFileCommits:->[https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java, https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/55cc20e43620d58f3331ee4e3939c1d940356a4d/src/main/java/dash/service/HourService.java, https://github.com/WildSpirit94/LessonSchedule/commits/e1f37c1276ffc7d7089c3a8432260d002c57797b/src/main/java/scheduleApp/controller/ScheduleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0b83ab3a1d0e1d1592c204201d18abbc005c8273/src/main/java/dash/service/HourService.java, https://github.com/rodelcua03/metro-residences/commits/81f921b0b355d83ce06d9d8274036f3dbb072ffd/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/core/controller/ProjectController.java, https://github.com/DataAnalyticsinStudentHands/PublicArtBackend/commits/f8e42b326e242441b885f22a9a5a3d6c0ce88616/src/main/java/dash/service/SampleObjectService.java, https://github.com/cbensemann/SimpleSecurity/commits/30426809f0763fbe3de939f9b89ae523e61c5dc0/src/test/java/nz/co/nomadconsulting/simplesecurity/idm/IdentityManagerTest.java, https://github.com/atais/PP-JSON/commits/595ac1a914c64678df3713d8b0a8b9cf4e274c69/src/main/java/pl/lodz/pp/controllers/crud/UserInterface.java]
+WORKING URL NOW->https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/LearningGoalServiceImp.java
+Commit Message:->Protegidas las vistas desde la propias jsp.
+Protegidos todos los métodos de servicios.
+Arreglado user y customUserDetails
+Se puede bloquear y desbloquear usuarios siendo administrador.
+-- Finalizada la parte de scpring security básica. --
+Commit Message:->Añadida Entity Group. Modificados deletes.
+Commit Message:->Activity y Learning Goal funcionando.
+WORKING URL NOW->https://github.com/romoAlmudena/tfg/commits/1fff1d288f4d156f7328194809598645fcf2c600/src/main/java/com/example/tfg/service/implementation/UserServiceImp.java
+Commit Message:->Protegidas las vistas desde la propias jsp.
+Protegidos todos los métodos de servicios.
+Arreglado user y customUserDetails
+Se puede bloquear y desbloquear usuarios siendo administrador.
+-- Finalizada la parte de scpring security básica. --
+Commit Message:->Añadir usuarios de forma individual
+Añadir usuarios a través de un CSV  (forma múltiple)
+--> public boolean persistALotUsers(List<User> users)
+Nota: Hay que poner el setId = nulo  debido al autogenerated value
+Commit Message:->Eliminado Checkbox en Course
+Eliminada cláusula @Where y controlado en las  querys
+Creado el Service y Dao de User
+Creada clase para Charset
+Creado controller de User : Listado de todos los usuarios y ver un usuario concreto (incluye paginación)
+Pagina personalizada para User y para Admin
+Añadido nuevos datos de prueba
+Corregida redireccion tras terminar de modificar una actividad
+Un poco de limpieza de código
+Añadida seguridad para la contraseña (CIFRADO SHA)
+
+A TENER EN CUENTA: Falla el persist a traves del CSV
+WORKING URL NOW->https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/taskManagement/th/ac/kbu/cs/ExamProject/Controller/TaskManagementController.java
+Commit Message:->can view examReport,assignmentReport,studentReport
+Commit Message:->optimize layer stucture
+Commit Message:->can evaluate assignment
+Commit Message:->can view task,can edit task
+Commit Message:->can assign task
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/55cc20e43620d58f3331ee4e3939c1d940356a4d/src/main/java/dash/service/HourService.java
+Commit Message:->Added @Component to all DaoImpl, Service, and Resource. Now, only need to register Resource in the DashAppSetup.java
+
+Also, removed mysql jar from WAR by adding a scope provided in the pom.xml
+Commit Message:->Added @Component to all DaoImpl, Service, and Resource. Now, only need to register Resource in the DashAppSetup.java
+
+Also, removed mysql jar from WAR by adding a scope provided in the pom.xml
+Commit Message:->Remove imports.
+Commit Message:->-Hours are now more or less fully functional.  Have not tested
+partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+WORKING URL NOW->https://github.com/WildSpirit94/LessonSchedule/commits/e1f37c1276ffc7d7089c3a8432260d002c57797b/src/main/java/scheduleApp/controller/ScheduleController.java
+Commit Message:->Minor LessonService improvement.
+Commit Message:->More concise API implementation.
+Commit Message:->Set up c3p0 connection provider.
+Commit Message:->Better solution implemented for searching a list of lessons by groupId and instructorId.
+Commit Message:->Implemented fetching lessons in JSON format through HTTP POST. Added displaying list of groups in schedule for instructors. Improved comments in Spring Security part of application. Minor fixes.
+Commit Message:->Major refactoring: everything is nicely placed in the appropriate package. Service layer architecture fully implemented.
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0b83ab3a1d0e1d1592c204201d18abbc005c8273/src/main/java/dash/service/HourService.java
+Commit Message:->Changing up all the permissions for SHAPE.
+Commit Message:->Added @Component to all DaoImpl, Service, and Resource. Now, only need to register Resource in the DashAppSetup.java
+
+Also, removed mysql jar from WAR by adding a scope provided in the pom.xml
+Commit Message:->Added @Component to all DaoImpl, Service, and Resource. Now, only need to register Resource in the DashAppSetup.java
+
+Also, removed mysql jar from WAR by adding a scope provided in the pom.xml
+Commit Message:->Remove imports.
+Commit Message:->-Hours are now more or less fully functional.  Have not tested
+partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+WORKING URL NOW->https://github.com/rodelcua03/metro-residences/commits/81f921b0b355d83ce06d9d8274036f3dbb072ffd/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/core/controller/ProjectController.java
+Commit Message:->Added  sidebar import for featured and recent. Remove forrent on admin page. Minor cleanups.
+Commit Message:->Fix search feature. Minor cleanup.
+Commit Message:->Added search function to all pages
+Commit Message:->Added feature image sorting for amenity and gallery. Fix bugs and cleanups.
+Commit Message:->Added fixes and update on homepage. Added path url for viewing projects.
+Commit Message:->Made changes to blog and promo. Added improvements.
+Commit Message:->[Sprint 4] Checkpoint
+Commit Message:->Added developer create edit and view. Fix developer bug on unique name. Fix bug on non editabel unit layout and floor plan values. Added view with desired css. Added static images, icon and js. Added gallery, video and keyword to model.
+Commit Message:->Major update before Sprint 3. Added edit for project. Major update on add for project. Updates on model and services.
+Commit Message:->Update on models. Update on webforms. Added changes on edit.
+Commit Message:->Unstable build checkpoint.
+Commit Message:->Sprint 1. Checkpoint.
+Commit Message:->Added view project. Added codec dependency. Image process in jsp files.
+Commit Message:->Added net constraint on project form. Added jquery.
+Commit Message:->Added model and service projects. Added minor updates on app-web.
+Commit Message:->Added spring mvc configs.
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/PublicArtBackend/commits/f8e42b326e242441b885f22a9a5a3d6c0ce88616/src/main/java/dash/service/SampleObjectService.java
+Commit Message:->Added file upload functionality to sampleObject
+New log back configuration to log into separate files
+Commit Message:->Cleaning out
+Commit Message:->Overwrote the project to bring it up to date and provided a sample
+implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+WORKING URL NOW->https://github.com/cbensemann/SimpleSecurity/commits/30426809f0763fbe3de939f9b89ae523e61c5dc0/src/test/java/nz/co/nomadconsulting/simplesecurity/idm/IdentityManagerTest.java
+Commit Message:->updates for revoke roles
+Commit Message:->updates to add extra support for working with Roles
+Commit Message:->fixed up packaging structure to reflect new name. added todo. updated readme
+WORKING URL NOW->https://github.com/atais/PP-JSON/commits/595ac1a914c64678df3713d8b0a8b9cf4e274c69/src/main/java/pl/lodz/pp/controllers/crud/UserInterface.java
+Commit Message:->smallchanges 2
+Commit Message:->Hack for transactions
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=97&q=HasRole&type=Code&utf8=%E2%9C%93
+
+
+BEFORE GET REQUEST _+_+_+_+_+_+
+Counter value:=96
+Next Page URL is <><><><>:https://github.com/search?l=java&p=98&q=HasRole&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java]
+size of urls is:2
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java]
+size of urls is:3
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java]
+size of urls is:4
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/admin/service/impl/ReportServiceImpl.java]
+size of urls is:5
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/admin/service/impl/ReportServiceImpl.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity1/src/main/java/com/springapp/security/UserService.java]
+size of urls is:6
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/admin/service/impl/ReportServiceImpl.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity1/src/main/java/com/springapp/security/UserService.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity2/src/main/java/com/codesolid/goals/model/service/UserService.java]
+size of urls is:7
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/admin/service/impl/ReportServiceImpl.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity1/src/main/java/com/springapp/security/UserService.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity2/src/main/java/com/codesolid/goals/model/service/UserService.java, https://github.com/ushakoff/tst-rw/commits/a5f9b1219879387fb6b75614280c67493c350516/src/main/java/rw/init/SecurityConfig.java]
+size of urls is:8
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/admin/service/impl/ReportServiceImpl.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity1/src/main/java/com/springapp/security/UserService.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity2/src/main/java/com/codesolid/goals/model/service/UserService.java, https://github.com/ushakoff/tst-rw/commits/a5f9b1219879387fb6b75614280c67493c350516/src/main/java/rw/init/SecurityConfig.java, https://github.com/opennucleus/opennucleus/commits/b14c3db8a64c254d553dfc8bd432de64ecc6e9d0/security/src/main/java/org/opennucleus/security/service/impl/SecurityServiceImpl.java]
+size of urls is:9
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/admin/service/impl/ReportServiceImpl.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity1/src/main/java/com/springapp/security/UserService.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity2/src/main/java/com/codesolid/goals/model/service/UserService.java, https://github.com/ushakoff/tst-rw/commits/a5f9b1219879387fb6b75614280c67493c350516/src/main/java/rw/init/SecurityConfig.java, https://github.com/opennucleus/opennucleus/commits/b14c3db8a64c254d553dfc8bd432de64ecc6e9d0/security/src/main/java/org/opennucleus/security/service/impl/SecurityServiceImpl.java, https://github.com/vorburger/mifos-head/commits/b77be9aa97283a21d209d8c27c6b58128450dff4/serviceInterfaces/src/main/java/org/mifos/application/admin/servicefacade/AdminServiceFacade.java]
+size of urls is:10
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java, https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/admin/service/impl/ReportServiceImpl.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity1/src/main/java/com/springapp/security/UserService.java, https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity2/src/main/java/com/codesolid/goals/model/service/UserService.java, https://github.com/ushakoff/tst-rw/commits/a5f9b1219879387fb6b75614280c67493c350516/src/main/java/rw/init/SecurityConfig.java, https://github.com/opennucleus/opennucleus/commits/b14c3db8a64c254d553dfc8bd432de64ecc6e9d0/security/src/main/java/org/opennucleus/security/service/impl/SecurityServiceImpl.java, https://github.com/vorburger/mifos-head/commits/b77be9aa97283a21d209d8c27c6b58128450dff4/serviceInterfaces/src/main/java/org/mifos/application/admin/servicefacade/AdminServiceFacade.java, https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commits/71d000be167d856372e8d65f528151400fd9f0a8/src/main/java/dash/service/SampleObjectService.java]
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commits/4ccd2946e1a759424ba95e279e2d5b078e1508ba/src/main/java/dash/service/SampleObjectService.java
+Commit Message:->Fixed issue with null values.  Everything but file upload is working.
+
+Notice wierd qwerk with hibernate and embedded objects.  It is updating
+them unnecissarily.
+Commit Message:->fixed SampleObjectService
+Commit Message:->Added file upload functionality to sampleObject
+New log back configuration to log into separate files
+Commit Message:->Cleaning out
+Commit Message:->Overwrote the project to bring it up to date and provided a sample
+implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+WORKING URL NOW->https://github.com/cnyangyifeng/lark/commits/42a83984ecca06f2518fc49725846abfde08c51c/src/main/java/com/kuxue/utils/ShiroUtils.java
+Commit Message:->增加新版本的文件
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/bfb6f3b9f8adf3363fa6f2dba940f70823af940e/src/main/java/dash/service/HourService.java
+Commit Message:->Added @Component to all DaoImpl, Service, and Resource. Now, only need to register Resource in the DashAppSetup.java
+
+Also, removed mysql jar from WAR by adding a scope provided in the pom.xml
+Commit Message:->Added @Component to all DaoImpl, Service, and Resource. Now, only need to register Resource in the DashAppSetup.java
+
+Also, removed mysql jar from WAR by adding a scope provided in the pom.xml
+Commit Message:->Remove imports.
+Commit Message:->-Hours are now more or less fully functional.  Have not tested
+partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+WORKING URL NOW->https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/admin/service/impl/ReportServiceImpl.java
+Commit Message:->Update Report
+Commit Message:->Update report
+Commit Message:->cong thanh fix
+Commit Message:->newest
+WORKING URL NOW->https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity1/src/main/java/com/springapp/security/UserService.java
+Commit Message:->Initial commit SpringSecurity1
+WORKING URL NOW->https://github.com/CodeSolid/tutorials/commits/2eec7667c0143d58aff408902f9646acde1b9f94/SpringSecurity2/src/main/java/com/codesolid/goals/model/service/UserService.java
+Commit Message:->Spring Security 2. JDBC database based auth, basic pages in place to support registrtation
+WORKING URL NOW->https://github.com/ushakoff/tst-rw/commits/a5f9b1219879387fb6b75614280c67493c350516/src/main/java/rw/init/SecurityConfig.java
+Commit Message:->firstcommit
+WORKING URL NOW->https://github.com/opennucleus/opennucleus/commits/b14c3db8a64c254d553dfc8bd432de64ecc6e9d0/security/src/main/java/org/opennucleus/security/service/impl/SecurityServiceImpl.java
+Commit Message:->Working on search and workflow
+Commit Message:->Working on building opennucleus app and workflow
+Commit Message:->Working on content stores
+Commit Message:->Adding more naming changes
+Commit Message:->Adding workflow code
+Commit Message:->Reorganizing project
+WORKING URL NOW->https://github.com/vorburger/mifos-head/commits/b77be9aa97283a21d209d8c27c6b58128450dff4/serviceInterfaces/src/main/java/org/mifos/application/admin/servicefacade/AdminServiceFacade.java
+Commit Message:->extend spring locale resolver to resovle locale from mifos configuration.
+Commit Message:->MIFOS-3334: add ftl and controllers for view, define and edit report categories
+Commit Message:->MIFOS-3330: support viewing change logs for loan products
+Commit Message:->MIFOS-3330: tidy up edit-preview-update of loan products
+Commit Message:->MIFOS-3330: support view-edit-preview-update loan product flow.
+Commit Message:->MIFOS-3330: add confirmation page for define new loan product flow
+Commit Message:->MIFOS-3331: tidy up spring security and add security around savings product service facades
+Commit Message:->MIFOS-3331: ensure business rules validation for edit and create saving product flows
+Commit Message:->MIFOS-3331: support display, edit, preview and update saving product details
+Commit Message:->MIFOS-3331: define new savings products flow
+Commit Message:->MIFOS-3331: load reference data and bind to saving product creation form.
+Commit Message:->MIFOS-3328: switch to ftl spring implementation for product categories links
+Commit Message:->MIFOS-3330: support minimal loan product creation
+Commit Message:->MIFOS-3329: add security and remove old implementation of product mix
+Commit Message:->MIFOS-3324: remove jsp/struts implementation
+Commit Message:->MIFOS-3329: defineProductsMix and editProductsMix flows partially finished
+Commit Message:->MIFOS-3329: start work on define product mix form
+Commit Message:->MIFOS-3321: get form binding working for multiselect and hook up controller with service facade. Chnage admin.jsp to point to new .ftl url
+Commit Message:->[MIFOS-3328], Added service facade for load/create/update product categories
+Commit Message:->[MIFOS-3328], partially. Added service facade for viewing product categories
+Commit Message:->MIFOS-3329: allow display of product mix
+Commit Message:->MIFOS-3329: code review - dont throw exception
+Commit Message:->[MIFOS-3321] added service facade mathod for define accepted payment types
+
+Added the basic retrieve and update method for define accepted payment types,
+more modification to follow for proper structure.
+Commit Message:->Resolved conflicts.
+Commit Message:->MIFOS-3323: fix acceptance test and support same level of security for viewing and updating labels
+Commit Message:->Resolved conflicts
+Commit Message:->MIFOS-3323: handle form submission
+Commit Message:->[MIFOS-3321] Partial commit for the load method services
+Commit Message:->[MIFOS-3324] Added service facade methods for define mandatory/hidden fields
+Commit Message:->MIFOS-3323: create controller and handle display of populated form for defining labels.
+Commit Message:->merge master into shahids branch
+Commit Message:->MIFOS-3318: code review - integrate security and make link on admin page link to new freemarker page.
+Commit Message:->MIFOS-3318: code review - remove need for office level enum which mimics the domain OfficeLevel enum, add integration test around DAO
+Commit Message:->MIFOS-3318: code review - dont throw exception ever, if exceptions need to be fired back due to business validation rules failing, we should use a runtime exception.
+Commit Message:->[MIFOS-3331] WIP - spring controller for viewSavingsProducts.ftl
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commits/71d000be167d856372e8d65f528151400fd9f0a8/src/main/java/dash/service/SampleObjectService.java
+Commit Message:->Fixed issue with null values.  Everything but file upload is working.
+
+Notice wierd qwerk with hibernate and embedded objects.  It is updating
+them unnecissarily.
+Commit Message:->fixed SampleObjectService
+Commit Message:->Added file upload functionality to sampleObject
+New log back configuration to log into separate files
+Commit Message:->Cleaning out
+Commit Message:->Overwrote the project to bring it up to date and provided a sample
+implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=98&q=HasRole&type=Code&utf8=%E2%9C%93
+
+
+BEFORE GET REQUEST _+_+_+_+_+_+
+Counter value:=97
+Next Page URL is <><><><>:https://github.com/search?l=java&p=99&q=HasRole&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java]
+size of urls is:2
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java]
+size of urls is:3
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java, https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java]
+size of urls is:4
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java, https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java, https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commits/470857cf849c121303b4b9178cba4f8a22c2fed0/src/main/java/dash/service/CommentService.java]
+size of urls is:5
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java, https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java, https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commits/470857cf849c121303b4b9178cba4f8a22c2fed0/src/main/java/dash/service/CommentService.java, https://github.com/akevinlee/ring2park-online/commits/31550f5f4e6c541f968d0fc6efad361f1d91a83e/src/main/java/com/dps/ring2park/service/UserService.java]
+size of urls is:6
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java, https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java, https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commits/470857cf849c121303b4b9178cba4f8a22c2fed0/src/main/java/dash/service/CommentService.java, https://github.com/akevinlee/ring2park-online/commits/31550f5f4e6c541f968d0fc6efad361f1d91a83e/src/main/java/com/dps/ring2park/service/UserService.java, https://github.com/TheGreenLark/plantApp/commits/e9b06078d0ec0894c7bb2ae3be5fcc5f9aec64d7/src/main/java/dash/service/CommentService.java]
+size of urls is:7
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java, https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java, https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commits/470857cf849c121303b4b9178cba4f8a22c2fed0/src/main/java/dash/service/CommentService.java, https://github.com/akevinlee/ring2park-online/commits/31550f5f4e6c541f968d0fc6efad361f1d91a83e/src/main/java/com/dps/ring2park/service/UserService.java, https://github.com/TheGreenLark/plantApp/commits/e9b06078d0ec0894c7bb2ae3be5fcc5f9aec64d7/src/main/java/dash/service/CommentService.java, https://github.com/javasparx/BoilerplateSpringGwtBootstrap/commits/8a15dfe5e368aa81e02d9e63e4e62184664506a4/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java]
+size of urls is:8
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java, https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java, https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commits/470857cf849c121303b4b9178cba4f8a22c2fed0/src/main/java/dash/service/CommentService.java, https://github.com/akevinlee/ring2park-online/commits/31550f5f4e6c541f968d0fc6efad361f1d91a83e/src/main/java/com/dps/ring2park/service/UserService.java, https://github.com/TheGreenLark/plantApp/commits/e9b06078d0ec0894c7bb2ae3be5fcc5f9aec64d7/src/main/java/dash/service/CommentService.java, https://github.com/javasparx/BoilerplateSpringGwtBootstrap/commits/8a15dfe5e368aa81e02d9e63e4e62184664506a4/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/questionManagement/th/ac/kbu/cs/ExamProject/Controller/ViewQuestionController.java]
+size of urls is:9
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java, https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java, https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commits/470857cf849c121303b4b9178cba4f8a22c2fed0/src/main/java/dash/service/CommentService.java, https://github.com/akevinlee/ring2park-online/commits/31550f5f4e6c541f968d0fc6efad361f1d91a83e/src/main/java/com/dps/ring2park/service/UserService.java, https://github.com/TheGreenLark/plantApp/commits/e9b06078d0ec0894c7bb2ae3be5fcc5f9aec64d7/src/main/java/dash/service/CommentService.java, https://github.com/javasparx/BoilerplateSpringGwtBootstrap/commits/8a15dfe5e368aa81e02d9e63e4e62184664506a4/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/questionManagement/th/ac/kbu/cs/ExamProject/Controller/ViewQuestionController.java, https://github.com/sunbiz/dhis2/commits/451bb9d583fde4efdd71d1576dda260b321cb709/dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/FilteredMetaDataController.java]
+size of urls is:10
+urlsOfFileCommits:->[https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java, https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java, https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java, https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commits/470857cf849c121303b4b9178cba4f8a22c2fed0/src/main/java/dash/service/CommentService.java, https://github.com/akevinlee/ring2park-online/commits/31550f5f4e6c541f968d0fc6efad361f1d91a83e/src/main/java/com/dps/ring2park/service/UserService.java, https://github.com/TheGreenLark/plantApp/commits/e9b06078d0ec0894c7bb2ae3be5fcc5f9aec64d7/src/main/java/dash/service/CommentService.java, https://github.com/javasparx/BoilerplateSpringGwtBootstrap/commits/8a15dfe5e368aa81e02d9e63e4e62184664506a4/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/questionManagement/th/ac/kbu/cs/ExamProject/Controller/ViewQuestionController.java, https://github.com/sunbiz/dhis2/commits/451bb9d583fde4efdd71d1576dda260b321cb709/dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/FilteredMetaDataController.java, https://github.com/jeffreyji666/buzz-ads/commits/48d79bb075f8364f529e312f0d8a8677e797d13e/buzz-ads-core/src/main/java/com/buzzinate/buzzads/user/LoginHelper.java]
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/d9892bfece1f53ad56fa883822d346bb59f458ee/src/main/java/dash/service/HourService.java
+Commit Message:->started ..
+Commit Message:->-Hours are now more or less fully functional.  Have not tested
+partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+WORKING URL NOW->https://github.com/Tasktop/code2cloud.server/commits/dcdcccc5a80671d698609190323fb5c7a294ed06/com.tasktop.c2c.server/com.tasktop.c2c.server.common.profile.web.ui/src/main/java/com/tasktop/c2c/server/common/profile/web/client/AuthenticationHelper.java
+Commit Message:->REOPENED - task 4420: check org_admin role to display edit org button
+https://q.tasktop.com/alm/#projects/c2c/task/4420
+Commit Message:->task 4138: Support Organization public projects 
+https://q.tasktop.com/alm/#projects/c2c/task/4138
+
+remove unused role-related concerns in the client
+Commit Message:->4138: Support Organization public projects
+https://q.tasktop.com/alm/#projects/c2c/task/4138
+
+* rework project.public property into enum with 3 states
+* drop unused gwt classes
+Commit Message:->task 4097: Factor out ui code from profile.web project into new project 
+https://q.tasktop.com/alm/#projects/c2c/task/4097
+WORKING URL NOW->https://github.com/dhhabi/courierapp/commits/093a8a26aaa1b6fc1217d0c8dbfe288001c0e543/src/main/java/com/mkyong/web/controller/MainController.java
+Commit Message:->solved
+Commit Message:->Taking order complete
+Commit Message:->asdfadf
+Commit Message:->user functionality !
+Commit Message:->asdfasdf
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commits/470857cf849c121303b4b9178cba4f8a22c2fed0/src/main/java/dash/service/CommentService.java
+Commit Message:->Remove imports.
+Commit Message:->Mostly done with comments. Available at "/comments" Performs basic CRUD.
+Pending some testing and client-integration changes.
+
+Please verify the SQL file is correct before merging, the size seems to have almost doubled. Maybe too much being exported.
+WORKING URL NOW->https://github.com/akevinlee/ring2park-online/commits/31550f5f4e6c541f968d0fc6efad361f1d91a83e/src/main/java/com/dps/ring2park/service/UserService.java
+Commit Message:->Refactored database properties.
+Refactored user details and role checking.
+Commit Message:->Updated to use MySQL
+Commit Message:->Added basic AJAX login
+Commit Message:->Updated security filters and register links
+Commit Message:->Refactoring directory structure
+WORKING URL NOW->https://github.com/TheGreenLark/plantApp/commits/e9b06078d0ec0894c7bb2ae3be5fcc5f9aec64d7/src/main/java/dash/service/CommentService.java
+Commit Message:->Mostly done with comments. Available at "/comments" Performs basic CRUD.
+Pending some testing and client-integration changes.
+
+Please verify the SQL file is correct before merging, the size seems to have almost doubled. Maybe too much being exported.
+WORKING URL NOW->https://github.com/javasparx/BoilerplateSpringGwtBootstrap/commits/8a15dfe5e368aa81e02d9e63e4e62184664506a4/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java
+Commit Message:->Initial commit
+WORKING URL NOW->https://github.com/aukwat/ExamProject/commits/10144f8ccf61f9a8b36c24b4f4b89c1abcf881e6/src/questionManagement/th/ac/kbu/cs/ExamProject/Controller/ViewQuestionController.java
+Commit Message:->can view task,can edit task
+Commit Message:->can create edit view news
+Commit Message:->Set Permission (Teacher)
+Remove Menu (Admin)
+Catch Exception at Controller
+Commit Message:->Change Project Structure
+Commit Message:->Cleaning
+Commit Message:->can edit examheader,startdate,enddate,numOfQuestion,examlimit
+add exam page-> use globalize plugin
+Commit Message:->change method viewQuestion from GET > POST
+Commit Message:->Can edit question
+can add edit delete answer
+WORKING URL NOW->https://github.com/sunbiz/dhis2/commits/451bb9d583fde4efdd71d1576dda260b321cb709/dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/FilteredMetaDataController.java
+Commit Message:->update to rev 17693
+Commit Message:->updated to rev 15774
+Commit Message:->updated to rev 15590
+WORKING URL NOW->https://github.com/jeffreyji666/buzz-ads/commits/48d79bb075f8364f529e312f0d8a8677e797d13e/buzz-ads-core/src/main/java/com/buzzinate/buzzads/user/LoginHelper.java
+Commit Message:->add buzz ads
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=99&q=HasRole&type=Code&utf8=%E2%9C%93
+
+
+BEFORE GET REQUEST _+_+_+_+_+_+
+Counter value:=98
+Next Page URL is <><><><>:https://github.com/search?l=java&p=100&q=HasRole&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java]
+size of urls is:2
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java]
+size of urls is:3
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java, https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java]
+size of urls is:4
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java, https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/06d18ff381748f4eabbd1964c303624381deb7a2/src/main/java/dash/service/CommentService.java]
+size of urls is:5
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java, https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/06d18ff381748f4eabbd1964c303624381deb7a2/src/main/java/dash/service/CommentService.java, https://github.com/ezajko/mx-hero-src/commits/9c68d4c32cb2a36fafa80d4c5ade24689c1fea91/org.mxhero.webapi/src/main/java/org/mxhero/webapi/restful/RuleController.java]
+size of urls is:6
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java, https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/06d18ff381748f4eabbd1964c303624381deb7a2/src/main/java/dash/service/CommentService.java, https://github.com/ezajko/mx-hero-src/commits/9c68d4c32cb2a36fafa80d4c5ade24689c1fea91/org.mxhero.webapi/src/main/java/org/mxhero/webapi/restful/RuleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0bd8079448bc2c6911bb21a9746347ad82b8557e/src/main/java/dash/service/CommentService.java]
+size of urls is:7
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java, https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/06d18ff381748f4eabbd1964c303624381deb7a2/src/main/java/dash/service/CommentService.java, https://github.com/ezajko/mx-hero-src/commits/9c68d4c32cb2a36fafa80d4c5ade24689c1fea91/org.mxhero.webapi/src/main/java/org/mxhero/webapi/restful/RuleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0bd8079448bc2c6911bb21a9746347ad82b8557e/src/main/java/dash/service/CommentService.java, https://github.com/leompande/ARDS-LGMD2-web-portal/commits/08409bb66bccdaf52fcf920253d4b7b0eea8de12/dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/api/controller/FilteredMetaDataController.java]
+size of urls is:8
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java, https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/06d18ff381748f4eabbd1964c303624381deb7a2/src/main/java/dash/service/CommentService.java, https://github.com/ezajko/mx-hero-src/commits/9c68d4c32cb2a36fafa80d4c5ade24689c1fea91/org.mxhero.webapi/src/main/java/org/mxhero/webapi/restful/RuleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0bd8079448bc2c6911bb21a9746347ad82b8557e/src/main/java/dash/service/CommentService.java, https://github.com/leompande/ARDS-LGMD2-web-portal/commits/08409bb66bccdaf52fcf920253d4b7b0eea8de12/dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/api/controller/FilteredMetaDataController.java, https://github.com/chapita/factoryTicketsGit/commits/33834269eae0eaf2ec7f7bd5a5d66dedf6ffab6c/tickets/src/main/java/factory/web/controllers/CategorieController.java]
+size of urls is:9
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java, https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/06d18ff381748f4eabbd1964c303624381deb7a2/src/main/java/dash/service/CommentService.java, https://github.com/ezajko/mx-hero-src/commits/9c68d4c32cb2a36fafa80d4c5ade24689c1fea91/org.mxhero.webapi/src/main/java/org/mxhero/webapi/restful/RuleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0bd8079448bc2c6911bb21a9746347ad82b8557e/src/main/java/dash/service/CommentService.java, https://github.com/leompande/ARDS-LGMD2-web-portal/commits/08409bb66bccdaf52fcf920253d4b7b0eea8de12/dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/api/controller/FilteredMetaDataController.java, https://github.com/chapita/factoryTicketsGit/commits/33834269eae0eaf2ec7f7bd5a5d66dedf6ffab6c/tickets/src/main/java/factory/web/controllers/CategorieController.java, https://github.com/AlexandrBasov/learning_hybris/commits/9929723cae6860574f0604cd1b79cd1357ba34e8/bin/ext-template/ycommercewebservices/web/src/de/hybris/platform/ycommercewebservices/v2/filter/UserMatchingFilter.java]
+size of urls is:10
+urlsOfFileCommits:->[https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java, https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java, https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java, https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/06d18ff381748f4eabbd1964c303624381deb7a2/src/main/java/dash/service/CommentService.java, https://github.com/ezajko/mx-hero-src/commits/9c68d4c32cb2a36fafa80d4c5ade24689c1fea91/org.mxhero.webapi/src/main/java/org/mxhero/webapi/restful/RuleController.java, https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0bd8079448bc2c6911bb21a9746347ad82b8557e/src/main/java/dash/service/CommentService.java, https://github.com/leompande/ARDS-LGMD2-web-portal/commits/08409bb66bccdaf52fcf920253d4b7b0eea8de12/dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/api/controller/FilteredMetaDataController.java, https://github.com/chapita/factoryTicketsGit/commits/33834269eae0eaf2ec7f7bd5a5d66dedf6ffab6c/tickets/src/main/java/factory/web/controllers/CategorieController.java, https://github.com/AlexandrBasov/learning_hybris/commits/9929723cae6860574f0604cd1b79cd1357ba34e8/bin/ext-template/ycommercewebservices/web/src/de/hybris/platform/ycommercewebservices/v2/filter/UserMatchingFilter.java, https://github.com/bender-futur/pujcovna-stroju/commits/886637db3186c5bc49b66022e54dba284fe71058/pujcovnaStroju/pujcovnaStroju_API/src/main/java/cz/muni/fi/pa165/pujcovnastroju/service/MachineService.java]
+WORKING URL NOW->https://github.com/rodelcua03/metro-residences/commits/60eab28a271bcb0536089cb3263f93d42b7be8d5/mr-projectmgmt-web/src/main/java/com/mr/projectmgmt/featured/controller/ProjectFeaturedController.java
+Commit Message:->Fix floorPlan bug. Add change password and logout. Add fix on blog view date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+Commit Message:->[Sprint 4] Checkpoint
+WORKING URL NOW->https://github.com/zacblazic/store/commits/6cdf591d97801b0eecdbd200e54994318f9ffade/test/za/co/invoketech/store/model/AccountTest.java
+Commit Message:->Update package structure
+Commit Message:->Removed defensive copies for roots and performed some cleanup, more to
+come
+Commit Message:->Removed debugging code from ApplicationInitializer and
+PersistenceModule, also tweaked Account and Role entities to have
+improved paramater checking
+Commit Message:->AccountTest fix.
+Commit Message:->Added new entities and a few tests
+WORKING URL NOW->https://github.com/AltroCoin/controllerPrototype/commits/213b6e2f047597b90167102c28f8b8434ee1bcf3/controller/src/main/java/org/altrocoin/controller/UserService.java
+Commit Message:->Initial construct of Java Controller
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commits/06d18ff381748f4eabbd1964c303624381deb7a2/src/main/java/dash/service/CommentService.java
+Commit Message:->Remove imports.
+Commit Message:->Mostly done with comments. Available at "/comments" Performs basic CRUD.
+Pending some testing and client-integration changes.
+
+Please verify the SQL file is correct before merging, the size seems to have almost doubled. Maybe too much being exported.
+WORKING URL NOW->https://github.com/ezajko/mx-hero-src/commits/9c68d4c32cb2a36fafa80d4c5ade24689c1fea91/org.mxhero.webapi/src/main/java/org/mxhero/webapi/restful/RuleController.java
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commits/0bd8079448bc2c6911bb21a9746347ad82b8557e/src/main/java/dash/service/CommentService.java
+Commit Message:->Remove imports.
+Commit Message:->Mostly done with comments. Available at "/comments" Performs basic CRUD.
+Pending some testing and client-integration changes.
+
+Please verify the SQL file is correct before merging, the size seems to have almost doubled. Maybe too much being exported.
+WORKING URL NOW->https://github.com/leompande/ARDS-LGMD2-web-portal/commits/08409bb66bccdaf52fcf920253d4b7b0eea8de12/dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/api/controller/FilteredMetaDataController.java
+Commit Message:->adding ards files
+WORKING URL NOW->https://github.com/chapita/factoryTicketsGit/commits/33834269eae0eaf2ec7f7bd5a5d66dedf6ffab6c/tickets/src/main/java/factory/web/controllers/CategorieController.java
+Commit Message:->first commit with gradle
+WORKING URL NOW->https://github.com/AlexandrBasov/learning_hybris/commits/9929723cae6860574f0604cd1b79cd1357ba34e8/bin/ext-template/ycommercewebservices/web/src/de/hybris/platform/ycommercewebservices/v2/filter/UserMatchingFilter.java
+Commit Message:->Initial commit
+WORKING URL NOW->https://github.com/bender-futur/pujcovna-stroju/commits/886637db3186c5bc49b66022e54dba284fe71058/pujcovnaStroju/pujcovnaStroju_API/src/main/java/cz/muni/fi/pa165/pujcovnastroju/service/MachineService.java
+Commit Message:->Authorization mostly on service layer
+Commit Message:->Removed redundant comments from the whole project
+Commit Message:->Machine addition (it needs to be a bit more pretty, but it works)
+Commit Message:->Machine: added universal method getting list according to all possible params (needed later), doesn't have test so far
+Commit Message:->complex refactoring
+Commit Message:->refactored Machine
+Commit Message:->added basic spring settings,dependencies and sample MachineService implementation
+Commit Message:->refactored
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=100&q=HasRole&type=Code&utf8=%E2%9C%93
+
+
+BEFORE GET REQUEST _+_+_+_+_+_+
+Counter value:=99
+Before more sleep
+After more sleep
+Next Page URL is <><><><>:null
+Marker...
+size of urls is:1
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java]
+size of urls is:2
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java]
+size of urls is:3
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java, https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java]
+size of urls is:4
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java, https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java, https://github.com/javasparx/SpringGwt/commits/f44dd00eb6c36a2aea58357061786d4ded78a05b/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java]
+size of urls is:5
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java, https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java, https://github.com/javasparx/SpringGwt/commits/f44dd00eb6c36a2aea58357061786d4ded78a05b/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/sergiofgonzalez/ProAngularJS-Repo/commits/3f23149b91bc3d815c57440732b1fc2e389380d8/part01-getting-ready/03-sports-store-project/010-sports-store/sports-store/src/main/java/org/joolzminer/examples/sip/services/ForumsService.java]
+size of urls is:6
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java, https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java, https://github.com/javasparx/SpringGwt/commits/f44dd00eb6c36a2aea58357061786d4ded78a05b/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/sergiofgonzalez/ProAngularJS-Repo/commits/3f23149b91bc3d815c57440732b1fc2e389380d8/part01-getting-ready/03-sports-store-project/010-sports-store/sports-store/src/main/java/org/joolzminer/examples/sip/services/ForumsService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/domain/attribute/service/impl/PlaceTagServiceImpl.java]
+size of urls is:7
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java, https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java, https://github.com/javasparx/SpringGwt/commits/f44dd00eb6c36a2aea58357061786d4ded78a05b/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/sergiofgonzalez/ProAngularJS-Repo/commits/3f23149b91bc3d815c57440732b1fc2e389380d8/part01-getting-ready/03-sports-store-project/010-sports-store/sports-store/src/main/java/org/joolzminer/examples/sip/services/ForumsService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/domain/attribute/service/impl/PlaceTagServiceImpl.java, https://github.com/ilya-murzinov/ecare-app/commits/4df05c09dd6c5713505b574df32a75a36e3ffc5c/ecare-app-web/src/main/java/com/github/ilyamurzinov/ecareapp/controller/OptionController.java]
+size of urls is:8
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java, https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java, https://github.com/javasparx/SpringGwt/commits/f44dd00eb6c36a2aea58357061786d4ded78a05b/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/sergiofgonzalez/ProAngularJS-Repo/commits/3f23149b91bc3d815c57440732b1fc2e389380d8/part01-getting-ready/03-sports-store-project/010-sports-store/sports-store/src/main/java/org/joolzminer/examples/sip/services/ForumsService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/domain/attribute/service/impl/PlaceTagServiceImpl.java, https://github.com/ilya-murzinov/ecare-app/commits/4df05c09dd6c5713505b574df32a75a36e3ffc5c/ecare-app-web/src/main/java/com/github/ilyamurzinov/ecareapp/controller/OptionController.java, https://github.com/Newsite/ruyees/commits/1b919f919f4487395f9d0f8531e3f9555a447380/src/main/java/ruyees/otp/utils/ShiroUtils.java]
+size of urls is:9
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java, https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java, https://github.com/javasparx/SpringGwt/commits/f44dd00eb6c36a2aea58357061786d4ded78a05b/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/sergiofgonzalez/ProAngularJS-Repo/commits/3f23149b91bc3d815c57440732b1fc2e389380d8/part01-getting-ready/03-sports-store-project/010-sports-store/sports-store/src/main/java/org/joolzminer/examples/sip/services/ForumsService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/domain/attribute/service/impl/PlaceTagServiceImpl.java, https://github.com/ilya-murzinov/ecare-app/commits/4df05c09dd6c5713505b574df32a75a36e3ffc5c/ecare-app-web/src/main/java/com/github/ilyamurzinov/ecareapp/controller/OptionController.java, https://github.com/Newsite/ruyees/commits/1b919f919f4487395f9d0f8531e3f9555a447380/src/main/java/ruyees/otp/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/2d784bbe7d2190c93ca96eb4aced7d46f07b4c6e/src/main/java/dash/service/CommentService.java]
+size of urls is:10
+urlsOfFileCommits:->[https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java, https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java, https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java, https://github.com/javasparx/SpringGwt/commits/f44dd00eb6c36a2aea58357061786d4ded78a05b/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java, https://github.com/sergiofgonzalez/ProAngularJS-Repo/commits/3f23149b91bc3d815c57440732b1fc2e389380d8/part01-getting-ready/03-sports-store-project/010-sports-store/sports-store/src/main/java/org/joolzminer/examples/sip/services/ForumsService.java, https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/domain/attribute/service/impl/PlaceTagServiceImpl.java, https://github.com/ilya-murzinov/ecare-app/commits/4df05c09dd6c5713505b574df32a75a36e3ffc5c/ecare-app-web/src/main/java/com/github/ilyamurzinov/ecareapp/controller/OptionController.java, https://github.com/Newsite/ruyees/commits/1b919f919f4487395f9d0f8531e3f9555a447380/src/main/java/ruyees/otp/utils/ShiroUtils.java, https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/2d784bbe7d2190c93ca96eb4aced7d46f07b4c6e/src/main/java/dash/service/CommentService.java, https://github.com/timeu/geno-phen-browser/commits/719e73402d86d253f38f228b1ab1b698897e5778/genophenbrowser-server/src/main/java/com/gmi/nordborglab/browser/server/service/GWASDataService.java]
+WORKING URL NOW->https://github.com/blixabargeld/list-spring-mvc/commits/ea06ecdd5ee43e0c2f8caaa1f56a0b7e1d0231d7/src/main/java/gr/blixabargeld/myList/service/implementation/CategoryServiceImplementation.java
+Commit Message:->Initial Commit
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commits/a709287ec60410340d1d312b8dc1ddb41e6ffce9/src/main/java/dash/service/CommentService.java
+Commit Message:->Remove imports.
+Commit Message:->Mostly done with comments. Available at "/comments" Performs basic CRUD.
+Pending some testing and client-integration changes.
+
+Please verify the SQL file is correct before merging, the size seems to have almost doubled. Maybe too much being exported.
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commits/5702fe0ff243250c2b5765ce6eb03413fad8a63e/src/main/java/dash/service/SampleObjectService.java
+Commit Message:->Added SurfApplication
+Commit Message:->Added file upload functionality to sampleObject
+New log back configuration to log into separate files
+Commit Message:->Cleaning out
+Commit Message:->Overwrote the project to bring it up to date and provided a sample
+implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+WORKING URL NOW->https://github.com/javasparx/SpringGwt/commits/f44dd00eb6c36a2aea58357061786d4ded78a05b/web/src/main/java/uz/javlon/webapp/server/services/UserRequestService.java
+Commit Message:->Removed jpa-api dependency;
+Reformatted class files;
+GWT Dev Mode works now;
+Commit Message:->Changed Postgres dialect to 82;
+Added missing libs: webjar.bootstrap:3.0.2, webjar.jquery:1.9.0;
+Upgraded plugin maven-checkstyle-plugin 2.10 to 2.11;
+Upgraded plugin exec-maven-plugin 1.2 to 1.3.2;
+Added missing tag 'check';'
+Optimized inputs;
+Commit Message:->Initial commit
+WORKING URL NOW->https://github.com/sergiofgonzalez/ProAngularJS-Repo/commits/3f23149b91bc3d815c57440732b1fc2e389380d8/part01-getting-ready/03-sports-store-project/010-sports-store/sports-store/src/main/java/org/joolzminer/examples/sip/services/ForumsService.java
+Commit Message:->Reorganized in directories.
+WORKING URL NOW->https://github.com/liizard/didauvn/commits/5ff96e5e92c34f0e520ed06516f41ad9d8e190fb/src/main/java/domain/attribute/service/impl/PlaceTagServiceImpl.java
+Commit Message:->newest
+WORKING URL NOW->https://github.com/ilya-murzinov/ecare-app/commits/4df05c09dd6c5713505b574df32a75a36e3ffc5c/ecare-app-web/src/main/java/com/github/ilyamurzinov/ecareapp/controller/OptionController.java
+Commit Message:->removed unused modules
+WORKING URL NOW->https://github.com/Newsite/ruyees/commits/1b919f919f4487395f9d0f8531e3f9555a447380/src/main/java/ruyees/otp/utils/ShiroUtils.java
+Commit Message:->update
+WORKING URL NOW->https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commits/2d784bbe7d2190c93ca96eb4aced7d46f07b4c6e/src/main/java/dash/service/CommentService.java
+Commit Message:->Mostly done with comments. Available at "/comments" Performs basic CRUD.
+Pending some testing and client-integration changes.
+
+Please verify the SQL file is correct before merging, the size seems to have almost doubled. Maybe too much being exported.
+WORKING URL NOW->https://github.com/timeu/geno-phen-browser/commits/719e73402d86d253f38f228b1ab1b698897e5778/genophenbrowser-server/src/main/java/com/gmi/nordborglab/browser/server/service/GWASDataService.java
+Commit Message:->Enhancement: Add support for downloading Manhattan GWAS plots
+
+The backend now supports two new RestEndpoints to generate and
+download Manhattan plots. The backend will call a docker container that uses
+Python to generate the figures and then serves it to the user. Furthermore a
+new PlotDownloadPopup Widget was added to allow the user to specify
+Chromosome, Format and MAC filter. Generating can be done for
+both normal analysis and also gwasviewer uploads.
+This closes 81.
+Commit Message:->Enhancement: Add support for aggregations and searching to GWASViewer
+
+GWASViewer entities are now indexed in Elasticsearch using the new generic EsIndexer and EsSearcher classes. This allows the user to search for specific GWASViewer items and also displays aggregation statistics. Some bugs are fixed so that the DataGrid is properly updated. This closes #71
+Commit Message:->Enhancement: Include transformation and support for storing HDF5 files added
+
+The transformation returned in additional to other studygwasdata information.
+A new method storeGWASResult was added.
+Commit Message:->Enhancement #56: Service to retrieve GWAS infos for a specific SNP added
+
+The GWASDataService and GWASDataRequest have a new method to
+ return a SNPGWASInfo/SNPGWASInfoProxy that contains GWAS infos (pvalue,
+ maf, mac) and SNP annotation info  for a for a specific SNP.
+Commit Message:->Enhancement #56: Service to retrieve GWAS infos for a specific SNP added
+
+The GWASDataService and GWASDataRequest have a new method to
+ return a SNPGWASInfo/SNPGWASInfoProxy that contains GWAS infos (pvalue,
+ maf, mac) and SNP annotation info  for a for a specific SNP.
+Commit Message:->Add addAnnotation boolean parameter for retrieving pvalues
+
+Avoid accessing Elasticsearch to retrieve annotations when downloading the entire GWAS result.
+Commit Message:->Enhancement #26: Support for downloading phenotype values and pvalues added
+
+The flat buttons were replaced with bootstrap buttons and support a
+DropDownButton was added to support downloading following resources:
+ - Phenotype Data (JSON)
+ - Phenotype Data (CSV)
+ - PValues (JSON)
+ - PValues(HDF5)
+ - PValues (CSV)
+
+ These changes fixes issue #26.
+Commit Message:->Enhancement #26: Support for downloading phenotype values and pvalues added
+
+The flat buttons were replaced with bootstrap buttons and support a
+DropDownButton was added to support downloading following resources:
+ - Phenotype Data (JSON)
+ - Phenotype Data (CSV)
+ - PValues (JSON)
+ - PValues(HDF5)
+ - PValues (CSV)
+
+ These changes fixes issue #26.
+Commit Message:->Enhancement: Optimized imports
+Commit Message:->Support for edit popup and delete added
+Commit Message:->Introduction of AclManager and refactoring of service methods
+Commit Message:->support for uploading GWAS to study added
+Commit Message:->added support for gwasviewer
+Commit Message:->added support for uploading pvalues and displaying them
+Commit Message:->Initial import server packages
+[NEXT-PAGE-URL]:null
+
+
+BEFORE GET REQUEST _+_+_+_+_+_+
+Counter value:=100
+org.openqa.selenium.WebDriverException: java.net.MalformedURLException
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'manish-Inspiron-3521', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-45-generic', java.version: '1.7.0_75'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:466)
+	at test.main(test.java:166)
+Caused by: java.net.MalformedURLException
+	at java.net.URL.<init>(URL.java:619)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:464)
+	... 1 more
+Caused by: java.lang.NullPointerException

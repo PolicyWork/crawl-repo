@@ -103,7 +103,7 @@ public class TestCommitList {
 				
 				//Get list of commits for that file
 	
-				By getCommitList = By.xpath("//a[contains(@class,'sha button-outline')]");
+				By getCommitList = By.xpath("//a[contains(@class,'message')]");
 	
 				List<WebElement> commitList = driver.findElements(getCommitList);
 				
@@ -119,11 +119,7 @@ public class TestCommitList {
 					
 //					driver.findElements(getCommitList).get(commitCount).click();
 					
-					commitList.get(commitCount).click();
 					
-//					Thread.sleep(4000L);
-					
-					driver.navigate().back();
 					
 				}
 		

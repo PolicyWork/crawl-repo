@@ -1,0 +1,13 @@
+https://github.com/alvarosanchez/grails-spring-security-rest/issues/51
+https://github.com/alvarosanchez/grails-spring-security-rest/issues/60
+
+https://github.com/globaleaks/GlobaLeaks/issues/112
+
+The below looks debatable
+
+https://github.com/alvarosanchez/grails-spring-security-rest/commit/0d1d0f6d07513820254384fe1bbc6e3e21dbc529
+
+they did not expect that rest and traditional filters would be used together
+	
+https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef principal id on stack overflow
+

@@ -1,0 +1,2884 @@
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/908e47eab3a79947231a81c553829c4192bb26e0
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or principal.username == #username")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or principal.id == #id")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/geiner/quipucamayoc2014/commit/8504bdd7a97e4200e1089a36e47f73a7c7b46b3b
+
+=========================================================
++ @PreAuthorize("hasAnyRole('admin')")
++// @PreAuthorize("hasRole('user')")
++ @PreAuthorize("hasAnyRole('admin')")
++// @PreAuthorize("hasRole('userperfil')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ // @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('userperfil')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('userperfil')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasAuthority('userperfil')")
++ @PreAuthorize("hasRole('userperfil')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhavjava/gkhead/commit/b558861eb8b7fb11c5cce8965400582b6221336c
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_PENALTY')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_PENALTY')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_PAYMENT_TO_ACCOUNT_USING_SAVINGS_TRANSFER') and hasRole('Can repay loan')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_UPDATE_LATENESS_DORMANCY')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_DEFINE_PRODUCT_MIX', 'ROLE_CAN_EDIT_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_HIDDEN_MANDATORY_FIELDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_HIDDEN_MANDATORY_FIELDS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_ACCEPTED_PAYMENT_TYPES')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_PRODUCT_CATEGORIES')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_PRODUCT_CATEGORIES')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_PRODUCT', 'ROLE_CAN_EDIT_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_PRODUCT', 'ROLE_CAN_EDIT_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_UPDATE_BATCH_JOBS_CONFIGURATION')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_RUN_BATCH_JOBS_ON_DEMAND')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_DEFINE_CHECKLIST', 'ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_FEE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_FEE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_FEE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SET_MONTH_CLOSING_DATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_OPEN_SHUTDOWN_PAGE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SHUT_DOWN_MIFOS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SHUT_DOWN_MIFOS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_CENTER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_CENTER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CENTER_INFORMATION_AND_CHANGE_CENTER_STATUS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CENTER_INFORMATION_AND_CHANGE_CENTER_STATUS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_CLIENT_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_CLIENT_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and (hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO') or (hasRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE') and hasPermission(#clientStatus, 'CLIENT_STATUS') and hasPermission(#loanOfficerId, 'LOAN_OFFICER_ID')))")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and (hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO') or (hasRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE') and hasPermission(#clientStatus, 'CLIENT_STATUS') and hasPermission(#loanOfficerId, 'LOAN_OFFICER_ID')))")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_UNBLACKLIST_CLIENT') and hasRole('ROLE_CHANGE_CLIENT_ACTIVE_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_MFI_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_MFI_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REMOVE_CLIENT_FROM_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REMOVE_CLIENT_FROM_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_UPDATE_GROUP_MEMBERSHIP_OF_CLIENT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_GROUP_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_GROUP_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_GROUP_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_GROUP_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_CENTER_MEMBERSHIP_OF_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_CENTER_MEMBERSHIP_OF_GROUP')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DISBURSE_LOAN')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DISBURSE_LOAN')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_APPROVE_LOANS_IN_BULK', 'ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_APPROVE_LOANS_IN_BULK', 'ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK') and hasPermission(#accountsForUpdate, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated() and hasPermission(#accountForUpdate, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_REVERSE_LOAN_DISBURSAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_REVERSE_LOAN_DISBURSAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CLOSE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CLOSE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_UPDATE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_WAIVE_NEXT_SAVINGS_DEPOSIT_DUE_AMOUNT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_WAIVE_OVER_DUE_SAVINGS_DEPOSITS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_TRANSFER_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_MIFOS_LOGO')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thiagoandrade6/security-acl/commit/84d6f4ad0738b3aad02624f956c67493e804256c
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/19c337be6430d109111b50d038005f2d177e84c7
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/a5fa09da9deb6795216a48eea46916f9bbdcf36e
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/198edbe930d6855bf7d7cee646ff78f2537f0f70
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/70d49f0c3c13a723f5f7602020d3eebe9d873689
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/58259b2004891c83a8636e540f1189a01992a902
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/e9a07e4ad86c5c740bceb99173040e82ec9bf333
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/737a31305eee45a53cee4df8004912397a6e7156
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/84e3ed016c27928a87218f6d466069d9d6edc2cd
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/5b487cba3d639f18734178e0ae336e6ac0b26d45
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/5ea99ef072a480f17526510733e98993ed00ce94
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/7954d84372a3c58899d07682fe4027eeb1ba0359
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/92c8366d092e7c751b493c3c38c896fa18980e89
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/643ddcc4a2c3cd8aa0c9e1dd93ab0ce432330c97
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/96b7bd594edf671d8d74f6a630c2b258598fad11
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/fd9d8b00456f9e1d05ac85cd0c31931a6231b9fa
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/5d92ffc5b2452dfa67948f4c5b1b87599a97dc11
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/fc5b51a7cc817d18e801fd789bccdd909ce988de
+
+=========================================================
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/65f74d19d649ec29d538b1c1f7f3aa0733de5a27
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/bc333d9c84e062a53d374c4cf9b4e8ad7534e141
+
+=========================================================
+- @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
+
+=========================================================
+- @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/537a1244304c48dffa8897d2a0bfe9225e86b1a4
+
+=========================================================
+- @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/5d92ffc5b2452dfa67948f4c5b1b87599a97dc11
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/2c685891d959bd75726b2836a56a5d118415b9cc
+
+=========================================================
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/650162d0bf0d2514d18316d5d58243f01e4fd51a
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/38d6834cd44dcd313b491763be10047822ad9419
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/6c4f1502107fbb78af2782747031f9c1dae6f43f
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/48cdaf0cb62c4bba6924fcac7f9f39460ca1df22
+
+=========================================================
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/7727f626f338782f1298ba6b54500c2872ccf670
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/02735bc924f83f071c501ecdbbaf55680b8878a6
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/6ed44333041d28b91733bed20c30b9fb8c1e5b56
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/21b321e68980c624b98068a16380acfa1ee9bcca
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peengtao123/pt/commit/c73a815b3d628a569f36401839d7576c2b7f008b
+
+=========================================================
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#contact, 'delete') or hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/1c2559afb74f26c1dd9541391fc05b906390e249
+
+=========================================================
+-@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_BINDER_PAGES +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_BINDER_PAGES +"', '" + PermissionCheck.Values.PERMISSION + "')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_BINDER_PAGES +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_BINDER_PAGES +"', '"+PermissionCheck.Values.PERMISSION+"')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_BINDER_PAGES +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_BINDER_PAGES +"', '"+PermissionCheck.Values.PERMISSION+"')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', '"+PermissionCheck.Values.PERMISSION+"')")
+-@PreAuthorize("hasPermission('"+ Permission.Values.CAN_PERFORM_SEARCH +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_PERFORM_SEARCH +"', '" + PermissionCheck.Values.PERMISSION + "')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_SAVE_EXPERT_SEARCH +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_SAVE_EXPERT_SEARCH +"', '"+PermissionCheck.Values.PERMISSION+"')")
+- @PreAuthorize("hasPermission(#id, 'REMOVE_SEARCH')")
++ @PreAuthorize("hasPermission(#id, '"+PermissionCheck.Values.REMOVE_SEARCH+"')")
+-@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', '"+PermissionCheck.Values.PERMISSION+"')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EXPORT_REVISION+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EXPORT_REVISION+"', '"+PermissionCheck.Values.PERMISSION+"')")
+-@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', '" + PermissionCheck.Values.PERMISSION + "')")
+-@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', '" + PermissionCheck.Values.PERMISSION + "')")
+-@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', '" + PermissionCheck.Values.PERMISSION + "')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_CREATE_REVISION +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_CREATE_REVISION +"', '"+PermissionCheck.Values.PERMISSION+"')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_REVISION +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_REVISION +"', '"+PermissionCheck.Values.PERMISSION+"')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_REVISION +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_REVISION +"', '" + PermissionCheck.Values.PERMISSION + "') " +
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_APPROVE_REVISION +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_APPROVE_REVISION +"', '" + PermissionCheck.Values.PERMISSION + "') " +
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_REMOVE_REVISION +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_REMOVE_REVISION +"', '" + PermissionCheck.Values.PERMISSION + "') " +
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_RESTORE_REVISION +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_RESTORE_REVISION +"', '"+PermissionCheck.Values.PERMISSION+"')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_PERFORM_SEARCH +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_PERFORM_SEARCH +"', '"+PermissionCheck.Values.PERMISSION+"')")
+- @PreAuthorize("hasPermission('"+ Permission.Values.CAN_PERFORM_SEARCH +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_PERFORM_SEARCH +"', '" + PermissionCheck.Values.PERMISSION + "')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_REVISION +"', '" + PermissionCheck.Values.PERMISSION + "') " +
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_REVISION +"', '" + PermissionCheck.Values.PERMISSION + "') " +
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/8211a575b8d91d62975f1fcfc559687b8a675a2a
+
+=========================================================
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_BINDER_PAGES +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_BINDER_PAGES +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_BINDER_PAGES +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_PERFORM_SEARCH +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_SAVE_EXPERT_SEARCH+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission(#id, 'REMOVE_SEARCH')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+Permission.Values.CAN_VIEW_REVISION+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_CREATE_REVISION+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_EDIT_REVISION+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_EDIT_REVISION+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_APPROVE_REVISION+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_REMOVE_REVISION+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_RESTORE_REVISION+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_PERFORM_SEARCH+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_PERFORM_SEARCH +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_REVISION +"', 'PERMISSION') " +
++//@PreAuthorize("hasPermission('canViewSettingsPage', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_SETTINGS_PAGE +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_GENERATE_REPORTS +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_VIEW_API_USERS+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+Permission.Values.CAN_EDIT_API_USERS+"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_API_USERS +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_UPLOAD_CONFIGURATIONS +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_UPLOAD_CONFIGURATIONS +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_UPLOAD_JSON +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+ Permission.Values.CAN_VIEW_STUDY_ERRORS +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_EDIT_STUDY_ERRORS +"', 'PERMISSION')")
++ @PreAuthorize("hasPermission('"+ Permission.Values.CAN_REMOVE_STUDY_ERRORS +"', 'PERMISSION')")
++@PreAuthorize("hasPermission('"+Permission.Values.CAN_VIEW_REVISION+"', 'PERMISSION')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/461c6524d27ec68db82c8ae995376c30f2bd94fe
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/470857cf849c121303b4b9178cba4f8a22c2fed0
+
+=========================================================
+-// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+-// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/f3b148d21220c444d469139803fb362f32c134cc
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'delete') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'write') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'read') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/a4e6aeb8b2f19b81b97e7b0bcba118c683c5a1fb
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/afa584f3d2da8eb6dc1cd836e86356a6daa087c5
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'WRITE') and hasRole('ROLE_USER') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/a73cdd05ec637f58a924d665cdfb75b0ff0190ed
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/85694fc51ac568fa6db2a6e1b51c4865f2a2b759
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/aecb83a82e9d75c838505240f30c2c14eff42c6d
+
+=========================================================
+- @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/aecb83a82e9d75c838505240f30c2c14eff42c6d
+
+=========================================================
+- @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+=========================================================
+- @PreAuthorize("hasPermission(#group, 'member')")
++ @PreAuthorize("hasPermission(#group, 'member') or hasPermisssion(#group, 'manager')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/7573106cf1b92176585ab549e6a4b563afd46160
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/879ad876b3089cb2eac1dda1d6253ad3d9ccff9f
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/8a1a74653d3eebfba11b5f39cd1aec89ecfc0e31
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+=========================================================
++ @PreAuthorize("hasPermission(#bar, 'DELETE')")
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasPermission(#user, 'DELETE')")
++ @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/honzikm/wpa/commit/d7e71706a1d172b6e58180f39fddb03b6a0d1e44
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/490d7096a6b7258624d5a2786c32360187ed0779
+
+=========================================================
++@PreAuthorize("denyAll")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/94b06176439385e78dca18647655727f6444ed2e
+
+=========================================================
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/b0a689363540e5ceefb3fabbeee9c79ddd322187
+
+=========================================================
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=39&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/78081a712634d66f72d0c4367485c42c9294dc09
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_UPDATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_ADMIN_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_DELETE_MESSAGES')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/30b6b8d6c2fc853976740125cd2808c3557517e1
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_UPDATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_ADMIN_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_DELETE_MESSAGES')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/a79dc2dde57d34fe478c83e01a9fef7fe67941d9
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
++ @PreAuthorize("(hasPermission(#message, write) and #message.visible) or hasPermission(#message, admin)")
++ @PreAuthorize("hasPermission(#message, admin)")
++ @PreAuthorize("hasPermission(#message, delete)")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/1ca75a3cb5f864a58533b1d1eebb44b61a98f928
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
++ @PreAuthorize("(hasPermission(#message, write) and #message.visible) or hasPermission(#message, admin)")
++ @PreAuthorize("hasPermission(#message, admin)")
++ @PreAuthorize("hasPermission(#message, delete)")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/14bc41fe1b955a1c6a8dc325b1de66d0202aeed5
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/b862eb5cfa9a17fe7808472cde51e7fad5759414
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/133bc4917e21b8d860f0fed72f4b54b8fc2ac47c
+
+=========================================================
++ @PreAuthorize("hasRole('PERM_DELETE_MESSAGES')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/bb0b88fddf6f9f99610566154eae56c0f9b77819
+
+=========================================================
++ @PreAuthorize("hasRole('PERM_ADMIN_MESSAGES')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/a28b60478509d94bd68e22dd25cf35e035ba6c38
+
+=========================================================
++ @PreAuthorize("hasRole('PERM_UPDATE_MESSAGES')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/20f1a95615c6268aff8627410a63b2d0db177df9
+
+=========================================================
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/bf37c8348209921bdf7e2b1c8d060cf1e7fb9235
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/78081a712634d66f72d0c4367485c42c9294dc09
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_UPDATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_ADMIN_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_DELETE_MESSAGES')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/30b6b8d6c2fc853976740125cd2808c3557517e1
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_UPDATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_ADMIN_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_DELETE_MESSAGES')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bcecchinato/spring-identity/commit/b189cdff0491ff6cf630c129108f892ce60d28a8
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bcecchinato/spring-identity/commit/93a54c76bc9623812a588090f98557c6fcd3bc28
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bcecchinato/spring-identity/commit/540b59acdcca29004619a5821a12b3888608c743
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bcecchinato/spring-identity/commit/3cfec4b178d5d4a5a6b3e3933f9008c0669f525f
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bcecchinato/spring-identity/commit/f53478dfae6db2571933e6f9696f05db1db2e95f
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Milan26/music-library/commit/2dda9e52ee6c907063bc0adb80bae00066466b81
+
+=========================================================
++ @PreAuthorize("hasAuthority('CREATE')")
++ @PreAuthorize("hasAuthority('DELETE')")
++ @PreAuthorize("hasAuthority('EDIT')")
++ @PreAuthorize("hasAuthority('CREATE')")
++ @PreAuthorize("hasAuthority('DELETE')")
++ @PreAuthorize("hasAuthority('EDIT')")
++ @PreAuthorize("hasAuthority('CREATE')")
++ @PreAuthorize("hasAuthority('DELETE')")
++ @PreAuthorize("hasAuthority('EDIT')")
++ @PreAuthorize("hasAuthority('DELETE')")
++ @PreAuthorize("authentication.principal.username.equals(#userDto.email) or hasAuthority('EDIT')")
++ @PreAuthorize("hasAuthority('VIEW')")
++ @PreAuthorize("hasAuthority('VIEW')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/17a16aef2d55359386d73a9d7c6e0b44cf982d83
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/5a64b721003be14e18dc828857b689b8e6e74db1
+
+=========================================================
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/afe959a4e13a7e4e9232b9cd2f61b071a58e7efd
+
+=========================================================
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/234771f25ab558cef86488e80fc38ae26a5e03fa
+
+=========================================================
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/22eec7f73d61bc140d0658d84ed49d01b32e7b51
+
+=========================================================
+- //@PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_MANAGER','ROLE_USER')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")// 유효한 인증된 사용자만이 접근
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_MANAGER','ROLE_USER')")
++ @PreAuthorize("#user.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("#user.email == principal.username or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/ebb68645f4b8593c4dd64d308a976ab02705eb6b
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/a5141bfbbb2343be7f3b10d92c400eec3353aacd
+
+=========================================================
++ //@PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')") // 유효한 인증된 사용자만이 접근
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/18a6c783c07244ff9c742b5456125162a45f53e5
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/7ce1be15cda98187d2915c53f7fb35952a1e3d18
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kbtapjm/myHub/commit/817960331577f458f809562faf816afbbd067a1b
+
+=========================================================
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=40&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/7abf9dda019c25bb6d72de81f7c121af7935fc45
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/f91e6b5bfb2bad6c839f9903d64a1f3e68894d8a
+
+=========================================================
+- @PreAuthorize("hasRole('MASTER')")
++ @PreAuthorize("hasRole('MASTER,CENTER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/0c64eb1324d4369171ab8967b80ba925f0ed24a4
+
+=========================================================
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/ac349534996728e937d9bea8c7d0bfffa861e8de
+
+=========================================================
++ @PreAuthorize("hasAnyRole('GUEST','STUDENT')")
++ @PreAuthorize("hasAnyRole('GUEST','STUDENT')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/92325a7261ffaa5cb67164605fb84bb9da36e72e
+
+=========================================================
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++@PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++@PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++@PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++@PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++@PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++@PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++@PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/9a67d3f3f41a99e4373b59f0b38721bd0d2b0e24
+
+=========================================================
++ @PreAuthorize("hasAnyRole('GUEST','STUDENT')")
++ @PreAuthorize("hasAnyRole('GUEST','STUDENT')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/e302a9dab04b344afe8cd7e2b0084ece1fdb042e
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/83c79c008f6d1bce74068030d0a8b70fecef4bbc
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/e151d7fbcc09c6774e6d943e22e9ff126721679d
+
+=========================================================
+- @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
+- @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
+- @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/145dc78c99bbee969a09150363bfd147098f161c
+
+=========================================================
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JangHyeon/HACO/commit/2d19f1107f6f2ac3e230e49314e0974c19a04dc4
+
+=========================================================
++ @PreAuthorize("hasRole('MASTER')")
++ @PreAuthorize("hasAnyRole('TEACHER','MANAGER','CENTER','MASTER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("#article.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("#article.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("#email == principal.username or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("#comment.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("#comment.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/micros-uz/javamicros/commit/68b459dc72bc675bc0d72897f0db73ae11477763
+
+=========================================================
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#contact, 'delete') or hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/052537c8b04182595e92abd1e1949b0ff7e731b4
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+=========================================================
++ @PreAuthorize("someMethod.py")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/9efb5a7007569dd30eca7ca192ec8b79050df89b
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/e5b10735018373ef5ef2508fb21ea6f754518839
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/e11114ce770be5cd0242cf15b30833b3b692282e
+
+=========================================================
++@PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#contact, 'delete') or hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/4083e2ef92185e9fca129f5adbf58910c651df3d
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/9f512c384e736cb1aa6d777284af902ad5b3131d
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/ab12817b7a7104dd204aab36f92918bbddac20be
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/2d74db9a0c263ec7dfd035b365927f079373f96e
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/6e687d47d4cbe5f836acaac0061e221afbe5ae24
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/c3507b26c9be2860c3c03de9421368506baf9f54
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/35fe1e7b73ca1f12bfea0a9cdde9aadf40a53e65
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lassaadbenhadj/enda/commit/f9cde45e5bc8a624d5fea87c4fcb46588f204eb6
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/92c8366d092e7c751b493c3c38c896fa18980e89
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/8beccd3b26bf1f10b74e7640a416027a7d5e3cde
+
+=========================================================
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_FUNDS')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_FUNDS')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_FUNDS')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_FUNDS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/de12522d301fd52e3f42af29d1bc9417983f803d
+
+=========================================================
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/e7825911fb21eb2a656bccc9b65041ac69f30150
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/8eb1b6ab2a9d177f34fc7271e7f16565413a2dcc
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/christensenst/javaee_sandbox/commit/cf026d7f8b43811bfca512f4ffebc6a8ae9acf93
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/christensenst/javaee_sandbox/commit/cf026d7f8b43811bfca512f4ffebc6a8ae9acf93
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antoinecarton/play/commit/8c1ca6c85cabcc586509210c56b9cf835cb84c1a
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antoinecarton/play/commit/95e110ac420a6afe4b56cf8108f66f61f5019672
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antoinecarton/play/commit/9c35994d4fa274dac0465d846cf0b84c973bcdd0
+
+=========================================================
+-@PreAuthorize("hasRole('ROLE_ADMIN')")
+-@PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antoinecarton/play/commit/800ad6d2688eb51334ada7665a836ba034b49bfc
+
+=========================================================
++@PreAuthorize("hasRole('ROLE_ADMIN')")
++@PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antoinecarton/play/commit/1caad8ac318dcb6a801557183194ba9db4afc469
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antoinecarton/play/commit/69c40c94247621d4b59e45dff72bd1f6f9163437
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antoinecarton/play/commit/22d5e317244dd729e29308005cb2106afccb0c71
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/bea0c9421d87577571bafcfdfe345ab0484a82a8
+
+=========================================================
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_PHARMACY', 'ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_PHARMACY', 'ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_PHARMACY', 'ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_PHARMACY', 'ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_PHARMACY', 'ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_PHARMACY', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_PHARMACY', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_PHARMACY', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_PHARMACY', 'ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ORDERADMIN', 'ROLE_PHARMACY', 'ROLE_ADMIN')")
+- @PreAuthorize("authentication or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/9667c264e0d4c4b8c60ef775e47a5a6df51bc7ce
+
+=========================================================
+- @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("hasRole('ROLE_MODERATOR')")
++// @PreAuthorize("hasRole('ROLE_MODERATOR')")
+- @PreAuthorize("hasRole('ROLE_MODERATOR')")
++// @PreAuthorize("hasRole('ROLE_MODERATOR')")
+- @PreAuthorize("hasRole('ROLE_MODERATOR')")
++// @PreAuthorize("hasRole('ROLE_MODERATOR')")
+- @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("hasRole('ROLE_MODERATOR')")
++// @PreAuthorize("hasRole('ROLE_MODERATOR')")
++// @PreAuthorize("hasRole('ROLE_MODERATOR')")
++// @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("authentication or hasRole('ROLE_ADMIN') or #username == authentication.name")
+- @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("authentication or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("hasRole('ROLE_ADMIN') or #user.username == authentication.name")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN') or #user.username == authentication.name")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("authentication or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/f00d9cd7ccda1d99fd247f270416736563ea5dd0
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("#contact.name == authentication.name")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/aadc8cedad91385754605a2d48fb23676bea19ad
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jackieLiu/contact/commit/1e421b905c9823611b307730120378ae88865cff
+
+=========================================================
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#contact, 'delete') or hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=41&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/javasparx/BoilerplateSpringGwtBootstrap/commit/8a15dfe5e368aa81e02d9e63e4e62184664506a4
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ashok-conflux/test-clone/commit/cd082fc2af9b9c519b2ec4a1db548f0aad151d6c
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ashok-conflux/test-clone/commit/a13a313718516cd869cd5b49cc21ba3b4992fd82
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ashok-conflux/test-clone/commit/029846bda2c53d117c09953ea0d02323eb29e5ae
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ashok-conflux/test-clone/commit/690f0d4abcb222139a58f5cb1a9ba7d7850a88f8
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ashok-conflux/test-clone/commit/6fe8b41ca956163af41a2022a0b78c6ac9c80a23
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ashok-conflux/test-clone/commit/15311f6425e2770acb6d8f3ff9700c0183ab991f
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/yecllsl/sip1code/commit/0c107d74c510f4dc9c3ace38d2e14e7cf318867b
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_READ_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_UPDATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_ADMIN_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_DELETE_MESSAGES')")
++all access unless explicitly granted. See the type-level <code>@PreAuthorize("denyAll")</code>
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/oradev/Spring-in-Practice-code-example/commit/859570e18a552f57a3e0c7e9e153ef0a5a8978be
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/oradev/Spring-in-Practice-code-example/commit/859570e18a552f57a3e0c7e9e153ef0a5a8978be
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/oradev/Spring-in-Practice-code-example/commit/859570e18a552f57a3e0c7e9e153ef0a5a8978be
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JonJon240/CustomerSupport/commit/5a7bce54ce7d9a9020d10bf117a9c3b072f00f12
+
+=========================================================
++ @PreAuthorize("hasAuthority('VIEW_TICKETS')")
++ @PreAuthorize("hasAuthority('VIEW_TICKETS')")
++ @PreAuthorize("hasAuthority('VIEW_TICKET')")
++ @PreAuthorize("#ticket.id == 0 and hasAuthority('CREATE_TICKET')")
++ @PreAuthorize("(authentication.principal.equals(#ticket.customer) and " +
++ @PreAuthorize("hasAuthority('DELETE_TICKET')")
++ @PreAuthorize("hasAuthority('VIEW_COMMENTS')")
++ @PreAuthorize("#comment.id == 0 and hasAuthority('CREATE_COMMENT')")
++ @PreAuthorize("(authentication.principal.equals(#comment.customer) and " +
++ @PreAuthorize("hasAuthority('DELETE_COMMENT')")
++ @PreAuthorize("hasAuthority('VIEW_ATTACHMENT')")
++ @PreAuthorize("authentication.principal.username.equals(#user) and " +
++ @PreAuthorize("authentication.principal.username.equals(#user) and " +
++ @PreAuthorize("authentication.principal.username.equals(#user) and " +
++ @PreAuthorize("authentication.principal.username.equals(#message.user) and " +
++ @PreAuthorize("hasAuthority('VIEW_CHAT_REQUESTS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/making/categolj2-backend/commit/1371cedf62ca067afd397af17b919c316902a175
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/495223297dbfc868e2ce5e1e3ac1a688a8021307
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/747de19e8e390f91ca74ad5d28b8abf258493086
+
+=========================================================
+-@PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#object,'ADMINISTRATION'))")
+-@PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
+-@PreAuthorize("hasRole('ROLE_USER')")
++@PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#entity,'ADMINISTRATION'))")
++@PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#entity,'ADMINISTRATION'))")
++@PreAuthorize("hasRole('ROLE_USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/9f186fdbace60cecada0d35b805d9ae819785fcb
+
+=========================================================
+- @PreAuthorize("hasRole('ROLE_USER') and (#experiment.id == null or hasPermission(#experiment,'WRITE') or hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (#experiment.id == null or hasPermission(#experiment,'EDIT') or hasPermission(#experiment,'ADMINISTRATION'))")
++@PreAuthorize("hasPermission(#id,'com.gmi.nordborglab.browser.server.domain.observation.Experiment','READ')")
+- @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
+- @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#traitUom,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#object,'ADMINISTRATION'))")
+- @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'WRITE') or hasPermission(#trait,'ADMINISTRATION')))")
++ @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'EDIT') or hasPermission(#trait,'ADMINISTRATION')))")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/525e9454a43acd45b27e910e8749f502a9f20ff8
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER') and (#experiment.id == null or hasPermission(#experiment,'WRITE') or hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#traitUom,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'WRITE') or hasPermission(#trait,'ADMINISTRATION')))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=42&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lintubongarit/sulka/commit/08818d3ca6a153fa65a444cc59688c42f13c6786
+
+=========================================================
+- @PreAuthorize("hasAnyRole('USER')")
++ @PreAuthorize("hasAnyRole('USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lintubongarit/sulka/commit/cf6eeed7a369fe7f8110de3ca1316855a91aec3b
+
+=========================================================
+- @PreAuthorize("hasAnyRole('USER')")
++ @PreAuthorize("hasAnyRole('USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/giacomomarciani/mapily/commit/06eb1ac6f73fa52b84ed644889882241e17416e9
+
+=========================================================
+- @PreAuthorize("hasAuthority('ROLE_ADMINISTRATOR')")
+- @PreAuthorize("hasAuthority('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasAuthority('ROLE_SPOTTER')")
++ @PreAuthorize("hasAuthority('ROLE_SPOTTER')")
++ @PreAuthorize("hasAuthority('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasAuthority('ROLE_SPOTTER')")
++ @PreAuthorize("hasAuthority('ROLE_SPOTTER')")
++ @PreAuthorize("hasAuthority('ROLE_ADMINISTRATOR')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/giacomomarciani/mapily/commit/06eb1ac6f73fa52b84ed644889882241e17416e9
+
+=========================================================
+- @PreAuthorize("hasAuthority('ROLE_ADMINISTRATOR')")
+- @PreAuthorize("hasAuthority('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasAuthority('ROLE_SPOTTER')")
++ @PreAuthorize("hasAuthority('ROLE_SPOTTER')")
++ @PreAuthorize("hasAuthority('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasAuthority('ROLE_SPOTTER')")
++ @PreAuthorize("hasAuthority('ROLE_SPOTTER')")
++ @PreAuthorize("hasAuthority('ROLE_ADMINISTRATOR')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/824496b5f23044714ee850b673d78c5ee9f32c1d
+
+=========================================================
++ @PreAuthorize("hasPermission(#phenotypeId,'com.gmi.nordborglab.browser.server.domain.phenotype.TraitUom','READ')")
++ @PreAuthorize("hasPermission(#phenotypeId,'com.gmi.nordborglab.browser.server.domain.phenotype.TraitUom','READ')")
++ @PreAuthorize("hasPermission(#phenotypeId,'com.gmi.nordborglab.browser.server.domain.phenotype.TraitUom','READ')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/495223297dbfc868e2ce5e1e3ac1a688a8021307
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/525e9454a43acd45b27e910e8749f502a9f20ff8
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER') and (#experiment.id == null or hasPermission(#experiment,'WRITE') or hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#traitUom,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'WRITE') or hasPermission(#trait,'ADMINISTRATION')))")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhav123/gkmaster/commit/b829a96d9fe7b0f0f841ecefabb8f8b766755f60
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/470857cf849c121303b4b9178cba4f8a22c2fed0
+
+=========================================================
+-// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+-// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/f3b148d21220c444d469139803fb362f32c134cc
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'delete') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'write') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'read') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/a4e6aeb8b2f19b81b97e7b0bcba118c683c5a1fb
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/afa584f3d2da8eb6dc1cd836e86356a6daa087c5
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'WRITE') and hasRole('ROLE_USER') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/a73cdd05ec637f58a924d665cdfb75b0ff0190ed
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/85694fc51ac568fa6db2a6e1b51c4865f2a2b759
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/aecb83a82e9d75c838505240f30c2c14eff42c6d
+
+=========================================================
+- @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/aecb83a82e9d75c838505240f30c2c14eff42c6d
+
+=========================================================
+- @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+=========================================================
+- @PreAuthorize("hasPermission(#group, 'member')")
++ @PreAuthorize("hasPermission(#group, 'member') or hasPermisssion(#group, 'manager')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/7573106cf1b92176585ab549e6a4b563afd46160
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/879ad876b3089cb2eac1dda1d6253ad3d9ccff9f
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/8a1a74653d3eebfba11b5f39cd1aec89ecfc0e31
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+=========================================================
++ @PreAuthorize("hasPermission(#bar, 'DELETE')")
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasPermission(#user, 'DELETE')")
++ @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/s-m-rehman/mifosxTask/commit/21bd34f2f2bf5a081ceeb56c0662c6a25df52ca4
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/s-m-rehman/mifosxTask/commit/21bd34f2f2bf5a081ceeb56c0662c6a25df52ca4
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peterarsentev/Spring-Security-Acl-MongoDB/commit/18b8fc5fb4300c9fee927488a7bfe8c5c5ed5c8a
+
+=========================================================
++ @PreAuthorize("hasPermission(#t, 'create')")
++ @PreAuthorize("hasPermission(#t, 'update')")
++ @PreAuthorize("hasPermission(#t, 'delete')")
+- @PreAuthorize("hasPermission(#pet, 'create')")
+- @PreAuthorize("hasPermission(#pet, 'update')")
+- @PreAuthorize("hasPermission(#pet, 'delete')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/47c0ce690acf8bebdb48d98fdaab48478beae8a1
+
+=========================================================
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=43&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mujeeb1238/myworkBackup/commit/7f172651192e611d4589a3cee0e3fc6576e4f011
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/biancama/meoni-projects/commit/653acf4e8b35f70f150094e4c085156160a9d497
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhav123/lmshead/commit/12fb0d62142a94f6edd53723832ed51e794bba32
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhav123/lmshead/commit/12fb0d62142a94f6edd53723832ed51e794bba32
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/blixabargeld/list-spring-mvc/commit/a254cddc045c361e09b4103926e40a18d670a144
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/reddysatish158/finance/commit/0a30e4e08c9a4216b8e206a768da4cba0a484eb6
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/reddysatish158/finance/commit/5240d308b8e97060bc51513e7418e564677c73c9
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/reddysatish158/finance/commit/029846bda2c53d117c09953ea0d02323eb29e5ae
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/reddysatish158/finance/commit/fa9f2129dde722183a09f019a1244bf0261e4ee2
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/myguel/task-java-advance/commit/877741739e7cc25e50e53d311b9bd4801f1fc387
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/myguel/task-java-advance/commit/15d5d6f52b98540d35a2f9786c87d22432551501
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/myguel/task-java-advance/commit/7f6552ac139eb57fbf2550ced44a67e397e52c3c
+
+=========================================================
++ @PreAuthorize("hasAnyRole('ROL_ADMINISTRADOR', 'ROL_DIRECTOR','ROL_USER')")
++ @PreAuthorize("hasAnyRole('ROL_ADMINISTRADOR', 'ROL_DIRECTOR')")
++ @PreAuthorize("hasAnyRole('ROL_ADMINISTRADOR')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/myguel/task-java-advance/commit/ee82b4a2582dea8fd54d7caa27249e1e96d1f862
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ranjith15/lms/commit/848a3ae38caae87fa86f9621bd690bf269a0f9d5
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ranjith15/lms/commit/cd082fc2af9b9c519b2ec4a1db548f0aad151d6c
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ranjith15/lms/commit/a13a313718516cd869cd5b49cc21ba3b4992fd82
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ranjith15/lms/commit/029846bda2c53d117c09953ea0d02323eb29e5ae
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ranjith15/lms/commit/690f0d4abcb222139a58f5cb1a9ba7d7850a88f8
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ranjith15/lms/commit/6fe8b41ca956163af41a2022a0b78c6ac9c80a23
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ranjith15/lms/commit/848a3ae38caae87fa86f9621bd690bf269a0f9d5
+
+=========================================================
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=44&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ranjith15/lms/commit/15311f6425e2770acb6d8f3ff9700c0183ab991f
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/prosdl/simmft/commit/1d77ec8d5a52a50bdaaa50ef08a9b679aa94a05e
+
+=========================================================
++ @PreAuthorize("hasRole('mft:storage:read')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/prosdl/simmft/commit/174bfc21413f80842b9548e7c3e4e2fd35f1afdb
+
+=========================================================
++ @PreAuthorize("hasRole('mft:storage:write')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/47c778053346f765d94bb89861caf18ceb06a3eb
+
+=========================================================
++ @PreAuthorize("hasPermission(#opsId, 'opetussuunnitelma', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#opsId, 'opetussuunnitelma', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/31317689be8bf74a2ae4d391766b8f15190bd14e
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/e940bded85f59013446cc522cd84e100ddf27f59
+
+=========================================================
++ @PreAuthorize("hasPermission(#opsId, 'opetussuunnitelma', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/f00519e01fbed89e63b86527d55bdf7efc39c73a
+
+=========================================================
++ @PreAuthorize("hasPermission(#opsId, 'opetussuunnitelma', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/f69b1f8e1bf97592207f9adf9ebe9b36dd91611e
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/1231ad410dea4d3ca22fd65c1a1117b99ea403bc
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/dd9b3b13b6fff4c1dfebcddbad826dce6930991b
+
+=========================================================
++ @PreAuthorize("hasPermission(#opsId, 'opetussuunnitelma', 'LUKU')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/f08ba3900cfa5e7eba8d8933815fdb2e3da2818b
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/metadata-stores/commit/0b0571c93a67bfbeff011cfec159a75164201b81
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_STAFF')")
++ @PreAuthorize("hasRole('ROLE_STAFF')")
++ @PreAuthorize("hasRole('ROLE_STAFF')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('ROLE_STAFF')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/making/categolj2-backend/commit/88c2a5a1b99076e68fdfd8b25076788413d27f1b
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/making/categolj2-backend/commit/1371cedf62ca067afd397af17b919c316902a175
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/making/categolj2-backend/commit/1371cedf62ca067afd397af17b919c316902a175
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/devshred/spring-security/commit/00341f1eeaf499805d1ffd3165c867db2535032a
+
+=========================================================
+- @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
+-@PreAuthorize("isAuthenticated()")
++@PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/devshred/spring-security/commit/faab5c1c774af6e9912c32f5975f344583605774
+
+=========================================================
++@PreAuthorize("denyAll")
+- //@PreAuthorize("hasPermission('ROLE_USER')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- //@PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhav123/gkmaster/commit/b829a96d9fe7b0f0f841ecefabb8f8b766755f60
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheGreenLark/plantApp/commit/7cf02a5425d166ea49533dfa84f92ff9e48c456a
+
+=========================================================
++ @PreAuthorize("hasPermission(#task, 'member') or hasPermission(#task, 'manager')")
++ @PreAuthorize("hasRole('ROLE_ROOT')")
++ @PreAuthorize("hasPermission(#task, 'member') or hasPermission(#task, 'manager')")
++ @PreAuthorize("hasPermission(#message, 'write') or hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("(hasPermission(#message, 'write') or hasRole('ROLE_MODERATOR')) and (hasPermission(#task, 'member') or hasPermission(#task, 'manager'))")
++ @PreAuthorize("hasPermission(#message, 'delete') or hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasRole('ROLE_ROOT')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/470857cf849c121303b4b9178cba4f8a22c2fed0
+
+=========================================================
+-// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+-// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/f3b148d21220c444d469139803fb362f32c134cc
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'delete') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'write') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'read') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/a4e6aeb8b2f19b81b97e7b0bcba118c683c5a1fb
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/afa584f3d2da8eb6dc1cd836e86356a6daa087c5
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'WRITE') and hasRole('ROLE_USER') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/a73cdd05ec637f58a924d665cdfb75b0ff0190ed
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/85694fc51ac568fa6db2a6e1b51c4865f2a2b759
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/aecb83a82e9d75c838505240f30c2c14eff42c6d
+
+=========================================================
+- @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/aecb83a82e9d75c838505240f30c2c14eff42c6d
+
+=========================================================
+- @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+=========================================================
+- @PreAuthorize("hasPermission(#group, 'member')")
++ @PreAuthorize("hasPermission(#group, 'member') or hasPermisssion(#group, 'manager')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/7573106cf1b92176585ab549e6a4b563afd46160
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/879ad876b3089cb2eac1dda1d6253ad3d9ccff9f
+
+=========================================================
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/8a1a74653d3eebfba11b5f39cd1aec89ecfc0e31
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+=========================================================
++ @PreAuthorize("hasPermission(#bar, 'DELETE')")
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasPermission(#user, 'DELETE')")
++ @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=45&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/javasparx/SpringGwt/commit/f44dd00eb6c36a2aea58357061786d4ded78a05b
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/javasparx/SpringGwt/commit/42c79ad646a8496891275c41aecd6bfffc654d45
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/javasparx/SpringGwt/commit/f76871e0d61d30209cc72655caa0b4526a40bb00
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ssherwood/symptom-mgmt-spring/commit/d4d0b02ceb0dd61b709a6487a0bdbd2085a2a058
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_DOCTOR')")
++ @PreAuthorize("hasRole('ROLE_DOCTOR')")
++ @PreAuthorize("hasRole('ROLE_DOCTOR')")
++ @PreAuthorize("hasRole('ROLE_DOCTOR')")
++ @PreAuthorize("hasRole('ROLE_DOCTOR')")
++ @PreAuthorize("hasRole('ROLE_DOCTOR')")
++ @PreAuthorize("hasRole('ROLE_DOCTOR')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davidscotsted/scotsted-uk/commit/cf45ceb07932d899676540c7a247e315ae04c1e6
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("permitAll")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davidscotsted/scotsted-uk/commit/360b9c7299a1c1d568940953f67dba97ed4d490c
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davidscotsted/scotsted-uk/commit/53d136903822ef9e375fe03c733d46dab98f0c48
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davidscotsted/scotsted-uk/commit/94200f381ad70a7ee8a72c7c88cab0211e1a3710
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Appverse/appverse-web-showcases/commit/7fab21aca57ca2f3beed3b8ec7f126d0587c77fb
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Appverse/appverse-web-showcases/commit/9fc47bd6e1818055800301759d602f5d931ecd81
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_ROLE')")
++ @PreAuthorize("hasRole('ROLE_ROLE')")
++ @PreAuthorize("hasRole('ROLE_ROLE')")
++ @PreAuthorize("hasRole('ROLE_ROLE')")
++ @PreAuthorize("hasRole('ROLE_ROLE')")
++ @PreAuthorize("hasRole('ROLE_ROLE')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Appverse/appverse-web-showcases/commit/7fab21aca57ca2f3beed3b8ec7f126d0587c77fb
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Appverse/appverse-web-showcases/commit/1b76a4e5875d39a592a0e0fa527a0b99c4e7a934
+
+=========================================================
+-@PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') OR hasRole('ROLE_APP_ACCESS')")
++@PreAuthorize("hasRole('ROLE_ROLE')")
+-@PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') AND hasRole('ROLE_ROLE_DISABLE')")
++@PreAuthorize("hasRole('ROLE_ROLE')")
+-@PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') OR hasRole('ROLE_APP_ACCESS')")
++@PreAuthorize("hasRole('ROLE_ROLE')")
+-@PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') OR hasRole('ROLE_APP_ACCESS')")
++@PreAuthorize("hasRole('ROLE_ROLE')")
+-@PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') OR hasRole('ROLE_APP_ACCESS')")
++@PreAuthorize("hasRole('ROLE_ROLE')")
+-@PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') AND ( (#role.id == 0 AND hasRole('ROLE_ROLE_CREATE')) OR (#role.id != 0 AND hasRole('ROLE_ROLE_EDIT')) )")
++@PreAuthorize("hasRole('ROLE_ROLE')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Appverse/appverse-web-showcases/commit/f87cf80e65cba08cadd899102fd321252a448188
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') OR hasRole('ROLE_APP_ACCESS')")
++ @PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') AND hasRole('ROLE_ROLE_DISABLE')")
++ @PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') OR hasRole('ROLE_APP_ACCESS')")
++ @PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') OR hasRole('ROLE_APP_ACCESS')")
++ @PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') OR hasRole('ROLE_APP_ACCESS')")
++ @PreAuthorize("hasRole('ROLE_APP_ADMIN_CONSOLE_ACCESS') AND ( (#role.id == 0 AND hasRole('ROLE_ROLE_CREATE')) OR (#role.id != 0 AND hasRole('ROLE_ROLE_EDIT')) )")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaaschk/openserve/commit/8d4d19ecbee2bf27c3462b4263069bb5be45963c
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaaschk/openserve/commit/310c6863b332b9725c8d1439d86516b67296e58c
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaaschk/openserve/commit/18d06f3da7924b2c98a037967f1df7e827dd0bb6
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaaschk/openserve/commit/eaf01a73a793c1bdbd37dc7269d3d66c50c2a268
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaaschk/openserve/commit/44b7b40af0f7f4bcfa17690b25eb7e20c9c77781
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaaschk/openserve/commit/dbc8ce1086c10646d9d36503968b96761d86cc4b
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaaschk/openserve/commit/90eaadf9b102126c7cbb690dd92bdbc9afae1bfb
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/3657b5210ed3a79d470d4266336e0a9a2a7a9939
+
+=========================================================
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/47b166173c0cc0c97f8c48f3e2f1331c2020de25
+
+=========================================================
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/3799ab9b3c572fb350fc7a22482d7a67234c08c7
+
+=========================================================
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/e9b1216824eece2d834dcb280898f7590ae0355a
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet-ylops/commit/b7d0766f4402de605b037a710b6aaea17e1dfa5d
+
+=========================================================
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/blixabargeld/list-spring-mvc/commit/a254cddc045c361e09b4103926e40a18d670a144
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=46&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Robert-Leggett/angular_bootstrap_spring/commit/e7d419a45f14b4b021e785b052374abad285c88c
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/blixabargeld/list-spring-mvc/commit/a254cddc045c361e09b4103926e40a18d670a144
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/blixabargeld/list-spring-mvc/commit/a254cddc045c361e09b4103926e40a18d670a144
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/blixabargeld/list-spring-mvc/commit/a254cddc045c361e09b4103926e40a18d670a144
+
+=========================================================
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++ @PreAuthorize("permitAll")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++@PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tibetjungle/security/commit/83be43cda1f7e6241d3e5aaed539b83d99c6b43a
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tibetjungle/security/commit/e21ef98ff9285a33bb04e59613c0c49daad568b5
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#contact, 'delete') or hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#domainObject, admin)")
++ @PreAuthorize("hasPermission(#domainObject, admin)")
++ @PreAuthorize("hasPermission(#domainObject, 'delete') or hasPermission(#domainObject, admin)")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/c7b0cc495ed0e89310df85b3d443095e5c9398a6
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/2ced62c67618bc78cf9ad3ae9fc201e193947e08
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/4d3a7661706d2ecde0071c38617d51f0436880d1
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/42e0ae4545a491811a656312c026269d7cdada71
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/34c3ab53fa54fcb4dc2dbb9686b2b5eb8b6216fc
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/a4c0e2b66b646f26228e2dd01fede7730c41d9be
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/6de79ba7e274b8324fd948084894a7e4f86699c2
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/e27717b59377b99f10957ccba8613aac48bc7a30
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/cfba109b66eed047bd84b63e66dbeef87aeea6b1
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/b988149590bfa5ddf51258b945d6d78601ed2dc0
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/66bb407881bd844908df12ea78fee94f70106001
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/e37b6847bddd89efa786684397188139c38f95ba
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mitreid-connect/trust-framework/commit/90201f1fc24d2eac4c7b50d633586d541f71cd26
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/2837a31d6ff0a1857bd904d2daf00633819484f6
+
+=========================================================
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','LUKU')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/5450e0174c28788e910686295f437b018e397d42
+
+=========================================================
++ @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/999c3e619975b07e13ae648321868bafff22db28
+
+=========================================================
+- @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
+- @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
+- @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
+- @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/79a76388ab2c8aff4ff68441ef201f48017f4f57
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/013cccf1d531e7f7e257bbb9aadb8ecf01b756e6
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/70d7a8e12afa55d3fd05f00ec2f7c5d4a590fb4b
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/a7bdb315375f4353c0ecac21591c669f5d5a2dfb
+
+=========================================================
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/90c85919d4a184fad70f0ce53ad9ec192e28c84d
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/1a419f33f86c04e2b2029034353927f5ba469d89
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/34f422b1bbfd46c650e2d7e11439f7c1e87d1a35
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/62a748b3320909e132aedba8aa36a241f657d07a
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/c2bbe1d64b654308690aef22a189f5024cf06802
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/bab6fc62e2be309a9074b5b32bfdf055d6440032
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/0c2e96c6256ef53e74fa182bc4c2766c07cfcaa6
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/faddbdfd0b030280e6283db8308ec748cac0e5a4
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/ba8d991c98a5aa542afeb638899ed28426637a47
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/7fb62e8d557e14bbdbb68bff7ddb166882cac1ab
+
+=========================================================
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/f9c8e4507d1b573cd333f3889ac4d50155bbd838
+
+=========================================================
+- @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
+- @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/78bc0bed8e1564bd2ad758ec246a2662489c11e0
+
+=========================================================
++ @PreAuthorize("isAuthenticated()")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/7fb62e8d557e14bbdbb68bff7ddb166882cac1ab
+
+=========================================================
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/490222013d458b57cf596712c33ae389b4363c58
+
+=========================================================
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#po.dto.id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#po.dto.id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#po.dto.id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#po.id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#po.id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#po.id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS') or hasPermission(#viiteId, 'tutkinnonosaviite', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#tov.id, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#tov.id, 'tutkinnonosaviite', 'MUOKKAUS') or hasPermission(#tov.id, 'tutkinnonosaviite', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/2837a31d6ff0a1857bd904d2daf00633819484f6
+
+=========================================================
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','LUKU')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/5450e0174c28788e910686295f437b018e397d42
+
+=========================================================
++ @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/b5e98533104c9452c7c73267d1cd3da83f44074d
+
+=========================================================
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/1126525ce74dbd11e65c6213d472e90c4f43cb41
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/80694232d168e85a2b4f1c30114ab10cfa157bfd
+
+=========================================================
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d31a73c448815ac4363aa93b91ffa0b7efb131ea
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/11a1a9f1630c3a98ba65c770dc310cbb64310daa
+
+=========================================================
+- @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole(#location, 'MANAGER')")
++ @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/87f8d12b29cb2b6b8da911d00a7784f53220fae3
+
+=========================================================
++ @PreAuthorize("hasRole(#location, 'MANAGER')")
++ @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/76d79bbbdbdedf6d5eb68544bdcad57f0c34d0f5
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/79d80fe44b6c957877df0f8930b4b0e7927fa8d0
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_MODERATOR') or hasPermission(#group, 'MANAGER')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d9892bfece1f53ad56fa883822d346bb59f458ee
+
+=========================================================
++ @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasPermission(#class, 'MANAGER')"
++ @PreAuthorize("hasPermission(#class, 'MANAGER')"
++ @PreAuthorize("hasPermission(#class, 'MANAGER')"
++ @PreAuthorize("hasRole('ROLE_ROOT')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasRole('ROLE_ROOT')")
++ @PreAuthorize("hasPermission(#location, 'MANAGER') or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasPermission(#user, 'WRITE') or hasRole('ROLE_MODERATOR')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=47&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/d37ec900db3bc5bb3ff8a14dfbfb2477dbb97f90
+
+=========================================================
++ @PreAuthorize("hasPermission(#phenotypeId,'com.gmi.nordborglab.browser.server.domain.phenotype.TraitUom','READ')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/495223297dbfc868e2ce5e1e3ac1a688a8021307
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/a6b75b29568a6254b2d71b2de53cac2bfa99c0fa
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','EDIT') or hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','EDIT') or hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','ADMINISTRATION'))")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/ad960798fb34f547242b5401a034162ac9a8d4d0
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/cac529eb8f83730455a6e3b5aad4461ef7a5e3c6
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER') and (#study.id == null or hasPermission(#study,'EDIT') or hasPermission(#study,'ADMINISTRATION'))")
+- @PreAuthorize("hasRole('ROLE_USER') and (#experiment.id == null or hasPermission(#experiment,'EDIT') or hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (#experiment.id == null or hasPermission(#experiment,'EDIT') or hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'EDIT') or hasPermission(#experiment,'ADMINISTRATION'))")
+- @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'EDIT') or hasPermission(#trait,'ADMINISTRATION')))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#traitUom,'EDIT') or hasPermission(#traitUom,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#traitUom,'EDIT') or hasPermission(#traitUom,'ADMINISTRATION'))")
+- @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experimentId,'com.gmi.nordborglab.browser.server.domain.observation.Experiment','EDIT') or hasPermission(#experimentId,'com.gmi.nordborglab.browser.server.domain.observation.Experiment','ADMINISTRATION')")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experimentId,'com.gmi.nordborglab.browser.server.domain.observation.Experiment','EDIT') or hasPermission(#experimentId,'com.gmi.nordborglab.browser.server.domain.observation.Experiment','ADMINISTRATION'))")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3
+
+=========================================================
++ @PreAuthorize("hasPermission(#id,'com.gmi.nordborglab.browser.server.domain.cdv.Study','READ')")
++ @PreAuthorize("hasRole('ROLE_USER') and (#study.id == null or hasPermission(#study,'EDIT') or hasPermission(#study,'ADMINISTRATION'))")
++ @PreAuthorize("hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','READ')")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','EDIT') or hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','ADMINISTRATION'))")
++ @PreAuthorize("hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','READ')")
++ @PreAuthorize("hasPermission(#gwasResultId,'com.gmi.nordborglab.browser.server.domain.util.GWASResult','READ')")
+- @PreAuthorize("hasRole('ROLE_USER') AND hasPermission(#gwasResult,'edit')")
++ @PreAuthorize("hasRole('ROLE_USER') AND hasPermission(#gwasResult,'EDIT')")
+- @PreAuthorize("hasRole('ROLE_USER') AND hasPermission(#gwasResult,'edit')")
++ @PreAuthorize("hasRole('ROLE_USER') AND hasPermission(#gwasResult,'EDIT')")
+- @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER') AND hasPermission(#studyId,'com.gmi.nordborglab.browser.server.domain.cdv.Study','READ') ")
+- @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'EDIT') or hasPermission(#trait,'ADMINISTRATION')))")
+- @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'EDIT') or hasPermission(#trait,'ADMINISTRATION')))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experimentId,'com.gmi.nordborglab.browser.server.domain.observation.Experiment','EDIT') or hasPermission(#experimentId,'com.gmi.nordborglab.browser.server.domain.observation.Experiment','ADMINISTRATION')")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/5e293d871f3a6f2e521c5abcb83507c6bd3df9e0
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/18c29aceb0846e5eebf3fe5f856c990adaa5f6d0
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/f7ee9f5569a06926f67ba7ad74453959b544de6a
+
+=========================================================
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/525e9454a43acd45b27e910e8749f502a9f20ff8
+
+=========================================================
++ @PreAuthorize("hasRole('ROLE_USER') and (#experiment.id == null or hasPermission(#experiment,'WRITE') or hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#traitUom,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'WRITE') or hasPermission(#trait,'ADMINISTRATION')))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=48&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

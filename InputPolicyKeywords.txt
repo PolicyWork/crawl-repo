@@ -1,1 +1,12 @@
+Authorize("hasRole
+permission
+@PreAuthorize("
+@Secured(
+@PostAuthorize("
+user-permission
+permission
+content-security-policy
+ROLE_USER
+@Secured("
+PreAuthorize
 HasRole

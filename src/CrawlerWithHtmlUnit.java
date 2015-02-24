@@ -55,9 +55,7 @@ public class CrawlerWithHtmlUnit {
 					//Send HTTP GET Request
 					driver.get(urlToGet);
 					
-					String nextPageUrl = driver.findElement(By.className("next_page")).getAttribute("href");
 					
-					System.out.println("Next Page URL is <><><><>:"+nextPageUrl);
 
 					/* 	Infinite loop starts here . You keep clicking on the next
 						button of search results. In case it fails, an exception is caught and
@@ -67,6 +65,10 @@ public class CrawlerWithHtmlUnit {
 					Integer counter = 0; //Only for tracking and debugging
 					
 					while (true) {
+						
+						String nextPageUrl = driver.findElement(By.className("next_page")).getAttribute("href");
+						
+						System.out.println("Next Page URL is <><><><>:"+nextPageUrl);
 						
 						counter=counter+1;  //Only for tracking and debugging
 						
@@ -102,7 +104,8 @@ public class CrawlerWithHtmlUnit {
 								System.out.println("codChangeUrl:->"+codeChangeUrl);
 															
 								String search="//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]";
-																
+								//String search="//td[contains(@class,'blob-code blob-code-deletion')]";
+								
 								System.out.println("SEARCH STRING IS -->"+search);
 								
 								List<WebElement> listChanges = driver.findElements(By.xpath(search));
@@ -113,15 +116,23 @@ public class CrawlerWithHtmlUnit {
 								
 								System.out.println("ListChanges size is :"+ listChanges.size());
 
+//								Boolean gotMatchingText=false;
 								if (listChanges.size()>0)
 								{
-									outputHandle.write("=========================================================\n");
-									
-									outputHandle.write("[CODE-CHANGE_URL]:"+codeChangeUrl+"\n\n");
-									
-									outputHandle.write("=========================================================\n");
+//									if(gotMatchingText ==true)
+//									{
+										outputHandle.write("=========================================================\n");
+										
+										outputHandle.write("[CODE-CHANGE-URL]:"+codeChangeUrl+"\n\n");
+										
+										outputHandle.write("=========================================================\n");
+//									}
+										
+//									gotMatchingText=false;
 																	
 									for (int count = 0; count < listChanges.size(); count++) {
+										
+										
 
 										//prints all the code changes associated with each commit
 										
@@ -131,6 +142,8 @@ public class CrawlerWithHtmlUnit {
 										//To print only keyword matching lines
 										if(codeChanges.toLowerCase().contains(keywordLine.toLowerCase()))
 										{
+//											gotMatchingText = true;
+											
 											System.out.println("IT IS TRUE ******************************");
 											
 											outputHandle.write(codeChanges);
@@ -140,6 +153,8 @@ public class CrawlerWithHtmlUnit {
 											System.out.println(codeChanges);
 
 											outputHandle.write("\n");
+											
+											
 										}
 										
 									}
@@ -156,6 +171,8 @@ public class CrawlerWithHtmlUnit {
 						
 						try{
 								System.out.println("BEFORE GOING TO NEXT PAGE <><><>");
+								
+								outputHandle.write("[NEXT-PAGE-URL]:"+nextPageUrl+"\n\n");
 								
 								outputHandle.flush();
 								

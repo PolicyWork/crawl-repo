@@ -1,0 +1,42 @@
+- <uses-permission android:name="android.permission.INTERNET"/>
+- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&p=2&q=android.permission&type=Code&utf8=%E2%9C%93
+
+- <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+- <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+- <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+- <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+- <uses-permission android:name="android.permission.INTERNET" />
+- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+- <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+- <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+- <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+- <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+- <uses-permission android:name="android.permission.INTERNET" />
+- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+- <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+- <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+- <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+- <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+- <uses-permission android:name="android.permission.INTERNET" />
+- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+- <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+- <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+- <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+- <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+- <uses-permission android:name="android.permission.INTERNET" />
+- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&p=3&q=android.permission&type=Code&utf8=%E2%9C%93
+
+- field public static final java.lang.String GET_TASKS = "android.permission.GET_TASKS";
+- <uses-permission android:name="android.permission.GET_TASKS" />
+- <uses-permission android:name="android.permission.GET_TASKS" />
+- <uses-permission android:name="android.permission.GET_TASKS" />
+- <uses-permission android:name="android.permission.GET_TASKS" />
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&p=4&q=android.permission&type=Code&utf8=%E2%9C%93
+

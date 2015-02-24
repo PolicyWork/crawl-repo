@@ -1,0 +1,65 @@
+
+=========================================================
+[CODE-CHANGE_URL]:https://github.com/bozzz91/board/commit/65a701586d34a71e95bfdc8d261780025f26215e
+[CODE-CHANGE_URL]:https://github.com/eneuwirt/vaadin-spring-jsp/commit/237a9a8e8daf1376f4fc149b2d02a6e69670f85d
+[CODE-CHANGE_URL]:https://github.com/freemindcafe/samples-spring/commit/1532f3b9cf6148674e6c3354ed0484db4e1cefa8
+[CODE-CHANGE_URL]:https://github.com/gleant/wadi_harjotustyo/commit/629102832a01abf44838f79f212179a9f02efbf7
+[CODE-CHANGE_URL]:https://github.com/gleant/wadi_harjotustyo/commit/761ee94d23d9a4b92967489fb4a7aed96b272ed3
+[CODE-CHANGE_URL]:https://github.com/gleant/wadi_harjotustyo/commit/dc5b4c66c8688ba4db59bb35c47509566eb2fc28
+[CODE-CHANGE_URL]:https://github.com/jleikko/jee/commit/232cf62b06ae19cdf9c8d9a0f1f57f57bc647941
+[CODE-CHANGE_URL]:https://github.com/johncook59/zarg-bank/commit/fbd4b90d86d31b632bb2e622f68bc89f80f8b731
+[CODE-CHANGE_URL]:https://github.com/KuroshFarsimadan/SpringSecurityDemo/commit/20ade4bcf6738e3df4b683b2e09cacc8c3d13c75
+[CODE-CHANGE_URL]:https://github.com/mathieubolla/spring-security-checks/commit/77e907051227ecd404d3c2bf17a901505a9720e0
+[CODE-CHANGE_URL]:https://github.com/pasuuna/studentdevs/commit/222ff4f9a9a318f55f5cd9cea84596e43421fc6e
+[CODE-CHANGE_URL]:https://github.com/pasuuna/studentdevs/commit/70992c95c074841fcad11c28fcf09d7fa00a3b59
+[CODE-CHANGE_URL]:https://github.com/pasuuna/studentdevs/commit/8f3f50b0d05997510dbad58409c13591c257bce3
+[CODE-CHANGE_URL]:https://github.com/pasuuna/studentdevs/commit/d510468d6bb5d1821b346f8c3aaa9751af5837e8
+[CODE-CHANGE_URL]:https://github.com/rwinch/SEC-2815/commit/208edcb8da8c6769a3546d88f2de6a842bae99c0
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/271e2b7cc1f86672ec19362b2f773b253aaad96f
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/43da10d61d2c04f79b5d04c23abe251d9e01060b
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/45bb78edd3da162abce352f33074e9f0baa0c8fe
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/5043e8f4b3e8f1f83754a6b9204fce1b234dd1f6
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/6a61d471c7eb47d4801f768ccf17ef4ad60a3bb4
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/776bebab5688e8a067b1c71453528fea87de5b00
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/91a39b8d5e9d861e6997df9b8d1a0145570f2047
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/9c32f10cd62d837c8880e606c7f027153208dcba
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/d5c5337c79b295ffbe46c45dbd09de58b9dfb7c7
+[CODE-CHANGE_URL]:https://github.com/Scionar/TiPi/commit/dcbc2c7997259591c3545ecebcc9d67d33bfe86e
+[CODE-CHANGE_URL]:https://github.com/TuukkaP/springtyovuoro/commit/750b62eebf42ff815bd689b776b995b58aa5938a
+[CODE-CHANGE_URL]:https://github.com/TuukkaP/springtyovuoro/commit/9667c264e0d4c4b8c60ef775e47a5a6df51bc7ce
+[CODE-CHANGE_URL]:https://github.com/TuukkaP/springtyovuoro/commit/aadc8cedad91385754605a2d48fb23676bea19ad
+[CODE-CHANGE_URL]:https://github.com/TuukkaP/springtyovuoro/commit/f00d9cd7ccda1d99fd247f270416736563ea5dd0
++ @PreAuthorize("authentication or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("authentication or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("authentication or hasRole('ROLE_ADMIN') or #username == authentication.name")
++ @PreAuthorize("authentication.principal == 'user1' and #context == 'abc'")
++// @PreAuthorize("#contact.name == authentication.name")
++ @PreAuthorize("denyAll")
++ @PreAuthorize("hasPermission(null, 'permission2')")
++ @PreAuthorize("hasPermission(#o, 'MODERATE')")
++ @PreAuthorize("hasPermission(#o, 'READ')")
++ @PreAuthorize("hasPermission(#o, 'SUB_ADMIN')")
++ @PreAuthorize("hasRole('customer')")
++ @PreAuthorize("hasRole('opettaja')")
++ @PreAuthorize("hasRole('role1')")
++ @PreAuthorize("hasRole('role1') or hasPermission(null, 'permission2')")
++ @PreAuthorize("hasRole('role3')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN') or #user.username == authentication.name")
++ @PreAuthorize("hasRole('ROLE_ANONYMOUS')")
++ @PreAuthorize("hasRole('ROLE_CLIENT_SELF_SERVICE')")
++ @PreAuthorize("hasRole('ROLE_CUSTOMER_MANAGER')")
+- @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++// @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ //@PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('student')")
++ @PreAuthorize("isAnonymous()")
+- @PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++// @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("permitAll")
