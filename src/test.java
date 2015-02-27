@@ -54,8 +54,6 @@ public class test {
 					
 					System.out.println("urlToGet is : "+urlToGet);
 					
-					
-					
 					if(counter!=0)
 					{
 						counter = 0;   //not required actually to reset the counter for every new search keyword
@@ -73,8 +71,6 @@ public class test {
 						button of search results. In case it fails, an exception is caught and
 						control breaks out of the infinite loop  gracefully(supposed to)
 					*/
-					
-					
 					
 					while (true) {
 						

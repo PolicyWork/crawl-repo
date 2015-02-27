@@ -18,65 +18,51 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 
-public class ScrapeOnlyCommits {
+public class CommitMessageReader {
 
 	public static void main(String[] args) throws InterruptedException,	IOException {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessagesOnly_Restart1.txt"); //We write into this file
-		
-		File logFile = new File("/home/manish/workspace/crawl-repo/ErrorLoggingCommitMessagesOnly.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages.txt"); //We write into this file
 
 		try {
 			
 			readHandle = new BufferedReader(new FileReader("/home/manish/workspace/crawl-repo/InputPolicyKeywords.txt"));  //Input file containing keywords
-			
-			BufferedWriter outputHandle = new BufferedWriter(new FileWriter(file));
-			BufferedWriter logHandle = new BufferedWriter(new FileWriter(logFile));
-			
+
 			String keywordLine; // this will contain each of the keywords as the program reads line by line
-			
-			WebDriver driver = new HtmlUnitDriver();
-			
-			Logger logger = Logger.getLogger ("");
-			
-			logger.setLevel (Level.SEVERE);
-
-			WebElement element;
-			
-//			Integer counter = 0; //Only for tracking and debugging
-
 
 			while ((keywordLine = readHandle.readLine()) != null) {
 
 				try {
+					BufferedWriter outputHandle = new BufferedWriter(new FileWriter(file));
+					
+					WebDriver driver = new HtmlUnitDriver();
+					
+				
+					Logger logger = Logger.getLogger ("");
+					
+					logger.setLevel (Level.SEVERE);
+
+					WebElement element;
 					
 					String lang="java";
 
-//					String urlToGet ="https://github.com/search?utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code";
-					
-					String urlToGet ="https://github.com/search?l=java&p=6&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93";
+					String urlToGet ="https://github.com/search?utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code";
 					
 					System.out.println("urlToGet is : "+urlToGet);
 					
-//					if(counter!=0)
-//					{
-//						counter = 0;   //not required actually to reset the counter for every new search keyword
-//						Thread.sleep(10000L);
-//						Thread.sleep(10000L);
-//						Thread.sleep(10000L);
-//						Thread.sleep(10000L);
-//						Thread.sleep(10000L);
-//					}
-
 					//Send HTTP GET Request
 					driver.get(urlToGet);
+					
+					
 
 					/* 	Infinite loop starts here . You keep clicking on the next
 						button of search results. In case it fails, an exception is caught and
 						control breaks out of the infinite loop  gracefully(supposed to)
 					*/
+					
+					Integer counter = 0; //Only for tracking and debugging
 					
 					while (true) {
 						
@@ -84,7 +70,7 @@ public class ScrapeOnlyCommits {
 						
 						System.out.println("Next Page URL is <><><><>:"+nextPageUrl);
 						
-//						counter=counter+1;  //Only for tracking and debugging
+						counter=counter+1;  //Only for tracking and debugging
 						
 						System.out.println("Marker..."); //Only for tracking and debugging
 											
@@ -115,35 +101,9 @@ public class ScrapeOnlyCommits {
 								
 								driver.get(codeChangeUrl);
 								
-								System.out.println("codeChangeUrl:->"+codeChangeUrl);
+								System.out.println("codChangeUrl:->"+codeChangeUrl);
 								
-								String commitTitle;
-								
-								try{
-									
-									commitTitle=driver.findElement(By.xpath("//p[contains(@class,'commit-title')]")).getText();
-									
-								}catch(Exception e){
-									logHandle.write("codeChangeUrl:->"+codeChangeUrl);
-									continue;
-								}
-								
-								
-								String commitMessageDesc;
-								
-								//Sometimes commit-desc not there on the page
-								try{
-									
-//									 commitMessageDesc=driver.findElement(By.xpath("//p[contains(@class,'commit-desc')]")).getText();
-									 commitMessageDesc=driver.findElement(By.xpath("//*[@class=\"commit-desc\"]/pre")).getText();
-									 
-									}catch(Exception e){
-											commitMessageDesc="";
-									}
-								
-								
-								
-								String commitMessage = commitTitle+"||"+commitMessageDesc;
+								String commitMessage=driver.findElement(By.xpath("//p[contains(@class,'commit-title')]")).getText();
 								
 //								Boolean gotMatchingText = false;
 															
@@ -156,42 +116,62 @@ public class ScrapeOnlyCommits {
 								
 								System.out.println("+++++++++++++++++++++++++++++++");
 								
-								System.out.println("ListChanges size is :"+ listChanges.size());
+								//============================
 								
-								Boolean isCodeChangeUrlPrinted = false;
+								System.out.println("ListChanges size is :"+ listChanges.size());
 
 //								Boolean gotMatchingText=false;
-								
 								if (listChanges.size()>0)
 								{
+//									if(gotMatchingText ==true)
+//									{
+										outputHandle.write("=========================================================\n");
+										
+										outputHandle.write("[CODE-CHANGE-URL]:"+codeChangeUrl+"\n\n");
+										
+										outputHandle.write("=========================================================\n");
+//									}
+										
+//									gotMatchingText=false;
+																	
 									for (int count = 0; count < listChanges.size(); count++) {
+										
+										
 
 										//prints all the code changes associated with each commit
 										
 										String codeChanges = listChanges.get(count).getText();
 
+																				
 										//To print only keyword matching lines
-										
 										if(codeChanges.toLowerCase().contains(keywordLine.toLowerCase()))
 										{
-												if(isCodeChangeUrlPrinted == false)
-												{
-													isCodeChangeUrlPrinted=true;
-													
-													outputHandle.write("\n=========================================================\n");
-													
-													outputHandle.write("[CODE-CHANGE-URL]:"+codeChangeUrl+"\n");
-													outputHandle.write("\n[COMMIT MESSAGE]:"+commitMessage+"\n");
-													System.out.println("Commit Message:->"+commitMessage);
-													
-													outputHandle.write("=========================================================\n\n");
-													
-													break;
-												}
+											System.out.println("Commit Message:->"+commitMessage);
+											outputHandle.write("[COMMIT MESSAGE]:"+commitMessage+"\n\n");
+											
+											System.out.println("IT IS TRUE ******************************");
+											
+											outputHandle.write(codeChanges);
+											
+											System.out.println("********");
+											
+											System.out.println(codeChanges);
+
+											outputHandle.write("\n");
+											
+											
 										}
+										
 									}
+									
 								}//This is end of if condition for listChanges.size
+
+								
+								//=============================
+								
 							}
+							
+							
 						}//match1
 						
 						try{
@@ -202,19 +182,6 @@ public class ScrapeOnlyCommits {
 								outputHandle.flush();
 								
 								System.out.println("BEFORE GET REQUEST _+_+_+_+_+_+");
-								
-//								System.out.println("Counter value:=" + counter);
-								
-//								if (counter%9 == 0)
-//								{
-//									System.out.println("Before more sleep");
-//									Thread.sleep(10000L);
-//									Thread.sleep(10000L);
-//									Thread.sleep(10000L);
-//									Thread.sleep(10000L);
-//									Thread.sleep(10000L);
-//									System.out.println("After more sleep");
-//								}
 								
 								driver.get(nextPageUrl);
 								
@@ -228,10 +195,10 @@ public class ScrapeOnlyCommits {
 				
 					}// Close the infinite while loop 
 
-				} catch (IOException e) {
+					outputHandle.close(); 
 					
-					outputHandle.close(); //close the file only after reading all the keywords from the input file
-					logHandle.close();
+
+				} catch (IOException e) {
 					
 					e.printStackTrace();
 				}

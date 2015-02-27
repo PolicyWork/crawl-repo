@@ -18,15 +18,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 
-public class ScrapeOnlyCommits {
+public class CommitMessageReaderDebug {
 
 	public static void main(String[] args) throws InterruptedException,	IOException {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessagesOnly_Restart1.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/ErrorLoggingCommitMessagesOnly.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/ErrorLogging.txt"); //We write into this file
 
 		try {
 			
@@ -54,9 +54,7 @@ public class ScrapeOnlyCommits {
 					
 					String lang="java";
 
-//					String urlToGet ="https://github.com/search?utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code";
-					
-					String urlToGet ="https://github.com/search?l=java&p=6&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93";
+					String urlToGet ="https://github.com/search?utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code";
 					
 					System.out.println("urlToGet is : "+urlToGet);
 					
@@ -182,12 +180,24 @@ public class ScrapeOnlyCommits {
 													
 													outputHandle.write("[CODE-CHANGE-URL]:"+codeChangeUrl+"\n");
 													outputHandle.write("\n[COMMIT MESSAGE]:"+commitMessage+"\n");
-													System.out.println("Commit Message:->"+commitMessage);
 													
 													outputHandle.write("=========================================================\n\n");
-													
-													break;
 												}
+													
+														
+												System.out.println("Commit Message:->"+commitMessage);
+												
+//												outputHandle.write("\n[COMMIT MESSAGE]:"+commitMessage+"\n\n");
+												
+												System.out.println("IT IS TRUE ******************************");
+												
+												outputHandle.write(codeChanges);
+												
+												System.out.println("********");
+												
+												System.out.println(codeChanges);
+	
+												outputHandle.write("\n");
 										}
 									}
 								}//This is end of if condition for listChanges.size

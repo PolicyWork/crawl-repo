@@ -1,0 +1,528 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/freemindcafe/samples-spring/commit/1532f3b9cf6148674e6c3354ed0484db4e1cefa8
+
+[COMMIT MESSAGE]:adding the sample for security @PreAuthorize annotation||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/freemindcafe/samples-spring/commit/1532f3b9cf6148674e6c3354ed0484db4e1cefa8
+
+[COMMIT MESSAGE]:adding the sample for security @PreAuthorize annotation||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/freemindcafe/samples-spring/commit/1532f3b9cf6148674e6c3354ed0484db4e1cefa8
+
+[COMMIT MESSAGE]:adding the sample for security @PreAuthorize annotation||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/9667c264e0d4c4b8c60ef775e47a5a6df51bc7ce
+
+[COMMIT MESSAGE]:Spring security ja roolitukset||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/f00d9cd7ccda1d99fd247f270416736563ea5dd0
+
+[COMMIT MESSAGE]:Spring security ja ToDo||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/9667c264e0d4c4b8c60ef775e47a5a6df51bc7ce
+
+[COMMIT MESSAGE]:Spring security ja roolitukset||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/f00d9cd7ccda1d99fd247f270416736563ea5dd0
+
+[COMMIT MESSAGE]:Spring security ja ToDo||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/9667c264e0d4c4b8c60ef775e47a5a6df51bc7ce
+
+[COMMIT MESSAGE]:Spring security ja roolitukset||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/f00d9cd7ccda1d99fd247f270416736563ea5dd0
+
+[COMMIT MESSAGE]:Spring security ja ToDo||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/freemindcafe/samples-spring/commit/1532f3b9cf6148674e6c3354ed0484db4e1cefa8
+
+[COMMIT MESSAGE]:adding the sample for security @PreAuthorize annotation||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/freemindcafe/samples-spring/commit/1532f3b9cf6148674e6c3354ed0484db4e1cefa8
+
+[COMMIT MESSAGE]:adding the sample for security @PreAuthorize annotation||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bozzz91/board/commit/65a701586d34a71e95bfdc8d261780025f26215e
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pasuuna/studentdevs/commit/222ff4f9a9a318f55f5cd9cea84596e43421fc6e
+
+[COMMIT MESSAGE]:projektin infosivu||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pasuuna/studentdevs/commit/70992c95c074841fcad11c28fcf09d7fa00a3b59
+
+[COMMIT MESSAGE]:projektista tykkääminen||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pasuuna/studentdevs/commit/d510468d6bb5d1821b346f8c3aaa9751af5837e8
+
+[COMMIT MESSAGE]:projektin muokkaus||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pasuuna/studentdevs/commit/8f3f50b0d05997510dbad58409c13591c257bce3
+
+[COMMIT MESSAGE]:projektin lisääminen||
+=========================================================
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=2&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gleant/wadi_harjotustyo/commit/dc5b4c66c8688ba4db59bb35c47509566eb2fc28
+
+[COMMIT MESSAGE]:Viestijono||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gleant/wadi_harjotustyo/commit/761ee94d23d9a4b92967489fb4a7aed96b272ed3
+
+[COMMIT MESSAGE]:Viimeinen versio||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/9667c264e0d4c4b8c60ef775e47a5a6df51bc7ce
+
+[COMMIT MESSAGE]:Spring security ja roolitukset||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TuukkaP/springtyovuoro/commit/f00d9cd7ccda1d99fd247f270416736563ea5dd0
+
+[COMMIT MESSAGE]:Spring security ja ToDo||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/johncook59/zarg-bank/commit/fbd4b90d86d31b632bb2e622f68bc89f80f8b731
+
+[COMMIT MESSAGE]:Refactored all back back-end modules to one module||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/SEC-2815/commit/208edcb8da8c6769a3546d88f2de6a842bae99c0
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mathieubolla/spring-security-checks/commit/77e907051227ecd404d3c2bf17a901505a9720e0
+
+[COMMIT MESSAGE]:Proto extended security||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Scionar/TiPi/commit/45bb78edd3da162abce352f33074e9f0baa0c8fe
+
+[COMMIT MESSAGE]:You can modify users, admins and companies||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Scionar/TiPi/commit/dcbc2c7997259591c3545ecebcc9d67d33bfe86e
+
+[COMMIT MESSAGE]:You can modify companies and you can see admin users||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Scionar/TiPi/commit/91a39b8d5e9d861e6997df9b8d1a0145570f2047
+
+[COMMIT MESSAGE]:admin can register new user||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Scionar/TiPi/commit/d5c5337c79b295ffbe46c45dbd09de58b9dfb7c7
+
+[COMMIT MESSAGE]:Merge branch 'master' of https://github.com/Scionar/TiPi||Conflicts:
+	src/tipi/dao/UserDAO.java
+	src/tipi/dao/UserDAOImpl.java
+	src/tipi/service/UserProfileService.java
+	src/tipi/service/UserProfileServiceImpl.java
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Scionar/TiPi/commit/43da10d61d2c04f79b5d04c23abe251d9e01060b
+
+[COMMIT MESSAGE]:Removed username from use (using email instead) in profile.jsp. Chang…||…ing user's password is working without any validation and no checking if the old password is correct (UserProfileController, -Service and implementations and userDao and implementation). Printing in console for easier debugging.
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Scionar/TiPi/commit/5043e8f4b3e8f1f83754a6b9204fce1b234dd1f6
+
+[COMMIT MESSAGE]:Register new user started.||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Scionar/TiPi/commit/6a61d471c7eb47d4801f768ccf17ef4ad60a3bb4
+
+[COMMIT MESSAGE]:OrderForm adds user to order. Admin can register new company||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Scionar/TiPi/commit/271e2b7cc1f86672ec19362b2f773b253aaad96f
+
+[COMMIT MESSAGE]:when user logs in add user and company information to bean and bean in||to session. Print information out in profile.jsp
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jleikko/jee/commit/232cf62b06ae19cdf9c8d9a0f1f57f57bc647941
+
+[COMMIT MESSAGE]:vuoden 2014 initial version (hoping the final)||
+=========================================================
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=3&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/0b049ff5fb7087a26e59a9c4a722d14be8b81f61
+
+[COMMIT MESSAGE]:EP-214 & EP-215: Lisätty mahdollisuus hakea tiedotteita julkisuus-lip…||…un ja/tai alkaen-päivämäärän avulla. Kirjautumaton käyttäjäkin pystyy nyt lukemaan julkisia tiedotteita.
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/1d4f7cfc6ca75cdf77b88fe759d045b80fbf8fce
+
+[COMMIT MESSAGE]:Lisätty tiedotteiden hallinta backendissä||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/johncook59/zarg-bank/commit/fbd4b90d86d31b632bb2e622f68bc89f80f8b731
+
+[COMMIT MESSAGE]:Refactored all back back-end modules to one module||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mateuszwenus/spring4-webapp/commit/f3b65e510477793f6d431d70b287ae7116b809ed
+
+[COMMIT MESSAGE]:improved authorization||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bozzz91/board/commit/65a701586d34a71e95bfdc8d261780025f26215e
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhavjava/gkhead/commit/e6290f354e0993e648972a638fb7bee45fc6932f
+
+[COMMIT MESSAGE]:eighteen||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hotblac/spanners/commit/4cdf603a60aab1f04c6605e04bcfc889161114ed
+
+[COMMIT MESSAGE]:Added ShortUrlFilter for Spring injection to Filter demo||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hotblac/spanners/commit/fb81eecc8dbc34b222e6db62185dac4de2986702
+
+[COMMIT MESSAGE]:Wired up security to spanners-struts||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hotblac/spanners/commit/af5d230b7fe38a1bd84e2213d8b979648fa20669
+
+[COMMIT MESSAGE]:Added owner permission check to spanner updates||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/17f2126a39438d1ac3f5555e26808fbdda574cce
+
+[COMMIT MESSAGE]:MIFOS-5318 : Sort Approved/Rejected list by Created date by default||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/e4bde84e2f80b50c0ca8bfda82b05ba5d8ebe2c8
+
+[COMMIT MESSAGE]:MIFOS-5167 : MIFOS-5164 : UI to show REST API operations list||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/62381e630d759ccc3c41e1df64653d7dfc20564b
+
+[COMMIT MESSAGE]:MIFOS-5172 : MIFOS-5164 : Permission for approval step (upgrade and a…||…ctivity)
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antonyraj/SpringSecurityPreAuthorize/commit/48d08f3031b60435504d20eeae62b8d9a649edc6
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Cospel/ProjLibrary/commit/e886bb9d85635858c7e85ff6f4ac49f223e1d91a
+
+[COMMIT MESSAGE]:added service auth||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Cospel/ProjLibrary/commit/9a0f85876af9e5becff7365e81a1536cf442a5e8
+
+[COMMIT MESSAGE]:added auth||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Cospel/ProjLibrary/commit/c944ddbaa8f20342aaf8a726af65af9404faf545
+
+[COMMIT MESSAGE]:tested a bit||
+=========================================================
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=4&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/loicortola/training-computer-database-project/commit/7dc14c29742ad19f3462ade84c23111d658a1925
+
+[COMMIT MESSAGE]:New refactoring||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pasuuna/opiskelijat/commit/969e97888f6243d721b0506f1b83e0f3af763d36
+
+[COMMIT MESSAGE]:välicommit||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dscoppelletti/programmerpower/commit/28a8beaaa4cffd28410d9662ae9b16ec739b9c45
+
+[COMMIT MESSAGE]:Programmer Power WUI||close #20
+
+Realizzata infrastruttura per sviluppare applicazioni Web:
+
+ - Adottato Struts 2 come framework MVC.
+
+ - Adottato Spring Security come framework per la sicurezza.
+
+ - Adottato Jasig CAS per il SSO.
+
+ - Adottato Restlet come framework RESTfull.
+
+ - Adottati jQuery e jQueryUI come framework JavaScript.
+
+**Programmer Power WUI** e' un'applicazione Web che offre un'interfaccia
+utente *a schede* per l'accesso alle funzioni pubblicate da altre
+applicazioni Web installate nello stesso AS.
+L'infrastruttura realizzata consente agli sviluppatori di concentrarsi
+sulle sole funzioni specifiche delle applicazioni Web demandando tutti
+gli aspetti comuni ai servizi offerti dalla piattaforma.
+
+Come applicazione Web di esempio per collaudare l'infrastruttura e'
+stata realizzata **Web Site Services**: un'applicazione che offre
+alcuni servizi di utilita' per un sito Web.
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ckatzorke/securing-web/commit/7e07f37f8c0a5215b7f50ccd25469e164198c393
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/eb71fb2671aac942253281ba92f4acddcab7c0f7
+
+[COMMIT MESSAGE]:Continuation of DDI-import, further advances require more imput from …||…FSD. References are now fetched for the UI-locale, not the translation locale as was intended. Settings page now tells how many indexer commands are in the queue waiting handling.
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/e5d18d9e30e921c9932a1c0ec24398d97bf4eab4
+
+[COMMIT MESSAGE]:Configuration and Misc json handling on settings page where user can …||…view, edit and save these configurations. Still missing filesystem backups so if database is cleared then reverts back to last modified file versions.
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/44367d7465b9b87b131fc901ba08e105571da1df
+
+[COMMIT MESSAGE]:Fixed typo in SettingsService||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/beb921d2e69152cc3f1f0f3aef5bf2cc204b9e44
+
+[COMMIT MESSAGE]:Cleaning up unneeded jsp-pages, everything works through page.jsp now…||…. Improved GUI-config specification somewhat and added permission restrictions to all containers. Cell content can now come in different types although LINK and TEXT don't have implementations yet. Started cleaning up and improving Settings-page.
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/1c2559afb74f26c1dd9541391fc05b906390e249
+
+[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Tietoarkisto/metka/commit/8211a575b8d91d62975f1fcfc559687b8a675a2a
+
+[COMMIT MESSAGE]:Removed much deprecated content. Security should be done so that auth…||…orizing of operations follows role guidelines. UI related controllers now run under web/ path and external API controllers run under api/ path. There's an APIKey based authentication and authorization for API operations. All in all security and clean up related stuff.
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/szubster/OSPManager/commit/ff6461402d69880881d794036bb686140c87aea0
+
+[COMMIT MESSAGE]:zmiany||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/szubster/OSPManager/commit/337979d4bc09a82dfe33e6a72ef0ec43269987e8
+
+[COMMIT MESSAGE]:Simplifiy controller overriding||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/szubster/OSPManager/commit/7fd37899f03890163add2503f73c5347bff68104
+
+[COMMIT MESSAGE]:Poprawianie bledow uzytkownika||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/szubster/OSPManager/commit/8ad23bc32cb00bcfd94b9669784a23f4764fe021
+
+[COMMIT MESSAGE]:Poprawianie bledow uzytkownika||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/adamsamec/TimePool/commit/2244b77b7630f3b7536bda56c9a1cd567b7e37be
+
+[COMMIT MESSAGE]:Opravy a vylepšení.||- Opravy chyb
+  - oprávnění
+  - staré názvy bean
+  - přidávání termu
+- Použití Spring EL expressions místo atributů pro pravidla autorizace
+- Přidání hashe hesel
+- Přidání možnosti měnit hesla
+- Úpravy hlášek a textů
+- Nastavení logování
+=========================================================
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=5&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/SelfStudyGuide/repo/commit/20974e20e2572b23e5ef86d3e3237c5129bac3c1
+
+[COMMIT MESSAGE]:Security - CommandPreAuthorize||git-svn-id: https://bma.unfuddle.com/svn/bma_ssg/trunk@59 daaeb461-b3eb-4b42-8a8b-4cd59dc14bb9
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhavjava/gkhead/commit/b558861eb8b7fb11c5cce8965400582b6221336c
+
+[COMMIT MESSAGE]:twentyone||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/3595c5df11cb44eb901d4ec98893e482d2984f0e
+
+[COMMIT MESSAGE]:refactored||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/6d992a3d09e95535afb4ff70955c39c4da5eb48a
+
+[COMMIT MESSAGE]:vikan viikon ekoja||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/6d992a3d09e95535afb4ff70955c39c4da5eb48a
+
+[COMMIT MESSAGE]:vikan viikon ekoja||
+=========================================================
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/0d22867e6550dc18d29b5aebd05f2e7b5c96520f
+
+[COMMIT MESSAGE]:MIFOS-5712: Chart of Accounts UI||
+=========================================================
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=6&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
