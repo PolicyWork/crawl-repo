@@ -1,3 +1,4 @@
+@PreAuthorize("
 @Secured(
 @PostAuthorize("
 Authorize("hasRole

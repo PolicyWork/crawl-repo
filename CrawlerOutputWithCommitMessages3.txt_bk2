@@ -1,0 +1,2653 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rahulkj/Rahul-Poc/commit/6f7ebd65b890f5f2d9e83fa7d4dd97408c140a8d
+
+[COMMIT MESSAGE]:MongoDB pod and security configuration||
+=========================================================
+
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_USER"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Manjago/jnode-xmlrpc/commit/ec988c45e0d4033d616cde210a9af362bc7e565f
+
+[COMMIT MESSAGE]:spring security now work||
+=========================================================
+
++ @Secured(Roles.ROLE_ADMIN)
++ @Secured(Roles.ROLE_ADMIN)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vgichar/crimemap-statistics/commit/1376cb75c3b1657c5c35b10c21d40b0dc1eeb7de
+
+[COMMIT MESSAGE]:final||
+=========================================================
+
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vgichar/crimemap-statistics/commit/189bd938f3e412d928092c966c10c5f59fdfcd9d
+
+[COMMIT MESSAGE]:login done||
+=========================================================
+
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
++ @Secured(value = {"ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mposolda/cxf-samples/commit/9e5c33742fda7a9fd815f565692c432b8d147e3b
+
+[COMMIT MESSAGE]:First commit - unsecured||
+=========================================================
+
++ @Secured({"ROLE_CUSTOMER", "ROLE_ADMIN" })
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_CUSTOMER", "ROLE_ADMIN" })
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/adriandolha/elim-waters/commit/6707ce94853210c8d904bd3095e5539d0fa0b909
+
+[COMMIT MESSAGE]:Generic UI table component refactoring. Also moving some classes in a…||…nother package and going back to simple security.
+=========================================================
+
+-@Secured("ROLE_USER")
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jkolean/ignition/commit/231da3e9c05b9bf7be68db56f1b2bfd27006dd26
+
+[COMMIT MESSAGE]:branch test||
+=========================================================
+
++@Secured(Authorities.ROLE_USER)
++ @Secured(Authorities.ROLE_ADMIN)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmerienne/mobile-account/commit/3098ddbbce52f57ec99d2273f3d1557e6959dec0
+
+[COMMIT MESSAGE]:Initial import||
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=35&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JeffRisberg/QbeFit/commit/22e020a7ed69956d99557f9f8c7e636884ca0755
+
+[COMMIT MESSAGE]:Moved admin controllers under common superclass||
+=========================================================
+
++@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/33504e95a21c4cd64efbd19cf5361451ca97aac5
+
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+=========================================================
+
++ @Secured(Roles.PAYMENT_POINT_READ)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/29f31a69aa7b6a11ea3bb7e9e7f91694c65b4ae3
+
+[COMMIT MESSAGE]:FP-685 accountant reports implemented||
+=========================================================
+
++ @Secured(Roles.CASHBOX_READ)
++ @Secured(Roles.CASHBOX_READ)
++ @Secured(Roles.PAYMENTS_REPORT)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hugocortesm/sp_sec/commit/3de8c96aa37272bc61f86b549587a75928f9b15a
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @Secured({ "ROLE_ADMIN" })
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alonsoir/spring-mvc_webflow_hibernate_security/commit/e2111c96b23c5d68247bd6ab5c0ff49083c96c58
+
+[COMMIT MESSAGE]:minor bug fixes, estability, admin module.||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_FINCA")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_FINCA")
+- @Secured("ROLE_FINCA")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alonsoir/spring-mvc_webflow_hibernate_security/commit/2c9de23b2bde67bfd7a9f16fb55464729e830c29
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_ABOGADO")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
++ @Secured("ROLE_FINCA")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/br1337/SpringRestyGWT/commit/fc4bcaba79036e9c0980423030575a87a784a1dd
+
+[COMMIT MESSAGE]:changes in model - jpa||
+=========================================================
+
++@Secured({
+-@Secured({
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IndiCrowd/was.indicrowd.com/commit/6268d3266839b27a9afed78ff9f61b815be33e21
+
+[COMMIT MESSAGE]:아이템숍||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IndiCrowd/was.indicrowd.com/commit/97f3a2e0b27cbb178a4ee0231797264f5347dc5d
+
+[COMMIT MESSAGE]:E||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/db57cb4901eb4353aa4bae083b9e70b02d60b909
+
+[COMMIT MESSAGE]:roles refactoing||
+=========================================================
+
+-@Secured(RolesHelper.ROLE_ADMIN)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+-@Secured({RolesHelper.ROLE_ADMIN})
+- @Secured({RolesHelper.ROLE_VIEW_RESERVATION})
+-@Secured(RolesHelper.ROLE_ADMIN)
+-@Secured({RolesHelper.ROLE_ADMIN})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_VIEW_AUDIT})
++ @Secured({Roles.AUDIT_VIEW})
+-@Secured({RolesHelper.ROLE_ADMIN})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+-@Secured({RolesHelper.ROLE_ADMIN, RolesHelper.ROLE_MANAGE_MACHINE})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
++ @Secured({Roles.RESERVATION_USE, Roles.PAYMENT_MANAGE, Roles.MACHINE_VIEW})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
++ @Secured({Roles.RESERVATION_USE, Roles.PAYMENT_MANAGE, Roles.MACHINE_VIEW})
+-@Secured({RolesHelper.ROLE_ADMIN})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+-@Secured({RolesHelper.ROLE_ADMIN})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_MANAGE_RESERVATION, RolesHelper.ROLE_USE_RESERVATION})
++ @Secured({Roles.RESERVATION_MANAGE, Roles.RESERVATION_USE})
+- @Secured({RolesHelper.ROLE_MANAGE_RESERVATION, RolesHelper.ROLE_USE_RESERVATION})
++ @Secured({Roles.RESERVATION_MANAGE, Roles.RESERVATION_USE})
+- @Secured({RolesHelper.ROLE_VIEW_RESERVATION})
++ @Secured({Roles.RESERVATION_VIEW})
++@Secured(Roles.ADMIN)
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/0d152f10fc54336d550848a1e75cfa0b408aaac7
+
+[COMMIT MESSAGE]:eo refactoring||
+=========================================================
+
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/c4d89a7036c316952cbec1a52ebdacc93b3effb9
+
+[COMMIT MESSAGE]:user edit bug fix||refactoring
+=========================================================
+
+-@Secured({RolesHelper.ROLE_ADMIN})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION})
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
++@Secured({RolesHelper.ROLE_ADMIN})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++@Secured({RolesHelper.ROLE_ADMIN, RolesHelper.ROLE_MANAGE_MACHINE})
++ @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
++ @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
++@Secured({RolesHelper.ROLE_ADMIN})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=36&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/db57cb4901eb4353aa4bae083b9e70b02d60b909
+
+[COMMIT MESSAGE]:roles refactoing||
+=========================================================
+
+-@Secured(RolesHelper.ROLE_ADMIN)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+-@Secured({RolesHelper.ROLE_ADMIN})
+- @Secured({RolesHelper.ROLE_VIEW_RESERVATION})
+-@Secured(RolesHelper.ROLE_ADMIN)
+-@Secured({RolesHelper.ROLE_ADMIN})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_VIEW_AUDIT})
++ @Secured({Roles.AUDIT_VIEW})
+-@Secured({RolesHelper.ROLE_ADMIN})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+-@Secured({RolesHelper.ROLE_ADMIN, RolesHelper.ROLE_MANAGE_MACHINE})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
++ @Secured({Roles.RESERVATION_USE, Roles.PAYMENT_MANAGE, Roles.MACHINE_VIEW})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
++ @Secured({Roles.RESERVATION_USE, Roles.PAYMENT_MANAGE, Roles.MACHINE_VIEW})
+-@Secured({RolesHelper.ROLE_ADMIN})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+-@Secured({RolesHelper.ROLE_ADMIN})
++@Secured({Roles.ADMIN})
+- @Secured({RolesHelper.ROLE_MANAGE_RESERVATION, RolesHelper.ROLE_USE_RESERVATION})
++ @Secured({Roles.RESERVATION_MANAGE, Roles.RESERVATION_USE})
+- @Secured({RolesHelper.ROLE_MANAGE_RESERVATION, RolesHelper.ROLE_USE_RESERVATION})
++ @Secured({Roles.RESERVATION_MANAGE, Roles.RESERVATION_USE})
+- @Secured({RolesHelper.ROLE_VIEW_RESERVATION})
++ @Secured({Roles.RESERVATION_VIEW})
++@Secured(Roles.ADMIN)
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({Roles.USER_MANAGE})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/0d152f10fc54336d550848a1e75cfa0b408aaac7
+
+[COMMIT MESSAGE]:eo refactoring||
+=========================================================
+
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
+- @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/c4d89a7036c316952cbec1a52ebdacc93b3effb9
+
+[COMMIT MESSAGE]:user edit bug fix||refactoring
+=========================================================
+
+-@Secured({RolesHelper.ROLE_ADMIN})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION})
+- @Secured({RolesHelper.ROLE_USE_RESERVATION})
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
+- @Secured(RolesHelper.ROLE_MANAGE_USER)
++@Secured({RolesHelper.ROLE_ADMIN})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++@Secured({RolesHelper.ROLE_ADMIN, RolesHelper.ROLE_MANAGE_MACHINE})
++ @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
++ @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
++@Secured({RolesHelper.ROLE_ADMIN})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
++ @Secured({RolesHelper.ROLE_MANAGE_USER})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/beijunyi/hppc/commit/e6f944f0fa4eed68d364a41cb3ab922a6b854779
+
+[COMMIT MESSAGE]:find total option||
+=========================================================
+
++ @Secured("ROLE_STAFF")
+- @Secured("ROLE_STAFF")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_STAFF")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_STAFF")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/beijunyi/hppc/commit/2bfd0c1891f56b6c5f44f375b736ba89f4575bc6
+
+[COMMIT MESSAGE]:api inheritance||
+=========================================================
+
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_STAFF")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DerekSansom/shine/commit/90041d0a0b384994be5da23f6d46c739fb896047
+
+[COMMIT MESSAGE]:adding everything to git||
+=========================================================
+
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.PLAYER)
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DerekSansom/shine/commit/90041d0a0b384994be5da23f6d46c739fb896047
+
+[COMMIT MESSAGE]:adding everything to git||
+=========================================================
+
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.PLAYER)
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured({ Role.ADMIN, Role.USER })
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.USER)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
++ @Secured(Role.ADMIN)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergii-tsymbaliuk/SpringCore/commit/c01405a57cffcebd8bb8a048f272c5a7631c033e
+
+[COMMIT MESSAGE]:7.4.2. Spring Security with roles||
+=========================================================
+
++ @Secured(value = { "ROLE_ADMIN" })
++ @Secured(value = { "ROLE_ADMIN" })
++ @Secured(value = { "ROLE_ADMIN" })
++ @Secured(value = { "ROLE_ADMIN" })
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/khundaqji/Skeleton/commit/a1672a1511454fc57a141046efb2af21027c0b38
+
+[COMMIT MESSAGE]:First Commit||
+=========================================================
+
++ @Secured({"ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/33504e95a21c4cd64efbd19cf5361451ca97aac5
+
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+=========================================================
+
++ @Secured(Roles.PAYMENT_POINT_READ)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/ee3a86d5bd13f50e6ffe1aad6cc1dd3a8ca58b32
+
+[COMMIT MESSAGE]:FP-624 Нововведение: теперь оплатить квитанцию (создать операцию в БД…||…) можно только после того, как распечатал квитанцию
+=========================================================
+
++ @Secured(Roles.PAYMENTS_REPORT)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
+
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+=========================================================
+
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_ADD)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_DELETE)
++ @Secured(Roles.REGION_CHANGE)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_DELETE)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=37&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/33504e95a21c4cd64efbd19cf5361451ca97aac5
+
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+=========================================================
+
++ @Secured(Roles.PAYMENT_POINT_READ)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/ee3a86d5bd13f50e6ffe1aad6cc1dd3a8ca58b32
+
+[COMMIT MESSAGE]:FP-624 Нововведение: теперь оплатить квитанцию (создать операцию в БД…||…) можно только после того, как распечатал квитанцию
+=========================================================
+
++ @Secured(Roles.PAYMENTS_REPORT)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
+
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+=========================================================
+
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_ADD)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_DELETE)
++ @Secured(Roles.REGION_CHANGE)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_DELETE)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenebell/MovieStorefrontWithSpringData/commit/bac492a9f7ee93c17d4d2a1ddb65f774852bc3b8
+
+[COMMIT MESSAGE]:refactored code to use Spring Data for JPA||
+=========================================================
+
++ @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
+- @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_USER", "ROLE_ADMIN"})
++ @Secured({"ROLE_USER", "ROLE_ADMIN"})
++ @Secured({"ROLE_USER", "ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/ebf8723f21de7086a7a259232c5e49e188731d9d
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/56e2c8fdce6e05b6a66f037c6a3292e0e5b65ddd
+
+[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+=========================================================
+
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_User")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_User")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_Student")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
+- @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Admin"})
++ @Secured({"ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/56e2c8fdce6e05b6a66f037c6a3292e0e5b65ddd
+
+[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+=========================================================
+
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_User")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_User")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_Student")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
+- @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Admin"})
++ @Secured({"ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/d4b7c834eda40c83d09eb9be128cd670253a66c1
+
+[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
+=========================================================
+
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_User")
++ @Secured("ROLE_User")
++ @Secured("ROLE_Student")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/56e2c8fdce6e05b6a66f037c6a3292e0e5b65ddd
+
+[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+=========================================================
+
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_User")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_User")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_Student")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
+- @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Admin"})
++ @Secured({"ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/56e2c8fdce6e05b6a66f037c6a3292e0e5b65ddd
+
+[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+=========================================================
+
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_User")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_User")
++ @Secured({"ROLE_Admin", "ROLE_Student"})
+- @Secured("ROLE_Student")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
+- @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Admin"})
++ @Secured({"ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured({"ROLE_Student", "ROLE_Admin"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/d4b7c834eda40c83d09eb9be128cd670253a66c1
+
+[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
+=========================================================
+
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_User")
++ @Secured("ROLE_User")
++ @Secured("ROLE_Student")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured("ROLE_Admin")
++ @Secured({"ROLE_Student", "ROLE_Admin"})
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
++ @Secured("ROLE_Admin")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mydlp/mydlp-ui/commit/258bb98fb9efdae3bda541c71a679b456f85a7b0
+
+[COMMIT MESSAGE]:Super admin user role is added.||
+=========================================================
+
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured({AuthSecurityRole.ROLE_ADMIN,AuthSecurityRole.ROLE_AUDITOR})
++@Secured({AuthSecurityRole.ROLE_ADMIN,AuthSecurityRole.ROLE_SUPER_ADMIN,AuthSecurityRole.ROLE_AUDITOR})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
++ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN,AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
+-@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR})
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN,AuthSecurityRole.ROLE_AUDITOR})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
++ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
+- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
++ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
+-@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+-@Secured(AuthSecurityRole.ROLE_ADMIN)
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
++ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
+- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
++ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
+- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
++ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mydlp/mydlp-ui/commit/8bdc83f45511646d8e444b3a11fb20155f6e8eab
+
+[COMMIT MESSAGE]:Predefined Finances and HIPAA is added.||
+=========================================================
+
++@Secured(AuthSecurityRole.ROLE_ADMIN)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mydlp/mydlp-ui/commit/9092d6b9be792725fa95012828965116e7cabb06
+
+[COMMIT MESSAGE]:On Demand discovery.||
+=========================================================
+
++@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/micros-uz/javamicros/commit/0c6285cf98009621487e1def03b5a932d2f3fddc
+
+[COMMIT MESSAGE]:added from gh||
+=========================================================
+
++ @Secured("ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=38&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/micros-uz/javamicros/commit/0c6285cf98009621487e1def03b5a932d2f3fddc
+
+[COMMIT MESSAGE]:added from gh||
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jpalomaki/vaadin-spring-app/commit/0570ab32816cf69c513e0646260fd76866c81f10
+
+[COMMIT MESSAGE]:Refactor||
+=========================================================
+
++ @Secured(BF_CLAIM_CREATE)
++ @Secured(BF_CLAIM_UPDATE)
++ @Secured(BF_CLAIM_DELETE)
++ @Secured("BF_CLAIM_READ")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/5e7511629f1baab380a6dfe8140504053faa0a3b
+
+[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apiddiu/SpringExperiments/commit/93baa3997d6e41a18f013129af699eb9f54d5979
+
+[COMMIT MESSAGE]:Initial||
+=========================================================
+
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_SUPERUSER", "ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/xmx111/newframework/commit/bf38ca76a9db2d4daa3c679fe26296a8229bc588
+
+[COMMIT MESSAGE]:基础上传||
+=========================================================
+
++@Secured("common")
++ @Secured("common.index")
++ @Secured({ "common.add", "common.edit" })
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.index")
++ @Secured("common.edit")
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.delete")
++@Secured("system.attachmentfile")
++@Secured("system.authority")
++ @Secured("system.authority.index")
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured("system.authority.index")
++ @Secured("system.authority.edit")
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured("system.authority.delete")
++@Secured("config.sys.department")
++ @Secured("config.sys.department.index")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
++ @Secured("config.sys.department.edit")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured("config.sys.department.delete")
++@Secured("system.manager")
++ @Secured("system.manager.index")
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured("system.manager.index")
++ @Secured("system.manager.edit")
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured("system.manager.delete")
++@Secured("config.sys.organization")
++ @Secured("config.sys.organization.index")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.index")
++ @Secured("config.sys.organization.edit")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.delete")
++@Secured("system.role")
++ @Secured("system.role.index")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured("system.role.index")
++ @Secured("system.role.edit")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured("system.role.delete")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured({ "system.role.add", "system.role.edit" })
++@Secured("${model_name}")
++ @Secured("${model_name}.index")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.index")
++ @Secured("${model_name}.edit")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.delete")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/xmx111/newframework/commit/bf38ca76a9db2d4daa3c679fe26296a8229bc588
+
+[COMMIT MESSAGE]:基础上传||
+=========================================================
+
++@Secured("common")
++ @Secured("common.index")
++ @Secured({ "common.add", "common.edit" })
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.index")
++ @Secured("common.edit")
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.delete")
++@Secured("system.attachmentfile")
++@Secured("system.authority")
++ @Secured("system.authority.index")
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured("system.authority.index")
++ @Secured("system.authority.edit")
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured("system.authority.delete")
++@Secured("config.sys.department")
++ @Secured("config.sys.department.index")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
++ @Secured("config.sys.department.edit")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured("config.sys.department.delete")
++@Secured("system.manager")
++ @Secured("system.manager.index")
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured("system.manager.index")
++ @Secured("system.manager.edit")
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured("system.manager.delete")
++@Secured("config.sys.organization")
++ @Secured("config.sys.organization.index")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.index")
++ @Secured("config.sys.organization.edit")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.delete")
++@Secured("system.role")
++ @Secured("system.role.index")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured("system.role.index")
++ @Secured("system.role.edit")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured("system.role.delete")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured({ "system.role.add", "system.role.edit" })
++@Secured("${model_name}")
++ @Secured("${model_name}.index")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.index")
++ @Secured("${model_name}.edit")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.delete")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=39&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/xmx111/newframework/commit/bf38ca76a9db2d4daa3c679fe26296a8229bc588
+
+[COMMIT MESSAGE]:基础上传||
+=========================================================
+
++@Secured("common")
++ @Secured("common.index")
++ @Secured({ "common.add", "common.edit" })
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.index")
++ @Secured("common.edit")
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.delete")
++@Secured("system.attachmentfile")
++@Secured("system.authority")
++ @Secured("system.authority.index")
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured("system.authority.index")
++ @Secured("system.authority.edit")
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured("system.authority.delete")
++@Secured("config.sys.department")
++ @Secured("config.sys.department.index")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
++ @Secured("config.sys.department.edit")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured("config.sys.department.delete")
++@Secured("system.manager")
++ @Secured("system.manager.index")
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured("system.manager.index")
++ @Secured("system.manager.edit")
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured("system.manager.delete")
++@Secured("config.sys.organization")
++ @Secured("config.sys.organization.index")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.index")
++ @Secured("config.sys.organization.edit")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.delete")
++@Secured("system.role")
++ @Secured("system.role.index")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured("system.role.index")
++ @Secured("system.role.edit")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured("system.role.delete")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured({ "system.role.add", "system.role.edit" })
++@Secured("${model_name}")
++ @Secured("${model_name}.index")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.index")
++ @Secured("${model_name}.edit")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.delete")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/xmx111/newframework/commit/bf38ca76a9db2d4daa3c679fe26296a8229bc588
+
+[COMMIT MESSAGE]:基础上传||
+=========================================================
+
++@Secured("common")
++ @Secured("common.index")
++ @Secured({ "common.add", "common.edit" })
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.index")
++ @Secured("common.edit")
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.delete")
++@Secured("system.attachmentfile")
++@Secured("system.authority")
++ @Secured("system.authority.index")
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured("system.authority.index")
++ @Secured("system.authority.edit")
++ @Secured({ "system.authority.add", "system.authority.edit" })
++ @Secured("system.authority.delete")
++@Secured("config.sys.department")
++ @Secured("config.sys.department.index")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
++ @Secured("config.sys.department.edit")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured("config.sys.department.delete")
++@Secured("system.manager")
++ @Secured("system.manager.index")
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured("system.manager.index")
++ @Secured("system.manager.edit")
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured({ "system.manager.add", "system.manager.edit" })
++ @Secured("system.manager.delete")
++@Secured("config.sys.organization")
++ @Secured("config.sys.organization.index")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.index")
++ @Secured("config.sys.organization.edit")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.delete")
++@Secured("system.role")
++ @Secured("system.role.index")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured("system.role.index")
++ @Secured("system.role.edit")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured("system.role.delete")
++ @Secured({ "system.role.add", "system.role.edit" })
++ @Secured({ "system.role.add", "system.role.edit" })
++@Secured("${model_name}")
++ @Secured("${model_name}.index")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.index")
++ @Secured("${model_name}.edit")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.delete")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DRB-IT/blacktiger/commit/663c4e1012f1f236ec44ac815153da7d4db1edba
+
+[COMMIT MESSAGE]:Added some support for Websockets.||Updated Spring Security to 3.2.1.
+Updated Spring to 4.0.2
+=========================================================
+
++ @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/xmx111/homedecoration/commit/3994984df4c826c43f8c9074d349e810fa4ab34a
+
+[COMMIT MESSAGE]:基本框架||
+=========================================================
+
++@Secured("common")
++ @Secured("common.index")
++ @Secured({ "common.add", "common.edit" })
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.index")
++ @Secured("common.edit")
++ @Secured({ "common.add", "common.edit" })
++ @Secured("common.delete")
++//@Secured("config.demo")
++// @Secured("config.demo.index")
++// @Secured({ "config.demo.add", "config.demo.edit" })
++// @Secured({ "config.demo.add", "config.demo.edit" })
++// @Secured("config.demo.index")
++// @Secured("config.demo.edit")
++// @Secured({ "config.demo.add", "config.demo.edit" })
++// @Secured("config.demo.delete")
++@Secured("config.sys.authority")
++ @Secured("config.sys.authority.index")
++ @Secured({ "config.sys.authority.add", "config.sys.authority.edit" })
++ @Secured({ "config.sys.authority.add", "config.sys.authority.edit" })
++ @Secured("config.sys.authority.index")
++ @Secured("config.sys.authority.edit")
++ @Secured({ "config.sys.authority.add", "config.sys.authority.edit" })
++ @Secured("config.sys.authority.delete")
++@Secured("config.sys.department")
++ @Secured("config.sys.department.index")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
++ @Secured("config.sys.department.edit")
++ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
++ @Secured("config.sys.department.delete")
++@Secured("config.sys.manager")
++ @Secured("config.sys.manager.index")
++ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
++ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
++ @Secured("config.sys.manager.index")
++ @Secured("config.sys.manager.edit")
++ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
++ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
++ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
++ @Secured("config.sys.manager.delete")
++@Secured("config.sys.menu")
++ @Secured("config.sys.menu.index")
++ @Secured({ "config.sys.menu.add", "config.sys.menu.edit" })
++ @Secured({ "config.sys.menu.add", "config.sys.menu.edit" })
++ @Secured("config.sys.menu.index")
++ @Secured("config.sys.menu.edit")
++ @Secured({ "config.sys.menu.add", "config.sys.menu.edit" })
++ @Secured("config.sys.menu.delete")
++@Secured("config.sys.organization")
++ @Secured("config.sys.organization.index")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.index")
++ @Secured("config.sys.organization.edit")
++ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
++ @Secured("config.sys.organization.delete")
++@Secured("config.sys.region")
++ @Secured("config.sys.region.index")
++ @Secured({ "config.sys.region.add", "config.sys.region.edit" })
++ @Secured({ "config.sys.region.add", "config.sys.region.edit" })
++ @Secured("config.sys.region.index")
++ @Secured("config.sys.region.edit")
++ @Secured({ "config.sys.region.add", "config.sys.region.edit" })
++ @Secured("config.sys.region.delete")
++@Secured("config.sys.role")
++ @Secured("config.sys.role.index")
++ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
++ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
++ @Secured("config.sys.role.index")
++ @Secured("config.sys.role.edit")
++ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
++ @Secured("config.sys.role.delete")
++ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
++ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
++@Secured("${model_name}")
++ @Secured("${model_name}.index")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.index")
++ @Secured("${model_name}.edit")
++ @Secured({ "${model_name}.add", "${model_name}.edit" })
++ @Secured("${model_name}.delete")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/XLipcak/Liquor-bottles-registry-during-prohibition/commit/e0cc5527fa432af6d8222096e525b029096da8a3
+
+[COMMIT MESSAGE]:Upravovanie userov + pridany pripad ked admin nezada pri editovani he…||…slo (ponecha sa povodne). Stale nefunguje check unikatnosti username.
+=========================================================
+
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/XLipcak/Liquor-bottles-registry-during-prohibition/commit/a81ab69a139a5e7b22cadf57ea5932e3a30fbd41
+
+[COMMIT MESSAGE]:Authentification from DB completed||
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN","ROLE_STORE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_STORE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER", "ROLE_STORE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER", "ROLE_STORE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_STORE", "ROLE_PRODUCER"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/XLipcak/Liquor-bottles-registry-during-prohibition/commit/56cbf8043b50d7a68064972db1e2421232628154
+
+[COMMIT MESSAGE]:Login Admin, Presentation, Service layer||
+=========================================================
+
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kebuu/spring-boot-presentation/commit/b5bc8150344145349f385126f98d4bb7c429dc56
+
+[COMMIT MESSAGE]:TP9 security ok||
+=========================================================
+
++ @Secured("ROLE_USER_ZENIKA")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kebuu/spring-boot-presentation/commit/d3b38c8994f4cb14376f78f50f732d7b783c90f6
+
+[COMMIT MESSAGE]:ajout de TP de base -> manque le test websocket -> Selenium ?||
+=========================================================
+
++ //TODO A décommenter en temps utile @Secured("ROLE_USER_ZENIKA")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/programsji/Sample/commit/4742ce3671773df8dc7c11cc0d0bcae51a6778b5
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ // @Secured(value = "ROLE_USER")
++ // @Secured(value = "ROLE_ADMIN")
++ // @Secured(value = "ROLE_ADMIN")
++ // @Secured(value = "ROLE_USER")
++//@Secured(value = "ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=40&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ludobado/springmvc-angularjs/commit/7bee57834916da93cf18a14b4f7a0dce39b5eebf
+
+[COMMIT MESSAGE]:Initial Import||
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/5dcbb3032bf939115de59ef8163b54ff5806f880
+
+[COMMIT MESSAGE]:+SERVER, CLIENT: add create game distribution||
+=========================================================
+
++ @Secured(value = "ROLE_USER")
++ @Secured(value = "ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/ca8ec592088100bf4aa0f08e425e180855b9e0d7
+
+[COMMIT MESSAGE]:+logic for redirect to create book distribution page||
+=========================================================
+
++ @Secured(value = "ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/eadbc0e47749d1f8d6baee955c17060cce446947
+
+[COMMIT MESSAGE]:+SERVER: add server logic to save audio distribution||
+=========================================================
+
++ @Secured(value = "ROLE_USER")
++ @Secured(value = "ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/e62a884330470ad005016ce674dc1fb06c12d9ab
+
+[COMMIT MESSAGE]:+adding redirect to create film distribution from menu||
+=========================================================
+
+- @Secured(value = "ROLE_USER")
++ @Secured(value = "ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/0d6e53b9990e5fc66bab23121b43dfc0d0bf0bbd
+
+[COMMIT MESSAGE]:+added servicec to get all categories||*change global menu to show dialog window to chose type of creating
+distribution
+*change sql script
+=========================================================
+
++ @Secured(value = "ROLE_USER")
++ @Secured(value = "ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego-schivo/samples/commit/f998a8a2138414643a7591ee02100013d25bed87
+
+[COMMIT MESSAGE]:apache-cxt-sample||
+=========================================================
+
++ @Secured({"ROLE_USER", "ROLE_ADMIN" })
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/ea356b10d3f45207b7f0b806336474e4f31320d1
+
+[COMMIT MESSAGE]:Added warn user||
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/5e7511629f1baab380a6dfe8140504053faa0a3b
+
+[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/5ad340a0cb05bdba1a2a460b53b49a4eb4e6e266
+
+[COMMIT MESSAGE]:Small bug with security||
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
+- @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
+- @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/23ea5ae29c5f470b641443f35f69bd562221710f
+
+[COMMIT MESSAGE]:Added Contact Page with Google Maps||
+=========================================================
+
+- @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/273b8acae1ae2d186db61adb462aaf1a4b11c342
+
+[COMMIT MESSAGE]:Unbook/Book working for multiple timetables||
+=========================================================
+
+- @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
+- @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
+- @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
+- @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/cb4a80e5f5f2698ee2e1545ef50fc5bd4cd06e3d
+
+[COMMIT MESSAGE]:Grade class added. May not use. Pre Tournament Business Logic.||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/60f976f34a079de656810130eb9571c0b6d8e0ee
+
+[COMMIT MESSAGE]:Timetable booking seems to be working. Regular users get one slot,||admins unlimited
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/517454943da3909d0a6fa060f8a167ee099dac8b
+
+[COMMIT MESSAGE]:Events package updated with creation and approval of Events. This will||tie into the Timetable.
+=========================================================
+
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/48b69479fb1b802988d926d6663d2b186efb12f0
+
+[COMMIT MESSAGE]:BlockMember working. Some error checking to ensure user cannot block||themselves.
+=========================================================
+
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/204aa063761625ffb4f800d7af64349efbfcea7f
+
+[COMMIT MESSAGE]:User Profile Updating Added||
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/72b73bb8fb0f0cdea2bfa0bc456d92600eb60112
+
+[COMMIT MESSAGE]:Hibernate update on member status to enabled them. And it worked first||time! Commit fast!!!!
+=========================================================
+
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/913fd10f4576611437f0b60c54c3684588a1dcf2
+
+[COMMIT MESSAGE]:Added [EditDetails] page - Not set up. Pre Hibernate||
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/0573fa81b14acd1999523102c8765148a35cbe94
+
+[COMMIT MESSAGE]:Database working. Unapproved users showing.||
+=========================================================
+
++ @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/soaserele/spring-tutorial/commit/6f8c25e04daba0d8ed18a97408d1354f27bf0f98
+
+[COMMIT MESSAGE]:SecBlog refactored, based on Blog project||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured("ROLE_INEXISTENT")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/PM-Project/myshop/commit/25dde3cd84a7f2fe9af58c6d04dfe16673f7fded
+
+[COMMIT MESSAGE]:Resolved Conflict in Product and Category||
+=========================================================
+
+- @Secured({"ROLE_ADMIN","ROLE_VENDOR"})
++ @Secured("ROLE_ADMIN")
+- @Secured({"ROLE_ADMIN","ROLE_VENDOR"})
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/PM-Project/myshop/commit/c163bbe65cb741672782be7f7d41f08ef8c74dfa
+
+[COMMIT MESSAGE]:Security Updates + Others||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured({"ROLE_ADMIN","ROLE_VENDOR"})
++ @Secured({"ROLE_ADMIN","ROLE_VENDOR"})
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/a3d57969c8a357290550b7f3c54e93d5827842b0
+
+[COMMIT MESSAGE]:configurando spring security annotations||
+=========================================================
+
+- @Secured("hasRole('ROLE_USER')")
++ @Secured("ROLE_USER")
+- @Secured("hasRole('ROLE_USER')")
++ @Secured("ROLE_USER")
+- @Secured("hasRole('ROLE_USER')")
++ @Secured("ROLE_USER")
+- @Secured("hasRole('ROLE_USER')")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/d501aa92e4ba7bda12bc2cd166e866990aac9ef7
+
+[COMMIT MESSAGE]:configurando spring security||
+=========================================================
+
++ @Secured("hasRole('ROLE_USER')")
++@Secured("hasRole('ROLE_USER')")
++ @Secured("hasRole('ROLE_USER')")
++ @Secured("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/568d838adb15c771c6297bb5913a031cb4ccb394
+
+[COMMIT MESSAGE]:Iniciado cadastro de localidade||
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/568d838adb15c771c6297bb5913a031cb4ccb394
+
+[COMMIT MESSAGE]:Iniciado cadastro de localidade||
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/99977caf2252684f090ce509f85b8a42579a4e2f
+
+[COMMIT MESSAGE]:Adicionado Cadastro de categorias||
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=41&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/af77c40104e1e2c0465d13040c9c628204af222d
+
+[COMMIT MESSAGE]:FP-386 remember export result each time||
+=========================================================
+
++ @Secured(Roles.TARIFF_EXPORT_LOG_RECORD_DELETE)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/ebf8723f21de7086a7a259232c5e49e188731d9d
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/ebf8723f21de7086a7a259232c5e49e188731d9d
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
+- @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
++ @Secured("ROLE_DOMAIN_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/laduk/java-projekt/commit/bebdae7691c14d00fcdcfb9774cc463f57a75907
+
+[COMMIT MESSAGE]:(service, web) ROLE_REST||
+=========================================================
+
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
+- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/laduk/java-projekt/commit/f73976432241b7b75fb431e551d91ef90a7400f5
+
+[COMMIT MESSAGE]:(service) secured anotacia||
+=========================================================
+
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
++ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/onedigit/org.onedigit.webapp/commit/39f47cefcdb49f634db7517b483de0c165b91a91
+
+[COMMIT MESSAGE]:add security||
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/discocms/discocms/commit/6c103e3ef981c6650846675f1b5803d0912ff42f
+
+[COMMIT MESSAGE]:Authentication.||
+=========================================================
+
++ @Secured(roles = {Roles.ANONYMOUS})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/discocms/discocms/commit/666cae3dce56f7d2ba9d589f0393f4552f5d2b3b
+
+[COMMIT MESSAGE]:Spring based RPC service handling.||
+=========================================================
+
++ @Secured(roles = {Roles.ANONYMOUS})
++ @Secured(roles = {Roles.ANONYMOUS, Roles.AUTHENTICATED})
++ @Secured(roles = {Roles.AUTHENTICATED})
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=42&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diginalog/springtodo/commit/188fb6ba08bb339b64a513d3c25e5b960c8160af
+
+[COMMIT MESSAGE]:add jquery||
+=========================================================
+
+- @Secured("ROLE_USER")
++ @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured("ROLE_USER")
++ @Secured({"ROLE_USER", "ROLE_ADMIN"})
+- @Secured("ROLE_USER")
++ @Secured({"ROLE_USER", "ROLE_ADMIN"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diginalog/springtodo/commit/d9c4ba836d7bb8a0ea94637561ba2db3cb7dc47d
+
+[COMMIT MESSAGE]:relocating||
+=========================================================
+
++ @Secured({"ROLE_USER", "ROLE_ADMIN"})
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/markus93/Patty/commit/bd87a809a7011d8437a158f860e8b03b7c659507
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ //@Secured("ROLE_jira-developers")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jacek99/dropwizard-spring-di-security-onejar-example/commit/f32c40e7d631f59866c1ae7ed691bc952be85a28
+
+[COMMIT MESSAGE]:Full example + docs||
+=========================================================
+
++@Secured(Authorities.ROLE_READ_ONLY)
++ @Secured(Authorities.ROLE_ADMIN)
++ @Secured(Authorities.ROLE_ADMIN)
++ @Secured(Authorities.ROLE_ADMIN)
++ @Secured(Authorities.ROLE_ADMIN)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kmb385/toThought/commit/ea4b3d9f3fcd998e92528d79024ef23766bea031
+
+[COMMIT MESSAGE]:Setting up new application config||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/2bd1bf69d4726c25da4b3c70e1ad5ac50f84441b
+
+[COMMIT MESSAGE]:FP-280 FP-281 FP-282 FP-284||Countries, regions, towns, districts sorters added
+=========================================================
+
++ @Secured(Roles.DISTRICT_READ)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_ADD)
++ @Secured(Roles.REGION_ADD)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_DELETE)
++ @Secured(Roles.REGION_DELETE)
+- @Secured(Roles.REGION_CHANGE)
++ @Secured(Roles.REGION_CHANGE)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
+
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+=========================================================
+
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_ADD)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_DELETE)
++ @Secured(Roles.REGION_CHANGE)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_DELETE)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/bb71b4bef4056bad372c61a568a9c807f8a83809
+
+[COMMIT MESSAGE]:FP-355||Address attribute types history generation.
+
+TC code cleaned up and reformat according to project style.
+=========================================================
+
+- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
+- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
+- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
+- @Secured({Roles.TARIFF_CALCULATION_RESULT_UPDATE})
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_ADD, Roles.TARIFF_CALCULATION_RULES_FILE_CHANGE})
+- @Secured(Roles.TARIFF_CALCULATION_RULES_FILE_READ)
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_READ})
+- @Secured({Roles.TARIFF_ADD, Roles.TARIFF_CHANGE})
+- @Secured(Roles.TARIFF_READ)
+- @Secured(Roles.TARIFF_READ)
+- @Secured({Roles.TARIFF_DELETE})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
+
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+=========================================================
+
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_ADD)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_DELETE)
++ @Secured(Roles.REGION_CHANGE)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_DELETE)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/2bd1bf69d4726c25da4b3c70e1ad5ac50f84441b
+
+[COMMIT MESSAGE]:FP-280 FP-281 FP-282 FP-284||Countries, regions, towns, districts sorters added
+=========================================================
+
++ @Secured(Roles.DISTRICT_READ)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_ADD)
++ @Secured(Roles.REGION_ADD)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_READ)
+- @Secured(Roles.REGION_DELETE)
++ @Secured(Roles.REGION_DELETE)
+- @Secured(Roles.REGION_CHANGE)
++ @Secured(Roles.REGION_CHANGE)
+- @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/bb71b4bef4056bad372c61a568a9c807f8a83809
+
+[COMMIT MESSAGE]:FP-355||Address attribute types history generation.
+
+TC code cleaned up and reformat according to project style.
+=========================================================
+
+- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
+- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
+- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
+- @Secured({Roles.TARIFF_CALCULATION_RESULT_UPDATE})
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_ADD, Roles.TARIFF_CALCULATION_RULES_FILE_CHANGE})
+- @Secured(Roles.TARIFF_CALCULATION_RULES_FILE_READ)
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
+- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_READ})
+- @Secured({Roles.TARIFF_ADD, Roles.TARIFF_CHANGE})
+- @Secured(Roles.TARIFF_READ)
+- @Secured(Roles.TARIFF_READ)
+- @Secured({Roles.TARIFF_DELETE})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
+
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+=========================================================
+
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_ADD)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.REGION_DELETE)
++ @Secured(Roles.REGION_CHANGE)
++ @Secured(Roles.REGION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured(Roles.ORGANIZATION_DELETE)
++ @Secured(Roles.ORGANIZATION_READ)
++ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hrach/pa165-car-management/commit/882a0b64e1a58416133fe6d876cb362c530e1be4
+
+[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+=========================================================
+
++ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
++ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
++ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
++ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
++ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_MANAGER")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_MANAGER")
++ @Secured("ROLE_MANAGER")
++ @Secured("ROLE_MANAGER")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_MANAGER")
++ @Secured("ROLE_MANAGER")
++ @Secured("ROLE_MANAGER")
++ @Secured("ROLE_MANAGER")
++ @Secured("ROLE_STAFF")
++ @Secured("ROLE_STAFF")
++ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
++ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
++ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
++ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
++ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
++ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
++ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
++ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
++ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
++ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Sainathuni/myapp/commit/8ad56bd81bbd1c0ccbe0f8f51f1674c8ef30f778
+
+[COMMIT MESSAGE]:Merged Changes||Security Component and Validation changes
+=========================================================
+
++ @Secured({SecurityConstants.ROLE_USER, SecurityConstants.ROLE_SA, SecurityConstants.ROLE_TCO})
++ @Secured({SecurityConstants.ROLE_USER, SecurityConstants.ROLE_SA, SecurityConstants.ROLE_TCO})
+- @Secured("ROLE_USER")
++ //@Secured("ROLE_USER")
+- @Secured( { SecurityConstants.ROLE_SA })
++ //@Secured( { SecurityConstants.ROLE_SA })
+- @Secured( { SecurityConstants.ROLE_SA })
++ //@Secured( { SecurityConstants.ROLE_SA })
+- @Secured( { SecurityConstants.ROLE_SA })
++ //@Secured( { SecurityConstants.ROLE_SA })
+- @Secured( { SecurityConstants.ROLE_SA })
++ //@Secured( { SecurityConstants.ROLE_SA, })
+- @Secured( { SecurityConstants.ROLE_SA })
++ //@Secured( { SecurityConstants.ROLE_SA })
+- @Secured( { SecurityConstants.ROLE_SA })
++ //@Secured( { SecurityConstants.ROLE_SA })
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=43&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+

@@ -24,7 +24,7 @@ public class CommitMessageReaderDebug {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages3.txt"); //We write into this file
 		
 		File logFile = new File("/home/manish/workspace/crawl-repo/ErrorLogging.txt"); //We write into this file
 
@@ -45,7 +45,11 @@ public class CommitMessageReaderDebug {
 
 			WebElement element;
 			
+			String urlToGet;
+			
 //			Integer counter = 0; //Only for tracking and debugging
+			
+			boolean restart=true;
 
 
 			while ((keywordLine = readHandle.readLine()) != null) {
@@ -53,9 +57,18 @@ public class CommitMessageReaderDebug {
 				try {
 					
 					String lang="java";
-
-					String urlToGet ="https://github.com/search?utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code";
 					
+					if(restart == true)
+					{
+						urlToGet = "https://github.com/search?l=java&p=43&q=%40Secured%28&type=Code&utf8=%E2%9C%93"; //for restart
+						restart=false;
+					}
+					else
+					{
+						 urlToGet ="https://github.com/search?utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code"; //original
+
+					}
+				
 					System.out.println("urlToGet is : "+urlToGet);
 					
 //					if(counter!=0)
@@ -232,7 +245,7 @@ public class CommitMessageReaderDebug {
 							
 							e.printStackTrace();
 							
-							break;
+							break;  //to break out of infinite loop
 						}
 
 				
