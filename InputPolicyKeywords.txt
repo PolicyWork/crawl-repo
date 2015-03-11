@@ -1,10 +1,5 @@
-@Secured(
-@PostAuthorize("
-Authorize("hasRole
-ROLE_USER
-android.permission
-HasRole
-permission
-user-permission
+@PreFilter(
+@PostFilter(
+@PostAuthorize(
+security:authorize
 content-security-policy
-PreAuthorize

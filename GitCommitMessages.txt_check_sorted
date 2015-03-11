@@ -1,0 +1,1474 @@
+[COMMIT MESSAGE]:|#000| +Anshul| refactoring getProcessingPeriods logic in requisition controller
+[COMMIT MESSAGE]:|#000 | Moving OrderPODDTO from order to pod.
+[COMMIT MESSAGE]:|#000| Refactoring get periods API
+[COMMIT MESSAGE]:|#000| removing StaticReferenceDataReader class and getting currency symbol via message service.
+[COMMIT MESSAGE]:|#000|Setting user id in criteria for get of periods.
+[COMMIT MESSAGE]:001-securing-service methods work in progress.
+[COMMIT MESSAGE]:|#00| fixing smoke requisition, populating order number in orderPOD
+[COMMIT MESSAGE]:|#00|+Riya| ignoring stringReceivedDate from orderPod json
+[COMMIT MESSAGE]:# 0.55
+[COMMIT MESSAGE]:# 0.58
+[COMMIT MESSAGE]:0.9.16
+[COMMIT MESSAGE]:0.9.5 final
+[COMMIT MESSAGE]:1.0
+[COMMIT MESSAGE]:1.0.0
+[COMMIT MESSAGE]:|#1010, 1019|+Paddy Modifying error messages on R&R.
+[COMMIT MESSAGE]:#1010| +Shibha| Modified code to display correct error message when we we try submitting and authorizing an error which is already submitted or authorized , modified test
+[COMMIT MESSAGE]:|#1037|+Manan| Adding createdByUser field in Status change object. Filling it with user name and id
+[COMMIT MESSAGE]:|#1037|+Manan|Service,Repository and Mapper for getting status changes for an RNR by id.  ModelAndView on print rnr gets these status changes.  Changing autowire from constructor to field in RequisitionController.
+[COMMIT MESSAGE]:|#1050| +Anshul| changing requisition list URL
+[COMMIT MESSAGE]:|#1050| +Anshul| removing unused endpoint from RequisitionController
+[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition
+[COMMIT MESSAGE]:#1057 | +Anshul | Getting all previous initiated emergency req.
+[COMMIT MESSAGE]:#1057 | +Anshul | Initiating Emergency R&R, inserting emergency flag as part of requisition. Getting current period for requisition if program start date is older than current period start date.
+[COMMIT MESSAGE]:#1057 | +Riya | Fixing client side to display multiple requisitions of emergency req.
+[COMMIT MESSAGE]:|#1057 | +Riya | Showing previous initiated rnrs.
+[COMMIT MESSAGE]:|#1057| sending emergency flag to server from client
+[COMMIT MESSAGE]:#1074 Added ids for Selenium testing and dumping out current API url
+[COMMIT MESSAGE]:|#1081|+Shibha| removing unused parameters from getNumberOfPagesOfApprovedRequisitionsForCriteria  method.
+[COMMIT MESSAGE]:|#1081|+Shibha|using createdDate as submitted date on convert to order screen.
+[COMMIT MESSAGE]:|#1081|Sortby facilityName/Code, programName,submittedDate on convert to order page.
+[COMMIT MESSAGE]:#10: Add default content to a page
+[COMMIT MESSAGE]:#10: Added location deletion logic
+[COMMIT MESSAGE]:10 apring login page finish + settins page added
+[COMMIT MESSAGE]:#10: Decent moving around of portlets
+[COMMIT MESSAGE]:11
+[COMMIT MESSAGE]:1.1.0版本完善
+[COMMIT MESSAGE]:#1114 | +Shibha | Renaming shipment_role_assignments to fulfillment_role_assignment and corresponding classes.
+[COMMIT MESSAGE]:#1133 Validators for values in GUI - first draft needs testing
+[COMMIT MESSAGE]:|#1140|+RahulJ| adding TODO in convert-to-order api
+[COMMIT MESSAGE]:|#1194| +Rahul J| migration, code, test added approver name in REST R&R approve API
+[COMMIT MESSAGE]:#11 Authorize demo
+[COMMIT MESSAGE]:1.1版本
+[COMMIT MESSAGE]:12.09.12
+[COMMIT MESSAGE]:123
+[COMMIT MESSAGE]:|#1235| Adding Request body and path variable annotations to controller. Setting pod id from request
+[COMMIT MESSAGE]:|#1235| +Manan| Added api to save OrderPod and lineItems. Removed @Category(IntegrationTests.class) from unit tests.
+[COMMIT MESSAGE]:|#1235| +Manan| Updating URLs to use /pods instead of pod-orders.
+[COMMIT MESSAGE]:|#1235| Not fetching the pod on save. Adding save button and functionality.
+[COMMIT MESSAGE]:|#1255| +Rahul K| adding displayOrder, category to pod_line_items, sorting them on displayOrder.
+[COMMIT MESSAGE]:|#1255 | +RahulK | fetching and displaying header information on update POD screen
+[COMMIT MESSAGE]:|#1255| +RahulK | renaming POD to OrderPOD, PODLineItems to OrderPODLineItems, Added PODController
+[COMMIT MESSAGE]:|#1255| +RahulK, +Riya | getting orderPOD with podLineItems, adding PODController and tests
+[COMMIT MESSAGE]:#1256 | +Manan | Converting get call for Initiate POD as post
+[COMMIT MESSAGE]:|#1256| +RahulK | adding OrderPODDTO to response of update-pod hence fixing the FTs
+[COMMIT MESSAGE]:|#1256| +RahulK | creating OrderPODLineItems from shipmentLineItems for PACKED orders, refactored the code accordingly, also added method to OpenLMISResponse to accept HTTP status as its argument
+[COMMIT MESSAGE]:|#1300|+Riya| adding API to get orderPOD with podLineItems by pod id
+[COMMIT MESSAGE]:|#1300|+Riya| sending orderId as requestParam to create orderPOD
+[COMMIT MESSAGE]:|#1305|+Manan| Adding service and validations to submit pod and update order status.
+[COMMIT MESSAGE]:130 - the code was formatted by our template
+[COMMIT MESSAGE]:130 - the imports were optimized
+[COMMIT MESSAGE]:130 - the imports were optimized by our ordering template
+[COMMIT MESSAGE]:|#1318| Adding post authorize  to get api of pod.
+[COMMIT MESSAGE]:#1318 Controller now reports severe errors to Loggly
+[COMMIT MESSAGE]:|#1319|+Rahul| adding API for print pod in pod controller. adding print button to update-pod screen.
+[COMMIT MESSAGE]:|#1319|+Rahul| fixing image path for jrxml, updating it in seed.
+[COMMIT MESSAGE]:|#1319|+Rahul| fixing jrxml subreport path.
+[COMMIT MESSAGE]:|#1319|+Riya| Adding controller API to print pod
+[COMMIT MESSAGE]:|#1326|+Swapnil| Trimming hours from received date in pod
+[COMMIT MESSAGE]:|#1354| +Rahul | added resource bundle, locale as parameter for jasperview
+[COMMIT MESSAGE]:|#1357| documentation for openlmis web module, Also did some reformatting, changed some constructor injection to field autowiring, moved VendorEventFeedService to a separate service package in openlmis-web module, removed unused RnrReferenceData class,  removed unused fields
+[COMMIT MESSAGE]:|#1358 | [DOCUMENTATION] Reporting module. Moving JasperReportsViewFactory from controller to service directory.
+[COMMIT MESSAGE]:#135 middleware as a functional interface
+[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to client side on initiating rnr and fetching it again.
+[COMMIT MESSAGE]:|#1405| Riya | Calculating period normalized consumption while printing Rnr at any point of time (after save, submit, authorize etc).
+[COMMIT MESSAGE]:|#1411| +Varun | approve button is not disabled if Rnr is not approvable on approve rnr page
+[COMMIT MESSAGE]:|#1458|+Balvinder| modifying podPrint to display order number instead of order id
+[COMMIT MESSAGE]:#1495|+Rashi|Changing rights from enum to class, all related refactorings. Include rightType in json with name.
+[COMMIT MESSAGE]:1.4 update :: protect updates :: update config.yml
+[COMMIT MESSAGE]:#15: Login form 
+[COMMIT MESSAGE]:1.5 version
+[COMMIT MESSAGE]:16/09/2014
+[COMMIT MESSAGE]:#17 updated the resource security depedancy
+[COMMIT MESSAGE]:#1975 Building old file using constructor rather than string concatenation
+[COMMIT MESSAGE]:1. add sitemesh3.0, using its decorator pattern.
+[COMMIT MESSAGE]:20/06/2014
+[COMMIT MESSAGE]:2012-9-2 upgrade the domain SQL
+[COMMIT MESSAGE]:20140107 - pro badge sample
+[COMMIT MESSAGE]:2014.08.12.18.24
+[COMMIT MESSAGE]:201408141651
+[COMMIT MESSAGE]:20140818
+[COMMIT MESSAGE]:201408191418
+[COMMIT MESSAGE]:201408250038
+[COMMIT MESSAGE]:20140901 1913
+[COMMIT MESSAGE]:201409030_1855
+[COMMIT MESSAGE]:20141013
+[COMMIT MESSAGE]:20141110일 initial commit
+[COMMIT MESSAGE]:2014.7.3
+[COMMIT MESSAGE]:2015-1-9 13:28:24 新增方法精确控制
+[COMMIT MESSAGE]:#2020 extractExecutableFromJar now makes the target directory if necessary
+[COMMIT MESSAGE]:2.0版本升级
+[COMMIT MESSAGE]:21122014.02
+[COMMIT MESSAGE]:#21 #17 addedd ws-resource-security
+[COMMIT MESSAGE]:#2193 Enabled websockets transport in CometD
+[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.
+[COMMIT MESSAGE]:#21 - better error handling
+[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.
+[COMMIT MESSAGE]:#21 - update assignee using AJAX (if available)
+[COMMIT MESSAGE]:2.2 branch
+[COMMIT MESSAGE]:#22 - bulk update of pending payments
+[COMMIT MESSAGE]:#23 - send reservation complete e-mail
+[COMMIT MESSAGE]:#24 lazy loading operation test
+[COMMIT MESSAGE]:24th Sept 4:10am Lab & Accounts
+[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRUD operations in the PersistenceManager in the admin
+[COMMIT MESSAGE]:#25 add a web based qr code reader
+[COMMIT MESSAGE]:#285 Preparing UI authentication
+[COMMIT MESSAGE]:#28 add csp lockdown policy
+[COMMIT MESSAGE]:#28 correct comment
+[COMMIT MESSAGE]:#28 less restrictive CSP policy for linking images: we only need to be hover https or self
+[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용
+[COMMIT MESSAGE]:30112014 - Alfonz - MyBatis Xml Config and More Test Scenario
+[COMMIT MESSAGE]:3월19일 (영진)
+[COMMIT MESSAGE]:3.25 new the project
+[COMMIT MESSAGE]:3시46분
+[COMMIT MESSAGE]:#34 - add commons upload in order to allow file upload with wildfly8 (see https://issues.jboss.org/browse/UNDERTOW-279)
+[COMMIT MESSAGE]:[3/5] (Service) Added missing @Transactional annotations
+[COMMIT MESSAGE]:403,404 pages
+[COMMIT MESSAGE]:404, bezpieczenstwo.
+[COMMIT MESSAGE]:404, porpawienie widoku logowania, dodanie zdj.
+[COMMIT MESSAGE]:412 PipelineList isn't refreshed after deleting pipeline
+[COMMIT MESSAGE]:4.1.2 version is here!
+[COMMIT MESSAGE]:4138: Support Organization public projects
+[COMMIT MESSAGE]:447 - limitation of running pipelines and schduling improvement, jobs are computed by their priority, junit test was added
+[COMMIT MESSAGE]:#454: Role_Study_Manager is now able to edit and create new Study/Form/Version
+[COMMIT MESSAGE]:4592: Support a custom services.web build
+[COMMIT MESSAGE]:46935: Properly handle imports of qualified and unqualified types
+[COMMIT MESSAGE]:#46 maven 통합
+[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from the admin console
+[COMMIT MESSAGE]:#472 delete form data functionality in form responses view
+[COMMIT MESSAGE]:#473: Added paging to List of Forms.
+[COMMIT MESSAGE]:#50 제작완료
+[COMMIT MESSAGE]:502_rails2 first commit
+[COMMIT MESSAGE]:#52 메뉴가 편집될때마다 캐싱을 해지하도록 변경
+[COMMIT MESSAGE]:#524 Use getForms method with user parameter to retrieve Forms the user has permission to view (either directly or via the study)
+[COMMIT MESSAGE]:#53 codebone-site > menu > 조작 후에 NPE
+[COMMIT MESSAGE]:575 cant start / schedule execution if there is execution for the same pipeline already QUEUED or RUNNING
+[COMMIT MESSAGE]:#58 커밋
+[COMMIT MESSAGE]:583 bugfix Cannot cancel queued pipeline #182
+[COMMIT MESSAGE]:#589 submitted by skelly : setting deleted form_data as voided
+[COMMIT MESSAGE]:#5921 Actualizar con git (pull, stash, checkout) el código fuente de Roo a la nueva versión 1.2.2.RELEASE.
+[COMMIT MESSAGE]:5month 1day
+[COMMIT MESSAGE]:#64 BeanIds.AUTHENTICATION_MANAGER is now a composed bean
+[COMMIT MESSAGE]:|#677|+Shibha| Modiying query to fetch submitted date and modified date. Fixed the issue of results not being returned when search type all. Removing resolve.
+[COMMIT MESSAGE]:|#677|+Vinay| Initial server side code for pagination on convert to order screen.
+[COMMIT MESSAGE]:#7 디자인 1차 정리
+[COMMIT MESSAGE]:#8193 Actualizar Roo a la revisión 78c89de..5b80e7a
+[COMMIT MESSAGE]:|#904|+Anshul|Added logic to fetch current period and requisition for emergency requisitions|
+[COMMIT MESSAGE]:|#904|+Anshul| Refactoring requisition controller and service.
+[COMMIT MESSAGE]:|#909|+Riya| Externalised message in print framework
+[COMMIT MESSAGE]:|#913| moved Rnr lineitem size to environment specific property files.
+[COMMIT MESSAGE]:#914|+manan| Refactoring initiate requisition API to get rid of period id. Using facility and program objects instead of ids.
+[COMMIT MESSAGE]:99
+[COMMIT MESSAGE]:AC-691 Fix ownerId inconsistency
+[COMMIT MESSAGE]:ACTIVEMQ6-3 renaming directories from activemq6 to activemq
+[COMMIT MESSAGE]:ACTIVEMQ6-3 renaming package names from activemq6 to activemq
+[COMMIT MESSAGE]:ACTIVEMQ6-43 Replace License Headers on codebase
+[COMMIT MESSAGE]:Add a workaround for issue issue 197
+[COMMIT MESSAGE]:Add c.g.c.net.HttpHeaders to Guava (since 11.0).
+[COMMIT MESSAGE]:Add 'closure/closure-templates/' from commit '3d6cbfbfde2a91b09753e65ec97e2b0feba82782'
+[COMMIT MESSAGE]:[Add] DB init http://localhost:8080/admin/services/startinit/
+[COMMIT MESSAGE]:Added 002-securing-views.
+[COMMIT MESSAGE]:Added 003-securing-web-resources.
+[COMMIT MESSAGE]:Added 004-method-authorization-using-acls.
+[COMMIT MESSAGE]:Added 005-view-authorization-using-acls
+[COMMIT MESSAGE]:Added apiReturns404WhenRequestingTheTicketThatDoesNotExist test
+[COMMIT MESSAGE]:added back XSRF for lantern pi mode #2124
+[COMMIT MESSAGE]:Added constant for Strict-Transport-Security header as defined in http://tools.ietf.org/html/rfc6797#section-6.1.
+[COMMIT MESSAGE]:Added contextId property to model (RAVE-1054)
+[COMMIT MESSAGE]:Added fallback server to server list and added google pac file to served pac files closes #489
+[COMMIT MESSAGE]:Added flash messages when editing and updating recipes. Fixes #40.
+[COMMIT MESSAGE]:Added functionality to clone/copy page as well as share. See RAVE-819.
+[COMMIT MESSAGE]:Added gitignore to root, updated CustomAuthenticationEntryPoint class so requests missing user agents get 401 instead of redirect response. Added object-level security to the web service.
+[COMMIT MESSAGE]:Add/Edit/Delete user comments and View other user comment in Widget Store RAVE-334
+[COMMIT MESSAGE]:- added license header to all source files (REDMINE-524)
+[COMMIT MESSAGE]:Added lister according to servlet 3.1 spec.
+[COMMIT MESSAGE]:Added login functionality to 001-securing-service-methods.
+[COMMIT MESSAGE]:Added logs for #992, #988
+[COMMIT MESSAGE]:Added my changes 24.09.12
+[COMMIT MESSAGE]:Added Role constants class for spring security annotation refs and made save message i18n for ContactServerImpl save response.
+[COMMIT MESSAGE]:Added the rest of the FalseBook sources, updated for 1.4.7-R1.0.
+[COMMIT MESSAGE]:Added xulrunner 1.9.2
+[COMMIT MESSAGE]:Add generated API stubs for Bukkit 1.7.9-R0.1 javadoc via unjavadoc 1.0
+[COMMIT MESSAGE]:Add helper functions for all connections (/vaccinations/1/allCompounds, /compounds/1/allVaccinations, /compounds/1/allVaccinationDates, /vaccinationDates/1/allCompounds)
+[COMMIT MESSAGE]:add i18n surpport
+[COMMIT MESSAGE]:Adding isShuttingDown utility method #2006
+[COMMIT MESSAGE]:Adding Java reference implementation, release 1.0.1
+[COMMIT MESSAGE]:Add license information (Apache 2.0). Add oauth2-avro-d2-example.
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12
+[COMMIT MESSAGE]:Add more reporting to fix #13.
+[COMMIT MESSAGE]:Add repro projects for SPR-7664, SPR-8122, SPR-9183
+[COMMIT MESSAGE]:Add some missing @since 15.0 tags.
+[COMMIT MESSAGE]:- Adds support for x86 (aligned with Doubango 1033)
+[COMMIT MESSAGE]:admin: added i18n(finished)
+[COMMIT MESSAGE]:admin: added i18n(not finished)
+[COMMIT MESSAGE]:AdminFun v2.1.3
+[COMMIT MESSAGE]:A few more fixes for #88.
+[COMMIT MESSAGE]:After Updating JHipster to 1.6
+[COMMIT MESSAGE]:[AH-112] fixed failing test
+[COMMIT MESSAGE]:[AH-112] Lisätty virhe testailuun
+[COMMIT MESSAGE]:[AH-178] Added configurable permitted roles to WMS capabilities route handling
+[COMMIT MESSAGE]:ALF-1999: Refactored AuthorityService.findAuthorities to support search options required by Alfresco Explorer client in efficient manner
+[COMMIT MESSAGE]:ALF-8805 (RINF 40) - PersonService getPeople
+[COMMIT MESSAGE]:ALF-8968 More de-lucene work on person finding code
+[COMMIT MESSAGE]:Align binaries with Doubango 653
+[COMMIT MESSAGE]:- Align with Doubango 1191
+[COMMIT MESSAGE]:Align with Doubango 1243
+[COMMIT MESSAGE]:- align with Doubango 738
+[COMMIT MESSAGE]:- Align with Doubango 751 (T.140, SWIG 2.0.8, bug fix)
+[COMMIT MESSAGE]:- Align with Doubango 854
+[COMMIT MESSAGE]:- Align with Doubango 870
+[COMMIT MESSAGE]:- Align with Doubang r740
+[COMMIT MESSAGE]:Always normalize emails #2067
+[COMMIT MESSAGE]:AOTP aware auradocs @bug W-2081851@
+[COMMIT MESSAGE]:AP-1955 Move moved to single module
+[COMMIT MESSAGE]:apache-camel-2.11.3 apache-cxf-2.7.8 spring-framework-3.2.7.RELEASE jars
+[COMMIT MESSAGE]:APF-1391 Password Reset functionality
+[COMMIT MESSAGE]:APF-1420: GWT Tutorial - Initial Import
+[COMMIT MESSAGE]:APF-1420: Java Conventions code reformating (whitespaces)
+[COMMIT MESSAGE]:Applying the patch from Venkat for Change security permission on WidgetRating RAVE-350
+[COMMIT MESSAGE]:APPWEB150: Added roles screen to Eclipselink GWT showcase
+[COMMIT MESSAGE]:Aravind | #00 | Added execute only on system folders.
+[COMMIT MESSAGE]:Aravind | #00 | spelling mistake.
+[COMMIT MESSAGE]:Arrangage de log4J, exemple dans main controller. Il faut ajouter log4j-1.2.17.jar dans votre "Click droit projet-->proporieté-->java build path-->librairies--> add external jar--> src\main\webapp\WEB-INF\lib\log4j-1.2.17.jar"
+[COMMIT MESSAGE]:Authorization for SIP protocol, implement subscribe for presence.winfo rfc3857, rfc3858, rfc5025. Add block and polite-block to the currently available allow rules in xcap implementation and using them fo the sip authorization.
+[COMMIT MESSAGE]:authorization on service layer #34
+[COMMIT MESSAGE]:Author of DPU template can see all pipelines using it. #907
+[COMMIT MESSAGE]:+ Auto Event Every 15 Minutes!!!
+[COMMIT MESSAGE]:[Avance de la implementación de Auditoria Parte 3/JuanPadilla/12-11-2013]
+[COMMIT MESSAGE]:BACKLOG-342
+[COMMIT MESSAGE]:BACKLOG-387: implementation of person api: access control; mock ldap service; mock eb service;
+[COMMIT MESSAGE]:BACKLOG-518: use SAML ARP in api.
+[COMMIT MESSAGE]:BACKLOG-911: apply ARP on external group member information
+[COMMIT MESSAGE]:backup for source code mifos on 27-jun-2013
+[COMMIT MESSAGE]:Base64Service, AuthenticationService
+[COMMIT MESSAGE]:Basic Adaptions to Spring Security 3.0
+[COMMIT MESSAGE]:better, cross platform setting of executable #1846
+[COMMIT MESSAGE]:big commit !!!11
+[COMMIT MESSAGE]:bind to any host for pi #2124
+[COMMIT MESSAGE]:BRC-10: Added spring security and transaction manager
+[COMMIT MESSAGE]:Bug 306907 - Compile warning in official build (dead code)
+[COMMIT MESSAGE]:Bug 401179 - Remove old Deprecated API
+[COMMIT MESSAGE]:bug 421586: Remove deprecated Code for Scout 3.10
+[COMMIT MESSAGE]:Bug 459952 - New formatter for OT/J after bug 303519
+[COMMIT MESSAGE]:Bump dependency version after release 0.1.4. Change Avro default string type to be CharSequence. Add a mongodb startable to log status.
+[COMMIT MESSAGE]:Bump version after 0.1.7; fix issue with async calls in oauth2-avro-d2-example.
+[COMMIT MESSAGE]:Bump version after 0.1.8; refactor global settings; make client(...) methods in avro and avro-d2 static.
+[COMMIT MESSAGE]:CARE #103: Possibility to edit indicators and dw queries
+[COMMIT MESSAGE]:CARE #25: Added computed field creation via indicator creation UI view
+[COMMIT MESSAGE]:CARE #25: Finished indicator creation UI; fixed date picker on dashboards under Chrome
+[COMMIT MESSAGE]:CARE #25: Further refinement of the query creation view
+[COMMIT MESSAGE]:CARE #25: Synchronized UI with xml schema
+[COMMIT MESSAGE]:CARE #25: Updated indicator creation, implemented @JsonView
+[COMMIT MESSAGE]:CARE#37: Added FrequencyEntity
+[COMMIT MESSAGE]:CARE#37: Indicators values calculation
+[COMMIT MESSAGE]:CARE #39: Add permissions for all activities
+[COMMIT MESSAGE]:CARE #44: Create computed fields for indicators
+[COMMIT MESSAGE]:CARE #44: Fixed computed fields
+[COMMIT MESSAGE]:CARE #44: Improved computed fields
+[COMMIT MESSAGE]:CARE#48: Added possibility to change indicators recalculation cron job without restarting the application
+[COMMIT MESSAGE]:CARE#48: Add possibility to configure frequency of recalculating indicator values
+[COMMIT MESSAGE]:CARE #51: Add the ability to define new languages from the UI
+[COMMIT MESSAGE]:CARE#64: Backend for Display pie charts
+[COMMIT MESSAGE]:CARE #81: Remove unused classes and methods; added a couple of fixes
+[COMMIT MESSAGE]:CARE #84: Writed script to populate database
+[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+[COMMIT MESSAGE]:CASC-141
+[COMMIT MESSAGE]:CASC-33
+[COMMIT MESSAGE]:CEL-2419: BE: Migrate Resteasy/CDI -> Reasteasy/Spring 
+[COMMIT MESSAGE]:changed file permision to 777
+[COMMIT MESSAGE]:Changed parallel downloading of files to sequential, but still in a separate thread. Added error message instead of HTTP 500 when minting a DOI for a collection with missing mandatory fields.
+[COMMIT MESSAGE]:Changed Postgres dialect to 82;
+[COMMIT MESSAGE]:Changed the password hash algorithm to SHA-256. Another change: 2 different SALT beans, one for the user's password (object-dependent) and another for the trial sites (global).
+[COMMIT MESSAGE]:Change-Id: I288804e57d41fb6e5e05d4738a38c99ac326620d
+[COMMIT MESSAGE]:Changes in support of RAVE-298:
+[COMMIT MESSAGE]:Change to Apache License version 2.0.
+[COMMIT MESSAGE]:Changing to filter permission annotation (RAVE-1054)
+[COMMIT MESSAGE]:check XSRF-Token (refs #72)
+[COMMIT MESSAGE]:'classwork may, 08'
+[COMMIT MESSAGE]:cleanups from code review #2124
+[COMMIT MESSAGE]:Clean ups from code review #2124
+[COMMIT MESSAGE]:close #41
+[COMMIT MESSAGE]:close #81
+[COMMIT MESSAGE]:closes #11, completed save as new permission set
+[COMMIT MESSAGE]:CLOSE - task 23: create repository service structure 
+[COMMIT MESSAGE]:Closure templates release 2014-04-22.
+[COMMIT MESSAGE]:CLOUD-127 Added roles to entities. Extended company service to retrieve user data by roles
+[COMMIT MESSAGE]:CLOUD-200 added cluster methods
+[COMMIT MESSAGE]:CLOUD-200 added new method to blueprintrepository
+[COMMIT MESSAGE]:CLOUD-200 added new method to credentialrepository
+[COMMIT MESSAGE]:CLOUD-200 added template methods
+[COMMIT MESSAGE]:CLOUD-200 fixed method structure
+[COMMIT MESSAGE]:CLOUD-200 fixed security issue
+[COMMIT MESSAGE]:CLOUD-200 repository call needs account id
+[COMMIT MESSAGE]:CLOUD-216 blueprint endpoints basic implementation
+[COMMIT MESSAGE]:CLOUD-216 cluster endpoints basic implementation
+[COMMIT MESSAGE]:CLOUD-216 credential endpoints basic implementation
+[COMMIT MESSAGE]:CLOUD-216 permission management for findOne calls
+[COMMIT MESSAGE]:CLOUD-216 stack endpoints basic implementation
+[COMMIT MESSAGE]:CLOUD-216 template endpoints basic implementation
+[COMMIT MESSAGE]:CLOUD-270 provide access for periscope with client_credentials, rest call to obtain stack id from ambari address
+[COMMIT MESSAGE]:CLOUD-381: aws credential deletion fix.
+[COMMIT MESSAGE]:CLOUD-387 added pulbicInAccount to resources
+[COMMIT MESSAGE]:CLOUD-438 fixed private resource deleting
+[COMMIT MESSAGE]:CLOUD-59 fixed bug in repository layer
+[COMMIT MESSAGE]:CLOUD-61 decommision cluster hosts
+[COMMIT MESSAGE]:Code in support of RAVE-457: View Person Profile Page:
+[COMMIT MESSAGE]:Code in support of RAVE-458: Person Profile multiple sub-pages
+[COMMIT MESSAGE]:Code to support RAVE-298 (unchecked page manipulations):
+[COMMIT MESSAGE]:Comment and looping fix #2124
+[COMMIT MESSAGE]:comments re getlantern/lantern#1077
+[COMMIT MESSAGE]:Commit @04/01/2014
+[COMMIT MESSAGE]:commit 19.12.2012
+[COMMIT MESSAGE]:Committing patch for RAVE-1024
+[COMMIT MESSAGE]:complete chapter10
+[COMMIT MESSAGE]:Completed MIFOS-6019: Additional administrative document report formats
+[COMMIT MESSAGE]:complete up through video tutorial 35
+[COMMIT MESSAGE]:Console, i2psnark, susimail: Recognize emacs-w3m as a text-mode browser
+[COMMIT MESSAGE]:core-5319 changes for permissions refactor
+[COMMIT MESSAGE]:core-5319 refactor ui disk resource permissions model
+[COMMIT MESSAGE]:core-5353 fix sharing UI. refactor code to user permissions enum.
+[COMMIT MESSAGE]:[CRM-23] Preparation to annotation use.
+[COMMIT MESSAGE]:[CRM-23] Services server side authorization.
+[COMMIT MESSAGE]:[CRM-23] Task, Job filters added.
+[COMMIT MESSAGE]:[CRM-23] Worker role added.
+[COMMIT MESSAGE]:CRUD contas usuario 100%
+[COMMIT MESSAGE]:CS 2340 through the end of the semester.
+[COMMIT MESSAGE]:CXF-1982: dynamic subresource resolution
+[COMMIT MESSAGE]:[CXF-2759] More refactorings plus adding a demo missed during the original commit
+[COMMIT MESSAGE]:[CXF-3195,CXF-3172] Updatig SecureAnnotationsInterceptor to check interfaces and JAASAuthenticationFilter to redirect to context-based addresses by default
+[COMMIT MESSAGE]:CXF-3690 using the maven stander main/java as the java source directory
+[COMMIT MESSAGE]:d809f11b changed ToadletContext behavior but did not update the javadoc
+[COMMIT MESSAGE]:Database failure when creating pipeline-open-event is ignored. #977
+[COMMIT MESSAGE]:dd619
+[COMMIT MESSAGE]:DDBAAS-83: Commit 2
+[COMMIT MESSAGE]:Deleting Everything 26 SEp 11:26
+[COMMIT MESSAGE]:DELTASPIKE-127 credential based authentication
+[COMMIT MESSAGE]:DELTASPIKE-337 unified package org.apache.deltaspike.security.api.authorization
+[COMMIT MESSAGE]:demo 11 added
+[COMMIT MESSAGE]:demoiselle 2.4.0
+[COMMIT MESSAGE]:disable 304s, more aggressive no cache headers
+[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cleanups.
+[COMMIT MESSAGE]:Don't add CSP on Pi or in dev mode #2124
+[COMMIT MESSAGE]:Ejemplo spring 3.1
+[COMMIT MESSAGE]:ELMIS-1013: Add serverside code to call the delete rnr function, include a js service to access it.
+[COMMIT MESSAGE]:ELMIS-1396: resolve issue that disallowed users from updating POD
+[COMMIT MESSAGE]:Enabled @Secured annotations on service layer. Hibernate runs import.sql at startup. DefaultReservationService is secured with annotations. Unified several controller init methods. Minor i18n correction. ROLE_USER can now remove his reservations.
+[COMMIT MESSAGE]:ENG-5380: Move guava into voltpatches world.
+[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues added
+[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added
+[COMMIT MESSAGE]:Ensured that edit and delete links are only shown to users who own a recipe. Fixes #45.
+[COMMIT MESSAGE]:EP-189: Tutkinnon osan koodin tulee olla uniikki
+[COMMIT MESSAGE]:EP-214 & EP-215: Lisätty mahdollisuus hakea tiedotteita julkisuus-lipun ja/tai alkaen-päivämäärän avulla. Kirjautumaton käyttäjäkin pystyy nyt lukemaan julkisia tiedotteita.
+[COMMIT MESSAGE]:ep-commerce-engine-6.8 Files
+[COMMIT MESSAGE]:Exceptions and 404 Handling
+[COMMIT MESSAGE]:extracted from https://github.com/drinkit/drinkIt/commit/dcae85282593367371849b3136dedf5067de86aa
+[COMMIT MESSAGE]:[FEDIZ-77] RBAC Support for REST Interface
+[COMMIT MESSAGE]:FELIX-3600: imported new UserAdmin contribution.
+[COMMIT MESSAGE]:FELIX-3777: simplify RoleRepositoryStore API.
+[COMMIT MESSAGE]:Fill out controllers, add 204 response filter
+[COMMIT MESSAGE]:First import of customization to support BIRT 3.7.1
+[COMMIT MESSAGE]:Fix #181
+[COMMIT MESSAGE]:FIX #26 - V administraci u users.xhtml nejaka hlaska
+[COMMIT MESSAGE]:fix #695
+[COMMIT MESSAGE]:Fix a Java web start issue that appeared with jdk 7u45
+[COMMIT MESSAGE]:fix conflicts from 5d92ffc5b2452dfa67948f4c5b1b87599a97dc11
+[COMMIT MESSAGE]:Fixed #100 and #102
+[COMMIT MESSAGE]:Fixed #102
+[COMMIT MESSAGE]:Fixed #108
+[COMMIT MESSAGE]:Fixed #109.
+[COMMIT MESSAGE]:Fixed #13.
+[COMMIT MESSAGE]:Fixed #22
+[COMMIT MESSAGE]:Fixed #23. Added support for recurrence.
+[COMMIT MESSAGE]:Fixed #32. Fixed #33.
+[COMMIT MESSAGE]:Fixed #71
+[COMMIT MESSAGE]:Fixed #85
+[COMMIT MESSAGE]:Fixed #88
+[COMMIT MESSAGE]:Fixed bug DCO-148 - when the last available URL row is deleted, the user's unable to add a URL as the controls to clone don't exist. Solution, removed the remove URL button for the first row.
+[COMMIT MESSAGE]:Fixed duplicate oauth fetch along with DRY improvement #1858
+[COMMIT MESSAGE]:Fixed extracting of executables and checking for duplicates closes #1997
+[COMMIT MESSAGE]:Fixed issues found as a result of ALF-9636: SVC 67: Lucene removal: Sanity test Share UI with Lucene turned off
+[COMMIT MESSAGE]:Fixed license check error by updating license text to new year - 2015
+[COMMIT MESSAGE]:[FIXED MIFOS-3036]: Added appropriate service facade and web tier.
+[COMMIT MESSAGE]:[FIXED MIFOS-3040]: Moved FundServiceFacade to proper module, used general exception.
+[COMMIT MESSAGE]:FIXED MIFOS-3368: remove permission around view ogranisation settings
+[COMMIT MESSAGE]:Fixed MIFOS-4270 - Groups mandatory savings account wasnt recalculated after removing client from group with mandatory savings per individual
+[COMMIT MESSAGE]:FIXED MIFOS-4426: office name not shown during user creation flow.
+[COMMIT MESSAGE]:FIXED MIFOS-4723 using a shell script.
+[COMMIT MESSAGE]:FIXED MIFOS-5148: Added getLoanRepaymentScheduleByNumber method.
+[COMMIT MESSAGE]:FIXED MIFOS-5151: Added getClientChargesByNumber method.
+[COMMIT MESSAGE]:FIXED MIFOS-5231: Added methods to retrieve charges for Groups and Centers.
+[COMMIT MESSAGE]:FIXED MIFOS-5300: Added extra interest calculation to retrieveLoanRepaymentSchedule method.
+[COMMIT MESSAGE]:FIXED MIFOS-5335: Added getAcceptedPaymentTypes method.
+[COMMIT MESSAGE]:FIXED MIFOS-5382: added necessary classes and views, created tests
+[COMMIT MESSAGE]:FIXED MIFOS-5450: Added permissions to create and edit penalties
+[COMMIT MESSAGE]:FIXED MIFOS-5451: Add option to apply automatic penalties via Apply Charges dropdown
+[COMMIT MESSAGE]:Fixed MIFOS-6060: Stack trace appears during apply payment from savings account
+[COMMIT MESSAGE]:Fixed sequence generator for pipeline-open-events. #977
+[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)
+[COMMIT MESSAGE]:Fixed threading issues with DcStorage. Added a shutdownlistener so when tomcat's shut down, thread's already in the DcStorage Executor service will continue to run until they're all done (or a 15 minute timeout has been reached).
+[COMMIT MESSAGE]:FIXED - TYNAMO-125: Else block for the security components 
+[COMMIT MESSAGE]:Fixes #1094 - Move the @Transactional annotation off of the service-level DynamicEntityRemoteService and onto the individual methods that need it
+[COMMIT MESSAGE]:Fixes #31
+[COMMIT MESSAGE]:Fixes 3160: ActionConstants complexity
+[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wizards when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.
+[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.
+[COMMIT MESSAGE]:Fixes #51: Use @Resource instead of @Autowired.
+[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.
+[COMMIT MESSAGE]:Fixes #52: Refactor service package names.
+[COMMIT MESSAGE]:Fixes #561: Indicate forms having unexported data in form list.
+[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.
+[COMMIT MESSAGE]:Fixes for #29 & #35
+[COMMIT MESSAGE]:Fixes for #35
+[COMMIT MESSAGE]:Fixes for #54
+[COMMIT MESSAGE]:Fix for #15 : Option to change password of all users
+[COMMIT MESSAGE]:Fix for #56
+[COMMIT MESSAGE]:Fix for delete problems. Bumped server version to 0.6.9
+[COMMIT MESSAGE]:Fix for https://issues.alfresco.com/jira/browse/SLNG-1114
+[COMMIT MESSAGE]:fix for issue 52 - not tested yet
+[COMMIT MESSAGE]:fix for issue 55 and also new logo
+[COMMIT MESSAGE]:Fix for issue Issue #26
+[COMMIT MESSAGE]:Fix for Ticket #102 (missing dependency -> NoClassDefFoundError)
+[COMMIT MESSAGE]:Fix i18n
+[COMMIT MESSAGE]:Fixing [SEAMSECURITY-60]
+[COMMIT MESSAGE]:Fixing upload post 401 response with security annotations.
+[COMMIT MESSAGE]:- Fix issue 197
+[COMMIT MESSAGE]:Fix issue 508 and issue 509
+[COMMIT MESSAGE]:FIX MIFOS-3478: Make Mifos Database Version a link to a page that displays rows in applied_upgrades
+[COMMIT MESSAGE]:fix(project) : project mylafay generated with jhipster 1.9.X with java 8, mongodb, cookie based auth, no clustered sessions, non websockets, maven, grunt, compass css fwk
+[COMMIT MESSAGE]:Formatting controls grouped with zoom/undo controls. Closes #61.
+[COMMIT MESSAGE]:FP-10. 
+[COMMIT MESSAGE]:FP-1004 FP-1005
+[COMMIT MESSAGE]:FP-1026 Поправка и дополнение тестов уровня action в модуле аб, в соответствии с последними изменениями (продолжение)
+[COMMIT MESSAGE]:FP-1055 operator payments report now shows only operations created by current user
+[COMMIT MESSAGE]:FP-1061 blank operations report added
+[COMMIT MESSAGE]:FP-1065 Добавлена быстрая печать квитанции
+[COMMIT MESSAGE]:FP-1069 Монитор переделан в соответствии с правилами моделирования, а также, переведен на аджакс
+[COMMIT MESSAGE]:FP-1073 Создана standalone утилита с GUI для валидации реестров оплат
+[COMMIT MESSAGE]:FP-1076
+[COMMIT MESSAGE]:FP-1086
+[COMMIT MESSAGE]:FP-1096 Добавлена реализация оплаты задолженностей внешними системами в соответствии с протоколом
+[COMMIT MESSAGE]:FP-1098 В структуру serviceDetails внесены изменения в соответствии с новой версией протокола
+[COMMIT MESSAGE]:FP-10. TownType Create/Edit/List, no Delete yet.
+[COMMIT MESSAGE]:FP-10. TownTypes deletion added
+[COMMIT MESSAGE]:FP-10. TownTypes errors localizable output added
+[COMMIT MESSAGE]:FP-1104 Поиск по внешним запросам типов 1,2,3 расширен - теперь можно делать фильтрацию по типам услуг
+[COMMIT MESSAGE]:FP-1106 Поиск по внешним запросам, видов 4 и 5, изменён: теперь ищется по consumer.externalAccountNumber
+[COMMIT MESSAGE]:FP-1108 Добавлена обработка нового типа запросов - возврат платежей, в соответствии с протоколом
+[COMMIT MESSAGE]:FP-1109 В коррекции записей реестра добавлена ещё одна форма для редактирования - коррекции типа улиц. Также, теперь, при редактировании одной коррекции, происходит поиск записей с такой же ошибкой и всем им проставляется статус "Исправлена"
+[COMMIT MESSAGE]:FP-1113 Изменён запрос Operation.listLastPaymentPointPaymentOperations
+[COMMIT MESSAGE]:FP-1115 (продолжение) Исправлена ошибка в статусе ответа на внешний запрос об оплате
+[COMMIT MESSAGE]:FP-1120 (продолжение) Добавлен фильтр по ПУ в список реестров в модуле оплат
+[COMMIT MESSAGE]:FP-1129 Исправлены ошибки в мониторе и списке оплат для оператора
+[COMMIT MESSAGE]:FP-1130
+[COMMIT MESSAGE]:FP-1134
+[COMMIT MESSAGE]:FP-1136
+[COMMIT MESSAGE]:FP-1137 Изменение функционала монитора в АРМ бухгалтера и АРМ оператора в рамках открытия/закрытия опердня
+[COMMIT MESSAGE]:FP-1137 (продолжение) Изменение функционала монитора в АРМ бухгалтера и АРМ оператора в рамках открытия/закрытия опердня
+[COMMIT MESSAGE]:FP-1142 Бухгалтеру добавлен новый пункт меню со списком операций за любой период
+[COMMIT MESSAGE]:FP-1144 Реализован внешний запрос на получение списка реестров наличных оплат и оплат банков
+[COMMIT MESSAGE]:FP-115
+[COMMIT MESSAGE]:FP-1151 Добавлен вывод списка ЕИРЦ счетов = форма просмотра/редактирования атрибутов консьмеров (Не до конца: не работает сортировка по адресу и фильтр по различаю атрибутов)
+[COMMIT MESSAGE]:FP-1151 Доработана форма просмотра/редактирования атрибутов консьмеров. Теперь всё оттестировано на ЕИРЦ счетах, у которых много консьюмеров и много атрибутов
+[COMMIT MESSAGE]:FP-1163 Constrainted show cashbox for buhgalter and cashier: view only owner payment collector`s cashboxes
+[COMMIT MESSAGE]:[FP-117] 
+[COMMIT MESSAGE]:FP-1171 Добавлена возможность создания ЕИРЦ счетов вручную + добавление новых консьюмеров
+[COMMIT MESSAGE]:FP-1172 Добавлена новая фича: теперь можно создавать объекты, которые не были найдены при обработке реестров, прямо при просмотре записей реестра.
+[COMMIT MESSAGE]:FP-1176 Библиотеки spring и spring-security обновлены до версии 3.0.5
+[COMMIT MESSAGE]:FP-1182 Migrate jbpm from 3.2 to 5.1 version
+[COMMIT MESSAGE]:FP-1182 Update processing registry and trading day.
+[COMMIT MESSAGE]:FP-11. Added type selector when creating new town.
+[COMMIT MESSAGE]:FP-11. Service for objects with Time-Dependent names extracted.
+[COMMIT MESSAGE]:[FP-120] list, new, edit actions for building attribute types
+[COMMIT MESSAGE]:[FP-121] added eirc account dictionary
+[COMMIT MESSAGE]:[FP-122] added page - person list for eirc account
+[COMMIT MESSAGE]:[FP-124] changed action and pager for search support on person list page
+[COMMIT MESSAGE]:FP-125
+[COMMIT MESSAGE]:FP-12, Town districts added
+[COMMIT MESSAGE]:FP-131
+[COMMIT MESSAGE]:FP-136
+[COMMIT MESSAGE]:FP-138, FP-115
+[COMMIT MESSAGE]:FP-139
+[COMMIT MESSAGE]:FP-146
+[COMMIT MESSAGE]:FP-150
+[COMMIT MESSAGE]:FP-151
+[COMMIT MESSAGE]:FP-154
+[COMMIT MESSAGE]:[FP-160] ProcessManager now runs job's in separate thread
+[COMMIT MESSAGE]:FP-169
+[COMMIT MESSAGE]:FP-170
+[COMMIT MESSAGE]:FP-173
+[COMMIT MESSAGE]:FP-173, FP-182
+[COMMIT MESSAGE]:FP-176
+[COMMIT MESSAGE]:FP-179
+[COMMIT MESSAGE]:FP-181
+[COMMIT MESSAGE]:FP-182
+[COMMIT MESSAGE]:FP-185
+[COMMIT MESSAGE]:FP-185 FP-198 FP-199 FP-195
+[COMMIT MESSAGE]:FP-185 FP-205
+[COMMIT MESSAGE]:FP-185, FP-206, FP-207, FP-208
+[COMMIT MESSAGE]:FP-188
+[COMMIT MESSAGE]:FP-18. Added apartments listing
+[COMMIT MESSAGE]:FP-192
+[COMMIT MESSAGE]:FP-200
+[COMMIT MESSAGE]:FP-21
+[COMMIT MESSAGE]:FP-21. Persons listing, Identity cards view screen added
+[COMMIT MESSAGE]:FP-222
+[COMMIT MESSAGE]:FP-223
+[COMMIT MESSAGE]:FP-227
+[COMMIT MESSAGE]:FP-227 (доработка)
+[COMMIT MESSAGE]:FP-231 Частично подключено SpringSecurity к модулю SZ
+[COMMIT MESSAGE]:FP-232
+[COMMIT MESSAGE]:FP-235
+[COMMIT MESSAGE]:FP-240
+[COMMIT MESSAGE]:FP-252
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started
+[COMMIT MESSAGE]:FP-265
+[COMMIT MESSAGE]:FP-272
+[COMMIT MESSAGE]:FP-277
+[COMMIT MESSAGE]:FP-279
+[COMMIT MESSAGE]:[FP-27] added Identity Type dictionary
+[COMMIT MESSAGE]:FP-280 FP-281 FP-282 FP-284
+[COMMIT MESSAGE]:FP-285
+[COMMIT MESSAGE]:FP-286
+[COMMIT MESSAGE]:FP-293
+[COMMIT MESSAGE]:FP-294 FP-312 FP-313 Service, Dao added for building attribute types
+[COMMIT MESSAGE]:FP-296, FP-298 Созданы DAO и сервисы справочников тарифов и результатов расчета тарифов
+[COMMIT MESSAGE]:FP-297 Добавление справочника типов систем внутридомовой канализации в модуле tc (bti содержит модель данных, дао и сервис, actions в модуле tc)
+[COMMIT MESSAGE]:FP-304 Доработки UI в сервисе по работе с файлами соц. защиты
+[COMMIT MESSAGE]:FP-305
+[COMMIT MESSAGE]:FP-318 (продолжение) Первая наработка справочника правил расчета тарифов
+[COMMIT MESSAGE]:[FP-319] ready to code rules for tariff calculation
+[COMMIT MESSAGE]:FP-321 Добавление сервиса экспорт расчитаных тарифов в ЦН в модуле TC
+[COMMIT MESSAGE]:FP-321 (продолжение 2) Лоработка сервиса экспорт расчитаных тарифов в ЦН в модуле TC
+[COMMIT MESSAGE]:FP-330 Добавлены новые процессы в СЗ + переделана работа прошлых
+[COMMIT MESSAGE]:FP-333 Добавлены операции с файлами правил расчета тарифов (удаление и расчет)
+[COMMIT MESSAGE]:FP-344
+[COMMIT MESSAGE]:FP-347
+[COMMIT MESSAGE]:[FP-348] changed creation date type from String to Date in UploadTCResultsAction
+[COMMIT MESSAGE]:[FP-348] начальная версия, алгоритм работы Job пока закомментирован до выяснения конкретики задачи.
+[COMMIT MESSAGE]:FP-350 Подготовка файла правил расчета тарифов в соответствии с ТЗ
+[COMMIT MESSAGE]:FP-350 Подготовка файла правил расчета тарифов в соответствии с ТЗ. Оптимизация импортирования во внутренней структуре классов
+[COMMIT MESSAGE]:FP-351 Замена Long-ов на Stub-ы
+[COMMIT MESSAGE]:FP-352
+[COMMIT MESSAGE]:FP-352 FP-310
+[COMMIT MESSAGE]:FP-353
+[COMMIT MESSAGE]:FP-353 FP-354
+[COMMIT MESSAGE]:FP-354
+[COMMIT MESSAGE]:FP-355
+[COMMIT MESSAGE]:FP-384 Замена существующей ajax-селекта по выбору улицы на Jquery Autocomplete plugin
+[COMMIT MESSAGE]:FP-386 remember export result each time
+[COMMIT MESSAGE]:FP-386 security issuie
+[COMMIT MESSAGE]:FP-400
+[COMMIT MESSAGE]:FP-401 process filter by start/end date and state implemented
+[COMMIT MESSAGE]:FP-402 process sorting implemented
+[COMMIT MESSAGE]:FP-403 Process sorting by name implemented
+[COMMIT MESSAGE]:FP-416 country creation validation implemented
+[COMMIT MESSAGE]:FP-428 Add deleting person possibility
+[COMMIT MESSAGE]:[FP-42] global properties moved to config
+[COMMIT MESSAGE]:FP-447
+[COMMIT MESSAGE]:FP-448
+[COMMIT MESSAGE]:FP-449
+[COMMIT MESSAGE]:FP-450
+[COMMIT MESSAGE]:FP-453 process paging implemented. pager moved to from 'ab' to 'common'
+[COMMIT MESSAGE]:FP-455 received payments implemented
+[COMMIT MESSAGE]:FP-461
+[COMMIT MESSAGE]:FP-462
+[COMMIT MESSAGE]:FP-463 (продолжение) Применение автокомплита ко всем фильтрам в аб. Тестовая версия
+[COMMIT MESSAGE]:FP-468
+[COMMIT MESSAGE]:FP-469
+[COMMIT MESSAGE]:FP-470
+[COMMIT MESSAGE]:FP-470 FP-471
+[COMMIT MESSAGE]:FP-471
+[COMMIT MESSAGE]:FP-472
+[COMMIT MESSAGE]:FP-478
+[COMMIT MESSAGE]:FP-480 first stage (basics) imlpemented
+[COMMIT MESSAGE]:FP-480 operation filters implemented
+[COMMIT MESSAGE]:FP-496
+[COMMIT MESSAGE]:FP-499
+[COMMIT MESSAGE]:FP-500
+[COMMIT MESSAGE]:FP-501
+[COMMIT MESSAGE]:FP-502
+[COMMIT MESSAGE]:FP-505
+[COMMIT MESSAGE]:FP-527
+[COMMIT MESSAGE]:FP-52. Apartments import added.
+[COMMIT MESSAGE]:FP-539 organization id eliminated from cookie
+[COMMIT MESSAGE]:FP-545
+[COMMIT MESSAGE]:FP-570
+[COMMIT MESSAGE]:FP-588
+[COMMIT MESSAGE]:FP-599 implemented (html)
+[COMMIT MESSAGE]:FP-612 Создан новый справочник касс. Все классы находятся в payments, а struts.xml и jsp-файлы в eirc
+[COMMIT MESSAGE]:FP-614
+[COMMIT MESSAGE]:FP-615 Созданы 2 класса для реализации процесса создания и экспорта реестра типа 12. Класс EndOperationDayRegistryGenerator - генерирует реестр по ППП, организации, дате начала и дате конца. Класс ExportBankPaymentsRegistry - создает FPFile для реестра и записывает все данные в этот файл
+[COMMIT MESSAGE]:FP-617
+[COMMIT MESSAGE]:FP-620
+[COMMIT MESSAGE]:FP-624 Нововведение: теперь оплатить квитанцию (создать операцию в БД) можно только после того, как распечатал квитанцию
+[COMMIT MESSAGE]:FP=625
+[COMMIT MESSAGE]:FP-625
+[COMMIT MESSAGE]:FP-629
+[COMMIT MESSAGE]:FP-634 implementation with no "details on/off" feature
+[COMMIT MESSAGE]:FP-644 Исправлен баг с датами "с" и "по" для реестра типа 12
+[COMMIT MESSAGE]:FP-648 cashboxes mved to orgs (2 sql updates for it!)
+[COMMIT MESSAGE]:FP-65.
+[COMMIT MESSAGE]:FP-653 implemented
+[COMMIT MESSAGE]:[FP-65] made street autocomplete
+[COMMIT MESSAGE]:FP-662 Изменена выборка записей из реестров: теперь записи забираются не все сразу, а небольшими коллекциями
+[COMMIT MESSAGE]:FP-685 accountant reports implemented
+[COMMIT MESSAGE]:FP-687 fill not null operation fields
+[COMMIT MESSAGE]:FP-687 fill operation.cachebox 
+[COMMIT MESSAGE]:FP-687 operation id is now equal to payment quittance id
+[COMMIT MESSAGE]:FP-687 typo fixed
+[COMMIT MESSAGE]:FP-6. i18n files turned back to UTF-8, added ascii2native conversion
+[COMMIT MESSAGE]:FP-706 Изменение структуры ajax-фильтров. Теперь к фильтру можно добавлять функции-лисинеры, т.е. функции, которые будут выполняться после изменения значения фильтра. Также доработан пейджинг - теперь он также работает и для ajax-овых списков. Все изменения применены к списку квартир (apartmentsList).
+[COMMIT MESSAGE]:FP-707 Перевод модуля аб со старых адресных фильтров на новые ajax-фильтры (список городов, районов и модуль пейментов)
+[COMMIT MESSAGE]:FP-707 Перевод модуля аб со старых адресных фильтров на новые ajax-фильтры (список зданий)
+[COMMIT MESSAGE]:FP-707 Перевод модуля аб со старых адресных фильтров на новые ajax-фильтры (список улиц)
+[COMMIT MESSAGE]:FP-720 accountant report header update (payment collector information)
+[COMMIT MESSAGE]:FP-723
+[COMMIT MESSAGE]:FP-724 Перевод на новые фильтры следующих модулей: payments, eirc (не полностью). Также исправлена некорректная работа корректировок адреса для записей реестров
+[COMMIT MESSAGE]:FP-730
+[COMMIT MESSAGE]:FP-751 Добавлена проверка на длину короткого названия страны
+[COMMIT MESSAGE]:FP-761 В форме редактирования районов, городов, улиц и регионов в поле "Дата начала" теперь проставляется дефолтное значение - текущая дата
+[COMMIT MESSAGE]:FP-764 FP-786 FP-787
+[COMMIT MESSAGE]:FP-779 В модуле АБ в справочнике физ.лиц, вывод списка и удаление объектов переведено на Ajax
+[COMMIT MESSAGE]:FP-802 Добавлена страница для просмотра типа атрибутов здания
+[COMMIT MESSAGE]:FP-805 Исправлена ошибка с пейджингом в справочниках типов атриботов зданий (TC) и типов услуг (EIRC)
+[COMMIT MESSAGE]:[FP-80] Added View and Edit for person registration address
+[COMMIT MESSAGE]:FP-817 Documented-related services covered with tests
+[COMMIT MESSAGE]:FP-818 Operations-related services covered with tests
+[COMMIT MESSAGE]:FP-819 FP-820 FP-821 FP-823 FP-824 FP-825 FP-834 FP-835 Services level tests completed
+[COMMIT MESSAGE]:FP-843 Вывод списка процессов в модуле TC переведен на ajax
+[COMMIT MESSAGE]:FP-880
+[COMMIT MESSAGE]:FP-881 'PaymentsCollector' spelling completely eliminated
+[COMMIT MESSAGE]:FP-884
+[COMMIT MESSAGE]:FP-89
+[COMMIT MESSAGE]:FP-904 FP-905
+[COMMIT MESSAGE]:FP-908 Добавлен пейджинг вверху страницы списка ЕИРЦ счетов
+[COMMIT MESSAGE]:FP-922
+[COMMIT MESSAGE]:FP-925 В фильтры по имени процесса и по статусу процесса добавлена возможность задания пустого поля (allowEmpty)
+[COMMIT MESSAGE]:FP-94
+[COMMIT MESSAGE]:[FP-94] made address creating for existing building
+[COMMIT MESSAGE]:[FP-94] made buildings edit
+[COMMIT MESSAGE]:[FP-94] some changes
+[COMMIT MESSAGE]:FP-958 Корректировка сервисов типов документов, типов улиц и типов городов в модуле АБ
+[COMMIT MESSAGE]:FP-958 Корректировка сервисов типов документов, типов улиц и типов городов в моуле АБ
+[COMMIT MESSAGE]:[FP-95] added person registration
+[COMMIT MESSAGE]:[FP-95] fixed person registration
+[COMMIT MESSAGE]:[FP-95] person registration
+[COMMIT MESSAGE]:FP-964 Реструктуризация экшенов, отвечающих за вывод и удаление адресов зданий
+[COMMIT MESSAGE]:FP-965 Корректировка сервисов зданий, квартир и физ. лиц в модуле АБ
+[COMMIT MESSAGE]:FP-966 В адресных фильтрах теперь учитывается локаль пользователя
+[COMMIT MESSAGE]:FP-967 Корректировка сервиса единиц измерения в модуле АБ и Common
+[COMMIT MESSAGE]:FP-971 Исправлен баг с аплоадером в ИЕ
+[COMMIT MESSAGE]:FP-976 В справочник типов улиц добавлена колонка "Сокращённое название типа улиц"
+[COMMIT MESSAGE]:FP-986 Покрыты тестами экшены для стран. Также, добавлены необходимые проверки на атрибуты классов
+[COMMIT MESSAGE]:FP-994 Исправлена ошибка с редактированием адресов. Теперь значения при редактировании берутся не из сессии, а исходя из ид редактируемого объекта
+[COMMIT MESSAGE]:FP-999 Добавлены проверки на некорректные данные в экшены в модуле АБ
+[COMMIT MESSAGE]:Further JSR299 compatibility testing 9.4
+[COMMIT MESSAGE]:GDS-1165 Split Java client project
+[COMMIT MESSAGE]:[General] CSS,JAVASCRIPT Loading Issues #79
+[COMMIT MESSAGE]:generator-jhipster-80 Migrate to Spring Boot
+[COMMIT MESSAGE]:German: Translation updated based on English r32949; Fixes (for this language): 
+[COMMIT MESSAGE]:GERONIMO-2608 update jacc specs to 1.1/MR4, change naming a bit, implement http extension methods and http exclusion lists
+[COMMIT MESSAGE]:GERONIMO-4587 fix EJBMethodPermission construction problem when a method param is an array, patch (slightly modified) from Shawn Jiang
+[COMMIT MESSAGE]:GERONIMO-5105 Create JACC 1.4 spec jar 
+[COMMIT MESSAGE]:getlantern/lantern#1427 Added button to /admin/index.jsp to export baseline stats to statshub
+[COMMIT MESSAGE]:getlantern/lantern#1476 Added functionality to increase friending quota (currently only does one user, for a quick test)
+[COMMIT MESSAGE]:getlantern/lantern#1476 Finished functionality to increase friending quotas for unstrusted users, as well as button for recalculating everyone's friending quota
+[COMMIT MESSAGE]:getlantern/lantern#1975 Comparing PT executable before overwriting
+[COMMIT MESSAGE]:getlantern/lantern#2045 lantern-ui now showing client and server stats from flashlight
+[COMMIT MESSAGE]:git-svn-id: http://database-navigator.googlecode.com/svn/trunk@214 6bf550b9-897f-baaf-8eff-d39108dcfdf5
+[COMMIT MESSAGE]:git-svn-id: http://database-navigator.googlecode.com/svn/trunk@2 6bf550b9-897f-baaf-8eff-d39108dcfdf5
+[COMMIT MESSAGE]:git-svn-id: https://dev.rough-diamond.jp/svn/framework/framework/trunk/framework@44 32b2b61f-7f20-47f8-a8dc-572efa4bece0
+[COMMIT MESSAGE]:git-svn-id: https://jo4neo.googlecode.com/svn@209 69c1ab5c-d873-11de-849f-b362a63f070a
+[COMMIT MESSAGE]:git-svn-id: https://shopizer.svn.sourceforge.net/svnroot/shopizer/shopizer-portlet@749 e80ee2c7-76f3-4005-aeaf-98396743f455
+[COMMIT MESSAGE]:git-svn-id: https://shopizer.svn.sourceforge.net/svnroot/shopizer/shopizer-portlet@879 e80ee2c7-76f3-4005-aeaf-98396743f455
+[COMMIT MESSAGE]:git-svn-id: https://svn.apache.org/repos/asf/geronimo/specs/trunk@329723 13f79535-47bb-0310-9956-ffa450edef68
+[COMMIT MESSAGE]:git-svn-id: http://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD@18108 7033f55c-6c29-4ad8-afba-765cb616e738
+[COMMIT MESSAGE]:git-svn-id: http://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD@28319 7033f55c-6c29-4ad8-afba-765cb616e738
+[COMMIT MESSAGE]:git-svn-id: http://svn.code.sf.net/p/shopizer/code/shopizer-portlet@749 e80ee2c7-76f3-4005-aeaf-98396743f455
+[COMMIT MESSAGE]:git-svn-id: http://svn.code.sf.net/p/shopizer/code/shopizer-portlet@879 e80ee2c7-76f3-4005-aeaf-98396743f455
+[COMMIT MESSAGE]:git-svn-id: https://www.seasar.org/svn/sandbox/akabana/trunk@142 881adaa7-5f29-445a-92c6-36a57acc6958
+[COMMIT MESSAGE]:git-svn-id: https://www.seasar.org/svn/sandbox/akabana/trunk@14 881adaa7-5f29-445a-92c6-36a57acc6958
+[COMMIT MESSAGE]:git-svn-id: https://www.seasar.org/svn/sandbox/akabana/trunk@8 881adaa7-5f29-445a-92c6-36a57acc6958
+[COMMIT MESSAGE]:git-svn-id: https://www.seasar.org/svn/sandbox/akabana/trunk@95 881adaa7-5f29-445a-92c6-36a57acc6958
+[COMMIT MESSAGE]:git-svn-id: http://xpert-framework.googlecode.com/svn/xpert-framework/trunk@206 e489019e-bc00-2c72-aadb-f79410f744ba
+[COMMIT MESSAGE]:git-svn-id: svn+ssh://svn.java.net/glassfish~svn/trunk@54800 6f3ba3e3-413c-0410-a8aa-90bee3ab43b5
+[COMMIT MESSAGE]:git-svn-id: svn+ssh://svn.java.net/glassfish~svn/trunk@55789 6f3ba3e3-413c-0410-a8aa-90bee3ab43b5
+[COMMIT MESSAGE]:git-svn-id: svn://svn.alfresco.com/alfresco/HEAD@18108 c73165b8-c2a3-4c3a-8162-ddfb506fd858
+[COMMIT MESSAGE]:git-svn-id: svn://svn.alfresco.com/alfresco/HEAD@18137 c73165b8-c2a3-4c3a-8162-ddfb506fd858
+[COMMIT MESSAGE]:Google Guava atomic jars release 15.0
+[COMMIT MESSAGE]:Google Guava atomic jars release 16.0.1
+[COMMIT MESSAGE]:Guava Libraries v.17.0 stable
+[COMMIT MESSAGE]:HL7 Changes v2.0
+[COMMIT MESSAGE]:HORNETQ-1217 junit 3 -> 4. Automatically generated.
+[COMMIT MESSAGE]:HORNETQ-1308 - Update/enforce license headers
+[COMMIT MESSAGE]:Hotfix: changed getFeatureInfo SRS code to 900913
+[COMMIT MESSAGE]:Huge directory refactoring. Also fix defect #15
+[COMMIT MESSAGE]:i18n, auth, cache
+[COMMIT MESSAGE]:I18n started
+[COMMIT MESSAGE]:i2psnark: Add support for specifying data dir in add form (ticket #1028)
+[COMMIT MESSAGE]:i2psnark: Fix adding magnet links with % encoding (ticket #1391)
+[COMMIT MESSAGE]:IE7/8: exception thrown in Action.prototype.$runDeprecated$ before the
+[COMMIT MESSAGE]:[ignore] copying 1.4/trunk to stable.
+[COMMIT MESSAGE]:ignore x500 tokens
+[COMMIT MESSAGE]:iMatrix v5.2.1.RC源码
+[COMMIT MESSAGE]:Implemented error pages. Closes #41.
+[COMMIT MESSAGE]:* Implemented Spring Security 3.1 support
+[COMMIT MESSAGE]:Import and export as omdl functionality added. (UI elements are turned off in portal.properties by default). See RAVE-820.
+[COMMIT MESSAGE]:Import commands, event, i18n, configuration & scheduler from ParaGlydar
+[COMMIT MESSAGE]:import from sf.net branch swamp_1_6_1
+[COMMIT MESSAGE]:Import hadoop-0.20.203
+[COMMIT MESSAGE]:Improved roster and api port settings handling #463
+[COMMIT MESSAGE]:Improve update attribute rest method. fix #90
+[COMMIT MESSAGE]:inbound dd619 하는중
+[COMMIT MESSAGE]:In case Widget object was coming null for new URL @PostAuthorize was throwing Access is denied.RAVE-400
+[COMMIT MESSAGE]:Ingredients can be removed from recipes. Closes #17.
+[COMMIT MESSAGE]:initial commit (1.2-SNAPSHOT)
+[COMMIT MESSAGE]:Initial Commit and completed recipe 7.1
+[COMMIT MESSAGE]:Initial commit, based on hipster 0.0.19
+[COMMIT MESSAGE]:Initial Commit for MAS2014
+[COMMIT MESSAGE]:initial commit in accordance with CQ 3784
+[COMMIT MESSAGE]:Initial commit: jhipster 1.6.0
+[COMMIT MESSAGE]:initial commit : jhipster 2.1.1
+[COMMIT MESSAGE]:initial commit of oauth 2.0 client
+[COMMIT MESSAGE]:Initial commit of StorYBook 3.2 code.
+[COMMIT MESSAGE]:Initial Commit, Spring Security integration with Play Framework 2.1
+[COMMIT MESSAGE]:Initial commit - Stand Rev. 113 (Latest Brnach mit allen
+[COMMIT MESSAGE]:Initial Commit, version 1.0
+[COMMIT MESSAGE]:Initial deprecation of PageType enumeration (RAVE-977)
+[COMMIT MESSAGE]:Initial import of 2.6.6
+[COMMIT MESSAGE]:Initial import of uPortal 4.0.14
+[COMMIT MESSAGE]:Initialize 51Ventures
+[COMMIT MESSAGE]:Initial pass at splash screen (closes #668)
+[COMMIT MESSAGE]:Initial web 2.0 drop - clean up still needed
+[COMMIT MESSAGE]:Inscripcion Cap. 6 Lección 1 (Autorización)
+[COMMIT MESSAGE]:invoice전까지 weight, dd619빼고 완성
+[COMMIT MESSAGE]:issue #113 logs fore creating, editing, deleting and hiding location, cleaning logs after 30 days old
+[COMMIT MESSAGE]:Issue 1169 - Support missing securityheaders.com checks
+[COMMIT MESSAGE]:Issue 1169 - Support missing securityheaders.com checks (Fix NPE in CSP Check)
+[COMMIT MESSAGE]:Issue 1169 - Support missing securityheaders.com checks (X-Backend-Server check and minor corrections)
+[COMMIT MESSAGE]:Issue #142: More renaming to namespace org.datacleaner
+[COMMIT MESSAGE]:Issue #142: Renamed namespaces to org.datacleaner
+[COMMIT MESSAGE]:Issue 19614: Separated tests and sources
+[COMMIT MESSAGE]:[Issue #24] Initial commit of Basic events subsystem (BES)
+[COMMIT MESSAGE]:[Issue #24] Last commit of Basic events subsystem (BES)
+[COMMIT MESSAGE]:[Issue #24] Second commit of Basic events subsystem (BES)
+[COMMIT MESSAGE]:[Issue #25] Implemented Defeat and dead heat detect
+[COMMIT MESSAGE]:issue#26 (in progress) + upgraded version angular/bootstrap
+[COMMIT MESSAGE]:issue #62 seems all working fine
+[COMMIT MESSAGE]:Issues 1169 - Support missing securityheaders.com checks (CSP and X-Powered-By)
+[COMMIT MESSAGE]:Items: 0, 2, 5, 9
+[COMMIT MESSAGE]:Items: 10, 6, 0, 5, 9, 2
+[COMMIT MESSAGE]:JBIDE-11552
+[COMMIT MESSAGE]:JBIDE-13901 Deltaspike Annotations Need Updating
+[COMMIT MESSAGE]:JBIDE-8715
+[COMMIT MESSAGE]:JBIDE-9852
+[COMMIT MESSAGE]:JBRULES-1706: Refactor security authenticator, seperate out the authorization code, so that users can use whatever authentication mechanism they perfer (e.g., ldap) to do the authentication. We also want to use the Role-based authorization by default.
+[COMMIT MESSAGE]:[#JBRULES-2577] License headers are missing for most of the files
+[COMMIT MESSAGE]:JBRULES-2688 Some files have the license headers twice
+[COMMIT MESSAGE]:JBSEAM-4810 - migrated Seam modules to maven
+[COMMIT MESSAGE]:jdk target now 1.7, support for multiple marshallers during live testing, improved switching between mime types
+[COMMIT MESSAGE]:* JOSSO 1.8.4 Initial import
+[COMMIT MESSAGE]:JSEC-88 - converted to the Apache 2.0 license
+[COMMIT MESSAGE]:jsr 303 validaon added
+[COMMIT MESSAGE]:KH-189: Inform user of session timeout
+[COMMIT MESSAGE]:KH-202: Annotoitu myös muut REST-luokat
+[COMMIT MESSAGE]:KingKits Pre-v3.2.0
+[COMMIT MESSAGE]:KingKits v1.1.9
+[COMMIT MESSAGE]:KingKits v3.2.0 final 2
+[COMMIT MESSAGE]:Lab 13 added
+[COMMIT MESSAGE]:latest release v 1.2.0
+[COMMIT MESSAGE]:License 2014 => 2015
+[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+[COMMIT MESSAGE]:log4j2, jstl, spring security config dependencies
+[COMMIT MESSAGE]:logging, TODO comments for csrf protection #1077
+[COMMIT MESSAGE]:login failuer event add, spring version up 3.2.6
+[COMMIT MESSAGE]:Lots of finer grained tweaks to speed up startup including lazily loading they keystore and lazily loading most servlets #671
+[COMMIT MESSAGE]:Lots of refactorings to use Chrome on OSX #2043
+[COMMIT MESSAGE]:Lots of tweaks to extract executables from jar #1846
+[COMMIT MESSAGE]:LS-12 Add registered members to DB and allow them to login
+[COMMIT MESSAGE]:Lucene upgrade to 2.4.1: MOB-587: First round of fixes for the query parser
+[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.
+[COMMIT MESSAGE]:mdek: - 3.0.0: added new "is_inspire_relevant" column (t011ObjGeo + t011ObjServ) to datamodel, see https://dev.wemove.com/jira/browse/INGRID23-54
+[COMMIT MESSAGE]:mdek: - 3.0.0: moved "is_inspire_relevant" column to t01_object, see https://dev.wemove.com/jira/browse/INGRID23-54
+[COMMIT MESSAGE]:mdek: - Added ATOM Download service functionality, see https://redmine.wemove.com/issues/230
+[COMMIT MESSAGE]:mdek: - added checkbox "open data" to backend (save, write to index, read, export, import). !!! NOTICE: database has to be 3.3.1_a !!!, see https://redmine.wemove.com/issues/128
+[COMMIT MESSAGE]:mdek: - added "open data categories" to backend (save, write to index, read, export, import), see https://redmine.wemove.com/issues/128
+[COMMIT MESSAGE]:mdek: - Add new field catalog-namespace to catalog data, see https://dev.wemove.com/jira/browse/INGRID32-30
+[COMMIT MESSAGE]:mdek: - add new legacy control "Datensammlung/Datenbank - Fachbezug - Objektartenkatalog" / table object_types_catalogue, see https://dev2.wemove.com/jira/browse/INGRID32-50
+[COMMIT MESSAGE]:mdek: - add syslist for operation platforms, see https://dev.wemove.com/jira/browse/INGRID32-26
+[COMMIT MESSAGE]:mdek: - check whether all referenced addresses are published when publishing object, see https://dev.wemove.com/jira/browse/INGRID23-128
+[COMMIT MESSAGE]:mdek: - handle new "hide_address" field in address (also part of Import/Export), see https://dev.wemove.com/jira/browse/INGRID32-37
+[COMMIT MESSAGE]:mdek: - InGrid2.3: Adapt IMPORT/EXPORT to split of class 3, see http://dev.wemove.com/jira/browse/INGRID23-24 + FIX of swapped service-type and service-classification in Import format, see http://dev.wemove.com/jira/browse/INGRID-1840
+[COMMIT MESSAGE]:mdek: - InGrid2.3: added DQ_Elements, also adapt IMPORT/EXPORT (new format 2.3.0), see http://dev.wemove.com/jira/browse/INGRID23-36
+[COMMIT MESSAGE]:mdek: - InGrid2.3: split object class 3 (Erstellung einer eigenen Klasse für geographische Services), needs new IGC 1.0.9 ! NO IMPORT/EXPORT yet, see http://dev.wemove.com/jira/browse/INGRID23-24
+[COMMIT MESSAGE]:mdek: - introduce new names for relation to address (syslist 505), instead of "Auskunft" "Verwalter" address is now mandatory, see https://dev.wemove.com/jira/browse/INGRID32-46
+[COMMIT MESSAGE]:mdek: - introducing multiple groups per user, new Schema 2.3.1, see http://dev.wemove.com/jira/browse/INGRID23-48
+[COMMIT MESSAGE]:mdek: - make spatial system n:1 associated (moved referencesystem_key, _value from t011_obj_geo to new table spatial_system ...), see https://dev.wemove.com/jira/browse/INGRID23-60
+[COMMIT MESSAGE]:mdek: - MERGE branch 2.3.0 (Rev. 16333-16344) back to trunk !!!
+[COMMIT MESSAGE]:mdek: - merge branch INGRID33-11 to trunk -> take over data of parent address into subnodes, see https://dev.wemove.com/jira/browse/INGRID33-11
+[COMMIT MESSAGE]:mdek: - merge [branch INGRID33-12] to trunk -> publication condition for addresses, see https://dev.wemove.com/jira/browse/INGRID33-12
+[COMMIT MESSAGE]:mdek: Merged revision(s) 23280 from ingrid-mdek/branches/ingrid-mdek-3.3.x:
+[COMMIT MESSAGE]:mdek: - migrate "Höhe Vertikaldatum" = old t01_object.vertical_extent_vdatum to new vertical_extent_vdatum_key/_value to allow free entries, see https://dev.wemove.com/jira/browse/INGRID23-59
+[COMMIT MESSAGE]:mdek: - NEW IGC + Import/Export VERSION 3.1.1 !!! remove environmental categories, see https://dev.wemove.com/jira/browse/INGRID31-22
+[COMMIT MESSAGE]:mdek, portal-mdek-application: - change write-subtree to write-subnode permission, see http://dev.wemove.com/jira/browse/INGRID23-46
+[COMMIT MESSAGE]:mdek: - syslist from repo: add to xsd documentation, add to examples, fix old example because of rework, see https://dev.wemove.com/jira/browse/INGRID32-24
+[COMMIT MESSAGE]:Merge 1.4 to HEAD
+[COMMIT MESSAGE]:Merge branch 'BroadleafCommerce-3.0.x' into BroadleafCommerce-3.1.x
+[COMMIT MESSAGE]:Merge branch 'develop' into STATISTIK-410-2
+[COMMIT MESSAGE]:Merge branch 'feature/575_runtime_limit_settings_gui' into develop
+[COMMIT MESSAGE]:Merge branch 'master' into ingrid-portal-utils-3.5_REDMINE-304_JetspeedMigration
+[COMMIT MESSAGE]:Merge branch 'master' into RAVE-1273
+[COMMIT MESSAGE]:Merge branch 'stable-1448-new' into form-password
+[COMMIT MESSAGE]:Merge commit 'ca2ffcea3523467646fcf9d6802cfd0665b822d1' as 'modules/de-common-module'
+[COMMIT MESSAGE]:Merged 1.4 to HEAD
+[COMMIT MESSAGE]:Merged BRANCHES/V3.2 to HEAD:
+[COMMIT MESSAGE]:Merged from devel to 2007
+[COMMIT MESSAGE]:Merged from fs0006 (includes REST API functionality)
+[COMMIT MESSAGE]:Merged V1.3 to HEAD(3126:3160)
+[COMMIT MESSAGE]:Merged V1.3 to HEAD (3180:3203, 3204:3217)
+[COMMIT MESSAGE]:Merged V2.0 to HEAD
+[COMMIT MESSAGE]:Merged V2.2 to HEAD
+[COMMIT MESSAGE]:Merged V2.9 to HEAD
+[COMMIT MESSAGE]:Merged V3.0 to HEAD
+[COMMIT MESSAGE]:Merged V3.1 to HEAD
+[COMMIT MESSAGE]:Merged V3.2 to HEAD
+[COMMIT MESSAGE]:merge from dev. branch v2.5
+[COMMIT MESSAGE]:Merge pull request #2062 from getlantern/2006-2
+[COMMIT MESSAGE]:Merge pull request #2082 from getlantern/2043
+[COMMIT MESSAGE]:Merge remote-tracking branch 'marius/WELD-820-tests'
+[COMMIT MESSAGE]:Merge V1.4 to HEAD
+[COMMIT MESSAGE]:mifos_2.1.6_ENDA_V1
+[COMMIT MESSAGE]:MIFOS-2514: integrate interest calculation with historical interest details for savings product and account.
+[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring security for view and create fund service facade methods
+[COMMIT MESSAGE]:MIFOS-3040: hook in viewFunds.ftl in place of old implementation
+[COMMIT MESSAGE]:MIFOS-3040: hook is display of funds for ftl, controller and service facade
+[COMMIT MESSAGE]:MIFOS-3046: remove struts configuration for system information and lateness and dormancy
+[COMMIT MESSAGE]:MIFOS-3046: support authorization of viewing system info and organizational settings using spring securities expression-based access control.
+[COMMIT MESSAGE]:MIFOS-3305: Added the possibility to clear overpayments.
+[COMMIT MESSAGE]:MIFOS-3316: add service facade for update and make struts action use it.
+[COMMIT MESSAGE]:MIFOS-3316: define system user flow working without validation from choose office to confirmation screen.
+[COMMIT MESSAGE]:MIFOS-3316: support viewing system user details and start of edit user flow
+[COMMIT MESSAGE]:MIFOS-3316: view system users search and paging
+[COMMIT MESSAGE]:MIFOS-3318: code review - dont throw exception ever, if exceptions need to be fired back due to business validation rules failing, we should use a runtime exception.
+[COMMIT MESSAGE]:MIFOS-3318: code review - integrate security and make link on admin page link to new freemarker page.
+[COMMIT MESSAGE]:MIFOS-3318: code review - remove need for office level enum which mimics the domain OfficeLevel enum, add integration test around DAO
+[COMMIT MESSAGE]:[MIFOS-3321] added service facade mathod for define accepted payment types
+[COMMIT MESSAGE]:MIFOS-3321: get form binding working for multiselect and hook up controller with service facade. Chnage admin.jsp to point to new .ftl url
+[COMMIT MESSAGE]:[MIFOS-3321] Partial commit for the load method services
+[COMMIT MESSAGE]:MIFOS-3323: create controller and handle display of populated form for defining labels.
+[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security for viewing and updating labels
+[COMMIT MESSAGE]:MIFOS-3323: handle form submission
+[COMMIT MESSAGE]:[MIFOS-3324] Added service facade methods for define mandatory/hidden fields
+[COMMIT MESSAGE]:MIFOS-3324: remove jsp/struts implementation
+[COMMIT MESSAGE]:MIFOS-3327: Added security settings + cosmetics.
+[COMMIT MESSAGE]:MIFOS-3327: Created ShutdownServiceFacadeWebTier and LoggedUserDto classes.
+[COMMIT MESSAGE]:[MIFOS-3328], Added service facade for load/create/update product categories
+[COMMIT MESSAGE]:[MIFOS-3328], partially. Added service facade for viewing product categories
+[COMMIT MESSAGE]:MIFOS-3328: switch to ftl spring implementation for product categories links
+[COMMIT MESSAGE]:MIFOS-3329: add security and remove old implementation of product mix
+[COMMIT MESSAGE]:MIFOS-3329: allow display of product mix
+[COMMIT MESSAGE]:MIFOS-3329: code review - dont throw exception
+[COMMIT MESSAGE]:MIFOS-3329: defineProductsMix and editProductsMix flows partially finished
+[COMMIT MESSAGE]:MIFOS-3329: start work on define product mix form
+[COMMIT MESSAGE]:MIFOS-3330: add confirmation page for define new loan product flow
+[COMMIT MESSAGE]:MIFOS-3330: support minimal loan product creation
+[COMMIT MESSAGE]:MIFOS-3330: support view-edit-preview-update loan product flow.
+[COMMIT MESSAGE]:MIFOS-3330: support viewing change logs for loan products
+[COMMIT MESSAGE]:MIFOS-3330: tidy up edit-preview-update of loan products
+[COMMIT MESSAGE]:MIFOS-3331: define new savings products flow
+[COMMIT MESSAGE]:MIFOS-3331: ensure business rules validation for edit and create saving product flows
+[COMMIT MESSAGE]:MIFOS-3331: load reference data and bind to saving product creation form.
+[COMMIT MESSAGE]:MIFOS-3331: support display, edit, preview and update saving product details
+[COMMIT MESSAGE]:MIFOS-3331: tidy up spring security and add security around savings product service facades
+[COMMIT MESSAGE]:[MIFOS-3331] WIP - spring controller for viewSavingsProducts.ftl
+[COMMIT MESSAGE]:MIFOS-3334: add ftl and controllers for view, define and edit report categories
+[COMMIT MESSAGE]:MIFOS-3481 : Moving minimum balance reached condition SavingsServiceFacadeWebTier.handleInterestCalculationAndPosting(savingsId)
+[COMMIT MESSAGE]:MIFOS-3481: support data retrieval of account transactions.
+[COMMIT MESSAGE]:MIFOS-3534 adding the possibility to edit clients created by the user
+[COMMIT MESSAGE]:MIFOS-3534 Add permission for "Edit client" in "pending approval" state
+[COMMIT MESSAGE]:MIFOS-3534: add permissions to update client details
+[COMMIT MESSAGE]:MIFOS-3577 Added privileges for batch jobs management page.
+[COMMIT MESSAGE]:MIFOS-3577 Added reading values from tasks into batch jobs management page
+[COMMIT MESSAGE]:MIFOS-3577 Change to read-only batch tasks management page.
+[COMMIT MESSAGE]:MIFOS-3577 Removed TestingService dependency from BatchjobsController
+[COMMIT MESSAGE]:MIFOS-3635: add service facades for despoit and withdrawal transactions.
+[COMMIT MESSAGE]:MIFOS-3687: start with implementing calculating account balances and interest for each eligible interest posting period.
+[COMMIT MESSAGE]:MIFOS-3866: fix pmd warnings.
+[COMMIT MESSAGE]:MIFOS-3867: add unit tests interest period calculator
+[COMMIT MESSAGE]:MIFOS-3867: create service facade for interest posting batch job
+[COMMIT MESSAGE]:MIFOS-3867: finish solution for recalculating interest for each eligible posting period of a savings account and do a interest posting for any period where interest calculated differs from previous interest posting.
+[COMMIT MESSAGE]:MIFOS-3867: fix compilation
+[COMMIT MESSAGE]:MIFOS-3867: point interest posting batch job to spiked solution for determining interest calculation for all posting periods of account activity.
+[COMMIT MESSAGE]:MIFOS-3867: spike using new interest calculation code for determining interest and balance outstanding when closing savings account for loading form.
+[COMMIT MESSAGE]:MIFOS-3868: add service facades around savings account closure.
+[COMMIT MESSAGE]:MIFOS-3948 : Removed Interest calculation batch job
+[COMMIT MESSAGE]:MIFOS-4137: add service facade for savings account creation. Use factory methods for creating savings account.
+[COMMIT MESSAGE]:MIFOS-4137: add service facade for waive of overdue deposits.
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for adding and view all notes.
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for adjusting savings account.
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for closing savings account.
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for deposit and withdrawals.
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for edit, update and retrieval of account status and transaction history.
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for savings account creation steps.
+[COMMIT MESSAGE]:MIFOS-4137: add service facade to handle changing status for savings account.
+[COMMIT MESSAGE]:MIFOS-4137: fix failing integration test, add service facade for waive of next deposit due on savings.
+[COMMIT MESSAGE]:MIFOS-4137: fix integration tests
+[COMMIT MESSAGE]:MIFOS-4137: remove locale from services signature.
+[COMMIT MESSAGE]:MIFOS-4190: add service facade around viewing recent activity for customer accounts
+[COMMIT MESSAGE]:MIFOS-4190: add service facade for group membership transfers
+[COMMIT MESSAGE]:MIFOS-4190: add service facade for retrieving client data for client creation.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades around applying charges and reverting charges on customer accounts.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades around client creation.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades around client family details.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades around reverting last payment of charges.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades around viewing transaction history, recent activity and waiving charges on customer accounts.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades around viewing waiving overdue charges and removing fees for customer accounts. remove unused imports warnings using eclipse quick fix
+[COMMIT MESSAGE]:MIFOS-4190: add service facades for client transfer and adding back group membership for client
+[COMMIT MESSAGE]:MIFOS-4190: add service facades for edit and update of client family details.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades for edit and update of client MFI details.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades for edit and update of client personal information.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades for retrieving change logs for center
+[COMMIT MESSAGE]:MIFOS-4190: add services facades around customer search action
+[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests
+[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests. refactor dto belonging to center get details.
+[COMMIT MESSAGE]:MIFOS-4190: fix failing integration tests after dto changes.
+[COMMIT MESSAGE]:MIFOS-4190: refactor dto and implementation for group service facade
+[COMMIT MESSAGE]:MIFOS-4190: refactor dtos to serviceInterfaces package and add spring security for centerServiceFacade
+[COMMIT MESSAGE]:MIFOS-4190: service facade around group creation.
+[COMMIT MESSAGE]:MIFOS-4190: service facade for edit customer status
+[COMMIT MESSAGE]:MIFOS-4190: service facade for retrieving group details
+[COMMIT MESSAGE]:MIFOS-4190: service facade for updating groups
+[COMMIT MESSAGE]:MIFOS-4190: service facades for customer historical data.
+[COMMIT MESSAGE]:MIFOS-4190: service facades for customer notes action.
+[COMMIT MESSAGE]:MIFOS-4190: update meeting service facade
+[COMMIT MESSAGE]:[MIFOS-4216] Re-factored service dependencies, integrated extra amount calculation in make payment, added matcher for Schedule
+[COMMIT MESSAGE]:[MIFOS-4220] Displaying unapplied contraction scripts in system properties
+[COMMIT MESSAGE]:[MIFOS-4220] System properties reading db upgrade from Liquibase history
+[COMMIT MESSAGE]:MIFOS-4305: STAGE 1 - pull out just enough from application along with some refactoring to decouple dependencies to allow build to compile and pass all tests.
+[COMMIT MESSAGE]:MIFOS-4322: fix failing acceptance tests for reversal of loan disbursals, service facade for creating multipe loan accounts
+[COMMIT MESSAGE]:MIFOS-4322: fix failing tests due to loan details broken, service facade for repay loan.
+[COMMIT MESSAGE]:MIFOS-4322: loan service facade refactoring for retreiving loan information.
+[COMMIT MESSAGE]:MIFOS-4322: refactor loan service facades
+[COMMIT MESSAGE]:MIFOS-4322: refactor loanServiceFacades for loan creation functioanlity.
+[COMMIT MESSAGE]:MIFOS-4322: refactor service facade around creating loan account
+[COMMIT MESSAGE]:MIFOS-4322: refactor service facade for retrieving load reference data for loan creation.
+[COMMIT MESSAGE]:MIFOS-4322: refactor service facades used from LoanAccountAction.
+[COMMIT MESSAGE]:MIFOS-4322: rename service facade method.
+[COMMIT MESSAGE]:MIFOS-4322: service facade around early and full repayment of loan.
+[COMMIT MESSAGE]:MIFOS-4322: service facade around loan disbursement data retrieval
+[COMMIT MESSAGE]:MIFOS-4322: service facade around updating account status in bulk.
+[COMMIT MESSAGE]:MIFOS-4322: service facade for creating multiple loan accounts for clients
+[COMMIT MESSAGE]:MIFOS-4322: service facade for loan disbursement
+[COMMIT MESSAGE]:MIFOS-4322: service facade for loan redo.
+[COMMIT MESSAGE]:MIFOS-4322: service facade for retrieve multiple loan details
+[COMMIT MESSAGE]:MIFOS-4322: service facade for updating loan account status.
+[COMMIT MESSAGE]:MIFOS-4322: service facades arond loan installment details
+[COMMIT MESSAGE]:MIFOS-4322: service facades around add notes to loan account, disable verification of client loan updated dates in acceptance tests
+[COMMIT MESSAGE]:MIFOS-4322: service facades around retrieving account details.
+[COMMIT MESSAGE]:MIFOS-4322: service facades for reversing loan disbursals
+[COMMIT MESSAGE]:MIFOS-4322: spring security for reversing loan disbursals
+[COMMIT MESSAGE]:[MIFOS-4349] Integrated PAWDEP loan claculation logic into redo flows
+[COMMIT MESSAGE]:MIFOS-4385: finish refactoring of fee service facade.
+[COMMIT MESSAGE]:MIFOS-4385: refactoring of PersonAction
+[COMMIT MESSAGE]:MIFOS-4385: remove persistence usage from personnel, initialize language supported entity when fetching personnel details
+[COMMIT MESSAGE]:MIFOS-4385: service facade for adding note to personnel
+[COMMIT MESSAGE]:MIFOS-4385: service facade for updating user settings.
+[COMMIT MESSAGE]:MIFOS-4385: service facade refactoring for check lists
+[COMMIT MESSAGE]:MIFOS-4385: service facade refactoring for creation of check lists
+[COMMIT MESSAGE]:MIFOS-4385: service facades around update of checklist
+[COMMIT MESSAGE]:[MIFOS-4431] Refactored adjust payment to move the operation behind service facade
+[COMMIT MESSAGE]:MIFOS-4472: remove questionnaire migration code
+[COMMIT MESSAGE]:MIFOS-4507: add spring security around service
+[COMMIT MESSAGE]:MIFOS-4507: add spring security around services for group and client creation
+[COMMIT MESSAGE]:MIFOS-4507: allow for creation of groups with activation date in past.
+[COMMIT MESSAGE]:MIFOS-4507: fix failing acceptance tests
+[COMMIT MESSAGE]:MIFOS-4531: add support for migrating opening balances for savings accounts
+[COMMIT MESSAGE]:MIFOS-4552: fix checklist functionality for edit and create
+[COMMIT MESSAGE]:MIFOS-4573: integration savings of question groups or flexible data with savings account creation
+[COMMIT MESSAGE]:MIFOS-4595: hook in customer search for savings creation flow.
+[COMMIT MESSAGE]:MIFOS-4644: ensure updating of client meetings works correctly
+[COMMIT MESSAGE]:MIFOS-4669: retrieve customer details for savings account flow
+[COMMIT MESSAGE]:MIFOS-4868: Some strings on Shutdown and Batch Job pages are not translatable
+[COMMIT MESSAGE]:MIFOS-5035: ensure interest is recalculated when reviewing loan schedule for variable installments loan.
+[COMMIT MESSAGE]:MIFOS-5035: pass down installment date information along with total installment details for variable installments when creating loan schedule for loan account.
+[COMMIT MESSAGE]:MIFOS-5067: remove legacy service methods for loan creation and redo. remove cashflow struts adaptor and commented out code in loan account action.
+[COMMIT MESSAGE]:MIFOS-5079: add permissions to create loan, redo loan and create savings account services.
+[COMMIT MESSAGE]:MIFOS-5111 : Ability to add/view and edit client photo
+[COMMIT MESSAGE]:MIFOS-5167 : MIFOS-5164 : UI to show REST API operations list
+[COMMIT MESSAGE]:MIFOS-5170 : MIFOS-5164 : Approval Controller for allow/reject request
+[COMMIT MESSAGE]:MIFOS-5172 : MIFOS-5164 : Permission for approval step (upgrade and activity)
+[COMMIT MESSAGE]:MIFOS-5177 REST method with refactorization.
+[COMMIT MESSAGE]:MIFOS-5182: Added interface for pre-payments
+[COMMIT MESSAGE]:MIFOS-5223 Implement REST Api method for repaying the whole Loan amount
+[COMMIT MESSAGE]:MIFOS-5268: Added Loan Account Payments for new GLIM. WIP
+[COMMIT MESSAGE]:MIFOS-5318 : Sort Approved/Rejected list by Created date by default
+[COMMIT MESSAGE]:MIFOS-5359: access to user sitePreference. Helper class for setting sitePreference cookie and resolving view name.
+[COMMIT MESSAGE]:MIFOS-5361: mobile version of center details page. Minor fixes.
+[COMMIT MESSAGE]:MIFOS-5361: mobile version of group details page.
+[COMMIT MESSAGE]:MIFOS-5361: mobile version of loan account details page.
+[COMMIT MESSAGE]:MIFOS-5361: mobile version of savings account details page.
+[COMMIT MESSAGE]:MIFOS-5373 Historical Data: option to adjust date, amount, payment type
+[COMMIT MESSAGE]:MIFOS-5373: Reverting a past payment
+[COMMIT MESSAGE]:MIFOS-5375, FIXED MIFOS-3849: Added datetag to enter date during loan status change.
+[COMMIT MESSAGE]:MIFOS-5387: Added possibility to remove penalties from loan account
+[COMMIT MESSAGE]:MIFOS-5408: configured spring security 'hasPermission' expression evaluator. Custom PermissionEvaluator and Permission implementation.
+[COMMIT MESSAGE]:MIFOS-5408: UI input for mifos role activity restriction.
+[COMMIT MESSAGE]:MIFOS-5429: Added ability to remove fees if fee is never used or loan product with attached fee is not applied to account
+[COMMIT MESSAGE]:MIFOS-5429: Fixed checkbox problem, added warning messages, MIFOS-5428: fixed removing fee from products
+[COMMIT MESSAGE]:MIFOS-5432: added GLIM details and 'original repayment schedule' mobile view.
+[COMMIT MESSAGE]:MIFOS-5438: Fixed inconsistent localization context switch
+[COMMIT MESSAGE]:MIFOS-5438 : Struts/JSTL locale context setup
+[COMMIT MESSAGE]:MIFOS-5439: added mobile version of the clients and accounts page
+[COMMIT MESSAGE]:MIFOS-5447 Some properties from config file are not displayed on 'View Organization Settings' page
+[COMMIT MESSAGE]:MIFOS-5456: Ability to make payments from a savings account
+[COMMIT MESSAGE]:MIFOS-5456: Adjusting payments made from savings
+[COMMIT MESSAGE]:MIFOS-5456: Adjusting transfer payments
+[COMMIT MESSAGE]:MIFOS-5456: Permissions for fund transfer
+[COMMIT MESSAGE]:MIFOS-5456: Savings-savings fund transfer
+[COMMIT MESSAGE]:MIFOS-5456: Support for savings payments in 'Repay loan' screen
+[COMMIT MESSAGE]:MIFOS-5490 : User locale using spring MessageSource
+[COMMIT MESSAGE]:MIFOS-5562: Added permissions checking in Pentaho reports
+[COMMIT MESSAGE]:MIFOS-5562: Automatic UI generation for parameters
+[COMMIT MESSAGE]:MIFOS-5562: Embedded Pentaho reports, ability to upload and run a report without parameters
+[COMMIT MESSAGE]:MIFOS-5562: Embedded Pentaho reports, ability to upload and run reports(parameters not supported yet)
+[COMMIT MESSAGE]:MIFOS-5562: Fixed report names
+[COMMIT MESSAGE]:MIFOS-5586: Historical adjustments in savings accounts
+[COMMIT MESSAGE]:MIFOS-5588: Fixed, added methods which no need role
+[COMMIT MESSAGE]:MIFOS-5616: added possibility to attach admin documents to payments.
+[COMMIT MESSAGE]:MIFOS-5616: added possibility to upload Pentaho Admin Documents.
+[COMMIT MESSAGE]:MIFOS-5626: Add possibility to Unblacklist a Client
+[COMMIT MESSAGE]:MIFOS-5627: Ability to remove guaranty
+[COMMIT MESSAGE]:MIFOS-5627: Link Guarantor to Clients
+[COMMIT MESSAGE]:MIFOS-5628: Added apply charges. WIP
+[COMMIT MESSAGE]:MIFOS-5632: Added ability to permission based editing Question Group.
+[COMMIT MESSAGE]:MIFOS-5652: Added refresh to dropdowns in Pentaho report
+[COMMIT MESSAGE]:MIFOS-5652: fixed problem with refresh dropdowns
+[COMMIT MESSAGE]:MIFOS-5662: Add the possibility to import new Loans data.
+[COMMIT MESSAGE]:MIFOS-5663 add new permission to import loans and savings, work on acceptance test
+[COMMIT MESSAGE]:MIFOS-5663 create a prototype of imports savings
+[COMMIT MESSAGE]:MIFOS-5663 create controllers to import savings account
+[COMMIT MESSAGE]:MIFOS-5671: Improved permissions for the ability to transfer funds from
+[COMMIT MESSAGE]:MIFOS-5688: Improved 'View Accounting Exports'
+[COMMIT MESSAGE]:MIFOS-5702: Added ability to undo import
+[COMMIT MESSAGE]:MIFOS-5712: Chart of Accounts UI
+[COMMIT MESSAGE]:MIFOS-5724: change message when mifosdw database is not configured
+[COMMIT MESSAGE]:MIFOS-5729: Added new method to resolve permission issue
+[COMMIT MESSAGE]:MIFOS-5739: Added file storage logic
+[COMMIT MESSAGE]:MIFOS-5753: Added advanced options to Search functionality
+[COMMIT MESSAGE]:MIFOS-5766: adding a filter removes unnecessary Question Group in view additional Information
+[COMMIT MESSAGE]:MIFOS-5794: Search finds now only groups. WIP
+[COMMIT MESSAGE]:MIFOS-5801: Changed updating dropdowns in reports
+[COMMIT MESSAGE]:MIFOS-5807: Added group loan repayment ability.
+[COMMIT MESSAGE]:MIFOS-5807: reimplemented adjustment functionality for new Group Loans.
+[COMMIT MESSAGE]:MIFOS-5808: linked full member repay with group account.
+[COMMIT MESSAGE]:MIFOS-5828: Added date when warehouse database successfully updated
+[COMMIT MESSAGE]:MIFOS-5915: Added possibility to attach files to Loan details page
+[COMMIT MESSAGE]:MIFOS-5916: Added possibility to attach files during Client creation
+[COMMIT MESSAGE]:MIFOS-5917: Added possibility to attach files during Loan creation
+[COMMIT MESSAGE]:MIFOS-5961: Fixed interest amount not equal for clients with fee and without fee
+[COMMIT MESSAGE]:MIFOS-5992: Added permissions, Pentaho reports parameters and other minor fixes
+[COMMIT MESSAGE]:MIFOS-6100: While disbursing the loan, if the charges are debited through the savings account, the entry is not getting generated in the Savings Account.  But the loan contract is credited with the charges
+[COMMIT MESSAGE]:MIFOSAC-72: Check guarantors
+[COMMIT MESSAGE]:MIFOSX-299: correct permissions on document management java services.
+[COMMIT MESSAGE]:MIFOSX-97: about turn on implementation of command pattern to support audit.
+[COMMIT MESSAGE]:MIFOSX-97: breakout client notes subresource into its own class.
+[COMMIT MESSAGE]:MIFOSX-97: move maker checker to cleaner implementatin on handlers with change detection on updates.
+[COMMIT MESSAGE]:MIFOSX-97: move package structure movement and support for command approach.
+[COMMIT MESSAGE]:MIFOSX-97: organise classes into new package structure.
+[COMMIT MESSAGE]:MIFOSX-97: repackage document management code.
+[COMMIT MESSAGE]:MIFOSX-97: repackage remaining savings related code.
+[COMMIT MESSAGE]:migrated password hashing from sha-256 to bcrypt. user roles enum replaced by string.
+[COMMIT MESSAGE]:migrate to hibernate 4.1.3
+[COMMIT MESSAGE]:Model streamlining and removed splash screen (1/4 of total startup time) for #671
+[COMMIT MESSAGE]:Modified openreModified openreportsv2 to fix gmail issues, UTF8 encoding based on the work of https://code.google.com/p/openreportv2/ of kira...@gmail.com
+[COMMIT MESSAGE]:modulo6 - video 1 - teste com erro intencional
+[COMMIT MESSAGE]:More settings migration #463
+[COMMIT MESSAGE]:MOTECH-637: Migrated tasks to MDS
+[COMMIT MESSAGE]:MOTECH-889: Refresh the parent bundle after DDE enhancement
+[COMMIT MESSAGE]:MOTECH-993: Migrated web-security to MDS
+[COMMIT MESSAGE]:MOTECH-993: Prepared Web Security to migration
+[COMMIT MESSAGE]:MOTECH-993: Split the mds module into mds and mds-web modules
+[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+[COMMIT MESSAGE]:Moved package from ben_dude56.plugins.bencmd to com.bendude56.bencmd
+[COMMIT MESSAGE]:Moved to use Vertx 2.0 as the web server back-end
+[COMMIT MESSAGE]:Move from home made Observer pattern to Spring bultin mechanism. Also set minimum Java requirement to Java 6 (was previously 7)
+[COMMIT MESSAGE]:Moving for release of Geronimo JACC 1.1 Specification Release 1.0
+[COMMIT MESSAGE]:moving to AGPL 3.0 license
+[COMMIT MESSAGE]:New permission checks, now only registers the parent nodes and needs two checks. This combines the 2.9 and 3.0 permission check methods.
+[COMMIT MESSAGE]:New project with hipster 1.9
+[COMMIT MESSAGE]:NEXUS-2785, backporting a fix from jsecurity, change to org/jsecurity/util/ThreadContext.java r711100-r711428 from: http://svn.apache.org/repos/asf/incubator/jsecurity/import/branches/0.9.0-RC2 r772760
+[COMMIT MESSAGE]:ODCS1246 Inconsistency in User and where to hash the password resolved
+[COMMIT MESSAGE]:OFC-1185 Sampling design table importer
+[COMMIT MESSAGE]:OFC-1241 - Check that package naming conventions are followed
+[COMMIT MESSAGE]:OFC-1428 - Revalidate data when publishing survey
+[COMMIT MESSAGE]:OpenJDK build 19.0-b09
+[COMMIT MESSAGE]:Order updating for user. Not yet working 100%. Problems in DAO
+[COMMIT MESSAGE]:Organized imports, removed unused variables, removed 1.6 annotations and fixed some checks.
+[COMMIT MESSAGE]:org.qiweb/ -> io.werval/ #226
+[COMMIT MESSAGE]:Part 3 of tests & fixes for Bug 316697 - [debug] Stepping through callin bindings in a role file shows bogus locations in the team
+[COMMIT MESSAGE]:Patch from vantonevich to get jax_rs/spring_security demo updated applied; This closes #30
+[COMMIT MESSAGE]:pgesek | #397 | Checkstyle: Cyclomatic complexity
+[COMMIT MESSAGE]:PLAT-4724 - Restrict access to portfolio by user
+[COMMIT MESSAGE]:Plugins: Added DefaultWysiwygToolbar properties; removed call to #setLocale(ENGLISH); fixes #78
+[COMMIT MESSAGE]:Poistettu turhia BE api rajapintoja. Angular-ui-router kiinnitetty versioon 0.2.10 href ongelmien takia.
+[COMMIT MESSAGE]:portal-utils[branch 3.5_REDMINE-304]: - adapt pom to new Jetspeed !
+[COMMIT MESSAGE]:portal-utils[branch 3.5_REDMINE-304]: - added factory to permissions to be added to Jetspeed plugin mechanism (security-managers.xml), see https://redmine.wemove.com/issues/304
+[COMMIT MESSAGE]:portal-utils[branch 3.5_REDMINE-304]: - added handling of "*" resource name in permission collection, see https://redmine.wemove.com/issues/304
+[COMMIT MESSAGE]:Pristine hornetq-2.2.5.Final-src distribution - as downloaded, no changes.
+[COMMIT MESSAGE]:Project refactoring, http-only and secure cookies are now set through web fragments instead of cookie injectors. Fixes for #1 and #2
+[COMMIT MESSAGE]:project re-generation using jhipster 0.11
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573
+[COMMIT MESSAGE]:propagate from branch 'i2p.i2p' (head 60a9a2297abeaf042645e3f0bc8d106f1ff585bf)
+[COMMIT MESSAGE]:propagate from branch 'i2p.i2p' (head e606c473eb1e461a477e45419f6295b6430a7353)
+[COMMIT MESSAGE]:propagate from branch 'i2p.i2p.zzz.test2' (head 9aee013cf961ba795a6b5333481634c52d43abc5)
+[COMMIT MESSAGE]:propagate from branch 'i2p.i2p.zzz.test2' (head 9dca19f228a66b5ac646c3d97d4f018c733081de)
+[COMMIT MESSAGE]:Push sauvegarde base du projet 03/05/2014
+[COMMIT MESSAGE]:RAVE-1010: Applying patch from Dan Gornstein updating services with getAll / getLimitedList methods
+[COMMIT MESSAGE]:RAVE-1011: Update page service to support get all / get limited
+[COMMIT MESSAGE]:RAVE-1092 | Page clone API should return the cloned page
+[COMMIT MESSAGE]:RAVE-1273 | Cloning should only require read access to a page
+[COMMIT MESSAGE]:RAVE-171: Reorganize project to support better extension
+[COMMIT MESSAGE]:RAVE-261: Move a widget to a different page
+[COMMIT MESSAGE]:RAVE-296 added a view of your own Widgets and added a link to the WidgetStore to see the Widgets that you created
+[COMMIT MESSAGE]:RAVE-301 add search to widget listing in admin module
+[COMMIT MESSAGE]:RAVE-301 basic widget admin functionality (no search yet)
+[COMMIT MESSAGE]:RAVE-303: refactor usage of PageService.addNewDefaultPage for security reasons.  New Behavior - when a new user is registered a default page is no longer created at registration time.  Now, anytime the PageController is hit and the user has zero existing pages, a new default page will be created for the user.  I also moved the service tests into the impl package since they were incorrectly located.
+[COMMIT MESSAGE]:RAVE-306: Region ModelPermissionEvaluator and Service Annotations
+[COMMIT MESSAGE]:RAVE-307: applying second patch from Venkat to fix invalid security annotation
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations
+[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins can now update non-owned widgets)
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations
+[COMMIT MESSAGE]:RAVE-315: WidgetRating ModelPermissionEvaluator and Service Annotations
+[COMMIT MESSAGE]:RAVE-319: Widget persistence not working
+[COMMIT MESSAGE]:RAVE-332 move check if widget already exists to the validator and throw an exception if the WidgetService#registerNewWidget is called for an existing URL instead of returning null.
+[COMMIT MESSAGE]:RAVE-341 patch to add security features to WidgetComments
+[COMMIT MESSAGE]:RAVE-433: refactored "WidgetCategory" model to "Category" in anticipation of a future "WidgetCategory" join table to be needed by Rave-434.  This matches our current naming conventions for many to many tables (Widget - WidgetTag - Tag for example)
+[COMMIT MESSAGE]:RAVE-433: Widget Category Admin Interface - applying patch submitted by Aaron Gooch to finish this story
+[COMMIT MESSAGE]:RAVE-435: Navigate Widget Repository via Category.  Applying patch supplied by Jacob Hilker
+[COMMIT MESSAGE]:RAVE-475: Create Person Profile page based off of a PageTemplate
+[COMMIT MESSAGE]:RAVE-478: Portal does not start without pre-population from initial_data.sql - changed PageType to be an Enum instead of an Entity as it represents system data that should not change throughout the application lifecycle.  This change should resolve the issue of Rave not starting without pre-populated data.
+[COMMIT MESSAGE]:RAVE-70: Users can tag Widgets in the Widget Repository
+[COMMIT MESSAGE]:RAVE-71 Add possibility to rate widgets. Patch by Sean Cooper
+[COMMIT MESSAGE]:RAVE-71 apply 2nd patch by Sean Cooper (accidentally applied the wrong patch version in revision 1188100). 
+[COMMIT MESSAGE]:RAVE-729 Split apart WidgetTag & Tag and also made the relationship between Widget -> WidgetTag to be one way
+[COMMIT MESSAGE]:(RAVE-72) Committing patch contributed by Jennifer Lin
+[COMMIT MESSAGE]:RAVE-731 Refactored WidgetComment to no longer need the widgetID attribute.
+[COMMIT MESSAGE]:RAVE-731 Refactored WidgetRating to remove the widgetID
+[COMMIT MESSAGE]:RAVE-753 Modified all the interfaces to use Strings for the IDs. Modified the JPA backend to convert between the strings and longs for JPA. All tests and integration tests are passing.
+[COMMIT MESSAGE]:RAVE-834 Merge all from trunk at 1403092
+[COMMIT MESSAGE]:RAVE-835 Merge all from model-split at 1403154 (reintegration)
+[COMMIT MESSAGE]:RAVE-837 Fix delete category problem. Issue is that the spring security checks were checking against the entityid which is no longer present. Also fixes same issue in RegionService, RegionWidgetService and WidgetService.
+[COMMIT MESSAGE]:RAVE-910 - Implemented CXF WS Framework. Created the rave-core-api module and moved all the interfaces from rave-core/org.apache.rave.portal.model into rave-core-api/org.apache.rave.model. This allows them to be used by the rest of the API. A first cut at a User and Person RESTFUL service is in place and accessible at /portal/api/rest/people & /portal/api/rest/users
+[COMMIT MESSAGE]:Recipe 7.1 working pretty decently now.
+[COMMIT MESSAGE]:redirect /home to / instead of sending 200
+[COMMIT MESSAGE]:ref #24, em analise... Tera de refazer tudo :(
+[COMMIT MESSAGE]:Refactoring remarks 1,2,3,4,6,7,11,12
+[COMMIT MESSAGE]:refactoring sonar: loc=3,212 - cov=52,7% - debt=0d
+[COMMIT MESSAGE]:Refs #13882 - Updating ROO version to 1.2.6-BUILD-SNAPSHOT
+[COMMIT MESSAGE]:Refs #491: Server-side support for data upload/download using mobile.
+[COMMIT MESSAGE]:- reintegrated branch INGRID33-16 (import/export)
+[COMMIT MESSAGE]:Release 01.03.00
+[COMMIT MESSAGE]:Release 01.05.00
+[COMMIT MESSAGE]:release 1.0.1.RELEASE
+[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+[COMMIT MESSAGE]:Removed redirect that's no longer necessary with permissions to desktop files #439
+[COMMIT MESSAGE]:Removed RichFaces 'cause it was finally causing issues that required it to be booted. Other changes to get SAB to work 100%.
+[COMMIT MESSAGE]:Removed the old reference to the geronmio j2ee 1.5 spec
+[COMMIT MESSAGE]:removing unused imports #2043
+[COMMIT MESSAGE]:REOPENED - task 4420: check org_admin role to display edit org button
+[COMMIT MESSAGE]:Request to create pipeline-open-event is ignored after user logs out. #1006
+[COMMIT MESSAGE]:Resolving #1244
+[COMMIT MESSAGE]:Restrict selection of the bad vehicles. Closes #24
+[COMMIT MESSAGE]:Return refreshed updated entities in response instead of separate versions. Fixed commit bugs. Bumped version to 0.5.9.
+[COMMIT MESSAGE]:Rev 25 from the svn repository of javancss with changes that Mark Doliner made a while ago and changes that Ho Tri Bao ( hotribao ) submitted with a patch on 2008-11-27.   I picked rev 25 because that was the earliest workable rev that I could find.  Both Mark and Ho Tri Bao must have used source that they got from CVS.  But javancss has since then moved to svn.
+[COMMIT MESSAGE]:revert d8fab00
+[COMMIT MESSAGE]:Reverted #4958 because it was incomplete and broke the build. Ok Mark
+[COMMIT MESSAGE]:Reverted to revision 212.
+[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"
+[COMMIT MESSAGE]:Revert "Merge pull request #30 from thor1729/master"
+[COMMIT MESSAGE]:Revert "MIFOS-4190: add service facades around client creation."
+[COMMIT MESSAGE]:Revert "MIFOS-4190: add service facades around client family details."
+[COMMIT MESSAGE]:Revert "MIFOS-4190: fix failing acceptance tests"
+[COMMIT MESSAGE]:Revert "MIFOS-4190: service facades for customer historical data."
+[COMMIT MESSAGE]:Revert "MIFOS-4385: refactoring of PersonAction"
+[COMMIT MESSAGE]:Revert "MIFOS-4385: remove persistence usage from personnel, initialize language supported entity when fetching personnel details"
+[COMMIT MESSAGE]:Revert "MIFOS-4385: service facade for updating user settings."
+[COMMIT MESSAGE]:Revert "MIFOS-5429: Added ability to remove fees if fee is never used or loan product with attached fee is not applied to account"
+[COMMIT MESSAGE]:Revert "MIFOS-5562: Embedded Pentaho reports, ability to upload and run a report without parameters"
+[COMMIT MESSAGE]:revert MIFOS-5766: adding a filter removes unnecessary Question Group in view additional Information
+[COMMIT MESSAGE]:Revert "Revert "MIFOS-5429: Added ability to remove fees if fee is never used or loan product with attached fee is not applied to account""
+[COMMIT MESSAGE]:Revert "ROO-301: Choose between data access patterns - generified the LayerProvider interface"
+[COMMIT MESSAGE]:reworked configuration to build against 1.1
+[COMMIT MESSAGE]:Role based authorization, authorize users' permission per package. JBRULES-1018. 
+[COMMIT MESSAGE]:ROO-120: Support multi module Maven projects
+[COMMIT MESSAGE]:ROO-120: Support multi module Maven projects - renamed PathInformation and ContextualPath
+[COMMIT MESSAGE]:ROO-2579: Post 1.1.5.RELEASE code refactor and clean up - created SpringJavaType class with JavaType constants for common Spring types; applied these constants throughout
+[COMMIT MESSAGE]:ROO-2579: Post 1.1.5.RELEASE code refactor and clean up - standardised version numbers in "@since" JavaDoc tags
+[COMMIT MESSAGE]:ROO-2579: Post 1.1.5.RELEASE code refactor and clean up - using Map#entrySet vs less efficient Map#keySet plus Map#get
+[COMMIT MESSAGE]:ROO-2705: Metadata items are not checking to see if the existing member was created by them
+[COMMIT MESSAGE]:ROO-2705: Metadata items are not checking to see if the existing member was created by them - error in checking logic caused service ITDs not to be created
+[COMMIT MESSAGE]:ROO-2705: Metadata items are not checking to see if the existing member was created by them - fixed regression in ServiceClassMD
+[COMMIT MESSAGE]:ROO-2745: Post 1.2.0.M1 code refactor and clean up - deprecated static MemberFindingUtils methods in favour of instance methods
+[COMMIT MESSAGE]:ROO-2745: Post 1.2.0.M1 code refactor and clean up - made fields and method parameters final where possible for improved immutability and readability, added missing @Override annotations, removed trailing whitespace
+[COMMIT MESSAGE]:ROO-2745: Post 1.2.0.M1 code refactor and clean up - removed redundant "final" modifier from static methods
+[COMMIT MESSAGE]:ROO-2986: Post 1.2.0.RELEASE code refactor and clean up - applied ER cleanup profile
+[COMMIT MESSAGE]:ROO-3004: Format Roo code with maven-java-formatter-plugin
+[COMMIT MESSAGE]:ROO-3004: Format Roo code with maven-java-formatter-plugin - reformat with changed clean-up config
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - added layer integration for MVC converters, new convenience method in PersistenceMemberLocator, extra checks in copyTo method in ClassOrInterfaceTypeDetailsBuilder
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - adding support for persist method (service layer exempt for now)
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - adding @Transactional support for service layer
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - Add support for merge/update
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - changing method names in service layer to take target entity name into account
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - enabling save method for service layer addon
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - generified the LayerProvider interface
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - preparing merge of layer-support branch into master
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - provide support for find method
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - provide support for remove/delete method
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - refactored for improved cohesion and encapsulation
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - refactored to encapsulate service method differences within new ServiceLayerMethod enum; added support for findEntries method
+[COMMIT MESSAGE]:ROO-301: Choose between data access patterns - refactoring of core layer support for more generic use
+[COMMIT MESSAGE]:ROO-3046: Use Apache Commons libraries in Roo - initial commit
+[COMMIT MESSAGE]:ROO-3046: Use Apache Commons libraries in Roo - use commons-lang ToStringBuilder instead of Roo's ToStringCreator and support classes
+[COMMIT MESSAGE]:ROO-3311: Provide option for Spring Roo managed XML configuration for Services, Controllers, GWT Locators, etc.
+[COMMIT MESSAGE]:ROO-3444:  Improve method level security of Spring Roo services
+[COMMIT MESSAGE]:Roy|1151|Fix to refresh user context once a permission is deleted.Added comments as per review.
+[COMMIT MESSAGE]:Roy|1215|On clicking on profile link,signed in user will be taken to her profile view
+[COMMIT MESSAGE]:Roy|1228|If active admin user exists,the startup will not ask for admin user to be created.
+[COMMIT MESSAGE]:s6-v1
+[COMMIT MESSAGE]:s6-v2
+[COMMIT MESSAGE]:s6-v3
+[COMMIT MESSAGE]:SAIL-342: Alfresco to CMIS ACL mapping: change isExtract to isExact on CMISAccessControlReport
+[COMMIT MESSAGE]:seam2.2.3
+[COMMIT MESSAGE]:SEAMSECURITY-49
+[COMMIT MESSAGE]:SEC-1012: Added more generics and warning suppression
+[COMMIT MESSAGE]:SEC-1013: Refactored out use of ConfigAttributeDefinition from remaining interfaces
+[COMMIT MESSAGE]:SEC-1023: Add hasPermission() support to SecurityExpressionRoot 
+[COMMIT MESSAGE]:SEC-1126: separated out spring-security-config module containing namespace configuration classes and resources
+[COMMIT MESSAGE]:SEC-1132: Moved access-control/authorization specific code to org.sf.security.access package. Created provisioning package for user management classes to remove cyclical deps. Some other moving of classes to remove code tangles. Restructuring of portlet module under org.sf.security.portlet
+[COMMIT MESSAGE]:SEC-1132: Refactoring of access/intercept package to extract packages and classes which are externally depended on or potentially may be used outside of the standard interceptor model (e.g. SecurityMetadataSource)
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spring EL.
+[COMMIT MESSAGE]:SEC-1196: Change use of <authentication-manager> to actually register the global ProviderManager instance. This element now registers the global ProviderManager instance and must contain any authentication-provider elements (or ldap-authentication-provider elements).
+[COMMIT MESSAGE]:SEC-1216: Replacement of custom-after-invocation-provider with after-invocation-provider element. Some changes to help prevent proxying of aop infrastructure classes (use of AopInfrastructureBean marker interface)
+[COMMIT MESSAGE]:SEC-1231: Authentication.getAuthorities should be of type Collection<GrantedAuthority> and not List<GrantedAuthority>. Refactored the interface and related classes to match (UserDetails etc).
+[COMMIT MESSAGE]:SEC-1232: Added the aspect library needed for <global-method-security mode="aspectj"/> and a small sample
+[COMMIT MESSAGE]:SEC-1245: Add role hierarchy support to expression handlers. Done.
+[COMMIT MESSAGE]:SEC-1257: APIs using List<ConfigAttribute> should use a Collection instead. Converted.
+[COMMIT MESSAGE]:SEC-1257: Some additional API changes to use Collection instead of List...
+[COMMIT MESSAGE]:SEC-1354: Added integration tests for combinations of @PreAuthorize and @Secured annotations.
+[COMMIT MESSAGE]:SEC-1387: Support serialization of security advised beans.
+[COMMIT MESSAGE]:SEC-1491: Added AnnotationMetadataExtractor to SecuredAnnotationSecurityMetadataSource to allow a custom security annotation to be used.
+[COMMIT MESSAGE]:SEC-1550: Convert signatures to use Collection<? extends GrantedAuthority> where appropriate.
+[COMMIT MESSAGE]:SEC-1558: Changed signatures of PrePostInvocationAttributeFactory to take strings rather than annotation types to allow the metadata to be obtained from other sources (not just annotations).
+[COMMIT MESSAGE]:SEC-1562: Created SecurityExpressionHandler interface and AbstractSecurityExpressionHandler.
+[COMMIT MESSAGE]:SEC-1583: Added hasAuthority and hasAnyAuthority imlementations to SecurityExpressionRoot.
+[COMMIT MESSAGE]:SEC-1723: Use standard SpEL syntax for accessing beans in the app context by name.
+[COMMIT MESSAGE]:SEC-1796: Check for annotated annotations at class/interface level. Previously only the specific security annotation was checked for. By delegating to Spring's AnnotationUtils, custom annotations carrying the security annotation are also detected.
+[COMMIT MESSAGE]:SEC-2150: Support class level annotations on Spring Data Repositories
+[COMMIT MESSAGE]:SEC-2151: AnnotationParameterNameDiscoverer support single annotated param
+[COMMIT MESSAGE]:SEC-2151: Support binding method arguments with Annotations
+[COMMIT MESSAGE]:SEC-2194: Add Java Config samples
+[COMMIT MESSAGE]:SEC-239: New ACL module.
+[COMMIT MESSAGE]:SEC-2447: Fix AuthenticationManagerBuilder ordering issues
+[COMMIT MESSAGE]:SEC-2572: Add spring-security-test method showcase
+[COMMIT MESSAGE]:SEC-2595: @EnableGlobalMethodSecurity AspectJ fixes
+[COMMIT MESSAGE]:SEC-2758: Make ROLE_ consistent
+[COMMIT MESSAGE]:SEC-51 and SEC-67 related changes. Tested all functions of "filters" version in web browser OK.
+[COMMIT MESSAGE]:SEC-562: Further repackaging.
+[COMMIT MESSAGE]:SEC-97: Format Acegi Security source code in accordance with latest Jalopy configuration.
+[COMMIT MESSAGE]:section 13 finished. lec. 135 finished
+[COMMIT MESSAGE]:Section 14 - Hibernate finish. lec. 147 finished
+[COMMIT MESSAGE]:Section 14 - Hibernate. Lec. 137 finished
+[COMMIT MESSAGE]:Section 15 - Spring Webflow finished. lec. 159 finished
+[COMMIT MESSAGE]:Section 15 - Spring Webflow start. lec. 149 finished
+[COMMIT MESSAGE]:section 16 json/ajax start
+[COMMIT MESSAGE]:Secured old connector function to act like pre 0.20 connector service
+[COMMIT MESSAGE]:seed from JBoss_Seam_2_3_0_ALPHA
+[COMMIT MESSAGE]:set password hash size to 32
+[COMMIT MESSAGE]:Set up c3p0 connection provider.
+[COMMIT MESSAGE]:sha1 password hashing #31
+[COMMIT MESSAGE]:Share project "blog-web" into "https://github.com/greenman0007/blog"
+[COMMIT MESSAGE]:SHIRO-168 - remove all @author tags using:
+[COMMIT MESSAGE]:shop service v1.0
+[COMMIT MESSAGE]:Signed-off-by: chenpp <chping2113@qq.com>
+[COMMIT MESSAGE]:Signed-off-by: cst <cst8588092@yahoo.com.cn>
+[COMMIT MESSAGE]:Signed-off-by: khxkhx321 <khxkhx321@163.com>
+[COMMIT MESSAGE]:Signed-off-by: Peter <mcheung63@hotmail.com>
+[COMMIT MESSAGE]:Signed-off-by: redtroy <redtroy@126.com>
+[COMMIT MESSAGE]:Signed-off-by: yehan432 <yh432@sina.com>
+[COMMIT MESSAGE]:Signed-off-by: zwy <799378666@qq.com>
+[COMMIT MESSAGE]:Source code from https://cobertura.svn.sourceforge.net/svnroot/cobertura/tags/v1_9_4_1
+[COMMIT MESSAGE]:spring 3.1 integration
+[COMMIT MESSAGE]:spring3.2.x_security_helloworld_annotation
+[COMMIT MESSAGE]:Spring Security 3.2 integration part1
+[COMMIT MESSAGE]:SpringSecurityHibernateSample: Core Functionalities 1.0
+[COMMIT MESSAGE]:페이스북 연결은 완료... 하지만 프로세스 개선 작업 및... spring soical 1.1.0.M4로 마이그레이션 작업 필요
+[COMMIT MESSAGE]:spring-tutorial-113
+[COMMIT MESSAGE]:spring-tutorial-125
+[COMMIT MESSAGE]:Spring web app tutorial 40: Custom Validation Annotation : javavids
+[COMMIT MESSAGE]:SRM 218 DIV2 250pts
+[COMMIT MESSAGE]:SSD-180 - 스터디 화면 만들기
+[COMMIT MESSAGE]:Started the work on #42. This is just the initial commit that:
+[COMMIT MESSAGE]:STATISTIK-398 Added calculations for Läkarbefattning report
+[COMMIT MESSAGE]:STATISTIK-398 Added front end for new report
+[COMMIT MESSAGE]:STATISTIK-404 Har lagt till backend samt fitnesse-stöd för rapporten "jämför valfria diagnoser"
+[COMMIT MESSAGE]:STATISTIK-404 Lagt till en första version av frontend för en ny rapport (jämför valfria diagnoser)
+[COMMIT MESSAGE]:STATISTIK-410 Småfixar efter feedback från Annelie
+[COMMIT MESSAGE]:STATISTIK-410 Visa inte diagnosfilter på sidor som i sig innehåller diagnosurval
+[COMMIT MESSAGE]:STATISTIK-756 Om man loggade in som vissa användare slog man i taket för maxlängd i GET. Alla funktioner som använder filterparametrar använder nu POST.
+[COMMIT MESSAGE]:STATISTIK-810 Att inte välja någon diagnos i diagnosfiltret ska inte vara samma sak som att välja alla diagnoser
+[COMMIT MESSAGE]:STATISTIK-819 Användare ska bara ha tillgång till data om sina tillgängliga enheter
+[COMMIT MESSAGE]:STATISTIK-819 Använder det nya filterhash-värdet vid anrop till restserviar för att hämta rapportdata till inloggad användare
+[COMMIT MESSAGE]:STATISTIK-819 Använder nu även hashvärdet för att välja ut diagnoser att jämföra för rapporten som skapades i STATISTIK-404
+[COMMIT MESSAGE]:STATISTIK-819 Filterhash-värden persisteras nu i databasen
+[COMMIT MESSAGE]:STATISTIK-819 Filtrerar nu även på verksamhetstyper när filterhashvärde används
+[COMMIT MESSAGE]:STATISTIK-819 Returnerar de filter som applicerats i svaret från rest-servicarna på servern
+[COMMIT MESSAGE]:STATISTIK-819 Tagit bort oanvänd kod
+[COMMIT MESSAGE]:STATISTIK-819 Tagit bort onödig kommentar
+[COMMIT MESSAGE]:STATISTIK-819 Verksamheter utan verksamhetstyp räknas nu med i enhetsfiltret (på samma sätt som det gör i visualiseringen av enhetsfilter i GUIt)
+[COMMIT MESSAGE]:STATISTIK-849 Visar nu ett meddelande om diagnosfilter och valda diagnoser inte överensstämmer för rapporterna "jämför diagnoser" och "enskilt diagnoskapitel"
+[COMMIT MESSAGE]:STATISTIK-866 Återställ ändringar som inte hör hit
+[COMMIT MESSAGE]:STATISTIK-866 Gatlingtestdefinitioner, work in progress
+[COMMIT MESSAGE]:STATISTIK-872 Har fixat de CSV-exporter som inte fungerade
+[COMMIT MESSAGE]:STATISTIK-902 Beräkningstak work in progress
+[COMMIT MESSAGE]:Stock1.9.4
+[COMMIT MESSAGE]:submitted by ebusingye #475 filtering of responses
+[COMMIT MESSAGE]:susimail: fix NPE (ticket #1296)
+[COMMIT MESSAGE]:SVN-Revision: 6506
+[COMMIT MESSAGE]:switched from one2many to give3 domain
+[COMMIT MESSAGE]:switched from room49 -> ipool
+[COMMIT MESSAGE]:Switched to re-authenticate through google each time and to use global static settings for some things #490
+[COMMIT MESSAGE]:sync develop with 2.0.x branch
+[COMMIT MESSAGE]:- syslist table extended with data-column to store additional information (INGRID33-5)
+[COMMIT MESSAGE]:Tags 0.0.6
+[COMMIT MESSAGE]: task 22: create permissionService in Repository component 
+[COMMIT MESSAGE]:Task #360389
+[COMMIT MESSAGE]:Task #360748
+[COMMIT MESSAGE]:Task #366301
+[COMMIT MESSAGE]:Task #368714
+[COMMIT MESSAGE]:Task #368760
+[COMMIT MESSAGE]:Task #370252
+[COMMIT MESSAGE]:Task #375593
+[COMMIT MESSAGE]:Task #376343
+[COMMIT MESSAGE]:Task #381387 Create controller for returning snapshots for given user id.
+[COMMIT MESSAGE]:task 4097: Factor out ui code from profile.web project into new project 
+[COMMIT MESSAGE]:task 4138: Support Organization public projects 
+[COMMIT MESSAGE]:Teapatea with security 3.2
+[COMMIT MESSAGE]:TEIID-1889: All the exceptions are now added with the event id and corresponding i18N messages are modified also with event id.
+[COMMIT MESSAGE]:TEIID-2022: Removing the duplicate eventid from the exceptions. Carry the original exception's eventid.
+[COMMIT MESSAGE]:TEIID-2467 removing the rest of the processing that holds a thread
+[COMMIT MESSAGE]:TEIID-918 changing package to org.teiid and removing metamatrix from class names
+[COMMIT MESSAGE]:[Template] Data Type Select Box #91
+[COMMIT MESSAGE]:Test & fix for  Bug 316666 -  [dom] IllegalArgumentException in very broken source
+[COMMIT MESSAGE]:this is 2021/08/30
+[COMMIT MESSAGE]:This is a branch created from motech0.18.x branch with changes to sms,ivr,appointments,decisiontree modules and a new module medicmobile to improve the vaccination rate of children in Bastar,India
+[COMMIT MESSAGE]:Tim - Latest Updates R1.2
+[COMMIT MESSAGE]:Towards jhipster 1.4
+[COMMIT MESSAGE]:TRACKR-101 - Add invoice
+[COMMIT MESSAGE]:TRACKR-104 - Search for an invoice by identifier
+[COMMIT MESSAGE]:TRACKR-106 - List all invoices
+[COMMIT MESSAGE]:TRACKR-123 - Implement address book
+[COMMIT MESSAGE]:TRACKR-150 - Supervisors should see their vacation requests in the overview
+[COMMIT MESSAGE]:TRACKR-163 - Add revenue reporting
+[COMMIT MESSAGE]:TRACKR-164 - Add vacation reporting
+[COMMIT MESSAGE]:TRACKR-172 - Don't display the admin in the address book
+[COMMIT MESSAGE]:TRACKR-174 - Track sick days
+[COMMIT MESSAGE]:TRACKR-201 - Contact persons links are updateable/deletable with no security
+[COMMIT MESSAGE]:TRACKR-208 - After a role change the roles persist in the OAuth token
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security
+[COMMIT MESSAGE]:TRACKR-51 - Redesign package structure
+[COMMIT MESSAGE]:TRACKR-54 - Request vacation
+[COMMIT MESSAGE]:TRACKR-55 - Approve and reject vacation requests
+[COMMIT MESSAGE]:TRACKR-60 - Automatically approve vacation request
+[COMMIT MESSAGE]:TRACKR-67 - Working time tracking reminder should take holidays into account
+[COMMIT MESSAGE]:TRACKR-76 - Resolve Sonar issues
+[COMMIT MESSAGE]:TRACKR-79 - Tracking of travel expenses
+[COMMIT MESSAGE]:TRACKR-84 - Auto-Completion should ignore case
+[COMMIT MESSAGE]:TRUNK-2362: Get rid of implementations of equals and hashCode in our domain objects
+[COMMIT MESSAGE]:trying to fix issue 86
+[COMMIT MESSAGE]:UP-2874 Improving indications of inheritence in permission editing view and implementing AJAX persistence and updates.
+[COMMIT MESSAGE]:UP-2907 Transitioning the entity search AJAX target to a real REST service.  Also refactoring the entity registry javascript widget as a Fluid component.
+[COMMIT MESSAGE]:UP-2950 Adding support and configuration for Spring Security annotation-based permission expressions under a pre-authentication setup.  This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.
+[COMMIT MESSAGE]:UP-4361 license header "Apereo" rather than "Jasig".
+[COMMIT MESSAGE]:Update - 1.7.5 R2
+[COMMIT MESSAGE]:update 26.7
+[COMMIT MESSAGE]:Update copyright header for files changed in 2014
+[COMMIT MESSAGE]:Updated copyright notice for 2007
+[COMMIT MESSAGE]:updated CustomerService and its test according to issues #18 and #19
+[COMMIT MESSAGE]:Updated files and for 1.7.2
+[COMMIT MESSAGE]:Updated page service to create instances of pages by page template id RAVE-1066
+[COMMIT MESSAGE]:Updated to Bukkit 1.7.2 R0.2
+[COMMIT MESSAGE]:updated to rev 15590
+[COMMIT MESSAGE]:updated to rev 15774
+[COMMIT MESSAGE]:Updated version 1.4.0
+[COMMIT MESSAGE]:Update issue #172
+[COMMIT MESSAGE]:Updates and changes to implement page sharing between rave users. See RAVE-103. (Support shared spaces.)
+[COMMIT MESSAGE]:Updates to the page sharing facility.  A user can share pages which by default are non-editable, but can also elect to give users 'editing' permissions - add, move, delete widgets etc on the page.  See RAVE-103. Also fixed the mobile view which had a bug (referred to old renderSequence in <PAGE>)
+[COMMIT MESSAGE]:update to rev 17693
+[COMMIT MESSAGE]:update v2.0
+[COMMIT MESSAGE]:Update v2.0
+[COMMIT MESSAGE]:Update version 2.0
+[COMMIT MESSAGE]:Updating Spring Security version to 3.2.0.RELEASE
+[COMMIT MESSAGE]:Upgrade auf Spring 4.0 + Karawanen hinzugefügt
+[COMMIT MESSAGE]:upgrade guava to v1.7
+[COMMIT MESSAGE]:upgrade to httpclient 4.2, httpcore 4.2, commons-lang3
+[COMMIT MESSAGE]:Upgrade to jQuery 1.9.2
+[COMMIT MESSAGE]:Upload of Code After La Palm 26 Sep 11:31
+[COMMIT MESSAGE]:-- US24(Rewrite validation using Spring validation), 
+[COMMIT MESSAGE]:Use play-plugins 0.2.3; change IPC controllers to return Promise.
+[COMMIT MESSAGE]:use random URL prefix (refs #72)
+[COMMIT MESSAGE]:User Management and Access Security 1.0
+[COMMIT MESSAGE]:User management UI for OBANYC-1100
+[COMMIT MESSAGE]:User roles and permissions 113
+[COMMIT MESSAGE]:User with ROLE_READER now cannot access Article Settings (Issue #231)
+[COMMIT MESSAGE]:Use Spring 3.1 method level validation
+[COMMIT MESSAGE]:v0.1
+[COMMIT MESSAGE]:v0.7.7
+[COMMIT MESSAGE]:v0.8.0
+[COMMIT MESSAGE]:v0.8.1a
+[COMMIT MESSAGE]:v0.8.5a
+[COMMIT MESSAGE]:v0.8.8a
+[COMMIT MESSAGE]:v1.0b8 - Restarted GitHub (:
+[COMMIT MESSAGE]:v 1.2.0 update 3
+[COMMIT MESSAGE]:v1.2.1
+[COMMIT MESSAGE]:Versão 2.4.0
+[COMMIT MESSAGE]:versao entregue no julio no dia 24/05/2012
+[COMMIT MESSAGE]:Version 0.0.9
+[COMMIT MESSAGE]:version 1.0
+[COMMIT MESSAGE]:Version 1.0
+[COMMIT MESSAGE]:version 1.0.0, initial an single svn commit
+[COMMIT MESSAGE]:version 1.0.3
+[COMMIT MESSAGE]:Version 1.0-beta
+[COMMIT MESSAGE]:Version 1.0 Complete!
+[COMMIT MESSAGE]:Version 1.1. Adding support for includeGroups and excludeGroups
+[COMMIT MESSAGE]:version 1.2.0 (aka missing waldo 1.1.x)
+[COMMIT MESSAGE]:version v0.1
+[COMMIT MESSAGE]:Verson 1.0.3
+[COMMIT MESSAGE]:vuoden 2014 initial version (hoping the final)
+[COMMIT MESSAGE]:@W-2106590@
+[COMMIT MESSAGE]:Wersja z 04-06-2014
+[COMMIT MESSAGE]:Wersja z 09.06.2014
+[COMMIT MESSAGE]:wicketstuff-core related: this is part two of preparations for 1.4.10 release.
+[COMMIT MESSAGE]:WIP on MIFOS-4633.  Getting the new message customization mechanism to play nicely with legacy labels and menus.
+[COMMIT MESSAGE]:WIP on MIFOS-4633 new label customization mechanism.
+[COMMIT MESSAGE]:WORK-281 merge all action list related permission in a single one
+[COMMIT MESSAGE]:WORK-281 remove label administration related permissions, they are now handled by PROJECT_ADMINISTRATION
+[COMMIT MESSAGE]:working version of 1.1 features.
+[COMMIT MESSAGE]:work on enhancement issue 76 - added the re-encrpytion utility needs testing
+[COMMIT MESSAGE]:x509 client auth example added
+[COMMIT MESSAGE]:youngjin.inbound.dd619 하는중...
+[COMMIT MESSAGE]:Небольшой откат предыдущих изменений, связанных с FP-1136
+[COMMIT MESSAGE]:后台加入口味和份量，70%
+[COMMIT MESSAGE]:后台预定功能50%
+[COMMIT MESSAGE]:基于cas client 3.2.2改造, 支持web.xml配置使用配置项和diamond读取
+[COMMIT MESSAGE]:增加了jsr250的注解依赖
+[COMMIT MESSAGE]:录入菜单41%
+[COMMIT MESSAGE]:录入菜单后台30%
+[COMMIT MESSAGE]:折扣done，挂账50%
+[COMMIT MESSAGE]:用户界面70%
+[COMMIT MESSAGE]:门户网站2.0后台

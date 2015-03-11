@@ -1,0 +1,11 @@
+security:intercept-url pattern
+security:authentication-provider
+constructor-arg
+http pattern
+
+http://docs.spring.io/spring-security/site/docs/3.1.x/reference/ns-config.html#ns-protect-pointcut
+
+http://docs.spring.io/spring-security/site/docs/3.1.x/reference/security-filter-chain.html#filter-chains-with-ns
+
+
+

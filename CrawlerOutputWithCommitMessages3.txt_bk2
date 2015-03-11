@@ -1,2653 +1,1083 @@
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=17&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
 
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/rahulkj/Rahul-Poc/commit/6f7ebd65b890f5f2d9e83fa7d4dd97408c140a8d
-
-[COMMIT MESSAGE]:MongoDB pod and security configuration||
-=========================================================
-
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_USER"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/Manjago/jnode-xmlrpc/commit/ec988c45e0d4033d616cde210a9af362bc7e565f
-
-[COMMIT MESSAGE]:spring security now work||
-=========================================================
-
-+ @Secured(Roles.ROLE_ADMIN)
-+ @Secured(Roles.ROLE_ADMIN)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/vgichar/crimemap-statistics/commit/1376cb75c3b1657c5c35b10c21d40b0dc1eeb7de
-
-[COMMIT MESSAGE]:final||
-=========================================================
-
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/vgichar/crimemap-statistics/commit/189bd938f3e412d928092c966c10c5f59fdfcd9d
-
-[COMMIT MESSAGE]:login done||
-=========================================================
-
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-+ @Secured(value = {"ROLE_ADMIN"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/mposolda/cxf-samples/commit/9e5c33742fda7a9fd815f565692c432b8d147e3b
-
-[COMMIT MESSAGE]:First commit - unsecured||
-=========================================================
-
-+ @Secured({"ROLE_CUSTOMER", "ROLE_ADMIN" })
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_CUSTOMER", "ROLE_ADMIN" })
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/adriandolha/elim-waters/commit/6707ce94853210c8d904bd3095e5539d0fa0b909
-
-[COMMIT MESSAGE]:Generic UI table component refactoring. Also moving some classes in a…||…nother package and going back to simple security.
-=========================================================
-
--@Secured("ROLE_USER")
-+@Secured("ROLE_USER")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/jkolean/ignition/commit/231da3e9c05b9bf7be68db56f1b2bfd27006dd26
-
-[COMMIT MESSAGE]:branch test||
-=========================================================
-
-+@Secured(Authorities.ROLE_USER)
-+ @Secured(Authorities.ROLE_ADMIN)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/pmerienne/mobile-account/commit/3098ddbbce52f57ec99d2273f3d1557e6959dec0
-
-[COMMIT MESSAGE]:Initial import||
-=========================================================
-
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=35&q=%40Secured%28&type=Code&utf8=%E2%9C%93
-
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/JeffRisberg/QbeFit/commit/22e020a7ed69956d99557f9f8c7e636884ca0755
-
-[COMMIT MESSAGE]:Moved admin controllers under common superclass||
-=========================================================
-
-+@Secured("ROLE_ADMIN")
--@Secured("ROLE_ADMIN")
--@Secured("ROLE_ADMIN")
--@Secured("ROLE_ADMIN")
--@Secured("ROLE_ADMIN")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/33504e95a21c4cd64efbd19cf5361451ca97aac5
-
-[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
-=========================================================
-
-+ @Secured(Roles.PAYMENT_POINT_READ)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/29f31a69aa7b6a11ea3bb7e9e7f91694c65b4ae3
-
-[COMMIT MESSAGE]:FP-685 accountant reports implemented||
-=========================================================
-
-+ @Secured(Roles.CASHBOX_READ)
-+ @Secured(Roles.CASHBOX_READ)
-+ @Secured(Roles.PAYMENTS_REPORT)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/hugocortesm/sp_sec/commit/3de8c96aa37272bc61f86b549587a75928f9b15a
-
-[COMMIT MESSAGE]:first commit||
-=========================================================
-
-+ @Secured({ "ROLE_ADMIN" })
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/alonsoir/spring-mvc_webflow_hibernate_security/commit/e2111c96b23c5d68247bd6ab5c0ff49083c96c58
-
-[COMMIT MESSAGE]:minor bug fixes, estability, admin module.||
-=========================================================
-
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-- @Secured("ROLE_FINCA")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-- @Secured("ROLE_FINCA")
-- @Secured("ROLE_FINCA")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/alonsoir/spring-mvc_webflow_hibernate_security/commit/2c9de23b2bde67bfd7a9f16fb55464729e830c29
-
-[COMMIT MESSAGE]:first commit||
-=========================================================
-
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_ABOGADO")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-+ @Secured("ROLE_FINCA")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/br1337/SpringRestyGWT/commit/fc4bcaba79036e9c0980423030575a87a784a1dd
-
-[COMMIT MESSAGE]:changes in model - jpa||
-=========================================================
-
-+@Secured({
--@Secured({
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/IndiCrowd/was.indicrowd.com/commit/6268d3266839b27a9afed78ff9f61b815be33e21
-
-[COMMIT MESSAGE]:아이템숍||
-=========================================================
-
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/IndiCrowd/was.indicrowd.com/commit/97f3a2e0b27cbb178a4ee0231797264f5347dc5d
-
-[COMMIT MESSAGE]:E||
-=========================================================
-
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/db57cb4901eb4353aa4bae083b9e70b02d60b909
-
-[COMMIT MESSAGE]:roles refactoing||
-=========================================================
-
--@Secured(RolesHelper.ROLE_ADMIN)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
--@Secured({RolesHelper.ROLE_ADMIN})
-- @Secured({RolesHelper.ROLE_VIEW_RESERVATION})
--@Secured(RolesHelper.ROLE_ADMIN)
--@Secured({RolesHelper.ROLE_ADMIN})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_VIEW_AUDIT})
-+ @Secured({Roles.AUDIT_VIEW})
--@Secured({RolesHelper.ROLE_ADMIN})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
--@Secured({RolesHelper.ROLE_ADMIN, RolesHelper.ROLE_MANAGE_MACHINE})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
-+ @Secured({Roles.RESERVATION_USE, Roles.PAYMENT_MANAGE, Roles.MACHINE_VIEW})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
-+ @Secured({Roles.RESERVATION_USE, Roles.PAYMENT_MANAGE, Roles.MACHINE_VIEW})
--@Secured({RolesHelper.ROLE_ADMIN})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
--@Secured({RolesHelper.ROLE_ADMIN})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_MANAGE_RESERVATION, RolesHelper.ROLE_USE_RESERVATION})
-+ @Secured({Roles.RESERVATION_MANAGE, Roles.RESERVATION_USE})
-- @Secured({RolesHelper.ROLE_MANAGE_RESERVATION, RolesHelper.ROLE_USE_RESERVATION})
-+ @Secured({Roles.RESERVATION_MANAGE, Roles.RESERVATION_USE})
-- @Secured({RolesHelper.ROLE_VIEW_RESERVATION})
-+ @Secured({Roles.RESERVATION_VIEW})
-+@Secured(Roles.ADMIN)
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/0d152f10fc54336d550848a1e75cfa0b408aaac7
-
-[COMMIT MESSAGE]:eo refactoring||
-=========================================================
-
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/c4d89a7036c316952cbec1a52ebdacc93b3effb9
-
-[COMMIT MESSAGE]:user edit bug fix||refactoring
-=========================================================
-
--@Secured({RolesHelper.ROLE_ADMIN})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION})
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-+@Secured({RolesHelper.ROLE_ADMIN})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+@Secured({RolesHelper.ROLE_ADMIN, RolesHelper.ROLE_MANAGE_MACHINE})
-+ @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
-+ @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
-+@Secured({RolesHelper.ROLE_ADMIN})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=36&q=%40Secured%28&type=Code&utf8=%E2%9C%93
-
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/db57cb4901eb4353aa4bae083b9e70b02d60b909
-
-[COMMIT MESSAGE]:roles refactoing||
-=========================================================
-
--@Secured(RolesHelper.ROLE_ADMIN)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
--@Secured({RolesHelper.ROLE_ADMIN})
-- @Secured({RolesHelper.ROLE_VIEW_RESERVATION})
--@Secured(RolesHelper.ROLE_ADMIN)
--@Secured({RolesHelper.ROLE_ADMIN})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_VIEW_AUDIT})
-+ @Secured({Roles.AUDIT_VIEW})
--@Secured({RolesHelper.ROLE_ADMIN})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
--@Secured({RolesHelper.ROLE_ADMIN, RolesHelper.ROLE_MANAGE_MACHINE})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
-+ @Secured({Roles.RESERVATION_USE, Roles.PAYMENT_MANAGE, Roles.MACHINE_VIEW})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
-+ @Secured({Roles.RESERVATION_USE, Roles.PAYMENT_MANAGE, Roles.MACHINE_VIEW})
--@Secured({RolesHelper.ROLE_ADMIN})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
--@Secured({RolesHelper.ROLE_ADMIN})
-+@Secured({Roles.ADMIN})
-- @Secured({RolesHelper.ROLE_MANAGE_RESERVATION, RolesHelper.ROLE_USE_RESERVATION})
-+ @Secured({Roles.RESERVATION_MANAGE, Roles.RESERVATION_USE})
-- @Secured({RolesHelper.ROLE_MANAGE_RESERVATION, RolesHelper.ROLE_USE_RESERVATION})
-+ @Secured({Roles.RESERVATION_MANAGE, Roles.RESERVATION_USE})
-- @Secured({RolesHelper.ROLE_VIEW_RESERVATION})
-+ @Secured({Roles.RESERVATION_VIEW})
-+@Secured(Roles.ADMIN)
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({Roles.USER_MANAGE})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/0d152f10fc54336d550848a1e75cfa0b408aaac7
-
-[COMMIT MESSAGE]:eo refactoring||
-=========================================================
-
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-- @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/gaetancollaud/fablab-api/commit/c4d89a7036c316952cbec1a52ebdacc93b3effb9
-
-[COMMIT MESSAGE]:user edit bug fix||refactoring
-=========================================================
-
--@Secured({RolesHelper.ROLE_ADMIN})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION})
-- @Secured({RolesHelper.ROLE_USE_RESERVATION})
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-- @Secured(RolesHelper.ROLE_MANAGE_USER)
-+@Secured({RolesHelper.ROLE_ADMIN})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+@Secured({RolesHelper.ROLE_ADMIN, RolesHelper.ROLE_MANAGE_MACHINE})
-+ @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
-+ @Secured({RolesHelper.ROLE_USE_RESERVATION, RolesHelper.ROLE_MANAGE_PAYMENT})
-+@Secured({RolesHelper.ROLE_ADMIN})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-+ @Secured({RolesHelper.ROLE_MANAGE_USER})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/beijunyi/hppc/commit/e6f944f0fa4eed68d364a41cb3ab922a6b854779
-
-[COMMIT MESSAGE]:find total option||
-=========================================================
-
-+ @Secured("ROLE_STAFF")
-- @Secured("ROLE_STAFF")
-+ @Secured("ROLE_ADMIN")
-- @Secured("ROLE_STAFF")
-+ @Secured("ROLE_ADMIN")
-- @Secured("ROLE_STAFF")
-+ @Secured("ROLE_ADMIN")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/beijunyi/hppc/commit/2bfd0c1891f56b6c5f44f375b736ba89f4575bc6
+[NEXT-PAGE-URL]:null
 
-[COMMIT MESSAGE]:api inheritance||
-=========================================================
-
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_STAFF")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/DerekSansom/shine/commit/90041d0a0b384994be5da23f6d46c739fb896047
-
-[COMMIT MESSAGE]:adding everything to git||
-=========================================================
-
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.PLAYER)
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/DerekSansom/shine/commit/90041d0a0b384994be5da23f6d46c739fb896047
-
-[COMMIT MESSAGE]:adding everything to git||
-=========================================================
-
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.PLAYER)
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured({ Role.ADMIN, Role.USER })
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.USER)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-+ @Secured(Role.ADMIN)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/sergii-tsymbaliuk/SpringCore/commit/c01405a57cffcebd8bb8a048f272c5a7631c033e
-
-[COMMIT MESSAGE]:7.4.2. Spring Security with roles||
-=========================================================
-
-+ @Secured(value = { "ROLE_ADMIN" })
-+ @Secured(value = { "ROLE_ADMIN" })
-+ @Secured(value = { "ROLE_ADMIN" })
-+ @Secured(value = { "ROLE_ADMIN" })
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_USER")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/khundaqji/Skeleton/commit/a1672a1511454fc57a141046efb2af21027c0b38
-
-[COMMIT MESSAGE]:First Commit||
-=========================================================
-
-+ @Secured({"ROLE_ADMIN"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/33504e95a21c4cd64efbd19cf5361451ca97aac5
-
-[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
-=========================================================
-
-+ @Secured(Roles.PAYMENT_POINT_READ)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/ee3a86d5bd13f50e6ffe1aad6cc1dd3a8ca58b32
-
-[COMMIT MESSAGE]:FP-624 Нововведение: теперь оплатить квитанцию (создать операцию в БД…||…) можно только после того, как распечатал квитанцию
-=========================================================
-
-+ @Secured(Roles.PAYMENTS_REPORT)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
-
-[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
-=========================================================
-
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_ADD)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_DELETE)
-+ @Secured(Roles.REGION_CHANGE)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_DELETE)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=37&q=%40Secured%28&type=Code&utf8=%E2%9C%93
-
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/33504e95a21c4cd64efbd19cf5361451ca97aac5
-
-[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
-=========================================================
-
-+ @Secured(Roles.PAYMENT_POINT_READ)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/ee3a86d5bd13f50e6ffe1aad6cc1dd3a8ca58b32
-
-[COMMIT MESSAGE]:FP-624 Нововведение: теперь оплатить квитанцию (создать операцию в БД…||…) можно только после того, как распечатал квитанцию
-=========================================================
-
-+ @Secured(Roles.PAYMENTS_REPORT)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
-
-[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
-=========================================================
-
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_ADD)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_DELETE)
-+ @Secured(Roles.REGION_CHANGE)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_DELETE)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/eugenebell/MovieStorefrontWithSpringData/commit/bac492a9f7ee93c17d4d2a1ddb65f774852bc3b8
-
-[COMMIT MESSAGE]:refactored code to use Spring Data for JPA||
-=========================================================
-
-+ @Secured("ROLE_USER")
-- @Secured("ROLE_USER")
-- @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured("ROLE_USER")
-- @Secured("ROLE_USER")
-- @Secured("ROLE_ADMIN")
-- @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_USER", "ROLE_ADMIN"})
-+ @Secured({"ROLE_USER", "ROLE_ADMIN"})
-+ @Secured({"ROLE_USER", "ROLE_ADMIN"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/ebf8723f21de7086a7a259232c5e49e188731d9d
-
-[COMMIT MESSAGE]:No commit message||
-=========================================================
 
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/56e2c8fdce6e05b6a66f037c6a3292e0e5b65ddd
-
-[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
-=========================================================
-
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_User")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_User")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_Student")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-- @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Admin"})
-+ @Secured({"ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/56e2c8fdce6e05b6a66f037c6a3292e0e5b65ddd
-
-[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
-=========================================================
-
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_User")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_User")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_Student")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-- @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Admin"})
-+ @Secured({"ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/d4b7c834eda40c83d09eb9be128cd670253a66c1
-
-[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
-=========================================================
-
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_User")
-+ @Secured("ROLE_User")
-+ @Secured("ROLE_Student")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/56e2c8fdce6e05b6a66f037c6a3292e0e5b65ddd
-
-[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
-=========================================================
-
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_User")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_User")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_Student")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-- @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Admin"})
-+ @Secured({"ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/56e2c8fdce6e05b6a66f037c6a3292e0e5b65ddd
-
-[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
-=========================================================
-
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_User")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_User")
-+ @Secured({"ROLE_Admin", "ROLE_Student"})
-- @Secured("ROLE_Student")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-- @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Admin"})
-+ @Secured({"ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/masipauskas/projectsrus/commit/d4b7c834eda40c83d09eb9be128cd670253a66c1
-
-[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
-=========================================================
-
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_User")
-+ @Secured("ROLE_User")
-+ @Secured("ROLE_Student")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured("ROLE_Admin")
-+ @Secured({"ROLE_Student", "ROLE_Admin"})
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-+ @Secured("ROLE_Admin")
-
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/mydlp/mydlp-ui/commit/258bb98fb9efdae3bda541c71a679b456f85a7b0
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/3595c5df11cb44eb901d4ec98893e482d2984f0e
 
-[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:refactored||
 =========================================================
 
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured({AuthSecurityRole.ROLE_ADMIN,AuthSecurityRole.ROLE_AUDITOR})
-+@Secured({AuthSecurityRole.ROLE_ADMIN,AuthSecurityRole.ROLE_SUPER_ADMIN,AuthSecurityRole.ROLE_AUDITOR})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
-- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
-+ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN,AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
--@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR})
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN,AuthSecurityRole.ROLE_AUDITOR})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
-- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
-+ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
-- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
-+ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
--@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_CLASSIFIER})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
--@Secured(AuthSecurityRole.ROLE_ADMIN)
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
-- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
-+ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
-- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
-+ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
-- @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
-+ @Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN, AuthSecurityRole.ROLE_AUDITOR, AuthSecurityRole.ROLE_CLASSIFIER})
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("hasRole('student')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/mydlp/mydlp-ui/commit/8bdc83f45511646d8e444b3a11fb20155f6e8eab
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/f21aded665e3b0ad76ed3ac4c63bb67f14da2b45
 
-[COMMIT MESSAGE]:Predefined Finances and HIPAA is added.||
+[COMMIT MESSAGE]:some improvements and broken course-ilmo||
 =========================================================
 
-+@Secured(AuthSecurityRole.ROLE_ADMIN)
++ @PostFilter("hasRole('student')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/mydlp/mydlp-ui/commit/9092d6b9be792725fa95012828965116e7cabb06
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/6d992a3d09e95535afb4ff70955c39c4da5eb48a
 
-[COMMIT MESSAGE]:On Demand discovery.||
+[COMMIT MESSAGE]:vikan viikon ekoja||
 =========================================================
 
-+@Secured({AuthSecurityRole.ROLE_ADMIN, AuthSecurityRole.ROLE_SUPER_ADMIN})
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/micros-uz/javamicros/commit/0c6285cf98009621487e1def03b5a932d2f3fddc
+[CODE-CHANGE-URL]:https://github.com/debjava/spring-pre-post-filter1/commit/bef70e16569d139ab36d781c03c46ac820d63d84
 
-[COMMIT MESSAGE]:added from gh||
+[COMMIT MESSAGE]:Files committed for Spring Security using @PreFilter and @PostFilter||
 =========================================================
 
-+ @Secured("ROLE_USER")
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=38&q=%40Secured%28&type=Code&utf8=%E2%9C%93
++// @PostFilter("filterObject.owners.email == principal.username")
++ @PostFilter("filterObject.uploaderName == authentication.name")
 
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/micros-uz/javamicros/commit/0c6285cf98009621487e1def03b5a932d2f3fddc
-
-[COMMIT MESSAGE]:added from gh||
-=========================================================
-
-+ @Secured("ROLE_USER")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/jpalomaki/vaadin-spring-app/commit/0570ab32816cf69c513e0646260fd76866c81f10
-
-[COMMIT MESSAGE]:Refactor||
-=========================================================
-
-+ @Secured(BF_CLAIM_CREATE)
-+ @Secured(BF_CLAIM_UPDATE)
-+ @Secured(BF_CLAIM_DELETE)
-+ @Secured("BF_CLAIM_READ")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/5e7511629f1baab380a6dfe8140504053faa0a3b
-
-[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
-=========================================================
-
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/apiddiu/SpringExperiments/commit/93baa3997d6e41a18f013129af699eb9f54d5979
-
-[COMMIT MESSAGE]:Initial||
-=========================================================
-
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_SUPERUSER", "ROLE_ADMIN"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/xmx111/newframework/commit/bf38ca76a9db2d4daa3c679fe26296a8229bc588
-
-[COMMIT MESSAGE]:基础上传||
 =========================================================
+[CODE-CHANGE-URL]:https://github.com/avihavai/wad-2012/commit/9a704022557c9793115d59ffa1bc170058853fe0
 
-+@Secured("common")
-+ @Secured("common.index")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.index")
-+ @Secured("common.edit")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.delete")
-+@Secured("system.attachmentfile")
-+@Secured("system.authority")
-+ @Secured("system.authority.index")
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured("system.authority.index")
-+ @Secured("system.authority.edit")
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured("system.authority.delete")
-+@Secured("config.sys.department")
-+ @Secured("config.sys.department.index")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
-+ @Secured("config.sys.department.edit")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured("config.sys.department.delete")
-+@Secured("system.manager")
-+ @Secured("system.manager.index")
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured("system.manager.index")
-+ @Secured("system.manager.edit")
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured("system.manager.delete")
-+@Secured("config.sys.organization")
-+ @Secured("config.sys.organization.index")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.index")
-+ @Secured("config.sys.organization.edit")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.delete")
-+@Secured("system.role")
-+ @Secured("system.role.index")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured("system.role.index")
-+ @Secured("system.role.edit")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured("system.role.delete")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured({ "system.role.add", "system.role.edit" })
-+@Secured("${model_name}")
-+ @Secured("${model_name}.index")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.index")
-+ @Secured("${model_name}.edit")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.delete")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/xmx111/newframework/commit/bf38ca76a9db2d4daa3c679fe26296a8229bc588
-
-[COMMIT MESSAGE]:基础上传||
+[COMMIT MESSAGE]:herokun db-konffit||
 =========================================================
-
-+@Secured("common")
-+ @Secured("common.index")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.index")
-+ @Secured("common.edit")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.delete")
-+@Secured("system.attachmentfile")
-+@Secured("system.authority")
-+ @Secured("system.authority.index")
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured("system.authority.index")
-+ @Secured("system.authority.edit")
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured("system.authority.delete")
-+@Secured("config.sys.department")
-+ @Secured("config.sys.department.index")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
-+ @Secured("config.sys.department.edit")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured("config.sys.department.delete")
-+@Secured("system.manager")
-+ @Secured("system.manager.index")
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured("system.manager.index")
-+ @Secured("system.manager.edit")
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured("system.manager.delete")
-+@Secured("config.sys.organization")
-+ @Secured("config.sys.organization.index")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.index")
-+ @Secured("config.sys.organization.edit")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.delete")
-+@Secured("system.role")
-+ @Secured("system.role.index")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured("system.role.index")
-+ @Secured("system.role.edit")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured("system.role.delete")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured({ "system.role.add", "system.role.edit" })
-+@Secured("${model_name}")
-+ @Secured("${model_name}.index")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.index")
-+ @Secured("${model_name}.edit")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.delete")
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=39&q=%40Secured%28&type=Code&utf8=%E2%9C%93
 
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/xmx111/newframework/commit/bf38ca76a9db2d4daa3c679fe26296a8229bc588
+[CODE-CHANGE-URL]:https://github.com/avihavai/wad-2012/commit/613b242939d4f1860bdac01ade19959e3e363c8e
 
-[COMMIT MESSAGE]:基础上传||
+[COMMIT MESSAGE]:security-runkoja||
 =========================================================
 
-+@Secured("common")
-+ @Secured("common.index")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.index")
-+ @Secured("common.edit")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.delete")
-+@Secured("system.attachmentfile")
-+@Secured("system.authority")
-+ @Secured("system.authority.index")
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured("system.authority.index")
-+ @Secured("system.authority.edit")
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured("system.authority.delete")
-+@Secured("config.sys.department")
-+ @Secured("config.sys.department.index")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
-+ @Secured("config.sys.department.edit")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured("config.sys.department.delete")
-+@Secured("system.manager")
-+ @Secured("system.manager.index")
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured("system.manager.index")
-+ @Secured("system.manager.edit")
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured("system.manager.delete")
-+@Secured("config.sys.organization")
-+ @Secured("config.sys.organization.index")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.index")
-+ @Secured("config.sys.organization.edit")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.delete")
-+@Secured("system.role")
-+ @Secured("system.role.index")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured("system.role.index")
-+ @Secured("system.role.edit")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured("system.role.delete")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured({ "system.role.add", "system.role.edit" })
-+@Secured("${model_name}")
-+ @Secured("${model_name}.index")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.index")
-+ @Secured("${model_name}.edit")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.delete")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/xmx111/newframework/commit/bf38ca76a9db2d4daa3c679fe26296a8229bc588
+[CODE-CHANGE-URL]:https://github.com/avihavai/wad-2012/commit/613b242939d4f1860bdac01ade19959e3e363c8e
 
-[COMMIT MESSAGE]:基础上传||
+[COMMIT MESSAGE]:security-runkoja||
 =========================================================
 
-+@Secured("common")
-+ @Secured("common.index")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.index")
-+ @Secured("common.edit")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.delete")
-+@Secured("system.attachmentfile")
-+@Secured("system.authority")
-+ @Secured("system.authority.index")
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured("system.authority.index")
-+ @Secured("system.authority.edit")
-+ @Secured({ "system.authority.add", "system.authority.edit" })
-+ @Secured("system.authority.delete")
-+@Secured("config.sys.department")
-+ @Secured("config.sys.department.index")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
-+ @Secured("config.sys.department.edit")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured("config.sys.department.delete")
-+@Secured("system.manager")
-+ @Secured("system.manager.index")
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured("system.manager.index")
-+ @Secured("system.manager.edit")
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured({ "system.manager.add", "system.manager.edit" })
-+ @Secured("system.manager.delete")
-+@Secured("config.sys.organization")
-+ @Secured("config.sys.organization.index")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.index")
-+ @Secured("config.sys.organization.edit")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.delete")
-+@Secured("system.role")
-+ @Secured("system.role.index")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured("system.role.index")
-+ @Secured("system.role.edit")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured("system.role.delete")
-+ @Secured({ "system.role.add", "system.role.edit" })
-+ @Secured({ "system.role.add", "system.role.edit" })
-+@Secured("${model_name}")
-+ @Secured("${model_name}.index")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.index")
-+ @Secured("${model_name}.edit")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.delete")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/DRB-IT/blacktiger/commit/663c4e1012f1f236ec44ac815153da7d4db1edba
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
 
-[COMMIT MESSAGE]:Added some support for Websockets.||Updated Spring Security to 3.2.1.
-Updated Spring to 4.0.2
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
 =========================================================
 
-+ @Secured("ROLE_USER")
-- @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/xmx111/homedecoration/commit/3994984df4c826c43f8c9074d349e810fa4ab34a
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
 
-[COMMIT MESSAGE]:基本框架||
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
 =========================================================
 
-+@Secured("common")
-+ @Secured("common.index")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.index")
-+ @Secured("common.edit")
-+ @Secured({ "common.add", "common.edit" })
-+ @Secured("common.delete")
-+//@Secured("config.demo")
-+// @Secured("config.demo.index")
-+// @Secured({ "config.demo.add", "config.demo.edit" })
-+// @Secured({ "config.demo.add", "config.demo.edit" })
-+// @Secured("config.demo.index")
-+// @Secured("config.demo.edit")
-+// @Secured({ "config.demo.add", "config.demo.edit" })
-+// @Secured("config.demo.delete")
-+@Secured("config.sys.authority")
-+ @Secured("config.sys.authority.index")
-+ @Secured({ "config.sys.authority.add", "config.sys.authority.edit" })
-+ @Secured({ "config.sys.authority.add", "config.sys.authority.edit" })
-+ @Secured("config.sys.authority.index")
-+ @Secured("config.sys.authority.edit")
-+ @Secured({ "config.sys.authority.add", "config.sys.authority.edit" })
-+ @Secured("config.sys.authority.delete")
-+@Secured("config.sys.department")
-+ @Secured("config.sys.department.index")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured({"config.sys.department.index", "config.sys.manager.add", "config.sys.manager.edit"})
-+ @Secured("config.sys.department.edit")
-+ @Secured({ "config.sys.department.add", "config.sys.department.edit" })
-+ @Secured("config.sys.department.delete")
-+@Secured("config.sys.manager")
-+ @Secured("config.sys.manager.index")
-+ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
-+ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
-+ @Secured("config.sys.manager.index")
-+ @Secured("config.sys.manager.edit")
-+ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
-+ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
-+ @Secured({ "config.sys.manager.add", "config.sys.manager.edit" })
-+ @Secured("config.sys.manager.delete")
-+@Secured("config.sys.menu")
-+ @Secured("config.sys.menu.index")
-+ @Secured({ "config.sys.menu.add", "config.sys.menu.edit" })
-+ @Secured({ "config.sys.menu.add", "config.sys.menu.edit" })
-+ @Secured("config.sys.menu.index")
-+ @Secured("config.sys.menu.edit")
-+ @Secured({ "config.sys.menu.add", "config.sys.menu.edit" })
-+ @Secured("config.sys.menu.delete")
-+@Secured("config.sys.organization")
-+ @Secured("config.sys.organization.index")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.index")
-+ @Secured("config.sys.organization.edit")
-+ @Secured({ "config.sys.organization.add", "config.sys.organization.edit" })
-+ @Secured("config.sys.organization.delete")
-+@Secured("config.sys.region")
-+ @Secured("config.sys.region.index")
-+ @Secured({ "config.sys.region.add", "config.sys.region.edit" })
-+ @Secured({ "config.sys.region.add", "config.sys.region.edit" })
-+ @Secured("config.sys.region.index")
-+ @Secured("config.sys.region.edit")
-+ @Secured({ "config.sys.region.add", "config.sys.region.edit" })
-+ @Secured("config.sys.region.delete")
-+@Secured("config.sys.role")
-+ @Secured("config.sys.role.index")
-+ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
-+ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
-+ @Secured("config.sys.role.index")
-+ @Secured("config.sys.role.edit")
-+ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
-+ @Secured("config.sys.role.delete")
-+ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
-+ @Secured({ "config.sys.role.add", "config.sys.role.edit" })
-+@Secured("${model_name}")
-+ @Secured("${model_name}.index")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.index")
-+ @Secured("${model_name}.edit")
-+ @Secured({ "${model_name}.add", "${model_name}.edit" })
-+ @Secured("${model_name}.delete")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/XLipcak/Liquor-bottles-registry-during-prohibition/commit/e0cc5527fa432af6d8222096e525b029096da8a3
-
-[COMMIT MESSAGE]:Upravovanie userov + pridany pripad ked admin nezada pri editovani he…||…slo (ponecha sa povodne). Stale nefunguje check unikatnosti username.
-=========================================================
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=2&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
 
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/XLipcak/Liquor-bottles-registry-during-prohibition/commit/a81ab69a139a5e7b22cadf57ea5932e3a30fbd41
+[CODE-CHANGE-URL]:https://github.com/leela03/test-app/commit/56069f5aec7b3bb2c85f5ed7135ca8c2d7ef94b0
 
-[COMMIT MESSAGE]:Authentification from DB completed||
+[COMMIT MESSAGE]:Initial version||
 =========================================================
 
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN","ROLE_STORE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_STORE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER", "ROLE_STORE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER", "ROLE_STORE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE", "ROLE_STORE", "ROLE_PRODUCER"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_POLICE"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_STORE", "ROLE_PRODUCER"})
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/XLipcak/Liquor-bottles-registry-during-prohibition/commit/56cbf8043b50d7a68064972db1e2421232628154
+[CODE-CHANGE-URL]:https://github.com/stade/WAD/commit/834f5cc883f177ec033a1675ff4eba8f826e5ff3
 
-[COMMIT MESSAGE]:Login Admin, Presentation, Service layer||
+[COMMIT MESSAGE]:commit all course assigment sourcecode||
 =========================================================
 
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/kebuu/spring-boot-presentation/commit/b5bc8150344145349f385126f98d4bb7c429dc56
+[CODE-CHANGE-URL]:https://github.com/stade/WAD/commit/834f5cc883f177ec033a1675ff4eba8f826e5ff3
 
-[COMMIT MESSAGE]:TP9 security ok||
+[COMMIT MESSAGE]:commit all course assigment sourcecode||
 =========================================================
 
-+ @Secured("ROLE_USER_ZENIKA")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/kebuu/spring-boot-presentation/commit/d3b38c8994f4cb14376f78f50f732d7b783c90f6
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/6d992a3d09e95535afb4ff70955c39c4da5eb48a
 
-[COMMIT MESSAGE]:ajout de TP de base -> manque le test websocket -> Selenium ?||
+[COMMIT MESSAGE]:vikan viikon ekoja||
 =========================================================
 
-+ //TODO A décommenter en temps utile @Secured("ROLE_USER_ZENIKA")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/programsji/Sample/commit/4742ce3671773df8dc7c11cc0d0bcae51a6778b5
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
 
 [COMMIT MESSAGE]:initial commit||
 =========================================================
 
-+ // @Secured(value = "ROLE_USER")
-+ // @Secured(value = "ROLE_ADMIN")
-+ // @Secured(value = "ROLE_ADMIN")
-+ // @Secured(value = "ROLE_USER")
-+//@Secured(value = "ROLE_USER")
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=40&q=%40Secured%28&type=Code&utf8=%E2%9C%93
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=3&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pasuuna/oma-kirjautuminen/commit/74cb96f669ea53efa3071057b916373f059b2fe7
+
+[COMMIT MESSAGE]:huahue||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/tsoha/commit/d06d36509657eb4ee67de98a7f47ad14549fb506
+
+[COMMIT MESSAGE]:some views added||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/tsoha/commit/76324a98155935aba12abb56841b431625cc926a
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
+- @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/tsoha/commit/6839f06d72640066071619e684e668231732b723
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=4&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=5&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=6&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
 
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=7&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=8&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/ludobado/springmvc-angularjs/commit/7bee57834916da93cf18a14b4f7a0dce39b5eebf
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
 
-[COMMIT MESSAGE]:Initial Import||
+[COMMIT MESSAGE]:first release||
 =========================================================
 
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/5dcbb3032bf939115de59ef8163b54ff5806f880
+[CODE-CHANGE-URL]:https://github.com/cosminrentea/roda/commit/d96b9e83141ac33a1591d6dc0dcf1c946b6b8d78
 
-[COMMIT MESSAGE]:+SERVER, CLIENT: add create game distribution||
+[COMMIT MESSAGE]:Spring profiles||+ local/production properties files
++ bash script for running ad-hoc Tomcat in production mode
+
+hibernate parameters moved in properties file 
++ loaded in applicationContext.xml
+
+ACLs for menu (user / admin):
++ CSVs 
++ annotated Service
+
+Maven upgrades
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=9&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fredondo/javacro2014-springsecurity3/commit/d34c1d694334e087358662c5fbe237cff301dae6
+
+[COMMIT MESSAGE]:secure method invocation with SpEL expressions in annotations||
+=========================================================
+
++ @PostFilter("not filterObject.report.contains(principal.username)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alex-pi/plataforma-spring/commit/7c3be3fba42e3a9e10d3018de98fc6e5c4ac6f47
+
+[COMMIT MESSAGE]:- Se configura seguridad con ALC's para SpringSecurity 3.1.0.||- Se configuran tests del módulo de seguridad para la nueva conf.
+- Se cargan permisos de 3 módulos de menú con respecto a 3 roles entablas de acl.
+- Se corrigen dependecias de librerías de seguridad.
+
+Nota: Para objetos tipo OpcionMenu no se cargó información de ACL's. Las opciones debajo de los módulos serán visibles para todos los SID's
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84
+
+[COMMIT MESSAGE]:locked down the security backend||
+=========================================================
+
+- @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/9c45a62286b19c093cdf4618419499f1f548c339
+
+[COMMIT MESSAGE]:added hiding of non public albums/items||
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/altfatterz/spring-security-fun/commit/286a5e22d1324ffff9aac4cf62a58b5cc5c155d2
+
+[COMMIT MESSAGE]:add @PostFilter test||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/charybr/spring-data-rest-acl/commit/2deca36d13faed67c253d3e401e64bdd87a590da
+
+[COMMIT MESSAGE]:Added initial files||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=10&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/99b9325b8925e41c815ba39331568e92057baa2e
+
+[COMMIT MESSAGE]:Adds fix for creating new lines on front end display and miscellaneous||other fixes.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/120182adbb7ad5e07215d72b1846732f6d1a3f0f
+
+[COMMIT MESSAGE]:Updated to have a user information page and to allow the modification of||permissions.
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/487187b3197cd382f4277b2bd977f4e316d22d1c
+
+[COMMIT MESSAGE]:Initial updates for filtering out collection request and miscellaneous||web page updates
 =========================================================
 
-+ @Secured(value = "ROLE_USER")
-+ @Secured(value = "ROLE_USER")
++ @PostFilter("hasPermission(filterObject,'REVIEW')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/ca8ec592088100bf4aa0f08e425e180855b9e0d7
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/a63d57a5748d515fe1746964fd9913b63d30e573
 
-[COMMIT MESSAGE]:+logic for redirect to create book distribution page||
+[COMMIT MESSAGE]:Added filtering of buttons by object type. Added shutdown of SolrServer||when context is destroyed.
 =========================================================
 
-+ @Secured(value = "ROLE_USER")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'ADMINISTRATION')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/eadbc0e47749d1f8d6baee955c17060cce446947
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/06a9a538b3aac8e27386e9f54f3012533e785d9d
 
-[COMMIT MESSAGE]:+SERVER: add server logic to save audio distribution||
+[COMMIT MESSAGE]:Updates to searching||
 =========================================================
 
-+ @Secured(value = "ROLE_USER")
-+ @Secured(value = "ROLE_USER")
+- @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE')")
++ @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION') or hasPermission(filterObject,'CREATE')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/e62a884330470ad005016ce674dc1fb06c12d9ab
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/e5f8cb184666b9c5490a8c27a2963c066e48d1da
 
-[COMMIT MESSAGE]:+adding redirect to create film distribution from menu||
+[COMMIT MESSAGE]:Added missing files||
 =========================================================
 
-- @Secured(value = "ROLE_USER")
-+ @Secured(value = "ROLE_USER")
++ @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/Stigmaleon/portaldc/commit/0d6e53b9990e5fc66bab23121b43dfc0d0bf0bbd
+[CODE-CHANGE-URL]:https://github.com/alex-pi/plataforma-spring-mnegocio/commit/f51768349b454c429c2c87bd9e5c0d268f8b32e9
 
-[COMMIT MESSAGE]:+added servicec to get all categories||*change global menu to show dialog window to chose type of creating
-distribution
-*change sql script
+[COMMIT MESSAGE]:- Se crean módulos mneg-infra-modelo, mneg-infra-seguridad, mneg-tlp-…||…web.
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+- Se crea página con ejemplos de características de la arquitectura.
 =========================================================
 
-+ @Secured(value = "ROLE_USER")
-+ @Secured(value = "ROLE_USER")
++ @PostFilter("hasPermission(filterObject, 'read')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/diego-schivo/samples/commit/f998a8a2138414643a7591ee02100013d25bed87
+[CODE-CHANGE-URL]:https://github.com/mpi/SpringSecurityUnitTesting/commit/0c2904467ff355ed9408dbd74e3f7fabe38dabb6
 
-[COMMIT MESSAGE]:apache-cxt-sample||
+[COMMIT MESSAGE]:early draft||
 =========================================================
 
-+ @Secured({"ROLE_USER", "ROLE_ADMIN" })
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
++ @PostFilter("hasRole('TOP_SECURITY_CLEARANCE') or not filterObject.classified")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/ea356b10d3f45207b7f0b806336474e4f31320d1
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/c73cc256ba7e73e30e3f24ce28f8f188d069438e
 
-[COMMIT MESSAGE]:Added warn user||
+[COMMIT MESSAGE]:Updates to provide mass validation and publication.||
 =========================================================
 
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
++ @PostFilter("hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'PUBLISH_MULTI')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/5e7511629f1baab380a6dfe8140504053faa0a3b
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/0884f5c68a59864e874effe5fce345532012ee3c
 
-[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+[COMMIT MESSAGE]:Updated to allow for users with administration permissions on a group to||update permissions
 =========================================================
 
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
-- @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN", "ROLE_COMMITTEE"})
+- @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN') or hasPermission(filterObject,'ADMINISTRATION')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/5ad340a0cb05bdba1a2a460b53b49a4eb4e6e266
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/99b9325b8925e41c815ba39331568e92057baa2e
 
-[COMMIT MESSAGE]:Small bug with security||
+[COMMIT MESSAGE]:Adds fix for creating new lines on front end display and miscellaneous||other fixes.
 =========================================================
 
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
-- @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
-- @Secured("ROLE_ADMIN")
+- @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/23ea5ae29c5f470b641443f35f69bd562221710f
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/120182adbb7ad5e07215d72b1846732f6d1a3f0f
 
-[COMMIT MESSAGE]:Added Contact Page with Google Maps||
+[COMMIT MESSAGE]:Updated to have a user information page and to allow the modification of||permissions.
 =========================================================
 
-- @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
++ @PostFilter("hasRole('ROLE_ADMIN')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/273b8acae1ae2d186db61adb462aaf1a4b11c342
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/487187b3197cd382f4277b2bd977f4e316d22d1c
 
-[COMMIT MESSAGE]:Unbook/Book working for multiple timetables||
+[COMMIT MESSAGE]:Initial updates for filtering out collection request and miscellaneous||web page updates
 =========================================================
 
-- @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
-- @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
-- @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
-- @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER", "ROLE_COMMITTEE", "ROLE_WARNING", "ROLE_SUSPEND"})
++ @PostFilter("hasPermission(filterObject,'REVIEW')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/cb4a80e5f5f2698ee2e1545ef50fc5bd4cd06e3d
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/a63d57a5748d515fe1746964fd9913b63d30e573
 
-[COMMIT MESSAGE]:Grade class added. May not use. Pre Tournament Business Logic.||
+[COMMIT MESSAGE]:Added filtering of buttons by object type. Added shutdown of SolrServer||when context is destroyed.
 =========================================================
 
-+ @Secured("ROLE_ADMIN")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'ADMINISTRATION')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/60f976f34a079de656810130eb9571c0b6d8e0ee
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/06a9a538b3aac8e27386e9f54f3012533e785d9d
 
-[COMMIT MESSAGE]:Timetable booking seems to be working. Regular users get one slot,||admins unlimited
+[COMMIT MESSAGE]:Updates to searching||
 =========================================================
 
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
+- @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE')")
++ @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION') or hasPermission(filterObject,'CREATE')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/517454943da3909d0a6fa060f8a167ee099dac8b
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/e5f8cb184666b9c5490a8c27a2963c066e48d1da
 
-[COMMIT MESSAGE]:Events package updated with creation and approval of Events. This will||tie into the Timetable.
+[COMMIT MESSAGE]:Added missing files||
 =========================================================
 
-+ @Secured("ROLE_ADMIN")
++ @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/48b69479fb1b802988d926d6663d2b186efb12f0
+[CODE-CHANGE-URL]:https://github.com/wdiskowski/spring/commit/6f0ace4f44624fb8505c32396314708064145476
 
-[COMMIT MESSAGE]:BlockMember working. Some error checking to ensure user cannot block||themselves.
+[COMMIT MESSAGE]:ACL eingebaut||
 =========================================================
 
-+ @Secured("ROLE_ADMIN")
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/204aa063761625ffb4f800d7af64349efbfcea7f
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
 
-[COMMIT MESSAGE]:User Profile Updating Added||
+[COMMIT MESSAGE]:testing||
 =========================================================
 
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
++ @PostFilter("filterObject.startsWith('a')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/72b73bb8fb0f0cdea2bfa0bc456d92600eb60112
+[CODE-CHANGE-URL]:https://github.com/attilacsanyi/pizzashop-security/commit/6c400a050d76077b9551f4f4dcac18f567473b1f
 
-[COMMIT MESSAGE]:Hibernate update on member status to enabled them. And it worked first||time! Commit fast!!!!
+[COMMIT MESSAGE]:Apply security features with scenarios||
 =========================================================
+
++ @PostFilter("hasPermission(filterObject, 'list')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=11&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
 
-+ @Secured("ROLE_ADMIN")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/913fd10f4576611437f0b60c54c3684588a1dcf2
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/9546d6a125d194c9fbea6c6f16635c81c2b57df6
 
-[COMMIT MESSAGE]:Added [EditDetails] page - Not set up. Pre Hibernate||
+[COMMIT MESSAGE]:section 7 doc work and additional example - filtering with ACL||
 =========================================================
 
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
++ // @PostFilter("hasPermission(filterObject, 'read')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/wanosd/mts/commit/0573fa81b14acd1999523102c8765148a35cbe94
+[CODE-CHANGE-URL]:https://github.com/loki2302/spring-security-experiment/commit/58cf3461cd2bf038b80d296d879347144594b23c
 
-[COMMIT MESSAGE]:Database working. Unapproved users showing.||
+[COMMIT MESSAGE]:Converted to JUnit tests||
 =========================================================
 
-+ @Secured({"ROLE_ADMIN", "ROLE_MEMBER"})
-+ @Secured("ROLE_ADMIN")
+- @PostFilter("filterObject % 3 != 0")
++ @PostFilter("filterObject % 3 != 0")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/soaserele/spring-tutorial/commit/6f8c25e04daba0d8ed18a97408d1354f27bf0f98
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
 
-[COMMIT MESSAGE]:SecBlog refactored, based on Blog project||
+[COMMIT MESSAGE]:initial checkins||spring security based example
 =========================================================
 
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured("ROLE_INEXISTENT")
++ @PostFilter("filterObject.startsWith('a')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/PM-Project/myshop/commit/25dde3cd84a7f2fe9af58c6d04dfe16673f7fded
+[CODE-CHANGE-URL]:https://github.com/anu-doi/metadata-stores/commit/0b0571c93a67bfbeff011cfec159a75164201b81
 
-[COMMIT MESSAGE]:Resolved Conflict in Product and Category||
+[COMMIT MESSAGE]:Updates with improvements and permissions for the search service.||
 =========================================================
 
-- @Secured({"ROLE_ADMIN","ROLE_VENDOR"})
-+ @Secured("ROLE_ADMIN")
-- @Secured({"ROLE_ADMIN","ROLE_VENDOR"})
-+ @Secured("ROLE_ADMIN")
++ @PostFilter("hasRole('ROLE_STAFF') or filterObject.extSystem == 'Digital Collections' or filterObject.extSystem == 'Data Commons' ")
++ @PostFilter("hasRole('ROLE_STAFF') or filterObject.title == 'Digital Collections' or filterObject.title == 'Data Commons' ")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/PM-Project/myshop/commit/c163bbe65cb741672782be7f7d41f08ef8c74dfa
+[CODE-CHANGE-URL]:https://github.com/ivanplese/spring-security-demo/commit/ee1244591e480f8c3b318f1a09819e21ad70fa61
 
-[COMMIT MESSAGE]:Security Updates + Others||
+[COMMIT MESSAGE]:inital commit||
 =========================================================
 
-+ @Secured("ROLE_ADMIN")
-+ @Secured({"ROLE_ADMIN","ROLE_VENDOR"})
-+ @Secured({"ROLE_ADMIN","ROLE_VENDOR"})
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=12&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
 
+
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/a3d57969c8a357290550b7f3c54e93d5827842b0
+[CODE-CHANGE-URL]:https://github.com/guptapriyank/javaConfiguration/commit/4fc0e0555f38f8813c9ebf686169c57a47599ada
 
-[COMMIT MESSAGE]:configurando spring security annotations||
+[COMMIT MESSAGE]:first commit||
 =========================================================
 
-- @Secured("hasRole('ROLE_USER')")
-+ @Secured("ROLE_USER")
-- @Secured("hasRole('ROLE_USER')")
-+ @Secured("ROLE_USER")
-- @Secured("hasRole('ROLE_USER')")
-+ @Secured("ROLE_USER")
-- @Secured("hasRole('ROLE_USER')")
-+ @Secured("ROLE_USER")
++ @PostFilter("hasPermission(filterObject, 'read')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/d501aa92e4ba7bda12bc2cd166e866990aac9ef7
+[CODE-CHANGE-URL]:https://github.com/terrestris/shogun2/commit/df4b07c6525a0c40eba4e0043af4e201d08e88e4
 
-[COMMIT MESSAGE]:configurando spring security||
+[COMMIT MESSAGE]:Add basic security annotations to the CRUD service||
 =========================================================
 
-+ @Secured("hasRole('ROLE_USER')")
-+@Secured("hasRole('ROLE_USER')")
-+ @Secured("hasRole('ROLE_USER')")
-+ @Secured("hasRole('ROLE_USER')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/568d838adb15c771c6297bb5913a031cb4ccb394
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/e42b388b90b224b23864d325b5d18495dbad2d74
 
-[COMMIT MESSAGE]:Iniciado cadastro de localidade||
+[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
 =========================================================
 
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/568d838adb15c771c6297bb5913a031cb4ccb394
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/8c8da3bbb933ac4726364714d366226a38ea23e9
 
-[COMMIT MESSAGE]:Iniciado cadastro de localidade||
+[COMMIT MESSAGE]:[CRM-23] Task, Job filters added.||Change-Id: Iadb7f5114e38733bddf2382b4d3ac8ebf69731d0
 =========================================================
+
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
 
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vsushko/research/commit/db98634c7cd83a2053b6245bf3cdc26382b9fc85
 
+[COMMIT MESSAGE]:complete chapter10||
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/99977caf2252684f090ce509f85b8a42579a4e2f
+
++ @PostFilter("filterObject.spitter.username == principal.name")
++ @PostFilter("hasPermission(filterObject, 'delete'")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=13&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
 
-[COMMIT MESSAGE]:Adicionado Cadastro de categorias||
+
 =========================================================
+[CODE-CHANGE-URL]:https://github.com/okvee/training-web-secure/commit/7cd4a9195ec7838a9b6738af80c7042744a419f0
 
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=41&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+[COMMIT MESSAGE]:All project files||
+=========================================================
 
++ @PostFilter("hasPermission(filterObject, 'list')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/af77c40104e1e2c0465d13040c9c628204af222d
+[CODE-CHANGE-URL]:https://github.com/officiallysingh/homework/commit/430ea13309de2946a1e04e0050f37d074d0bf651
 
-[COMMIT MESSAGE]:FP-386 remember export result each time||
+[COMMIT MESSAGE]:adding spring template projects||
 =========================================================
 
-+ @Secured(Roles.TARIFF_EXPORT_LOG_RECORD_DELETE)
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/ebf8723f21de7086a7a259232c5e49e188731d9d
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/74be72f45d35faafd086f4a56ce87bccba7244e1
 
-[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:Vaihdettu tiedotteen oikeustarkastelu annotaatioon||
 =========================================================
 
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/ebf8723f21de7086a7a259232c5e49e188731d9d
-
-[COMMIT MESSAGE]:No commit message||
-=========================================================
-
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-- @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-+ @Secured("ROLE_DOMAIN_ADMIN")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/laduk/java-projekt/commit/bebdae7691c14d00fcdcfb9774cc463f57a75907
-
-[COMMIT MESSAGE]:(service, web) ROLE_REST||
-=========================================================
-
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
-- @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN", "ROLE_REST"})
++ @PostFilter("filterObject.julkinen or filterObject.perusteprojekti == null or hasPermission(filterObject.perusteprojekti.id, 'perusteprojekti', 'LUKU')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/laduk/java-projekt/commit/f73976432241b7b75fb431e551d91ef90a7400f5
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/45df2cd0ed671b11995f4d846bc93e6c7a378475
 
-[COMMIT MESSAGE]:(service) secured anotacia||
+[COMMIT MESSAGE]:Fixed form creator not being able to see all responses.||The method that fixed it was Carl's idea.
 =========================================================
 
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
-+ @Secured({"ROLE_SURVIVOR", "ROLE_ADMIN"})
+- @PostFilter("hasPermission(filterObject, 'read') or hasRole('ROLE_ADMIN')")
++ //@PostFilter("hasPermission(filterObject, 'read') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(#form, 'write') or hasRole('ROLE_ADMIN')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/onedigit/org.onedigit.webapp/commit/39f47cefcdb49f634db7517b483de0c165b91a91
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd
 
-[COMMIT MESSAGE]:add security||
+[COMMIT MESSAGE]:-Added fuctionality to get all responses for a given form id.||-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.
 =========================================================
 
-+ @Secured("ROLE_USER")
+- //@PostFilter("hasPermission(filterObject, 'READ')"
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'read') or hasRole('ROLE_ADMIN')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/discocms/discocms/commit/6c103e3ef981c6650846675f1b5803d0912ff42f
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/5508392a623cb7e849121e4aaea6a901095e14d6
+
+[COMMIT MESSAGE]:The backend is now fully functional to create forms and responses and…||… to make edits to them.
 
-[COMMIT MESSAGE]:Authentication.||
+Know issues
+-Delete resource is not available, will re-enable
+
+Missing Features
+-"nested questions" where one question is displayed if another question is answered particular way
+-"themes" or tags which allow easy filtering of questions
 =========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+- //@PostFilter("hasPermission(filterObject, 'READ')"
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=14&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
 
-+ @Secured(roles = {Roles.ANONYMOUS})
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davilj/projectman/commit/7f49c03f6939e531770e9a2a6fd3a29bab1104e4
 
+[COMMIT MESSAGE]:Initialize git||
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/discocms/discocms/commit/666cae3dce56f7d2ba9d589f0393f4552f5d2b3b
 
-[COMMIT MESSAGE]:Spring based RPC service handling.||
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
 =========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
 
-+ @Secured(roles = {Roles.ANONYMOUS})
-+ @Secured(roles = {Roles.ANONYMOUS, Roles.AUTHENTICATED})
-+ @Secured(roles = {Roles.AUTHENTICATED})
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=42&q=%40Secured%28&type=Code&utf8=%E2%9C%93
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
 
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/diginalog/springtodo/commit/188fb6ba08bb339b64a513d3c25e5b960c8160af
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
 
-[COMMIT MESSAGE]:add jquery||
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
 =========================================================
 
-- @Secured("ROLE_USER")
-+ @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured("ROLE_USER")
-+ @Secured({"ROLE_USER", "ROLE_ADMIN"})
-- @Secured("ROLE_USER")
-+ @Secured({"ROLE_USER", "ROLE_ADMIN"})
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/diginalog/springtodo/commit/d9c4ba836d7bb8a0ea94637561ba2db3cb7dc47d
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
 
-[COMMIT MESSAGE]:relocating||
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
 =========================================================
 
-+ @Secured({"ROLE_USER", "ROLE_ADMIN"})
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
-+ @Secured("ROLE_USER")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/markus93/Patty/commit/bd87a809a7011d8437a158f860e8b03b7c659507
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
 
-[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
 =========================================================
 
-+ //@Secured("ROLE_jira-developers")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/jacek99/dropwizard-spring-di-security-onejar-example/commit/f32c40e7d631f59866c1ae7ed691bc952be85a28
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
 
-[COMMIT MESSAGE]:Full example + docs||
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
 =========================================================
 
-+@Secured(Authorities.ROLE_READ_ONLY)
-+ @Secured(Authorities.ROLE_ADMIN)
-+ @Secured(Authorities.ROLE_ADMIN)
-+ @Secured(Authorities.ROLE_ADMIN)
-+ @Secured(Authorities.ROLE_ADMIN)
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/kmb385/toThought/commit/ea4b3d9f3fcd998e92528d79024ef23766bea031
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 
-[COMMIT MESSAGE]:Setting up new application config||
 =========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
 
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-+ @Secured("ROLE_ADMIN")
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/2bd1bf69d4726c25da4b3c70e1ad5ac50f84441b
-
-[COMMIT MESSAGE]:FP-280 FP-281 FP-282 FP-284||Countries, regions, towns, districts sorters added
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
 =========================================================
 
-+ @Secured(Roles.DISTRICT_READ)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_ADD)
-+ @Secured(Roles.REGION_ADD)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_DELETE)
-+ @Secured(Roles.REGION_DELETE)
-- @Secured(Roles.REGION_CHANGE)
-+ @Secured(Roles.REGION_CHANGE)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
-
-[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
-=========================================================
-
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_ADD)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_DELETE)
-+ @Secured(Roles.REGION_CHANGE)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_DELETE)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/bb71b4bef4056bad372c61a568a9c807f8a83809
-
-[COMMIT MESSAGE]:FP-355||Address attribute types history generation.
-
-TC code cleaned up and reformat according to project style.
-=========================================================
-
-- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
-- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
-- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
-- @Secured({Roles.TARIFF_CALCULATION_RESULT_UPDATE})
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_ADD, Roles.TARIFF_CALCULATION_RULES_FILE_CHANGE})
-- @Secured(Roles.TARIFF_CALCULATION_RULES_FILE_READ)
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_READ})
-- @Secured({Roles.TARIFF_ADD, Roles.TARIFF_CHANGE})
-- @Secured(Roles.TARIFF_READ)
-- @Secured(Roles.TARIFF_READ)
-- @Secured({Roles.TARIFF_DELETE})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
-
-[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
-=========================================================
-
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_ADD)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_DELETE)
-+ @Secured(Roles.REGION_CHANGE)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_DELETE)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/2bd1bf69d4726c25da4b3c70e1ad5ac50f84441b
-
-[COMMIT MESSAGE]:FP-280 FP-281 FP-282 FP-284||Countries, regions, towns, districts sorters added
-=========================================================
-
-+ @Secured(Roles.DISTRICT_READ)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_ADD)
-+ @Secured(Roles.REGION_ADD)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_READ)
-- @Secured(Roles.REGION_DELETE)
-+ @Secured(Roles.REGION_DELETE)
-- @Secured(Roles.REGION_CHANGE)
-+ @Secured(Roles.REGION_CHANGE)
-- @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/bb71b4bef4056bad372c61a568a9c807f8a83809
-
-[COMMIT MESSAGE]:FP-355||Address attribute types history generation.
-
-TC code cleaned up and reformat according to project style.
-=========================================================
-
-- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
-- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
-- @Secured({Roles.TARIFF_CALCULATION_RESULT_ADD})
-- @Secured({Roles.TARIFF_CALCULATION_RESULT_UPDATE})
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured(Roles.TARIFF_CALCULATION_RESULT_READ)
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_ADD, Roles.TARIFF_CALCULATION_RULES_FILE_CHANGE})
-- @Secured(Roles.TARIFF_CALCULATION_RULES_FILE_READ)
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_DELETE})
-- @Secured({Roles.TARIFF_CALCULATION_RULES_FILE_READ})
-- @Secured({Roles.TARIFF_ADD, Roles.TARIFF_CHANGE})
-- @Secured(Roles.TARIFF_READ)
-- @Secured(Roles.TARIFF_READ)
-- @Secured({Roles.TARIFF_DELETE})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/complitex/flexpay/commit/f21dea86cd9463e5fc2ec1e4cfafb1a68daa74bd
-
-[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
-=========================================================
-
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_ADD)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.REGION_DELETE)
-+ @Secured(Roles.REGION_CHANGE)
-+ @Secured(Roles.REGION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured(Roles.ORGANIZATION_DELETE)
-+ @Secured(Roles.ORGANIZATION_READ)
-+ @Secured({Roles.ORGANIZATION_ADD, Roles.ACCOUNT_CHANGE})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/hrach/pa165-car-management/commit/882a0b64e1a58416133fe6d876cb362c530e1be4
-
-[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
-=========================================================
-
-+ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
-+ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
-+ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
-+ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
-+ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_MANAGER")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_MANAGER")
-+ @Secured("ROLE_MANAGER")
-+ @Secured("ROLE_MANAGER")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_MANAGER")
-+ @Secured("ROLE_MANAGER")
-+ @Secured("ROLE_MANAGER")
-+ @Secured("ROLE_MANAGER")
-+ @Secured("ROLE_STAFF")
-+ @Secured("ROLE_STAFF")
-+ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
-+ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
-+ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
-+ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
-+ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
-+ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
-+ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
-+ @Secured({"ROLE_MANAGER", "ROLE_SOAP"})
-+ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
-+ @Secured({"ROLE_STAFF", "ROLE_SOAP"})
-
-=========================================================
-[CODE-CHANGE-URL]:https://github.com/Sainathuni/myapp/commit/8ad56bd81bbd1c0ccbe0f8f51f1674c8ef30f778
-
-[COMMIT MESSAGE]:Merged Changes||Security Component and Validation changes
-=========================================================
-
-+ @Secured({SecurityConstants.ROLE_USER, SecurityConstants.ROLE_SA, SecurityConstants.ROLE_TCO})
-+ @Secured({SecurityConstants.ROLE_USER, SecurityConstants.ROLE_SA, SecurityConstants.ROLE_TCO})
-- @Secured("ROLE_USER")
-+ //@Secured("ROLE_USER")
-- @Secured( { SecurityConstants.ROLE_SA })
-+ //@Secured( { SecurityConstants.ROLE_SA })
-- @Secured( { SecurityConstants.ROLE_SA })
-+ //@Secured( { SecurityConstants.ROLE_SA })
-- @Secured( { SecurityConstants.ROLE_SA })
-+ //@Secured( { SecurityConstants.ROLE_SA })
-- @Secured( { SecurityConstants.ROLE_SA })
-+ //@Secured( { SecurityConstants.ROLE_SA, })
-- @Secured( { SecurityConstants.ROLE_SA })
-+ //@Secured( { SecurityConstants.ROLE_SA })
-- @Secured( { SecurityConstants.ROLE_SA })
-+ //@Secured( { SecurityConstants.ROLE_SA })
-[NEXT-PAGE-URL]:https://github.com/search?l=java&p=43&q=%40Secured%28&type=Code&utf8=%E2%9C%93
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=15&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
 

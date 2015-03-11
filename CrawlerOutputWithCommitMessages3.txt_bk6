@@ -1,0 +1,2254 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/8495c5fbba77cf5ed41f890c4150b57d8b94be3c
+
+[COMMIT MESSAGE]:sql and security work||
+=========================================================
+
+- // @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/8b519558fbeb002b69a931eb895468e7c6608480
+
+[COMMIT MESSAGE]:section 7 work||
+=========================================================
+
++ // @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/cfc8dccf8064e569f2681d626fbf49d288d4d0c5
+
+[COMMIT MESSAGE]:security work||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ // @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/114fd74014a77830df458d01976fee075a42fb31
+
+[COMMIT MESSAGE]:acl work||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-cjug/commit/866f1c5ebeb7119f772cf89752b93a01bd2e8a59
+
+[COMMIT MESSAGE]:Initial||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/terrestris/shogun2/commit/df4b07c6525a0c40eba4e0043af4e201d08e88e4
+
+[COMMIT MESSAGE]:Add basic security annotations to the CRUD service||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rooneyp1976/SiA3/commit/f327c169c8ab54b29a4fb7267f0afe00636ffc0c
+
+[COMMIT MESSAGE]:sia||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=12&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zliumichael/SpingInAction_SampleCode/commit/76656d40604b1fefd4c87fc34a75304a474f4799
+
+[COMMIT MESSAGE]:add sia||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mycena/Security-3.2/commit/567c8027b416acd36a1af44a247105822a8a790d
+
+[COMMIT MESSAGE]:Teapatea with security 3.2||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gitrepo7777/Spring-In-Action-Code-3rd-Edition/commit/4e93b0db94c4c934b19bcdceccede27d84791bc1
+
+[COMMIT MESSAGE]:Spring In Action Code 3rd Edition||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/keslerm/reloader-tracker/commit/f284c93a90bf554a9f7b8b8adf280c8294bf5846
+
+[COMMIT MESSAGE]:Adding security and domain model changes to components||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject == null || returnObject.userId == principal.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject == null || returnObject.userId == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser-OLD/commit/96ad55ca93c151b476e68381cec74e2c5b2e4222
+
+[COMMIT MESSAGE]:Latest changes||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser-OLD/commit/89eb9c2c7d116a594005efed06c5baf1c1607881
+
+[COMMIT MESSAGE]:Initial Checkin||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/swcho/ex_spring/commit/b6752ee9029baf3e8f9c794c11ab3f609ac15dde
+
+[COMMIT MESSAGE]:Spring in Action example||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/salutmonde/spitter-web/commit/6bb22d68e76b73c41dfad74bc0494677b90f17fd
+
+[COMMIT MESSAGE]:first commit of all file||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=13&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-0-to-4.0/commit/f748c86c221ef7f5707fee40cd5a0b3d6c8264aa
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/filber/JavaRepo/commit/ecdfbee7e04a1a803d5772fdd7b095da1a681743
+
+[COMMIT MESSAGE]:spitter||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tiggermug/sia3-code/commit/a3e9a514a28bf38c8a8f1a17a18eced7e2f5d040
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/heichenhardt/SpringInAction/commit/6bbee367285990831921d0599a5415620ea8b698
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ideng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17
+
+[COMMIT MESSAGE]:Spring In Action 3 source code||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/spring-test-example/commit/5a559b434112aaffdaf55a1f33b2b9799a109e10
+
+[COMMIT MESSAGE]:Further defined security in the repository.||Added parameters switch to gradle build.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or ( returnObject != null && (isAuthenticated() and returnObject.id == principal.id) )")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tony78it/homir/commit/016dcf40defb249d61983511d42522bc154c54ae
+
+[COMMIT MESSAGE]:start on security config||
+=========================================================
+
++ //@PostAuthorize("returnObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/brendel/edufarm-soowoowon/commit/e4b71a72978490e46c845122eed2c9ab793b7db0
+
+[COMMIT MESSAGE]:Add ajax photo upload feature.||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=14&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/brendel/edufarm-soowoowon/commit/577786067a498ffc888ad939d1a2b9f23147da51
+
+[COMMIT MESSAGE]:Final Version.||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
++ @PostAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/brendel/edufarm-soowoowon/commit/570a8f987cfdc8bf417cf7f7cdf6516029e0b118
+
+[COMMIT MESSAGE]:Edited MySavedRequestAwareAuthenticationHandler.||Now redirect to original url after login.
+Add reservation detail page.
+can create reservation.
+can create and delete reply.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/briancody/roscode-dtp/commit/704dc1b6af65f5804f60326cfd90801a741ef081
+
+[COMMIT MESSAGE]:Security!||
+=========================================================
+
++// @PostAuthorize("returnObejct.id == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/remi-san/security-model/commit/c9019dc123581626c672d1fbf29d1107c1d26aee
+
+[COMMIT MESSAGE]:moved some files from utils||
+=========================================================
+
++ //@PostAuthorize("hasPermission(returnObject, 'WRITE') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f
+
+[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/33af35c3cf47cac227933bbd2d552d989cc4dd90
+
+[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/913ac8d85759f12836f0ac3fd0503df9b3df477d
+
+[COMMIT MESSAGE]:CLOUD-200 added cluster methods||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/f2a6d3b64475a7a92d3ecd26d8fbe33e136d71dd
+
+[COMMIT MESSAGE]:CLOUD-216 permission management for findOne calls||
+=========================================================
+
+- @PostAuthorize("returnObject?.owner == principal")
+- @PostAuthorize("returnObject?.user == principal")
+- @PostAuthorize("returnObject?.owner == principal")
+- @PostAuthorize("returnObject?.user == principal")
+- @PostAuthorize("returnObject?.owner == principal")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("returnObject?.owner == principal")
+- @PostAuthorize("returnObject?.owner == principal")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("returnObject?.owner?.id == principal?.id")
+- @PostAuthorize("returnObject?.user?.id == principal?.id")
+- @PostAuthorize("returnObject?.owner == principal")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("returnObject?.owner == principal")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/329fd50427f86ab604738c4cd0d7452834ddaf5e
+
+[COMMIT MESSAGE]:CLOUD-216 cluster endpoints basic implementation||
+=========================================================
+
+- @PostAuthorize("returnObject?.user?.id == principal?.id")
++ @PostAuthorize("returnObject?.owner == principal")
+- @PostAuthorize("returnObject?.user?.id == principal?.id")
++ @PostAuthorize("returnObject?.owner == principal")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/GGkBand/spring/commit/e8d27407fb6f2c99139b687c69aab8d10cddeb92
+
+[COMMIT MESSAGE]:init spring||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/a7364071dee8e59297502dbd871970403e008913
+
+[COMMIT MESSAGE]:Use the new access method.||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05
+
+[COMMIT MESSAGE]:Move to hardcoded logic Permissions. Add properties based authentication||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peterarsentev/Spring-Security-Acl-MongoDB/commit/18b8fc5fb4300c9fee927488a7bfe8c5c5ed5c8a
+
+[COMMIT MESSAGE]:added the login page, client page, create client dialog||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/8fa0d610e125444ba9d60ce709d3eccb9ae0ab03
+
+[COMMIT MESSAGE]:123||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dineshbabu/spring3-trial/commit/d847648cc947b5c4725b7c02010c6033891088f1
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=15&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Sheparzo/sia3-code/commit/08a2a0f48f8c615d6dda1305a7aecfd2fb13507e
+
+[COMMIT MESSAGE]:Initial commit of book code provided by publisher at http://manning.c…||…om/walls4/
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/jaxenter-showcase/commit/c3762b96b6a70be248550806e0361745328d084a
+
+[COMMIT MESSAGE]:Step 3: Add security||
+=========================================================
+
++ @PostAuthorize("returnObject.firstName == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-modern/commit/9f232ef5a67121af039000d238d6cef4c7a3aa09
+
+[COMMIT MESSAGE]:Use Spring Security||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anr-ru/base.services/commit/eba343df3faf8dd7704ee35fb5b3b61a387784e1
+
+[COMMIT MESSAGE]:Added an additional domain-level security checking which delegates the||access to a context domain object. It can be used in conjuntion with a
+standard acl hasPermission(...) checking.
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read') and hasPermission(returnObject,'access_read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anr-ru/base.services/commit/9986508af594070be3741705bbddc6d44493c808
+
+[COMMIT MESSAGE]:Repaired a test with ACL security and added a new ACL Manager to||simplify ACL operations.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gavin-feng/SpringInActionStudy/commit/25dc18bdce6efce993ec3fcf73a681eab5c614e7
+
+[COMMIT MESSAGE]:base src from manning website||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/RigasGrigoropoulos/spring-security-acl-cassandra/commit/5f74f304c5510c5566284ff8a1e85e71b87a53e3
+
+[COMMIT MESSAGE]:more tests||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("returnObject == null OR hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/RigasGrigoropoulos/spring-security-acl-cassandra/commit/87322a8445f58989915a9de636af6ab1ff55a82b
+
+[COMMIT MESSAGE]:added test service to test acl functionality||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84
+
+[COMMIT MESSAGE]:locked down the security backend||
+=========================================================
+
++ @PostAuthorize("hasAnyRole('ROLE_USER','ROLE_ADMIN') or returnObject.isPublic() == true")
++ @PostAuthorize("hasAnyRole('ROLE_USER','ROLE_ADMIN') or returnObject.isPublic() == true")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=16&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/careermasud/SpringBooks/commit/393f54ed1c94c177d6381cf1b91962f303b82707
+
+[COMMIT MESSAGE]:Spring In Action created.||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/4b351554a0832e31a48921317fb5d567af0c6ad8
+
+[COMMIT MESSAGE]:Adjustments update book feature + delete book feature completed||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/b01319ba05dadd30afb4a02df2b19630f5c8a703
+
+[COMMIT MESSAGE]:Tried to add a book update feature, added some comments||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/937d4f9bd54f99f387950dfe5928b6320f09e52d
+
+[COMMIT MESSAGE]:Add book feature completed||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mkjasinski/spring-security-acl/commit/a9e67e4c44f23f6867ada3e0ebaad535b17d0e3b
+
+[COMMIT MESSAGE]:I have added ACL support||
+=========================================================
+
+-// @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("hasPermission(#event, write)")
+-// @PostAuthorize("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mkjasinski/spring-security-acl/commit/351f06fdffed6b991a767f891785d58939a4a3d7
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++// @PostAuthorize("hasPermission(returnObject, 'READ')")
++// @PostAuthorize("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/johndoe90/ProductReviews/commit/78b4d33f8c3c9dc57d8e018b2414c4a76c82a37c
+
+[COMMIT MESSAGE]:First Commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'delete')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/901b2d29e797a7e1c33ae3c1a5d7fd8ab575a733
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or (hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain) or (hasRole('ROLE_DOMAIN_ACCOUNT') and returnObject.domain == principal.domain and returnObject.account = principal.account)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=17&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
++ @PostAuthorize("hasRole('ROLE_ADMIN') && isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/1d56743aafa46b6ec794a97a6943ebab253175f9
+
+[COMMIT MESSAGE]:Extended support for Restrictable entities.||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/0a5811fe9153fcef77bc908d1da9430d8fad549e
+
+[COMMIT MESSAGE]:Check permissions on refreshed version of updated entity.||
+=========================================================
+
+- @PostAuthorize("hasPermission(#entity, 'write')")
++ @PostAuthorize("hasPermission(returnObject, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/8540c1de69556dacd7366250209f51577c4c4603
+
+[COMMIT MESSAGE]:Authorization was messed up -- trying to fix.||
+=========================================================
+
++ @PostAuthorize("hasPermission(#entity, 'write')")
++ @PostAuthorize("hasPermission(#entity, 'read')")
++ @PostAuthorize("hasPermission(#entity, 'write')")
++ @PostAuthorize("hasPermission(#entity, 'write')")
++ @PostAuthorize("hasPermission(returnObject, 'read') and hasPermission(returnObject, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/6bcfce6ed2ccb7f410d4175ea85faf9ccda00a4f
+
+[COMMIT MESSAGE]:Imported server and client sources.||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mishgunn/regataiades-app/commit/1ec66ae7e5b7008f903c067f3a9d5a239279e26f
+
+[COMMIT MESSAGE]:Fixes||
+=========================================================
+
++ @PostAuthorize("@AccessTool.isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/c7d573e65e4eb1a4d1c1643413a1c341e495b7a9
+
+[COMMIT MESSAGE]:[CRM-23] Services server side authorization.||Change-Id: I79ebb863bb13fdf6de0de75a7880480f39409725
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(#quoteDTO, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/39fa37b0e8c544bb1cacc5a2c7e0246bfef12664
+
+[COMMIT MESSAGE]:RAVE-835 Merge all from model-split at 1403154 (reintegration)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1403166 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc
+
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alapierre/sample/commit/d581e20f55625ceb3e21c7b3eaa625a03f0e1620
+
+[COMMIT MESSAGE]:I have added ACL support example||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("hasPermission(#event, write)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chudanic/spring-security-acl-demo/commit/a919cfdbfb0ce94579f540d7d23608a921ffdfb3
+
+[COMMIT MESSAGE]:Initial commit of Spring Security ACL in Google Cloud DataStore Demo||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'VIEWER') or (returnObject.user.login == authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/d891d17cfa248220c2a38f99b36758b9c91ffb03
+
+[COMMIT MESSAGE]:RAVE-341 patch to add security features to WidgetComments||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1207613 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/irineu/fffrepublic/commit/1b21067174e835c0cb177271ff40bfe438681a60
+
+[COMMIT MESSAGE]:implementado oauth||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_ADMIN')")
++ // @PostAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/irineu/fffrepublic/commit/754ba83d2f35308ca3041f38020adcd82e499b65
+
+[COMMIT MESSAGE]:Adicionado serviço rest||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=18&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/devshred/spring-security/commit/00341f1eeaf499805d1ffd3165c867db2535032a
+
+[COMMIT MESSAGE]:check read permissions on messages||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/ba271d50ab6de2d0ef70948bb655eeb751cd6a11
+
+[COMMIT MESSAGE]:test||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'POST_READ')")
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'USER_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/dbe428aec6bd468c2f06efb4a2905c0adf7e01f1
+
+[COMMIT MESSAGE]:security||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ_ALL') || hasPermission(returnObject, 'READ_OWN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+- @PostAuthorize("hasPermission(returnObject, 'READ_ALL')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/6453ce1271b61a9abb94407d18c86ca79fe385bf
+
+[COMMIT MESSAGE]:acl||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ_ALL') || hasPermission(returnObject, 'READ_OWN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alapierre/altkom_2004_10_06/commit/7a5edf5ea12cf4a33272b878d950a91ecf517bb5
+
+[COMMIT MESSAGE]:spring-security-acl on Derby||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("hasPermission(#event, write)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/szekai/restful-example/commit/e2875a3bfb2e33223a0f04feb776f7fb29eeeb32
+
+[COMMIT MESSAGE]:add spring-security-full-acl-restful||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84
+
+[COMMIT MESSAGE]:locked down the security backend||
+=========================================================
+
++ @PostAuthorize("hasAnyRole('ROLE_USER','ROLE_ADMIN') or returnObject.isPublic() == true")
++ @PostAuthorize("hasAnyRole('ROLE_USER','ROLE_ADMIN') or returnObject.isPublic() == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/romoAlmudena/tfg/commit/ebe25c948378ccf244552b6df43371fd2d691c04
+
+[COMMIT MESSAGE]:Merge commit '4c692b7d1f581759708417b2053a3ebe2949f333' into merge||Unificado, academicTerm funcionando con acls.
+Creado algún metodo para ver los los grupos de un usuario (ya sea student o professor)
+
+Cambiado el logo-header
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+- @PostAuthorize("hasPermission(returnObject, 'READ')") //Single: returnObject
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=19&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/da8782dce00739dcfd78db925e8758da8f78ea76
+
+[COMMIT MESSAGE]:now the custom permission evaluator is used while retrieving a messag…||…e by its id
+=========================================================
+
+- @PostAuthorize("returnObject.username == principal.username")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/592dde8b3f63c786489ead4aa113297fe6e2e682
+
+[COMMIT MESSAGE]:added a new project to demonstrate how to implement a custom permissi…||…on evaluator
+=========================================================
+
++ @PostAuthorize("returnObject.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/4a8687af6ff756386e4c5d35bb31d24058818877
+
+[COMMIT MESSAGE]:added restriction retrieving and adding messages using pre-post annot…||…ations
+=========================================================
+
++ @PostAuthorize("returnObject.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Serge009/security-acl/commit/dff12ffd452fcebab2517cafb9522612ab710171
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/75c363593ad90a1328c656c2be150be6f66fd6fe
+
+[COMMIT MESSAGE]:RAVE-475: Create Person Profile page based off of a PageTemplate||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1294003 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/755068177ebf796d7014b9e095bb251fd34f8d55
+
+[COMMIT MESSAGE]:Code in support of RAVE-458: Person Profile multiple sub-pages||- added infrastructure to allow for a hierarchy of Page objects for any Page Type (USER, PERSON_PROFILE)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1291474 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107
+
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations||Applied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/ef31170d554b8d7b25e0af2f2f8cefc9f0dcf188
+
+[COMMIT MESSAGE]:Changes in support of RAVE-298:||- created common AbstractRestApi class
+- updated the DefaultPagePermissionEvaluator to handle permission checks when the object to be checked differs from the returned Object
+- secured remaining PageService methods that deal with Page objects, except addNewDefaultPage (see RAVE-303)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1185340 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/91c2fda6a260a84bb8b8387802788feb055d24e8
+
+[COMMIT MESSAGE]:Code to support RAVE-298 (unchecked page manipulations):||- implemented DefaultPagePermissionEvaluator
+- protected one PageService method: getPage
+- added handleAccessDeniedException to o.a.r.p.w.a.rest.PageApi
+- fixed permissionEvaluator bean definition in applicationContext-security.xml to prevent duplicate bean creation
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1183496 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=20&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/2b064dcb11054571b854b51e4232dab891e21829
+
+[COMMIT MESSAGE]:TRACKR-174 - Track sick days||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zenMycena/teahouse/commit/ee2ffbf1fa7f012b350cefe5cc9d9b420bd57877
+
+[COMMIT MESSAGE]:initial commit Restful & WebMVC & Security & H2 JPA repository||
+=========================================================
+
++ //@PostAuthorize("returnObject?.to?.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/adf2a6c521a0a873a07be5c849b4cac7d8798df7
+
+[COMMIT MESSAGE]:In case Widget object was coming null for new URL @PostAuthorize was …||…throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/2dbe0052b0f45741f4e5db56d9dbb2ebd2dc540f
+
+[COMMIT MESSAGE]:RAVE-319: Widget persistence not working||Added @Transaction annotation to the registerNewWidget and updateWidget methods to ensure JPA commits
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190457 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- * @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/2bc596199b198853e08c6abc174e64f27b5240c6
+
+[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ * @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/2c9a3b348c45042c3e16b2f33f9d74f7fd06bcae
+
+[COMMIT MESSAGE]:Authorization - service layer + presentation - need some testing and …||…cleaning, but otherwise done
+=========================================================
+
+- @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+- @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/4fb80761a94c866b8083bcb7d5afaeea4daeed46
+
+[COMMIT MESSAGE]:Authorization mostly on service layer||
+=========================================================
+
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/keslerm/reloader-tracker/commit/37dfa71afd6c3f64cb5061306d00d333b8babcea
+
+[COMMIT MESSAGE]:Updating some security related things around recipes and just changing||the struture of things a bit around handling domain objects.
+
+DTO Mapping is moving to the Controller layer.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject.userId == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/keslerm/reloader-tracker/commit/3ff236d31d3bee2b25303da815079646f2c52d8d
+
+[COMMIT MESSAGE]:Cleaning up some old dependencies and working on refactoring a lot of||the old getByUserId and using Spring Security pre/post filtering and
+authorization.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject == null || returnObject.userId == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KostadinP/web-programming-project/commit/a17ea80355881b4db8442da777b3e98674509360
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_USERS') and returnObject.user == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3
+
+[COMMIT MESSAGE]:Introduction of AclManager and refactoring of service methods||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'READ')")
++ @PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/9f186fdbace60cecada0d35b805d9ae819785fcb
+
+[COMMIT MESSAGE]:new simpler permission system||
+=========================================================
+
+-@PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/525e9454a43acd45b27e910e8749f502a9f20ff8
+
+[COMMIT MESSAGE]:Initial import server packages||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'READ')")
++ @PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/ba271d50ab6de2d0ef70948bb655eeb751cd6a11
+
+[COMMIT MESSAGE]:test||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'POST_READ')")
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'USER_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/dbe428aec6bd468c2f06efb4a2905c0adf7e01f1
+
+[COMMIT MESSAGE]:security||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ_ALL') || hasPermission(returnObject, 'READ_OWN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+- @PostAuthorize("hasPermission(returnObject, 'READ_ALL')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/aa6cda3a4e6bd889002665c7355437166580785d
+
+[COMMIT MESSAGE]:acl||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ_ALL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/6453ce1271b61a9abb94407d18c86ca79fe385bf
+
+[COMMIT MESSAGE]:acl||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ_ALL') || hasPermission(returnObject, 'READ_OWN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ristes/finki-wp/commit/28f52bbbf68a43362acbd1812924938436562db3
+
+[COMMIT MESSAGE]:- spring security with custom user details and user details service||- preparation of rest forms with angular for city and country
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_USERS') and returnObject.user == authentication.name")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=21&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thpeng/spring-time/commit/2350be6eebce396ef4d404e1ddd6475b1f9ad54a
+
+[COMMIT MESSAGE]:expanded timesheet including delete / put||
+=========================================================
+
+- @PostAuthorize("@authorizationService.isPrincipalSameAsUser(principal.username, returnObject.userId)")
++ @PostAuthorize("returnObject == null or @authorizationService.isPrincipalSameAsUser(principal.username, returnObject.userId)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thpeng/spring-time/commit/c10a0e8872838b32551861cbdce226ea482e1e73
+
+[COMMIT MESSAGE]:expanding the timesheet domain.||
+=========================================================
+
++ @PostAuthorize("@authorizationService.isPrincipalSameAsUser(principal.username, returnObject.userId)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thpeng/spring-time/commit/c10a0e8872838b32551861cbdce226ea482e1e73
+
+[COMMIT MESSAGE]:expanding the timesheet domain.||
+=========================================================
+
++ @PostAuthorize("@authorizationService.isPrincipalSameAsUser(principal.username, returnObject.userId)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thpeng/spring-time/commit/12afa668338b5a5824fb387ece54fa1b5161bcf2
+
+[COMMIT MESSAGE]:added more acl rules, fixed a bug in the existing acl||
+=========================================================
+
++ @PostAuthorize("returnObject.loginId == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/razbomi/boxing-spring-boot/commit/5529952140175ce237cc234d1782df4a5f3b89b5
+
+[COMMIT MESSAGE]:initial commit||Greeting service and file uploads, playing
+=========================================================
+
++ // @PostAuthorize("hasPermission(returnObject, read)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mikewiesner/spring-security-3.1-sample/commit/101fe953afaedcec943689befc43628648860d70
+
+[COMMIT MESSAGE]:Solution||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'show')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/5b7bb2e236491583e8205cd717ae1715c765b7dc
+
+[COMMIT MESSAGE]:link Course with CourseResource||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/c25ae7693c42b96cf3c613fcabe3ffdd070ebb52
+
+[COMMIT MESSAGE]:Link User with coursegroups||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/df76c4b09d25824960ce6df7de846229b0e3ba7c
+
+[COMMIT MESSAGE]:Add LinkerControl functions for views||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vsushko/research/commit/db98634c7cd83a2053b6245bf3cdc26382b9fc85
+
+[COMMIT MESSAGE]:complete chapter10||
+=========================================================
+
++ @PostAuthorize("returnObject.spitter.username == pincipal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/0b38017f9b485aae8c5daf35dc08b41d8ba4a55e
+
+[COMMIT MESSAGE]:Enforce Environment is 'Writable' before attempting to overwrite it. …||…This ensures that one can't hijack the environment simply because they can see it
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=22&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/eef3e42178786eee018a6dd5f11a4401499e8a78
+
+[COMMIT MESSAGE]:everything working for education page in transfer_app||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f43ee645c6ed2c86f82bbc4f47d25647c914e7
+
+[COMMIT MESSAGE]:changes made to be running with transfer app.||Added fields for NA values of dates.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thm-projects/arsnova-lms-connector/commit/1f0aeed3f5df7710b2017439b8c3b7cd28200894
+
+[COMMIT MESSAGE]:Added authentification filter, handler and tokenservice.||
+=========================================================
+
++ @PostAuthorize("isAuthenticated()")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=23&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e95acdf019c27d69c989913538180d66ab6f45b5
+
+[COMMIT MESSAGE]:TRACKR-54 - Request vacation||Added further vacation request tests and an event handler
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eaglestorm/Eldar-Works/commit/7a2180655228565d596d2152d372b5a3dada0848
+
+[COMMIT MESSAGE]:changed to web api and client.||
+=========================================================
+
++ //@PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-samples-securemail/commit/6b22d786029ce7e2f142f25d21cd931effa6d2e0
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vinutaNagaraddi/SpringStrutsTest/commit/d2ec5b44192ae4e8d7a235e20c1708a536739e55
+
+[COMMIT MESSAGE]:First Commit of Spring_Struts projecct||
+=========================================================
+
++ //@PostAuthorize("returnObject.person.lastName == 'Naga'")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/305cd0ac19044e04f1af00fecbd436628a312749
+
+[COMMIT MESSAGE]:Wip commit. Added some stupid code experiments with controller. Chang…||…ed all tabs to spaces
+=========================================================
+
+-// @PostAuthorize("hasPermission(returnObject, admin)")
++// @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/29f0782d57cc7d8403cf781877fbf552c31ac968
+
+[COMMIT MESSAGE]:Added 'Login controller' and simple logic to process login failure. S…||…witched off method security.
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, admin)")
++// @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/de843a7fd3238f183253fe1aff259380f3ea5db5
+
+[COMMIT MESSAGE]:Big success. Somehow it feels mute though. ACL started to work, event…||…ually. Everything that is left is to create administrative tools, and the whole infrastructure to support security requirements. As simple as an apple pie :) Just agonising, don't mind...
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/9c5aed234502a56f789d2319caa3b0e0a5d23132
+
+[COMMIT MESSAGE]:RAVE-731 Refactored WidgetComment to no longer need the widgetID attr…||…ibute.
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/branches/model-split@1394834 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/0acaf1f25e712b4ec3c9930bec04baa62f7e841e
+
+[COMMIT MESSAGE]:In case Widget object was coming null for new URL @PostAuthorize was …||…throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/2dbe0052b0f45741f4e5db56d9dbb2ebd2dc540f
+
+[COMMIT MESSAGE]:RAVE-319: Widget persistence not working||Added @Transaction annotation to the registerNewWidget and updateWidget methods to ensure JPA commits
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190457 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- * @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/2bc596199b198853e08c6abc174e64f27b5240c6
+
+[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ * @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=24&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/qiaoma/tic_tac_toe/commit/b76b8f3f67ef8146688235a64a84e69b2e4607e4
+
+[COMMIT MESSAGE]:Initial commit on Tic Tac Toe app||
+=========================================================
+
++ //@PostAuthorize("principal.username == returnObject.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jmisur/javaagent/commit/2e7692adc1a85f520b4c7229ecff849ff4a6b9ef
+
+[COMMIT MESSAGE]:spring security poc||
+=========================================================
+
++ @PostAuthorize("returnObject.token == principal.username.toUpperCase()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tomekl007/spitterMVCplusHibernate/commit/0bac83428d85ca0e8c4e7d474bdcd0b4735f1805
+
+[COMMIT MESSAGE]:add RESTfull services||
+=========================================================
+
+- @PostAuthorize("returnObject.spitter.username==principal.username")
++ //@PostAuthorize("returnObject.spitter.username==principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tomekl007/spitterMVCplusHibernate/commit/56eaf6be846c07a276af1d021b26caa3922a22af
+
+[COMMIT MESSAGE]:add custom login, using plain Text, DB, or ldap||
+=========================================================
+
++ @PostAuthorize("returnObject.spitter.username==principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/flybigcat/TicTacToeGame/commit/bab05b3c16da11659e8c17522f893a6f6c9cd3a6
+
+[COMMIT MESSAGE]:TicTacToe Game (full version)||
+=========================================================
+
++ @PostAuthorize("principal.username == returnObject.player1.username")
++@PostAuthorize("principal.username == returnObject.player1.username") is used for method
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OpenConext/OpenConext-api/commit/986af4fa0770f9e78fda840dbf4f0f205ac190de
+
+[COMMIT MESSAGE]:re enabled restrictions on group service and person service calls||
+=========================================================
+
+- //@PostAuthorize("#onBehalf == null or returnObject.isMember(#onBehalfOf)")
++ @PostAuthorize("#onBehalf == null or returnObject.isMember(#onBehalfOf)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OpenConext/OpenConext-api/commit/7f2b4d61730b1cdcb586cb7519c919dd0396febb
+
+[COMMIT MESSAGE]:Added sortBy, startIndex, count support on the External Group Provide…||…r to be used in SURFteams
+=========================================================
+
+- @PostAuthorize("#onBehalf == null or returnObject.isMember(#onBehalfOf)")
++ //@PostAuthorize("#onBehalf == null or returnObject.isMember(#onBehalfOf)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OpenConext/OpenConext-api/commit/0a7472e20d0f21c90257471ec44afc5873e2013c
+
+[COMMIT MESSAGE]:BACKLOG-387: implementation of person api: access control; mock ldap …||…service; mock eb service;
+=========================================================
+
++ @PostAuthorize("#onBehalf == null or returnObject.isMember(#onBehalfOf)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/a79dc2dde57d34fe478c83e01a9fef7fe67941d9
+
+[COMMIT MESSAGE]:Added 004-method-authorization-using-acls.||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("(hasPermission(returnObject, read) and returnObject.visible) or hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/1ca75a3cb5f864a58533b1d1eebb44b61a98f928
+
+[COMMIT MESSAGE]:Added 005-view-authorization-using-acls||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("(hasPermission(returnObject, read) and returnObject.visible) or hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/39fa37b0e8c544bb1cacc5a2c7e0246bfef12664
+
+[COMMIT MESSAGE]:RAVE-835 Merge all from model-split at 1403154 (reintegration)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1403166 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc
+
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=25&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mff-uk/ODCS/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mindblender/uPortal-old/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b
+
+[COMMIT MESSAGE]:UP-2950 Adding support and configuration for Spring Security annotati…||…on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'VIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/47f0dd1945dae7979bdff681d7e8a9a05fc2e759
+
+[COMMIT MESSAGE]:pridani podpory pro logovani||
+=========================================================
+
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/8f04e52503abdade8db194278140037da3a83edf
+
+[COMMIT MESSAGE]:nova verze||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_sellers_all') or returnObject.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/05497cc0d509aa63ebf1c8badec71e15fa2aa78e
+
+[COMMIT MESSAGE]:editace profilu, captcha atd.||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/fc327c0dfd7b996a2e185588c2b31f49d648660f
+
+[COMMIT MESSAGE]:zabezpeceni, uprava editace inzeratu||
+=========================================================
+
++ @PostAuthorize("isAnonymous() or returnObject.seller.id == principal.sellerId")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/6ad9916702f7f90b282b9fa561977e0cecccc3e5
+
+[COMMIT MESSAGE]:oprava drobnych chyb||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplaySeller(returnObject)")
+- @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplaySeller(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/47f0dd1945dae7979bdff681d7e8a9a05fc2e759
+
+[COMMIT MESSAGE]:pridani podpory pro logovani||
+=========================================================
+
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/8f04e52503abdade8db194278140037da3a83edf
+
+[COMMIT MESSAGE]:nova verze||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_sellers_all') or returnObject.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/c45447e04603745d6c9aa5dc934d9074087fe660
+
+[COMMIT MESSAGE]:uprava zabezpeceni||
+=========================================================
+
++ @PostAuthorize("isAnonymous() or hasRole('ROLE_per_sellers_all') or returnObject.id == principal.sellerId")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/05497cc0d509aa63ebf1c8badec71e15fa2aa78e
+
+[COMMIT MESSAGE]:editace profilu, captcha atd.||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/ab2a98580f8ac2e53384d19c353ddeb2f415b6dd
+
+[COMMIT MESSAGE]:added TarnsferApplication Resource||cleaning getMyUser
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f43ee645c6ed2c86f82bbc4f47d25647c914e7
+
+[COMMIT MESSAGE]:changes made to be running with transfer app.||Added fields for NA values of dates.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=26&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/fc0d75709de4b59142028bfb118704ab5ffcc28d
+
+[COMMIT MESSAGE]:Muokattu tekstikappalenäkymä tukemaan viiteid:tä||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject.id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/8537365888800646f1bd2243b76a9cfacb546537
+
+[COMMIT MESSAGE]:Tutkinnon osien käsittely viitteiden avulla refactorointi.||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject.tutkinnonOsaDto.id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/42bbfc5e21a637e84c942fd0e4ce94b53f1a495e
+
+[COMMIT MESSAGE]:oikeustarkisteluja.||Lisätty oikeustarkisteluja ja refaktoroitu julkista palvelukerroksen
+API:a.
+=========================================================
+
+- @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+- @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/feecc4fd868c42eef0b8233dc14b4403d1c81b58
+
+[COMMIT MESSAGE]:kosmeettisia muutoksia||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject.id, 'perusteenosa', 'MUOKKAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/deef82e74791ffa5a2fe5057ba9f3e7851cca7b5
+
+[COMMIT MESSAGE]:Oikeustarkistelun toteutusta.||Perusteenosiin liittyvän perusteprojektin hakeminen. Perustetta tai
+perusteen osaa ei voi enää muokata ellei se kuulu käynnissä olevaan
+perusteprojektiin (osa tarkistuksista puuttuu yhä).
+=========================================================
+
++ @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
++ @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/e3f7f4c6034697b476db9e7ca8e6021fcf4395b4
+
+[COMMIT MESSAGE]:Updated page service to create instances of pages by page template id…||… RAVE-1066
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1531267 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/87f01bea2a8ccc9eb8c0396c837429d6383a4bae
+
+[COMMIT MESSAGE]:Changing to filter permission annotation (RAVE-1054)||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1521535 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/1bd8c9e663ea6c17cdaad1769e89c03d61615ee1
+
+[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/7a43cad0deac81e5e5a08fb50906c2b90bf7ca84
+
+[COMMIT MESSAGE]:Fill out controllers, add 204 response filter||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1510718 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/9cbfd16293260a48e5e5895c556ac7142330df49
+
+[COMMIT MESSAGE]:RAVE-1011: Update page service to support get all / get limited||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1508584 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/cc247d6114bb520ecdf0dda32cc8e6f30ccb03c0
+
+[COMMIT MESSAGE]:Updates and changes to implement page sharing between rave users. See…||… RAVE-103. (Support shared spaces.)
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1335687 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/a94b16a309511b320c9e0f64479a25ece0eab12a
+
+[COMMIT MESSAGE]:RAVE-475: Create Person Profile page based off of a PageTemplate||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1294003 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/f7084fdd8f1b5c8dcf1d2215dc906927eec0d04e
+
+[COMMIT MESSAGE]:Code in support of RAVE-458: Person Profile multiple sub-pages||- added infrastructure to allow for a hierarchy of Page objects for any Page Type (USER, PERSON_PROFILE)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1291474 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107
+
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations||Applied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/ef31170d554b8d7b25e0af2f2f8cefc9f0dcf188
+
+[COMMIT MESSAGE]:Changes in support of RAVE-298:||- created common AbstractRestApi class
+- updated the DefaultPagePermissionEvaluator to handle permission checks when the object to be checked differs from the returned Object
+- secured remaining PageService methods that deal with Page objects, except addNewDefaultPage (see RAVE-303)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1185340 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/91c2fda6a260a84bb8b8387802788feb055d24e8
+
+[COMMIT MESSAGE]:Code to support RAVE-298 (unchecked page manipulations):||- implemented DefaultPagePermissionEvaluator
+- protected one PageService method: getPage
+- added handleAccessDeniedException to o.a.r.p.w.a.rest.PageApi
+- fixed permissionEvaluator bean definition in applicationContext-security.xml to prevent duplicate bean creation
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1183496 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/6e886c74aa02a87db9705ef27ebf8bae70f7689b
+
+[COMMIT MESSAGE]:Updated page service to create instances of pages by page template id…||… RAVE-1066
+
+git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1531267 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/ad607595994288cd8e9cb343cf72278d0d44dedc
+
+[COMMIT MESSAGE]:Changing to filter permission annotation (RAVE-1054)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1521535 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/ceb1665b0d5653ff71f2ef7f0ade85f098ca1631
+
+[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/c3bc0ff1f19a992bb6891aa17ea16d47bc6138eb
+
+[COMMIT MESSAGE]:Fill out controllers, add 204 response filter||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1510718 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/f9bb62c515751b1859af25c5af4fff7e41ec8de7
+
+[COMMIT MESSAGE]:RAVE-1011: Update page service to support get all / get limited||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1508584 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/39fa37b0e8c544bb1cacc5a2c7e0246bfef12664
+
+[COMMIT MESSAGE]:RAVE-835 Merge all from model-split at 1403154 (reintegration)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1403166 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2b3b144d1fb7fd43891b8f682768b7d6affceb47
+
+[COMMIT MESSAGE]:Updates and changes to implement page sharing between rave users. See…||… RAVE-103. (Support shared spaces.)
+
+git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1335687 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc
+
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/71d000be167d856372e8d65f528151400fd9f0a8
+
+[COMMIT MESSAGE]:Fixed issue with null values. Everything but file upload is working.||Notice wierd qwerk with hibernate and embedded objects.  It is updating
+them unnecissarily.
+=========================================================
+
+- @PostAuthorize("hasPermission(#returnObject, 'read') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'read') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd
+
+[COMMIT MESSAGE]:-Added fuctionality to get all responses for a given form id.||-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.
+=========================================================
+
++ @PostAuthorize("hasPermission(#returnObject, 'read') or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=27&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kumlien/school/commit/d542eadb04839c32abd634d14f2eb91054abee82
+
+[COMMIT MESSAGE]:Lägg till lite mer security||
+=========================================================
+
++ @PostAuthorize("(returnObject.body != null and returnObject.body.username == principal.username) or hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/3e766437ab4474111f7a4c8a980f5f2e9574094e
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or (hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/296ebe880482ebcd493dc091d04de5c9caa95a39
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_ADMIN') or (hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain) or (hasRole('ROLE_DOMAIN_ACCOUNT') and #username == principal.username)")
++ @PostAuthorize("hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-projects/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4
+
+[COMMIT MESSAGE]:SEC-2151: Support binding method arguments with Annotations||This allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.
+=========================================================
+
++ @PostAuthorize("#o?.contains('grant')")
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tekul/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4
+
+[COMMIT MESSAGE]:SEC-2151: Support binding method arguments with Annotations||This allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.
+=========================================================
+
++ @PostAuthorize("#o?.contains('grant')")
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107
+
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations||Applied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Jasig/uPortal/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b
+
+[COMMIT MESSAGE]:UP-2950 Adding support and configuration for Spring Security annotati…||…on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'VIEW')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=28&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Myhall/PA165_DeliveryService/commit/33456fd2a71a5223d6ac11c28f18138fe6fcb796
+
+[COMMIT MESSAGE]:Access rights for service layer methods + facade||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Myhall/PA165_DeliveryService/commit/33456fd2a71a5223d6ac11c28f18138fe6fcb796
+
+[COMMIT MESSAGE]:Access rights for service layer methods + facade||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thepresbyterian/topchef/commit/2ef860afaf9d4a218818400ef057a8b4f3b5f0ea
+
+[COMMIT MESSAGE]:Publishing to GitHub||
+=========================================================
+
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("isAuthenticated()")
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN') and @methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or @methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/2c9a3b348c45042c3e16b2f33f9d74f7fd06bcae
+
+[COMMIT MESSAGE]:Authorization - service layer + presentation - need some testing and …||…cleaning, but otherwise done
+=========================================================
+
+- @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+- @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/4fb80761a94c866b8083bcb7d5afaeea4daeed46
+
+[COMMIT MESSAGE]:Authorization mostly on service layer||
+=========================================================
+
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107
+
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations||Applied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=29&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

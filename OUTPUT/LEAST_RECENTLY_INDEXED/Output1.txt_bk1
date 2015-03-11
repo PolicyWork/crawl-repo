@@ -1,0 +1,1257 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maxcom/lorsource/commit/62ab0e633b20e3a55ba8dc34d4c576b76068cba5
+
+[COMMIT MESSAGE]:SS: для post запросов к search-reindex||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maxcom/lorsource/commit/9ed833c4f20d0147b31dc8ce3c90cc835829bad8
+
+[COMMIT MESSAGE]:SS:заработали анатации||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/c53d6bd143b7774c67a449e358165145acf8ecc7
+
+[COMMIT MESSAGE]:After many days I finally have the authorization done.||Seriously, it was all because I had my business services in the
+servlet XML file instead of the application context files. ****.
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/709c5118f64eb05e89af5e26df295928d7bf739b
+
+[COMMIT MESSAGE]:Still hard at work. Adding in access controls.||Right now the whole salted password is throwing me for a loop. Will
+look at it when I come back to this.
+=========================================================
+
++ @PreAuthorize("hasPermission(#lab, admin)")
++ @PreAuthorize("hasPermission(#lab, admin)")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasPermission(#labId, 'jpl.simle.domain.Lab', admin)")
++ @PreAuthorize("hasPermission(#lab, admin)")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/279acdba1adbd5c940bbb83a95e425ff0449f695
+
+[COMMIT MESSAGE]:Added user editor and associated unit tests.||
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN'))")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN'))")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/c53d6bd143b7774c67a449e358165145acf8ecc7
+
+[COMMIT MESSAGE]:After many days I finally have the authorization done.||Seriously, it was all because I had my business services in the
+servlet XML file instead of the application context files. ****.
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_GROUP_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/709c5118f64eb05e89af5e26df295928d7bf739b
+
+[COMMIT MESSAGE]:Still hard at work. Adding in access controls.||Right now the whole salted password is throwing me for a loop. Will
+look at it when I come back to this.
+=========================================================
+
++ @PreAuthorize("hasPermission(#lab, admin)")
++ @PreAuthorize("hasPermission(#lab, admin)")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasPermission(#labId, 'jpl.simle.domain.Lab', admin)")
++ @PreAuthorize("hasPermission(#lab, admin)")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/279acdba1adbd5c940bbb83a95e425ff0449f695
+
+[COMMIT MESSAGE]:Added user editor and associated unit tests.||
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN'))")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN'))")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/62e106d4d732cdfc3593e82168b9ffdbd69995dc
+
+[COMMIT MESSAGE]:Added in group authentication.||Switched to spring security 3.0 because of its awesome PreAuthorize annotation.
+
+Renamed DAO classes to Service classes, because that's what they were. Pushed
+domain specific logic into the domain classes and extracted the service
+interfaces.
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN'))")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/95e310d5ef45a83612bd045a27620e67dc5180b4
+
+[COMMIT MESSAGE]:Removing dependency on old hibernate based spring validation. Using o…||…val's validation. Changing every controller to use the new validation and added some tests
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/0ab1ab8d986c541eba19290084b211f885e044d4
+
+[COMMIT MESSAGE]:fixing more issues in REST layer regarding institutes||
+=========================================================
+
++ //@PreAuthorize("hasIpAddress('127.0.0.1/24')")
++ //@PreAuthorize("hasIpAddress('127.0.0.1/24')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/5d2991db36145abc64e8f14ec3e972b2b604e26f
+
+[COMMIT MESSAGE]:Adding institute REST APIs. Still, the REST app is broken. Working on…||… it...
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/0ab1ab8d986c541eba19290084b211f885e044d4
+
+[COMMIT MESSAGE]:fixing more issues in REST layer regarding institutes||
+=========================================================
+
++ //@PreAuthorize("hasIpAddress('127.0.0.1/24')")
++ //@PreAuthorize("hasIpAddress('127.0.0.1/24')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/95d2d5c54739a65751151d4aef48c71036ecff27
+
+[COMMIT MESSAGE]:Feature #11: Adding user service layer, controller layer, controller …||…tests
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/95d2d5c54739a65751151d4aef48c71036ecff27
+
+[COMMIT MESSAGE]:Feature #11: Adding user service layer, controller layer, controller …||…tests
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/effc4a82792a10cbd37f507b48cc7001b4f2b7af
+
+[COMMIT MESSAGE]:Feature #9: Adding some REST APIs for Departments. Creating proper se…||…tup for the other APIs too.
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/7bac412daf1b3f0e5220acf9d4918a014116d489
+
+[COMMIT MESSAGE]:Adding course controller and setup for scala tests||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sigabort/venus/commit/583f5cd9026afe91d9e8b7d15198c968d2f04480
+
+[COMMIT MESSAGE]:feature #11: adding service/controller layer for user roles||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=2&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/4e4242d01096f268a1f293a94515545dc6f3c8f4
+
+[COMMIT MESSAGE]:SEC-1354: Added integration tests for combinations of @PreAuthorize and||@Secured annotations.
+=========================================================
+
++ @PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('ROLE_A')")
++ @PreAuthorize("hasRole('ROLE_A')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/4e4242d01096f268a1f293a94515545dc6f3c8f4
+
+[COMMIT MESSAGE]:SEC-1354: Added integration tests for combinations of @PreAuthorize and||@Secured annotations.
+=========================================================
+
++ @PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('ROLE_A')")
++ @PreAuthorize("hasRole('ROLE_A')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/e11114ce770be5cd0242cf15b30833b3b692282e
+
+[COMMIT MESSAGE]:SEC-1023: Add hasPermission() support to SecurityExpressionRoot||http://jira.springframework.org/browse/SEC-1023.
+
+hasPermission() now delegates to a PermissionEvaluator interface, with a default implementation provided by the Acl module. The contacts sample now uses expressions on the ContactManager interface. The permission-evaluator element on global-method-security can be used to set the instance to an AclPermissionEvaluator. If not set, all hasPermission() expressions will evaluate to 'false'.
+=========================================================
+
++@PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#contact, 'delete') or hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bjerkek/Spring-MVC-3.0-Sandbox/commit/cdada2f6b58dea26105c90ff2643a7af3a5fb652
+
+[COMMIT MESSAGE]:initial push||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/32a1bd7fe28f4787278b6a37cc3666c69796e1ef
+
+[COMMIT MESSAGE]:adding sources||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#meeting.owner.email == principal.Username) or (#meeting.study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("(#korTerm.member.email == principal.Username) or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=3&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/99f235145886f11dff4beafea37d55148f5f8ec5
+
+[COMMIT MESSAGE]:낙서장 서버||
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/32a1bd7fe28f4787278b6a37cc3666c69796e1ef
+
+[COMMIT MESSAGE]:adding sources||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#meeting.owner.email == principal.Username) or (#meeting.study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("(#korTerm.member.email == principal.Username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/cd7f7c0923ca83921c187041851b99a8bd1d7ed8
+
+[COMMIT MESSAGE]:- 모임뷰 공개||
+=========================================================
+
+- @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/32a1bd7fe28f4787278b6a37cc3666c69796e1ef
+
+[COMMIT MESSAGE]:adding sources||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#meeting.owner.email == principal.Username) or (#meeting.study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("(#korTerm.member.email == principal.Username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/32a1bd7fe28f4787278b6a37cc3666c69796e1ef
+
+[COMMIT MESSAGE]:adding sources||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#meeting.owner.email == principal.Username) or (#meeting.study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("(#korTerm.member.email == principal.Username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/40c78132a43b6e699cd47660c9ec7402136a96f1
+
+[COMMIT MESSAGE]:- 스터디 가입하지 않은 상태에서 모임 신청시 스터디 자동 가입||
+=========================================================
+
+- @PreAuthorize("(#meeting.owner.email == principal.Username) or (#meeting.study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#meeting.owner.email == principal.Username) or (#meeting.study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/32a1bd7fe28f4787278b6a37cc3666c69796e1ef
+
+[COMMIT MESSAGE]:adding sources||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or (#member.email == principal.Username)")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#meeting.owner.email == principal.Username) or (#meeting.study.manager.email == principal.Username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("(#korTerm.member.email == principal.Username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jpj/yourcarslife-webapp/commit/f37bdaa4e9bcde77e0a3b066c1243419ab10b2a4
+
+[COMMIT MESSAGE]:Use spring sec @PreAuth to secure request body||
+=========================================================
+
++ @PreAuthorize("@decider.canAccessVehicle(#vehicleId, principal)")
++ @PreAuthorize("@decider.canAccessLog(#logId, principal)")
++ @PreAuthorize("@decider.canAccessVehicle(#inFuelLog.vehicle.vehicleId, principal)")
++ @PreAuthorize("@decider.canAccessVehicle(#inFuelLog.vehicle.vehicleId, principal)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jpj/yourcarslife-webapp/commit/e2caea5879fa2deaaf746d9d355262f6e3106708
+
+[COMMIT MESSAGE]:Ability to delete vehicles||
+=========================================================
+
++ @PreAuthorize("@decider.canAccessVehicle(#vehicleId, principal)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jpj/yourcarslife-webapp/commit/e2fc74b4311f7f853fc9e6a5d6dd488f22ac5e9a
+
+[COMMIT MESSAGE]:No need to secure with @decider since there is no vehicleId present||
+=========================================================
+
+- @PreAuthorize("@decider.canAccessVehicle(#inVehicle.vehicleId, principal)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jpj/yourcarslife-webapp/commit/e2fc74b4311f7f853fc9e6a5d6dd488f22ac5e9a
+
+[COMMIT MESSAGE]:No need to secure with @decider since there is no vehicleId present||
+=========================================================
+
+- @PreAuthorize("@decider.canAccessVehicle(#inVehicle.vehicleId, principal)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jpj/yourcarslife-webapp/commit/5f466624146ee94e1f05b253466979e3b96ba6b1
+
+[COMMIT MESSAGE]:Ability to update vehicle info.||
+=========================================================
+
++ @PreAuthorize("@decider.canAccessVehicle(#vehicleId, principal)")
++ @PreAuthorize("@decider.canAccessVehicle(#inVehicle.vehicleId, principal)")
++ @PreAuthorize("@decider.canAccessVehicle(#vehicleId, principal)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cleverpig/jsfsecurity/commit/1d0e6d2d9e0f2befd816ee52b50af833d9d307e4
+
+[COMMIT MESSAGE]:first import project||
+=========================================================
+
++ // @PreAuthorize("hasRole('PERM_ACCESS_ADMIN')")
++ // @PreAuthorize("hasAnyRole('PERM_ACCESS_ADMIN','PERM_ACCESS_USER')")
++// @PreAuthorize("hasRole('PERM_ACCESS_ADMIN')")
++// @PreAuthorize("hasAnyRole('PERM_ACCESS_ADMIN','PERM_ACCESS_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cleverpig/jsfsecurity/commit/1d0e6d2d9e0f2befd816ee52b50af833d9d307e4
+
+[COMMIT MESSAGE]:first import project||
+=========================================================
+
++ // @PreAuthorize("hasRole('PERM_ACCESS_ADMIN')")
++ // @PreAuthorize("hasAnyRole('PERM_ACCESS_ADMIN','PERM_ACCESS_USER')")
++// @PreAuthorize("hasRole('PERM_ACCESS_ADMIN')")
++// @PreAuthorize("hasAnyRole('PERM_ACCESS_ADMIN','PERM_ACCESS_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/afe4cf3ce1e0a1d32fde0cfcac4e66cf2311f145
+
+[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+- @PreAuthorize("hasRole('ROLE_STUDENT')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")// only students should have a list of work efforts ... though a different error than "access denied" might be desirable to admins
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=4&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/afe4cf3ce1e0a1d32fde0cfcac4e66cf2311f145
+
+[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+- @PreAuthorize("hasRole('ROLE_STUDENT')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")// only students should have a list of work efforts ... though a different error than "access denied" might be desirable to admins
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/afe4cf3ce1e0a1d32fde0cfcac4e66cf2311f145
+
+[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+- @PreAuthorize("hasRole('ROLE_STUDENT')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")// only students should have a list of work efforts ... though a different error than "access denied" might be desirable to admins
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/feafe6b0679f7429864c42b3ce0ad84a579ba8a2
+
+[COMMIT MESSAGE]:ROLE_ADMIN can no longer modify/create UserAccount; changed student q…||…uery to list CatalogRequirement degree code prefixes in its list instead of an enum
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/afe4cf3ce1e0a1d32fde0cfcac4e66cf2311f145
+
+[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+- @PreAuthorize("hasRole('ROLE_STUDENT')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")// only students should have a list of work efforts ... though a different error than "access denied" might be desirable to admins
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/7eef3be9d45010c4238644cf360fd339b1e9f724
+
+[COMMIT MESSAGE]:still working on upload file||
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/2ad7512369d3c30bde48f041428dce8e45f79b52
+
+[COMMIT MESSAGE]:DO NOT pull because there are errors; i am in the process of changing…||… some things around
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/c86b14639b73e7556947793e92c2ed69feeae777
+
+[COMMIT MESSAGE]:transferTo functionality works (file gets stored at /src right now, s…||…o I will probably change that later...)
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN,'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN,'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/71f0dd13e653a98d73f6d7981e883f270b1208e9
+
+[COMMIT MESSAGE]:please do not pull from this, as i do not know if it works. this push…||… is just a way for me to save the code i have written so far for uploading files
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN,'ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN,'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/a145fbb420bc7623a3df11b450eadc4fa9dac055
+
+[COMMIT MESSAGE]:very basic file upload added; currently does not use a form backing o…||…bject; simply outputs the contents of the file; could be used as a base for the file processing
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/afe4cf3ce1e0a1d32fde0cfcac4e66cf2311f145
+
+[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+- @PreAuthorize("hasRole('ROLE_STUDENT')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")// only students should have a list of work efforts ... though a different error than "access denied" might be desirable to admins
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/ffdda53406966dd072a9d2e304c27b50e3d5d8fa
+
+[COMMIT MESSAGE]:views.xml changes; security changes; view work effort voter added||
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")
+- @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/71c34d51e8952d0e3145ff8efb6b8fa0a82e0c36
+
+[COMMIT MESSAGE]:allowed method security on controllers; the beginnings of use case 2 …||…(student view: list jobs) added
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/0caff4acd49575fadec114e71d71e2152af39d11
+
+[COMMIT MESSAGE]:merged with doccz||
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/c5d04630801c5486fcbdb6b5ac15ab77e0aae3c0
+
+[COMMIT MESSAGE]:session experiments; when a ROLE_USER UserAccount logs in (students),…||… a Student is kept in the session
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/ffdda53406966dd072a9d2e304c27b50e3d5d8fa
+
+[COMMIT MESSAGE]:views.xml changes; security changes; view work effort voter added||
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")
+- @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/ffdda53406966dd072a9d2e304c27b50e3d5d8fa
+
+[COMMIT MESSAGE]:views.xml changes; security changes; view work effort voter added||
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'ROLE_SUPERUSER'")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")
+- @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/feafe6b0679f7429864c42b3ce0ad84a579ba8a2
+
+[COMMIT MESSAGE]:ROLE_ADMIN can no longer modify/create UserAccount; changed student q…||…uery to list CatalogRequirement degree code prefixes in its list instead of an enum
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasRole('ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/afe4cf3ce1e0a1d32fde0cfcac4e66cf2311f145
+
+[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+- @PreAuthorize("hasRole('ROLE_STUDENT')")
++ @PreAuthorize("hasRole('ROLE_STUDENT')")// only students should have a list of work efforts ... though a different error than "access denied" might be desirable to admins
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doccz/RebelHotel/commit/8ca5b9990b1c3efdd939f63a514b182c000612ff
+
+[COMMIT MESSAGE]:merge with Suzanna||
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_SUPERUSER')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_SUPERUSER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'ROLE_SUPERUSER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/a5450d42d1c032bb495ee6fe990e5583a24f32dd
+
+[COMMIT MESSAGE]:MIFOS-6100: While disbursing the loan, if the charges are debited thr…||…ough the savings account, the entry is not getting generated in the Savings Account. But the loan contract is credited with the charges
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/e3720c12c7dd2b9def817bb152a5da677793d101
+
+[COMMIT MESSAGE]:Merge branch 'j-maint'||Conflicts:
+	appdomain/src/main/java/org/mifos/accounts/loan/util/helpers/LoanConstants.java
+	appdomain/src/main/java/org/mifos/accounts/loan/util/helpers/LoanExceptionConstants.java
+	appdomain/src/main/resources/org/mifos/config/resources/applicationConfiguration.default.properties
+	serviceInterfaces/src/main/java/org/mifos/dto/screen/GroupSearchResultDto.java
+	userInterface/src/main/java/org/mifos/clientportfolio/loan/ui/LoanAccountController.java
+	userInterface/src/main/java/org/mifos/ui/pentaho/controller/PentahoReportingController.java
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/5bc9c2919b2cbc36e2691fd553298266e34e3b42
+
+[COMMIT MESSAGE]:MIFOS-5807: reimplemented adjustment functionality for new Group Loans.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/d2dc1ae4050b0d2cea25eb152a5841b7c9cc93e4
+
+[COMMIT MESSAGE]:MIFOS-5628: Added apply charges. WIP||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/f9ede4f2ebee1cef684783e27577621178993553
+
+[COMMIT MESSAGE]:MIFOS-5456: Adjusting transfer payments||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/0c50fc44721a18b391d477b9406407e0a390bdba
+
+[COMMIT MESSAGE]:MIFOS-5456: Adjusting payments made from savings||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/5cb9952261a4b173ec4a7fb24ea02dbf40c05c38
+
+[COMMIT MESSAGE]:MIFOS-5586: Historical adjustments in savings accounts||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/13f1d61ffe60bd9fabdf15a6c8df807d3b45a598
+
+[COMMIT MESSAGE]:MIFOS-5456: Ability to make payments from a savings account||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/994bf5effd69002e5223ca46c860ab8046012527
+
+[COMMIT MESSAGE]:MIFOS-5182: Added interface for pre-payments||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/8ec86bfc0028d48ae4ea49f343ae6c885d44f61a
+
+[COMMIT MESSAGE]:MIFOS-5373 Historical Data: option to adjust date, amount, payment type||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/3f159c63ae2f1e6c08eae729dbb789039c63640a
+
+[COMMIT MESSAGE]:MIFOS-5373: Reverting a past payment||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/9cfd59785fa9372adc439683074396b613dea76f
+
+[COMMIT MESSAGE]:FIXED MIFOS-5451: Add option to apply automatic penalties via Apply C…||…harges dropdown
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=5&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/4954bcf9394e44e06a6902340dde085a1d9c193b
+
+[COMMIT MESSAGE]:MIFOS-5992: Added permissions, Pentaho reports parameters and other m…||…inor fixes
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_MIFOS_LOGO')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/e3720c12c7dd2b9def817bb152a5da677793d101
+
+[COMMIT MESSAGE]:Merge branch 'j-maint'||Conflicts:
+	appdomain/src/main/java/org/mifos/accounts/loan/util/helpers/LoanConstants.java
+	appdomain/src/main/java/org/mifos/accounts/loan/util/helpers/LoanExceptionConstants.java
+	appdomain/src/main/resources/org/mifos/config/resources/applicationConfiguration.default.properties
+	serviceInterfaces/src/main/java/org/mifos/dto/screen/GroupSearchResultDto.java
+	userInterface/src/main/java/org/mifos/clientportfolio/loan/ui/LoanAccountController.java
+	userInterface/src/main/java/org/mifos/ui/pentaho/controller/PentahoReportingController.java
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/c99bdd4ee2b4fb747b620d30ac235ebfc59948e1
+
+[COMMIT MESSAGE]:MIFOS-5828: Added date when warehouse database successfully updated||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/2e80e5d8b0eb03947c5f0dc27dc759d5f87b4ae6
+
+[COMMIT MESSAGE]:MIFOS-5616: added possibility to upload Pentaho Admin Documents.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/bda9889808e3836b1b555c3709b3454333b47ebb
+
+[COMMIT MESSAGE]:MIFOS-5562: Added permissions checking in Pentaho reports||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/867b23b8dead08287175973aa454c950a152d566
+
+[COMMIT MESSAGE]:MIFOS-5562: Fixed report names||
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/afe7e498ce23d1eea3488250dd8799744cad94d8
+
+[COMMIT MESSAGE]:MIFOS-5562: Automatic UI generation for parameters||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/5ed8c610326400534bc778be53ba48db616d60e4
+
+[COMMIT MESSAGE]:MIFOS-5562: Embedded Pentaho reports, ability to upload and run repor…||…ts(parameters not supported yet)
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/68e45e4bc2988093bb8752e94b6d662c3aab27f4
+
+[COMMIT MESSAGE]:Revert "MIFOS-5562: Embedded Pentaho reports, ability to upload and r…||…un a report without parameters"
+
+This reverts commit 8fca1fc.
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/8fca1fca671d87f011613be693c2d74c2dc7a301
+
+[COMMIT MESSAGE]:MIFOS-5562: Embedded Pentaho reports, ability to upload and run a rep…||…ort without parameters
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/17f2126a39438d1ac3f5555e26808fbdda574cce
+
+[COMMIT MESSAGE]:MIFOS-5318 : Sort Approved/Rejected list by Created date by default||
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated() and hasAnyRole('CAN_APPROVE_REST_API')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/e4bde84e2f80b50c0ca8bfda82b05ba5d8ebe2c8
+
+[COMMIT MESSAGE]:MIFOS-5167 : MIFOS-5164 : UI to show REST API operations list||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('CAN_APPROVE_REST_API')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/62381e630d759ccc3c41e1df64653d7dfc20564b
+
+[COMMIT MESSAGE]:MIFOS-5172 : MIFOS-5164 : Permission for approval step (upgrade and a…||…ctivity)
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('CAN_APPROVE_REST_API')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('CAN_APPROVE_REST_API')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('CAN_APPROVE_REST_API')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('CAN_APPROVE_REST_API')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('CAN_APPROVE_REST_API')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/0d22867e6550dc18d29b5aebd05f2e7b5c96520f
+
+[COMMIT MESSAGE]:MIFOS-5712: Chart of Accounts UI||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/95078913e7bd697bc91be03da8d20eb314377673
+
+[COMMIT MESSAGE]:Fixed MIFOS-4270 - Groups mandatory savings account wasnt recalculate…||…d after removing client from group with mandatory savings per individual
+
+MIFOS-5844 - Enabled and fixed automated test veryfing group savings TotalAmountDue calculation, while removing client from group
+
+MIFOS-5844 - Fixed intendations
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/f9ede4f2ebee1cef684783e27577621178993553
+
+[COMMIT MESSAGE]:MIFOS-5456: Adjusting transfer payments||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/

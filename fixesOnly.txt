@@ -1,0 +1,5 @@
+[COMMIT MESSAGE]:Fixed issue with null values. Everything but file upload is working.||Notice wierd qwerk with hibernate and embedded objects.  It is updating
+[COMMIT MESSAGE]:Fixed a permissions-related issue in the upload files functionality||where a user was being authorised for a null domain object.
+[COMMIT MESSAGE]:Add: support for basic authentication to restricted GeoServer.||Add: wmc ui elements, added support for namespace prefixes in jaxb
+[COMMIT MESSAGE]:Loads of fixes||
+[COMMIT MESSAGE]:Loads of fixes||

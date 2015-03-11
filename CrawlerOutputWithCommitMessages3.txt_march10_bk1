@@ -1,0 +1,697 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/barakawei/miwork/commit/5f7da6ec1b2a2baf612b5d72abb222504c06387c
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ // @PreFilter("filterObject.account == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thiagoandrade6/security-acl/commit/84d6f4ad0738b3aad02624f956c67493e804256c
+
+[COMMIT MESSAGE]:some improvements on acl||
+=========================================================
+
++ @PreFilter("hasPermission(filterObject, 'administration')")
+- @PreFilter("hasPermission(filterObject, 'administration')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/loki2302/spring-security-experiment/commit/58cf3461cd2bf038b80d296d879347144594b23c
+
+[COMMIT MESSAGE]:Converted to JUnit tests||
+=========================================================
+
+- @PreFilter("filterObject % 2 == 0")
++ @PreFilter("filterObject % 2 == 0")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=7&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=8&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=9&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=10&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/officiallysingh/homework/commit/430ea13309de2946a1e04e0050f37d074d0bf651
+
+[COMMIT MESSAGE]:adding spring template projects||
+=========================================================
+
++ @PreFilter("filterObject.email == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davilj/projectman/commit/7f49c03f6939e531770e9a2a6fd3a29bab1104e4
+
+[COMMIT MESSAGE]:Initialize git||
+=========================================================
+
++ @PreFilter("filterObject.email == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=11&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/michaelkrog/orderly-server/commit/b41c34cee92bd0904390077c5e05f3e773e273ce
+
+[COMMIT MESSAGE]:Fixed #41||
+=========================================================
+
++ @PreFilter(value = "hasPermission(filterObject, 'read')", filterTarget = "appointables")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=12&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050
+
+[COMMIT MESSAGE]:add more files||
+=========================================================
+
++ @PreFilter("filterObject.email == principal.username")
++ @PreFilter("filterObject.email == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=13&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=14&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=15&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=16&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+

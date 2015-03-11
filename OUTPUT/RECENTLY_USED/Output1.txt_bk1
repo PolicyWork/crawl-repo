@@ -1,0 +1,954 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cipster/Shepherd/commit/381f52b4939bdfd3b71e396d755be8b6ef5b7c9c
+
+[COMMIT MESSAGE]:refactor admin users partial||
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cipster/Shepherd/commit/c60fa8d050c3af157e62993d18968dbe75d1e53c
+
+[COMMIT MESSAGE]:refactor admin project||
+=========================================================
+
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cipster/Shepherd/commit/2af407f3e6f6ca93de9f7fd06f5ffc27a6740535
+
+[COMMIT MESSAGE]:refactor config||
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_DOWNLOAD')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_DOWNLOAD')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_DOWNLOAD')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_DOWNLOAD')")
+- @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_DOWNLOAD')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cipster/Shepherd/commit/381f52b4939bdfd3b71e396d755be8b6ef5b7c9c
+
+[COMMIT MESSAGE]:refactor admin users partial||
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cipster/Shepherd/commit/381f52b4939bdfd3b71e396d755be8b6ef5b7c9c
+
+[COMMIT MESSAGE]:refactor admin users partial||
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cipster/Shepherd/commit/381f52b4939bdfd3b71e396d755be8b6ef5b7c9c
+
+[COMMIT MESSAGE]:refactor admin users partial||
+=========================================================
+
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_SUPERUSER','ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/tutorials/commit/d1eb4546bdc56d1dde1dcbd9d9e94535b72978f3
+
+[COMMIT MESSAGE]:update registration methods||
+=========================================================
+
++ @PreAuthorize("hasRole('READ_PRIVILEGE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/tutorials/commit/cfed69220eecf7623fd779ed5d8749699615d3fe
+
+[COMMIT MESSAGE]:spring security reset password||
+=========================================================
+
++ @PreAuthorize("hasRole('READ_PRIVILEGE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/incubator-ranger/commit/9784f5343fa710c3b9199b58e7e221b5739a20a4
+
+[COMMIT MESSAGE]:RANGER-203: added hasRole(admin) to createService and updateService REST||methods. added search by status of serviceDef/service/policy. added
+sortBy createTime and updateTime
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/incubator-ranger/commit/87fffe02e0e12b58d1e731b6f0b46c4375f1d281
+
+[COMMIT MESSAGE]:RANGER-203: 1) URL for few methods in ServiceREST updated to be||consistent 2) plugin-common project updated to read configuration using
+existing RangerConfiguration class. 3) Added ServiceRESTStore, to access
+service store via REST interface.
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/incubator-ranger/commit/ccdeb2874b4b884dcf0eab4dca752b93cea2e868
+
+[COMMIT MESSAGE]:RANGER-203: added ServiceREST implementation||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/9af6facd0b9edab15ef60a159e02dd7826eee03c
+
+[COMMIT MESSAGE]:- added permission for reading/modifying||
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")// todo do we need a new permission for results?
++ @PreAuthorize("hasRole('PERM_MODIFY_RESULTS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_RESULTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/5154236d65aa735626ba8a4561031f93dfffc879
+
+[COMMIT MESSAGE]:- added permissions for experiments||- first pass at some results
+- list experiments
+- use DateTime hibernate lib
+- renamed MEASURED to COMP for WellType
+- added flag to know when the pw has been set
+- added ExperimentService
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')") // todo do we need a new permission for results?
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/9d22962bf78270dd3af5eb17b3b7890ac233efde
+
+[COMMIT MESSAGE]:- small cleanup on the dependencies||- added listing for Compound's + service test
+- renamed PlateTemplate to PlateMap
+- added basic CSV parser
+- changed barcode from Long to String. More flexible this way
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/6e2e6c170c2705101929fee3a112c40b3673baee
+
+[COMMIT MESSAGE]:- added roles/permissions||- added PreAuthorize to the service methods
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_USERROLE')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_READ_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_READ_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=2&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/incubator-ranger/commit/9784f5343fa710c3b9199b58e7e221b5739a20a4
+
+[COMMIT MESSAGE]:RANGER-203: added hasRole(admin) to createService and updateService REST||methods. added search by status of serviceDef/service/policy. added
+sortBy createTime and updateTime
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/incubator-ranger/commit/87fffe02e0e12b58d1e731b6f0b46c4375f1d281
+
+[COMMIT MESSAGE]:RANGER-203: 1) URL for few methods in ServiceREST updated to be||consistent 2) plugin-common project updated to read configuration using
+existing RangerConfiguration class. 3) Added ServiceRESTStore, to access
+service store via REST interface.
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/incubator-ranger/commit/ccdeb2874b4b884dcf0eab4dca752b93cea2e868
+
+[COMMIT MESSAGE]:RANGER-203: added ServiceREST implementation||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SYS_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/9af6facd0b9edab15ef60a159e02dd7826eee03c
+
+[COMMIT MESSAGE]:- added permission for reading/modifying||
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")// todo do we need a new permission for results?
++ @PreAuthorize("hasRole('PERM_MODIFY_RESULTS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_RESULTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/5154236d65aa735626ba8a4561031f93dfffc879
+
+[COMMIT MESSAGE]:- added permissions for experiments||- first pass at some results
+- list experiments
+- use DateTime hibernate lib
+- renamed MEASURED to COMP for WellType
+- added flag to know when the pw has been set
+- added ExperimentService
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')") // todo do we need a new permission for results?
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/9d22962bf78270dd3af5eb17b3b7890ac233efde
+
+[COMMIT MESSAGE]:- small cleanup on the dependencies||- added listing for Compound's + service test
+- renamed PlateTemplate to PlateMap
+- added basic CSV parser
+- changed barcode from Long to String. More flexible this way
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/6e2e6c170c2705101929fee3a112c40b3673baee
+
+[COMMIT MESSAGE]:- added roles/permissions||- added PreAuthorize to the service methods
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_USERROLE')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_READ_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_READ_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/23fbb2c5252fb9778a22a0b4b47c623d6090b805
+
+[COMMIT MESSAGE]:- changed the PlateMapService import call to return a PlateMap along …||…with the list of possible PlateTypes that could be used
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_PLATETYPES')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/6e2e6c170c2705101929fee3a112c40b3673baee
+
+[COMMIT MESSAGE]:- added roles/permissions||- added PreAuthorize to the service methods
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_USERROLE')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_READ_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_READ_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/45479707eb1eb66e458930f11b0d25f2445d537b
+
+[COMMIT MESSAGE]:- added some more listing services||- moved the path of the result service
+- now populating creation date for results
+- added iso8601 scrubber for json assertions
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/6e2e6c170c2705101929fee3a112c40b3673baee
+
+[COMMIT MESSAGE]:- added roles/permissions||- added PreAuthorize to the service methods
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_USERROLE')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_READ_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_READ_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/45479707eb1eb66e458930f11b0d25f2445d537b
+
+[COMMIT MESSAGE]:- added some more listing services||- moved the path of the result service
+- now populating creation date for results
+- added iso8601 scrubber for json assertions
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/9af6facd0b9edab15ef60a159e02dd7826eee03c
+
+[COMMIT MESSAGE]:- added permission for reading/modifying||
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")// todo do we need a new permission for results?
++ @PreAuthorize("hasRole('PERM_MODIFY_RESULTS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_RESULTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/5154236d65aa735626ba8a4561031f93dfffc879
+
+[COMMIT MESSAGE]:- added permissions for experiments||- first pass at some results
+- list experiments
+- use DateTime hibernate lib
+- renamed MEASURED to COMP for WellType
+- added flag to know when the pw has been set
+- added ExperimentService
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')") // todo do we need a new permission for results?
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/45479707eb1eb66e458930f11b0d25f2445d537b
+
+[COMMIT MESSAGE]:- added some more listing services||- moved the path of the result service
+- now populating creation date for results
+- added iso8601 scrubber for json assertions
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/23fbb2c5252fb9778a22a0b4b47c623d6090b805
+
+[COMMIT MESSAGE]:- changed the PlateMapService import call to return a PlateMap along …||…with the list of possible PlateTypes that could be used
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_PLATETYPES')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/9d22962bf78270dd3af5eb17b3b7890ac233efde
+
+[COMMIT MESSAGE]:- small cleanup on the dependencies||- added listing for Compound's + service test
+- renamed PlateTemplate to PlateMap
+- added basic CSV parser
+- changed barcode from Long to String. More flexible this way
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/9af6facd0b9edab15ef60a159e02dd7826eee03c
+
+[COMMIT MESSAGE]:- added permission for reading/modifying||
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
+- @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")// todo do we need a new permission for results?
++ @PreAuthorize("hasRole('PERM_MODIFY_RESULTS')")
++ @PreAuthorize("hasRole('PERM_READ_RESULTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_RESULTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/5154236d65aa735626ba8a4561031f93dfffc879
+
+[COMMIT MESSAGE]:- added permissions for experiments||- first pass at some results
+- list experiments
+- use DateTime hibernate lib
+- renamed MEASURED to COMP for WellType
+- added flag to know when the pw has been set
+- added ExperimentService
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_READ_EXPERIMENTS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')") // todo do we need a new permission for results?
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/massfords/we99/commit/6e2e6c170c2705101929fee3a112c40b3673baee
+
+[COMMIT MESSAGE]:- added roles/permissions||- added PreAuthorize to the service methods
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_MODIFY_USERROLE')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_READ_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_COMPOUNDS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_READ_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATEMAPS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_READ_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PLATETYPES')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_READ_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
++ @PreAuthorize("hasRole('PERM_MODIFY_PROTOCOLS')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=3&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/execom-eu/ECLunchOrder/commit/fe5522a282125b1d55d23bfce26c2108f1857167
+
+[COMMIT MESSAGE]:Model corrections, supplier admin GUI elements.||
+=========================================================
+
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
+- @PreAuthorize("hasRole('SUPER_ADMIN')")
+- @PreAuthorize("hasRole('SUPER_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
+- @PreAuthorize("hasRole('SUPER_ADMIN')")
+- @PreAuthorize("hasRole('SUPER_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/octo888/blog/commit/6f7ba01a04aaf8a28e0bc3c0e56dc7a8ed85467b
+
+[COMMIT MESSAGE]:after unit 34||
+=========================================================
+
++ @PreAuthorize("#blog.user.name == authentication.name or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/deccanrock/planovik/commit/9a150ec126a27732914527a648cf353f914efea6
+
+[COMMIT MESSAGE]:relocated resources||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/imrich2/46C869B8/commit/9ed9330db57188d14043c38cc02a876e9d73ba71
+
+[COMMIT MESSAGE]:big refactor about security & wechatAdapter||
+=========================================================
+
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/if6was9/macgyver/commit/19a09dead62932317787f60c5155c908c260379e
+
+[COMMIT MESSAGE]:re-added script invocation interface||
+=========================================================
+
+-@PreAuthorize("hasRole('ROLE_MACGYVER_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/0b049ff5fb7087a26e59a9c4a722d14be8b81f61
+
+[COMMIT MESSAGE]:EP-214 & EP-215: Lisätty mahdollisuus hakea tiedotteita julkisuus-lip…||…un ja/tai alkaen-päivämäärän avulla. Kirjautumaton käyttäjäkin pystyy nyt lukemaan julkisia tiedotteita.
+=========================================================
+
+- @PreAuthorize("hasPermission(#id, 'tiedote', 'LUKU')")
++ @PreAuthorize("permitAll()")
+- @PreAuthorize("hasPermission(#id, 'tiedote', 'LUKU')")
++ @PreAuthorize("permitAll()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/1d4f7cfc6ca75cdf77b88fe759d045b80fbf8fce
+
+[COMMIT MESSAGE]:Lisätty tiedotteiden hallinta backendissä||
+=========================================================
+
++ @PreAuthorize("hasPermission(#id, 'tiedote', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'tiedote', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'tiedote', 'LUONTI')")
++ @PreAuthorize("hasPermission(#id, 'tiedote', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'tiedote', 'POISTO')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/5c6574bc9093da3c005fc3dfdf2f5c7e40ce960e
+
+[COMMIT MESSAGE]:Salli perusteen korjaus||Salli perusteen rajoitettu muokkaus julkaisun jälkeen.
+Tekemättä: Estä tutkinnon osan ja oppiaineen rakenteen muokkaaminen.
+=========================================================
+
++ @PreAuthorize("hasPermission(#event.perusteId, 'peruste', 'KORJAUS') or hasPermission(#event.perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#tid, #t.toString(), #p.toString())")
++ @PreAuthorize("hasPermission(#tid, #t.toString(), #p)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/8036d7ee9caa619397f64e829316ee029ad659e9
+
+[COMMIT MESSAGE]:Oikeustarkastelu käyttöliittymätasolle.||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/629a82d86fc0ddfe138cabd5c2c987994a1e9fde
+
+[COMMIT MESSAGE]:korjauksia.||
+=========================================================
+
+- @PreAuthorize("hasPermission(#kommenttidto.perusteprojektiId, 'perusteProjekti', 'KOMMENTOINTI')")
+- //@PreAuthorize("hasPermission(#kommenttidto.perusteprojektiId, 'perusteProjekti', 'KOMMENTOINTI')")
++ @PreAuthorize("hasPermission(#tid, #t.toString(), #p.toString())")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/114c46dae4c04de4addc95ddaa435244e951db29
+
+[COMMIT MESSAGE]:palvelu oikeuksien tarkistamiseen||
+=========================================================
+
++ @PreAuthorize("hasPermission(#o,#p)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/5c6574bc9093da3c005fc3dfdf2f5c7e40ce960e
+
+[COMMIT MESSAGE]:Salli perusteen korjaus||Salli perusteen rajoitettu muokkaus julkaisun jälkeen.
+Tekemättä: Estä tutkinnon osan ja oppiaineen rakenteen muokkaaminen.
+=========================================================
+
++ @PreAuthorize("hasPermission(#event.perusteId, 'peruste', 'KORJAUS') or hasPermission(#event.perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#tid, #t.toString(), #p.toString())")
++ @PreAuthorize("hasPermission(#tid, #t.toString(), #p)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/533f759d6adf38587e2c553fcc3d93e373391d12
+
+[COMMIT MESSAGE]:poista tutkinnonosaviite oikeasti||
+=========================================================
+
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/33b3026a1f2dbd6652c78348d3d2125108728657
+
+[COMMIT MESSAGE]:yhtenäistä perusteen kaikki -rajapinta||
+=========================================================
+
+- @PreAuthorize("permitAll()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/f9c8e4507d1b573cd333f3889ac4d50155bbd838
+
+[COMMIT MESSAGE]:Uusia rajapintoja ja korjattu bugi perustelistauksen linkkien generoi…||…nnissa
+=========================================================
+
+- @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("permitAll()")
++ @PreAuthorize("permitAll()")
+- @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/78bc0bed8e1564bd2ad758ec246a2662489c11e0
+
+[COMMIT MESSAGE]:Lisätty rajapinta koko perusopetuksen perusteen hakemiseen sisältöineen||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/37e5f67003d0f3ab7e97fded3344bc326128ad35
+
+[COMMIT MESSAGE]:Korvaamisen perustoiminnallisuus. Vielä pientä UI viilausta.||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/43e02aaaf2542fdd18942ca66810f4618208edb4
+
+[COMMIT MESSAGE]:Toteutusta||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/3c0c2597bc045bd61dd0f004fe51719ea69d6a3b
+
+[COMMIT MESSAGE]:Esiopetuksen perusteprojektin luonti.||
+=========================================================
+
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/490222013d458b57cf596712c33ae389b4363c58
+
+[COMMIT MESSAGE]:perusteen korjaus julkaisun jälkeen||Lisättu KORJAUS-oikeus update-palveluihin (WIP)
+=========================================================
+
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#po.dto.id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#po.dto.id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#po.dto.id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#po.id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#po.id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#po.id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS') or hasPermission(#viiteId, 'tutkinnonosaviite', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#tov.id, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#tov.id, 'tutkinnonosaviite', 'MUOKKAUS') or hasPermission(#tov.id, 'tutkinnonosaviite', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/2db3e0c5cd0b87853de9c42511c0b5eccbb27c07
+
+[COMMIT MESSAGE]:Tutkinnon osa revert-note tukee nyt tutkinnonosaviitettä.||
+=========================================================
+
++ @PreAuthorize("hasPermission(#id, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#tov.id, 'tutkinnonosaviite', 'MUOKKAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/938e04e00e223111598568637dc4886080dc874c
+
+[COMMIT MESSAGE]:lukituksen refaktorointia||Refaktoroitu Suoritustapa käyttämään geneerisempää lukitussysteemiä.
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/8537365888800646f1bd2243b76a9cfacb546537
+
+[COMMIT MESSAGE]:Tutkinnon osien käsittely viitteiden avulla refactorointi.||
+=========================================================
+
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("returnObject?.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'LUKU')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'LUKU')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'tutkinnonosaviite', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'tutkinnonosaviite', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'tutkinnonosaviite', 'LUKU')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/34da017bcc4f678893248fa29bea55e6673fe4c5
+
+[COMMIT MESSAGE]:Palvelupuolen toteutus tutkintonimikekoodeille||
+=========================================================
+
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/1e7ebd73dcf1b210bfac088679a7363745610983
+
+[COMMIT MESSAGE]:perusteenosaviitteen lisäämisen refaktoirointi||
+=========================================================
+
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/2837a31d6ff0a1857bd904d2daf00633819484f6
+
+[COMMIT MESSAGE]:oikeustarkistelukorjauksia||
+=========================================================
+
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','LUKU')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+- @PreAuthorize("hasPermission(#peruste,'peruste','MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId,'peruste','MUOKKAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/80694232d168e85a2b4f1c30114ab10cfa157bfd
+
+[COMMIT MESSAGE]:YL perusteen tietomalli ja palvelut, WIP||
+=========================================================
+
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=4&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+

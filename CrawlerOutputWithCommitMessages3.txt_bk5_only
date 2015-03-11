@@ -1,0 +1,951 @@
+[COMMIT MESSAGE]:just before initial version||
+[COMMIT MESSAGE]:streetfun code copied to ring-server initially||
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+[COMMIT MESSAGE]:FP-1113 Изменён запрос Operation.listLastPaymentPointPaymentOperations||FP-1114 Исследованы и оптимизированы запросы, выполняющиеся при работе с разделом "Монитор" АРМа бухгалтера
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+[COMMIT MESSAGE]:FP-653 implemented||
+[COMMIT MESSAGE]:FP-620||cashboxes history builder added.
+[COMMIT MESSAGE]:FP-612 Создан новый справочник касс. Все классы находятся в payments,…||… а struts.xml и jsp-файлы в eirc
+[COMMIT MESSAGE]:FP-462||Organizations moved to separate module.
+[COMMIT MESSAGE]:update||
+[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+[COMMIT MESSAGE]:updates for cloud foundry||added @Secured to business layer
+[COMMIT MESSAGE]:更新权限验证.||
+[COMMIT MESSAGE]:Formatting||
+[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+[COMMIT MESSAGE]:Added cron role||
+[COMMIT MESSAGE]:Reviewed and improved the entity repository||
+[COMMIT MESSAGE]:Merge branch 'master' of https://github.com/cristinalombardo/auth.git||Signed-off-by: Cristina <lombardo.cristina84@gmail.com>
+[COMMIT MESSAGE]:后台预定功能50%||后台预定功能50%
+[COMMIT MESSAGE]:价格汇总bug修改||
+[COMMIT MESSAGE]:spring security权限拦截的done||spring security权限拦截的done
+[COMMIT MESSAGE]:Подправил внешний вид, добавил заголовки для страниц||
+[COMMIT MESSAGE]:Подправил внешний вид, добавил заголовки для страниц||
+[COMMIT MESSAGE]:Подправил внешний вид, добавил заголовки для страниц||
+[COMMIT MESSAGE]:FP-462||Organizations moved to separate module.
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+[COMMIT MESSAGE]:FP-355||Address attribute types history generation.
+[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+[COMMIT MESSAGE]:FP-462||Organizations moved to separate module.
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+[COMMIT MESSAGE]:FP-355||Address attribute types history generation.
+[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+[COMMIT MESSAGE]:init all method security||
+[COMMIT MESSAGE]:init all method security||
+[COMMIT MESSAGE]:commit added voting images to multiple choice and gridin questions...…||…also added better date formats
+[COMMIT MESSAGE]:fixing question bugs, adding tags to passages. adding gridins||
+[COMMIT MESSAGE]:some work with gridins||
+[COMMIT MESSAGE]:commit inicial||
+[COMMIT MESSAGE]:Initial Webservice||
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:Spring Security examples.||
+[COMMIT MESSAGE]:Initial Load||
+[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:Added @Secured to controller methods [Spring-Security]||
+[COMMIT MESSAGE]:Added @Secured to controller methods [Spring-Security]||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:settings||
+[COMMIT MESSAGE]:index||
+[COMMIT MESSAGE]:obj||
+[COMMIT MESSAGE]:fontface folder added||
+[COMMIT MESSAGE]:message||
+[COMMIT MESSAGE]:message work in progress||
+[COMMIT MESSAGE]:user rest crud||
+[COMMIT MESSAGE]:store sync client+server||
+[COMMIT MESSAGE]:added source code||
+[COMMIT MESSAGE]:Implement proper Spring Security. Get rid of unused remember me token…||… stuff.
+[COMMIT MESSAGE]:- Sources commit||
+[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:First Checkin-Defysope Bookmark Manager||
+[COMMIT MESSAGE]:demo put,post,delete||
+[COMMIT MESSAGE]:demo5 for post||
+[COMMIT MESSAGE]:more demo added||
+[COMMIT MESSAGE]:secured proxy demo added (remove later)||
+[COMMIT MESSAGE]:security wordpress||
+[COMMIT MESSAGE]:a||
+[COMMIT MESSAGE]:demo||
+[COMMIT MESSAGE]:E||
+[COMMIT MESSAGE]:JBIDE-11552||https://issues.jboss.org/browse/JBIDE-11552
+[COMMIT MESSAGE]:bug fixing for password recovery||
+[COMMIT MESSAGE]:adding password recovery service||
+[COMMIT MESSAGE]:Adding new license/copyright statement in source files. Also, added u…||…ser and roles functionality to the application.
+[COMMIT MESSAGE]:1.1.0版本完善||1.2.0开始开发
+[COMMIT MESSAGE]:refactored code to use Spring Data for JPA||
+[COMMIT MESSAGE]:improved the editing and creation of rubrics and sites||
+[COMMIT MESSAGE]:updated framework versions of menu management, exception management, …||…etc.
+[COMMIT MESSAGE]:Initial creation of Spring security example project||
+[COMMIT MESSAGE]:Genesi||
+[COMMIT MESSAGE]:Initial Checkin for Personal Budget with login functionality.||
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+[COMMIT MESSAGE]:FP-280 FP-281 FP-282 FP-284||Countries, regions, towns, districts sorters added
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+[COMMIT MESSAGE]:Work in progress.||
+[COMMIT MESSAGE]:CategoryItem and categoryType Work inprogress||
+[COMMIT MESSAGE]:Initial commit||By
+[COMMIT MESSAGE]:Remove ElasticSearch integration from core and move it to webapp||
+[COMMIT MESSAGE]:Update issue #172||Added test to reproduce a problem where a command handler isn't properly registered when proxied by Spring Security.
+[COMMIT MESSAGE]:Manage applications, with a non final implementation of per applicati…||…on permission filtering
+[COMMIT MESSAGE]:Remove ElasticSearch integration from core and move it to webapp||
+[COMMIT MESSAGE]:added current-user controller||
+[COMMIT MESSAGE]:added spring-security||
+[COMMIT MESSAGE]:Added @Secured to DAO classes to make the methods secured.||
+[COMMIT MESSAGE]:Added @Secured to DAO classes to make the methods secured.||
+[COMMIT MESSAGE]:list all users||
+[COMMIT MESSAGE]:jpa login config, new custom service||
+[COMMIT MESSAGE]:spring security start||requires admin role for /admin pages
+[COMMIT MESSAGE]:[CXF-3195,CXF-3172] Updatig SecureAnnotationsInterceptor to check int…||…erfaces and JAASAuthenticationFilter to redirect to context-based addresses by default
+[COMMIT MESSAGE]:security constraints for start operation||
+[COMMIT MESSAGE]:User MVC, user roles, secured service layer, rest authentication||
+[COMMIT MESSAGE]:User MVC, user roles, secured service layer, rest authentication||
+[COMMIT MESSAGE]:Added basic authorization on presentation layer, name:password is tes…||…t:test
+[COMMIT MESSAGE]:User MVC, user roles, secured service layer, rest authentication||
+[COMMIT MESSAGE]:User MVC, user roles, secured service layer, rest authentication||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:FP-1182 Migrate jbpm from 3.2 to 5.1 version||
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+[COMMIT MESSAGE]:Restrict selection of the bad vehicles. Closes #24||
+[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+[COMMIT MESSAGE]:SpringRecipes||
+[COMMIT MESSAGE]:SpringRecipes||
+[COMMIT MESSAGE]:fixed minor bugs||
+[COMMIT MESSAGE]:added admin role||
+[COMMIT MESSAGE]:Version 1.1. Adding support for includeGroups and excludeGroups||
+[COMMIT MESSAGE]:Cleanup and adding simple @Api annotation||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:project||
+[COMMIT MESSAGE]:first commit, need to fix Flyway not working||
+[COMMIT MESSAGE]:added admin module;||
+[COMMIT MESSAGE]:Removed the transient from usergroup ID, add description fiel to user…||…group model
+[COMMIT MESSAGE]:removed custom handling group everyone (and rename it), add new servi…||…ce to get a single group
+[COMMIT MESSAGE]:fixes and adds to usergroup rest api and user group update system||
+[COMMIT MESSAGE]:Multiple usergroup management + REST Interface||-#55 handle users group with resource-based authorization for write
+[COMMIT MESSAGE]:Small changes making it simpler.||
+[COMMIT MESSAGE]:Spring boot sample. With little code and zero configuration included:||- REST service
+[COMMIT MESSAGE]:dummy data added (hsql)||
+[COMMIT MESSAGE]:spring security applied||
+[COMMIT MESSAGE]:Move to github :)||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:добавление тестов и службы REST||
+[COMMIT MESSAGE]:Commit CXF||
+[COMMIT MESSAGE]:Commit CXF||
+[COMMIT MESSAGE]:For transmit||
+[COMMIT MESSAGE]:at work||
+[COMMIT MESSAGE]:4차||
+[COMMIT MESSAGE]:OFC-1185 Sampling design table importer||Client side functions
+[COMMIT MESSAGE]:Added @Secured to DAO classes to make the methods secured.||
+[COMMIT MESSAGE]:Added @Secured to DAO classes to make the methods secured.||
+[COMMIT MESSAGE]:deleted unnecessary code||
+[COMMIT MESSAGE]:+src||Source files added to the repo
+[COMMIT MESSAGE]:simplify auth design, follow Spring security design, support Basic for||api auth.
+[COMMIT MESSAGE]:auth module, user can login with account in DB.||
+[COMMIT MESSAGE]:Incomplete - task : Refactor||git-svn-id: http://svn.code.sf.net/p/helio-vo/code/trunk@2350 5d9e9ddb-692e-4027-9be8-b4f4f3982da7
+[COMMIT MESSAGE]:Initial import. Test project for security integration with TAVERNA.||git-svn-id: http://svn.code.sf.net/p/helio-vo/code/trunk@2235 5d9e9ddb-692e-4027-9be8-b4f4f3982da7
+[COMMIT MESSAGE]:Első commit||
+[COMMIT MESSAGE]:Első commit||
+[COMMIT MESSAGE]:Upravovanie userov + pridany pripad ked admin nezada pri editovani he…||…slo (ponecha sa povodne). Stale nefunguje check unikatnosti username.
+[COMMIT MESSAGE]:Authentification from DB completed||
+[COMMIT MESSAGE]:Login Admin, Presentation, Service layer||
+[COMMIT MESSAGE]:Source code cleaning (EOL's, Whitespaces...)||
+[COMMIT MESSAGE]:Fixed Account password length. Hibernate now creates user "root". Exc…||…ursion and Customer is secured on both layers. AuthCommons has new utility method for redirecting to "denied" page.
+[COMMIT MESSAGE]:基本框架||
+[COMMIT MESSAGE]:created repo||
+[COMMIT MESSAGE]:CHANGE - initial import||
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+[COMMIT MESSAGE]:FP-280 FP-281 FP-282 FP-284||Countries, regions, towns, districts sorters added
+[COMMIT MESSAGE]:FP-263 SpringSecurity integration started||
+[COMMIT MESSAGE]:Initial project import.||
+[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:adding everything to git||
+[COMMIT MESSAGE]:Implemented Sequence Status||
+[COMMIT MESSAGE]:Application security works now||
+[COMMIT MESSAGE]:Refactor||
+[COMMIT MESSAGE]:Refactor||
+[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+[COMMIT MESSAGE]:IMPROVE: Rename Category DTO||IMPROVE: Remove use off HashBuilder and EqualsBuilder from CategoryDTO
+[COMMIT MESSAGE]:add change password api||
+[COMMIT MESSAGE]:logout api||
+[COMMIT MESSAGE]:reformat code||
+[COMMIT MESSAGE]:mysql script||
+[COMMIT MESSAGE]:+login success redirect page added||
+[COMMIT MESSAGE]:MVP for disso||
+[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
+[COMMIT MESSAGE]:Nur noch eingeloggte User können auf alle Controller zugreifen||
+[COMMIT MESSAGE]:RESTful #2||
+[COMMIT MESSAGE]:Desarrollo principal||Esto es todo lo que teniamos hasta el momento
+[COMMIT MESSAGE]:tingiu||
+[COMMIT MESSAGE]:recipe get recipes of user||
+[COMMIT MESSAGE]:UnitController trūksta list'o||
+[COMMIT MESSAGE]:adding everything to git||
+[COMMIT MESSAGE]:proj||check it
+[COMMIT MESSAGE]:Initial commit of SAML example project||
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Implemented endpoint statuses||
+[COMMIT MESSAGE]:Added and implemented AUDITOR role.||
+[COMMIT MESSAGE]:Initial implementation of config tabs.||
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Implelemented IRM integration. Added sanity check for rulecontainer. …||…Added CustomAction subsystem. Several refinements.
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Added and implemented AUDITOR role.||
+[COMMIT MESSAGE]:Several fixes. Several refinements. Implemented DataFormatInput.||
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Added and implemented AUDITOR role.||
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Added and implemented AUDITOR role.||
+[COMMIT MESSAGE]:Adding document databases and keyword groups to the information types…||… is implemented.
+[COMMIT MESSAGE]:Keyword group in objects tab is added.||
+[COMMIT MESSAGE]:Fixed adding rule. New DAOs introduced.||
+[COMMIT MESSAGE]:UI refinements.||
+[COMMIT MESSAGE]:New stuff||
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Added and implemented AUDITOR role.||
+[COMMIT MESSAGE]:Implemented USBSAC||
+[COMMIT MESSAGE]:initial written||
+[COMMIT MESSAGE]:Merged from master.||
+[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+[COMMIT MESSAGE]:Merged from trunk||
+[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+[COMMIT MESSAGE]:Added User/Map paging for the wizards (New/Edit) and also implemented…||… CSV export filtering. A large commit: I am very sorry
+[COMMIT MESSAGE]:delete related UserStudyMaps and UserFormMaps when deleting a Study o…||…r Form
+[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+[COMMIT MESSAGE]:[CXF-3195,CXF-3172] Updatig SecureAnnotationsInterceptor to check int…||…erfaces and JAASAuthenticationFilter to redirect to context-based addresses by default
+[COMMIT MESSAGE]:nova versao da camada de apresentação||
+[COMMIT MESSAGE]:Added forum project||
+[COMMIT MESSAGE]:https enabled application; sql for user_roles ; session management||config in spring security
+[COMMIT MESSAGE]:itemlist||
+[COMMIT MESSAGE]:changes about county||
+[COMMIT MESSAGE]:many new changes on import day||
+[COMMIT MESSAGE]:standardisation changes on admin.js||
+[COMMIT MESSAGE]:worked on the create annoymous user form||
+[COMMIT MESSAGE]:added the parish, village||
+[COMMIT MESSAGE]:adds services admin, comment, crop, ...||
+[COMMIT MESSAGE]:FP-1004 FP-1005||AllObjectsHistory generator added, batch history generation added.
+[COMMIT MESSAGE]:JBIDE-11552||https://issues.jboss.org/browse/JBIDE-11552
+[COMMIT MESSAGE]:init||
+[COMMIT MESSAGE]:initializing...||
+[COMMIT MESSAGE]:Logowanie przez bazę, nie wspiera zakresów dostępu||
+[COMMIT MESSAGE]:Merge branch 'master' of D:\Students with conflicts.||
+[COMMIT MESSAGE]:by Max||
+[COMMIT MESSAGE]:by Max||
+[COMMIT MESSAGE]:Added @Secured to DAO classes to make the methods secured.||
+[COMMIT MESSAGE]:Added @Secured to DAO classes to make the methods secured.||
+[COMMIT MESSAGE]:[CXF-3195,CXF-3172] Updatig SecureAnnotationsInterceptor to check int…||…erfaces and JAASAuthenticationFilter to redirect to context-based addresses by default
+[COMMIT MESSAGE]:test||
+[COMMIT MESSAGE]:experiments||
+[COMMIT MESSAGE]:Validation done. Added logging.||
+[COMMIT MESSAGE]:Iniciado cadastro de localidade||
+[COMMIT MESSAGE]:TODO: continue configuration of secure||
+[COMMIT MESSAGE]:Configurações de exception handler e logger.||
+[COMMIT MESSAGE]:Configurações do Exception Handler||
+[COMMIT MESSAGE]:#CHANGE: spring security annotations configuration.||
+[COMMIT MESSAGE]:updated||
+[COMMIT MESSAGE]:CXF-1982: dynamic subresource resolution||git-svn-id: https://svn.apache.org/repos/asf/cxf/trunk@735722 13f79535-47bb-0310-9956-ffa450edef68
+[COMMIT MESSAGE]:Set some eol-style/mime-type attributes||git-svn-id: https://svn.apache.org/repos/asf/cxf/trunk@726634 13f79535-47bb-0310-9956-ffa450edef68
+[COMMIT MESSAGE]:JAXRS : spring security system tests||git-svn-id: https://svn.apache.org/repos/asf/cxf/trunk@724780 13f79535-47bb-0310-9956-ffa450edef68
+[COMMIT MESSAGE]:Refactoring view creation.||
+[COMMIT MESSAGE]:Dealing with login/logout and session handling making use of spring s…||…ecurity programmatically.
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:+login success redirect page added||
+[COMMIT MESSAGE]:Initial Import||
+[COMMIT MESSAGE]:nova versao da camada de apresentação||
+[COMMIT MESSAGE]:commit||
+[COMMIT MESSAGE]:Revert "Removed security altogether"||This reverts commit d26ff72.
+[COMMIT MESSAGE]:Removed security altogether||
+[COMMIT MESSAGE]:#4: Supported recursive deletion of sites||
+[COMMIT MESSAGE]:#6: Added method based security||
+[COMMIT MESSAGE]:finalAnalyzer runned on top of package||
+[COMMIT MESSAGE]:many new changes on import day||
+[COMMIT MESSAGE]:add edit save committee member||
+[COMMIT MESSAGE]:very many changes||
+[COMMIT MESSAGE]:post and committee services||
+[COMMIT MESSAGE]:adding the committeService||
+[COMMIT MESSAGE]:Init||
+[COMMIT MESSAGE]:Init||
+[COMMIT MESSAGE]:More training.||
+[COMMIT MESSAGE]:Ajout de la recup des données utilisateurs en session||
+[COMMIT MESSAGE]:home.html is open to ROLE_USER||
+[COMMIT MESSAGE]:updated||
+[COMMIT MESSAGE]:updated||
+[COMMIT MESSAGE]:Error Page||
+[COMMIT MESSAGE]:Securing Methods Using @Secured||
+[COMMIT MESSAGE]:Securing Methods Using @Secured||
+[COMMIT MESSAGE]:Error Page||
+[COMMIT MESSAGE]:Securing Methods Using @Secured||
+[COMMIT MESSAGE]:index||
+[COMMIT MESSAGE]:login wip||
+[COMMIT MESSAGE]:FP-1076||change user role from UI, set access privileges
+[COMMIT MESSAGE]:FP-449||Quittance payments generation
+[COMMIT MESSAGE]:FP-350 Подготовка файла правил расчета тарифов в соответствии с ТЗ. О…||…птимизация импортирования во внутренней структуре классов
+[COMMIT MESSAGE]:Add new views and fix unauthorized error||
+[COMMIT MESSAGE]:Hide other results||
+[COMMIT MESSAGE]:Set authentication (work in progress)||
+[COMMIT MESSAGE]:#fix to use annotations in spring security ....||
+[COMMIT MESSAGE]:Spring security with annotation @Secured||
+[COMMIT MESSAGE]:order||
+[COMMIT MESSAGE]:order||
+[COMMIT MESSAGE]:Added JavaFX client||
+[COMMIT MESSAGE]:Seguridad final testeada.||Arreglado bug de API history durante la navegación por el calendario de disponibilidad.
+[COMMIT MESSAGE]:Integrada seguridad final||ExceptionHandlerFuncionando
+[COMMIT MESSAGE]:Making Access Control Decisions Based on ACLs||
+[COMMIT MESSAGE]:Securing Methods with Annotations||
+[COMMIT MESSAGE]:JBIDE-11552||https://issues.jboss.org/browse/JBIDE-11552
+[COMMIT MESSAGE]:SOA Rest||
+[COMMIT MESSAGE]:SOA Rest||
+[COMMIT MESSAGE]:[CXF-3195,CXF-3172] Updatig SecureAnnotationsInterceptor to check int…||…erfaces and JAASAuthenticationFilter to redirect to context-based addresses by default
+[COMMIT MESSAGE]:very many changes||
+[COMMIT MESSAGE]:many new changes on import day||
+[COMMIT MESSAGE]:Added the season and Financial Institution GUI||
+[COMMIT MESSAGE]:Activity statistics start.||Change-Id: Ia46d23271d3333b2d9d81c3f0b506b8c0afb60b4
+[COMMIT MESSAGE]:Added seeeionInVew filter||Change-Id: Icf59082424eaecd229a3b52c8aa7acca81b3767d
+[COMMIT MESSAGE]:Activity in progress. Authenticator provider. Delete user.||Change-Id: I55c15be01e5fb764d720b5e73dc9056829751e70
+[COMMIT MESSAGE]:Add classes for "Event" entity.||This includes REST resource, service, repository and the entity.
+[COMMIT MESSAGE]:Add classes for "Document" entity.||This includes REST resource, service, repository and the entity.
+[COMMIT MESSAGE]:RestController, Service and Repository for Team and Player Entity.||
+[COMMIT MESSAGE]:Implement proper Spring Security. Get rid of unused remember me token…||… stuff.
+[COMMIT MESSAGE]:Change security service to db based||
+[COMMIT MESSAGE]:account||
+[COMMIT MESSAGE]:users||
+[COMMIT MESSAGE]:images||
+[COMMIT MESSAGE]:Source code cleaning (EOL's, Whitespaces...)||
+[COMMIT MESSAGE]:Enabled @Secured annotations on service layer. Hibernate runs import.…||…sql at startup. DefaultReservationService is secured with annotations. Unified several controller init methods. Minor i18n correction. ROLE_USER can now remove his reservations.
+[COMMIT MESSAGE]:Enabled @Secured annotations on service layer. Hibernate runs import.…||…sql at startup. DefaultReservationService is secured with annotations. Unified several controller init methods. Minor i18n correction. ROLE_USER can now remove his reservations.
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:Now with roles binded to the UI||
+[COMMIT MESSAGE]:Several updates and fixes based on Ståle's test plan.||
+[COMMIT MESSAGE]:XML and JSON API almost done.||
+[COMMIT MESSAGE]:adds services admin, comment, crop, ...||
+[COMMIT MESSAGE]:RestController, Service and Repository for Team and Player Entity.||
+[COMMIT MESSAGE]:Add classes for "Document" entity.||This includes REST resource, service, repository and the entity.
+[COMMIT MESSAGE]:Add classes for "Event" entity.||This includes REST resource, service, repository and the entity.
+[COMMIT MESSAGE]:RestController, Service and Repository for Team and Player Entity.||
+[COMMIT MESSAGE]:more on Deltaspike Security||
+[COMMIT MESSAGE]:CEL-2419: BE: Migrate Resteasy/CDI -> Reasteasy/Spring||Task-Url: https://as-jira.axelspringer.de/browse/CEL-2419
+[COMMIT MESSAGE]:added Spring-Security||
+[COMMIT MESSAGE]:lambda test||
+[COMMIT MESSAGE]:lambda test||
+[COMMIT MESSAGE]:Make better authorization and add simpler deletes||
+[COMMIT MESSAGE]:Using spring-data rest, enabling easy linking using /create endpoint||
+[COMMIT MESSAGE]:Make better authorization and add simpler deletes||
+[COMMIT MESSAGE]:Using spring-data rest, enabling easy linking using /create endpoint||
+[COMMIT MESSAGE]:simple webapp||
+[COMMIT MESSAGE]:RestController, Service and Repository for Team and Player Entity.||
+[COMMIT MESSAGE]:Add classes for "Document" entity.||This includes REST resource, service, repository and the entity.
+[COMMIT MESSAGE]:Add classes for "Event" entity.||This includes REST resource, service, repository and the entity.
+[COMMIT MESSAGE]:RestController, Service and Repository for Team and Player Entity.||
+[COMMIT MESSAGE]:Authentification from DB completed||
+[COMMIT MESSAGE]:Login Admin, Presentation, Service layer||
+[COMMIT MESSAGE]:Authentification from DB completed||
+[COMMIT MESSAGE]:Login Admin, Presentation, Service layer||
+[COMMIT MESSAGE]:Initial import||
+[COMMIT MESSAGE]:Initial import||
+[COMMIT MESSAGE]:Authorization & authentization implementation (Spring Security Framew…||…ork) [@author: whole team] O.o
+[COMMIT MESSAGE]:Authorization & authentization implementation (Spring Security Framew…||…ork) [@author: whole team] O.o
+[COMMIT MESSAGE]:Authorization & authentization implementation (Spring Security Framew…||…ork) [@author: whole team] O.o
+[COMMIT MESSAGE]:Merged from master.||
+[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+[COMMIT MESSAGE]:Merged from trunk||
+[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.||Submitted by: dagmar
+[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.||Submitted by: dinebennett
+[COMMIT MESSAGE]:Merged from trunk||
+[COMMIT MESSAGE]:Refs #491: Server-side support for data upload/download using mobile.||Submitted by (with modifications): dagmar
+[COMMIT MESSAGE]:#524 Use getForms method with user parameter to retrieve Forms the us…||…er has permission to view (either directly or via the study)
+[COMMIT MESSAGE]:#454: Role_Study_Manager is now able to edit and create new Study/For…||…m/Version
+[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+[COMMIT MESSAGE]:Added User/Map paging for the wizards (New/Edit) and also implemented…||… CSV export filtering. A large commit: I am very sorry
+[COMMIT MESSAGE]:Reverted #4958 because it was incomplete and broke the build. Ok Mark||git-svn-id: https://svn.openxdata.org/Server/trunk@5009 6cddc80d-1c40-44cd-927a-2be6005847d2
+[COMMIT MESSAGE]:Improved existing paging implementation, added paging for users, and …||…added export data filtering from the UI
+[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+[COMMIT MESSAGE]:Data Capture users can now see Form Response Count||git-svn-id: https://svn.openxdata.org/Server/trunk@4884 6cddc80d-1c40-44cd-927a-2be6005847d2
+[COMMIT MESSAGE]:initial Commit||
+[COMMIT MESSAGE]:Initial Commit||
+[COMMIT MESSAGE]:Bunches of changes made. New spring incoming!||
+[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+[COMMIT MESSAGE]:Community 구현 중||
+[COMMIT MESSAGE]:Community 구현 중||
+[COMMIT MESSAGE]:commBoard > Community 로 이름 변경||commonboard > article 로 이름 변경
+[COMMIT MESSAGE]:Java Business Cloud Basic version code.||
+[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:(service, web) ROLE_REST||
+[COMMIT MESSAGE]:(service) secured anotacia||
+[COMMIT MESSAGE]:(service) secured anotacia||
+[COMMIT MESSAGE]:(service) secured anotacia||
+[COMMIT MESSAGE]:Add repro projects for SPR-7664, SPR-8122, SPR-9183||
+[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+[COMMIT MESSAGE]:Fixes for #29 & #35||
+[COMMIT MESSAGE]:Fixes for #29 & #35||
+[COMMIT MESSAGE]:Fixes for #35||
+[COMMIT MESSAGE]:Fixes for #54||
+[COMMIT MESSAGE]:Started work on new rest api.||
+[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:Split between api and site.||Fixed authorization for site controller.
+[COMMIT MESSAGE]:Add recover product in admin page||git-svn-id: https://sp-b2cv1.googlecode.com/svn/core-service@2271 c8aa77e7-4d14-485d-9416-cb5e655923dd
+[COMMIT MESSAGE]:Add delete function and active filter for product||git-svn-id: https://sp-b2cv1.googlecode.com/svn/core-service@2028 c8aa77e7-4d14-485d-9416-cb5e655923dd
+[COMMIT MESSAGE]:Modify option window||git-svn-id: https://sp-b2cv1.googlecode.com/svn/core-service@2003 c8aa77e7-4d14-485d-9416-cb5e655923dd
+[COMMIT MESSAGE]:Add related product in Product admin page||git-svn-id: https://sp-b2cv1.googlecode.com/svn/core-service@1975 c8aa77e7-4d14-485d-9416-cb5e655923dd
+[COMMIT MESSAGE]:Add Tab Product in admin page||git-svn-id: https://sp-b2cv1.googlecode.com/svn/core-service@1966 c8aa77e7-4d14-485d-9416-cb5e655923dd
+[COMMIT MESSAGE]:Convert init||git-svn-id: https://sp-b2cv1.googlecode.com/svn/core-service@1950 c8aa77e7-4d14-485d-9416-cb5e655923dd
+[COMMIT MESSAGE]:OpenEntityViewFilter and Convert init||git-svn-id: https://sp-b2cv1.googlecode.com/svn/core-service@1945 c8aa77e7-4d14-485d-9416-cb5e655923dd
+[COMMIT MESSAGE]:poprawki, dodanie nowych widoków.||
+[COMMIT MESSAGE]:tlumaczenia, poprawki w panelu uzytkownika.||
+[COMMIT MESSAGE]:poprawki||
+[COMMIT MESSAGE]:404, porpawienie widoku logowania, dodanie zdj.||
+[COMMIT MESSAGE]:przekierowanie na profil po zalogowaniu||
+[COMMIT MESSAGE]:zabezpieczenia, poprawki||
+[COMMIT MESSAGE]:many new changes on import day||
+[COMMIT MESSAGE]:so many changes||
+[COMMIT MESSAGE]:producer service||
+[COMMIT MESSAGE]:adds land use dao and service||
+[COMMIT MESSAGE]:many new changes on import day||
+[COMMIT MESSAGE]:Added the season and Financial Institution GUI||
+[COMMIT MESSAGE]:teh last services and daos and crop controller and views||
+[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+[COMMIT MESSAGE]:updates for cloud foundry||added @Secured to business layer
+[COMMIT MESSAGE]:User MVC, user roles, secured service layer, rest authentication||
+[COMMIT MESSAGE]:Added basic authorization on presentation layer, name:password is tes…||…t:test
+[COMMIT MESSAGE]:Employee RCP User done||
+[COMMIT MESSAGE]:RCP controller + css fixes||
+[COMMIT MESSAGE]:replace input||
+[COMMIT MESSAGE]:index||
+[COMMIT MESSAGE]:obj||
+[COMMIT MESSAGE]:message||
+[COMMIT MESSAGE]:message||
+[COMMIT MESSAGE]:message work in progress||
+[COMMIT MESSAGE]:FixingAll||
+[COMMIT MESSAGE]:FixingAll||
+[COMMIT MESSAGE]:change PreAuthorize to secured and add validation||
+[COMMIT MESSAGE]:FixingAll||
+[COMMIT MESSAGE]:FixingAll||
+[COMMIT MESSAGE]:SOA Rest||
+[COMMIT MESSAGE]:SOA Rest||
+[COMMIT MESSAGE]:SOA Rest||
+[COMMIT MESSAGE]:SOA Rest||
+[COMMIT MESSAGE]:Modification annotations sécurisation||
+[COMMIT MESSAGE]:Ajout d'annotations pour sécuriser les services||
+[COMMIT MESSAGE]:Added a confirm view for deletion of recipes||
+[COMMIT MESSAGE]:Makes sure only the author of a recipe may remove it, and that the re…||…cipe is removed from the user when that happens
+[COMMIT MESSAGE]:Ingredients can be removed from recipes. Closes #17.||
+[COMMIT MESSAGE]:Ingredients can be removed from recipes. Closes #17.||
+[COMMIT MESSAGE]:Finished implementing adding of ingredients.||
+[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+[COMMIT MESSAGE]:Finished move to using JPA.||
+[COMMIT MESSAGE]:Made sure that creating a recipe requires a login.||
+[COMMIT MESSAGE]:spring security||
+[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:No commit message||
+[COMMIT MESSAGE]:added current-user controller||
+[COMMIT MESSAGE]:added spring-security||
+[COMMIT MESSAGE]:Security improvements and order processing.||
+[COMMIT MESSAGE]:Config changes||
+[COMMIT MESSAGE]:Orders beginning, migration to MySQL.||
+[COMMIT MESSAGE]:Gallery deleting, preview generation, log system finally finished.||
+[COMMIT MESSAGE]:Orders review; various improvements; gallery download start.||
+[COMMIT MESSAGE]:Added formats and paper types.||
+[COMMIT MESSAGE]:UI improvements. Localization + admin pages.||
+[COMMIT MESSAGE]:User registration impl. And activation.||
+[COMMIT MESSAGE]:Code access beta dev.||
+[COMMIT MESSAGE]:many new changes on import day||
+[COMMIT MESSAGE]:comittee, committeeMember and the respective dao's||
+[COMMIT MESSAGE]:many new changes on import day||
+[COMMIT MESSAGE]:fixes the season liquibase burg||
+[COMMIT MESSAGE]:post and committee services||
+[COMMIT MESSAGE]:JPA SUPPORT||
+[COMMIT MESSAGE]:add comments||
+[COMMIT MESSAGE]:add delete button||
+[COMMIT MESSAGE]:add secured annotation||
+[COMMIT MESSAGE]:improved DAO||
+[COMMIT MESSAGE]:Permissions in jsp and service methodes||
+[COMMIT MESSAGE]:AA servisvni vrstva + rest klient||
+[COMMIT MESSAGE]:Service layer - spring security||
+[COMMIT MESSAGE]:Permissions in jsp and service methodes||
+[COMMIT MESSAGE]:Service layer - spring security||
+[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용||spEL을 사용하기 위해 가급적 PreAuthorize 어노테이션으로 전향하는것이 좋을듯 하지만 일단은 이대로 진행.
+[COMMIT MESSAGE]:基本框架||
+[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용||spEL을 사용하기 위해 가급적 PreAuthorize 어노테이션으로 전향하는것이 좋을듯 하지만 일단은 이대로 진행.
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:the new branch with the function userlogin||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:Improve update attribute rest method. fix #90||
+[COMMIT MESSAGE]:Added permissions handling rest calls||
+[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+[COMMIT MESSAGE]:Java Business Cloud Basic version code.||
+[COMMIT MESSAGE]:Permissions in jsp and service methodes||
+[COMMIT MESSAGE]:AA servisvni vrstva + rest klient||
+[COMMIT MESSAGE]:Service layer - spring security||
+[COMMIT MESSAGE]:introducing role and privilege read permissions for admin, securing t…||…hese read operations
+[COMMIT MESSAGE]:further cleanup work||
+[COMMIT MESSAGE]:securing privilege APIs||
+[COMMIT MESSAGE]:formatting work||
+[COMMIT MESSAGE]:introducing role and privilege read permissions for admin, securing t…||…hese read operations
+[COMMIT MESSAGE]:further cleanup work||
+[COMMIT MESSAGE]:formatting work||
+[COMMIT MESSAGE]:fixed: rennable||
+[COMMIT MESSAGE]:new: role - user||
+[COMMIT MESSAGE]:new: model||
+[COMMIT MESSAGE]:test||
+[COMMIT MESSAGE]:metamodel again||
+[COMMIT MESSAGE]:fixed: rennable||
+[COMMIT MESSAGE]:new: role - user||
+[COMMIT MESSAGE]:new: model||
+[COMMIT MESSAGE]:test||
+[COMMIT MESSAGE]:working on controllers>>>||
+[COMMIT MESSAGE]:preparing JSP and MVC||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+[COMMIT MESSAGE]:administrating users||
+[COMMIT MESSAGE]:基础上传||
+[COMMIT MESSAGE]:refactoring security and added validation issueDto||
+[COMMIT MESSAGE]:displayTag||
+[COMMIT MESSAGE]:FP-1113 Изменён запрос Operation.listLastPaymentPointPaymentOperations||FP-1114 Исследованы и оптимизированы запросы, выполняющиеся при работе с разделом "Монитор" АРМа бухгалтера
+[COMMIT MESSAGE]:FP-685 accountant reports implemented||
+[COMMIT MESSAGE]:FP-612 Создан новый справочник касс. Все классы находятся в payments,…||… а struts.xml и jsp-файлы в eirc
+[COMMIT MESSAGE]:FP-480 operation filters implemented||
+[COMMIT MESSAGE]:FP-480 first stage (basics) imlpemented||
+[COMMIT MESSAGE]:add method level access control||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:HomeProject||
+[COMMIT MESSAGE]:HomeProject||
+[COMMIT MESSAGE]:User MVC, user roles, secured service layer, rest authentication||
+[COMMIT MESSAGE]:Added @Secured to DAO classes to make the methods secured.||
+[COMMIT MESSAGE]:Added @Secured to DAO classes to make the methods secured.||
+[COMMIT MESSAGE]:add inventory item||
+[COMMIT MESSAGE]:Code clean up related to security #6||We will let spring to handle other status code.
+[COMMIT MESSAGE]:Move usage of @Secured from Service class to Controller class #6||
+[COMMIT MESSAGE]:Move usage of @Secured from Service class to Controller class #6||
+[COMMIT MESSAGE]:building related items||
+[COMMIT MESSAGE]:Code and Test Refactoring.||
+[COMMIT MESSAGE]:Exchange view and controller.||
+[COMMIT MESSAGE]:Exchange diagram||
+[COMMIT MESSAGE]:Liquibase plugin. Vacation management||Change-Id: I06d52e4216981fd9c40b4a7b1dec39be8e39285d
+[COMMIT MESSAGE]:Salvo la base datos creo que esta todo correcto. No voy a volver a mo…||…dificar este proyecto. Version final
+[COMMIT MESSAGE]:added userprepostinterceptor used with runasmanager||
+[COMMIT MESSAGE]:added consumer authorization before user authorization||
+[COMMIT MESSAGE]:restricting method access via acl permissions||
+[COMMIT MESSAGE]:added poc for restrictions via runasmanager authorities||
+[COMMIT MESSAGE]:Trying to make jsp relationship with objects dynamic (e.g. don't||hardcode to fb_weld) Added stn_btable and stn_htable to sy_section so
+[COMMIT MESSAGE]:Implemented Groups in Security. Looking at AOP for multi-tenancy now.||
+[COMMIT MESSAGE]:Trying to add enhanced security authentication (GROUPS, etc...) to allow||finer grained security. Issue building at the moment with a problem with
+[COMMIT MESSAGE]:JSP Page reading sysections and syfields and dynamically creating the||table list based on the stn_code value. Awesome work.
+[COMMIT MESSAGE]:Using parameter in URL to query SySection table by||syService.getSySectionsByCode(sySections));
+[COMMIT MESSAGE]:Adding service and repo methods to find DB objects based on a list of||objects supplied to the method (using sySection initially)
+[COMMIT MESSAGE]:Domain and Repository implementation complete, ready to move to service||layer.
+[COMMIT MESSAGE]:adding the source||
+[COMMIT MESSAGE]:adding everything to git||
+[COMMIT MESSAGE]:added related products||
+[COMMIT MESSAGE]:partner entity ready||
+[COMMIT MESSAGE]:fidbacks now works||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:spring security integration||
+[COMMIT MESSAGE]:Refactoring||
+[COMMIT MESSAGE]:Refactoring||
+[COMMIT MESSAGE]:SOA Rest||
+[COMMIT MESSAGE]:ADD: PayeeSuggestOracle||ADD: Payee search by name function in repo
+[COMMIT MESSAGE]:ADD: Payees view, service, repo and presenter||FIX: Some wrong variable name
+[COMMIT MESSAGE]:added tournament view on admin;||
+[COMMIT MESSAGE]:added tournament player registration;||
+[COMMIT MESSAGE]:exception handling in controllers;||
+[COMMIT MESSAGE]:migrate to hibernate 4.1.3||
+[COMMIT MESSAGE]:tournaments creation;||
+[COMMIT MESSAGE]:fixes and adds to usergroup rest api and user group update system||
+[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+[COMMIT MESSAGE]:intro commit||
+[COMMIT MESSAGE]:src||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:Spring-boot-example||
+[COMMIT MESSAGE]:Added Navigation Controller along with Blank FTL & JS files||
+[COMMIT MESSAGE]:Added Navigation Controller along with Blank FTL & JS files||
+[COMMIT MESSAGE]:Added Navigation Controller along with Blank FTL & JS files||
+[COMMIT MESSAGE]:Added Navigation Controller along with Blank FTL & JS files||
+[COMMIT MESSAGE]:Added Navigation Controller along with Blank FTL & JS files||
+[COMMIT MESSAGE]:Added Navigation Controller along with Blank FTL & JS files||
+[COMMIT MESSAGE]:Added Navigation Controller along with Blank FTL & JS files||
+[COMMIT MESSAGE]:Initial Commit||
+[COMMIT MESSAGE]:아이템숍||
+[COMMIT MESSAGE]:E||
+[COMMIT MESSAGE]:find total option||
+[COMMIT MESSAGE]:access point WIP||
+[COMMIT MESSAGE]:api inheritance||
+[COMMIT MESSAGE]:Display Winning Tickets in a manage page and on the home page||
+[COMMIT MESSAGE]:Draw functionality||
+[COMMIT MESSAGE]:Draw numbers functionality added.||
+[COMMIT MESSAGE]:Signed-off-by: Elie A <elie.pennstate@gmail.com>||
+[COMMIT MESSAGE]:Merge branch 'master' of||https://github.com/epiphonewizard/sweng505Team3.git
+[COMMIT MESSAGE]:Merge branch 'master' of||https://github.com/epiphonewizard/sweng505Team3.git
+[COMMIT MESSAGE]:create lottery page. initial commit||
+[COMMIT MESSAGE]:Add maxWinnings to Lottery Model, create RequestMapping for||CreateLottery admin page, add fields to header.
+[COMMIT MESSAGE]:CHANGE - initial import||
+[COMMIT MESSAGE]:Upload complete example with java configuration||
+[COMMIT MESSAGE]:App. securized using spring-security with annotations in controller m…||…ethods.
+[COMMIT MESSAGE]:Apply security features with scenarios||
+[COMMIT MESSAGE]:.||
+[COMMIT MESSAGE]:arrumando userdao||
+[COMMIT MESSAGE]:Working on the jsf2 related issues. Switch validators and converters …||…to annotations. Preparing for the AutoComplete class delete.
+[COMMIT MESSAGE]:changed parameter of the security annotation||
+[COMMIT MESSAGE]:added new trial site service method (get with members)||
+[COMMIT MESSAGE]:added a service method to load all members from a trial site||
+[COMMIT MESSAGE]:removed cyclic database dependency between Person and TrialSite and a…||…dded additional methods in dao and service
+[COMMIT MESSAGE]:changed security annotations||
+[COMMIT MESSAGE]:added role anonymous to getAll()||
+[COMMIT MESSAGE]:changed xml shema version (spring beans and security)||added trial subject acl permissions
+[COMMIT MESSAGE]:role based access control spring security||
+[COMMIT MESSAGE]:dynamic field validation can be added for the text fields||
+[COMMIT MESSAGE]:jsr 303 validaon added||
+[COMMIT MESSAGE]:cv template register modified||
+[COMMIT MESSAGE]:cv register view midified||
+[COMMIT MESSAGE]:CvApplicationSection details are added||
+[COMMIT MESSAGE]:Merge branch 'master' of https://github.com/chathurangat/recruitment-…||…manager
+[COMMIT MESSAGE]:cv insert section view added||
+[COMMIT MESSAGE]:CvApplicationSection details added||
+[COMMIT MESSAGE]:recruitmen admin module was commited with followiing features||1. sitemesh integration
+[COMMIT MESSAGE]:Spring MVC with Security using secured annotation||
+[COMMIT MESSAGE]:Initial Commit, Spring Security integration with Play Framework 2.1||
+[COMMIT MESSAGE]:Authorisation tweaks in service||XML configuration takes precedence over annotations.
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:_||
+[COMMIT MESSAGE]:_||
+[COMMIT MESSAGE]:MVP for disso||
+[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+[COMMIT MESSAGE]:spring mvc||
+[COMMIT MESSAGE]:primer release||
+[COMMIT MESSAGE]:First commit||
+[COMMIT MESSAGE]:poprawki, dodanie nowych widoków.||
+[COMMIT MESSAGE]:tlumaczenia, poprawki w panelu uzytkownika.||
+[COMMIT MESSAGE]:404, bezpieczenstwo.||
+[COMMIT MESSAGE]:zabezpieczenia, poprawki||
+[COMMIT MESSAGE]:Java Business Cloud Basic version code.||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:Spring's method security||
+[COMMIT MESSAGE]:Spring's method security||
+[COMMIT MESSAGE]:Upload of complete example||
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Implemented Active Directory integration. Disabled keyword_group matc…||…her temporarily. Several refinements.
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Implemented Active Directory integration. Disabled keyword_group matc…||…her temporarily. Several refinements.
+[COMMIT MESSAGE]:Added and implemented AUDITOR role.||
+[COMMIT MESSAGE]:Implemented dynamic dashboard components||
+[COMMIT MESSAGE]:Report Database is added .||
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Document Classifier is implemented.||
+[COMMIT MESSAGE]:Added and implemented AUDITOR role.||
+[COMMIT MESSAGE]:Fixed adding rule. New DAOs introduced.||
+[COMMIT MESSAGE]:Initial commit to trainer.||
+[COMMIT MESSAGE]:Super admin user role is added.||
+[COMMIT MESSAGE]:Threshold field is removed for inappropriate indormation features.||
+[COMMIT MESSAGE]:Added and implemented AUDITOR role.||
+[COMMIT MESSAGE]:Implemented USBSAC||
+[COMMIT MESSAGE]:Implemented revisions tab.||
+[COMMIT MESSAGE]:Added merging of objects that contain virtually the same data. Bug fi…||…xes.
+[COMMIT MESSAGE]:Several updates and fixes based on Ståle's test plan.||
+[COMMIT MESSAGE]:XML and JSON API almost done.||
+[COMMIT MESSAGE]:Code for manipulating cemeteries, ranks, causes of death, stalags and…||… camps.
+[COMMIT MESSAGE]:More work on inserting items: stalags and nationalities.||
+[COMMIT MESSAGE]:able to invoke security||
+[COMMIT MESSAGE]:Providing the security on method(Method-Level Access)||
+[COMMIT MESSAGE]:Upload of complete example, could use a few more test cases and needs…||… some ui refinements.
+[COMMIT MESSAGE]:v0.1||
+[COMMIT MESSAGE]:(service) oprava chybnej logiky||
+[COMMIT MESSAGE]:(service) secured anotacia||
+[COMMIT MESSAGE]:쪽지 기능 기본 구성.||
+[COMMIT MESSAGE]:tried yui||
+[COMMIT MESSAGE]:created project structure, added yui js and pure css, spring framewor…||…k configured
+[COMMIT MESSAGE]:Subida inicial del proyecto||Contiene:
+[COMMIT MESSAGE]:Set some eol-style/mime-type attributes||git-svn-id: https://svn.apache.org/repos/asf/cxf/trunk@726634 13f79535-47bb-0310-9956-ffa450edef68
+[COMMIT MESSAGE]:JAXRS : spring security system tests||git-svn-id: https://svn.apache.org/repos/asf/cxf/trunk@724780 13f79535-47bb-0310-9956-ffa450edef68
+[COMMIT MESSAGE]:introducing additional read permissions for admin, securing user read…||… operations
+[COMMIT MESSAGE]:further cleanup work||
+[COMMIT MESSAGE]:formatting work||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:Initial commit.||
+[COMMIT MESSAGE]:See and Update actions for Discipline||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:cambios||
+[COMMIT MESSAGE]:cambios varios||
+[COMMIT MESSAGE]:security annotations||
+[COMMIT MESSAGE]:.||
+[COMMIT MESSAGE]:refactoring security and added validation issueDto||
+[COMMIT MESSAGE]:displayTag||
+[COMMIT MESSAGE]:Demo work||
+[COMMIT MESSAGE]:password encript||x
+[COMMIT MESSAGE]:+added servicec to get all categories||*change global menu to show dialog window to chose type of creating
+[COMMIT MESSAGE]:+ added localization||
+[COMMIT MESSAGE]:added admin role||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:User roles and permissions 113||
+[COMMIT MESSAGE]:fixed: rennable||
+[COMMIT MESSAGE]:new: role - user||
+[COMMIT MESSAGE]:new: model||
+[COMMIT MESSAGE]:test||
+[COMMIT MESSAGE]:Add CRUD Barang With Annotation Secure||
+[COMMIT MESSAGE]:Update Role User||
+[COMMIT MESSAGE]:Format Code||
+[COMMIT MESSAGE]:Add Controller Barang||
+[COMMIT MESSAGE]:first commit, project creation||
+[COMMIT MESSAGE]:DELTASPIKE-337 unified package org.apache.deltaspike.security.api.aut…||…horization
+[COMMIT MESSAGE]:基础上传||
+[COMMIT MESSAGE]:commit||
+[COMMIT MESSAGE]:Google storage implementation, minor changes||- replaced freemarker version because google appengine didn't support
+[COMMIT MESSAGE]:- Using freemarker instead of jsp||- Spring security update: using custom UserDetailsService
+[COMMIT MESSAGE]:Fill-up the new branch with files||A working solution for appengine
+[COMMIT MESSAGE]:- Using freemarker instead of jsp||- Spring security update: using custom UserDetailsService
+[COMMIT MESSAGE]:generated from archetype||
+[COMMIT MESSAGE]:Spring hibernate||commit 1 spring hibernate
+[COMMIT MESSAGE]:novakst6||
+[COMMIT MESSAGE]:finalAnalyzer runned on top of package||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:Validation done. Added logging.||
+[COMMIT MESSAGE]:Contract done||
+[COMMIT MESSAGE]:Init||
+[COMMIT MESSAGE]:Добавлен сервис логирования поиска задолженностей и распечатки квитанций||
+[COMMIT MESSAGE]:security turned on (was commented)||
+[COMMIT MESSAGE]:FP-527||Payments report added
+[COMMIT MESSAGE]:file permission poc||
+[COMMIT MESSAGE]:empty project||
+[COMMIT MESSAGE]:Method based security||
+[COMMIT MESSAGE]:Method based security||
+[COMMIT MESSAGE]:Add new views and fix unauthorized error||
+[COMMIT MESSAGE]:Set chat view (work in progress)||
+[COMMIT MESSAGE]:secured annotation added for admin role||
+[COMMIT MESSAGE]:Added another application to successfully demonstrate the single-sign…||…-on feature
+[COMMIT MESSAGE]:Added POC project||
+[COMMIT MESSAGE]:添加了Dao的公共接口，以及一个工具类||
+[COMMIT MESSAGE]:Signed-off-by: yehan432 <yh432@sina.com>||
+[COMMIT MESSAGE]:Signed-off-by: yehan432 <yh432@sina.com>||
+[COMMIT MESSAGE]:Revert ""||This reverts commit 87f1bda.
+[COMMIT MESSAGE]:Signed-off-by: yehan432 <yh432@sina.com>||
+[COMMIT MESSAGE]:添加了Dao的公共接口，以及一个工具类||
+[COMMIT MESSAGE]:Signed-off-by: yehan432 <yh432@sina.com>||
+[COMMIT MESSAGE]:Base project, MVP||
+[COMMIT MESSAGE]:First commit||
+[COMMIT MESSAGE]:pushing||
+[COMMIT MESSAGE]:Resolved conflicts||
+[COMMIT MESSAGE]:Fixing git ignore||
+[COMMIT MESSAGE]:Fixing git ignore||
+[COMMIT MESSAGE]:Fixing git ignore||
+[COMMIT MESSAGE]:Fixing git ignore||
+[COMMIT MESSAGE]:Setting up new application config||
+[COMMIT MESSAGE]:Setting up new application config||
+[COMMIT MESSAGE]:CategoryItem and categoryType Work inprogress||
+[COMMIT MESSAGE]:Initial commit||By
+[COMMIT MESSAGE]:Added Bootstrap 3 and Added Multilanguage support||
+[COMMIT MESSAGE]:Spring Production Project Initial Commit||
+[COMMIT MESSAGE]:Continued development - added Order management unit tests||
+[COMMIT MESSAGE]:Continued development - added Order management unit tests||
+[COMMIT MESSAGE]:Added log4j.properties for configuring log levels||
+[COMMIT MESSAGE]:Initial development||
+[COMMIT MESSAGE]:First commit||
+[COMMIT MESSAGE]:First commit||
+[COMMIT MESSAGE]:Fixing checkstyle errors in the OAuth demo||git-svn-id: https://svn.apache.org/repos/asf/cxf/trunk@1177361 13f79535-47bb-0310-9956-ffa450edef68
+[COMMIT MESSAGE]:[CXF-2759] More refactorings plus adding a demo missed during the ori…||…ginal commit
+[COMMIT MESSAGE]:Implement proper Spring Security. Get rid of unused remember me token…||… stuff.
+[COMMIT MESSAGE]:Validation done. Added logging.||
+[COMMIT MESSAGE]:User password change||Change-Id: I4c50e6160e452380c4f229c4e5efab32a9072544
+[COMMIT MESSAGE]:Activity in progress. Authenticator provider. Delete user.||Change-Id: I55c15be01e5fb764d720b5e73dc9056829751e70
+[COMMIT MESSAGE]:Contract done||
+[COMMIT MESSAGE]:Employee RCP User done||
+[COMMIT MESSAGE]:RCP controller||
+[COMMIT MESSAGE]:RCP controller + css fixes||
+[COMMIT MESSAGE]:Initial||
+[COMMIT MESSAGE]:Init||
+[COMMIT MESSAGE]:Init||
+[COMMIT MESSAGE]:Init||
+[COMMIT MESSAGE]:Implement proper Spring Security. Get rid of unused remember me token…||… stuff.
+[COMMIT MESSAGE]:Revert "Removed security altogether"||This reverts commit d26ff72.
+[COMMIT MESSAGE]:Removed security altogether||
+[COMMIT MESSAGE]:#27: File persistence, show files and upload multiple files||
+[COMMIT MESSAGE]:Revert "Removed security altogether"||This reverts commit d26ff72.
+[COMMIT MESSAGE]:Removed security altogether||
+[COMMIT MESSAGE]:#17: Theme basics||
+[COMMIT MESSAGE]:Revert "Removed security altogether"||This reverts commit d26ff72.
+[COMMIT MESSAGE]:Removed security altogether||
+[COMMIT MESSAGE]:#8: Working authentication with admin||
+[COMMIT MESSAGE]:최초 기본적인 세팅 완료후 커미||
+[COMMIT MESSAGE]:refine echo.html||
+[COMMIT MESSAGE]:use the default JDBC authentication(database tables 'users' and 'auth…||…orities' are in use)
+[COMMIT MESSAGE]:set /echo/{id} open to ROLE_USER only||
+[COMMIT MESSAGE]:querydsl_security_test created||
+[COMMIT MESSAGE]:megacommit||
+[COMMIT MESSAGE]:Java 7 and search page||
+[COMMIT MESSAGE]:Solr, Predicates, UI polish||
+[COMMIT MESSAGE]:Java Business Cloud Basic version code.||
+[COMMIT MESSAGE]:Permissions in jsp and service methodes||
+[COMMIT MESSAGE]:Service layer - spring security||
+[COMMIT MESSAGE]:DELTASPIKE-337 unified package org.apache.deltaspike.security.api.aut…||…horization
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:initial setup||
+[COMMIT MESSAGE]:Project from Archetype||
+[COMMIT MESSAGE]:commiting many changes||
+[COMMIT MESSAGE]:changes about county||
+[COMMIT MESSAGE]:many new changes on import day||
+[COMMIT MESSAGE]:too many changes||
+[COMMIT MESSAGE]:adding staff members of org units||
+[COMMIT MESSAGE]:prod org||
+[COMMIT MESSAGE]:securing ws with spring security and wss4j||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:Implement proper Spring Security. Get rid of unused remember me token…||… stuff.
+[COMMIT MESSAGE]:Add helper functions for all connections (/vaccinations/1/allCompound…||…s, /compounds/1/allVaccinations, /compounds/1/allVaccinationDates, /vaccinationDates/1/allCompounds)
+[COMMIT MESSAGE]:Make better authorization and add simpler deletes||
+[COMMIT MESSAGE]:Using spring-data rest, enabling easy linking using /create endpoint||
+[COMMIT MESSAGE]:Initial Webservice||
+[COMMIT MESSAGE]:cool||
+[COMMIT MESSAGE]:new2||
+[COMMIT MESSAGE]:select channels and distributors||
+[COMMIT MESSAGE]:Noxml approach for Spring Security impemented||
+[COMMIT MESSAGE]:Good looking code format||
+[COMMIT MESSAGE]:Add report logic||
+[COMMIT MESSAGE]:Good looking code format||
+[COMMIT MESSAGE]:Hello world||
+[COMMIT MESSAGE]:portal can connect to titan-reset-server for nova list now||Signed-off-by: Peter <mcheung63@hotmail.com>
+[COMMIT MESSAGE]:Signed-off-by: Peter <mcheung63@hotmail.com>||
+[COMMIT MESSAGE]:Wersja z 04-06-2014||Chyba działa, brakuje paru rzeczy.
+[COMMIT MESSAGE]:Wersja z 09.06.2014||Panel administratora (dodawanie kategorii i filmów)
+[COMMIT MESSAGE]:add spring archetype||
+[COMMIT MESSAGE]:added @Secure annotation for authorization to delete to only ROLE_ADMIN||
+[COMMIT MESSAGE]:added @Secure annotation for authorization to delete to only ROLE_ADMIN||
+[COMMIT MESSAGE]:added @Secure annotation for authorization to delete to only ROLE_ADMIN||
+[COMMIT MESSAGE]:added @Secure annotation for authorization to delete to only ROLE_ADMIN||
+[COMMIT MESSAGE]:Add Jfokus demo||
+[COMMIT MESSAGE]:Svx start||
+[COMMIT MESSAGE]:Temp fix||
+[COMMIT MESSAGE]:Initial import||
+[COMMIT MESSAGE]:Added Gin||
+[COMMIT MESSAGE]:Fixed #41||
+[COMMIT MESSAGE]:Removed persistency of enableflag.||Added flag for emailvalidation.
+[COMMIT MESSAGE]:Added support for setting role and enable flag.||Added check for username availability.
+[COMMIT MESSAGE]:Lots of work on CORS and details that make things start to work on mo…||…bile.
+[COMMIT MESSAGE]:Fdsfds||
+[COMMIT MESSAGE]:FDsfdsf||
+[COMMIT MESSAGE]:sutaisytas produkto pridejimas||
+[COMMIT MESSAGE]:unit ne kaip select||
+[COMMIT MESSAGE]:mdsada||
+[COMMIT MESSAGE]:recipeadd autocomplete, units parinkimas||
+[COMMIT MESSAGE]:uzpiso||
+[COMMIT MESSAGE]:tingiu||
+[COMMIT MESSAGE]:produktai, receptai||
+[COMMIT MESSAGE]:ProductController||
+[COMMIT MESSAGE]:Section 15 - Spring Webflow start. lec. 149 finished||
+[COMMIT MESSAGE]:Section 14 - Hibernate. Lec. 137 finished||
+[COMMIT MESSAGE]:section 13 finished. lec. 135 finished||
+[COMMIT MESSAGE]:section 16 json/ajax start||
+[COMMIT MESSAGE]:spring security||
+[COMMIT MESSAGE]:initial||
+[COMMIT MESSAGE]:Experiment for custom UserDetailsService and UserDetails.||
+[COMMIT MESSAGE]:Publishing to GitHub||
+[COMMIT MESSAGE]:init spring-in-action||all sample code from http://www.manning.com/walls4/
+[COMMIT MESSAGE]:download from http://www.manning.com/walls4||http://www.manning.com/walls4/
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:initial upload||
+[COMMIT MESSAGE]:初始化||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:spring1||springproject
+[COMMIT MESSAGE]:sia3||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:Creacion del proyecto||
+[COMMIT MESSAGE]:sia||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:add sia||
+[COMMIT MESSAGE]:Spring In Action Code 3rd Edition||
+[COMMIT MESSAGE]:Spring in Action example||
+[COMMIT MESSAGE]:first commit of all file||
+[COMMIT MESSAGE]:spitter||
+[COMMIT MESSAGE]:initial commit||
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:Spring In Action 3 source code||
+[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+[COMMIT MESSAGE]:CLOUD-200 added new method to credentialrepository||
+[COMMIT MESSAGE]:CLOUD-216 permission management for findOne calls||
+[COMMIT MESSAGE]:CLOUD-216 credential endpoints basic implementation||
+[COMMIT MESSAGE]:fixed bug in repository||
+[COMMIT MESSAGE]:Renamed authorization method to something more logical.||
+[COMMIT MESSAGE]:Basic Security.||
+[COMMIT MESSAGE]:Renamed authorization method to something more logical.||
+[COMMIT MESSAGE]:Basic Security.||
+[COMMIT MESSAGE]:Renamed authorization method to something more logical.||
+[COMMIT MESSAGE]:Basic Security.||
+[COMMIT MESSAGE]:Renamed authorization method to something more logical.||
+[COMMIT MESSAGE]:Basic Security.||
+[COMMIT MESSAGE]:init spring||
+[COMMIT MESSAGE]:123||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:Updated to add delete application functionality||
+[COMMIT MESSAGE]:Move to hardcoded logic Permissions. Add properties based authentication||
+[COMMIT MESSAGE]:Refactor so spring configuration can be changed via properties||
+[COMMIT MESSAGE]:Added source param in order to acquire all questions from an (random)||ilias test
+[COMMIT MESSAGE]:Simplified getQuestion and getRandomQuestion for IlliasConnector and||made them more dynamic.
+[COMMIT MESSAGE]:Added methods for random test question requests||
+[COMMIT MESSAGE]:Added new security rules and configuration||
+[COMMIT MESSAGE]:Initial commit of book code provided by publisher at http://manning.c…||…om/walls4/
+[COMMIT MESSAGE]:Start of presentation||
+[COMMIT MESSAGE]:initial||
+[COMMIT MESSAGE]:base src from manning website||
+[COMMIT MESSAGE]:secure method invocation with SpEL expressions in annotations||
+[COMMIT MESSAGE]:Items: 10, 6, 0, 5, 9, 2||0. Better UI, clean the project - following
+[COMMIT MESSAGE]:Items: 0, 2, 5, 9||0. Better UI, clean the project - following
+[COMMIT MESSAGE]:Spring In Action created.||
+[COMMIT MESSAGE]:Initial Checkin||
+[COMMIT MESSAGE]:Use the new access method.||
+[COMMIT MESSAGE]:Use the new access method.||
+[COMMIT MESSAGE]:add basic CourseGroup functions||
+[COMMIT MESSAGE]:ACL eingebaut||
+[COMMIT MESSAGE]:Refactor: give the User, Admin and authentication methods a seperated||controller.
+[COMMIT MESSAGE]:Add update course function||
+[COMMIT MESSAGE]:Add clean course functions||
+[COMMIT MESSAGE]:add required login for getAllCoursesUser||
+[COMMIT MESSAGE]:Add permission to json getAllCourse||
+[COMMIT MESSAGE]:Edited MySavedRequestAwareAuthenticationHandler.||Now redirect to original url after login.
+[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+[COMMIT MESSAGE]:CLOUD-200 added new method to blueprintrepository||
+[COMMIT MESSAGE]:CLOUD-216 permission management for findOne calls||
+[COMMIT MESSAGE]:CLOUD-216 blueprint endpoints basic implementation||
+[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+[COMMIT MESSAGE]:CLOUD-200 added template methods||
+[COMMIT MESSAGE]:CLOUD-216 permission management for findOne calls||
+[COMMIT MESSAGE]:CLOUD-216 template endpoints basic implementation||
+[COMMIT MESSAGE]:fixed bug in repository||
+[COMMIT MESSAGE]:init spring-in-action||all sample code from http://www.manning.com/walls4/
+[COMMIT MESSAGE]:initial||
+[COMMIT MESSAGE]:initial||
+[COMMIT MESSAGE]:Initial work on Client Library. This includes work to ensure security…||… is in place on the server side. Lots of work sourrounding inheritance and security.
+[COMMIT MESSAGE]:Change getEnvironments to go through Repository so it can be filtered…||… by security. Environment list now only shows 'visible' environments
+[COMMIT MESSAGE]:Move to hardcoded logic Permissions. Add properties based authentication||
+[COMMIT MESSAGE]:Refactor so spring configuration can be changed via properties||
+[COMMIT MESSAGE]:Converted to JUnit tests||
+[COMMIT MESSAGE]:download from http://www.manning.com/walls4||http://www.manning.com/walls4/
+[COMMIT MESSAGE]:Initial commit||
+[COMMIT MESSAGE]:initial upload||
+[COMMIT MESSAGE]:初始化||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:inital commit||
+[COMMIT MESSAGE]:spring1||springproject
+[COMMIT MESSAGE]:Adicionado serviço rest||
+[COMMIT MESSAGE]:sia3||
+[COMMIT MESSAGE]:first commit||
+[COMMIT MESSAGE]:Creacion del proyecto||

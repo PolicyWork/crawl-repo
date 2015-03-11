@@ -1,0 +1,1193 @@
+allCommits.txt:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+allCommits.txt:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+allCommits.txt:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+allCommits.txt:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+allCommits.txt:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #4 : Create API's in management controller which will return sp…||…ecific account and application
+allCommits.txt:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Applic…||…ation
+allCommits.txt:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"||This reverts commit 25011ff, reversing
+allCommits.txt:CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user. There was a lot of cross-repository w…||…ork happening in the UserRepository that has been moved to the UserService#deleteUser method.
+allCommits.txt:CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+allCommits.txt:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+allCommits.txt:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+allCommits.txt:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+allCommits.txt:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+allCommits.txt:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+allFixes:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+allFixes:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+allFixes:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+allFixes:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+allFixes:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #4 : Create API's in management controller which will return sp…||…ecific account and application
+allFixes:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Applic…||…ation
+allFixes:CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"||This reverts commit 25011ff, reversing
+allFixes:CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+allFixes:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+allFixes:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+allFixes:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+allFixes:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+allFixes:CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Update #1
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:CARE #51: Add the ability to define new languages from the UI
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:#64 BeanIds.AUTHENTICATION_MANAGER is now a composed bean
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues added
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"
+CrawlerOutput.txt_permission_keyword:+{"version":3,"sources":["less/theme.less","less/mixins.less"],"names":[],"mappings":"AAeA;AACA;AACA;AACA;AACA;AACA;EACE,wCAAA;ECoGA,2FAAA;EACQ,mFAAA;;ADhGR,YAAC;AAAD,YAAC;AAAD,YAAC;AAAD,SAAC;AAAD,YAAC;AAAD,WAAC;AACD,YAAC;AAAD,YAAC;AAAD,YAAC;AAAD,SAAC;AAAD,YAAC;AAAD,WAAC;EC8FD,wDAAA;EACQ,gDAAA;;ADnER,IAAC;AACD,IAAC;EACC,sBAAA;;AAKJ;EC4PI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EAEA,sHAAA;EAoCF,mEAAA;ED7TA,2BAAA;EACA,qBAAA;EAyB2C,yBAAA;EAA2B,kBAAA;;AAvBtE,YAAC;AACD,YAAC;EACC,yBAAA;EACA,4BAAA;;AAGF,YAAC;AACD,YAAC;EACC,yBAAA;EACA,qBAAA;;AAeJ;EC2PI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EAEA,sHAAA;EAoCF,mEAAA;ED7TA,2BAAA;EACA,qBAAA;;AAEA,YAAC;AACD,YAAC;EACC,yBAAA;EACA,4BAAA;;AAGF,YAAC;AACD,YAAC;EACC,yBAAA;EACA,qBAAA;;AAgBJ;EC0PI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EAEA,sHAAA;EAoCF,mEAAA;ED7TA,2BAAA;EACA,qBAAA;;AAEA,YAAC;AACD,YAAC;EACC,yBAAA;EACA,4BAAA;;AAGF,YAAC;AACD,YAAC;EACC,yBAAA;EACA,qBAAA;;AAiBJ;ECyPI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EAEA,sHAAA;EAoCF,mEAAA;ED7TA,2BAAA;EACA,qBAAA;;AAEA,SAAC;AACD,SAAC;EACC,yBAAA;EACA,4BAAA;;AAGF,SAAC;AACD,SAAC;EACC,yBAAA;EACA,qBAAA;;AAkBJ;ECwPI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EAEA,sHAAA;EAoCF,mEAAA;ED7TA,2BAAA;EACA,qBAAA;;AAEA,YAAC;AACD,YAAC;EACC,yBAAA;EACA,4BAAA;;AAGF,YAAC;AACD,YAAC;EACC,yBAAA;EACA,qBAAA;;AAmBJ;ECuPI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EAEA,sHAAA;EAoCF,mEAAA;ED7TA,2BAAA;EACA,qBAAA;;AAEA,WAAC;AACD,WAAC;EACC,yBAAA;EACA,4BAAA;;AAGF,WAAC;AACD,WAAC;EACC,yBAAA;EACA,qBAAA;;AA2BJ;AACA;EC6CE,kDAAA;EACQ,0CAAA;;ADpCV,cAAe,KAAK,IAAG;AACvB,cAAe,KAAK,IAAG;ECmOnB,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;EDpOF,yBAAA;;AAEF,cAAe,UAAU;AACzB,cAAe,UAAU,IAAG;AAC5B,cAAe,UAAU,IAAG;EC6NxB,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;ED9NF,yBAAA;;AAUF;ECiNI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;EAoCF,mEAAA;EDrPA,kBAAA;ECaA,2FAAA;EACQ,mFAAA;;ADjBV,eAOE,YAAY,UAAU;EC0MpB,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;EApMF,wDAAA;EACQ,gDAAA;;ADLV;AACA,WAAY,KAAK;EACf,8CAAA;;AAIF;EC+LI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;EAoCF,mEAAA;;ADtOF,eAIE,YAAY,UAAU;EC2LpB,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;EApMF,uDAAA;EACQ,+CAAA;;ADCV,eASE;AATF,eAUE,YAAY,KAAK;EACf,yCAAA;;AAKJ;AACA;AACA;EACE,gBAAA;;AAUF;EACE,6CAAA;EChCA,0FAAA;EACQ,kFAAA;;AD2CV;ECqJI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;ED5JF,qBAAA;;AAKF;ECoJI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;ED5JF,qBAAA;;AAMF;ECmJI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;ED5JF,qBAAA;;AAOF;ECkJI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;ED5JF,qBAAA;;AAgBF;ECyII,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADlIJ;EC+HI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADjIJ;EC8HI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADhIJ;EC6HI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;AD/HJ;EC4HI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;AD9HJ;EC2HI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADtHJ;EACE,kBAAA;EC/EA,kDAAA;EACQ,0CAAA;;ADiFV,gBAAgB;AAChB,gBAAgB,OAAO;AACvB,gBAAgB,OAAO;EACrB,6BAAA;EC4GE,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;ED7GF,qBAAA;;AAUF;ECjGE,iDAAA;EACQ,yCAAA;;AD0GV,cAAe;ECsFX,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADxFJ,cAAe;ECqFX,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADvFJ,cAAe;ECoFX,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADtFJ,WAAY;ECmFR,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADrFJ,cAAe;ECkFX,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;ADpFJ,aAAc;ECiFV,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;;AD5EJ;ECyEI,kBAAkB,sDAAlB;EACA,kBAAkB,oDAAlB;EACA,2BAAA;EACA,sHAAA;ED1EF,qBAAA;EC1HA,yFAAA;EACQ,iFAAA","sourcesContent":["\n//\n// Load core variables and mixins\n// --------------------------------------------------\n\n@import \"variables.less\";\n@import \"mixins.less\";\n\n\n\n//\n// Buttons\n// --------------------------------------------------\n\n// Common styles\n.btn-default,\n.btn-primary,\n.btn-success,\n.btn-info,\n.btn-warning,\n.btn-danger {\n text-shadow: 0 -1px 0 rgba(0,0,0,.2);\n @shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 1px rgba(0,0,0,.075);\n .box-shadow(@shadow);\n\n // Reset the shadow\n &:active,\n &.active {\n .box-shadow(inset 0 3px 5px rgba(0,0,0,.125));\n }\n}\n\n// Mixin for generating new styles\n.btn-styles(@btn-color: #555) {\n #gradient > .vertical(@start-color: @btn-color; @end-color: darken(@btn-color, 12%));\n .reset-filter(); // Disable gradients for IE9 because filter bleeds through rounded corners\n background-repeat: repeat-x;\n border-color: darken(@btn-color, 14%);\n\n &:hover,\n &:focus {\n background-color: darken(@btn-color, 12%);\n background-position: 0 -15px;\n }\n\n &:active,\n &.active {\n background-color: darken(@btn-color, 12%);\n border-color: darken(@btn-color, 14%);\n }\n}\n\n// Common styles\n.btn {\n // Remove the gradient for the pressed/active state\n &:active,\n &.active {\n background-image: none;\n }\n}\n\n// Apply the mixin to the buttons\n.btn-default { .btn-styles(@btn-default-bg); text-shadow: 0 1px 0 #fff; border-color: #ccc; }\n.btn-primary { .btn-styles(@btn-primary-bg); }\n.btn-success { .btn-styles(@btn-success-bg); }\n.btn-info { .btn-styles(@btn-info-bg); }\n.btn-warning { .btn-styles(@btn-warning-bg); }\n.btn-danger { .btn-styles(@btn-danger-bg); }\n\n\n\n//\n// Images\n// --------------------------------------------------\n\n.thumbnail,\n.img-thumbnail {\n .box-shadow(0 1px 2px rgba(0,0,0,.075));\n}\n\n\n\n//\n// Dropdowns\n// --------------------------------------------------\n\n.dropdown-menu > li > a:hover,\n.dropdown-menu > li > a:focus {\n #gradient > .vertical(@start-color: @dropdown-link-hover-bg; @end-color: darken(@dropdown-link-hover-bg, 5%));\n background-color: darken(@dropdown-link-hover-bg, 5%);\n}\n.dropdown-menu > .active > a,\n.dropdown-menu > .active > a:hover,\n.dropdown-menu > .active > a:focus {\n #gradient > .vertical(@start-color: @dropdown-link-active-bg; @end-color: darken(@dropdown-link-active-bg, 5%));\n background-color: darken(@dropdown-link-active-bg, 5%);\n}\n\n\n\n//\n// Navbar\n// --------------------------------------------------\n\n// Default navbar\n.navbar-default {\n #gradient > .vertical(@start-color: lighten(@navbar-default-bg, 10%); @end-color: @navbar-default-bg);\n .reset-filter(); // Remove gradient in IE<10 to fix bug where dropdowns don't getPermission triggered\n border-radius: @navbar-border-radius;\n @shadow: inset 0 1px 0 rgba(255,255,255,.15), 0 1px 5px rgba(0,0,0,.075);\n .box-shadow(@shadow);\n\n .navbar-nav > .active > a {\n #gradient > .vertical(@start-color: darken(@navbar-default-bg, 5%); @end-color: darken(@navbar-default-bg, 2%));\n .box-shadow(inset 0 3px 9px rgba(0,0,0,.075));\n }\n}\n.navbar-brand,\n.navbar-nav > li > a {\n text-shadow: 0 1px 0 rgba(255,255,255,.25);\n}\n\n// Inverted navbar\n.navbar-inverse {\n #gradient > .vertical(@start-color: lighten(@navbar-inverse-bg, 10%); @end-color: @navbar-inverse-bg);\n .reset-filter(); // Remove gradient in IE<10 to fix bug where dropdowns don't getPermission triggered\n\n .navbar-nav > .active > a {\n #gradient > .vertical(@start-color: @navbar-inverse-bg; @end-color: lighten(@navbar-inverse-bg, 2.5%));\n .box-shadow(inset 0 3px 9px rgba(0,0,0,.25));\n }\n\n .navbar-brand,\n .navbar-nav > li > a {\n text-shadow: 0 -1px 0 rgba(0,0,0,.25);\n }\n}\n\n// Undo rounded corners in static and fixed navbars\n.navbar-static-top,\n.navbar-fixed-top,\n.navbar-fixed-bottom {\n border-radius: 0;\n}\n\n\n\n//\n// Alerts\n// --------------------------------------------------\n\n// Common styles\n.alert {\n text-shadow: 0 1px 0 rgba(255,255,255,.2);\n @shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 1px 2px rgba(0,0,0,.05);\n .box-shadow(@shadow);\n}\n\n// Mixin for generating new styles\n.alert-styles(@color) {\n #gradient > .vertical(@start-color: @color; @end-color: darken(@color, 7.5%));\n border-color: darken(@color, 15%);\n}\n\n// Apply the mixin to the alerts\n.alert-success { .alert-styles(@alert-success-bg); }\n.alert-info { .alert-styles(@alert-info-bg); }\n.alert-warning { .alert-styles(@alert-warning-bg); }\n.alert-danger { .alert-styles(@alert-danger-bg); }\n\n\n\n//\n// Progress bars\n// --------------------------------------------------\n\n// Give the progress background some depth\n.progress {\n #gradient > .vertical(@start-color: darken(@progress-bg, 4%); @end-color: @progress-bg)\n}\n\n// Mixin for generating new styles\n.progress-bar-styles(@color) {\n #gradient > .vertical(@start-color: @color; @end-color: darken(@color, 10%));\n}\n\n// Apply the mixin to the progress bars\n.progress-bar { .progress-bar-styles(@progress-bar-bg); }\n.progress-bar-success { .progress-bar-styles(@progress-bar-success-bg); }\n.progress-bar-info { .progress-bar-styles(@progress-bar-info-bg); }\n.progress-bar-warning { .progress-bar-styles(@progress-bar-warning-bg); }\n.progress-bar-danger { .progress-bar-styles(@progress-bar-danger-bg); }\n\n\n\n//\n// List groups\n// --------------------------------------------------\n\n.list-group {\n border-radius: @border-radius-base;\n .box-shadow(0 1px 2px rgba(0,0,0,.075));\n}\n.list-group-item.active,\n.list-group-item.active:hover,\n.list-group-item.active:focus {\n text-shadow: 0 -1px 0 darken(@list-group-active-bg, 10%);\n #gradient > .vertical(@start-color: @list-group-active-bg; @end-color: darken(@list-group-active-bg, 7.5%));\n border-color: darken(@list-group-active-border, 7.5%);\n}\n\n\n\n//\n// Panels\n// --------------------------------------------------\n\n// Common styles\n.panel {\n .box-shadow(0 1px 2px rgba(0,0,0,.05));\n}\n\n// Mixin for generating new styles\n.panel-heading-styles(@color) {\n #gradient > .vertical(@start-color: @color; @end-color: darken(@color, 5%));\n}\n\n// Apply the mixin to the panel headings only\n.panel-default > .panel-heading { .panel-heading-styles(@panel-default-heading-bg); }\n.panel-primary > .panel-heading { .panel-heading-styles(@panel-primary-heading-bg); }\n.panel-success > .panel-heading { .panel-heading-styles(@panel-success-heading-bg); }\n.panel-info > .panel-heading { .panel-heading-styles(@panel-info-heading-bg); }\n.panel-warning > .panel-heading { .panel-heading-styles(@panel-warning-heading-bg); }\n.panel-danger > .panel-heading { .panel-heading-styles(@panel-danger-heading-bg); }\n\n\n\n//\n// Wells\n// --------------------------------------------------\n\n.well {\n #gradient > .vertical(@start-color: darken(@well-bg, 5%); @end-color: @well-bg);\n border-color: darken(@well-bg, 10%);\n @shadow: inset 0 1px 3px rgba(0,0,0,.05), 0 1px 0 rgba(255,255,255,.1);\n .box-shadow(@shadow);\n}\n","//\n// Mixins\n// --------------------------------------------------\n\n\n// Utilities\n// -------------------------\n\n// Clearfix\n// Source: http://nicolasgallagher.com/micro-clearfix-hack/\n//\n// For modern browsers\n// 1. The space content is one way to avoid an Opera bug when the\n// contenteditable attribute is included anywhere else in the document.\n// Otherwise it causes space to appear at the top and bottom of elements\n// that are clearfixed.\n// 2. The use of `table` rather than `block` is only necessary if using\n// `:before` to contain the top-margins of child elements.\n.clearfix() {\n &:before,\n &:after {\n content: \" \"; // 1\n display: table; // 2\n }\n &:after {\n clear: both;\n }\n}\n\n// WebKit-style focus\n.tab-focus() {\n // Default\n outline: thin dotted;\n // WebKit\n outline: 5px auto -webkit-focus-ring-color;\n outline-offset: -2px;\n}\n\n// Center-align a block level element\n.center-block() {\n display: block;\n margin-left: auto;\n margin-right: auto;\n}\n\n// Sizing shortcuts\n.size(@width; @height) {\n width: @width;\n height: @height;\n}\n.square(@size) {\n .size(@size; @size);\n}\n\n// Placeholder text\n.placeholder(@color: @input-color-placeholder) {\n &::-moz-placeholder { color: @color; // Firefox\n opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526\n &:-ms-input-placeholder { color: @color; } // Internet Explorer 10+\n &::-webkit-input-placeholder { color: @color; } // Safari and Chrome\n}\n\n// Text overflow\n// Requires inline-block or block for proper styling\n.text-overflow() {\n overflow: hidden;\n text-overflow: ellipsis;\n white-space: nowrap;\n}\n\n// CSS image replacement\n//\n// Heads up! v3 launched with with only `.hide-text()`, but per our pattern for\n// mixins being reused as classes with the same name, this doesn't hold up. As\n// of v3.0.1 we have added `.text-hide()` and deprecated `.hide-text()`. Note\n// that we cannot chain the mixins together in Less, so they are repeated.\n//\n// Source: https://github.com/h5bp/html5-boilerplate/commit/aa0396eae757\n\n// Deprecated as of v3.0.1 (will be removed in v4)\n.hide-text() {\n font: ~\"0/0\" a;\n color: transparent;\n text-shadow: none;\n background-color: transparent;\n border: 0;\n}\n// New mixin to use as of v3.0.1\n.text-hide() {\n .hide-text();\n}\n\n\n\n// CSS3 PROPERTIES\n// --------------------------------------------------\n\n// Single side border-radius\n.border-top-radius(@radius) {\n border-top-right-radius: @radius;\n border-top-left-radius: @radius;\n}\n.border-right-radius(@radius) {\n border-bottom-right-radius: @radius;\n border-top-right-radius: @radius;\n}\n.border-bottom-radius(@radius) {\n border-bottom-right-radius: @radius;\n border-bottom-left-radius: @radius;\n}\n.border-left-radius(@radius) {\n border-bottom-left-radius: @radius;\n border-top-left-radius: @radius;\n}\n\n// Drop shadows\n//\n// Note: Deprecated `.box-shadow()` as of v3.1.0 since all of Bootstrap's\n// supported browsers that have box shadow capabilities now support the\n// standard `box-shadow` property.\n.box-shadow(@shadow) {\n -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1\n box-shadow: @shadow;\n}\n\n// Transitions\n.transition(@transition) {\n -webkit-transition: @transition;\n transition: @transition;\n}\n.transition-property(@transition-property) {\n -webkit-transition-property: @transition-property;\n transition-property: @transition-property;\n}\n.transition-delay(@transition-delay) {\n -webkit-transition-delay: @transition-delay;\n transition-delay: @transition-delay;\n}\n.transition-duration(@transition-duration) {\n -webkit-transition-duration: @transition-duration;\n transition-duration: @transition-duration;\n}\n.transition-transform(@transition) {\n -webkit-transition: -webkit-transform @transition;\n -moz-transition: -moz-transform @transition;\n -o-transition: -o-transform @transition;\n transition: transform @transition;\n}\n\n// Transformations\n.rotate(@degrees) {\n -webkit-transform: rotate(@degrees);\n -ms-transform: rotate(@degrees); // IE9 only\n transform: rotate(@degrees);\n}\n.scale(@ratio; @ratio-y...) {\n -webkit-transform: scale(@ratio, @ratio-y);\n -ms-transform: scale(@ratio, @ratio-y); // IE9 only\n transform: scale(@ratio, @ratio-y);\n}\n.translate(@x; @y) {\n -webkit-transform: translate(@x, @y);\n -ms-transform: translate(@x, @y); // IE9 only\n transform: translate(@x, @y);\n}\n.skew(@x; @y) {\n -webkit-transform: skew(@x, @y);\n -ms-transform: skewX(@x) skewY(@y); // See https://github.com/twbs/bootstrap/issues/4885; IE9+\n transform: skew(@x, @y);\n}\n.translate3d(@x; @y; @z) {\n -webkit-transform: translate3d(@x, @y, @z);\n transform: translate3d(@x, @y, @z);\n}\n\n.rotateX(@degrees) {\n -webkit-transform: rotateX(@degrees);\n -ms-transform: rotateX(@degrees); // IE9 only\n transform: rotateX(@degrees);\n}\n.rotateY(@degrees) {\n -webkit-transform: rotateY(@degrees);\n -ms-transform: rotateY(@degrees); // IE9 only\n transform: rotateY(@degrees);\n}\n.perspective(@perspective) {\n -webkit-perspective: @perspective;\n -moz-perspective: @perspective;\n perspective: @perspective;\n}\n.perspective-origin(@perspective) {\n -webkit-perspective-origin: @perspective;\n -moz-perspective-origin: @perspective;\n perspective-origin: @perspective;\n}\n.transform-origin(@origin) {\n -webkit-transform-origin: @origin;\n -moz-transform-origin: @origin;\n -ms-transform-origin: @origin; // IE9 only\n transform-origin: @origin;\n}\n\n// Animations\n.animation(@animation) {\n -webkit-animation: @animation;\n animation: @animation;\n}\n.animation-name(@name) {\n -webkit-animation-name: @name;\n animation-name: @name;\n}\n.animation-duration(@duration) {\n -webkit-animation-duration: @duration;\n animation-duration: @duration;\n}\n.animation-timing-function(@timing-function) {\n -webkit-animation-timing-function: @timing-function;\n animation-timing-function: @timing-function;\n}\n.animation-delay(@delay) {\n -webkit-animation-delay: @delay;\n animation-delay: @delay;\n}\n.animation-iteration-count(@iteration-count) {\n -webkit-animation-iteration-count: @iteration-count;\n animation-iteration-count: @iteration-count;\n}\n.animation-direction(@direction) {\n -webkit-animation-direction: @direction;\n animation-direction: @direction;\n}\n\n// Backface visibility\n// Prevent browsers from flickering when using CSS 3D transforms.\n// Default value is `visible`, but can be changed to `hidden`\n.backface-visibility(@visibility){\n -webkit-backface-visibility: @visibility;\n -moz-backface-visibility: @visibility;\n backface-visibility: @visibility;\n}\n\n// Box sizing\n.box-sizing(@boxmodel) {\n -webkit-box-sizing: @boxmodel;\n -moz-box-sizing: @boxmodel;\n box-sizing: @boxmodel;\n}\n\n// User select\n// For selecting text on the page\n.user-select(@select) {\n -webkit-user-select: @select;\n -moz-user-select: @select;\n -ms-user-select: @select; // IE10+\n user-select: @select;\n}\n\n// Resize anything\n.resizable(@direction) {\n resize: @direction; // Options: horizontal, vertical, both\n overflow: auto; // Safari fix\n}\n\n// CSS3 Content Columns\n.content-columns(@column-count; @column-gap: @grid-gutter-width) {\n -webkit-column-count: @column-count;\n -moz-column-count: @column-count;\n column-count: @column-count;\n -webkit-column-gap: @column-gap;\n -moz-column-gap: @column-gap;\n column-gap: @column-gap;\n}\n\n// Optional hyphenation\n.hyphens(@mode: auto) {\n word-wrap: break-word;\n -webkit-hyphens: @mode;\n -moz-hyphens: @mode;\n -ms-hyphens: @mode; // IE10+\n -o-hyphens: @mode;\n hyphens: @mode;\n}\n\n// Opacity\n.opacity(@opacity) {\n opacity: @opacity;\n // IE8 filter\n @opacity-ie: (@opacity * 100);\n filter: ~\"alpha(opacity=@{opacity-ie})\";\n}\n\n\n\n// GRADIENTS\n// --------------------------------------------------\n\n#gradient {\n\n // Horizontal gradient, from left to right\n //\n // Creates two color stops, start and end, by specifying a color and position for each color stop.\n // Color stops are not available in IE9 and below.\n .horizontal(@start-color: #555; @end-color: #333; @start-percent: 0%; @end-percent: 100%) {\n background-image: -webkit-linear-gradient(left, color-stop(@start-color @start-percent), color-stop(@end-color @end-percent)); // Safari 5.1-6, Chrome 10+\n background-image: linear-gradient(to right, @start-color @start-percent, @end-color @end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+\n background-repeat: repeat-x;\n filter: e(%(\"progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)\",argb(@start-color),argb(@end-color))); // IE9 and down\n }\n\n // Vertical gradient, from top to bottom\n //\n // Creates two color stops, start and end, by specifying a color and position for each color stop.\n // Color stops are not available in IE9 and below.\n .vertical(@start-color: #555; @end-color: #333; @start-percent: 0%; @end-percent: 100%) {\n background-image: -webkit-linear-gradient(top, @start-color @start-percent, @end-color @end-percent); // Safari 5.1-6, Chrome 10+\n background-image: linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+\n background-repeat: repeat-x;\n filter: e(%(\"progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)\",argb(@start-color),argb(@end-color))); // IE9 and down\n }\n\n .directional(@start-color: #555; @end-color: #333; @deg: 45deg) {\n background-repeat: repeat-x;\n background-image: -webkit-linear-gradient(@deg, @start-color, @end-color); // Safari 5.1-6, Chrome 10+\n background-image: linear-gradient(@deg, @start-color, @end-color); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+\n }\n .horizontal-three-colors(@start-color: #00b3ee; @mid-color: #7a43b6; @color-stop: 50%; @end-color: #c3325f) {\n background-image: -webkit-linear-gradient(left, @start-color, @mid-color @color-stop, @end-color);\n background-image: linear-gradient(to right, @start-color, @mid-color @color-stop, @end-color);\n background-repeat: no-repeat;\n filter: e(%(\"progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)\",argb(@start-color),argb(@end-color))); // IE9 and down, gets no color-stop at all for proper fallback\n }\n .vertical-three-colors(@start-color: #00b3ee; @mid-color: #7a43b6; @color-stop: 50%; @end-color: #c3325f) {\n background-image: -webkit-linear-gradient(@start-color, @mid-color @color-stop, @end-color);\n background-image: linear-gradient(@start-color, @mid-color @color-stop, @end-color);\n background-repeat: no-repeat;\n filter: e(%(\"progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)\",argb(@start-color),argb(@end-color))); // IE9 and down, gets no color-stop at all for proper fallback\n }\n .radial(@inner-color: #555; @outer-color: #333) {\n background-image: -webkit-radial-gradient(circle, @inner-color, @outer-color);\n background-image: radial-gradient(circle, @inner-color, @outer-color);\n background-repeat: no-repeat;\n }\n .striped(@color: rgba(255,255,255,.15); @angle: 45deg) {\n background-image: -webkit-linear-gradient(@angle, @color 25%, transparent 25%, transparent 50%, @color 50%, @color 75%, transparent 75%, transparent);\n background-image: linear-gradient(@angle, @color 25%, transparent 25%, transparent 50%, @color 50%, @color 75%, transparent 75%, transparent);\n }\n}\n\n// Reset filters for IE\n//\n// When you need to remove a gradient background, do not forget to use this to reset\n// the IE filter for IE9 and below.\n.reset-filter() {\n filter: e(%(\"progid:DXImageTransform.Microsoft.gradient(enabled = false)\"));\n}\n\n\n\n// Retina images\n//\n// Short retina mixin for setting background-image and -size\n\n.img-retina(@file-1x; @file-2x; @width-1x; @height-1x) {\n background-image: url(\"@{file-1x}\");\n\n @media\n only screen and (-webkit-min-device-pixel-ratio: 2),\n only screen and ( min--moz-device-pixel-ratio: 2),\n only screen and ( -o-min-device-pixel-ratio: 2/1),\n only screen and ( min-device-pixel-ratio: 2),\n only screen and ( min-resolution: 192dpi),\n only screen and ( min-resolution: 2dppx) {\n background-image: url(\"@{file-2x}\");\n background-size: @width-1x @height-1x;\n }\n}\n\n\n// Responsive image\n//\n// Keep images from scaling beyond the width of their parents.\n\n.img-responsive(@display: block) {\n display: @display;\n max-width: 100%; // Part 1: Set a maximum relative to the parent\n height: auto; // Part 2: Scale the height according to the width, otherwise you getPermission stretching\n}\n\n\n// COMPONENT MIXINS\n// --------------------------------------------------\n\n// Horizontal dividers\n// -------------------------\n// Dividers (basically an hr) within dropdowns and nav lists\n.nav-divider(@color: #e5e5e5) {\n height: 1px;\n margin: ((@line-height-computed / 2) - 1) 0;\n overflow: hidden;\n background-color: @color;\n}\n\n// Panels\n// -------------------------\n.panel-variant(@border; @heading-text-color; @heading-bg-color; @heading-border) {\n border-color: @border;\n\n & > .panel-heading {\n color: @heading-text-color;\n background-color: @heading-bg-color;\n border-color: @heading-border;\n\n + .panel-collapse .panel-body {\n border-top-color: @border;\n }\n }\n & > .panel-footer {\n + .panel-collapse .panel-body {\n border-bottom-color: @border;\n }\n }\n}\n\n// Alerts\n// -------------------------\n.alert-variant(@background; @border; @text-color) {\n background-color: @background;\n border-color: @border;\n color: @text-color;\n\n hr {\n border-top-color: darken(@border, 5%);\n }\n .alert-link {\n color: darken(@text-color, 10%);\n }\n}\n\n// Tables\n// -------------------------\n.table-row-variant(@state; @background) {\n // Exact selectors below required to override `.table-striped` and prevent\n // inheritance to nested tables.\n .table > thead > tr,\n .table > tbody > tr,\n .table > tfoot > tr {\n > td.@{state},\n > th.@{state},\n &.@{state} > td,\n &.@{state} > th {\n background-color: @background;\n }\n }\n\n // Hover states for `.table-hover`\n // Note: this is not available for cells or rows within `thead` or `tfoot`.\n .table-hover > tbody > tr {\n > td.@{state}:hover,\n > th.@{state}:hover,\n &.@{state}:hover > td,\n &.@{state}:hover > th {\n background-color: darken(@background, 5%);\n }\n }\n}\n\n// List Groups\n// -------------------------\n.list-group-item-variant(@state; @background; @color) {\n .list-group-item-@{state} {\n color: @color;\n background-color: @background;\n\n a& {\n color: @color;\n\n .list-group-item-heading { color: inherit; }\n\n &:hover,\n &:focus {\n color: @color;\n background-color: darken(@background, 5%);\n }\n &.active,\n &.active:hover,\n &.active:focus {\n color: #fff;\n background-color: @color;\n border-color: @color;\n }\n }\n }\n}\n\n// Button variants\n// -------------------------\n// Easily pump out default styles, as well as :hover, :focus, :active,\n// and disabled options for all buttons\n.button-variant(@color; @background; @border) {\n color: @color;\n background-color: @background;\n border-color: @border;\n\n &:hover,\n &:focus,\n &:active,\n &.active,\n .open .dropdown-toggle& {\n color: @color;\n background-color: darken(@background, 8%);\n border-color: darken(@border, 12%);\n }\n &:active,\n &.active,\n .open .dropdown-toggle& {\n background-image: none;\n }\n &.disabled,\n &[disabled],\n fieldset[disabled] & {\n &,\n &:hover,\n &:focus,\n &:active,\n &.active {\n background-color: @background;\n border-color: @border;\n }\n }\n\n .badge {\n color: @background;\n background-color: @color;\n }\n}\n\n// Button sizes\n// -------------------------\n.button-size(@padding-vertical; @padding-horizontal; @font-size; @line-height; @border-radius) {\n padding: @padding-vertical @padding-horizontal;\n font-size: @font-size;\n line-height: @line-height;\n border-radius: @border-radius;\n}\n\n// Pagination\n// -------------------------\n.pagination-size(@padding-vertical; @padding-horizontal; @font-size; @border-radius) {\n > li {\n > a,\n > span {\n padding: @padding-vertical @padding-horizontal;\n font-size: @font-size;\n }\n &:first-child {\n > a,\n > span {\n .border-left-radius(@border-radius);\n }\n }\n &:last-child {\n > a,\n > span {\n .border-right-radius(@border-radius);\n }\n }\n }\n}\n\n// Labels\n// -------------------------\n.label-variant(@color) {\n background-color: @color;\n &[href] {\n &:hover,\n &:focus {\n background-color: darken(@color, 10%);\n }\n }\n}\n\n// Contextual backgrounds\n// -------------------------\n.bg-variant(@color) {\n background-color: @color;\n a&:hover {\n background-color: darken(@color, 10%);\n }\n}\n\n// Typography\n// -------------------------\n.text-emphasis-variant(@color) {\n color: @color;\n a&:hover {\n color: darken(@color, 10%);\n }\n}\n\n// Navbar vertical align\n// -------------------------\n// Vertically center elements in the navbar.\n// Example: an element has a height of 30px, so write out `.navbar-vertical-align(30px);` to calculate the appropriate top margin.\n.navbar-vertical-align(@element-height) {\n margin-top: ((@navbar-height - @element-height) / 2);\n margin-bottom: ((@navbar-height - @element-height) / 2);\n}\n\n// Progress bars\n// -------------------------\n.progress-bar-variant(@color) {\n background-color: @color;\n .progress-striped & {\n #gradient > .striped();\n }\n}\n\n// Responsive utilities\n// -------------------------\n// More easily include all the states for responsive-utilities.less.\n.responsive-visibility() {\n display: block !important;\n table& { display: table; }\n tr& { display: table-row !important; }\n th&,\n td& { display: table-cell !important; }\n}\n\n.responsive-invisibility() {\n display: none !important;\n}\n\n\n// Grid System\n// -----------\n\n// Centered container element\n.container-fixed() {\n margin-right: auto;\n margin-left: auto;\n padding-left: (@grid-gutter-width / 2);\n padding-right: (@grid-gutter-width / 2);\n &:extend(.clearfix all);\n}\n\n// Creates a wrapper for a series of columns\n.make-row(@gutter: @grid-gutter-width) {\n margin-left: (@gutter / -2);\n margin-right: (@gutter / -2);\n &:extend(.clearfix all);\n}\n\n// Generate the extra small columns\n.make-xs-column(@columns; @gutter: @grid-gutter-width) {\n position: relative;\n float: left;\n width: percentage((@columns / @grid-columns));\n min-height: 1px;\n padding-left: (@gutter / 2);\n padding-right: (@gutter / 2);\n}\n.make-xs-column-offset(@columns) {\n @media (min-width: @screen-xs-min) {\n margin-left: percentage((@columns / @grid-columns));\n }\n}\n.make-xs-column-push(@columns) {\n @media (min-width: @screen-xs-min) {\n left: percentage((@columns / @grid-columns));\n }\n}\n.make-xs-column-pull(@columns) {\n @media (min-width: @screen-xs-min) {\n right: percentage((@columns / @grid-columns));\n }\n}\n\n\n// Generate the small columns\n.make-sm-column(@columns; @gutter: @grid-gutter-width) {\n position: relative;\n min-height: 1px;\n padding-left: (@gutter / 2);\n padding-right: (@gutter / 2);\n\n @media (min-width: @screen-sm-min) {\n float: left;\n width: percentage((@columns / @grid-columns));\n }\n}\n.make-sm-column-offset(@columns) {\n @media (min-width: @screen-sm-min) {\n margin-left: percentage((@columns / @grid-columns));\n }\n}\n.make-sm-column-push(@columns) {\n @media (min-width: @screen-sm-min) {\n left: percentage((@columns / @grid-columns));\n }\n}\n.make-sm-column-pull(@columns) {\n @media (min-width: @screen-sm-min) {\n right: percentage((@columns / @grid-columns));\n }\n}\n\n\n// Generate the medium columns\n.make-md-column(@columns; @gutter: @grid-gutter-width) {\n position: relative;\n min-height: 1px;\n padding-left: (@gutter / 2);\n padding-right: (@gutter / 2);\n\n @media (min-width: @screen-md-min) {\n float: left;\n width: percentage((@columns / @grid-columns));\n }\n}\n.make-md-column-offset(@columns) {\n @media (min-width: @screen-md-min) {\n margin-left: percentage((@columns / @grid-columns));\n }\n}\n.make-md-column-push(@columns) {\n @media (min-width: @screen-md-min) {\n left: percentage((@columns / @grid-columns));\n }\n}\n.make-md-column-pull(@columns) {\n @media (min-width: @screen-md-min) {\n right: percentage((@columns / @grid-columns));\n }\n}\n\n\n// Generate the large columns\n.make-lg-column(@columns; @gutter: @grid-gutter-width) {\n position: relative;\n min-height: 1px;\n padding-left: (@gutter / 2);\n padding-right: (@gutter / 2);\n\n @media (min-width: @screen-lg-min) {\n float: left;\n width: percentage((@columns / @grid-columns));\n }\n}\n.make-lg-column-offset(@columns) {\n @media (min-width: @screen-lg-min) {\n margin-left: percentage((@columns / @grid-columns));\n }\n}\n.make-lg-column-push(@columns) {\n @media (min-width: @screen-lg-min) {\n left: percentage((@columns / @grid-columns));\n }\n}\n.make-lg-column-pull(@columns) {\n @media (min-width: @screen-lg-min) {\n right: percentage((@columns / @grid-columns));\n }\n}\n\n\n// Framework grid generation\n//\n// Used only by Bootstrap to generate the correct number of grid classes given\n// any value of `@grid-columns`.\n\n.make-grid-columns() {\n // Common styles for all sizes of grid columns, widths 1-12\n .col(@index) when (@index = 1) { // initial\n @item: ~\".col-xs-@{index}, .col-sm-@{index}, .col-md-@{index}, .col-lg-@{index}\";\n .col((@index + 1), @item);\n }\n .col(@index, @list) when (@index =< @grid-columns) { // general; \"=<\" isn't a typo\n @item: ~\".col-xs-@{index}, .col-sm-@{index}, .col-md-@{index}, .col-lg-@{index}\";\n .col((@index + 1), ~\"@{list}, @{item}\");\n }\n .col(@index, @list) when (@index > @grid-columns) { // terminal\n @{list} {\n position: relative;\n // Prevent columns from collapsing when empty\n min-height: 1px;\n // Inner gutter via padding\n padding-left: (@grid-gutter-width / 2);\n padding-right: (@grid-gutter-width / 2);\n }\n }\n .col(1); // kickstart it\n}\n\n.float-grid-columns(@class) {\n .col(@index) when (@index = 1) { // initial\n @item: ~\".col-@{class}-@{index}\";\n .col((@index + 1), @item);\n }\n .col(@index, @list) when (@index =< @grid-columns) { // general\n @item: ~\".col-@{class}-@{index}\";\n .col((@index + 1), ~\"@{list}, @{item}\");\n }\n .col(@index, @list) when (@index > @grid-columns) { // terminal\n @{list} {\n float: left;\n }\n }\n .col(1); // kickstart it\n}\n\n.calc-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {\n .col-@{class}-@{index} {\n width: percentage((@index / @grid-columns));\n }\n}\n.calc-grid-column(@index, @class, @type) when (@type = push) {\n .col-@{class}-push-@{index} {\n left: percentage((@index / @grid-columns));\n }\n}\n.calc-grid-column(@index, @class, @type) when (@type = pull) {\n .col-@{class}-pull-@{index} {\n right: percentage((@index / @grid-columns));\n }\n}\n.calc-grid-column(@index, @class, @type) when (@type = offset) {\n .col-@{class}-offset-@{index} {\n margin-left: percentage((@index / @grid-columns));\n }\n}\n\n// Basic looping in LESS\n.loop-grid-columns(@index, @class, @type) when (@index >= 0) {\n .calc-grid-column(@index, @class, @type);\n // next iteration\n .loop-grid-columns((@index - 1), @class, @type);\n}\n\n// Create grid for specific class\n.make-grid(@class) {\n .float-grid-columns(@class);\n .loop-grid-columns(@grid-columns, @class, width);\n .loop-grid-columns(@grid-columns, @class, pull);\n .loop-grid-columns(@grid-columns, @class, push);\n .loop-grid-columns(@grid-columns, @class, offset);\n}\n\n// Form validation states\n//\n// Used in forms.less to generate the form validation CSS for warnings, errors,\n// and successes.\n\n.form-control-validation(@text-color: #555; @border-color: #ccc; @background-color: #f5f5f5) {\n // Color the label and help text\n .help-block,\n .control-label,\n .radio,\n .checkbox,\n .radio-inline,\n .checkbox-inline {\n color: @text-color;\n }\n // Set the border and box shadow on specific inputs to match\n .form-control {\n border-color: @border-color;\n .box-shadow(inset 0 1px 1px rgba(0,0,0,.075)); // Redeclare so transitions work\n &:focus {\n border-color: darken(@border-color, 10%);\n @shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px lighten(@border-color, 20%);\n .box-shadow(@shadow);\n }\n }\n // Set validation states also for addons\n .input-group-addon {\n color: @text-color;\n border-color: @border-color;\n background-color: @background-color;\n }\n // Optional feedback icon\n .form-control-feedback {\n color: @text-color;\n }\n}\n\n// Form control focus state\n//\n// Generate a customized focus state and for any input with the specified color,\n// which defaults to the `@input-focus-border` variable.\n//\n// We highly encourage you to not customize the default value, but instead use\n// this to tweak colors on an as-needed basis. This aesthetic change is based on\n// WebKit's default styles, but applicable to a wider range of browsers. Its\n// usability and accessibility should be taken into account with any change.\n//\n// Example usage: change the default blue border and shadow to white for better\n// contrast against a dark gray background.\n\n.form-control-focus(@color: @input-border-focus) {\n @color-rgba: rgba(red(@color), green(@color), blue(@color), .6);\n &:focus {\n border-color: @color;\n outline: 0;\n .box-shadow(~\"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px @{color-rgba}\");\n }\n}\n\n// Form control sizing\n//\n// Relative text size, padding, and border-radii changes for form controls. For\n// horizontal sizing, wrap controls in the predefined grid classes. `<select>`\n// element gets special love because it's special, and that's a fact!\n\n.input-size(@input-height; @padding-vertical; @padding-horizontal; @font-size; @line-height; @border-radius) {\n height: @input-height;\n padding: @padding-vertical @padding-horizontal;\n font-size: @font-size;\n line-height: @line-height;\n border-radius: @border-radius;\n\n select& {\n height: @input-height;\n line-height: @input-height;\n }\n\n textarea&,\n select[multiple]& {\n height: auto;\n }\n}\n"]}
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #4 : Create API's in management controller which will return sp…||…ecific account and application
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Applic…||…ation
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"||This reverts commit 25011ff, reversing
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user. There was a lot of cross-repository w…||…ork happening in the UserRepository that has been moved to the UserService#deleteUser method.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:add user flow Part #1||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.||Removed obsolete dependency declarations from pom.xml. Rewrote test cases to use Spring MVC test support instead of a running server and RestTemplate. Fixed Security configuration to allow bootstrap in Spring MVC test context. Formatting, JavaDoc.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.||Added example of how to secure a Spring Data REST project with Spring Security both on the method level as well as the URI level.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fix for #14474: Import session using bulk requests||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Added abstention count retrieval (by question) and added abstention||count to NewAnswerEvent websocket broadcast. Task #14471
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Added cases to publish active only to all lecture questions or all||preperation questions. Task #14343
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Added answer count broadcast when new answer event is triggered. Task||#14099
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #12048: Allow answer deletion based on question variant||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fix for #14474: Import session using bulk requests||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Added abstention count retrieval (by question) and added abstention||count to NewAnswerEvent websocket broadcast. Task #14471
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Added cases to publish active only to all lecture questions or all||preperation questions. Task #14343
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Added answer count broadcast when new answer event is triggered. Task||#14099
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #12048: Allow answer deletion based on question variant||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Closes #4||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:#7 Finalização cadastro e lista de trabalhos||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.||Removed obsolete dependency declarations from pom.xml. Rewrote test cases to use Spring MVC test support instead of a running server and RestTemplate. Fixed Security configuration to allow bootstrap in Spring MVC test context. Formatting, JavaDoc.
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.||Added example of how to secure a Spring Data REST project with Spring Security both on the method level as well as the URI level.
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Merge branch 'Adapt_BSIS_to_expose_REST_services_#209' into Ensure_Ba…||…ckingForms_and_ModelViews_are_aligned_#225
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Applied URI patterns and conventions on request types (#209)||
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:add user flow Part #1||
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:#15: Login form||#11: Registration form
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.||Removed obsolete dependency declarations from pom.xml. Rewrote test cases to use Spring MVC test support instead of a running server and RestTemplate. Fixed Security configuration to allow bootstrap in Spring MVC test context. Formatting, JavaDoc.
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.||Added example of how to secure a Spring Data REST project with Spring Security both on the method level as well as the URI level.
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Merge branch 'Adapt_BSIS_to_expose_REST_services_#209' into Ensure_Ba…||…ckingForms_and_ModelViews_are_aligned_#225
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Applied URI patterns and conventions on request types (#209)||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:add user flow Part #1||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:#15: Login form||#11: Registration form
+CrawlerOutputWithCommitMessages3.txt_bk2:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Update issue #172||Added test to reproduce a problem where a command handler isn't properly registered when proxied by Spring Security.
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Restrict selection of the bad vehicles. Closes #24||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Multiple usergroup management + REST Interface||-#55 handle users group with resource-based authorization for write
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:RESTful #2||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:#CHANGE: spring security annotations configuration.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Update issue #172||Added test to reproduce a problem where a command handler isn't properly registered when proxied by Spring Security.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Restrict selection of the bad vehicles. Closes #24||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Multiple usergroup management + REST Interface||-#55 handle users group with resource-based authorization for write
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:RESTful #2||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#CHANGE: spring security annotations configuration.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#4: Supported recursive deletion of sites||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#6: Added method based security||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#fix to use annotations in spring security ....||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.||Submitted by: dinebennett
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Refs #491: Server-side support for data upload/download using mobile.||Submitted by (with modifications): dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#524 Use getForms method with user parameter to retrieve Forms the us…||…er has permission to view (either directly or via the study)
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#454: Role_Study_Manager is now able to edit and create new Study/For…||…m/Version
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Reverted #4958 because it was incomplete and broke the build. Ok Mark||git-svn-id: https://svn.openxdata.org/Server/trunk@5009 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes for #35||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes for #54||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Ingredients can be removed from recipes. Closes #17.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용||spEL을 사용하기 위해 가급적 PreAuthorize 어노테이션으로 전향하는것이 좋을듯 하지만 일단은 이대로 진행.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Improve update attribute rest method. fix #90||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Update issue #172||Added test to reproduce a problem where a command handler isn't properly registered when proxied by Spring Security.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Restrict selection of the bad vehicles. Closes #24||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Multiple usergroup management + REST Interface||-#55 handle users group with resource-based authorization for write
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:RESTful #2||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#CHANGE: spring security annotations configuration.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#4: Supported recursive deletion of sites||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#6: Added method based security||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#fix to use annotations in spring security ....||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.||Submitted by: dinebennett
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Refs #491: Server-side support for data upload/download using mobile.||Submitted by (with modifications): dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#524 Use getForms method with user parameter to retrieve Forms the us…||…er has permission to view (either directly or via the study)
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#454: Role_Study_Manager is now able to edit and create new Study/For…||…m/Version
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Reverted #4958 because it was incomplete and broke the build. Ok Mark||git-svn-id: https://svn.openxdata.org/Server/trunk@5009 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes for #35||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes for #54||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Ingredients can be removed from recipes. Closes #17.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용||spEL을 사용하기 위해 가급적 PreAuthorize 어노테이션으로 전향하는것이 좋을듯 하지만 일단은 이대로 진행.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Improve update attribute rest method. fix #90||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Code clean up related to security #6||We will let spring to handle other status code.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Move usage of @Secured from Service class to Controller class #6||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#27: File persistence, show files and upload multiple files||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#17: Theme basics||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#8: Working authentication with admin||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Update issue #172||Added test to reproduce a problem where a command handler isn't properly registered when proxied by Spring Security.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Restrict selection of the bad vehicles. Closes #24||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Multiple usergroup management + REST Interface||-#55 handle users group with resource-based authorization for write
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:RESTful #2||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#CHANGE: spring security annotations configuration.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#4: Supported recursive deletion of sites||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#6: Added method based security||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#fix to use annotations in spring security ....||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.||Submitted by: dinebennett
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Refs #491: Server-side support for data upload/download using mobile.||Submitted by (with modifications): dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#524 Use getForms method with user parameter to retrieve Forms the us…||…er has permission to view (either directly or via the study)
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#454: Role_Study_Manager is now able to edit and create new Study/For…||…m/Version
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#473: Added paging to List of Forms.||git-svn-id: https://svn.openxdata.org/Server/trunk@5219 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from…||… the admin console
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Reverted #4958 because it was incomplete and broke the build. Ok Mark||git-svn-id: https://svn.openxdata.org/Server/trunk@5009 6cddc80d-1c40-44cd-927a-2be6005847d2
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:authorization on service layer #34||rights might be changed according to the STAFF section
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRU…||…D operations in the PersistenceManager in the admin
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes for #35||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes for #54||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Ingredients can be removed from recipes. Closes #17.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용||spEL을 사용하기 위해 가급적 PreAuthorize 어노테이션으로 전향하는것이 좋을듯 하지만 일단은 이대로 진행.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Improve update attribute rest method. fix #90||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Code clean up related to security #6||We will let spring to handle other status code.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Move usage of @Secured from Service class to Controller class #6||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:- Proposal #2: integration of GeoStore with SpringSecurity||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#27: File persistence, show files and upload multiple files||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#17: Theme basics||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#8: Working authentication with admin||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:|#1318| Adding post authorize to get api of pod.||
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to c…||…lient side on initiating rnr and fetching it again.
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition||
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to c…||…lient side on initiating rnr and fetching it again.
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition||
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to c…||…lient side on initiating rnr and fetching it again.
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition||
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Issue #4 : Create API's in management controller which will return sp…||…ecific account and application
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Applic…||…ation
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Issue #4 : Create API's in management controller which will return sp…||…ecific account and application
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Applic…||…ation
+CrawlerOutputWithCommitMessages3.txt_bk9:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.||Removed obsolete dependency declarations from pom.xml. Rewrote test cases to use Spring MVC test support instead of a running server and RestTemplate. Fixed Security configuration to allow bootstrap in Spring MVC test context. Formatting, JavaDoc.
+CrawlerOutputWithCommitMessages3.txt_bk9:[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.||Added example of how to secure a Spring Data REST project with Spring Security both on the method level as well as the URI level.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#5534 Add export option for ISO19139 fields, keeping Export to IRO op…||…tion
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#5530 Add searches by individual/role. Fix fill contact list in IE||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#5534 Fixes/improvements in CSV export. Export selection in PDF with …||…same fields as CSV
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Re-Fix Issue #153||Apparently there may still be links which use the 2 char language code -i.e. "fr" which get redirected to "fre". In order for these links to work we need to allow for 2 to 3 chars for the language.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#1277 Harvesters belonging to a group, and can be managed by UserAdmin||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#1276 Fix spring security rules for service not allowed and login form||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#1274 feedback on specific metadata||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Virtual CSW / Administration panel (#1207) - Thanks Thierry Chevallier.||Squashed commit of the following:
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#471 Metadata Massive Replace||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Admin / User / Is admin option selected after choosing a user #579||* Remove unused variables
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Rewrite rules / metadata/{{uuid}} redirect to old srv/eng/home servic…||…e (#551).
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#471 Metadata Massive Replace||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Merge pull request #449 from josegar74/reports||#436 Report module
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#436 Report module. Updated with suggestions provided in pull request…||… (449)
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#436 Report module||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Add batch import panel in Angular UI #446.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#441 Metadata editor can be accessed after user logout in html5ui (sa…||…ving metadata fails as expected)
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#471 Metadata Massive Replace||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Admin / User / Is admin option selected after choosing a user #579||* Remove unused variables
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Rewrite rules / metadata/{{uuid}} redirect to old srv/eng/home servic…||…e (#551).
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#471 Metadata Massive Replace||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Merge pull request #449 from josegar74/reports||#436 Report module
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#436 Report module. Updated with suggestions provided in pull request…||… (449)
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#436 Report module||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Add batch import panel in Angular UI #446.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#441 Metadata editor can be accessed after user logout in html5ui (sa…||…ving metadata fails as expected)
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#471 Metadata Massive Replace||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Admin / User / Is admin option selected after choosing a user #579||* Remove unused variables
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Rewrite rules / metadata/{{uuid}} redirect to old srv/eng/home servic…||…e (#551).
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#471 Metadata Massive Replace||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Merge pull request #449 from josegar74/reports||#436 Report module
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#436 Report module. Updated with suggestions provided in pull request…||… (449)
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#436 Report module||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Add batch import panel in Angular UI #446.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#441 Metadata editor can be accessed after user logout in html5ui (sa…||…ving metadata fails as expected)
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Admin / User / Is admin option selected after choosing a user #579||* Remove unused variables
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Rewrite rules / metadata/{{uuid}} redirect to old srv/eng/home servic…||…e (#551).
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#436 Reports module. Restored service security config||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix service name #828.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Merge pull request #776 from jesseeichar/localized-harvesters||Localized harvesters
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixes #774||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Inspire Download Service as Atom #666||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#471 Metadata Massive Replace||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Admin / User / Is admin option selected after choosing a user #579||* Remove unused variables
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:add user flow Part #1||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:New page for updating artist genres. Closes #7||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Issue #2 impl. user can only view their cards||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixed Issue #5 (User can now edit password)||
+CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+EclipseConsoleOutput.txt:Commit Message:->Enhancement #56: Service to retrieve GWAS infos for a specific SNP added
+EclipseConsoleOutput.txt:Commit Message:->Enhancement #26: Support for downloading phenotype values and pvalues added
+GitCommitMessages.txt:[COMMIT MESSAGE]:Started the work on #42. This is just the initial commit that:
+GitCommitMessages.txt:[COMMIT MESSAGE]:Clownfish API #Experimental #MightChange
+GitCommitMessages.txt:[COMMIT MESSAGE]:Phase#1: Adding final changes for first phase of DB SEC project
+GitCommitMessages.txt:[COMMIT MESSAGE]:#First Commit
+GitCommitMessages.txt:[COMMIT MESSAGE]:Phase#1: Adding final changes for first phase of DB SEC project
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fix for Ticket #102 (missing dependency -> NoClassDefFoundError)
+GitCommitMessages.txt:[COMMIT MESSAGE]:# 0.58
+GitCommitMessages.txt:[COMMIT MESSAGE]:# 0.55
+GitCommitMessages.txt:[COMMIT MESSAGE]:closes #11, completed save as new permission set
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:This commit belongs to issue #206.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Started the work on #42. This is just the initial commit that:
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refs #13882 - Updating ROO version to 1.2.6-BUILD-SNAPSHOT
+GitCommitMessages.txt:[COMMIT MESSAGE]:#8193 Actualizar Roo a la revisión 78c89de..5b80e7a
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:This commit belongs to issue #206.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added
+GitCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues added
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #51: Add the ability to define new languages from the UI
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:Issue #4  : Create API's in management controller which will return specific account and application
+GitCommitMessages.txt:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Application
+GitCommitMessages.txt:[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:Support for MetaAnalysis added #5
+GitCommitMessages.txt:[COMMIT MESSAGE]:Update #1
+GitCommitMessages.txt:[COMMIT MESSAGE]:#64 BeanIds.AUTHENTICATION_MANAGER is now a composed bean
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #13.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #23. Added support for recurrence.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fix for #15 : Option to change password of all users
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user.  There was a lot of cross-repository work happening in the UserRepository that has been moved to the UserService#deleteUser method.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #370252
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #368760
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #366301
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #360389
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #376343
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #368760
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #368714
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #360748
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #360389
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user.  There was a lot of cross-repository work happening in the UserRepository that has been moved to the UserService#deleteUser method.
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #81: Remove unused classes and methods; added a couple of fixes
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#64: Backend for Display pie charts
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#37: Indicators values calculation
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#37: Added FrequencyEntity
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#48: Added possibility to change indicators recalculation cron job without restarting the application
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#48: Add possibility to configure frequency of recalculating indicator values
+GitCommitMessages.txt:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #103: Possibility to edit indicators and dw queries
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #25: Finished indicator creation UI; fixed date picker on dashboards under Chrome
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #25: Synchronized UI with xml schema
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #25: Further refinement of the query creation view
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #84: Writed script to populate database
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #44: Improved computed fields
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #44: Fixed computed fields
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #44: Create computed fields for indicators
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#7: Added some tests, changed daosa and services function names
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #39: Add permissions for all activities
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #25: Updated indicator creation, implemented @JsonView
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #25: Added computed field creation via indicator creation UI view
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #381387 Create controller for returning snapshots for given user id.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Task #375593
+GitCommitMessages.txt:[COMMIT MESSAGE]:add user flow Part #1
+GitCommitMessages.txt:[COMMIT MESSAGE]:Closes #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:#7 Finalização cadastro e lista de trabalhos
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Patch from vantonevich to get jax_rs/spring_security demo updated applied; This closes #30
+GitCommitMessages.txt:[COMMIT MESSAGE]:[Template] Data Type Select Box #91
+GitCommitMessages.txt:[COMMIT MESSAGE]:[General] CSS,JAVASCRIPT Loading Issues #79
+GitCommitMessages.txt:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from the admin console
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRUD operations in the PersistenceManager in the admin
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #32. Fixed #33.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #102
+GitCommitMessages.txt:[COMMIT MESSAGE]:A few more fixes for #88.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #88
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fix #181
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cleanups.
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Update issue #172
+GitCommitMessages.txt:[COMMIT MESSAGE]:updated CustomerService and its test according to issues #18 and #19
+GitCommitMessages.txt:[COMMIT MESSAGE]:close #81
+GitCommitMessages.txt:[COMMIT MESSAGE]:#CHANGE: spring security annotations configuration.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#CHANGE: Configuração do spring security usando o jdbcdao spring data
+GitCommitMessages.txt:[COMMIT MESSAGE]:#CHANGE: Configurado Spring Data com JNDI e Postgresql
+GitCommitMessages.txt:[COMMIT MESSAGE]:#fix to use annotations in spring security ....
+GitCommitMessages.txt:[COMMIT MESSAGE]:RESTful #2
+GitCommitMessages.txt:[COMMIT MESSAGE]:RESTful #1
+GitCommitMessages.txt:[COMMIT MESSAGE]:Modifications to app structure and code in order to comply with Assignment #4.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wizards when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+GitCommitMessages.txt:[COMMIT MESSAGE]:#589 submitted by skelly : setting deleted form_data as voided
+GitCommitMessages.txt:[COMMIT MESSAGE]:submitted by ebusingye #475 filtering of responses
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #561: Indicate forms having unexported data in form list.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refs #491: Server-side support for data upload/download using mobile.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#524 Use getForms method with user parameter to retrieve Forms the user has permission to view (either directly or via the study)
+GitCommitMessages.txt:[COMMIT MESSAGE]:#454: Role_Study_Manager is now able to edit and create new Study/Form/Version
+GitCommitMessages.txt:[COMMIT MESSAGE]:#473: Added paging to List of Forms.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from the admin console
+GitCommitMessages.txt:[COMMIT MESSAGE]:#472 delete form data functionality in form responses view
+GitCommitMessages.txt:[COMMIT MESSAGE]:Reverted #4958 because it was incomplete and broke the build. Ok Mark
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #1094 - Move the @Transactional annotation off of the service-level DynamicEntityRemoteService and onto the individual methods that need it
+GitCommitMessages.txt:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRUD operations in the PersistenceManager in the admin
+GitCommitMessages.txt:[COMMIT MESSAGE]:sha1 password hashing #31
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:#4: Supported recursive deletion of sites
+GitCommitMessages.txt:[COMMIT MESSAGE]:#4: Connecting pages to site
+GitCommitMessages.txt:[COMMIT MESSAGE]:#6: Added method based security
+GitCommitMessages.txt:[COMMIT MESSAGE]:#10: Add default content to a page
+GitCommitMessages.txt:[COMMIT MESSAGE]:#10: Decent moving around of portlets
+GitCommitMessages.txt:[COMMIT MESSAGE]:#10: Added location deletion logic
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1: Added position to Page object
+GitCommitMessages.txt:[COMMIT MESSAGE]:Ensured that edit and delete links are only shown to users who own a recipe. Fixes #45.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Implemented error pages. Closes #41.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Added flash messages when editing and updating recipes. Fixes #40.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Ingredients can be removed from recipes. Closes #17.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #1094 - Move the @Transactional annotation off of the service-level DynamicEntityRemoteService and onto the individual methods that need it
+GitCommitMessages.txt:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRUD operations in the PersistenceManager in the admin
+GitCommitMessages.txt:[COMMIT MESSAGE]:#24 lazy loading operation test
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용
+GitCommitMessages.txt:[COMMIT MESSAGE]:#58 커밋
+GitCommitMessages.txt:[COMMIT MESSAGE]:#50 제작완료
+GitCommitMessages.txt:[COMMIT MESSAGE]:#46 maven 통합
+GitCommitMessages.txt:[COMMIT MESSAGE]:#4 기능 완성
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용
+GitCommitMessages.txt:[COMMIT MESSAGE]:#58 커밋
+GitCommitMessages.txt:[COMMIT MESSAGE]:#46 maven 통합
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #109.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #108
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #100 and #102
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #85
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #88
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #71
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #31
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes for #29 & #35
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes for #35
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes for #54
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fix for #56
+GitCommitMessages.txt:[COMMIT MESSAGE]:Improve update attribute rest method. fix #90
+GitCommitMessages.txt:[COMMIT MESSAGE]: - Proposal #2: integration of GeoStore with SpringSecurity
+GitCommitMessages.txt:[COMMIT MESSAGE]:Add requirement to include email in request body to delete a user #6
+GitCommitMessages.txt:[COMMIT MESSAGE]:Code clean up related to security #6
+GitCommitMessages.txt:[COMMIT MESSAGE]:Move usage of @Secured from Service class to Controller class #6
+GitCommitMessages.txt:[COMMIT MESSAGE]:Close #1
+GitCommitMessages.txt:[COMMIT MESSAGE]: - Proposal #2: integration of GeoStore with SpringSecurity
+GitCommitMessages.txt:[COMMIT MESSAGE]:close #41
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#7 디자인 1차 정리
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용
+GitCommitMessages.txt:[COMMIT MESSAGE]:#52 메뉴가 편집될때마다 캐싱을 해지하도록 변경
+GitCommitMessages.txt:[COMMIT MESSAGE]:#53 codebone-site > menu > 조작 후에 NPE
+GitCommitMessages.txt:[COMMIT MESSAGE]:#46 maven 통합
+GitCommitMessages.txt:[COMMIT MESSAGE]:issue#26 (in progress) + upgraded version angular/bootstrap
+GitCommitMessages.txt:[COMMIT MESSAGE]:issue#9:  Add day by day navigation view for small mobile devices
+GitCommitMessages.txt:[COMMIT MESSAGE]:issue#7: As a user, I want to be able to add a note for each imputation entry
+GitCommitMessages.txt:[COMMIT MESSAGE]:fixed issue#1: Prevent double-submit on datagrid navigation control buttons
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #32. Fixed #33.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:renamed the base package to help with rebranding the website #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user.  There was a lot of cross-repository work happening in the UserRepository that has been moved to the UserService#deleteUser method.
+GitCommitMessages.txt:[COMMIT MESSAGE]:renamed the base package to help with rebranding the website #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user.  There was a lot of cross-repository work happening in the UserRepository that has been moved to the UserService#deleteUser method.
+GitCommitMessages.txt:[COMMIT MESSAGE]:RAVE-332 move check if widget already exists to the validator and throw an exception if the WidgetService#registerNewWidget is called for an existing URL instead of returning null.
+GitCommitMessages.txt:[COMMIT MESSAGE]:close #5 issue
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refs #13882 - Updating ROO version to 1.2.6-BUILD-SNAPSHOT
+GitCommitMessages.txt:[COMMIT MESSAGE]:#8193 Actualizar Roo a la revisión 78c89de..5b80e7a
+GitCommitMessages.txt:[COMMIT MESSAGE]:#5921 Actualizar con git (pull, stash, checkout) el código fuente de Roo a la nueva versión 1.2.2.RELEASE.
+GitCommitMessages.txt:[COMMIT MESSAGE]:RAVE-332 move check if widget already exists to the validator and throw an exception if the WidgetService#registerNewWidget is called for an existing URL instead of returning null.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Revert "Merge pull request #30 from thor1729/master"
+GitCommitMessages.txt:[COMMIT MESSAGE]:ROO-2579: Post 1.1.5.RELEASE code refactor and clean up - using Map#entrySet vs less efficient Map#keySet plus Map#get
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user.  There was a lot of cross-repository work happening in the UserRepository that has been moved to the UserService#deleteUser method.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1458|+Balvinder| modifying podPrint to display order number instead of order id
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#00| fixing smoke requisition, populating order number in orderPOD
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1354| +Rahul | added resource bundle, locale as parameter for jasperview
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1357| documentation for openlmis web module, Also did some reformatting, changed some constructor injection to field autowiring, moved VendorEventFeedService to a separate service package in openlmis-web module, removed unused RnrReferenceData class,  removed unused fields
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1358 | [DOCUMENTATION] Reporting module. Moving JasperReportsViewFactory from controller to service directory.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000 | Moving OrderPODDTO from order to pod.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| fixing image path for jrxml, updating it in seed.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| fixing jrxml subreport path.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| adding API for print pod in pod controller. adding print button to update-pod screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Riya| Adding controller API to print pod
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1326|+Swapnil| Trimming hours from received date in pod
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#00|+Riya| ignoring stringReceivedDate from orderPod json
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1318| Adding post authorize  to get api of pod.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1305|+Manan| Adding service and validations to submit pod and update order status.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| Not fetching the pod on save. Adding save button and functionality.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| Adding Request body and path variable annotations to controller. Setting pod id from request
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| +Manan| Added api to save OrderPod and lineItems. Removed @Category(IntegrationTests.class) from unit tests.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| +Manan| Updating URLs to use /pods instead of pod-orders.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1256| +RahulK | adding OrderPODDTO to response of update-pod hence fixing the FTs
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1256| +RahulK | creating OrderPODLineItems from shipmentLineItems for PACKED orders, refactored the code accordingly, also added method to OpenLMISResponse to accept HTTP status as its argument
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1300|+Riya| sending orderId as requestParam to create orderPOD
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1300|+Riya| adding API to get orderPOD with podLineItems by pod id
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1256 | +Manan | Converting get call for Initiate POD as post
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255 | +RahulK | fetching and displaying header information on update POD screen
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +Rahul K| adding displayOrder, category to pod_line_items, sorting them on displayOrder.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +RahulK, +Riya | getting orderPOD with podLineItems, adding PODController and tests
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +RahulK | renaming POD to OrderPOD, PODLineItems to OrderPODLineItems, Added PODController
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1458|+Balvinder| modifying podPrint to display order number instead of order id
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#00| fixing smoke requisition, populating order number in orderPOD
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1354| +Rahul | added resource bundle, locale as parameter for jasperview
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1357| documentation for openlmis web module, Also did some reformatting, changed some constructor injection to field autowiring, moved VendorEventFeedService to a separate service package in openlmis-web module, removed unused RnrReferenceData class,  removed unused fields
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1358 | [DOCUMENTATION] Reporting module. Moving JasperReportsViewFactory from controller to service directory.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000 | Moving OrderPODDTO from order to pod.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| fixing image path for jrxml, updating it in seed.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| fixing jrxml subreport path.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| adding API for print pod in pod controller. adding print button to update-pod screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Riya| Adding controller API to print pod
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1326|+Swapnil| Trimming hours from received date in pod
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#00|+Riya| ignoring stringReceivedDate from orderPod json
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1318| Adding post authorize  to get api of pod.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1305|+Manan| Adding service and validations to submit pod and update order status.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| Not fetching the pod on save. Adding save button and functionality.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| Adding Request body and path variable annotations to controller. Setting pod id from request
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| +Manan| Added api to save OrderPod and lineItems. Removed @Category(IntegrationTests.class) from unit tests.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| +Manan| Updating URLs to use /pods instead of pod-orders.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1256| +RahulK | adding OrderPODDTO to response of update-pod hence fixing the FTs
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1256| +RahulK | creating OrderPODLineItems from shipmentLineItems for PACKED orders, refactored the code accordingly, also added method to OpenLMISResponse to accept HTTP status as its argument
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1300|+Riya| sending orderId as requestParam to create orderPOD
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1300|+Riya| adding API to get orderPOD with podLineItems by pod id
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1256 | +Manan | Converting get call for Initiate POD as post
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255 | +RahulK | fetching and displaying header information on update POD screen
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +Rahul K| adding displayOrder, category to pod_line_items, sorting them on displayOrder.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +RahulK, +Riya | getting orderPOD with podLineItems, adding PODController and tests
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +RahulK | renaming POD to OrderPOD, PODLineItems to OrderPODLineItems, Added PODController
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1354| +Rahul | added resource bundle, locale as parameter for jasperview
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1357| documentation for openlmis web module, Also did some reformatting, changed some constructor injection to field autowiring, moved VendorEventFeedService to a separate service package in openlmis-web module, removed unused RnrReferenceData class,  removed unused fields
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1358 | [DOCUMENTATION] Reporting module. Moving JasperReportsViewFactory from controller to service directory.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000 | Moving OrderPODDTO from order to pod.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| fixing image path for jrxml, updating it in seed.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| fixing jrxml subreport path.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Rahul| adding API for print pod in pod controller. adding print button to update-pod screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1319|+Riya| Adding controller API to print pod
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1326|+Swapnil| Trimming hours from received date in pod
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#00|+Riya| ignoring stringReceivedDate from orderPod json
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1318| Adding post authorize  to get api of pod.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1305|+Manan| Adding service and validations to submit pod and update order status.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| Not fetching the pod on save. Adding save button and functionality.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| Adding Request body and path variable annotations to controller. Setting pod id from request
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| +Manan| Added api to save OrderPod and lineItems. Removed @Category(IntegrationTests.class) from unit tests.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1235| +Manan| Updating URLs to use /pods instead of pod-orders.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1256| +RahulK | adding OrderPODDTO to response of update-pod hence fixing the FTs
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1256| +RahulK | creating OrderPODLineItems from shipmentLineItems for PACKED orders, refactored the code accordingly, also added method to OpenLMISResponse to accept HTTP status as its argument
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1300|+Riya| sending orderId as requestParam to create orderPOD
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1300|+Riya| adding API to get orderPOD with podLineItems by pod id
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1256 | +Manan | Converting get call for Initiate POD as post
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255 | +RahulK | fetching and displaying header information on update POD screen
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +Rahul K| adding displayOrder, category to pod_line_items, sorting them on displayOrder.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +RahulK, +Riya | getting orderPOD with podLineItems, adding PODController and tests
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1255| +RahulK | renaming POD to OrderPOD, PODLineItems to OrderPODLineItems, Added PODController
+GitCommitMessages.txt:[COMMIT MESSAGE]:Add more reporting to fix #13.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1495|+Rashi|Changing rights from enum to class, all related refactorings. Include rightType in json with name.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1405| Riya | Calculating period normalized consumption while printing Rnr at any point of time (after save, submit, authorize etc).
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to client side on initiating rnr and fetching it again.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1411| +Varun | approve button is not disabled if Rnr is not approvable on approve rnr page
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1357| documentation for openlmis web module, Also did some reformatting, changed some constructor injection to field autowiring, moved VendorEventFeedService to a separate service package in openlmis-web module, removed unused RnrReferenceData class,  removed unused fields
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1194| +Rahul J| migration, code, test added approver name in REST R&R approve API
+GitCommitMessages.txt:[COMMIT MESSAGE]:#914|+manan| Refactoring initiate requisition API to get rid of period id. Using facility and program objects instead of ids.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1140|+RahulJ| adding TODO in convert-to-order api
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|+Shibha| removing unused parameters from getNumberOfPagesOfApprovedRequisitionsForCriteria  method.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|+Shibha|using createdDate as submitted date on convert to order screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|Sortby facilityName/Code, programName,submittedDate on convert to order page.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1114 | +Shibha | Renaming shipment_role_assignments to fulfillment_role_assignment and corresponding classes.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| +Anshul| changing requisition list URL
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| +Anshul| removing unused endpoint from RequisitionController
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000| Refactoring get periods API
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000|Setting user id in criteria for get of periods.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000| +Anshul| refactoring getProcessingPeriods logic in requisition controller
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#677|+Shibha| Modiying query to fetch submitted date and modified date. Fixed the issue of results not being returned when search type all. Removing resolve.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1057 | +Riya | Showing previous initiated rnrs.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1057 | +Riya | Fixing client side to display multiple requisitions of emergency req.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1057 | +Anshul | Getting all previous initiated emergency req.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#677|+Vinay| Initial server side code for pagination on convert to order screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1010, 1019|+Paddy Modifying error messages on R&R.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1057| sending emergency flag to server from client
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1495|+Rashi|Changing rights from enum to class, all related refactorings. Include rightType in json with name.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1405| Riya | Calculating period normalized consumption while printing Rnr at any point of time (after save, submit, authorize etc).
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to client side on initiating rnr and fetching it again.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1411| +Varun | approve button is not disabled if Rnr is not approvable on approve rnr page
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1357| documentation for openlmis web module, Also did some reformatting, changed some constructor injection to field autowiring, moved VendorEventFeedService to a separate service package in openlmis-web module, removed unused RnrReferenceData class,  removed unused fields
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1194| +Rahul J| migration, code, test added approver name in REST R&R approve API
+GitCommitMessages.txt:[COMMIT MESSAGE]:#914|+manan| Refactoring initiate requisition API to get rid of period id. Using facility and program objects instead of ids.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1140|+RahulJ| adding TODO in convert-to-order api
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|+Shibha| removing unused parameters from getNumberOfPagesOfApprovedRequisitionsForCriteria  method.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|+Shibha|using createdDate as submitted date on convert to order screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|Sortby facilityName/Code, programName,submittedDate on convert to order page.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1114 | +Shibha | Renaming shipment_role_assignments to fulfillment_role_assignment and corresponding classes.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| +Anshul| changing requisition list URL
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| +Anshul| removing unused endpoint from RequisitionController
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000| Refactoring get periods API
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000|Setting user id in criteria for get of periods.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000| +Anshul| refactoring getProcessingPeriods logic in requisition controller
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#677|+Shibha| Modiying query to fetch submitted date and modified date. Fixed the issue of results not being returned when search type all. Removing resolve.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1057 | +Riya | Showing previous initiated rnrs.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1057 | +Riya | Fixing client side to display multiple requisitions of emergency req.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1057 | +Anshul | Getting all previous initiated emergency req.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#677|+Vinay| Initial server side code for pagination on convert to order screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1010, 1019|+Paddy Modifying error messages on R&R.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1057| sending emergency flag to server from client
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1010| +Shibha| Modified code to display correct error message when we we try submitting and authorizing an error which is already submitted or authorized , modified test
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1057 | +Anshul | Initiating Emergency R&R, inserting emergency flag as part of requisition. Getting current period for requisition if program start date is older than current period start date.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#904|+Anshul|Added logic to fetch current period and requisition for emergency requisitions|
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#904|+Anshul| Refactoring requisition controller and service.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1037|+Manan| Adding createdByUser field in Status change object. Filling it with user name and id
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1037|+Manan|Service,Repository and Mapper for getting status changes for an RNR by id.  ModelAndView on print rnr gets these status changes.  Changing autowire from constructor to field in RequisitionController.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#909|+Riya| Externalised message in print framework
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000| removing StaticReferenceDataReader class and getting currency symbol via message service.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#913| moved Rnr lineitem size to environment specific property files.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1405| Riya | Calculating period normalized consumption while printing Rnr at any point of time (after save, submit, authorize etc).
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to client side on initiating rnr and fetching it again.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1411| +Varun | approve button is not disabled if Rnr is not approvable on approve rnr page
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1357| documentation for openlmis web module, Also did some reformatting, changed some constructor injection to field autowiring, moved VendorEventFeedService to a separate service package in openlmis-web module, removed unused RnrReferenceData class,  removed unused fields
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1194| +Rahul J| migration, code, test added approver name in REST R&R approve API
+GitCommitMessages.txt:[COMMIT MESSAGE]:#914|+manan| Refactoring initiate requisition API to get rid of period id. Using facility and program objects instead of ids.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1140|+RahulJ| adding TODO in convert-to-order api
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|+Shibha| removing unused parameters from getNumberOfPagesOfApprovedRequisitionsForCriteria  method.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|+Shibha|using createdDate as submitted date on convert to order screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1081|Sortby facilityName/Code, programName,submittedDate on convert to order page.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1114 | +Shibha | Renaming shipment_role_assignments to fulfillment_role_assignment and corresponding classes.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| +Anshul| changing requisition list URL
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1050| +Anshul| removing unused endpoint from RequisitionController
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000| Refactoring get periods API
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000|Setting user id in criteria for get of periods.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#000| +Anshul| refactoring getProcessingPeriods logic in requisition controller
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#677|+Shibha| Modiying query to fetch submitted date and modified date. Fixed the issue of results not being returned when search type all. Removing resolve.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1057 | +Riya | Showing previous initiated rnrs.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1057 | +Riya | Fixing client side to display multiple requisitions of emergency req.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1057 | +Anshul | Getting all previous initiated emergency req.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#677|+Vinay| Initial server side code for pagination on convert to order screen.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1010, 1019|+Paddy Modifying error messages on R&R.
+GitCommitMessages.txt:[COMMIT MESSAGE]:|#1057| sending emergency flag to server from client
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1010| +Shibha| Modified code to display correct error message when we we try submitting and authorizing an error which is already submitted or authorized , modified test
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1057 | +Anshul | Initiating Emergency R&R, inserting emergency flag as part of requisition. Getting current period for requisition if program start date is older than current period start date.
+GitCommitMessages.txt:[COMMIT MESSAGE]:[Issue #25] Implemented Defeat and dead heat detect
+GitCommitMessages.txt:[COMMIT MESSAGE]:[Issue #24] Last commit of Basic events subsystem (BES)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fix for issue Issue #26
+GitCommitMessages.txt:[COMMIT MESSAGE]:[Issue #24] Second commit of Basic events subsystem (BES)
+GitCommitMessages.txt:[COMMIT MESSAGE]:[Issue #24] Initial commit of Basic events subsystem (BES)
+GitCommitMessages.txt:[COMMIT MESSAGE]:583 bugfix Cannot cancel queued pipeline #182
+GitCommitMessages.txt:[COMMIT MESSAGE]:Resolving #1244
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1133 Validators for values in GUI - first draft needs testing
+GitCommitMessages.txt:[COMMIT MESSAGE]:Author of DPU template can see all pipelines using it. #907
+GitCommitMessages.txt:[COMMIT MESSAGE]:Formatting controls grouped with zoom/undo controls. Closes #61.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed sequence generator for pipeline-open-events. #977
+GitCommitMessages.txt:[COMMIT MESSAGE]:Request to create pipeline-open-event is ignored after user logs out. #1006
+GitCommitMessages.txt:[COMMIT MESSAGE]:Database failure when creating pipeline-open-event is ignored. #977
+GitCommitMessages.txt:[COMMIT MESSAGE]:Added logs for #992, #988
+GitCommitMessages.txt:[COMMIT MESSAGE]:Author of DPU template can see all pipelines using it. #907
+GitCommitMessages.txt:[COMMIT MESSAGE]:Formatting controls grouped with zoom/undo controls. Closes #61.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed sequence generator for pipeline-open-events. #977
+GitCommitMessages.txt:[COMMIT MESSAGE]:Request to create pipeline-open-event is ignored after user logs out. #1006
+GitCommitMessages.txt:[COMMIT MESSAGE]:Database failure when creating pipeline-open-event is ignored. #977
+GitCommitMessages.txt:[COMMIT MESSAGE]:Added logs for #992, #988
+GitCommitMessages.txt:[COMMIT MESSAGE]:ref #24, em analise... Tera de refazer tudo :(
+GitCommitMessages.txt:[COMMIT MESSAGE]:Started the work on #42. This is just the initial commit that:
+GitCommitMessages.txt:[COMMIT MESSAGE]:Clownfish API #Experimental #MightChange
+GitCommitMessages.txt:[COMMIT MESSAGE]:Phase#1: Adding final changes for first phase of DB SEC project
+GitCommitMessages.txt:[COMMIT MESSAGE]:#First Commit
+GitCommitMessages.txt:[COMMIT MESSAGE]:Phase#1: Adding final changes for first phase of DB SEC project
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fix for Ticket #102 (missing dependency -> NoClassDefFoundError)
+GitCommitMessages.txt:[COMMIT MESSAGE]:# 0.58
+GitCommitMessages.txt:[COMMIT MESSAGE]:# 0.55
+GitCommitMessages.txt:[COMMIT MESSAGE]:closes #11, completed save as new permission set
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:This commit belongs to issue #206.
+GitCommitMessages.txt:[COMMIT MESSAGE]:closes #11, completed save as new permission set
+GitCommitMessages.txt:This commit belongs to issue #206.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Started the work on #42. This is just the initial commit that:
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refs #13882 - Updating ROO version to 1.2.6-BUILD-SNAPSHOT
+GitCommitMessages.txt:[COMMIT MESSAGE]:#8193 Actualizar Roo a la revisión 78c89de..5b80e7a
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:This commit belongs to issue #206.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#135 middleware as a functional interface
+GitCommitMessages.txt:[COMMIT MESSAGE]:org.qiweb/ -> io.werval/ #226
+GitCommitMessages.txt:[COMMIT MESSAGE]:Project refactoring, http-only and secure cookies are now set through web fragments instead of cookie injectors. Fixes for #1 and #2
+GitCommitMessages.txt:[COMMIT MESSAGE]:#34 - add commons upload in order to allow file upload with wildfly8 (see https://issues.jboss.org/browse/UNDERTOW-279)
+GitCommitMessages.txt:[COMMIT MESSAGE]:#25 add a web based qr code reader
+GitCommitMessages.txt:[COMMIT MESSAGE]:#22 - bulk update of pending payments
+GitCommitMessages.txt:[COMMIT MESSAGE]:#23 - send reservation complete e-mail
+GitCommitMessages.txt:[COMMIT MESSAGE]:#28 correct comment
+GitCommitMessages.txt:[COMMIT MESSAGE]:#28 less restrictive CSP policy for linking images: we only need to be hover https or self
+GitCommitMessages.txt:[COMMIT MESSAGE]:#28 add csp lockdown policy
+GitCommitMessages.txt:[COMMIT MESSAGE]:#21 - better error handling
+GitCommitMessages.txt:[COMMIT MESSAGE]:#21 - update assignee using AJAX (if available)
+GitCommitMessages.txt:[COMMIT MESSAGE]:org.qiweb/ -> io.werval/ #226
+GitCommitMessages.txt:[COMMIT MESSAGE]:Added constant for Strict-Transport-Security header as defined in http://tools.ietf.org/html/rfc6797#section-6.1.
+GitCommitMessages.txt:[COMMIT MESSAGE]:getlantern/lantern#1476 Finished functionality to increase friending quotas for unstrusted users, as well as button for recalculating everyone's friending quota
+GitCommitMessages.txt:[COMMIT MESSAGE]:getlantern/lantern#1476 Added functionality to increase friending quota (currently only does one user, for a quick test)
+GitCommitMessages.txt:[COMMIT MESSAGE]:getlantern/lantern#1427 Added button to /admin/index.jsp to export baseline stats to statshub
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1318 Controller now reports severe errors to Loggly
+GitCommitMessages.txt:[COMMIT MESSAGE]:comments re getlantern/lantern#1077
+GitCommitMessages.txt:[COMMIT MESSAGE]:logging, TODO comments for csrf protection #1077
+GitCommitMessages.txt:[COMMIT MESSAGE]:Added constant for Strict-Transport-Security header as defined in http://tools.ietf.org/html/rfc6797#section-6.1.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2193 Enabled websockets transport in CometD
+GitCommitMessages.txt:[COMMIT MESSAGE]:Clean ups from code review #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:added back XSRF for lantern pi mode #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:cleanups from code review #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:Don't add CSP on Pi or in dev mode #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:bind to any host for pi #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed duplicate oauth fetch along with DRY improvement #1858
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1074 Added ids for Selenium testing and dumping out current API url
+GitCommitMessages.txt:[COMMIT MESSAGE]:Model streamlining and removed splash screen (1/4 of total startup time) for #671
+GitCommitMessages.txt:[COMMIT MESSAGE]:Lots of finer grained tweaks to speed up startup including lazily loading they keystore and lazily loading most servlets #671
+GitCommitMessages.txt:[COMMIT MESSAGE]:Initial pass at splash screen (closes #668)
+GitCommitMessages.txt:[COMMIT MESSAGE]:fix #695
+GitCommitMessages.txt:[COMMIT MESSAGE]:check XSRF-Token (refs #72)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed redirect that's no longer necessary with permissions to desktop files #439
+GitCommitMessages.txt:[COMMIT MESSAGE]:use random URL prefix (refs #72)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Added fallback server to server list and added google pac file to served pac files closes #489
+GitCommitMessages.txt:[COMMIT MESSAGE]:Switched to re-authenticate through google each time and to use global static settings for some things #490
+GitCommitMessages.txt:[COMMIT MESSAGE]:More settings migration #463
+GitCommitMessages.txt:[COMMIT MESSAGE]:Improved roster and api port settings handling #463
+GitCommitMessages.txt:[COMMIT MESSAGE]:Comment and looping fix #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:Clean ups from code review #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:cleanups from code review #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:Don't add CSP on Pi or in dev mode #2124
+GitCommitMessages.txt:[COMMIT MESSAGE]:Merge pull request #2082 from getlantern/2043
+GitCommitMessages.txt:[COMMIT MESSAGE]:removing unused imports #2043
+GitCommitMessages.txt:[COMMIT MESSAGE]:Lots of refactorings to use Chrome on OSX #2043
+GitCommitMessages.txt:[COMMIT MESSAGE]:getlantern/lantern#2045 lantern-ui now showing client and server stats from flashlight
+GitCommitMessages.txt:[COMMIT MESSAGE]:Merge pull request #2062 from getlantern/2006-2
+GitCommitMessages.txt:[COMMIT MESSAGE]:Always normalize emails #2067
+GitCommitMessages.txt:[COMMIT MESSAGE]:Adding isShuttingDown utility method #2006
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2020 extractExecutableFromJar now makes the target directory if necessary
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed extracting of executables and checking for duplicates closes #1997
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1975 Building old file using constructor rather than string concatenation
+GitCommitMessages.txt:[COMMIT MESSAGE]:getlantern/lantern#1975 Comparing PT executable before overwriting
+GitCommitMessages.txt:[COMMIT MESSAGE]:better, cross platform setting of executable #1846
+GitCommitMessages.txt:[COMMIT MESSAGE]:Lots of tweaks to extract executables from jar #1846
+GitCommitMessages.txt:[COMMIT MESSAGE]:susimail: fix NPE (ticket #1296)
+GitCommitMessages.txt:[COMMIT MESSAGE]:i2psnark: Add support for specifying data dir in add form (ticket #1028)
+GitCommitMessages.txt:[COMMIT MESSAGE]:i2psnark: Fix adding magnet links with % encoding (ticket #1391)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #52: Refactor service package names.
+GitCommitMessages.txt:#rico #pra#caralho #hashtag #de #commit #é #rollback
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #51: Use @Resource instead of @Autowired.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #52: Refactor service package names.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Basic registration functionality. #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2 Roles and functions
+GitCommitMessages.txt:[COMMIT MESSAGE]:#285 Preparing UI authentication
+GitCommitMessages.txt:[COMMIT MESSAGE]:Aravind | #00 | spelling mistake.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Aravind | #00 | Added execute only on system folders.
+GitCommitMessages.txt:[COMMIT MESSAGE]:User with ROLE_READER now cannot access Article Settings (Issue #231)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Huge directory refactoring. Also fix defect #15
+GitCommitMessages.txt:[COMMIT MESSAGE]:Creating project template. fix #1
+GitCommitMessages.txt:[COMMIT MESSAGE]:#11 Authorize demo
+GitCommitMessages.txt:[COMMIT MESSAGE]:#persistence, web layer controller
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #51: Use @Resource instead of @Autowired.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #52: Refactor service package names.
+GitCommitMessages.txt:[COMMIT MESSAGE]:issue #113 logs fore creating, editing, deleting and hiding location, cleaning logs after 30 days old
+GitCommitMessages.txt:[COMMIT MESSAGE]:issue #62 seems all working fine
+GitCommitMessages.txt:[COMMIT MESSAGE]:Closes #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:#7 Finalização cadastro e lista de trabalhos
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Patch from vantonevich to get jax_rs/spring_security demo updated applied; This closes #30
+GitCommitMessages.txt:[COMMIT MESSAGE]:[Template] Data Type Select Box #91
+GitCommitMessages.txt:[COMMIT MESSAGE]:[General] CSS,JAVASCRIPT Loading Issues #79
+GitCommitMessages.txt:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from the admin console
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRUD operations in the PersistenceManager in the admin
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #32. Fixed #33.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #102
+GitCommitMessages.txt:[COMMIT MESSAGE]:A few more fixes for #88.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #88
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fix #181
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cleanups.
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Update issue #172
+GitCommitMessages.txt:[COMMIT MESSAGE]:Restrict selection of the bad vehicles. Closes #24
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:Restrict selection of the bad vehicles. Closes #24
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:updated CustomerService and its test according to issues #18 and #19
+GitCommitMessages.txt:[COMMIT MESSAGE]:close #81
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wizards when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#473: Added paging to List of Forms.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#471 Added New and Edit user wizard to the dashboard and removed from the admin console
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#CHANGE: spring security annotations configuration.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#CHANGE: Configuração do spring security usando o jdbcdao spring data
+GitCommitMessages.txt:[COMMIT MESSAGE]:#CHANGE: Configurado Spring Data com JNDI e Postgresql
+GitCommitMessages.txt:[COMMIT MESSAGE]:#fix to use annotations in spring security ....
+GitCommitMessages.txt:[COMMIT MESSAGE]:RESTful #2
+GitCommitMessages.txt:[COMMIT MESSAGE]:RESTful #1
+GitCommitMessages.txt:[COMMIT MESSAGE]:RESTful #2
+GitCommitMessages.txt:[COMMIT MESSAGE]:RESTful #1
+GitCommitMessages.txt:[COMMIT MESSAGE]:Modifications to app structure and code in order to comply with Assignment #4.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #1094 - Move the @Transactional annotation off of the service-level DynamicEntityRemoteService and onto the individual methods that need it
+GitCommitMessages.txt:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRUD operations in the PersistenceManager in the admin
+GitCommitMessages.txt:[COMMIT MESSAGE]:sha1 password hashing #31
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:authorization on service layer #34
+GitCommitMessages.txt:[COMMIT MESSAGE]:Refactoring number #2 (fucked JAVA!)
+GitCommitMessages.txt:[COMMIT MESSAGE]:#4: Supported recursive deletion of sites
+GitCommitMessages.txt:[COMMIT MESSAGE]:#4: Connecting pages to site
+GitCommitMessages.txt:[COMMIT MESSAGE]:#6: Added method based security
+GitCommitMessages.txt:[COMMIT MESSAGE]:#10: Add default content to a page
+GitCommitMessages.txt:[COMMIT MESSAGE]:#10: Decent moving around of portlets
+GitCommitMessages.txt:[COMMIT MESSAGE]:#10: Added location deletion logic
+GitCommitMessages.txt:[COMMIT MESSAGE]:#1: Added position to Page object
+GitCommitMessages.txt:[COMMIT MESSAGE]:Ensured that edit and delete links are only shown to users who own a recipe. Fixes #45.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Implemented error pages. Closes #41.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Added flash messages when editing and updating recipes. Fixes #40.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Ingredients can be removed from recipes. Closes #17.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #1094 - Move the @Transactional annotation off of the service-level DynamicEntityRemoteService and onto the individual methods that need it
+GitCommitMessages.txt:[COMMIT MESSAGE]:#256 : Create a response object that better details the result of CRUD operations in the PersistenceManager in the admin
+GitCommitMessages.txt:[COMMIT MESSAGE]:#24 lazy loading operation test
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용
+GitCommitMessages.txt:[COMMIT MESSAGE]:#58 커밋
+GitCommitMessages.txt:[COMMIT MESSAGE]:#50 제작완료
+GitCommitMessages.txt:[COMMIT MESSAGE]:#46 maven 통합
+GitCommitMessages.txt:[COMMIT MESSAGE]:#4 기능 완성
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용
+GitCommitMessages.txt:[COMMIT MESSAGE]:#58 커밋
+GitCommitMessages.txt:[COMMIT MESSAGE]:#46 maven 통합
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #109.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #108
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #100 and #102
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #85
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #88
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #71
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes #31
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes for #29 & #35
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes for #35
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixes for #54
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fix for #56
+GitCommitMessages.txt:[COMMIT MESSAGE]:Improve update attribute rest method. fix #90
+GitCommitMessages.txt:[COMMIT MESSAGE]: - Proposal #2: integration of GeoStore with SpringSecurity
+GitCommitMessages.txt:[COMMIT MESSAGE]:Add requirement to include email in request body to delete a user #6
+GitCommitMessages.txt:[COMMIT MESSAGE]:Code clean up related to security #6
+GitCommitMessages.txt:[COMMIT MESSAGE]:Move usage of @Secured from Service class to Controller class #6
+GitCommitMessages.txt:[COMMIT MESSAGE]:Close #1
+GitCommitMessages.txt:[COMMIT MESSAGE]: - Proposal #2: integration of GeoStore with SpringSecurity
+GitCommitMessages.txt:[COMMIT MESSAGE]:close #41
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt:[COMMIT MESSAGE]:#7 디자인 1차 정리
+GitCommitMessages.txt:[COMMIT MESSAGE]:#2 PreAuthorize 어노테이션 대신에 Spring Security 2.x대에서 사용하던 Secured 어노테이션 사용
+GitCommitMessages.txt:[COMMIT MESSAGE]:#52 메뉴가 편집될때마다 캐싱을 해지하도록 변경
+GitCommitMessages.txt:[COMMIT MESSAGE]:#53 codebone-site > menu > 조작 후에 NPE
+GitCommitMessages.txt:[COMMIT MESSAGE]:#46 maven 통합
+GitCommitMessages.txt:[COMMIT MESSAGE]:issue#26 (in progress) + upgraded version angular/bootstrap
+GitCommitMessages.txt:[COMMIT MESSAGE]:issue#9:  Add day by day navigation view for small mobile devices
+GitCommitMessages.txt:[COMMIT MESSAGE]:issue#7: As a user, I want to be able to add a note for each imputation entry
+GitCommitMessages.txt:[COMMIT MESSAGE]:fixed issue#1: Prevent double-submit on datagrid navigation control buttons
+GitCommitMessages.txt:[COMMIT MESSAGE]:#64 BeanIds.AUTHENTICATION_MANAGER is now a composed bean
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #13.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:pgesek | #397 | Checkstyle: Cyclomatic complexity
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:pgesek | #397 | Checkstyle: Cyclomatic complexity
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:pgesek | #397 | Checkstyle: Cyclomatic complexity
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:#17 updated the resource security depedancy
+GitCommitMessages.txt:[COMMIT MESSAGE]:#21 #17 addedd ws-resource-security
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #32. Fixed #33.
+GitCommitMessages.txt:[COMMIT MESSAGE]:Fixed #22
+GitCommitMessages.txt:[COMMIT MESSAGE]:#15: Login form 
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #81: Remove unused classes and methods; added a couple of fixes
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#64: Backend for Display pie charts
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#37: Indicators values calculation
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#37: Added FrequencyEntity
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#48: Added possibility to change indicators recalculation cron job without restarting the application
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE#48: Add possibility to configure frequency of recalculating indicator values
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #51: Add the ability to define new languages from the UI
+GitCommitMessages.txt:[COMMIT MESSAGE]:#21 #17 addedd ws-resource-security
+GitCommitMessages.txt:[COMMIT MESSAGE]:#17 updated the resource security depedancy
+GitCommitMessages.txt:[COMMIT MESSAGE]:#21 #17 addedd ws-resource-security
+GitCommitMessages.txt:[COMMIT MESSAGE]:Update #1
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt:[COMMIT MESSAGE]:Update #1
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt:[COMMIT MESSAGE]:初版登録。(#1)
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+GitCommitMessages.txt:[COMMIT MESSAGE]:CARE #51: Add the ability to define new languages from the UI
+GitCommitMessages.txt:[COMMIT MESSAGE]:FIX #26 - V administraci u users.xhtml nejaka hlaska
+GitCommitMessages.txt:[COMMIT MESSAGE]:updated copyright headers for all files per http://www.apache.org/legal/src-headers.html#headers
+GitCommitMessages.txt:[COMMIT MESSAGE]:[#JBRULES-2577] License headers are missing for most of the files
+GitCommitMessages.txt:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt:[COMMIT MESSAGE]:1. 인보이스 문서 code : inbound# 뒤에 코드가 안찍힘 X
+GitCommitMessages.txt:[COMMIT MESSAGE]:Removed U#args (replaced by Conf#args).
+GitCommitMessages.txt:[COMMIT MESSAGE]:#64 BeanIds.AUTHENTICATION_MANAGER is now a composed bean
+GitCommitMessages.txt:[COMMIT MESSAGE]:Plugins: Added DefaultWysiwygToolbar properties; removed call to #setLocale(ENGLISH); fixes #78
+GitCommitMessages.txt:[COMMIT MESSAGE]:Issue #142: More renaming to namespace org.datacleaner
+GitCommitMessages.txt:[COMMIT MESSAGE]:Issue #142: Renamed namespaces to org.datacleaner
+GitCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added
+GitCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues added
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Started the work on #42. This is just the initial commit that:
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Clownfish API #Experimental #MightChange
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Phase#1: Adding final changes for first phase of DB SEC project
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:#First Commit
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Phase#1: Adding final changes for first phase of DB SEC project
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Fix for Ticket #102 (missing dependency -> NoClassDefFoundError)
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:# 0.58
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:# 0.55
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:closes #11, completed save as new permission set
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_bk1:This commit belongs to issue #206.
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:closes #11, completed save as new permission set
+GitCommitMessages.txt_bk1:This commit belongs to issue #206.
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Removed license notice headers. Fixing #408.
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Moved all subfolders of openxdata up one level. And removed the empty parent folder openxdata. Fixes #399. Ok Mark.
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Refs #13882 - Updating ROO version to 1.2.6-BUILD-SNAPSHOT
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:#8193 Actualizar Roo a la revisión 78c89de..5b80e7a
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:Started the work on #42. This is just the initial commit that:
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_bk1:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_bk1:This commit belongs to issue #206.
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski, wstrzelczyk | #429 | Tasks Module, Iteration #1, basic task creation UI (merge dev/task-module)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #132 | Moved: 1) functional modules to modules folder (grouped similar modules) 2) platform components to platform folder
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Update #1
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #319 | added password generator and sending email with information for new user
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech modules:
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:lwyszomirski | #446 | move web-security to platform
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE #51: Add the ability to define new languages from the UI
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#64 BeanIds.AUTHENTICATION_MANAGER is now a composed bean
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues added
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Review Javadoc and Sonar issues #3
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]: Move @PreAuthorize annotations in service layer #4
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Issue #4  : Create API's in management controller which will return specific account and application
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Application
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:1. 인보이스 문서 code : inbound# 뒤에 코드가 안찍힘 X
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:close #5 issue
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#21 - Added example for Spring Data REST and Spring Security.
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Merge branch 'Adapt_BSIS_to_expose_REST_services_#209' into Ensure_BackingForms_and_ModelViews_are_aligned_#225
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Removed auto generated comments (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Consistency through get and put request type (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Applied URI patterns and conventions on request types (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:add user flow Part #1
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Support for MetaAnalysis added #5
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#dox-18 Fixed
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#15: Login form 
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#130 Package names include .configurers .builders and .configuration
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#117 Default Ldap with in Memory LDAP
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#119 Remove AuthenticationManagerBuilder#ldapAuthenticationProvider()
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#90 Remove the authentication *Registry
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#61 Support DefaultLoginPageGeneratingFilter
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#72 remove WebSecurityConfigurerAdapter.authorizeUrls
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#72 Consistent *Configurator names
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#57 Introduce AuthenticationRegistry
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#52 Spelling corrections Adapater -> Adapter
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#32: Remove nesting of () in AuthenticationManager builders
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#1 Separate ExpressionFilterInvocationSecurityMetadataSourceSecurityBuilder and Distinct builder for DefaultFilterInvocationSecurityMetadataSource and ExpressionBasedFilterInvocationSecurityMetadataSource
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#130 Package names include .configurers .builders and .configuration
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#72 remove WebSecurityConfigurerAdapter.authorizeUrls
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#72 Consistent *Configurator names
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:#63 Support AuthenticationManager only in HttpConfiguration's AuthenticationRegistry
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE #81: Remove unused classes and methods; added a couple of fixes
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE #92: Corrected permissions for roles, moved changesets to sql files
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE#64: Backend for Display pie charts
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE#37: Indicators values calculation
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE#37: Added FrequencyEntity
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE#48: Added possibility to change indicators recalculation cron job without restarting the application
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:CARE#48: Add possibility to configure frequency of recalculating indicator values
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Return  view  models on save/update on users & roles(#226)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Updated URI on roles (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:implemented Standard end point  conventions on roles(#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Improved role end points (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Removed  unused exception handling methods (#215)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Adapted @RestController annotation on all controllers (#212)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Forming Consistent URI (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Normalized administration end points (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Modified controller methods to  rest  services (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Added Permissions on sub domains (#150)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Ensure Role description is persisted (#134)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Ui changes made to split permission list into two columns(#134)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Merge branch 'develop' into Improve_Admin_UI_to_manage_Users_#118
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Manage Role Functionality.Insert , populate and update functionality for Role and permission_role_#117 T30h:00
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Merge branch 'Adapt_BSIS_to_expose_REST_services_#209' into Ensure_BackingForms_and_ModelViews_are_aligned_#225
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Return view model on save on blood tests (#226)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Consistency over Get/Put blood tests (#225)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Added backing form for blood test (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Added backing form and view model for component type combinations (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Applied standard REST conventions on blood tests  and typing (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Improved blood testing, reports end points(#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Applied spring 4.1 features on blood testing (#212)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Adapted @RestController annotation on blood testing (#212)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Normalized blood testing  endpoints (#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Added base code for supporting rest services(#209)
+GitCommitMessages.txt_PreAuth100pages:[COMMIT MESSAGE]:Applied blood testing permissions(#150)

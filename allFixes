@@ -1,0 +1,126 @@
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Uusia rajapintoja ja korjattu bugi perustelistauksen linkkien generoi…||…nnissa
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Oikeuksien muokkausta.||Oikeuksien suomennos; kommentoinin oikeuksien bugikorjaus.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-5652: fixed problem with refresh dropdowns||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: add service facades around viewing waiving overdue charge…||…s and removing fees for customer accounts. remove unused imports warnings using eclipse quick fix
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests. refactor dto belonging to c…||…enter get details.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security fo…||…r viewing and updating labels
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security fo…||…r viewing and updating labels
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4322: fix failing tests due to loan details broken, service fac…||…ade for repay loan.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4322: fix failing acceptance tests for reversal of loan disburs…||…als, service facade for creating multipe loan accounts
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: add service facades around viewing waiving overdue charge…||…s and removing fees for customer accounts. remove unused imports warnings using eclipse quick fix
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests. refactor dto belonging to c…||…enter get details.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Loads of fixes||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix acl issue||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #4 : Create API's in management controller which will return sp…||…ecific account and application
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #4 : Create API's in management controller which will return sp…||…ecific account and application
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Applic…||…ation
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Issue #6 : New REST API's required for deletion of Account and Applic…||…ation
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"||This reverts commit 25011ff, reversing
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "Merge pull request #29 from lwyszomi/MIFOS-3534-branch"||This reverts commit 25011ff, reversing
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "MIFOS-4190: add service facades around client family details."||Attempting to fix the build by revert to last know working version
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "MIFOS-4190: fix failing acceptance tests"||This reverts commit 3f47848.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix conflicts from 5d92ffc||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring sec…||…urity for view and create fund service facade methods
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Bugfix: update index when changing the permission||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Bugfix: update index when changing the permission||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix tests, rename all addRecovery => addRecoveries||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring sec…||…urity for view and create fund service facade methods
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Uusia rajapintoja ja korjattu bugi perustelistauksen linkkien generoi…||…nnissa
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:fixes||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-4552: fix checklist functionality for edit and create||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Restriction validation framework is mostly done disregarding bugs and…||… some obscure features.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Loads of fixes||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-5992: Added permissions, Pentaho reports parameters and other m…||…inor fixes
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-4507: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Last fixing||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Revert "MIFOS-4190: add service facades around client family details."||Attempting to fix the build by revert to last know working version
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Revert "MIFOS-4190: fix failing acceptance tests"||This reverts commit 3f47848.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added feature image sorting for amenity and gallery. Fix bugs and cle…||…anups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:cong thanh fix||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:cong thanh fix||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added method security on service layer, update RegUser fix||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:fixed SampleObjectService||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:fix frontend tests and add PreAuthorize to actions||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added method security on service layer, update RegUser fix||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:Removed username from use (using email instead) in profile.jsp. Chang…||…ing user's password is working without any validation and no checking if the old password is correct (UserProfileController, -Service and implementations and userDao and implementation). Printing in console for easier debugging.
+CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Removed username from use (using email instead) in profile.jsp. Chang…||…ing user's password is working without any validation and no checking if the old password is correct (UserProfileController, -Service and implementations and userDao and implementation). Printing in console for easier debugging.
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Programmer Power WUI||close #20
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #56: Service to retrieve GWAS infos for a specific SNP added||The GWASDataService and GWASDataRequest have a new method to
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Enhancement #26: Support for downloading phenotype values and pvalues…||… added
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:llewczynski | #448 | Process spring security annotations in motech mo…||…dules:
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Uusia rajapintoja ja korjattu bugi perustelistauksen linkkien generoi…||…nnissa
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Oikeuksien muokkausta.||Oikeuksien suomennos; kommentoinin oikeuksien bugikorjaus.

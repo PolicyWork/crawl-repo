@@ -1,0 +1,906 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/boonys20/IntanonWebJava/commit/7ece7be4be06144161d1307b16b6672ea3e2ce8b
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jeoygin/spring-examples/commit/fab5351f66abc1908f96cfff0026e883ec8ee39b
+
+[COMMIT MESSAGE]:Add spring security example||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/masonmei/food-logistics/commit/3ac95bb2e7104698c23a9b96b088799d0fc702a6
+
+[COMMIT MESSAGE]:M1||M1
+=========================================================
+
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IrinaMakarushko/testingGit/commit/7724348f54313eb9dc097c40a8f9e1db91317bf0
+
+[COMMIT MESSAGE]:First commit||
+=========================================================
+
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doodlecoge/md-editor/commit/3890f5648bfc99baaf76d572d20560d21dd9e667
+
+[COMMIT MESSAGE]:get rid of annotations and use xml config for spring security||
+=========================================================
+
++ @PreAuthorize("hasRole('USER')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=95&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/doodlecoge/md-editor/commit/3890f5648bfc99baaf76d572d20560d21dd9e667
+
+[COMMIT MESSAGE]:get rid of annotations and use xml config for spring security||
+=========================================================
+
++ @PreAuthorize("hasRole('USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/somov/carShop/commit/1381723d27ab958e8ba94917698bfad80b270147
+
+[COMMIT MESSAGE]:first||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.makeOrders")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++@PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/execom-eu/ECLunchOrder/commit/fe5522a282125b1d55d23bfce26c2108f1857167
+
+[COMMIT MESSAGE]:Model corrections, supplier admin GUI elements.||
+=========================================================
+
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
+- @PreAuthorize("hasRole('SUPER_ADMIN')")
+- @PreAuthorize("hasRole('SUPER_ADMIN')")
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
++ @PreAuthorize("hasRole('SUPER_ADMIN')")
+- @PreAuthorize("hasRole('SUPER_ADMIN')")
+- @PreAuthorize("hasRole('SUPER_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ladislavovic/snippets/commit/8c6c3d1c707a979906a951935b8e95430874aa87
+
+[COMMIT MESSAGE]:something:)||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ladislavovic/snippets/commit/8c6c3d1c707a979906a951935b8e95430874aa87
+
+[COMMIT MESSAGE]:something:)||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_PIOSCONTROL_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=96&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bigzidane/FieldCatalog/commit/58ffd5d51291d4b437ce9b5939096ca44c0dc1b0
+
+[COMMIT MESSAGE]:Field Catalog||Initial Version
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/uq-eresearch/oztrack/commit/150a99ff925c9da9e7bddf4c4b6634c64ff0ec4e
+
+[COMMIT MESSAGE]:srs settings, srs selector dialog||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/uq-eresearch/oztrack/commit/150a99ff925c9da9e7bddf4c4b6634c64ff0ec4e
+
+[COMMIT MESSAGE]:srs settings, srs selector dialog||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peholmst/SpringSecurityDemo/commit/09755ffb4fee95c889c1f3046f8a5f5fbc96bcd5
+
+[COMMIT MESSAGE]:Changed category service to use separate insert and update methods in…||…stead of a single save method. The reason for this was to make it possible for more fine grained ACL permissions.
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peholmst/SpringSecurityDemo/commit/39822a4a6fdb5c5719bc00e6bd1cab21bb09fa49
+
+[COMMIT MESSAGE]:Refactored domain model to use long IDs instead of UUIDs in order to …||…make it possible to use Spring Security's ACL-implementation. Also added some security annotations to the Category Service.
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peholmst/SpringSecurityDemo/commit/207ff5aceff59f523c1d761bcdbe8a243f13e861
+
+[COMMIT MESSAGE]:Category service now serves categories from a database. Delete catego…||…ry does not work yet.
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_USER'")
+- @PreAuthorize("hasRole('ROLE_USER') and hasPermission(#parent, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peholmst/SpringSecurityDemo/commit/b46d565c26c53d7775b0008af84d31dbcd2c39db
+
+[COMMIT MESSAGE]:Started to define service interfaces + corresponding container implem…||…entations.
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER'")
++ @PreAuthorize("hasRole('ROLE_USER') and hasPermission(#parent, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IlyaSergeev/Potlach_server/commit/3c910ac3c79b53d4c748322c73e40749d776fec5
+
+[COMMIT MESSAGE]:add touch logic||
+=========================================================
+
++ @PreAuthorize("hasRole('USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IlyaSergeev/Potlach_server/commit/a49391a64a45337a6261c94481e874074ebc3b99
+
+[COMMIT MESSAGE]:refactoring||
+=========================================================
+
+- @PreAuthorize("hasRole('ADMIN') or isAnonymous()")
++ @PreAuthorize("hasRole('ADMIN') or hasRole('NOT_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IlyaSergeev/Potlach_server/commit/147aab95265ff42ba9bf5fd574594753eca1b705
+
+[COMMIT MESSAGE]:add rating to userinfo||
+=========================================================
+
++ @PreAuthorize("hasRole('USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IlyaSergeev/Potlach_server/commit/d0d2b5b51403be2e63f539801fbc66462a811d43
+
+[COMMIT MESSAGE]:add some tests for vote||
+=========================================================
+
+- @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IlyaSergeev/Potlach_server/commit/b11ccb471a930c60919a0dd30608698cf841b7e9
+
+[COMMIT MESSAGE]:refactoring||
+=========================================================
+
+- @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER')")
+- @PreAuthorize("hasRole('ADMIN'")
++ @PreAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/IlyaSergeev/Potlach_server/commit/25a5762d74c4ae420300b639712210808a4bb7ab
+
+[COMMIT MESSAGE]:add votes controller||
+=========================================================
+
++ @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER'")
++ @PreAuthorize("hasRole('USER'")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apobbati/ICAM_POC/commit/7ab5d17ce0b12785b713bd4ea06ff4ee40495c14
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('NOT_THERE')")
++ @PreAuthorize("hasRole('ACCESS_LEVEL1')")
++ @PreAuthorize("hasRole('NOT_THERE')")
++ @PreAuthorize("hasRole('ACCESS_LEVEL1')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=97&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-projects/spring-security-javaconfig/commit/a3e55050bf2e42b4535b15817d356ff7ef8c5459
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Nimeton/Pysakkiopas/commit/596a5a11e1bbf9ffe40ac562bce3ad5011142eab
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PreAuthorize("hasRole('kayttaja')")
++ @PreAuthorize("hasRole('kayttaja')")
++ @PreAuthorize("hasRole('kayttaja')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nmartynenko/sample-crud-mvc/commit/bb058eddd16f6d4fd36728da7aa7c31cbfbbe0dd
+
+[COMMIT MESSAGE]:- Backports from "sample-crud-scala"||- stop supporting Gradle build in favor of Maven
+=========================================================
+
+- @PreAuthorize("hasRole('ADMIN')")
+- @PreAuthorize("hasRole('ADMIN')")
+- @PreAuthorize("hasRole('ADMIN')")
+- @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nmartynenko/sample-crud-mvc/commit/2a60d3bbf9a7ce191d0889428220179c4352e125
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/newlifewj/projects/commit/1bf2a16f3d6e518eec734335781fd4cefb146ae3
+
+[COMMIT MESSAGE]:first time||
+=========================================================
+
++ @PreAuthorize("hasRole('divisionRead')")
++ @PreAuthorize("hasRole('adminPrivilege')")
++ @PreAuthorize("hasRole('divisionRead')")
++ @PreAuthorize("hasRole('divisionDelete')")
++ @PreAuthorize("hasRole('employeeRead')")
++ @PreAuthorize("hasRole('employeeRead')")
++ @PreAuthorize("hasRole('adminPrivilege')")
++ @PreAuthorize("hasRole('employeeRead')")
++ @PreAuthorize("hasRole('employeeDelete')")
++ @Override @PreAuthorize("hasRole('adminPrivilege')")
++ @PreAuthorize("hasRole('messageDelete')")
++ @PreAuthorize("hasRole('messageRead')")
++ /*@Override @PreAuthorize("hasRole('messagRead')")
++ @Override @PreAuthorize("hasRole('messageRead')")
++ @PreAuthorize("hasRole('messageRead')")
++ @PreAuthorize("hasRole('messageRead')")
++ @PreAuthorize("hasRole('projectPrivilege')")
++ @PreAuthorize("hasRole('projectDelete')")
++ @Override @PreAuthorize("hasRole('appPermissionRead')")
++ @Override @PreAuthorize("hasRole('appPermissionRead')")
++ @Override @PreAuthorize("hasRole('appPermissionRead')")
++ @Override @PreAuthorize("hasRole('appPermissionDelete')")
++ @Override @PreAuthorize("hasRole('appRoleRead')")
++ @Override @PreAuthorize("hasRole('appRoleRead')")
++ @Override @PreAuthorize("hasRole('appRoleRead')")
++ @Override @PreAuthorize("hasRole('appRoleDelete')")
++ @Override @PreAuthorize("hasRole('appUserRead')")
++ @Override /* @PreAuthorize("hasRole('appUserRead')") */
++ @Override @PreAuthorize("hasRole('appUserRead')")
++ @Override @PreAuthorize("hasRole('appUserRead')")
++ @Override @PreAuthorize("hasRole('appUserDelete')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=98&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/silbermm/anchor-spring/commit/66ef146e869093fdf4952d2570beb53d813f81ba
+
+[COMMIT MESSAGE]:fixed menuitem query to orderby weight||
+=========================================================
+
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/silbermm/anchor-spring/commit/38d5a1a7dda7d2c61caaa9eb49966977d4833b95
+
+[COMMIT MESSAGE]:more fixes for the Mail settings||
+=========================================================
+
++@PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
++ @PreAuthorize("hasRole('Administrator')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jaroslavpsenicka/respnd/commit/3963c4c2e0d1beb1998a53ee2960a85265ca132a
+
+[COMMIT MESSAGE]:admin controllers completed||
+=========================================================
+
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anis-moubarik/wad/commit/d9480d9c249b220e5d483deeb9c510fc2c0bf95e
+
+[COMMIT MESSAGE]:teht 3 tehty||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Cospel/ProjLibrary/commit/6adf2016a769324a20cbc52845d13daf3f982a4d
+
+[COMMIT MESSAGE]:fixed access||
+=========================================================
+
+-@PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Cospel/ProjLibrary/commit/9a0f85876af9e5becff7365e81a1536cf442a5e8
+
+[COMMIT MESSAGE]:added auth||
+=========================================================
+
++@PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++@PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
++@PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ZhihaoXian/Silverfox/commit/8822902401a3ebd5f3d40a417dc3e7411d443bee
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheLester/courseraCloudTasks/commit/a4fbecc79ee1d5032892bc2350a6dd2d552b9ca2
+
+[COMMIT MESSAGE]:2nd task done.Oauth,JPA and like impl||
+=========================================================
+
++ @PreAuthorize("hasRole('USER')")
++ @PreAuthorize("hasRole('USER')")
++ @PreAuthorize("hasRole('USER')")
++ @PreAuthorize("hasRole('USER')")
++ @PreAuthorize("hasRole('USER')")
++ @PreAuthorize("hasRole('USER')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=99&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/brianchen2012/syncope/commit/05719bcb88e13c2f5ec7d81cfaadca66a4fb2c5c
+
+[COMMIT MESSAGE]:Various minor cleanings||git-svn-id: https://svn.apache.org/repos/asf/syncope/trunk@1448998 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PreAuthorize("hasRole('SCHEMA_DELETE')")
++ @PreAuthorize("hasRole('SCHEMA_DELETE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/brianchen2012/syncope/commit/291507355a71c7aae841158cb0402a087e8b94ee
+
+[COMMIT MESSAGE]:[SYNCOPE-172][SYNCOPE-173] Introducing a basic noop role workflow and…||… making the PropagationManager dealing with users and roles
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/syncope/branches/DEV_ROLE_PROVISIONING@1408644 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PreAuthorize("hasRole('WORKFLOW_DEF_READ')")
+- @PreAuthorize("hasRole('WORKFLOW_DEF_UPDATE')")
++ @PreAuthorize("hasRole('WORKFLOW_DEF_READ')")
++ @PreAuthorize("hasRole('WORKFLOW_DEF_READ')")
+- @PreAuthorize("hasRole('WORKFLOW_TASK_LIST')")
++ @PreAuthorize("hasRole('WORKFLOW_DEF_UPDATE')")
++ @PreAuthorize("hasRole('WORKFLOW_DEF_UPDATE')")
++ @PreAuthorize("hasRole('WORKFLOW_TASK_LIST')")
++ @PreAuthorize("hasRole('WORKFLOW_TASK_LIST')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alesaudate/kickstart-springjerseyhibernate/commit/c5295170e7ca0a93c731f4329009877bb55c7489
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chapita/factoryTicketsGit/commit/33834269eae0eaf2ec7f7bd5a5d66dedf6ffab6c
+
+[COMMIT MESSAGE]:first commit with gradle||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
++ @PreAuthorize("hasRole('ROLE_ADMIN')" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davidscotsted/scotsted-com/commit/6527cba45b548bc90a93dffb55b2f2abbb9f200d
+
+[COMMIT MESSAGE]:Added brand rest endpoint||
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_CREATE_BRANDS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davidscotsted/scotsted-com/commit/3d0d341660e92784f3ada34a4165b9e317820ebd
+
+[COMMIT MESSAGE]:Added food diary service classes and tests||
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_CREATE_BRANDS')")
++ @PreAuthorize("hasRole('PERM_DELETE_BRANDS')")
++ @PreAuthorize("hasRole('PERM_UPDATE_BRANDS')")
++ @PreAuthorize("hasRole('PERM_READ_ENTRYVALUES')")
++ @PreAuthorize("hasRole('PERM_CREATE_ENTRYVALUES')")
++ @PreAuthorize("hasRole('PERM_DELETE_ENTRYVALUES')")
++ @PreAuthorize("hasRole('PERM_READ_ENTRYVALUES')")
++ @PreAuthorize("hasRole('PERM_UPDATE_ENTRYVALUES')")
++ @PreAuthorize("hasRole('PERM_CREATE_FOODITEMS')")
++ @PreAuthorize("hasRole('PERM_DELETE_FOODITEMS')")
++ @PreAuthorize("hasRole('PERM_UPDATE_FOODITEMS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/irineu/fffrepublic/commit/1b21067174e835c0cb177271ff40bfe438681a60
+
+[COMMIT MESSAGE]:implementado oauth||
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++ // @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PostAuthorize("hasRole('ROLE_ADMIN')")
++ // @PostAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/irineu/fffrepublic/commit/754ba83d2f35308ca3041f38020adcd82e499b65
+
+[COMMIT MESSAGE]:Adicionado serviço rest||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sunbiz/dhis2-10811/commit/150f0af78b07c377a3b80443fe136df9d0917e3b
+
+[COMMIT MESSAGE]:Update README.md||Adding the travis build status icon
+
+updated to rev 10120
+
+updated to rev 10220
+
+updated to rev 10231
+
+cleaned up bzr with obsolete packs
+
+updated to rev 10261
+
+updated to rev 10266
+=========================================================
+
+-@PreAuthorize("hasRole('M_dhis-web-api-fred') or hasRole('ALL')")
++@PreAuthorize("hasRole('M_dhis-web-api-fred') or hasRole('ALL')")
+- @PreAuthorize("hasRole('F_FRED_UPDATE') or hasRole('ALL')")
++ @PreAuthorize("hasRole('F_FRED_UPDATE') or hasRole('ALL')")
+- @PreAuthorize("hasRole('F_FRED_UPDATE') or hasRole('ALL')")
++ @PreAuthorize("hasRole('F_FRED_UPDATE') or hasRole('ALL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jrask/rock-paper-scissors/commit/6d4021da6b47ea0bbd07f89a283cd02c7d881e3a
+
+[COMMIT MESSAGE]:Added Jans example project||
+=========================================================
+
++ @PreAuthorize("hasRole('secret')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=100&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mark85rm/myFantacalcio/commit/b8df04d1c2ed3589b5d4114e88b64e56c06b42c8
+
+[COMMIT MESSAGE]:Initial Import||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/springinpractice/sip07/commit/d656ea1a0dfb8f919aa7a42d084a41d8e15f5b8b
+
+[COMMIT MESSAGE]:Moving classes from SVN to git.||
+=========================================================
+
++ @PreAuthorize("hasRole('PERM_READ_ACCOUNTS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_READ_FORUMS')")
++ @PreAuthorize("hasRole('PERM_CREATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_READ_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_UPDATE_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_ADMIN_MESSAGES')")
++ @PreAuthorize("hasRole('PERM_DELETE_MESSAGES')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maciej-kizlich/interview-db/commit/5b60d877f59c4e82e45e7e97eb86d9533ecc723e
+
+[COMMIT MESSAGE]:initial commit for interview-db||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/e42b388b90b224b23864d325b5d18495dbad2d74
+
+[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_WORKER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/8c8da3bbb933ac4726364714d366226a38ea23e9
+
+[COMMIT MESSAGE]:[CRM-23] Task, Job filters added.||Change-Id: Iadb7f5114e38733bddf2382b4d3ac8ebf69731d0
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/c7d573e65e4eb1a4d1c1643413a1c341e495b7a9
+
+[COMMIT MESSAGE]:[CRM-23] Services server side authorization.||Change-Id: I79ebb863bb13fdf6de0de75a7880480f39409725
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER')")
+- @PreAuthorize("hasRole('ROLE_CLIENT')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PostAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(returnObject, 'read')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(#projectDTO, 'write')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PostAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(returnObject, 'read')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(#userDTO, 'write')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(#userDTO, 'write')")
++ @PreAuthorize("hasRole('ROLE_EXECUTIVE')")
+- @PreAuthorize("hasRole('ROLE_CLIENT')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
++ @PreAuthorize("hasRole('ROLE_WORKER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/f198cded3c4e5ce62f1f28cbb4e2fb9497084f1a
+
+[COMMIT MESSAGE]:[CRM-23] Preparation to annotation use.||Change-Id: I66b2b319e4291bb02d6c43aa050e81746c1df01b
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_CLIENT')")
++ @PreAuthorize("hasRole('ROLE_CLIENT')")
+[NEXT-PAGE-URL]:null
+

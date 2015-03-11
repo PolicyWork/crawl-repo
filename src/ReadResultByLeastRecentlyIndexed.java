@@ -19,19 +19,19 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.python.antlr.ast.keyword;
 
 
-public class CommitMessageReaderDebug {
+public class ReadResultByLeastRecentlyIndexed {
 
 	public static void main(String[] args) throws InterruptedException,	IOException {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages3.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/Output1.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/ErrorLogging.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/ErrorLogging.txt"); //We write into this file
 
 		try {
 			
-			readHandle = new BufferedReader(new FileReader("/home/manish/workspace/crawl-repo/InputPolicyKeywords.txt"));  //Input file containing keywords
+			readHandle = new BufferedReader(new FileReader("/home/manish/workspace/crawl-repo/InputFileLeastRecentlyIndexed.txt"));  //Input file containing keywords
 			
 			BufferedWriter outputHandle = new BufferedWriter(new FileWriter(file));
 			BufferedWriter logHandle = new BufferedWriter(new FileWriter(logFile));
@@ -62,13 +62,13 @@ public class CommitMessageReaderDebug {
 					
 					if(restart == true)
 					{
-						urlToGet = "https://github.com/search?l=java&p=16&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93"; //for restart
+						urlToGet = "https://github.com/search?l=java&o=asc&p=19&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
 //						keywordLine = "intercept-url pattern";
 						restart=false;
 					}
 					else
 					{
-						 urlToGet ="https://github.com/search?utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code"; //original
+						 urlToGet ="https://github.com/search?o=asc&s=indexed&utf8=%E2%9C%93&q="+keywordLine+"&l="+lang+"&type=Code"; //original
 
 					}
 					

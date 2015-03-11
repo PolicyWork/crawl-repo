@@ -1,0 +1,510 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/harishminchu/ddd-cqrs-base-project/commit/c7014fd4acc01132008023e3ae98082d47005365
+
+[COMMIT MESSAGE]:Initial checkin from google code svn project||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thinkbigthings/give3.org/commit/95b39447ef8589e2fc80a30fa281a3387d1dc606
+
+[COMMIT MESSAGE]:transfer project to github||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/charybr/spring-data-rest-acl/commit/2deca36d13faed67c253d3e401e64bdd87a590da
+
+[COMMIT MESSAGE]:Added initial files||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasPermission(#book, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tspaeth/springxdemo/commit/e997c1ef775846ea5f9bedc427d9c45b885dec4b
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++//@PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/danhuru/Notifier/commit/e70f159d7b93549422c76acb68d319df82696396
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE:ENT:EXPORT_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENT')")
++ @PreAuthorize("hasRole('ROLE:ENT:EDIT_CUSTOMER')")
++ @PreAuthorize("hasRole('ROLE:ENT:EDIT_CUSTOMER')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_REPORT')")
++ @PreAuthorize("hasRole('ROLE:ENT:EXPORT_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_DASHBOARD')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENT')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENT_MIR')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_REPORT')")
++ @PreAuthorize("hasRole('ROLE:ENT:EDIT_INCIDENT')")
++ @PreAuthorize("hasRole('ROLE:ENT:EDIT_INCIDENT')")
++ @PreAuthorize("hasRole('ROLE:ENT:EXPORT_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENT')")
++ @PreAuthorize("hasRole('ROLE:ENT:EXPORT_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENT')")
++ @PreAuthorize("hasRole('ROLE:ENT:EXPORT_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENT')")
++ @PreAuthorize("hasRole('ROLE:ENT:SEND_INCIDENT_NOTIFICATION')")
++ @PreAuthorize("hasRole('ROLE:ENT:SEND_INCIDENT_NOTIFICATION')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_DASHBOARD')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENT')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENTS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_INCIDENT_MIR')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_USERS')")
++ @PreAuthorize("hasRole('ROLE:ENT:VIEW_USER')")
++ @PreAuthorize("hasRole('ROLE:ENT:EDIT_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sunbiz/dhis2/commit/38dc72ec65673c246602414698daaff228d3adf0
+
+[COMMIT MESSAGE]:updated to rev 15774||
+=========================================================
+
+- @PreAuthorize("hasRole('ALL') or hasRole('F_SYSTEM_SETTING')")
++ @PreAuthorize("hasRole('ALL') or hasRole('F_SYSTEM_SETTING')")
+- @PreAuthorize("hasRole('ALL') or hasRole('F_SYSTEM_SETTING')")
++ @PreAuthorize("hasRole('ALL') or hasRole('F_SYSTEM_SETTING')")
+- @PreAuthorize("hasRole('ALL') or hasRole('F_SYSTEM_SETTING')")
++ @PreAuthorize("hasRole('ALL') or hasRole('F_SYSTEM_SETTING')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/protean-platform/protean/commit/9dee0e8c794199769ab77e18cb38f99377770172
+
+[COMMIT MESSAGE]:pulled in core, briefly contemplated pulling out corewebappinitializer||and "security".
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=86&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/daha96/de.edgb.aviationclubmanager/commit/314e277ee8bb33e1e1259622066b04a0785dcf17
+
+[COMMIT MESSAGE]:Aufräumen und Formattieren||
+=========================================================
+
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- /* @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
+- * @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_STATISTICS')")
+- @PreAuthorize("hasRole('PERMISSION_STATISTICS')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_DELETE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_DELETE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/daha96/de.edgb.aviationclubmanager/commit/2389b7ad353fdea726d20394654151e71cd00907
+
+[COMMIT MESSAGE]:Dynanic Reports, gvNIX entfernt, Aufräumen||
+=========================================================
+
+- @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ /* @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_DELETE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ * @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/daha96/de.edgb.aviationclubmanager/commit/43d108bc1b970e6e71cbd1ed39724efd920f4db1
+
+[COMMIT MESSAGE]:erster Commit||
+=========================================================
+
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_BUG')")
++ @PreAuthorize("hasRole('PERMISSION_BUG')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_CHANGEPASSWORD')")
++ @PreAuthorize("hasRole('PERMISSION_CHANGEPASSWORD')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_STATISTICS')")
++ @PreAuthorize("hasRole('PERMISSION_STATISTICS')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=87&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/daha96/de.edgb.aviationclubmanager/commit/314e277ee8bb33e1e1259622066b04a0785dcf17
+
+[COMMIT MESSAGE]:Aufräumen und Formattieren||
+=========================================================
+
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
+- /* @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
+- * @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_STATISTICS')")
+- @PreAuthorize("hasRole('PERMISSION_STATISTICS')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_DELETE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_USERROLE_DELETE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/daha96/de.edgb.aviationclubmanager/commit/2389b7ad353fdea726d20394654151e71cd00907
+
+[COMMIT MESSAGE]:Dynanic Reports, gvNIX entfernt, Aufräumen||
+=========================================================
+
+- @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ /* @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_DELETE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
+- @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ * @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/daha96/de.edgb.aviationclubmanager/commit/43d108bc1b970e6e71cbd1ed39724efd920f4db1
+
+[COMMIT MESSAGE]:erster Commit||
+=========================================================
+
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_ACCOUNTING_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFT_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_AIRCRAFTLOG')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_BUG')")
++ @PreAuthorize("hasRole('PERMISSION_BUG')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_BUG_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_CHANGEPASSWORD')")
++ @PreAuthorize("hasRole('PERMISSION_CHANGEPASSWORD')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBCAPACITY_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_CLUBMEMBER_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_FLIGHT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_INSTRUCTORPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_PERSON_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_STATISTICS')")
++ @PreAuthorize("hasRole('PERMISSION_STATISTICS')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERACCOUNT_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_USERROLE_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_CREATE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_UPDATE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE_DELETE')")
++ @PreAuthorize("hasRole('PERMISSION_WINCHDRIVERPRESENCE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Iteam-Bolivia/asfi_ws/commit/9f20a89a32bd96fdc52dad15d552825264c74481
+
+[COMMIT MESSAGE]:primera semana||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMINISTRADOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRADOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRADOR')")
++ //@PreAuthorize("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=88&q=Authorize%28%22hasRole&type=Code&utf8=%E2%9C%93
+
