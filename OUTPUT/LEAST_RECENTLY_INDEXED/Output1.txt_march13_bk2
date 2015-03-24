@@ -1,0 +1,957 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/7a9ea0e9b2d529cc8394b254319cbb122f75a5ec
+
+[COMMIT MESSAGE]:RESTful controllers||
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/8e064b7ac676b21be8773486e73dbbbe6455d9ca
+
+[COMMIT MESSAGE]:first||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/494a061acd7a6a26c5ec39a5eaa8cf0d91c3dd77
+
+[COMMIT MESSAGE]:post orders are switched on the server now, added comments & refactpr||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/e3cb92173a2a75f0c9dcf61df8ba57506660b500
+
+[COMMIT MESSAGE]:refactor: remove nav class completely and simplify structure. refacto…||…r backbone code.
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/7a9ea0e9b2d529cc8394b254319cbb122f75a5ec
+
+[COMMIT MESSAGE]:RESTful controllers||
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/8e064b7ac676b21be8773486e73dbbbe6455d9ca
+
+[COMMIT MESSAGE]:first||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/0e9e572fe8860eaa37d764aba12ef442f5274bea
+
+[COMMIT MESSAGE]:adicionado teste de controle de acesso para recursos de Accountmanager||
+=========================================================
+
++ @PreAuthorize("hasPermission(#accountId, 'Account.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/edf74a845868265c577b3e69d4b2b82ec565ebd4
+
+[COMMIT MESSAGE]:adicionado testes para controle de acesso a recursos de conta e siste…||…ma de contas. algumas refatoracoes foram feitas
+=========================================================
+
++ @PreAuthorize("hasPermission(#account, 'Account.read')")
++ @PreAuthorize("hasPermission(#profile, 'Profile.read')")
++ @PreAuthorize("hasPermission(#id, 'AccountSystem.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/677eb0110a676f2117242f0d13f37c77b84e9218
+
+[COMMIT MESSAGE]:adicionada camada de seguranca de controle de acesso do spring. verif…||…icacao de acesso ao conta implementada. falta outras verificacoes
+=========================================================
+
++ @PreAuthorize("hasPermission(#accountId, 'Account.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/a683417a7a949789d4f2c77baee48f8b089060dd
+
+[COMMIT MESSAGE]:adicionado testes de controle de acesso aos recursos de transcoes||
+=========================================================
+
++ @PreAuthorize("hasPermission(#originAccountId, 'Account.read') and hasPermission(#destAccountId, 'Account.read')")
++ @PreAuthorize("hasPermission(#rootAccountId, 'Account.read')")
++ @PreAuthorize("hasPermission(#txId, 'AccountTransaction.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/cdbf16ad6a62eab9bdfcec90f39dc6127cf4aa24
+
+[COMMIT MESSAGE]:adicionado controle de acesso aos recursos de transacao e relatorios||
+=========================================================
+
++ @PreAuthorize("hasPermission(#accountId, 'Account.read')")
++ @PreAuthorize("hasPermission(#a, 'Account.read')")
++ @PreAuthorize("hasPermission(#rootAccountId, 'Account.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/cdbf16ad6a62eab9bdfcec90f39dc6127cf4aa24
+
+[COMMIT MESSAGE]:adicionado controle de acesso aos recursos de transacao e relatorios||
+=========================================================
+
++ @PreAuthorize("hasPermission(#accountId, 'Account.read')")
++ @PreAuthorize("hasPermission(#a, 'Account.read')")
++ @PreAuthorize("hasPermission(#rootAccountId, 'Account.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=89&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dagilmore/Riddlin/commit/e97c7986d3b5e5f3f5d145abd0d74b27e0028880
+
+[COMMIT MESSAGE]:now?||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')") //TODO check user is the author of the slide
++ @PreAuthorize("hasRole('ROLE_AUTHOR')")
++ @PreAuthorize("hasRole('ROLE_AUTHOR')") //TODO check user is the author of the slide
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/silbermm/OpenLab/commit/f8ead914b6eea4ae07f3b830d78f80b89341d7b2
+
+[COMMIT MESSAGE]:adding search ldap function||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
+- @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ADMINISTRATOR')")
+- @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ADMINISTRATOR')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/silbermm/OpenLab/commit/26484b7735099c2e795e592ceae2f23f3f87ff97
+
+[COMMIT MESSAGE]:start using Grunt to manage html assets||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/silbermm/OpenLab/commit/50f659998dbdda469387b5bf589a9472bf2e52ff
+
+[COMMIT MESSAGE]:added roles and permissions pages||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/silbermm/OpenLab/commit/78a68b623154ad09f4b20eb235d995a2767f3eef
+
+[COMMIT MESSAGE]:updated to FontAwesome 4||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/silbermm/OpenLab/commit/f8ead914b6eea4ae07f3b830d78f80b89341d7b2
+
+[COMMIT MESSAGE]:adding search ldap function||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
+- @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ADMINISTRATOR')")
+- @PreAuthorize("hasRole('ROLE_ADMINISTRATOR')")
++ @PreAuthorize("hasRole('ADMINISTRATOR')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/CodeSolid/tutorials/commit/77735db607c7b53e7426d3c66cf340e31d08c835
+
+[COMMIT MESSAGE]:Initial commit SpringSecurity1||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/CodeSolid/tutorials/commit/159ef61ce65f5b83aacc8368d26931dee7ffe6e3
+
+[COMMIT MESSAGE]:Spring Security 2. JDBC database based auth, basic pages in place to …||…support registrtation
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=90&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/CodeSolid/tutorials/commit/77735db607c7b53e7426d3c66cf340e31d08c835
+
+[COMMIT MESSAGE]:Initial commit SpringSecurity1||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/CodeSolid/tutorials/commit/159ef61ce65f5b83aacc8368d26931dee7ffe6e3
+
+[COMMIT MESSAGE]:Spring Security 2. JDBC database based auth, basic pages in place to …||…support registrtation
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bartosz25/library-sample-project/commit/3cb1e6d5e612ad81359dd9a79f3b90c277ec7535
+
+[COMMIT MESSAGE]:Maven project structure, pom.xml and one new todo||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ // @PreAuthorize("(#subscriber.login == principal.username) or (#subscriber.login == #user.username) or (#subscriber.login == 'bartosz') or (#subscriber.getLogin() == principal.username)")
++ // OK : @PreAuthorize("'bartosz' == principal.username")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ // OK too : @PreAuthorize("hasAuthority('SUBSCRIBER_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CHAT_CONSULT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CHAT_CONSULT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'EXPORT_DO')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ // @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'SUBSCRIBER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'NEWSLETTER_WRITE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'NEWSLETTER_WRITE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'QUESTION_READ')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITERLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_DELETE')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.bookingNb > 0")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.id == subscriber.id")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'PENALTY_ACCEPT')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'QUESTION_READ')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("isAnonymous() or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("(#subscriber.login == principal.username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#subscriber.login == principal.username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.id == subscriptionTransfer.subscriptionTransferPK.idGiver")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITERLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bartosz25/library-sample-project/commit/3cb1e6d5e612ad81359dd9a79f3b90c277ec7535
+
+[COMMIT MESSAGE]:Maven project structure, pom.xml and one new todo||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ // @PreAuthorize("(#subscriber.login == principal.username) or (#subscriber.login == #user.username) or (#subscriber.login == 'bartosz') or (#subscriber.getLogin() == principal.username)")
++ // OK : @PreAuthorize("'bartosz' == principal.username")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ // OK too : @PreAuthorize("hasAuthority('SUBSCRIBER_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CHAT_CONSULT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CHAT_CONSULT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'EXPORT_DO')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ // @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'SUBSCRIBER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'NEWSLETTER_WRITE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'NEWSLETTER_WRITE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'QUESTION_READ')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITERLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_DELETE')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.bookingNb > 0")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.id == subscriber.id")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'PENALTY_ACCEPT')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'QUESTION_READ')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("isAnonymous() or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("(#subscriber.login == principal.username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#subscriber.login == principal.username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.id == subscriptionTransfer.subscriptionTransferPK.idGiver")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITERLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bartosz25/library-sample-project/commit/3cb1e6d5e612ad81359dd9a79f3b90c277ec7535
+
+[COMMIT MESSAGE]:Maven project structure, pom.xml and one new todo||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ // @PreAuthorize("(#subscriber.login == principal.username) or (#subscriber.login == #user.username) or (#subscriber.login == 'bartosz') or (#subscriber.getLogin() == principal.username)")
++ // OK : @PreAuthorize("'bartosz' == principal.username")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ // OK too : @PreAuthorize("hasAuthority('SUBSCRIBER_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOKCOPY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CHAT_CONSULT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CHAT_CONSULT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'EXPORT_DO')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MODERATOR')")
++ // @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'SUBSCRIBER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'NEWSLETTER_WRITE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'NEWSLETTER_WRITE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'QUESTION_READ')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_EDIT')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_DELETE')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITERLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_DELETE')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'BOOK_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.bookingNb > 0")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.id == subscriber.id")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORYLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'CATEGORY_ADD')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'PENALTY_ACCEPT')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'QUESTION_READ')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'REPLY_ADD')")
++ @PreAuthorize("isAnonymous() or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("(#subscriber.login == principal.username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("(#subscriber.login == principal.username) or hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_USER', 'ROLE_ADMIN', 'PAYMENT_ACCEPT')")
++ @PreAuthorize("hasRole('ROLE_USER') and principal.id == subscriptionTransfer.subscriptionTransferPK.idGiver")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITERLANG_ADD')")
++ @PreAuthorize("hasAnyRole('ROLE_ADMIN', 'WRITER_ADD')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=91&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+

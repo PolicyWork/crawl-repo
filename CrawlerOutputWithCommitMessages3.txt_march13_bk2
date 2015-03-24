@@ -1,0 +1,341 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/eef3e42178786eee018a6dd5f11a4401499e8a78
+
+[COMMIT MESSAGE]:everything working for education page in transfer_app||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f43ee645c6ed2c86f82bbc4f47d25647c914e7
+
+[COMMIT MESSAGE]:changes made to be running with transfer app.||Added fields for NA values of dates.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sklintyg/statistik/commit/bc2562fddd719fbdaf10e84f8d6a1a82716d57c1
+
+[COMMIT MESSAGE]:STATISTIK-922 La till endpoint för csv-export till rapporten "Läkare".||
+=========================================================
+
++ @PostAuthorize(value = "@protectedChartDataService.userAccess(#request, #verksamhetId)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sklintyg/statistik/commit/ad6a3f766e06e9c17432c676805f770d647098c6
+
+[COMMIT MESSAGE]:STATISTIK-872 Har fixat de CSV-exporter som inte fungerade||
+=========================================================
+
++ @PostAuthorize(value = "@protectedChartDataService.userAccess(#request, #verksamhetId)")
++ @PostAuthorize(value = "@protectedChartDataService.userAccess(#request, #verksamhetId)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sklintyg/statistik/commit/03ac74267f51137ffd062d0e1aa46a899244d3b7
+
+[COMMIT MESSAGE]:STATISTIK-404 Lagt till en första version av frontend för en ny rappo…||…rt (jämför valfria diagnoser)
+=========================================================
+
++ @PostAuthorize(value = "@protectedChartDataService.userAccess(#request, #verksamhetId)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vsushko/research/commit/db98634c7cd83a2053b6245bf3cdc26382b9fc85
+
+[COMMIT MESSAGE]:complete chapter10||
+=========================================================
+
++ @PostAuthorize("returnObject.spitter.username == pincipal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thm-projects/arsnova-lms-connector/commit/1f0aeed3f5df7710b2017439b8c3b7cd28200894
+
+[COMMIT MESSAGE]:Added authentification filter, handler and tokenservice.||
+=========================================================
+
++ @PostAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eaglestorm/Eldar-Works/commit/7a2180655228565d596d2152d372b5a3dada0848
+
+[COMMIT MESSAGE]:changed to web api and client.||
+=========================================================
+
++ //@PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=24&q=%40PostAuthorize%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74
+
+[COMMIT MESSAGE]:Convert trackr to Spring Boot.||This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.employee?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.email == principal?.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e95acdf019c27d69c989913538180d66ab6f45b5
+
+[COMMIT MESSAGE]:TRACKR-54 - Request vacation||Added further vacation request tests and an event handler
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74
+
+[COMMIT MESSAGE]:Convert trackr to Spring Boot.||This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.employee?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.email == principal?.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vinutaNagaraddi/SpringStrutsTest/commit/d2ec5b44192ae4e8d7a235e20c1708a536739e55
+
+[COMMIT MESSAGE]:First Commit of Spring_Struts projecct||
+=========================================================
+
++ //@PostAuthorize("returnObject.person.lastName == 'Naga'")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-samples-securemail/commit/6b22d786029ce7e2f142f25d21cd931effa6d2e0
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/305cd0ac19044e04f1af00fecbd436628a312749
+
+[COMMIT MESSAGE]:Wip commit. Added some stupid code experiments with controller. Chang…||…ed all tabs to spaces
+=========================================================
+
+-// @PostAuthorize("hasPermission(returnObject, admin)")
++// @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/29f0782d57cc7d8403cf781877fbf552c31ac968
+
+[COMMIT MESSAGE]:Added 'Login controller' and simple logic to process login failure. S…||…witched off method security.
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, admin)")
++// @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/de843a7fd3238f183253fe1aff259380f3ea5db5
+
+[COMMIT MESSAGE]:Big success. Somehow it feels mute though. ACL started to work, event…||…ually. Everything that is left is to create administrative tools, and the whole infrastructure to support security requirements. As simple as an apple pie :) Just agonising, don't mind...
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/yoshutch/mybyu/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b
+
+[COMMIT MESSAGE]:UP-2950 Adding support and configuration for Spring Security annotati…||…on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'VIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/9c5aed234502a56f789d2319caa3b0e0a5d23132
+
+[COMMIT MESSAGE]:RAVE-731 Refactored WidgetComment to no longer need the widgetID attr…||…ibute.
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/branches/model-split@1394834 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/0acaf1f25e712b4ec3c9930bec04baa62f7e841e
+
+[COMMIT MESSAGE]:In case Widget object was coming null for new URL @PostAuthorize was …||…throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/2dbe0052b0f45741f4e5db56d9dbb2ebd2dc540f
+
+[COMMIT MESSAGE]:RAVE-319: Widget persistence not working||Added @Transaction annotation to the registerNewWidget and updateWidget methods to ensure JPA commits
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190457 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- * @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/2bc596199b198853e08c6abc174e64f27b5240c6
+
+[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ * @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/qiaoma/tic_tac_toe/commit/b76b8f3f67ef8146688235a64a84e69b2e4607e4
+
+[COMMIT MESSAGE]:Initial commit on Tic Tac Toe app||
+=========================================================
+
++ //@PostAuthorize("principal.username == returnObject.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=25&q=%40PostAuthorize%28&type=Code&utf8=%E2%9C%93
+

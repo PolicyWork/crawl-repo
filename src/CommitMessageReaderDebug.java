@@ -62,7 +62,7 @@ public class CommitMessageReaderDebug {
 					
 					if(restart == true)
 					{
-						urlToGet = "https://github.com/search?l=java&p=16&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93"; //for restart
+						urlToGet = "https://github.com/search?l=java&o=asc&p=5&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
 //						keywordLine = "intercept-url pattern";
 						restart=false;
 					}

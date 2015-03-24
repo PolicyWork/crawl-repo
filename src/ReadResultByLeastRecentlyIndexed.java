@@ -62,7 +62,7 @@ public class ReadResultByLeastRecentlyIndexed {
 					
 					if(restart == true)
 					{
-						urlToGet = "https://github.com/search?l=java&o=asc&p=19&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
+						urlToGet = "https://github.com/search?l=java&o=asc&p=3&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
 //						keywordLine = "intercept-url pattern";
 						restart=false;
 					}

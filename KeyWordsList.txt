@@ -1,0 +1,17 @@
+@PostAuthorize(
+@PostAuthorize("
+@PostFilter(
+@PreAuthorize("
+@PreFilter(
+@Secured(
+@Secured("
+android.permission
+Authorize("hasRole
+content-security-policy
+HasRole
+intercept-url+pattern
+permission
+PreAuthorize
+ROLE_USER
+security:Aauthorize
+user-permission

@@ -1,0 +1,137 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tfeng/play-oauth2/commit/2ab7b9e74d064f514376759422f3c0dde2268234
+
+[COMMIT MESSAGE]:Initial commit.||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("#oauth2.clientHasRole('ROLE_CLIENT') and #oauth2.hasScope('trust')")
++ @PreAuthorize("#oauth2.clientHasRole('ROLE_CLIENT') and #oauth2.hasScope('trust')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zhangjunfang/eclipse-dir/commit/1e7b6a50e0378e346b7fbaf0ed96f0e398a6b7ec
+
+[COMMIT MESSAGE]:3||
+=========================================================
+
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zhangjunfang/eclipse-dir/commit/1e7b6a50e0378e346b7fbaf0ed96f0e398a6b7ec
+
+[COMMIT MESSAGE]:3||
+=========================================================
+
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zhangjunfang/eclipse-dir/commit/1e7b6a50e0378e346b7fbaf0ed96f0e398a6b7ec
+
+[COMMIT MESSAGE]:3||
+=========================================================
+
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zhangjunfang/eclipse-dir/commit/1e7b6a50e0378e346b7fbaf0ed96f0e398a6b7ec
+
+[COMMIT MESSAGE]:3||
+=========================================================
+
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/NikitaElsukov/MISTmvc/commit/06bca13b310625abdd902a75c819fe5c84b855ca
+
+[COMMIT MESSAGE]:Signed-off-by: Nikita <nikita.elsukov.sa@mail.ru>||
+=========================================================
+
++ //@PreAuthorize("(hasRole('ROLE_ADMIN') and #image != null)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=99&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/przodownikR1/springMvcStartKata/commit/c742a62afc62215885e6b45d7fcf00e86bf7146f
+
+[COMMIT MESSAGE]:test||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/i5i/nortal/commit/956033f5c1da742afd80af9a8b26c6d2c0feede0
+
+[COMMIT MESSAGE]:--inital commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_AaaDMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/FrontierPsychiatrist/spring-oauth-example/commit/56f390bdbfb377a34193baa08fbea96572c48652
+
+[COMMIT MESSAGE]:Added the possibility to edit clients||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_OAUTH_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_OAUTH_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rebrohead/bank-app/commit/e0beb5e1d7d8a5b87956f021811c527dffc8ebea
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_TELLER')")
++ @PreAuthorize("hasRole('ROLE_TELLER')")
++ @PreAuthorize("hasRole('ROLE_TELLER')")
++ @PreAuthorize("hasRole('ROLE_TELLER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rebrohead/bank-app/commit/e0beb5e1d7d8a5b87956f021811c527dffc8ebea
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_TELLER')")
++ @PreAuthorize("hasRole('ROLE_TELLER')")
++ @PreAuthorize("hasRole('ROLE_TELLER')")
++ @PreAuthorize("hasRole('ROLE_TELLER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DmitryShilovich/Blog/commit/84189c2000e3f0a1ea4c253c8cb0e7b5f4bd710c
+
+[COMMIT MESSAGE]:Third commit||
+=========================================================
+
++ @PreAuthorize("#blog.user.userName == authentication.name or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=100&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+

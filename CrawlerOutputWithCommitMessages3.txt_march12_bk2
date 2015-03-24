@@ -1,0 +1,3563 @@
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=17&q=%40PreFilter%28&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:null
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/3595c5df11cb44eb901d4ec98893e482d2984f0e
+
+[COMMIT MESSAGE]:refactored||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("hasRole('student')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/f21aded665e3b0ad76ed3ac4c63bb67f14da2b45
+
+[COMMIT MESSAGE]:some improvements and broken course-ilmo||
+=========================================================
+
++ @PostFilter("hasRole('student')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/6d992a3d09e95535afb4ff70955c39c4da5eb48a
+
+[COMMIT MESSAGE]:vikan viikon ekoja||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debjava/spring-pre-post-filter1/commit/bef70e16569d139ab36d781c03c46ac820d63d84
+
+[COMMIT MESSAGE]:Files committed for Spring Security using @PreFilter and @PostFilter||
+=========================================================
+
++// @PostFilter("filterObject.owners.email == principal.username")
++ @PostFilter("filterObject.uploaderName == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/avihavai/wad-2012/commit/9a704022557c9793115d59ffa1bc170058853fe0
+
+[COMMIT MESSAGE]:herokun db-konffit||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/avihavai/wad-2012/commit/613b242939d4f1860bdac01ade19959e3e363c8e
+
+[COMMIT MESSAGE]:security-runkoja||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/avihavai/wad-2012/commit/613b242939d4f1860bdac01ade19959e3e363c8e
+
+[COMMIT MESSAGE]:security-runkoja||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=2&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/leela03/test-app/commit/56069f5aec7b3bb2c85f5ed7135ca8c2d7ef94b0
+
+[COMMIT MESSAGE]:Initial version||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/stade/WAD/commit/834f5cc883f177ec033a1675ff4eba8f826e5ff3
+
+[COMMIT MESSAGE]:commit all course assigment sourcecode||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/stade/WAD/commit/834f5cc883f177ec033a1675ff4eba8f826e5ff3
+
+[COMMIT MESSAGE]:commit all course assigment sourcecode||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/wad/commit/6d992a3d09e95535afb4ff70955c39c4da5eb48a
+
+[COMMIT MESSAGE]:vikan viikon ekoja||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=3&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pasuuna/oma-kirjautuminen/commit/74cb96f669ea53efa3071057b916373f059b2fe7
+
+[COMMIT MESSAGE]:huahue||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/tsoha/commit/d06d36509657eb4ee67de98a7f47ad14549fb506
+
+[COMMIT MESSAGE]:some views added||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/tsoha/commit/76324a98155935aba12abb56841b431625cc926a
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
+- @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rase-/tsoha/commit/6839f06d72640066071619e684e668231732b723
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("(!filterObject.awesome) or (filterObject.awesome and hasRole('lecturer'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=4&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=5&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=6&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=7&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=8&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cosminrentea/roda/commit/d96b9e83141ac33a1591d6dc0dcf1c946b6b8d78
+
+[COMMIT MESSAGE]:Spring profiles||+ local/production properties files
++ bash script for running ad-hoc Tomcat in production mode
+
+hibernate parameters moved in properties file 
++ loaded in applicationContext.xml
+
+ACLs for menu (user / admin):
++ CSVs 
++ annotated Service
+
+Maven upgrades
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=9&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fredondo/javacro2014-springsecurity3/commit/d34c1d694334e087358662c5fbe237cff301dae6
+
+[COMMIT MESSAGE]:secure method invocation with SpEL expressions in annotations||
+=========================================================
+
++ @PostFilter("not filterObject.report.contains(principal.username)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alex-pi/plataforma-spring/commit/7c3be3fba42e3a9e10d3018de98fc6e5c4ac6f47
+
+[COMMIT MESSAGE]:- Se configura seguridad con ALC's para SpringSecurity 3.1.0.||- Se configuran tests del módulo de seguridad para la nueva conf.
+- Se cargan permisos de 3 módulos de menú con respecto a 3 roles entablas de acl.
+- Se corrigen dependecias de librerías de seguridad.
+
+Nota: Para objetos tipo OpcionMenu no se cargó información de ACL's. Las opciones debajo de los módulos serán visibles para todos los SID's
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84
+
+[COMMIT MESSAGE]:locked down the security backend||
+=========================================================
+
+- @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/9c45a62286b19c093cdf4618419499f1f548c339
+
+[COMMIT MESSAGE]:added hiding of non public albums/items||
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/altfatterz/spring-security-fun/commit/286a5e22d1324ffff9aac4cf62a58b5cc5c155d2
+
+[COMMIT MESSAGE]:add @PostFilter test||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/charybr/spring-data-rest-acl/commit/2deca36d13faed67c253d3e401e64bdd87a590da
+
+[COMMIT MESSAGE]:Added initial files||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=10&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/99b9325b8925e41c815ba39331568e92057baa2e
+
+[COMMIT MESSAGE]:Adds fix for creating new lines on front end display and miscellaneous||other fixes.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/120182adbb7ad5e07215d72b1846732f6d1a3f0f
+
+[COMMIT MESSAGE]:Updated to have a user information page and to allow the modification of||permissions.
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/487187b3197cd382f4277b2bd977f4e316d22d1c
+
+[COMMIT MESSAGE]:Initial updates for filtering out collection request and miscellaneous||web page updates
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'REVIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/a63d57a5748d515fe1746964fd9913b63d30e573
+
+[COMMIT MESSAGE]:Added filtering of buttons by object type. Added shutdown of SolrServer||when context is destroyed.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/06a9a538b3aac8e27386e9f54f3012533e785d9d
+
+[COMMIT MESSAGE]:Updates to searching||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE')")
++ @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION') or hasPermission(filterObject,'CREATE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/e5f8cb184666b9c5490a8c27a2963c066e48d1da
+
+[COMMIT MESSAGE]:Added missing files||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alex-pi/plataforma-spring-mnegocio/commit/f51768349b454c429c2c87bd9e5c0d268f8b32e9
+
+[COMMIT MESSAGE]:- Se crean módulos mneg-infra-modelo, mneg-infra-seguridad, mneg-tlp-…||…web.
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+- Se crea página con ejemplos de características de la arquitectura.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mpi/SpringSecurityUnitTesting/commit/0c2904467ff355ed9408dbd74e3f7fabe38dabb6
+
+[COMMIT MESSAGE]:early draft||
+=========================================================
+
++ @PostFilter("hasRole('TOP_SECURITY_CLEARANCE') or not filterObject.classified")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/c73cc256ba7e73e30e3f24ce28f8f188d069438e
+
+[COMMIT MESSAGE]:Updates to provide mass validation and publication.||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'PUBLISH_MULTI')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/0884f5c68a59864e874effe5fce345532012ee3c
+
+[COMMIT MESSAGE]:Updated to allow for users with administration permissions on a group to||update permissions
+=========================================================
+
+- @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN') or hasPermission(filterObject,'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/99b9325b8925e41c815ba39331568e92057baa2e
+
+[COMMIT MESSAGE]:Adds fix for creating new lines on front end display and miscellaneous||other fixes.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/120182adbb7ad5e07215d72b1846732f6d1a3f0f
+
+[COMMIT MESSAGE]:Updated to have a user information page and to allow the modification of||permissions.
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/487187b3197cd382f4277b2bd977f4e316d22d1c
+
+[COMMIT MESSAGE]:Initial updates for filtering out collection request and miscellaneous||web page updates
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'REVIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/a63d57a5748d515fe1746964fd9913b63d30e573
+
+[COMMIT MESSAGE]:Added filtering of buttons by object type. Added shutdown of SolrServer||when context is destroyed.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/06a9a538b3aac8e27386e9f54f3012533e785d9d
+
+[COMMIT MESSAGE]:Updates to searching||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE')")
++ @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION') or hasPermission(filterObject,'CREATE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/e5f8cb184666b9c5490a8c27a2963c066e48d1da
+
+[COMMIT MESSAGE]:Added missing files||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ') or hasPermission(filterObject,'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wdiskowski/spring/commit/6f0ace4f44624fb8505c32396314708064145476
+
+[COMMIT MESSAGE]:ACL eingebaut||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/attilacsanyi/pizzashop-security/commit/6c400a050d76077b9551f4f4dcac18f567473b1f
+
+[COMMIT MESSAGE]:Apply security features with scenarios||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'list')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=11&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/9546d6a125d194c9fbea6c6f16635c81c2b57df6
+
+[COMMIT MESSAGE]:section 7 doc work and additional example - filtering with ACL||
+=========================================================
+
++ // @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/loki2302/spring-security-experiment/commit/58cf3461cd2bf038b80d296d879347144594b23c
+
+[COMMIT MESSAGE]:Converted to JUnit tests||
+=========================================================
+
+- @PostFilter("filterObject % 3 != 0")
++ @PostFilter("filterObject % 3 != 0")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/metadata-stores/commit/0b0571c93a67bfbeff011cfec159a75164201b81
+
+[COMMIT MESSAGE]:Updates with improvements and permissions for the search service.||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_STAFF') or filterObject.extSystem == 'Digital Collections' or filterObject.extSystem == 'Data Commons' ")
++ @PostFilter("hasRole('ROLE_STAFF') or filterObject.title == 'Digital Collections' or filterObject.title == 'Data Commons' ")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ivanplese/spring-security-demo/commit/ee1244591e480f8c3b318f1a09819e21ad70fa61
+
+[COMMIT MESSAGE]:inital commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=12&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/guptapriyank/javaConfiguration/commit/4fc0e0555f38f8813c9ebf686169c57a47599ada
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/terrestris/shogun2/commit/df4b07c6525a0c40eba4e0043af4e201d08e88e4
+
+[COMMIT MESSAGE]:Add basic security annotations to the CRUD service||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/e42b388b90b224b23864d325b5d18495dbad2d74
+
+[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/8c8da3bbb933ac4726364714d366226a38ea23e9
+
+[COMMIT MESSAGE]:[CRM-23] Task, Job filters added.||Change-Id: Iadb7f5114e38733bddf2382b4d3ac8ebf69731d0
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/okvee/training-web-secure/commit/7cd4a9195ec7838a9b6738af80c7042744a419f0
+
+[COMMIT MESSAGE]:All project files||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'list')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=13&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/officiallysingh/homework/commit/430ea13309de2946a1e04e0050f37d074d0bf651
+
+[COMMIT MESSAGE]:adding spring template projects||
+=========================================================
+
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/74be72f45d35faafd086f4a56ce87bccba7244e1
+
+[COMMIT MESSAGE]:Vaihdettu tiedotteen oikeustarkastelu annotaatioon||
+=========================================================
+
++ @PostFilter("filterObject.julkinen or filterObject.perusteprojekti == null or hasPermission(filterObject.perusteprojekti.id, 'perusteprojekti', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vsushko/research/commit/db98634c7cd83a2053b6245bf3cdc26382b9fc85
+
+[COMMIT MESSAGE]:complete chapter10||
+=========================================================
+
++ @PostFilter("filterObject.spitter.username == principal.name")
++ @PostFilter("hasPermission(filterObject, 'delete'")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/45df2cd0ed671b11995f4d846bc93e6c7a378475
+
+[COMMIT MESSAGE]:Fixed form creator not being able to see all responses.||The method that fixed it was Carl's idea.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'read') or hasRole('ROLE_ADMIN')")
++ //@PostFilter("hasPermission(filterObject, 'read') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(#form, 'write') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd
+
+[COMMIT MESSAGE]:-Added fuctionality to get all responses for a given form id.||-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.
+=========================================================
+
+- //@PostFilter("hasPermission(filterObject, 'READ')"
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'read') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/5508392a623cb7e849121e4aaea6a901095e14d6
+
+[COMMIT MESSAGE]:The backend is now fully functional to create forms and responses and…||… to make edits to them.
+
+Know issues
+-Delete resource is not available, will re-enable
+
+Missing Features
+-"nested questions" where one question is displayed if another question is answered particular way
+-"themes" or tags which allow easy filtering of questions
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+- //@PostFilter("hasPermission(filterObject, 'READ')"
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=14&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davilj/projectman/commit/7f49c03f6939e531770e9a2a6fd3a29bab1104e4
+
+[COMMIT MESSAGE]:Initialize git||
+=========================================================
+
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=15&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/filber/JavaRepo/commit/82831db085cadb98415c9ac23d3c36a6ded14760
+
+[COMMIT MESSAGE]:snippets.||
+=========================================================
+
++@PostFilter("filterObject.spitter.username == principal.name")
++@PostFilter("hasPermission(filterObject, 'delete')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/keslerm/reloader-tracker/commit/f284c93a90bf554a9f7b8b8adf280c8294bf5846
+
+[COMMIT MESSAGE]:Adding security and domain model changes to components||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN') || filterObject.userId == principal.id")
++ @PostFilter("hasRole('ROLE_ADMIN') || filterObject.userId == principal.id")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=16&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050
+
+[COMMIT MESSAGE]:add more files||
+=========================================================
+
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=17&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peterarsentev/Spring-Security-Acl-MongoDB/commit/18b8fc5fb4300c9fee927488a7bfe8c5c5ed5c8a
+
+[COMMIT MESSAGE]:added the login page, client page, create client dialog||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+- @PostFilter("hasPermission(filterObject, 'read')")
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/2c9a3b348c45042c3e16b2f33f9d74f7fd06bcae
+
+[COMMIT MESSAGE]:Authorization - service layer + presentation - need some testing and …||…cleaning, but otherwise done
+=========================================================
+
++ @PostFilter("hasRole('ADMINISTRATOR') OR "
++ @PostFilter("hasRole('ADMINISTRATOR') OR "
+- @PostFilter("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostFilter("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/4fb80761a94c866b8083bcb7d5afaeea4daeed46
+
+[COMMIT MESSAGE]:Authorization mostly on service layer||
+=========================================================
+
++ @PostFilter("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostFilter("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostFilter("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=18&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/35ae786f5005c3dabb48dbd2325538d831a8a10b
+
+[COMMIT MESSAGE]:1||
+=========================================================
+
+-@PostFilter("filterObject.spitter.username == principal.name")
+-@PostFilter("hasPermission(filterObject, 'delete')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/27bc595b057e00fc083a330430a4f6bf668e1a16
+
+[COMMIT MESSAGE]:snippets||
+=========================================================
+
++@PostFilter("filterObject.spitter.username == principal.name")
++@PostFilter("hasPermission(filterObject, 'delete')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f53d56eb53a9d21449fbfb22a4ab58ebe557d2
+
+[COMMIT MESSAGE]:working towards getting all lists for clients||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=19&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f53d56eb53a9d21449fbfb22a4ab58ebe557d2
+
+[COMMIT MESSAGE]:working towards getting all lists for clients||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f53d56eb53a9d21449fbfb22a4ab58ebe557d2
+
+[COMMIT MESSAGE]:working towards getting all lists for clients||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f53d56eb53a9d21449fbfb22a4ab58ebe557d2
+
+[COMMIT MESSAGE]:working towards getting all lists for clients||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f53d56eb53a9d21449fbfb22a4ab58ebe557d2
+
+[COMMIT MESSAGE]:working towards getting all lists for clients||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f53d56eb53a9d21449fbfb22a4ab58ebe557d2
+
+[COMMIT MESSAGE]:working towards getting all lists for clients||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f53d56eb53a9d21449fbfb22a4ab58ebe557d2
+
+[COMMIT MESSAGE]:working towards getting all lists for clients||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/64464cd74047449e8ad9444ad9a48c6cb5bb4367
+
+[COMMIT MESSAGE]:merge Restful Core Authorities||added function to get lists by application id for coursework
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f53d56eb53a9d21449fbfb22a4ab58ebe557d2
+
+[COMMIT MESSAGE]:working towards getting all lists for clients||
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/eef3e42178786eee018a6dd5f11a4401499e8a78
+
+[COMMIT MESSAGE]:everything working for education page in transfer_app||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f43ee645c6ed2c86f82bbc4f47d25647c914e7
+
+[COMMIT MESSAGE]:changes made to be running with transfer app.||Added fields for NA values of dates.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=20&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=21&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd
+
+[COMMIT MESSAGE]:-Added fuctionality to get all responses for a given form id.||-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.
+=========================================================
+
+- //@PostFilter("hasPermission(filterObject, 'READ')"
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'read') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/5508392a623cb7e849121e4aaea6a901095e14d6
+
+[COMMIT MESSAGE]:The backend is now fully functional to create forms and responses and…||… to make edits to them.
+
+Know issues
+-Delete resource is not available, will re-enable
+
+Missing Features
+-"nested questions" where one question is displayed if another question is answered particular way
+-"themes" or tags which allow easy filtering of questions
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+- //@PostFilter("hasPermission(filterObject, 'READ')"
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/82dbae279664bfa339a8369c036187aef2ca2ed1
+
+[COMMIT MESSAGE]:Untested but hopefully functional backend code, will test tomorrow on…||…ce I finish the corresponding DB.
+=========================================================
+
+- //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/2d60f01a583878bfc61cd7386c8955ae9902ec3c
+
+[COMMIT MESSAGE]:Basic structure for the backend formbuilder. This is not a working bu…||…ild, but I need to pull changes before I finish it.
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/c53d6bd143b7774c67a449e358165145acf8ecc7
+
+[COMMIT MESSAGE]:After many days I finally have the authorization done.||Seriously, it was all because I had my business services in the
+servlet XML file instead of the application context files. ****.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'administration') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wiltro/security-demo/commit/0be299520e244d923f73647b799fd25c859945b6
+
+[COMMIT MESSAGE]:preparation LorraineJug||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/beginning-spring-4/commit/0eb2aae35620c3aa6295d50110ae622e0d1a7917
+
+[COMMIT MESSAGE]:<시작하세요! 스프링 4 프로그래밍> 예제 코드||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peter8015/spring-security3/commit/15a5fe9b0a64ad20f92aa76546058718ee5bdfec
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=22&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/d37ec900db3bc5bb3ff8a14dfbfb2477dbb97f90
+
+[COMMIT MESSAGE]:Enhancement: Add support for permissions to AlleleAssay DTO||ACL permissions were added to the AlleleAssay DTO. In addition a new
+Permission ("Run") was added to the CustomPermission class. Some additional
+tests and a security bugfix for lack of permission check  of the CdvService
+findAlleleAsssaysWithStats function were added.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ') and hasPermission(filterObject,'USE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3
+
+[COMMIT MESSAGE]:Introduction of AclManager and refactoring of service methods||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/76d79bbbdbdedf6d5eb68544bdcad57f0c34d0f5
+
+[COMMIT MESSAGE]:first version of CHW Backend ready, needs some testing||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d9892bfece1f53ad56fa883822d346bb59f458ee
+
+[COMMIT MESSAGE]:started ..||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+[COMMIT MESSAGE]:Changes:||Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/noherczeg/necora/commit/13a1bbc29cf97b8c073ecbf9a2ec684dd6d8e6b2
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasAuthority('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/officiallysingh/homework/commit/430ea13309de2946a1e04e0050f37d074d0bf651
+
+[COMMIT MESSAGE]:adding spring template projects||
+=========================================================
+
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tibetjungle/security/commit/e21ef98ff9285a33bb04e59613c0c49daad568b5
+
+[COMMIT MESSAGE]:init repository||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davilj/projectman/commit/7f49c03f6939e531770e9a2a6fd3a29bab1104e4
+
+[COMMIT MESSAGE]:Initialize git||
+=========================================================
+
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/michaelkrog/orderly-server/commit/b41c34cee92bd0904390077c5e05f3e773e273ce
+
+[COMMIT MESSAGE]:Fixed #41||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/ab2a98580f8ac2e53384d19c353ddeb2f415b6dd
+
+[COMMIT MESSAGE]:added TarnsferApplication Resource||cleaning getMyUser
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/64464cd74047449e8ad9444ad9a48c6cb5bb4367
+
+[COMMIT MESSAGE]:merge Restful Core Authorities||added function to get lists by application id for coursework
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a64013b19f00fedc10845cdeb9f12f6b1d30d59c
+
+[COMMIT MESSAGE]:Cleaning out||Added getMyUser function to be used with DatabaseModule
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f43ee645c6ed2c86f82bbc4f47d25647c914e7
+
+[COMMIT MESSAGE]:changes made to be running with transfer app.||Added fields for NA values of dates.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=23&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/ba271d50ab6de2d0ef70948bb655eeb751cd6a11
+
+[COMMIT MESSAGE]:test||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'POST_READ')")
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'USER_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/dbe428aec6bd468c2f06efb4a2905c0adf7e01f1
+
+[COMMIT MESSAGE]:security||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ_ALL') || hasPermission(filterObject, 'READ_OWN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+- @PostFilter("hasPermission(filterObject, 'READ_ALL')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/6453ce1271b61a9abb94407d18c86ca79fe385bf
+
+[COMMIT MESSAGE]:acl||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ_ALL') || hasPermission(filterObject, 'READ_OWN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84
+
+[COMMIT MESSAGE]:locked down the security backend||
+=========================================================
+
+- @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/9c45a62286b19c093cdf4618419499f1f548c339
+
+[COMMIT MESSAGE]:added hiding of non public albums/items||
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/2c9a3b348c45042c3e16b2f33f9d74f7fd06bcae
+
+[COMMIT MESSAGE]:Authorization - service layer + presentation - need some testing and …||…cleaning, but otherwise done
+=========================================================
+
++ @PostFilter("hasRole('ADMINISTRATOR') OR "
++ @PostFilter("hasRole('ADMINISTRATOR') OR "
+- @PostFilter("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostFilter("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/4fb80761a94c866b8083bcb7d5afaeea4daeed46
+
+[COMMIT MESSAGE]:Authorization mostly on service layer||
+=========================================================
+
++ @PostFilter("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostFilter("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostFilter("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050
+
+[COMMIT MESSAGE]:add more files||
+=========================================================
+
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ //@PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/1d56743aafa46b6ec794a97a6943ebab253175f9
+
+[COMMIT MESSAGE]:Extended support for Restrictable entities.||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/94a62a1999f66997088a2f906cc24d35b22b8c71
+
+[COMMIT MESSAGE]:Changed findByNamedQuery to use POST instead of GET.||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/b80e8dea13b353f33465a2e2bea066b5160fc76c
+
+[COMMIT MESSAGE]:Added support for named queries.||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/6bcfce6ed2ccb7f410d4175ea85faf9ccda00a4f
+
+[COMMIT MESSAGE]:Imported server and client sources.||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
++ @PostFilter("hasPermission(filterObject, 'read')")
++ @PostFilter("hasPermission(filterObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=24&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/btpka3/btpka3.github.com/commit/de177fda6ace536ad0d61d788636ec2bfed441fc
+
+[COMMIT MESSAGE]:copy Spring Security ACL samples||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commit/f1e73d9962d6253ecdc3ae2c7c48566b77136032
+
+[COMMIT MESSAGE]:merge after aclupdates||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sangeeth/springworks/commit/d906fb76c1c19e499884dbe518b1324b63605e20
+
+[COMMIT MESSAGE]:Spring Security Samples using Maven & Eclipse instead of Gradle||https://github.com/SpringSource/spring-security/tree/master/samples/
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/cb0e06531b5e2ffe425a010b449d947af9c89160
+
+[COMMIT MESSAGE]:Change getEnvironments to go through Repository so it can be filtered…||… by security. Environment list now only shows 'visible' environments
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05
+
+[COMMIT MESSAGE]:Move to hardcoded logic Permissions. Add properties based authentication||
+=========================================================
+
++ @PostFilter("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ekesken/springacltutorial/commit/270a09b466a88ffcd28c1895f9b6097d0216df1a
+
+[COMMIT MESSAGE]:added @PreAuthorize and @PostFilter samples||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/szekai/restful-example/commit/e2875a3bfb2e33223a0f04feb776f7fb29eeeb32
+
+[COMMIT MESSAGE]:add spring-security-full-acl-restful||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JasonHao123/spring-security-samples-contact-jpa/commit/f8825e2c16cd589330f20f660496a358b4763a65
+
+[COMMIT MESSAGE]:fix acl issue||
+=========================================================
+
+-// @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JasonHao123/spring-security-samples-contact-jpa/commit/2daca749adc069742b8b8cc639327b8e7ef263eb
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ // @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
++// @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=25&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/592dde8b3f63c786489ead4aa113297fe6e2e682
+
+[COMMIT MESSAGE]:added a new project to demonstrate how to implement a custom permissi…||…on evaluator
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/f144eb60f7fe66b427d322a032f15787b1cf5408
+
+[COMMIT MESSAGE]:added an example usage of @PostFilter annotation to filter a list of …||…messages
+=========================================================
+
++ @PostFilter("filterObject.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/5fc0a4c2fcdf893dacc040c422e0a025bd9822cf
+
+[COMMIT MESSAGE]:Add permissions and limitations to publish locations and templates.||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'PUBLISH')")
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Serge009/security-acl/commit/dff12ffd452fcebab2517cafb9522612ab710171
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/f1e73d9962d6253ecdc3ae2c7c48566b77136032
+
+[COMMIT MESSAGE]:merge after aclupdates||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/atricore/josso1/commit/7d9d0e08806878ffc9f4ffdb8191d11b23f8071a
+
+[COMMIT MESSAGE]:* Implemented Spring Security 3.1 support||* Implemented JOSSified port of the contacts sample
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=26&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ventilb/tcdemos/commit/1214e93d8d734f811fcec8f5887b71eb30397f23
+
+[COMMIT MESSAGE]:SketchPad||* Zeichnen auf dem SketchPad beschleunigt; Das Polygon wird erst am Ende des Zeichnens vollständig zum Server geschickt
+* Aktualisierung des SketchPad verbessert; Es werden nur noch ungesehene Polygone vom Server aktualisiert
+* Panning/Verschieben des SketchPad implementiert
+* Form-Modelle für die Datenverwaltung im SketchPad überarbeitet
+=========================================================
+
++ @PostFilter(value = "hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ventilb/tcdemos/commit/4034ab1f38e3f2b606147f48b66243f4d99a8df2
+
+[COMMIT MESSAGE]:Spring Integration/XMPP||* Spring Integration framework eingebunden
+* Verbreitung von Spring application events auf Spring Integration umgestellt
+* XMPP Dienst integriert
+* Audit Meldungen ab einer bestimmten Schwere werden auch als XMPP Meldungen geloggt (getestet mit OpenFire XMPP server, Pidgin und IntelliJ IDEtalk)
+* Dokumentation der Konfigurationsdateien erweitert
+* Log4j appender implementiert um Log-Nachrichten auch durch den Audit Dienst zu loggen
+=========================================================
+
++ @PostFilter(value = "hasRole(filterObject, 'ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ventilb/tcdemos/commit/094508e8e479d2db123d32c3482c1daf6f21613b
+
+[COMMIT MESSAGE]:* Domainmodel-Visitor Schnittstelle verallgemeinert und Abstraktionen…||… geschaffen
+
+* Spring Security ACL integriert
+* SketchPad auf Hibernate erweitert und ACL integriert
+* Methoden für Bearbeitung von ACLs implementiert
+* Login-Mechanismus implementiert
+=========================================================
+
++ @PostFilter(value = "hasPermission(filterObject, 'READ')")
++ @PostFilter(value = "hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/liccioni/protected-plains-backend/commit/2a5381ce71d38e7ab4c93884bb126b3aff5507e3
+
+[COMMIT MESSAGE]:progress to tournament api and security features||
+=========================================================
+
++ @PostFilter("filterObject.hasRole('ROLE_ADMIN')==false")
++ @PostFilter("filterObject.hasRole('ROLE_ADMIN')==false")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/micros-uz/javamicros/commit/68b459dc72bc675bc0d72897f0db73ae11477763
+
+[COMMIT MESSAGE]:Added: security samples||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peengtao123/pt/commit/c73a815b3d628a569f36401839d7576c2b7f008b
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/6fe3aaf4fba1fc2f6564af31f53c663f65203a9a
+
+[COMMIT MESSAGE]:filtteröi hallintasivun perusteprojektit||
+=========================================================
+
+- //@PostFilter("hasPermission(filterObject.id,'perusteprojekti','LUKU')")
++ @PostFilter("hasPermission(filterObject.id,'perusteprojekti','LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/1543549fa879a48fd818aed9da3a98cf5786987c
+
+[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject.id,'perusteprojekti','LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/e5d371c626cf81dda88da62595ff77097e9f4955
+
+[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject.id,'perusteprojekti','LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/82dbae279664bfa339a8369c036187aef2ca2ed1
+
+[COMMIT MESSAGE]:Untested but hopefully functional backend code, will test tomorrow on…||…ce I finish the corresponding DB.
+=========================================================
+
+- //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/2d60f01a583878bfc61cd7386c8955ae9902ec3c
+
+[COMMIT MESSAGE]:Basic structure for the backend formbuilder. This is not a working bu…||…ild, but I need to pull changes before I finish it.
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/e7d09beea00dc880dfdb38664b287be68e4f038a
+
+[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+-Something is preventing the user TaskManagerDemo from adding himself to
+a group as a member, but the manager of the group may add him..
+-We are recieving a "granted authority required" error when attempting
+to use /byManager /byMembership on houssuggest. Local builds do not have
+this error.  Can be temporarily fixed by ressetting the mysql tables.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8
+
+[COMMIT MESSAGE]:Added membership and manager functionality for groups. See||GroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=27&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/f1e73d9962d6253ecdc3ae2c7c48566b77136032
+
+[COMMIT MESSAGE]:merge after aclupdates||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/b4798319e7bb8bcd55b8ab7914659f630b2b244d
+
+[COMMIT MESSAGE]:[CRM-23] User lists filtering added.||Change-Id: I177ed5264a481142d62e30288de3f6ed22e51770
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/ba271d50ab6de2d0ef70948bb655eeb751cd6a11
+
+[COMMIT MESSAGE]:test||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'POST_READ')")
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'USER_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/dbe428aec6bd468c2f06efb4a2905c0adf7e01f1
+
+[COMMIT MESSAGE]:security||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ_ALL') || hasPermission(filterObject, 'READ_OWN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+- @PostFilter("hasPermission(filterObject, 'READ_ALL')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/aa6cda3a4e6bd889002665c7355437166580785d
+
+[COMMIT MESSAGE]:acl||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ_ALL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/taraktikos/JavaSpring/commit/6453ce1271b61a9abb94407d18c86ca79fe385bf
+
+[COMMIT MESSAGE]:acl||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ_ALL') || hasPermission(filterObject, 'READ_OWN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rodrigoataides/educarmais/commit/584901efa3b7d6618c93763af2b6f53636c59d57
+
+[COMMIT MESSAGE]:Comit de arquivo grande||
+=========================================================
+
++ declare @method: public * (@Entity * && !br.com.core.log.Log && !br.com.core.modelo.acl.*).find*Entries(int,int): @PostFilter("hasPermission(filterObject, 'READ')");
++ declare @method: public * (@Entity * && !br.com.core.log.Log && !br.com.core.modelo.acl.*).findAll*(): @PostFilter("hasPermission(filterObject, 'READ')");
++// declare @method: public * (@Entity * && !br.com.core.log.Log && !br.com.core.modelo.acl.*).find*Entries(int,int): @PostFilter("hasPermission(filterObject, 'READ')");
++// declare @method: public * (@Entity * && !br.com.core.log.Log && !br.com.core.modelo.acl.*).findAll*(): @PostFilter("hasPermission(filterObject, 'READ')");
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/e11114ce770be5cd0242cf15b30833b3b692282e
+
+[COMMIT MESSAGE]:SEC-1023: Add hasPermission() support to SecurityExpressionRoot||http://jira.springframework.org/browse/SEC-1023.
+
+hasPermission() now delegates to a PermissionEvaluator interface, with a default implementation provided by the Acl module. The contacts sample now uses expressions on the ContactManager interface. The permission-evaluator element on global-method-security can be used to set the instance to an AclPermissionEvaluator. If not set, all hasPermission() expressions will evaluate to 'false'.
+=========================================================
+
++@PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8
+
+[COMMIT MESSAGE]:Added membership and manager functionality for groups. See||GroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commit/e7d09beea00dc880dfdb38664b287be68e4f038a
+
+[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+-Something is preventing the user TaskManagerDemo from adding himself to
+a group as a member, but the manager of the group may add him..
+-We are recieving a "granted authority required" error when attempting
+to use /byManager /byMembership on houssuggest. Local builds do not have
+this error.  Can be temporarily fixed by ressetting the mysql tables.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jackieLiu/contact/commit/1e421b905c9823611b307730120378ae88865cff
+
+[COMMIT MESSAGE]:init||初始化
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hamidseleman/myproject/commit/72c383b4d140b61f74d0dc8e19e09a5a05398ab6
+
+[COMMIT MESSAGE]:add multi tenancy initial feature||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') and filterObject.organization.id == principal.organization.id ")
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') and filterObject.organization.id == principal.organization.id ")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hamidseleman/myproject/commit/84c6fa06502a92043754d0782f7df8476d1f43c1
+
+[COMMIT MESSAGE]:Enable Spring Security ACL||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=28&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8
+
+[COMMIT MESSAGE]:Added membership and manager functionality for groups. See||GroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/e7d09beea00dc880dfdb38664b287be68e4f038a
+
+[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+-Something is preventing the user TaskManagerDemo from adding himself to
+a group as a member, but the manager of the group may add him..
+-We are recieving a "granted authority required" error when attempting
+to use /byManager /byMembership on houssuggest. Local builds do not have
+this error.  Can be temporarily fixed by ressetting the mysql tables.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8
+
+[COMMIT MESSAGE]:Added membership and manager functionality for groups. See||GroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/e7d09beea00dc880dfdb38664b287be68e4f038a
+
+[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+-Something is preventing the user TaskManagerDemo from adding himself to
+a group as a member, but the manager of the group may add him..
+-We are recieving a "granted authority required" error when attempting
+to use /byManager /byMembership on houssuggest. Local builds do not have
+this error.  Can be temporarily fixed by ressetting the mysql tables.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/b9700fcff76e20d174aa9d48e67eca6aef02d4dc
+
+[COMMIT MESSAGE]:support for publication||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3
+
+[COMMIT MESSAGE]:Introduction of AclManager and refactoring of service methods||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser/commit/53bc6580f3d560642f125c44016d68de3e33f24a
+
+[COMMIT MESSAGE]:support for ontologies added||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/e7d09beea00dc880dfdb38664b287be68e4f038a
+
+[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+-Something is preventing the user TaskManagerDemo from adding himself to
+a group as a member, but the manager of the group may add him..
+-We are recieving a "granted authority required" error when attempting
+to use /byManager /byMembership on houssuggest. Local builds do not have
+this error.  Can be temporarily fixed by ressetting the mysql tables.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8
+
+[COMMIT MESSAGE]:Added membership and manager functionality for groups. See||GroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mikewiesner/spring-security-3.1-sample/commit/101fe953afaedcec943689befc43628648860d70
+
+[COMMIT MESSAGE]:Solution||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'show')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=29&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheGreenLark/plantApp/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8
+
+[COMMIT MESSAGE]:Added membership and manager functionality for groups. See||GroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheGreenLark/plantApp/commit/e7d09beea00dc880dfdb38664b287be68e4f038a
+
+[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+-Something is preventing the user TaskManagerDemo from adding himself to
+a group as a member, but the manager of the group may add him..
+-We are recieving a "granted authority required" error when attempting
+to use /byManager /byMembership on houssuggest. Local builds do not have
+this error.  Can be temporarily fixed by ressetting the mysql tables.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/e11114ce770be5cd0242cf15b30833b3b692282e
+
+[COMMIT MESSAGE]:SEC-1023: Add hasPermission() support to SecurityExpressionRoot||http://jira.springframework.org/browse/SEC-1023.
+
+hasPermission() now delegates to a PermissionEvaluator interface, with a default implementation provided by the Acl module. The contacts sample now uses expressions on the ContactManager interface. The permission-evaluator element on global-method-security can be used to set the instance to an AclPermissionEvaluator. If not set, all hasPermission() expressions will evaluate to 'false'.
+=========================================================
+
++@PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ekesken/springacltutorial/commit/006916b61cff95c05f0e7ca873199b96e0b386a1
+
+[COMMIT MESSAGE]:added userprepostinterceptor used with runasmanager||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/5fc0a4c2fcdf893dacc040c422e0a025bd9822cf
+
+[COMMIT MESSAGE]:Add permissions and limitations to publish locations and templates.||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'PUBLISH')")
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/c73cc256ba7e73e30e3f24ce28f8f188d069438e
+
+[COMMIT MESSAGE]:Updates to provide mass validation and publication.||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
+- @PostFilter("hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'CREATE') or hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'PUBLISH_MULTI')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cristcost/springsec/commit/b7981afaf0b2128c7463a56428a2962b0d48f625
+
+[COMMIT MESSAGE]:added hacked page||
+=========================================================
+
+- @PostFilter("filterObject.username == principal.username or filterObject.isPublic()")
++ @PostFilter("filterObject.isPublic() or "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cristcost/springsec/commit/af28504a2080e9703f390528e500194985857ba8
+
+[COMMIT MESSAGE]:implemented basic security policy on GWT demonstration||
+=========================================================
+
++ @PostFilter("filterObject.username == principal.username or filterObject.isPublic()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
++ @PostFilter("hasPermission(filterObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=30&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/yoshutch/mybyu/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b
+
+[COMMIT MESSAGE]:UP-2950 Adding support and configuration for Spring Security annotati…||…on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'VIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/PublicArtBackend/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/PublicArtBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mkjasinski/spring-security-acl/commit/a9e67e4c44f23f6867ada3e0ebaad535b17d0e3b
+
+[COMMIT MESSAGE]:I have added ACL support||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject,'view')")
++ @PostFilter("hasPermission(filterObject,'view')")
+- @PostFilter("hasPermission(filterObject, 'view')")
++ @PostFilter("hasPermission(filterObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject,'view')")
++ @PostFilter("hasPermission(filterObject,'view')")
+- @PostFilter("hasPermission(filterObject,'view')")
++ @PostFilter("hasPermission(filterObject,'view')")
+- @PostFilter("hasPermission(filterObject,'view')")
++ @PostFilter("hasPermission(filterObject,'view')")
+- @PostFilter("hasPermission(filterObject, 'view')")
++ @PostFilter("hasPermission(filterObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc
+
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mff-uk/ODCS/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject,'view')")
++ @PostFilter("hasPermission(filterObject,'view')")
+- @PostFilter("hasPermission(filterObject,'view')")
++ @PostFilter("hasPermission(filterObject,'view')")
+- @PostFilter("hasPermission(filterObject,'view')")
++ @PostFilter("hasPermission(filterObject,'view')")
+- @PostFilter("hasPermission(filterObject, 'view')")
++ @PostFilter("hasPermission(filterObject, 'view')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=31&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alapierre/sample/commit/d581e20f55625ceb3e21c7b3eaa625a03f0e1620
+
+[COMMIT MESSAGE]:I have added ACL support example||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d31a73c448815ac4363aa93b91ffa0b7efb131ea
+
+[COMMIT MESSAGE]:Fixes for beta testing version||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/76d79bbbdbdedf6d5eb68544bdcad57f0c34d0f5
+
+[COMMIT MESSAGE]:first version of CHW Backend ready, needs some testing||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d9892bfece1f53ad56fa883822d346bb59f458ee
+
+[COMMIT MESSAGE]:started ..||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d9892bfece1f53ad56fa883822d346bb59f458ee
+
+[COMMIT MESSAGE]:started ..||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ganesan-sree/spring/commit/984c7172192043b530f21727bc5422b2e1f40d23
+
+[COMMIT MESSAGE]:spring acl||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ganesan-sree/spring/commit/984c7172192043b530f21727bc5422b2e1f40d23
+
+[COMMIT MESSAGE]:spring acl||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ganesan-sree/spring/commit/984c7172192043b530f21727bc5422b2e1f40d23
+
+[COMMIT MESSAGE]:spring acl||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=32&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alapierre/altkom_2004_10_06/commit/7a5edf5ea12cf4a33272b878d950a91ecf517bb5
+
+[COMMIT MESSAGE]:spring-security-acl on Derby||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheGreenLark/plantApp/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+[COMMIT MESSAGE]:Changes:||Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheGreenLark/plantApp/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vicziani/jtechlog-spring-security-acl/commit/fe7e3f8fd3075c0cdd7d1dbf9adfe4279e4cef69
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a64013b19f00fedc10845cdeb9f12f6b1d30d59c
+
+[COMMIT MESSAGE]:Cleaning out||Added getMyUser function to be used with DatabaseModule
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96
+
+[COMMIT MESSAGE]:switched App and backend to preserve issues in the right place||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/aro1976/Gerenciador-de-Arquivos/commit/0fc81547f0abe8c05bc3f7defe2a59d15b85c65c
+
+[COMMIT MESSAGE]:inclusao do modulo documentos||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, 'admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/HonorsFormsBackend/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JasonHao123/spring-security-samples-contact-jpa/commit/f8825e2c16cd589330f20f660496a358b4763a65
+
+[COMMIT MESSAGE]:fix acl issue||
+=========================================================
+
+-// @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JasonHao123/spring-security-samples-contact-jpa/commit/2daca749adc069742b8b8cc639327b8e7ef263eb
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ // @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
++// @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=33&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/97a7df662c81ca8122c2cf575a8f5e3536da6075
+
+[COMMIT MESSAGE]:Added files for first part of review process||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'REVIEW') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'WRITE') or hasPermission(filterObject,'ADMINISTRATION')")
++ @PostFilter("hasPermission(filterObject,'PUBLISH') or hasPermission(filterObject,'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/487187b3197cd382f4277b2bd977f4e316d22d1c
+
+[COMMIT MESSAGE]:Initial updates for filtering out collection request and miscellaneous||web page updates
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'REVIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/d96db044c137a4cc75db647dea6054a8dc9c6a2c
+
+[COMMIT MESSAGE]:Implemented FileUpload Resource allowing users to upload a file and||store the id of the file in an entry.
+
+Known issue: Pdf's are not working properly we may have to implement
+each accepted file type specifically.
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/PublicArtBackend/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Jasig/uPortal/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b
+
+[COMMIT MESSAGE]:UP-2950 Adding support and configuration for Spring Security annotati…||…on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'VIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/d96db044c137a4cc75db647dea6054a8dc9c6a2c
+
+[COMMIT MESSAGE]:Implemented FileUpload Resource allowing users to upload a file and||store the id of the file in an entry.
+
+Known issue: Pdf's are not working properly we may have to implement
+each accepted file type specifically.
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=34&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+[COMMIT MESSAGE]:Changes:||Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/41f414b6876b88d607638f4c4ef5b033f3b98370
+
+[COMMIT MESSAGE]:-Hours are now more or less fully functional. Have not tested||partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/e03fb7ee175242e9ec7dacf1af77c8f319fc0592
+
+[COMMIT MESSAGE]:added obs job state for non reportables||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'list')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/6cfd2af54be6ab6e5a7c8e99d50c3987f5e9e645
+
+[COMMIT MESSAGE]:restricted delete solved maintenance of denial||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cheetah90/OGP_MetroGIS/commit/79ef35b6035cd8ee2783606866102527d146650a
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'download')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/8c8da3bbb933ac4726364714d366226a38ea23e9
+
+[COMMIT MESSAGE]:[CRM-23] Task, Job filters added.||Change-Id: Iadb7f5114e38733bddf2382b4d3ac8ebf69731d0
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/keslerm/reloader-tracker/commit/3ff236d31d3bee2b25303da815079646f2c52d8d
+
+[COMMIT MESSAGE]:Cleaning up some old dependencies and working on refactoring a lot of||the old getByUserId and using Spring Security pre/post filtering and
+authorization.
+=========================================================
+
++ @PostFilter("hasRole('ROLE_ADMIN') || filterObject.userId == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/akuepfer/coursera-mobile-cloud-computing-with-android/commit/718095fbb5839655a2f59c1787bc2256ca58b8f4
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ // @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, 'admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+[COMMIT MESSAGE]:Changes:||Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/DayOfServiceBackend/commit/41f414b6876b88d607638f4c4ef5b033f3b98370
+
+[COMMIT MESSAGE]:-Hours are now more or less fully functional. Have not tested||partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=35&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OpenGeoportal/OGP2/commit/82975ddcaa5e5e027a376fa9bd6e5d1344df7a35
+
+[COMMIT MESSAGE]:Converted home page to controller to inject values from config. Also||changed to using factory pattern to provide prototype scoped objects to
+singleton controllers.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'download')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d9892bfece1f53ad56fa883822d346bb59f458ee
+
+[COMMIT MESSAGE]:started ..||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/41f414b6876b88d607638f4c4ef5b033f3b98370
+
+[COMMIT MESSAGE]:-Hours are now more or less fully functional. Have not tested||partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+[COMMIT MESSAGE]:Changes:||Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VMA-SHAPEBackend/commit/41f414b6876b88d607638f4c4ef5b033f3b98370
+
+[COMMIT MESSAGE]:-Hours are now more or less fully functional. Have not tested||partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+[COMMIT MESSAGE]:Changes:||Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=36&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/VolunteerManagementBackend/commit/41f414b6876b88d607638f4c4ef5b033f3b98370
+
+[COMMIT MESSAGE]:-Hours are now more or less fully functional. Have not tested||partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/7f81dcdccfd7e678a16016f86f621e2ddf2ce1de
+
+[COMMIT MESSAGE]:added hrapp again on master||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/9097d48f21188012ff299b2ff67f24d9476fc26d
+
+[COMMIT MESSAGE]:removed hrapp||
+=========================================================
+
+- //@PostFilter("hasPermission(filterObject, 'list')")
+- //@PostFilter("hasPermission(filterObject, 'list')")
+- //@PostFilter("hasPermission(filterObject, 'list')")
+- //@PostFilter("hasPermission(filterObject, 'list')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/4372c2f27a02714c4cd3415984c34b6a16eaf6e1
+
+[COMMIT MESSAGE]:changed project name to hrapp||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
++ //@PostFilter("hasPermission(filterObject, 'list')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/cb0e06531b5e2ffe425a010b449d947af9c89160
+
+[COMMIT MESSAGE]:Change getEnvironments to go through Repository so it can be filtered…||… by security. Environment list now only shows 'visible' environments
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05
+
+[COMMIT MESSAGE]:Move to hardcoded logic Permissions. Add properties based authentication||
+=========================================================
+
++ @PostFilter("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheGreenLark/plantApp/commit/41f414b6876b88d607638f4c4ef5b033f3b98370
+
+[COMMIT MESSAGE]:-Hours are now more or less fully functional. Have not tested||partial/full update but everything else seems to be in order.
+-special use case "approve" is to be used to changed approved status,
+also automaticall changes field pending to false.
+-Updated Mysql tables included
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/ab2a98580f8ac2e53384d19c353ddeb2f415b6dd
+
+[COMMIT MESSAGE]:added TarnsferApplication Resource||cleaning getMyUser
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/purduegis/OGP2/commit/82975ddcaa5e5e027a376fa9bd6e5d1344df7a35
+
+[COMMIT MESSAGE]:Converted home page to controller to inject values from config. Also||changed to using factory pattern to provide prototype scoped objects to
+singleton controllers.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'download')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=37&q=%40PostFilter%28&type=Code&utf8=%E2%9C%93
+

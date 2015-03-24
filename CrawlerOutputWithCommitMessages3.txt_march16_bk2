@@ -1,0 +1,66 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/1c9277b929836441b2a2a6efd82f19059906e53f
+
+[COMMIT MESSAGE]:Merge branch 'master' of ssh://github.com/anu-doi/DataCommons||Conflicts:
+	DataCommons/src/main/java/au/edu/anu/datacommons/collectionrequest/CollectionRequestService.java
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/159ea0f29343c3c64941fab0cce463fcd5535a81
+
+[COMMIT MESSAGE]:Added Spring security to bag download, upload and file download throu…||…gh dropbox.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bartosz25/library-sample-project/commit/3cb1e6d5e612ad81359dd9a79f3b90c277ec7535
+
+[COMMIT MESSAGE]:Maven project structure, pom.xml and one new todo||
+=========================================================
+
++ // @PostAuthorize("(#subscriber.login == principal.username) or (#subscriber.login == #user.username)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mff-uk/ODCS/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+[NEXT-PAGE-URL]:null
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=2&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=3&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=4&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+

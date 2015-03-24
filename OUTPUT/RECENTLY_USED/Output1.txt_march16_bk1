@@ -1,0 +1,2241 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/junsmooth/wujinsuo/commit/b1db714c2313b93cc5c6805d579990589cb2a2a6
+
+[COMMIT MESSAGE]:Allow @EnableGlobalMethodSecurity in a non webapp||Fixes gh-202
+=========================================================
+
++ @PreAuthorize("true")
++ @PreAuthorize("false")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sugarlisu/sp_security/commit/ebd0d0aabc000ebb9aae3797ec2f4bdc041db5a9
+
+[COMMIT MESSAGE]:spring_secuirty||
+=========================================================
+
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sugarlisu/sp_security/commit/ebd0d0aabc000ebb9aae3797ec2f4bdc041db5a9
+
+[COMMIT MESSAGE]:spring_secuirty||
+=========================================================
+
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nhidy/prospring3/commit/88df6b2936d6791509d264ac5f35c3b6533d13c0
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nhidy/prospring3/commit/bac8a0a60445f195d8e646eee6469ed6b287db6c
+
+[COMMIT MESSAGE]:Version 1.0_2014/09/11||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nhidy/prospring3/commit/e7fad650a21ce692f79d06ee9ad4521c1bdb3ad5
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ /* @PreAuthorize("isAuthenticated()") */
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/aksndr/Asgn2-VideoLike/commit/42cbb98c4a5563a3cd25114d6a1c95ce3aaaab1f
+
+[COMMIT MESSAGE]:complete||
+=========================================================
+
++ @PreAuthorize("hasRole(user)")
++ @PreAuthorize("hasRole(user)")
++ @PreAuthorize("hasRole(user)")
++ @PreAuthorize("hasRole(user)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/aksndr/Asgn2-VideoLike/commit/172874ea56abf9d77f22a0960136d4805d4074e4
+
+[COMMIT MESSAGE]:made first 4 tests||
+=========================================================
+
++ @PreAuthorize("hasRole(user)")
++ @PreAuthorize("hasRole(user)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OlegPahhomov/java-blog/commit/1ac4e8c4222f924124d26ab4e03dd4cdd4cee685
+
+[COMMIT MESSAGE]:trying again||
+=========================================================
+
++ @PreAuthorize("#blog.user.name == authentication.name or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/partharamanujam/spring-rest/commit/95b062777e2dc4f9f895a7633892e0b98bb982df
+
+[COMMIT MESSAGE]:added RBAC||
+=========================================================
+
++ @PreAuthorize("hasRole('CREATE')")
++ @PreAuthorize("hasRole('READ')")
++ @PreAuthorize("hasRole('UPDATE')")
++ @PreAuthorize("hasRole('DELETE')")
++ @PreAuthorize("hasRole('PERMS')")
+[NEXT-PAGE-URL]:null
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DrozdCompany/ISLC/commit/f61a8d7d4f755abccc3bf343a9c47accb71997d3
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/b73e38a8cfdd1a86cb3d4883b63c334bd39bd00e
+
+[COMMIT MESSAGE]:profile view table items||search page nice view for all sizes
+password change feature
+lots of refactoring
+=========================================================
+
+- @Secured("ROLE_ADMINISTRATOR")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/183c3cdab2e44368f49d217de6b3dc20bf553b9d
+
+[COMMIT MESSAGE]:implementation of item edit feature.||was not implemented: image edit.
+
+problems: when updating model - model should be found by make and model, not only by model.
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/f3801c4cf40ade18ad1d9e1b9b10be827b42f90b
+
+[COMMIT MESSAGE]:delete item from profile + tests||delete draft from profile + tests
+
+refactored cascade policy for models
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/9c05b3360bc3f1f1f49e7e20673f06bd8c254dcc
+
+[COMMIT MESSAGE]:item deletion implemetation. TBD: cascade remove tuning||
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/94aa1e5a0587dd25b71bcc762744bf4b7afcca37
+
+[COMMIT MESSAGE]:implementation of user's favorites feature||some minor profile improvement
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/7ef20d16d8c29b5c11c36f46e8a06da54f21b0c1
+
+[COMMIT MESSAGE]:removed velocity||controllers clean up
+=========================================================
+
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/a04edbb5aaed37e7a707b467ff11d95d1c4dae3a
+
+[COMMIT MESSAGE]:search page started up||clean unused methods in controllers
+removed unused velocity views
+=========================================================
+
++ @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/2d0aae2aa35b152a5a7ff21c2a194f8485b52ff5
+
+[COMMIT MESSAGE]:configure authentication of spring security with date stored entities||
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/SHAF-WORK/shaf/commit/f79844745577d15e8b4b83d0199e14a19bd87cdb
+
+[COMMIT MESSAGE]:Improve GUI and add storage concept||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/SHAF-WORK/shaf/commit/f79844745577d15e8b4b83d0199e14a19bd87cdb
+
+[COMMIT MESSAGE]:Improve GUI and add storage concept||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/SHAF-WORK/shaf/commit/f79844745577d15e8b4b83d0199e14a19bd87cdb
+
+[COMMIT MESSAGE]:Improve GUI and add storage concept||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/SHAF-WORK/shaf/commit/f79844745577d15e8b4b83d0199e14a19bd87cdb
+
+[COMMIT MESSAGE]:Improve GUI and add storage concept||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/SHAF-WORK/shaf/commit/f79844745577d15e8b4b83d0199e14a19bd87cdb
+
+[COMMIT MESSAGE]:Improve GUI and add storage concept||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
++@Secured("ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=2&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lmarques1979/carboidratos/commit/bbf336dbe391a23aea9f277774ed78ee093ce5f0
+
+[COMMIT MESSAGE]:Commit Inicial||
+=========================================================
+
++@Secured("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lmarques1979/carboidratos/commit/bbf336dbe391a23aea9f277774ed78ee093ce5f0
+
+[COMMIT MESSAGE]:Commit Inicial||
+=========================================================
+
++@Secured("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lmarques1979/carboidratos/commit/bbf336dbe391a23aea9f277774ed78ee093ce5f0
+
+[COMMIT MESSAGE]:Commit Inicial||
+=========================================================
+
++@Secured("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chapita/proyectoEstancia/commit/005cc7685b0cdbccd3c087c2d7c862abc7e0e416
+
+[COMMIT MESSAGE]:firts commit||
+=========================================================
+
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/e7abaf1491710c0a7f7841df0b1c3222b6e3f2cf
+
+[COMMIT MESSAGE]:Formulario de avaliacao||
+=========================================================
+
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/51b2c605dbe3b522fbe8d8576eab80224f6ece71
+
+[COMMIT MESSAGE]:mudando retrição de categora para ROLE_ADMIN||
+=========================================================
+
+- @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/99977caf2252684f090ce509f85b8a42579a4e2f
+
+[COMMIT MESSAGE]:Adicionado Cadastro de categorias||
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/e7abaf1491710c0a7f7841df0b1c3222b6e3f2cf
+
+[COMMIT MESSAGE]:Formulario de avaliacao||
+=========================================================
+
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/8013ce688e2b5588be1343befeff2635ef3d9161
+
+[COMMIT MESSAGE]:controller avaliação||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/fc6b0a2e68169e53951f3ca44100c385cf334a8d
+
+[COMMIT MESSAGE]:Formulario de avaliacao||
+=========================================================
+
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/944dbab6dd2c889a93826dbf5939868ce93404ec
+
+[COMMIT MESSAGE]:controller avaliação||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/4dc36da94ca26f17f5f5327bf7898111e24351b2
+
+[COMMIT MESSAGE]:Merge branch 'master' into avaliacao||Conflicts:
+	WebContent/views/servico/buscaResult.jsp
+	WebContent/views/servico/detalhes_servicos.jsp
+	WebContent/views/servico/listar.jsp
+	src/hibernate.cfg.xml
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/e7abaf1491710c0a7f7841df0b1c3222b6e3f2cf
+
+[COMMIT MESSAGE]:Formulario de avaliacao||
+=========================================================
+
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_ADMIN")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/8013ce688e2b5588be1343befeff2635ef3d9161
+
+[COMMIT MESSAGE]:controller avaliação||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/7485a22fa12b975763e58794a80f31d4a9f5db87
+
+[COMMIT MESSAGE]:Pesquisa de serviço filtrando por categoria||
+=========================================================
+
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/3d8b08bacc9c080753a7a2839f267ac60cb7de58
+
+[COMMIT MESSAGE]:Detalhes de Serviços||
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/c2de2fa0b590afafd9850df4714237a1d9f8eca7
+
+[COMMIT MESSAGE]:cadastro de serviços||
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/a3d57969c8a357290550b7f3c54e93d5827842b0
+
+[COMMIT MESSAGE]:configurando spring security annotations||
+=========================================================
+
+- @Secured("hasRole('ROLE_USER')")
++ @Secured("ROLE_USER")
+- @Secured("hasRole('ROLE_USER')")
++ @Secured("ROLE_USER")
+- @Secured("hasRole('ROLE_USER')")
++ @Secured("ROLE_USER")
+- @Secured("hasRole('ROLE_USER')")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/evangilo/workbook/commit/d501aa92e4ba7bda12bc2cd166e866990aac9ef7
+
+[COMMIT MESSAGE]:configurando spring security||
+=========================================================
+
++ @Secured("hasRole('ROLE_USER')")
++@Secured("hasRole('ROLE_USER')")
++ @Secured("hasRole('ROLE_USER')")
++ @Secured("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ngusev/gwtsecurity/commit/a0d133df60a6054b7fec5413ac8ee5b2b65113c0
+
+[COMMIT MESSAGE]:Updated formatter.||
+=========================================================
+
+-@Secured("ROLE_USER")
+-@Secured("ROLE_ADMIN")
++@Secured("ROLE_USER")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ngusev/gwtsecurity/commit/9cdc4c3e6ae656b99274be53cec1a4232083f0f7
+
+[COMMIT MESSAGE]:Added integration test package.||
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_ADMIN")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=3&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ngusev/gwtsecurity/commit/7dbdb0104afbe88650fbe4f50495b5f19ae2f00d
+
+[COMMIT MESSAGE]:Add OpenId example||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/b73e38a8cfdd1a86cb3d4883b63c334bd39bd00e
+
+[COMMIT MESSAGE]:profile view table items||search page nice view for all sizes
+password change feature
+lots of refactoring
+=========================================================
+
+- @Secured("ROLE_ADMINISTRATOR")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/0fd0ca3e74fd9daa7c53b87e64eedee917a28cc0
+
+[COMMIT MESSAGE]:administration feature:||admin role, moderator role, admin board, admin controller
+
+now by default new items have status moderation
+initializer create adminstrator
+=========================================================
+
++ @Secured("ROLE_ADMINISTRATOR")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/b73e38a8cfdd1a86cb3d4883b63c334bd39bd00e
+
+[COMMIT MESSAGE]:profile view table items||search page nice view for all sizes
+password change feature
+lots of refactoring
+=========================================================
+
+- @Secured("ROLE_ADMINISTRATOR")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/f3801c4cf40ade18ad1d9e1b9b10be827b42f90b
+
+[COMMIT MESSAGE]:delete item from profile + tests||delete draft from profile + tests
+
+refactored cascade policy for models
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/00774351b4c9f436512332c2ad049530518d7512
+
+[COMMIT MESSAGE]:profile:||verify that field value doesnt contain html tags
+user creation:
+verify that user email mathes regex
+verify password length
+item creation:
+check that all profile fields are filled
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/a04edbb5aaed37e7a707b467ff11d95d1c4dae3a
+
+[COMMIT MESSAGE]:search page started up||clean unused methods in controllers
+removed unused velocity views
+=========================================================
+
++ @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/97331269722815455d1ecb48237a7c164f0dbe11
+
+[COMMIT MESSAGE]:publish item from draft||minor fixes on view
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/b73e38a8cfdd1a86cb3d4883b63c334bd39bd00e
+
+[COMMIT MESSAGE]:profile view table items||search page nice view for all sizes
+password change feature
+lots of refactoring
+=========================================================
+
+- @Secured("ROLE_ADMINISTRATOR")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/00774351b4c9f436512332c2ad049530518d7512
+
+[COMMIT MESSAGE]:profile:||verify that field value doesnt contain html tags
+user creation:
+verify that user email mathes regex
+verify password length
+item creation:
+check that all profile fields are filled
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/0fd0ca3e74fd9daa7c53b87e64eedee917a28cc0
+
+[COMMIT MESSAGE]:administration feature:||admin role, moderator role, admin board, admin controller
+
+now by default new items have status moderation
+initializer create adminstrator
+=========================================================
+
++ @Secured("ROLE_ADMINISTRATOR")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/94aa1e5a0587dd25b71bcc762744bf4b7afcca37
+
+[COMMIT MESSAGE]:implementation of user's favorites feature||some minor profile improvement
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/7ef20d16d8c29b5c11c36f46e8a06da54f21b0c1
+
+[COMMIT MESSAGE]:removed velocity||controllers clean up
+=========================================================
+
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/690635ced0d08555ba376753b22ec15040e6d8a2
+
+[COMMIT MESSAGE]:profile improvement||extract user context to utility method
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/b73e38a8cfdd1a86cb3d4883b63c334bd39bd00e
+
+[COMMIT MESSAGE]:profile view table items||search page nice view for all sizes
+password change feature
+lots of refactoring
+=========================================================
+
+- @Secured("ROLE_ADMINISTRATOR")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/183c3cdab2e44368f49d217de6b3dc20bf553b9d
+
+[COMMIT MESSAGE]:implementation of item edit feature.||was not implemented: image edit.
+
+problems: when updating model - model should be found by make and model, not only by model.
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/00774351b4c9f436512332c2ad049530518d7512
+
+[COMMIT MESSAGE]:profile:||verify that field value doesnt contain html tags
+user creation:
+verify that user email mathes regex
+verify password length
+item creation:
+check that all profile fields are filled
+=========================================================
+
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/b73e38a8cfdd1a86cb3d4883b63c334bd39bd00e
+
+[COMMIT MESSAGE]:profile view table items||search page nice view for all sizes
+password change feature
+lots of refactoring
+=========================================================
+
+- @Secured("ROLE_ADMINISTRATOR")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+- @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/94aa1e5a0587dd25b71bcc762744bf4b7afcca37
+
+[COMMIT MESSAGE]:implementation of user's favorites feature||some minor profile improvement
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maloletniy/mtrgit/commit/4127b8d604e951abec7a3b694d9db59130c7eed1
+
+[COMMIT MESSAGE]:image uploading||image addition in create item page
+=========================================================
+
++ @Secured("ROLE_USER")
++ @Secured("ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=4&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=5&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stellwerk/Stellwerk/commit/df2b4a81c13880ee68857ee17bc52e87e06bd3f5
+
+[COMMIT MESSAGE]:Testversion||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_KOORD")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stellwerk/Stellwerk/commit/df2b4a81c13880ee68857ee17bc52e87e06bd3f5
+
+[COMMIT MESSAGE]:Testversion||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_KOORD")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stellwerk/Stellwerk/commit/df2b4a81c13880ee68857ee17bc52e87e06bd3f5
+
+[COMMIT MESSAGE]:Testversion||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_KOORD")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stellwerk/Stellwerk/commit/df2b4a81c13880ee68857ee17bc52e87e06bd3f5
+
+[COMMIT MESSAGE]:Testversion||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_KOORD")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stellwerk/Stellwerk/commit/df2b4a81c13880ee68857ee17bc52e87e06bd3f5
+
+[COMMIT MESSAGE]:Testversion||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_KOORD")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stellwerk/Stellwerk/commit/df2b4a81c13880ee68857ee17bc52e87e06bd3f5
+
+[COMMIT MESSAGE]:Testversion||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_KOORD")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stellwerk/Stellwerk/commit/df2b4a81c13880ee68857ee17bc52e87e06bd3f5
+
+[COMMIT MESSAGE]:Testversion||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_KOORD")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Stellwerk/Stellwerk/commit/df2b4a81c13880ee68857ee17bc52e87e06bd3f5
+
+[COMMIT MESSAGE]:Testversion||
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_KOORD")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_KOORD")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_TAFEL")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=6&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=7&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DAIAD/home-web/commit/258385608a53939174354eb255cce1ee367cd34b
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @Secured("USER")
++ @Secured("USER")
++ @Secured("USER")
++ @Secured("USER")
++ @Secured("USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Siebes/firefeed/commit/680469a740e7d33a4587b7b94b0e18f0c9727386
+
+[COMMIT MESSAGE]:Started Authentication + Authorization||
+=========================================================
+
++ @Secured("ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=8&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/d1f744a3a70d4bf44571a64d53bfb8f006e527df
+
+[COMMIT MESSAGE]:update product||
+=========================================================
+
+- @Secured("ROLE_INVITEM_READ")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_DELETE")
+- @Secured("ROLE_CONTAINER_READ")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/304db4538d68d3e4e5d89c8820aad2bfe19bd7b7
+
+[COMMIT MESSAGE]:update uom & facility||
+=========================================================
+
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_CREATE")
++ @Secured("ROLE_CONTAINER_UPDATE")
++ @Secured("ROLE_CONTAINER_DELETE")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_CREATE")
++ @Secured("ROLE_FACILITY_UPDATE")
++ @Secured("ROLE_FACILITY_DELETE")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_CREATE")
++ @Secured("ROLE_UOM_UPDATE")
++ @Secured("ROLE_UOM_DELETE")
+- @Secured("ROLE_CONTAINER_CREATE")
+- @Secured("ROLE_CONTAINER_CREATE")
+- @Secured("ROLE_CONTAINER_UPDATE")
+- @Secured("ROLE_CONTAINER_UPDATE")
+- @Secured("ROLE_CONTAINER_DELETE")
+- @Secured("ROLE_FACILITY_READ")
+- @Secured("ROLE_FACILITY_CREATE")
+- @Secured("ROLE_FACILITY_CREATE")
+- @Secured("ROLE_FACILITY_UPDATE")
+- @Secured("ROLE_FACILITY_UPDATE")
+- @Secured("ROLE_FACILITY_DELETE")
+- @Secured("ROLE_UOM_READ")
+- @Secured("ROLE_UOM_CREATE")
+- @Secured("ROLE_UOM_CREATE")
+- @Secured("ROLE_UOM_UPDATE")
+- @Secured("ROLE_UOM_UPDATE")
+- @Secured("ROLE_UOM_DELETE")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/d1f744a3a70d4bf44571a64d53bfb8f006e527df
+
+[COMMIT MESSAGE]:update product||
+=========================================================
+
+- @Secured("ROLE_INVITEM_READ")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_DELETE")
+- @Secured("ROLE_CONTAINER_READ")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/304db4538d68d3e4e5d89c8820aad2bfe19bd7b7
+
+[COMMIT MESSAGE]:update uom & facility||
+=========================================================
+
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_CREATE")
++ @Secured("ROLE_CONTAINER_UPDATE")
++ @Secured("ROLE_CONTAINER_DELETE")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_CREATE")
++ @Secured("ROLE_FACILITY_UPDATE")
++ @Secured("ROLE_FACILITY_DELETE")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_CREATE")
++ @Secured("ROLE_UOM_UPDATE")
++ @Secured("ROLE_UOM_DELETE")
+- @Secured("ROLE_CONTAINER_CREATE")
+- @Secured("ROLE_CONTAINER_CREATE")
+- @Secured("ROLE_CONTAINER_UPDATE")
+- @Secured("ROLE_CONTAINER_UPDATE")
+- @Secured("ROLE_CONTAINER_DELETE")
+- @Secured("ROLE_FACILITY_READ")
+- @Secured("ROLE_FACILITY_CREATE")
+- @Secured("ROLE_FACILITY_CREATE")
+- @Secured("ROLE_FACILITY_UPDATE")
+- @Secured("ROLE_FACILITY_UPDATE")
+- @Secured("ROLE_FACILITY_DELETE")
+- @Secured("ROLE_UOM_READ")
+- @Secured("ROLE_UOM_CREATE")
+- @Secured("ROLE_UOM_CREATE")
+- @Secured("ROLE_UOM_UPDATE")
+- @Secured("ROLE_UOM_UPDATE")
+- @Secured("ROLE_UOM_DELETE")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/d1f744a3a70d4bf44571a64d53bfb8f006e527df
+
+[COMMIT MESSAGE]:update product||
+=========================================================
+
+- @Secured("ROLE_INVITEM_READ")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_DELETE")
+- @Secured("ROLE_CONTAINER_READ")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/2bfc37467b7828bb026a2cb20e29e4c2f520daa1
+
+[COMMIT MESSAGE]:update product category||
+=========================================================
+
++ @Secured("ROLE_PRDCATEGORY_READ")
++ @Secured("ROLE_PRDCATEGORY_READ")
++ @Secured("ROLE_PRDCATEGORY_READ")
++ @Secured("ROLE_PRDCATEGORY_READ")
++ @Secured("ROLE_PRDCATEGORY_CREATE")
++ @Secured("ROLE_PRDCATEGORY_UPDATE")
++ @Secured("ROLE_PRDCATEGORY_DELETE")
+- @Secured("ROLE_PRDCATEGORY_READ")
+- @Secured("ROLE_PRDCATEGORY_CREATE")
+- @Secured("ROLE_PRDCATEGORY_CREATE")
+- @Secured("ROLE_PRDCATEGORY_UPDATE")
+- @Secured("ROLE_PRDCATEGORY_UPDATE")
+- @Secured("ROLE_PRDCATEGORY_DELETE")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/d1f744a3a70d4bf44571a64d53bfb8f006e527df
+
+[COMMIT MESSAGE]:update product||
+=========================================================
+
+- @Secured("ROLE_INVITEM_READ")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_DELETE")
+- @Secured("ROLE_CONTAINER_READ")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/42690fc49fd4476c0ecf03408fd2836e9bab9a96
+
+[COMMIT MESSAGE]:update product||
+=========================================================
+
++ @Secured("ROLE_PRODUCT_READ")
++ @Secured("ROLE_PRODUCT_READ")
++ @Secured("ROLE_PRODUCT_READ")
++ @Secured("ROLE_PRODUCT_READ")
++ @Secured("ROLE_PRODUCT_CREATE")
++ @Secured("ROLE_PRODUCT_UPDATE")
++ @Secured("ROLE_PRODUCT_DELETE")
+- @Secured("ROLE_PRDCODE_CREATE")
+- @Secured("ROLE_PRDCODE_CREATE")
+- @Secured("ROLE_PRDCODE_UPDATE")
+- @Secured("ROLE_PRDCODE_UPDATE")
+- @Secured("ROLE_PRDCODE_DELETE")
+- @Secured("ROLE_PRDCOMPONENT_CREATE")
+- @Secured("ROLE_PRDCOMPONENT_CREATE")
+- @Secured("ROLE_PRDCOMPONENT_UPDATE")
+- @Secured("ROLE_PRDCOMPONENT_UPDATE")
+- @Secured("ROLE_PRDCOMPONENT_DELETE")
+- @Secured("ROLE_PRODUCT_READ")
+- @Secured("ROLE_PRODUCT_CREATE")
+- @Secured("ROLE_PRODUCT_CREATE")
+- @Secured("ROLE_PRODUCT_UPDATE")
+- @Secured("ROLE_PRODUCT_UPDATE")
+- @Secured("ROLE_PRODUCT_DELETE")
+- @Secured("ROLE_PRDCOST_CREATE")
+- @Secured("ROLE_PRDCOST_CREATE")
+- @Secured("ROLE_PRDCOST_UPDATE")
+- @Secured("ROLE_PRDCOST_UPDATE")
+- @Secured("ROLE_PRDCOST_DELETE")
+- @Secured("ROLE_PRDFEATURE_CREATE")
+- @Secured("ROLE_PRDFEATURE_CREATE")
+- @Secured("ROLE_PRDFEATURE_UPDATE")
+- @Secured("ROLE_PRDFEATURE_UPDATE")
+- @Secured("ROLE_PRDFEATURE_DELETE")
+- @Secured("ROLE_PRDPRICE_CREATE")
+- @Secured("ROLE_PRDPRICE_CREATE")
+- @Secured("ROLE_PRDPRICE_UPDATE")
+- @Secured("ROLE_PRDPRICE_UPDATE")
+- @Secured("ROLE_PRDPRICE_DELETE")
+- @Secured("ROLE_PRDSUPPLIER_CREATE")
+- @Secured("ROLE_PRDSUPPLIER_CREATE")
+- @Secured("ROLE_PRDSUPPLIER_UPDATE")
+- @Secured("ROLE_PRDSUPPLIER_UPDATE")
+- @Secured("ROLE_PRDSUPPLIER_DELETE")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/d1f744a3a70d4bf44571a64d53bfb8f006e527df
+
+[COMMIT MESSAGE]:update product||
+=========================================================
+
+- @Secured("ROLE_INVITEM_READ")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_CREATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_UPDATE")
+- @Secured("ROLE_INVITEM_DELETE")
+- @Secured("ROLE_CONTAINER_READ")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/agungperdana/belian/commit/304db4538d68d3e4e5d89c8820aad2bfe19bd7b7
+
+[COMMIT MESSAGE]:update uom & facility||
+=========================================================
+
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_READ")
++ @Secured("ROLE_CONTAINER_CREATE")
++ @Secured("ROLE_CONTAINER_UPDATE")
++ @Secured("ROLE_CONTAINER_DELETE")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_READ")
++ @Secured("ROLE_FACILITY_CREATE")
++ @Secured("ROLE_FACILITY_UPDATE")
++ @Secured("ROLE_FACILITY_DELETE")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_READ")
++ @Secured("ROLE_UOM_CREATE")
++ @Secured("ROLE_UOM_UPDATE")
++ @Secured("ROLE_UOM_DELETE")
+- @Secured("ROLE_CONTAINER_CREATE")
+- @Secured("ROLE_CONTAINER_CREATE")
+- @Secured("ROLE_CONTAINER_UPDATE")
+- @Secured("ROLE_CONTAINER_UPDATE")
+- @Secured("ROLE_CONTAINER_DELETE")
+- @Secured("ROLE_FACILITY_READ")
+- @Secured("ROLE_FACILITY_CREATE")
+- @Secured("ROLE_FACILITY_CREATE")
+- @Secured("ROLE_FACILITY_UPDATE")
+- @Secured("ROLE_FACILITY_UPDATE")
+- @Secured("ROLE_FACILITY_DELETE")
+- @Secured("ROLE_UOM_READ")
+- @Secured("ROLE_UOM_CREATE")
+- @Secured("ROLE_UOM_CREATE")
+- @Secured("ROLE_UOM_UPDATE")
+- @Secured("ROLE_UOM_UPDATE")
+- @Secured("ROLE_UOM_DELETE")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/stbland/stbland/commit/b10c1e063edecf2575353d0f2164fd8be6afb038
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/imrich2/46C869B8/commit/9ed9330db57188d14043c38cc02a876e9d73ba71
+
+[COMMIT MESSAGE]:big refactor about security & wechatAdapter||
+=========================================================
+
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/imrich2/46C869B8/commit/9ed9330db57188d14043c38cc02a876e9d73ba71
+
+[COMMIT MESSAGE]:big refactor about security & wechatAdapter||
+=========================================================
+
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/imrich2/46C869B8/commit/9ed9330db57188d14043c38cc02a876e9d73ba71
+
+[COMMIT MESSAGE]:big refactor about security & wechatAdapter||
+=========================================================
+
++@Secured("ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=9&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/imrich2/46C869B8/commit/9ed9330db57188d14043c38cc02a876e9d73ba71
+
+[COMMIT MESSAGE]:big refactor about security & wechatAdapter||
+=========================================================
+
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/imrich2/46C869B8/commit/9ed9330db57188d14043c38cc02a876e9d73ba71
+
+[COMMIT MESSAGE]:big refactor about security & wechatAdapter||
+=========================================================
+
++@Secured("ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dimafeng/namsterdam-spring/commit/81c9bc3eec5695e0191bd9ce9c2f1e79d9cceb60
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/booyakashao/ElectionSystem/commit/939d3eea6a94e26fb39da7ccd1815e179c393133
+
+[COMMIT MESSAGE]:Implementing final voting system.||
+=========================================================
+
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
++ @Secured("ROLE_ADMIN")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=10&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mozammel/mNet/commit/856765ec1a37795d5d14a12231759f39e654d95e
+
+[COMMIT MESSAGE]:Fix secured annotaiotn use||
+=========================================================
+
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mozammel/mNet/commit/c439f62f1b629cc23ef0b2e5c2605e6a49f3437f
+
+[COMMIT MESSAGE]:Add security in controllers||
+=========================================================
+
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN, ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mozammel/mNet/commit/856765ec1a37795d5d14a12231759f39e654d95e
+
+[COMMIT MESSAGE]:Fix secured annotaiotn use||
+=========================================================
+
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mozammel/mNet/commit/c439f62f1b629cc23ef0b2e5c2605e6a49f3437f
+
+[COMMIT MESSAGE]:Add security in controllers||
+=========================================================
+
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN, ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jugbd/mNet/commit/856765ec1a37795d5d14a12231759f39e654d95e
+
+[COMMIT MESSAGE]:Fix secured annotaiotn use||
+=========================================================
+
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+-@Secured("ROLE_ADMIN, ROLE_USER")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jugbd/mNet/commit/c439f62f1b629cc23ef0b2e5c2605e6a49f3437f
+
+[COMMIT MESSAGE]:Add security in controllers||
+=========================================================
+
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN, ROLE_USER")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN, ROLE_USER")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=11&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dilrubakhan/Fitnessclub/commit/bb750976ba206814f4b721730f8317e04ae7857b
+
+[COMMIT MESSAGE]:Refactoring the member entity||
+=========================================================
+
++ @Secured("ROLE_ADMIN" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dilrubakhan/Fitnessclub/commit/bb750976ba206814f4b721730f8317e04ae7857b
+
+[COMMIT MESSAGE]:Refactoring the member entity||
+=========================================================
+
++ @Secured("ROLE_ADMIN" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dilrubakhan/Fitnessclub/commit/bb750976ba206814f4b721730f8317e04ae7857b
+
+[COMMIT MESSAGE]:Refactoring the member entity||
+=========================================================
+
++ @Secured("ROLE_ADMIN" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dilrubakhan/Fitnessclub/commit/bb750976ba206814f4b721730f8317e04ae7857b
+
+[COMMIT MESSAGE]:Refactoring the member entity||
+=========================================================
+
++ @Secured("ROLE_ADMIN" )
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=12&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dilrubakhan/Monopoly/commit/bb750976ba206814f4b721730f8317e04ae7857b
+
+[COMMIT MESSAGE]:Refactoring the member entity||
+=========================================================
+
++ @Secured("ROLE_ADMIN" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dilrubakhan/Monopoly/commit/bb750976ba206814f4b721730f8317e04ae7857b
+
+[COMMIT MESSAGE]:Refactoring the member entity||
+=========================================================
+
++ @Secured("ROLE_ADMIN" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dilrubakhan/Monopoly/commit/bb750976ba206814f4b721730f8317e04ae7857b
+
+[COMMIT MESSAGE]:Refactoring the member entity||
+=========================================================
+
++ @Secured("ROLE_ADMIN" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dilrubakhan/Monopoly/commit/bb750976ba206814f4b721730f8317e04ae7857b
+
+[COMMIT MESSAGE]:Refactoring the member entity||
+=========================================================
+
++ @Secured("ROLE_ADMIN" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/61933e1a62a880ee5c037bab37fc02e274141d87
+
+[COMMIT MESSAGE]:Reintegrated branch 1.3||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@814 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/61933e1a62a880ee5c037bab37fc02e274141d87
+
+[COMMIT MESSAGE]:Reintegrated branch 1.3||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@814 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/199bf92ada7acf25b75d5eb45833ab7a52b628ee
+
+[COMMIT MESSAGE]:Mandatory password change works correctly even if request target is n…||…ot home page
+
+git-svn-id: https://superfly.googlecode.com/svn/branches/superfly-1.3@661 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/1c0ea24a41a672f944a436e76686357099dea1f3
+
+[COMMIT MESSAGE]:change temp_password action on action_temp_password||git-svn-id: https://superfly.googlecode.com/svn/branches/superfly-1.2@610 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_TEMP_PASSWORD")
++@Secured("ROLE_ACTION_TEMP_PASSWORD")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/e27135af56e8305d76e4ad86ffd12886b556f864
+
+[COMMIT MESSAGE]:change temp password||git-svn-id: https://superfly.googlecode.com/svn/branches/superfly-1.2@609 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
++@Secured("ROLE_TEMP_PASSWORD")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/199bf92ada7acf25b75d5eb45833ab7a52b628ee
+
+[COMMIT MESSAGE]:Mandatory password change works correctly even if request target is n…||…ot home page
+
+git-svn-id: https://superfly.googlecode.com/svn/branches/superfly-1.3@661 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/1c0ea24a41a672f944a436e76686357099dea1f3
+
+[COMMIT MESSAGE]:change temp_password action on action_temp_password||git-svn-id: https://superfly.googlecode.com/svn/branches/superfly-1.2@610 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_TEMP_PASSWORD")
++@Secured("ROLE_ACTION_TEMP_PASSWORD")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/e27135af56e8305d76e4ad86ffd12886b556f864
+
+[COMMIT MESSAGE]:change temp password||git-svn-id: https://superfly.googlecode.com/svn/branches/superfly-1.2@609 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
++@Secured("ROLE_TEMP_PASSWORD")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/b0f37a42757de02e4e970a15cecbb63a880075cd
+
+[COMMIT MESSAGE]:CSRV-83 Настроить spring-security на стороне superfly, чтобы использо…||…валась БД
+
+git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@250 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/61933e1a62a880ee5c037bab37fc02e274141d87
+
+[COMMIT MESSAGE]:Reintegrated branch 1.3||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@814 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=13&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/284ac71b34ec0f0f1cef4559e37aaf480ce1a1b3
+
+[COMMIT MESSAGE]:added ChangeRoleGroupsPage||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@449 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/35033d330ef22eb82111a53ea0df72f016cabfb7
+
+[COMMIT MESSAGE]:created page ChangeGroupActionsPage||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@447 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/effc0906c24aafe99a0ea0080a9d8cd23515c4bd
+
+[COMMIT MESSAGE]:Fixed bug in ui_clone_group.prc||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@299 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/284ac71b34ec0f0f1cef4559e37aaf480ce1a1b3
+
+[COMMIT MESSAGE]:added ChangeRoleGroupsPage||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@449 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/a5cb7e73fcbfcd1b867a02f2196a4d10f7a44a03
+
+[COMMIT MESSAGE]:Merged superfly-1.1 branch back to the trunk||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@371 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/6ca9632c4a68484fa540cf1f9da5e33da2d87847
+
+[COMMIT MESSAGE]:CSRV-90 Просмотр роли||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@308 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/cd485256c9e706368bd8bf1c63a912930dbc5666
+
+[COMMIT MESSAGE]:in progress -issue - csrv 60||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@286 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/3d95848b2d1538de135e7fa4f9c727d8b231cf03
+
+[COMMIT MESSAGE]:REOPENED - issue CSRV-76||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@267 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/284ac71b34ec0f0f1cef4559e37aaf480ce1a1b3
+
+[COMMIT MESSAGE]:added ChangeRoleGroupsPage||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@449 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/a5cb7e73fcbfcd1b867a02f2196a4d10f7a44a03
+
+[COMMIT MESSAGE]:Merged superfly-1.1 branch back to the trunk||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@371 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/cd485256c9e706368bd8bf1c63a912930dbc5666
+
+[COMMIT MESSAGE]:in progress -issue - csrv 60||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@286 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/9c1b6d83918923ce7844e348951415f20da415e4
+
+[COMMIT MESSAGE]:IN PROGRESS - issue CSRV-63||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@262 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/b0f37a42757de02e4e970a15cecbb63a880075cd
+
+[COMMIT MESSAGE]:CSRV-83 Настроить spring-security на стороне superfly, чтобы использо…||…валась БД
+
+git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@250 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/5536b4a960022bb3d34be5bda5398c5af0a31f90
+
+[COMMIT MESSAGE]:добавил немного дизайна (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@734 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/effc0906c24aafe99a0ea0080a9d8cd23515c4bd
+
+[COMMIT MESSAGE]:Fixed bug in ui_clone_group.prc||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@299 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/b0f37a42757de02e4e970a15cecbb63a880075cd
+
+[COMMIT MESSAGE]:CSRV-83 Настроить spring-security на стороне superfly, чтобы использо…||…валась БД
+
+git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@250 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/284ac71b34ec0f0f1cef4559e37aaf480ce1a1b3
+
+[COMMIT MESSAGE]:added ChangeRoleGroupsPage||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@449 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/cd485256c9e706368bd8bf1c63a912930dbc5666
+
+[COMMIT MESSAGE]:in progress -issue - csrv 60||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@286 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/a5cb7e73fcbfcd1b867a02f2196a4d10f7a44a03
+
+[COMMIT MESSAGE]:Merged superfly-1.1 branch back to the trunk||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@371 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/61933e1a62a880ee5c037bab37fc02e274141d87
+
+[COMMIT MESSAGE]:Reintegrated branch 1.3||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@814 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=14&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/e8a9f785d57590f32c45db91a65c7aa600f134f0
+
+[COMMIT MESSAGE]:PNC 840||git-svn-id: https://superfly.googlecode.com/svn/branches/superfly-1.2@587 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/5536b4a960022bb3d34be5bda5398c5af0a31f90
+
+[COMMIT MESSAGE]:добавил немного дизайна (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@734 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/54c8adec9473817520af5aa85016f5df8671c27d
+
+[COMMIT MESSAGE]:IN PROGRESS - issue CSRV-53: Создание группы||http://amberlords.com:7080/jira/browse/CSRV-53
+
+git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@272 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/6ca9632c4a68484fa540cf1f9da5e33da2d87847
+
+[COMMIT MESSAGE]:CSRV-90 Просмотр роли||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@308 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/61933e1a62a880ee5c037bab37fc02e274141d87
+
+[COMMIT MESSAGE]:Reintegrated branch 1.3||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@814 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/a5cb7e73fcbfcd1b867a02f2196a4d10f7a44a03
+
+[COMMIT MESSAGE]:Merged superfly-1.1 branch back to the trunk||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@371 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/b0f37a42757de02e4e970a15cecbb63a880075cd
+
+[COMMIT MESSAGE]:CSRV-83 Настроить spring-security на стороне superfly, чтобы использо…||…валась БД
+
+git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@250 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/61933e1a62a880ee5c037bab37fc02e274141d87
+
+[COMMIT MESSAGE]:Reintegrated branch 1.3||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@814 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/72c3b98ad5a388b399a0493be5bbe93aa0372a0d
+
+[COMMIT MESSAGE]:подправил немного стили (в процессе)||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@725 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
+-@Secured("ROLE_ADMIN")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rpuch/superfly/commit/a5cb7e73fcbfcd1b867a02f2196a4d10f7a44a03
+
+[COMMIT MESSAGE]:Merged superfly-1.1 branch back to the trunk||git-svn-id: https://superfly.googlecode.com/svn/trunk/superfly@371 11a29e22-99e0-9bb7-d19e-9a0993c63ea3
+=========================================================
+
++@Secured("ROLE_ADMIN")
++@Secured("ROLE_ADMIN")
+-@Secured("ROLE_ADMIN")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=15&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+

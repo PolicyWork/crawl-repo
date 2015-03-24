@@ -1,0 +1,331 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shashir87/payslip-gen-app/commit/59cb518bfcd39624f927183070bcec33642975d5
+
+[COMMIT MESSAGE]:Initial Commit.||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
++ @PreAuthorize("hasRole('ROLE_SUPERADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=86&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=87&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/7a9ea0e9b2d529cc8394b254319cbb122f75a5ec
+
+[COMMIT MESSAGE]:RESTful controllers||
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/8e064b7ac676b21be8773486e73dbbbe6455d9ca
+
+[COMMIT MESSAGE]:first||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/e3cb92173a2a75f0c9dcf61df8ba57506660b500
+
+[COMMIT MESSAGE]:refactor: remove nav class completely and simplify structure. refacto…||…r backbone code.
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/7a9ea0e9b2d529cc8394b254319cbb122f75a5ec
+
+[COMMIT MESSAGE]:RESTful controllers||
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/8e064b7ac676b21be8773486e73dbbbe6455d9ca
+
+[COMMIT MESSAGE]:first||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/7a9ea0e9b2d529cc8394b254319cbb122f75a5ec
+
+[COMMIT MESSAGE]:RESTful controllers||
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/8e064b7ac676b21be8773486e73dbbbe6455d9ca
+
+[COMMIT MESSAGE]:first||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=88&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/7a9ea0e9b2d529cc8394b254319cbb122f75a5ec
+
+[COMMIT MESSAGE]:RESTful controllers||
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/8e064b7ac676b21be8773486e73dbbbe6455d9ca
+
+[COMMIT MESSAGE]:first||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/494a061acd7a6a26c5ec39a5eaa8cf0d91c3dd77
+
+[COMMIT MESSAGE]:post orders are switched on the server now, added comments & refactpr||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/e3cb92173a2a75f0c9dcf61df8ba57506660b500
+
+[COMMIT MESSAGE]:refactor: remove nav class completely and simplify structure. refacto…||…r backbone code.
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/7a9ea0e9b2d529cc8394b254319cbb122f75a5ec
+
+[COMMIT MESSAGE]:RESTful controllers||
+=========================================================
+
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+- @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shavuori/sivut/commit/8e064b7ac676b21be8773486e73dbbbe6455d9ca
+
+[COMMIT MESSAGE]:first||
+=========================================================
+
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/0e9e572fe8860eaa37d764aba12ef442f5274bea
+
+[COMMIT MESSAGE]:adicionado teste de controle de acesso para recursos de Accountmanager||
+=========================================================
+
++ @PreAuthorize("hasPermission(#accountId, 'Account.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/edf74a845868265c577b3e69d4b2b82ec565ebd4
+
+[COMMIT MESSAGE]:adicionado testes para controle de acesso a recursos de conta e siste…||…ma de contas. algumas refatoracoes foram feitas
+=========================================================
+
++ @PreAuthorize("hasPermission(#account, 'Account.read')")
++ @PreAuthorize("hasPermission(#profile, 'Profile.read')")
++ @PreAuthorize("hasPermission(#id, 'AccountSystem.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/677eb0110a676f2117242f0d13f37c77b84e9218
+
+[COMMIT MESSAGE]:adicionada camada de seguranca de controle de acesso do spring. verif…||…icacao de acesso ao conta implementada. falta outras verificacoes
+=========================================================
+
++ @PreAuthorize("hasPermission(#accountId, 'Account.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/a683417a7a949789d4f2c77baee48f8b089060dd
+
+[COMMIT MESSAGE]:adicionado testes de controle de acesso aos recursos de transcoes||
+=========================================================
+
++ @PreAuthorize("hasPermission(#originAccountId, 'Account.read') and hasPermission(#destAccountId, 'Account.read')")
++ @PreAuthorize("hasPermission(#rootAccountId, 'Account.read')")
++ @PreAuthorize("hasPermission(#txId, 'AccountTransaction.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/cdbf16ad6a62eab9bdfcec90f39dc6127cf4aa24
+
+[COMMIT MESSAGE]:adicionado controle de acesso aos recursos de transacao e relatorios||
+=========================================================
+
++ @PreAuthorize("hasPermission(#accountId, 'Account.read')")
++ @PreAuthorize("hasPermission(#a, 'Account.read')")
++ @PreAuthorize("hasPermission(#rootAccountId, 'Account.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/camiloporto/cloudfinance/commit/cdbf16ad6a62eab9bdfcec90f39dc6127cf4aa24
+
+[COMMIT MESSAGE]:adicionado controle de acesso aos recursos de transacao e relatorios||
+=========================================================
+
++ @PreAuthorize("hasPermission(#accountId, 'Account.read')")
++ @PreAuthorize("hasPermission(#a, 'Account.read')")
++ @PreAuthorize("hasPermission(#rootAccountId, 'Account.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gerryc62/lucky-two/commit/4798feca25110ef6730dae0ec5d7e3e64fce58e8
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_MEMBER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')
