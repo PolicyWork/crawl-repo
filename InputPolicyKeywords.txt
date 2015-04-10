@@ -1,3 +1,2 @@
-@PostAuthorize(
-security:authorize
-content-security-policy
+"authorities="
+"security="

@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 //import java.util.ArrayList;
 
-public class Example1 {
+public class Example {
 
 	public static void main(String[] args) throws InterruptedException {
 

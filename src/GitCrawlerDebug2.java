@@ -166,7 +166,7 @@ public class GitCrawlerDebug2 {
 
 								By getChanges = By.xpath("//td[contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion')]");
 								
-								String getCount = By.xpath("count(//td[contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion')])");
+//								By getCount = By.xpath("count(//td[contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion')])");
 
 								List<WebElement> listChanges = driver
 										.findElements(getChanges);

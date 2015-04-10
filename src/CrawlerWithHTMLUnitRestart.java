@@ -54,8 +54,6 @@ public class CrawlerWithHTMLUnitRestart {
 					
 					//Send HTTP GET Request
 					driver.get(urlToGet);
-					
-					
 
 					/* 	Infinite loop starts here . You keep clicking on the next
 						button of search results. In case it fails, an exception is caught and
@@ -132,12 +130,9 @@ public class CrawlerWithHTMLUnitRestart {
 																	
 									for (int count = 0; count < listChanges.size(); count++) {
 										
-										
-
 										//prints all the code changes associated with each commit
 										
 										String codeChanges = listChanges.get(count).getText();
-
 																				
 										//To print only keyword matching lines
 										if(codeChanges.toLowerCase().contains(keywordLine.toLowerCase()))
@@ -161,11 +156,9 @@ public class CrawlerWithHTMLUnitRestart {
 									
 								}//This is end of if condition for listChanges.size
 
-								
 								//=============================
 								
 							}
-							
 							
 						}//match1
 						
@@ -187,12 +180,10 @@ public class CrawlerWithHTMLUnitRestart {
 							
 							break;
 						}
-
 				
 					}// Close the infinite while loop 
 
 					outputHandle.close(); 
-					
 
 				} catch (IOException e) {
 					

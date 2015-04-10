@@ -25,9 +25,9 @@ public class CommitMessageReaderDebug {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages3.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/CrawlerOutputWithCommitMessages3.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/ErrorLogging.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/ErrorLogging.txt"); //We write into this file
 
 		try {
 			
@@ -50,15 +50,15 @@ public class CommitMessageReaderDebug {
 			
 //			Integer counter = 0; //Only for tracking and debugging
 			
-			boolean restart=true;
+//			boolean restart=true;
 			
-//			boolean restart=false;
+			boolean restart=false;
 
 			while ((keywordLine = readHandle.readLine()) != null) {
 
 				try {
 					
-					String lang="java";
+					String lang="xml";
 					
 					if(restart == true)
 					{

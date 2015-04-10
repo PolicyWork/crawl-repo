@@ -72,11 +72,11 @@ public class Example1  {
       element = driver.findElement(By.className("code-list-item"));
       
       List<WebElement> elementList = new LinkedList<WebElement>();
-      
+    /*  
       for(WebElement iterator: elementList)
       {
     	  iterator =driver.findElement(By.) 
-      }
+      }*/
       
        
        

@@ -1,0 +1,19 @@
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/aecb83a82e9d75c838505240f30c2c14eff42c6d
+
+[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+=========================================================
+
+- @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/BonnerBuzzBackend/commit/aecb83a82e9d75c838505240f30c2c14eff42c6d
+
+[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+=========================================================
+
++// @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
++// @PreAuthorize("hasRole('ROLE_ADMIN')")

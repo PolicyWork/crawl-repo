@@ -50,15 +50,15 @@ public class ReadResultByLeastRecentlyIndexed {
 			
 //			Integer counter = 0; //Only for tracking and debugging
 			
-			boolean restart=true;
+//			boolean restart=true;
 			
-//			boolean restart=false;
+			boolean restart=false;
 
 			while ((keywordLine = readHandle.readLine()) != null) {
 
 				try {
 					
-					String lang="java";
+					String lang="xml";
 					
 					if(restart == true)
 					{

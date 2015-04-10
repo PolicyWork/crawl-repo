@@ -1,4 +1,721 @@
-[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=4&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
 
-[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=5&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/30b70008755b5bc162aa4ce2fadc84acb063f4b6
+
+[COMMIT MESSAGE]:SEC-1178: Updates to EL docs||
+=========================================================
+
++ application)<programlisting> @PreAuthorize("hasRole('ROLE_USER')")
++ about:<programlisting> @PreAuthorize("hasPermission(#contact, 'admin')")
++ <programlisting> @PreAuthorize("#contact.name == principal.name)")
++ example:<programlisting> @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/cd6711d21a0b372e9d120bc992a2129c26f20b4c
+
+[COMMIT MESSAGE]:Doc updates.||
+=========================================================
+
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("hasAuthority('ROLE_TELLER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/justinedelson/spring-security/commit/cd6711d21a0b372e9d120bc992a2129c26f20b4c
+
+[COMMIT MESSAGE]:Doc updates.||
+=========================================================
+
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("hasAuthority('ROLE_TELLER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cleverpig/jsfsecurity/commit/1d0e6d2d9e0f2befd816ee52b50af833d9d307e4
+
+[COMMIT MESSAGE]:first import project||
+=========================================================
+
++ // @PreAuthorize("hasRole('PERM_ACCESS_ADMIN')")
++ // @PreAuthorize("hasAnyRole('PERM_ACCESS_ADMIN','PERM_ACCESS_USER')")
++// @PreAuthorize("hasRole('PERM_ACCESS_ADMIN')")
++// @PreAuthorize("hasAnyRole('PERM_ACCESS_ADMIN','PERM_ACCESS_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ryanbradley/TicketMonster/commit/1f2a1782497b31adef65b73dbc2fdc8caf969d88
+
+[COMMIT MESSAGE]:Final fixes to Ticket Monster docs. Docs could use some editing, but …||…content is all included.
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_USER')"). By including this annotation,
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=2&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tekul/spring-security/commit/14c473960522cef5d2b6d34fdc24199cef4c9d33
+
+[COMMIT MESSAGE]:SEC-1158: Decoupling of Pre/Post annotations implementation from Spri…||…ng EL.
+=========================================================
+
++ @PreAuthorize("someMethod.py")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=3&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kurochenko/Human-Resource-System/commit/9caf0ac09d867327afd4e0beccfa11767eb05b19
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++@PreAuthorize("hasRole('" + CustomRole.ADMIN + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
++ @PreAuthorize("hasRole('" + CustomRole.LOGGED + "')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kurochenko/E-commerce-in-cloud/commit/71b2242393a8e1e280e322b3c6d9376c7b20462c
+
+[COMMIT MESSAGE]:styles added||
+=========================================================
+
++@PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/matiaseidis/social.content/commit/b7f28c7862a292b01032372883c7406f98b95634
+
+[COMMIT MESSAGE]:sss||
+=========================================================
+
+-@PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/matiaseidis/social.content/commit/0281a94811fb4bf931d2f8dfc83793f5b22dd16b
+
+[COMMIT MESSAGE]:groovy||
+=========================================================
+
++@PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/matiaseidis/social.content/commit/7cd366e0c2f6ad914e1ad68f486b829700059201
+
+[COMMIT MESSAGE]:home||
+=========================================================
+
++@PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/matiaseidis/social.content/commit/f5fea6259fef3d55801ec77cdc2d32caba2a0f21
+
+[COMMIT MESSAGE]:full login||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/matiaseidis/social.content/commit/b7f28c7862a292b01032372883c7406f98b95634
+
+[COMMIT MESSAGE]:sss||
+=========================================================
+
+-@PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=4&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/MMaksymilian/TEST-APP/commit/c54b04fa1fbd040004abddd88c155288ddbb2beb
+
+[COMMIT MESSAGE]:ajax jquery nawigacja||
+=========================================================
+
+- @PreAuthorize("hasRole('ADMIN')")
++// @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasAuthority('ADMIN')")
++// @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasAuthority('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/MMaksymilian/TEST-APP/commit/d861424f3c35a369906a78b82e40a3fa3c9a54e7
+
+[COMMIT MESSAGE]:spring security metody, zmiana pobierania deklaracji, dodałem filtr h…||…ibernate
+=========================================================
+
++ @PreAuthorize("hasRole('ADMIN')")
+- @PreAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tdelesio/Leagues/commit/0b48004a59a15b7bd0708f6cf93023cfcedcda64
+
+[COMMIT MESSAGE]:adding some missing files||
+=========================================================
+
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('admin')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('admin')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('admin')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('admin')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('admin')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('admin')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('user')")
+-// @PreAuthorize("hasRole('ROLE_HF_USER')")
++ @PreAuthorize("hasRole('user')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tdelesio/Leagues/commit/67814acfb179b8159066de1819e44c64ba41b8a0
+
+[COMMIT MESSAGE]:adding the ws project ot git||
+=========================================================
+
++// @PreAuthorize("hasRole('ROLE_HF_USER')")
++// @PreAuthorize("hasRole('ROLE_HF_USER')")
++// @PreAuthorize("hasRole('ROLE_HF_USER')")
++// @PreAuthorize("hasRole('ROLE_HF_USER')")
++// @PreAuthorize("hasRole('ROLE_HF_USER')")
++// @PreAuthorize("hasRole('ROLE_HF_USER')")
++// @PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('ROLE_HF_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lordmarkm/indgte/commit/969f5535e63f9ecdc83c152ee4683e8ac5e3d9ec
+
+[COMMIT MESSAGE]:bunch of stuff||
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dineshbabu/spring3-trial/commit/d847648cc947b5c4725b7c02010c6033891088f1
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=5&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mohchi/spring-security-request-mapping/commit/bcf03622b4f4cb83dd6423d60f895dd72af56499
+
+[COMMIT MESSAGE]:Added sample maven managed web project||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/joanluk/spring-data-rest/commit/aa64f7a09f7f7de8d7bf32080579c5eb2d7c14b6
+
+[COMMIT MESSAGE]:include code project||
+=========================================================
+
++ @PreAuthorize("hasPermission('Todo', 'add')")
++ @PreAuthorize("hasPermission('Todo', 'delete')")
++ @PreAuthorize("hasPermission('Todo', 'list')")
++ @PreAuthorize("hasPermission('Todo', 'find')")
++ @PreAuthorize("hasPermission('Todo', 'update')")
++ @PreAuthorize("hasPermission('Todo', 'search')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/heichenhardt/SpringInAction/commit/6bbee367285990831921d0599a5415620ea8b698
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pkainulainen/spring-data-solr-examples/commit/6adef5b91e3d61c2197835cf30257686478d9638
+
+[COMMIT MESSAGE]:Work started||
+=========================================================
+
++ @PreAuthorize("hasPermission('Todo', 'add')")
++ @PreAuthorize("hasPermission('Todo', 'delete')")
++ @PreAuthorize("hasPermission('Todo', 'list')")
++ @PreAuthorize("hasPermission('Todo', 'find')")
++ @PreAuthorize("hasPermission('Todo', 'update')")
++ @PreAuthorize("hasPermission('Todo', 'search')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pkainulainen/spring-data-solr-examples/commit/1b9c84415807e744b5865da44cd28a01f18af033
+
+[COMMIT MESSAGE]:First commit of criteria example||
+=========================================================
+
++ @PreAuthorize("hasPermission('Todo', 'add')")
++ @PreAuthorize("hasPermission('Todo', 'delete')")
++ @PreAuthorize("hasPermission('Todo', 'list')")
++ @PreAuthorize("hasPermission('Todo', 'find')")
++ @PreAuthorize("hasPermission('Todo', 'update')")
++ @PreAuthorize("hasPermission('Todo', 'search')")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=6&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pkainulainen/spring-data-solr-examples/commit/b3069e40c5b1bcca3a1a07a6befc1944756ea60e
+
+[COMMIT MESSAGE]:First implementation||
+=========================================================
+
++ @PreAuthorize("hasPermission('Todo', 'add')")
++ @PreAuthorize("hasPermission('Todo', 'search')")
++ @PreAuthorize("hasPermission('Todo', 'delete')")
++ @PreAuthorize("hasPermission('Todo', 'list')")
++ @PreAuthorize("hasPermission('Todo', 'find')")
++ @PreAuthorize("hasPermission('Todo', 'update')")
++ @PreAuthorize("hasPermission('Todo', 'search')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pkainulainen/spring-data-solr-examples/commit/f737fa3173e0cb3b52e280242b50a221c11d9387
+
+[COMMIT MESSAGE]:Wrote backend implementation for pagination the query results of quer…||…y methods
+=========================================================
+
++ @PreAuthorize("hasPermission('Todo', 'add')")
++ @PreAuthorize("hasPermission('Todo', 'delete')")
++ @PreAuthorize("hasPermission('Todo', 'list')")
++ @PreAuthorize("hasPermission('Todo', 'find')")
++ @PreAuthorize("hasPermission('Todo', 'update')")
++ @PreAuthorize("hasPermission('Todo', 'search')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pkainulainen/spring-data-solr-examples/commit/427341e7697c1b58a9ac2d4bc4e10c6f372fa3f1
+
+[COMMIT MESSAGE]:First commit||
+=========================================================
+
++ @PreAuthorize("hasPermission('Todo', 'add')")
++ @PreAuthorize("hasPermission('Todo', 'delete')")
++ @PreAuthorize("hasPermission('Todo', 'list')")
++ @PreAuthorize("hasPermission('Todo', 'find')")
++ @PreAuthorize("hasPermission('Todo', 'update')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bvassilis/SpringInAction/commit/0b9fdad8d38dc327773883595b0258b107061f05
+
+[COMMIT MESSAGE]:sia3||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/btpka3/btpka3.github.com/commit/de177fda6ace536ad0d61d788636ec2bfed441fc
+
+[COMMIT MESSAGE]:copy Spring Security ACL samples||
+=========================================================
+
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasPermission(#contact, 'delete') or hasPermission(#contact, admin)")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+- @PreAuthorize("hasRole('XROLE_READ_APPOINTMENT')") // 这些权限控制的注解也可以应用到接口上
++ @PreAuthorize("hasRole('XROLE_READ_APPOINTMENT')")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('XROLE_READ_STAFF')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/btpka3/btpka3.github.com/commit/f48d2c74145ce76bfa9570b516482e2664349e5e
+
+[COMMIT MESSAGE]:d||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_READ_APPOINTMENT')") // 这些权限控制的注解也可以应用到接口上
++ @PreAuthorize("hasRole('ROLE_READ_STAFF')")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=7&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/careermasud/SpringBooks/commit/393f54ed1c94c177d6381cf1b91962f303b82707
+
+[COMMIT MESSAGE]:Spring In Action created.||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tavenli/URACS/commit/5ea7b1e5f482ad71735811999d13075d34aee4e8
+
+[COMMIT MESSAGE]:Signed-off-by: Taven <lixyvip@qq.com>||
+=========================================================
+
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tomekl007/spitterMVCplusHibernate/commit/56eaf6be846c07a276af1d021b26caa3922a22af
+
+[COMMIT MESSAGE]:add custom login, using plain Text, DB, or ldap||
+=========================================================
+
++ @PreAuthorize("(hasRole('ROLE_SPITTER') and #spittle.text.length()<=140) " +
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pkainulainen/spring-mvc-test-examples/commit/2ff381e14a38eb0fd41df386c7185ed75839e691
+
+[COMMIT MESSAGE]:First implementation||
+=========================================================
+
++ @PreAuthorize("hasPermission('Todo', 'add')")
++ @PreAuthorize("hasPermission('Todo', 'delete')")
++ @PreAuthorize("hasPermission('Todo', 'list')")
++ @PreAuthorize("hasPermission('Todo', 'find')")
++ @PreAuthorize("hasPermission('Todo', 'update')")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=8&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sHlyoMa/SS-TC/commit/a4e605bce7f44f3194f02f1600deb02dd53ab5f2
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PreAuthorize("hasPermission(#user, 'View issues')")
++ @PreAuthorize("hasPermission(#user, 'View issues')")
++ @PreAuthorize("hasPermission(#user, 'View issues')")
++ @PreAuthorize("hasPermission(#user, 'Delete issue')")
++ @PreAuthorize("hasPermission(#user, 'Add issue')")
++ @PreAuthorize("hasPermission(#user, 'Add issue')")
++ @PreAuthorize("hasPermission(#user, 'Edit issue')")
++ @PreAuthorize("hasPermission(#user, 'Edit issue')")
++ @PreAuthorize("hasPermission(#user, 'View issues')")
++ @PreAuthorize("hasPermission(#user, 'Add comment')")
++ @PreAuthorize("hasPermission(#user, 'Assign to')")
++ @PreAuthorize("hasPermission(#user, 'Assign to me')")
++ @PreAuthorize("hasPermission(#user, 'Start progress')")
++ @PreAuthorize("hasPermission(#user, 'Resolve issue')")
++ @PreAuthorize("hasPermission(#user, 'Close issue')")
++ @PreAuthorize("hasPermission(#user, 'Reopen issue')")
++ @PreAuthorize("hasPermission(#user, 'Reset issue')")
++ @PreAuthorize("hasPermission(#user, 'Blocked')")
++ @PreAuthorize("hasPermission(#user, 'View projects')")
++ @PreAuthorize("hasPermission(#user, 'View projects')")
++ @PreAuthorize("hasPermission(#user, 'Add project')")
++ @PreAuthorize("hasPermission(#user, 'Add project')")
++ @PreAuthorize("hasPermission(#user, 'Edit project')")
++ @PreAuthorize("hasPermission(#user, 'Edit project')")
++ @PreAuthorize("hasPermission(#user, 'Delete project')")
++ @PreAuthorize("hasPermission(#user, 'Delete project')")
++ @PreAuthorize("hasPermission(#user, 'View roles')")
++ @PreAuthorize("hasPermission(#user, 'Add role')")
++ @PreAuthorize("hasPermission(#user, 'Add role')")
++ @PreAuthorize("hasPermission(#user, 'Delete role')")
++ @PreAuthorize("hasPermission(#user, 'Edit role')")
++ @PreAuthorize("hasPermission(#user, 'Edit role')")
++ @PreAuthorize("hasPermission(#user, 'View roles')")
++ @PreAuthorize("hasPermission(#user, 'View users')")
++ @PreAuthorize("hasPermission(#user, 'View users')")
++ @PreAuthorize("hasPermission(#user, 'View users')")
++ @PreAuthorize("hasPermission(#user, 'Add user')")
++ @PreAuthorize("hasPermission(#user, 'Add user')")
++ @PreAuthorize("hasPermission(#user, 'Delete user')")
++ @PreAuthorize("hasPermission(#user, 'Edit user')")
++ @PreAuthorize("hasPermission(#user, 'Edit user')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zliumichael/SpingInAction_SampleCode/commit/76656d40604b1fefd4c87fc34a75304a474f4799
+
+[COMMIT MESSAGE]:add sia||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/liqian008/baseAdmin/commit/89b452e2a027c833b16fd325e9936364588869d1
+
+[COMMIT MESSAGE]:修改包路径||
+=========================================================
+
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=9&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thomasma/springmvc-restful/commit/9a4ae0dc8df4cee592d5b0aedd398e3bc8a5dd97
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('customer')")
++ @PreAuthorize("hasRole('customer')")
++ @PreAuthorize("hasRole('customer')")
++ @PreAuthorize("hasRole('admin')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/oradev/sping-in-action-code-examples/commit/8507798cd70b1b8f254aa801cb29062747a2cb8f
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pkshowcase/reports/commit/169ae58373f011bace368c81e52fd7a2749fc716
+
+[COMMIT MESSAGE]:Pushed content from local repo||
+=========================================================
+
++@PreAuthorize("isAuthenticated() and hasRole('ROLE_USER')")
++@PreAuthorize("isAuthenticated() and hasAnyRole('ROLE_USER', 'ROLE_ADMIN')")
++@PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/the-ramones/red-mangolin/commit/39e6a3bc789b0bcfd69e5c8ada44f9f93646f00c
+
+[COMMIT MESSAGE]:Copied files from https://github.com/pkshowcase/reports||
+=========================================================
+
++@PreAuthorize("isAuthenticated() and hasRole('ROLE_USER')")
++@PreAuthorize("isAuthenticated() and hasAnyRole('ROLE_USER', 'ROLE_ADMIN')")
++@PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=10&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jonatanvicente/spring/commit/9c2a5eb0d0bb3ee7100b80a1fdfe4063326b35c0
+
+[COMMIT MESSAGE]:Creacion del proyecto||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lanyuancom/lanyuan/commit/5c6b63e191cdcdeeacca1880b6b3ea60acaf99cc
+
+[COMMIT MESSAGE]:2013-12-08||
+=========================================================
+
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lanyuancom/lanyuan/commit/1d08118f6a62c266fa426324db940ab0d43ed89d
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- * @PreAuthorize("hasRole('ROLE_SUPER')")
+- @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lanyuancom/lanyuan/commit/8c33b8a9d13183721a9f47c0a3535c2f1da86007
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Purushottam2005/spring-data-rest/commit/aa64f7a09f7f7de8d7bf32080579c5eb2d7c14b6
+
+[COMMIT MESSAGE]:include code project||
+=========================================================
+
++ @PreAuthorize("hasPermission('Todo', 'add')")
++ @PreAuthorize("hasPermission('Todo', 'delete')")
++ @PreAuthorize("hasPermission('Todo', 'list')")
++ @PreAuthorize("hasPermission('Todo', 'find')")
++ @PreAuthorize("hasPermission('Todo', 'update')")
++ @PreAuthorize("hasPermission('Todo', 'search')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ideng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17
+
+[COMMIT MESSAGE]:Spring In Action 3 source code||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nazavoya/bora-backstage/commit/4dfc64e278f22c1f7d59c6fcc40efd6ec1965648
+
+[COMMIT MESSAGE]:提交。||
+=========================================================
+
++ + 如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行.
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=11&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tom87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771
+
+[COMMIT MESSAGE]:download from http://www.manning.com/walls4||http://www.manning.com/walls4/
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antuansoft/SpringSecurity-MongoDB-MVC/commit/5f389a93f22606b411f03a08afae5ed606922267
+
+[COMMIT MESSAGE]:Comments views and little config changes||
+=========================================================
+
+- @PreAuthorize("hasRole('ROLE_CAMPAIGN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/antuansoft/SpringSecurity-MongoDB-MVC/commit/d84666ec60413d95ee8e0e586eb6a79ba7739fc1
+
+[COMMIT MESSAGE]:Initial Import||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_CAMPAIGN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zhangjunfang/eclipse/commit/029cb3c829ff04cbca2617042ddb11f7e84d6bf9
+
+[COMMIT MESSAGE]:aa||
+=========================================================
+
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zhangjunfang/eclipse/commit/029cb3c829ff04cbca2617042ddb11f7e84d6bf9
+
+[COMMIT MESSAGE]:aa||
+=========================================================
+
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/zhangjunfang/eclipse/commit/029cb3c829ff04cbca2617042ddb11f7e84d6bf9
+
+[COMMIT MESSAGE]:aa||
+=========================================================
+
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ * @PreAuthorize("hasRole('ROLE_SUPER')")
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
++ @PreAuthorize：该注解用来确定一个方法是否应该被执行。该注解后面跟着的是一个表达式，如果表达式的值为真，则该方法会被执行。如 @PreAuthorize("hasRole('ROLE_USER')")就说明只有当前用户具有角色 ROLE_USER的时候才会执行。
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/8fa0d610e125444ba9d60ce709d3eccb9ae0ab03
+
+[COMMIT MESSAGE]:123||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/35ae786f5005c3dabb48dbd2325538d831a8a10b
+
+[COMMIT MESSAGE]:1||
+=========================================================
+
+-@PreAuthorize("hasRole('ROLE_SPITTER)")
+-@PreAuthorize("hasRole('ROLE_SPITTER)")
+-@PreAuthorize("hasRole('ROLE_SPITTER')")
+-@PreAuthorize("(hasRole('ROLE_SPITTER') and #spittle.text.length() <= 140)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/27bc595b057e00fc083a330430a4f6bf668e1a16
+
+[COMMIT MESSAGE]:snippets||
+=========================================================
+
++@PreAuthorize("hasRole('ROLE_SPITTER)")
++@PreAuthorize("hasRole('ROLE_SPITTER)")
++@PreAuthorize("hasRole('ROLE_SPITTER')")
++@PreAuthorize("(hasRole('ROLE_SPITTER') and #spittle.text.length() <= 140)
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tdelesio/framework/commit/8396f3164b4392f4319b12b5b305d7aa1bec801c
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++@PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('ROLE_HF_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tdelesio/framework/commit/8396f3164b4392f4319b12b5b305d7aa1bec801c
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++@PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('ROLE_HF_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tdelesio/framework/commit/8396f3164b4392f4319b12b5b305d7aa1bec801c
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++@PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('ROLE_HF_USER')")
++@PreAuthorize("hasRole('ROLE_HF_USER')")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=12&q=%40PreAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
 

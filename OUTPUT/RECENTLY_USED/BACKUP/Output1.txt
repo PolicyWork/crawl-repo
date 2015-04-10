@@ -1,0 +1,217 @@
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=21&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=22&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=23&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=24&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rtcarreon/starting-project/commit/737ac1339665b2d7a8a3c207428fe4c322a213a6
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++@EnableGlobalMethodSecurity(securedEnabled=true, prePostEnabled=true) // add to method @Secured("IS_AUTHENTICATED_ANONYMOUSLY"), @Secured("ROLE_ADMIN"), @PreAuthorize("isAnonymous()"), @PreAuthorize("hasAuthority('ROLE_USER')") ref: https://github.com/spring-projects/spring-security/blob/master/docs/manual/src/asciidoc/index.adoc
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rtcarreon/starting-project/commit/737ac1339665b2d7a8a3c207428fe4c322a213a6
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++@EnableGlobalMethodSecurity(securedEnabled=true, prePostEnabled=true) // add to method @Secured("IS_AUTHENTICATED_ANONYMOUSLY"), @Secured("ROLE_ADMIN"), @PreAuthorize("isAnonymous()"), @PreAuthorize("hasAuthority('ROLE_USER')") ref: https://github.com/spring-projects/spring-security/blob/master/docs/manual/src/asciidoc/index.adoc
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=25&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=26&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=27&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=28&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=29&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=30&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alexVengrovsk/demo/commit/afd8abb1b14329085c95c609b72a963f4ba14149
+
+[COMMIT MESSAGE]:1||
+=========================================================
+
++ // @PreAuthorize("hasRole('ROLE_MANAGER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alexVengrovsk/demo/commit/afd8abb1b14329085c95c609b72a963f4ba14149
+
+[COMMIT MESSAGE]:1||
+=========================================================
+
++ // @PreAuthorize("hasRole('ROLE_MANAGER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alexVengrovsk/demo/commit/afd8abb1b14329085c95c609b72a963f4ba14149
+
+[COMMIT MESSAGE]:1||
+=========================================================
+
++ // @PreAuthorize("hasRole('ROLE_MANAGER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/elkouhen/catalogue-formation/commit/69d45b94fd780e8a0faf7a0e4b756f0887c9fadd
+
+[COMMIT MESSAGE]:mise en place oauth||
+=========================================================
+
+- @PreAuthorize("#oauth2.clientHasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/elkouhen/catalogue-formation/commit/ccf8dc3487314e19e41293ecfbfffb8def50a18e
+
+[COMMIT MESSAGE]:oauth||
+=========================================================
+
++ @PreAuthorize("#oauth2.clientHasRole('ROLE_USER')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=31&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/icefireunicorn/springinaction3rd-demo/commit/3661beb56d7253c83d6faa6c3b9b108cf890229b
+
+[COMMIT MESSAGE]:add||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=32&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=33&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergeevii123/gwtcrud/commit/38cf23051880ef6b18b9d57fb021d97cc9e75c9b
+
+[COMMIT MESSAGE]:1||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergeevii123/gwtcrud/commit/38cf23051880ef6b18b9d57fb021d97cc9e75c9b
+
+[COMMIT MESSAGE]:1||
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jherranzm/informes2015/commit/1bf4e6a199e66b22831267013fe25c4da86c28a6
+
+[COMMIT MESSAGE]:Commit inicial.||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nazar-art/SpringInAction/commit/f365c09374613f658939706b8d89ebfe2f1452a6
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SPITTER') and #amount > 10")
++ @PreAuthorize("#input.length() <= 3")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=34&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=35&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=36&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/romoAlmudena/tfg/commit/2d1b7b650117e4538a6823c9480dc20a9bfaf1d4
+
+[COMMIT MESSAGE]:Renombrado proyecto.||Reorganizacion de los módulos.
+
+Funcionando.
+
+TODO
+Next Step ---- Poner todos en todos los services de los módulos el estilo del de academic term (se deben pasar los objetos)
+=========================================================
+
+-// @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_PROFESSOR')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=37&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=38&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/houssoli/mule-example-spring-security/commit/7a54d7af89e54ecf129d0625ed29c7801835f245
+
+[COMMIT MESSAGE]:Added log4j.properties for configuring log levels||
+=========================================================
+
+-@PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+- @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/houssoli/mule-example-spring-security/commit/f22125aa6ed361dbf06ed2e07ce9cc7ddaec2427
+
+[COMMIT MESSAGE]:Initial development||
+=========================================================
+
++@PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=39&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=40&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=41&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/irajghasemi/rapid/commit/8bbfc0c9569d607857a45a52fa863e53f3ffbfd5
+
+[COMMIT MESSAGE]:First Commit||
+=========================================================
+
++ @PreAuthorize("#oauth2.clientHasRole('ROLE_CLIENT')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/irajghasemi/rapid/commit/8bbfc0c9569d607857a45a52fa863e53f3ffbfd5
+
+[COMMIT MESSAGE]:First Commit||
+=========================================================
+
++ @PreAuthorize("#oauth2.clientHasRole('ROLE_CLIENT')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=42&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=43&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=44&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=45&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=46&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
