@@ -51,7 +51,6 @@ public class CommitMessageReaderDebug {
 //			Integer counter = 0; //Only for tracking and debugging
 			
 //			boolean restart=true;
-//			sdfds
 			
 			boolean restart=false;
 
@@ -77,15 +76,6 @@ public class CommitMessageReaderDebug {
 				
 					System.out.println("urlToGet is : "+urlToGet);
 					
-//					if(counter!=0)
-//					{
-//						counter = 0;   //not required actually to reset the counter for every new search keyword
-//						Thread.sleep(10000L);
-//						Thread.sleep(10000L);
-//						Thread.sleep(10000L);
-//						Thread.sleep(10000L);
-//						Thread.sleep(10000L);
-//					}
 
 					//Send HTTP GET Request
 					driver.get(urlToGet);
@@ -103,8 +93,6 @@ public class CommitMessageReaderDebug {
 						
 //						counter=counter+1;  //Only for tracking and debugging
 						
-						System.out.println("Marker..."); //Only for tracking and debugging
-											
 						List<WebElement> results = driver.findElements(By.xpath("//*[@id=\"code_search_results\"]/div[1]/div/p/a[2]"));
 						
 						List<String> urlsOfFileCommits = new LinkedList<String>();
@@ -161,6 +149,8 @@ public class CommitMessageReaderDebug {
 								String commitMessage = commitTitle+"||"+commitMessageDesc;
 								
 //								Boolean gotMatchingText = false;
+								
+//								GET ALL THE CODE CHANGES ON THE PAGE - LOOK FOR LINES STARTING WITH + AND -
 															
 								String search="//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]";
 								//String search="//td[contains(@class,'blob-code blob-code-deletion')]";
