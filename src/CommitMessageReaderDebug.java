@@ -51,6 +51,7 @@ public class CommitMessageReaderDebug {
 //			Integer counter = 0; //Only for tracking and debugging
 			
 //			boolean restart=true;
+//			sdfds
 			
 			boolean restart=false;
 
