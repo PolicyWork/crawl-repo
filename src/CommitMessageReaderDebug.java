@@ -25,9 +25,9 @@ public class CommitMessageReaderDebug {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/CrawlerOutputWithCommitMessages3.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/CrawlerOutput_Round2_run1.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/ErrorLogging.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/ErrorLogging_Round2_run1.txt"); //We write into this file
 
 		try {
 			
@@ -58,11 +58,11 @@ public class CommitMessageReaderDebug {
 
 				try {
 					
-					String lang="xml";
+					String lang="java";
 					
 					if(restart == true)
 					{
-						urlToGet = "https://github.com/search?l=java&o=asc&p=5&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
+						urlToGet = "https://github.com/search?l=java&p=89&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93"; //for restart
 //						keywordLine = "intercept-url pattern";
 						restart=false;
 					}
@@ -190,7 +190,6 @@ public class CommitMessageReaderDebug {
 													
 													outputHandle.write("=========================================================\n\n");
 												}
-													
 														
 												System.out.println("Commit Message:->"+commitMessage);
 												
@@ -220,19 +219,6 @@ public class CommitMessageReaderDebug {
 								
 								System.out.println("BEFORE GET REQUEST _+_+_+_+_+_+");
 								
-//								System.out.println("Counter value:=" + counter);
-								
-//								if (counter%9 == 0)
-//								{
-//									System.out.println("Before more sleep");
-//									Thread.sleep(10000L);
-//									Thread.sleep(10000L);
-//									Thread.sleep(10000L);
-//									Thread.sleep(10000L);
-//									Thread.sleep(10000L);
-//									System.out.println("After more sleep");
-//								}
-								
 								driver.get(nextPageUrl);
 								
 						}catch(Exception e){
@@ -241,7 +227,6 @@ public class CommitMessageReaderDebug {
 							
 							break;  //to break out of infinite loop
 						}
-
 				
 					}// Close the infinite while loop 
 

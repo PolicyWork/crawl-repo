@@ -1,0 +1,1614 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/4e4242d01096f268a1f293a94515545dc6f3c8f4
+
+[COMMIT MESSAGE]:SEC-1354: Added integration tests for combinations of @PreAuthorize and||@Secured annotations.
+=========================================================
+
++ @PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('ROLE_A')")
++ @PreAuthorize("hasRole('ROLE_A')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PreAuthorize("denyAll")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/7f184bb30dfff236822cb32eb18e915e9a72f28a
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade for loan disbursement||
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/b8b506d97124850f3c31fd0619251396a4869e94
+
+[COMMIT MESSAGE]:MIFOS-4322: service facades around retrieving account details.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/11723a15f7d99dc6bea935fd7a970e8c37486a8b
+
+[COMMIT MESSAGE]:MIFOS-4322: fix failing tests due to loan details broken, service fac…||…ade for repay loan.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/816da9f77fdfdb6d60f9e75292309b60b3bea05e
+
+[COMMIT MESSAGE]:MIFOS-4322: loan service facade refactoring for retreiving loan infor…||…mation.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/7e387bae2d8394e8aab8bc05e5a540f69df5e195
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade around early and full repayment of loan.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/49ace049973ecafef58fd4179af1bbcd674adc6c
+
+[COMMIT MESSAGE]:MIFOS-4322: refactor loan service facades||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/5b25e3017f72f0bae5fdf972221737533a8e5528
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade for creating multiple loan accounts for cl…||…ients
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/8d295324614db50232f558648535c32fe09e3a47
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade for retrieve multiple loan details||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/3a5598e87d935c4a35dd5f5c1ff846b73e4e01e3
+
+[COMMIT MESSAGE]:MIFOS-4322: fix failing acceptance tests for reversal of loan disburs…||…als, service facade for creating multipe loan accounts
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_APPROVE_LOANS_IN_BULK', 'ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
+- @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_APPROVE_LOANS_IN_BULK', 'ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/011d0aa6d4f5f68372c886e3fd3185056cb75182
+
+[COMMIT MESSAGE]:MIFOS-4322: spring security for reversing loan disbursals||
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_REVERSE_LOAN_DISBURSAL')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_REVERSE_LOAN_DISBURSAL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/9446e0b48ff37e34ac4d33d2db40a13a70d96e09
+
+[COMMIT MESSAGE]:MIFOS-4322: service facades for reversing loan disbursals||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/f6b577e919f47958c87ec008ce3ed168257c0ec7
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade around updating account status in bulk.||
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DISBURSE_LOAN')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DISBURSE_LOAN')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/d8ce6eb424b850c992d5ad3554e22bab50d202c9
+
+[COMMIT MESSAGE]:MIFOS-4322: service facades arond loan installment details||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/9ff5fd25c1e7ef81c5dc313b39771f71317e8415
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade around loan disbursement data retrieval||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/714aec950c0708ac7100b9fcd4075d0257f4f0b9
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade for loan redo.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/3508a1393d5805a2b13a1e65a1de16a4cd587353
+
+[COMMIT MESSAGE]:MIFOS-4322: refactor service facade around creating loan account||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/1c70be60952d7777e24f6aeaf80b9e2e5fa06a2e
+
+[COMMIT MESSAGE]:MIFOS-4322: refactor loanServiceFacades for loan creation functioanlity.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/c3863748811151be8d9aeb7b87e5ca34fe2c8dc8
+
+[COMMIT MESSAGE]:MIFOS-4322: refactor service facade for retrieving load reference dat…||…a for loan creation.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/f79c6fb2f0d0666aa34502c9f66f050105d38105
+
+[COMMIT MESSAGE]:MIFOS-4322: refactor service facades used from LoanAccountAction.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/ab760dbdfd9038d0c3392305db2c02bcc99451e3
+
+[COMMIT MESSAGE]:MIFOS-4322: service facades around add notes to loan account, disable…||… verification of client loan updated dates in acceptance tests
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/0312121c378aa017621472427c63cab4acd10fb9
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade for updating loan account status.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/1eec5bb3035235059e6a938fb79964734189148f
+
+[COMMIT MESSAGE]:MIFOS-2514: integrate interest calculation with historical interest d…||…etails for savings product and account.
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/0312121c378aa017621472427c63cab4acd10fb9
+
+[COMMIT MESSAGE]:MIFOS-4322: service facade for updating loan account status.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/e50586ea2f8895f1a6e3d6b3ef927032b2485396
+
+[COMMIT MESSAGE]:MIFOS-4137: remove locale from services signature.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/9b66ade00d22703bb2b31d360a44e9675bca6874
+
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for adding and view all notes.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/48716ac5887a548763c3f69ae1e457f469bc72b6
+
+[COMMIT MESSAGE]:MIFOS-4137: add service facade for waive of overdue deposits.||
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_UPDATE_SAVINGS_ACCOUNT')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_UPDATE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_WAIVE_NEXT_SAVINGS_DEPOSIT_DUE_AMOUNT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_WAIVE_OVER_DUE_SAVINGS_DEPOSITS')")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/300bea64662c09544eb24a81e317e6c0cfa0a919
+
+[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/a3dd51962248d60a61dca6012dbc4745e95419f5
+
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for edit, update and retrieval of acc…||…ount status and transaction history.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/28d1b11c084745876a7b85d929fa162a01b83b9d
+
+[COMMIT MESSAGE]:fix merge conflicts||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/e0e9af2544ff5c295f5f09264915297193bdc261
+
+[COMMIT MESSAGE]:MIFOS-4137: add service facade to handle changing status for savings …||…account.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/f8cad7a7defc4f9b5a432fc0ac5187890a0e5bed
+
+[COMMIT MESSAGE]:MIFOS-4137: add service facade for savings account creation. Use fact…||…ory methods for creating savings account.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/308845c3adda51a41e2dd576b63daec26d724f3d
+
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for savings account creation steps.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/b257ed7d67d600b801ffa6bfef2a091daf9ba5f6
+
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for adjusting savings account.||
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CLOSE_SAVINGS_ACCOUNT')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CLOSE_SAVINGS_ACCOUNT')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/d777ea5bfd9aceba6282954e02f1ed08f358c10b
+
+[COMMIT MESSAGE]:MIFOS-4137: add service facades for deposit and withdrawals.||
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/44115020ec55ae5d3727e4b3728f1c643813971d
+
+[COMMIT MESSAGE]:MIFOS-3868: add service facades around savings account closure.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/7ffc7ecc5cb0ec758ca6bcbe58222fd46877ed5c
+
+[COMMIT MESSAGE]:MIFOS-3867: point interest posting batch job to spiked solution for d…||…etermining interest calculation for all posting periods of account activity.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/2d951aaaa70b712b1b1cb7d019084a683bd2b5f2
+
+[COMMIT MESSAGE]:MIFOS-3687: start with implementing calculating account balances and …||…interest for each eligible interest posting period.
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/e8bc5d2bffe4666b07b76a8f83b9d08ed95d7034
+
+[COMMIT MESSAGE]:Removed boolean flag for balance, and remove calculateInterest create…||…d as utility, not required anymore
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/9bcc6b2c190e8fddb7eb70e62b4b5eeaf932a210
+
+[COMMIT MESSAGE]:MIFOS-3481 : Moving minimum balance reached condition SavingsServiceF…||…acadeWebTier.handleInterestCalculationAndPosting(savingsId)
+
+ InterestCalculationPeriodDetail added
+ - Balance before the interval to calculate running balance correctly
+ - interest rate to do actual interest calculation
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/4c6de194695cad9e07d8f93bf2e2f2161b8ae0b5
+
+[COMMIT MESSAGE]:MIFOS-3635: add service facades for despoit and withdrawal transactions.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/1cb4ab84d444ae7864c888bdd3aa85e88b4f2f69
+
+[COMMIT MESSAGE]:MIFOS-3481: support data retrieval of account transactions.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slezicz/Spring-Roo-Pia-Car-Park/commit/7a75ece2d4ee1c1755dc470af16f966e6724ef04
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser-OLD/commit/5a093fc9d04c7b26742721807a03b7f3ab91daf4
+
+[COMMIT MESSAGE]:Massive checkin||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#traitUom,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER') and (hasPermission(#experiment,'ADMINISTRATION'))")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_USER') and (#trait.id != null and (hasPermission(#trait,'WRITE') or hasPermission(#trait,'ADMINISTRATION')))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhavjava/gkhead/commit/b558861eb8b7fb11c5cce8965400582b6221336c
+
+[COMMIT MESSAGE]:twentyone||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_PENALTY')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_PENALTY')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_PAYMENT_TO_ACCOUNT_USING_SAVINGS_TRANSFER') and hasRole('Can repay loan')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_UPDATE_LATENESS_DORMANCY')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_DEFINE_PRODUCT_MIX', 'ROLE_CAN_EDIT_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_HIDDEN_MANDATORY_FIELDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_HIDDEN_MANDATORY_FIELDS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_ACCEPTED_PAYMENT_TYPES')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_PRODUCT_CATEGORIES')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_PRODUCT_CATEGORIES')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_PRODUCT', 'ROLE_CAN_EDIT_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_PRODUCT', 'ROLE_CAN_EDIT_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_UPDATE_BATCH_JOBS_CONFIGURATION')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_RUN_BATCH_JOBS_ON_DEMAND')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_DEFINE_CHECKLIST', 'ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_FEE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_FEE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_FEE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SET_MONTH_CLOSING_DATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_OPEN_SHUTDOWN_PAGE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SHUT_DOWN_MIFOS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SHUT_DOWN_MIFOS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_CENTER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_CENTER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CENTER_INFORMATION_AND_CHANGE_CENTER_STATUS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CENTER_INFORMATION_AND_CHANGE_CENTER_STATUS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_CLIENT_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_CLIENT_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and (hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO') or (hasRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE') and hasPermission(#clientStatus, 'CLIENT_STATUS') and hasPermission(#loanOfficerId, 'LOAN_OFFICER_ID')))")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and (hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO') or (hasRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE') and hasPermission(#clientStatus, 'CLIENT_STATUS') and hasPermission(#loanOfficerId, 'LOAN_OFFICER_ID')))")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_UNBLACKLIST_CLIENT') and hasRole('ROLE_CHANGE_CLIENT_ACTIVE_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_MFI_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_MFI_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REMOVE_CLIENT_FROM_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REMOVE_CLIENT_FROM_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_UPDATE_GROUP_MEMBERSHIP_OF_CLIENT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_GROUP_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_GROUP_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_GROUP_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_GROUP_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_CENTER_MEMBERSHIP_OF_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_CENTER_MEMBERSHIP_OF_GROUP')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DISBURSE_LOAN')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DISBURSE_LOAN')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_APPROVE_LOANS_IN_BULK', 'ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_APPROVE_LOANS_IN_BULK', 'ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK') and hasPermission(#accountsForUpdate, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated() and hasPermission(#accountForUpdate, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_REVERSE_LOAN_DISBURSAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_REVERSE_LOAN_DISBURSAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CLOSE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CLOSE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_UPDATE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_WAIVE_NEXT_SAVINGS_DEPOSIT_DUE_AMOUNT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_WAIVE_OVER_DUE_SAVINGS_DEPOSITS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_TRANSFER_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_MIFOS_LOGO')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/izeye/playground/commit/18fd2be653c7bc150097b455c0f9fe78bd425331
+
+[COMMIT MESSAGE]:Implement Naver search rank service.||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_SUPERVISOR') or #user.name == authentication.name")
++ // @PreAuthorize("hasPermission(#user, 'changeProfile')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/izeye/playground/commit/06972b27dfe4dc74d7db6ce54e866aaf220d61b6
+
+[COMMIT MESSAGE]:Implement CVS parsing service.||
+=========================================================
+
++ // @PreAuthorize("hasRole('ROLE_SUPERVISOR')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/projeto-coruja/Profetas-Coruja/commit/8750bbc8b8c0b102da0fd28ec6c27f69b9bf6100
+
+[COMMIT MESSAGE]:Profile-roles||
+=========================================================
+
+- @PreAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/projeto-coruja/Profetas-Coruja/commit/b1e2026ef5cf5fe697595126b4dd5c5743244757
+
+[COMMIT MESSAGE]:Personagem, Fontes, GrupoMovimento||
+=========================================================
+
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
++ @PreAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ivost/java/commit/3db39e446ce4cfe942a489508ce81990244b3e35
+
+[COMMIT MESSAGE]:security problems||
+=========================================================
+
+- @PreAuthorize("#employee.email == principal?.username")
++ //@PreAuthorize("#employee.email == principal?.username")
+- //@PreAuthorize("denyAll()")
++// //@PreAuthorize("denyAll()")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=24&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/spring-security-DEMO/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PreAuthorize("denyAll")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Fruzenshtein/YourCart/commit/27a65ef95780ca1dfdd2941edef8543e5ca47edb
+
+[COMMIT MESSAGE]:Security: Grained controll||First push of Spring Security grained controll
+Need to be updated and tested in the future
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("#shopDTO.ownerId == principal.id")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or #userDetails.id == principal.id")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("#user.id == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Fruzenshtein/YourCart/commit/27a65ef95780ca1dfdd2941edef8543e5ca47edb
+
+[COMMIT MESSAGE]:Security: Grained controll||First push of Spring Security grained controll
+Need to be updated and tested in the future
+=========================================================
+
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("#shopDTO.ownerId == principal.id")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ADMIN') or #userDetails.id == principal.id")
++ @PreAuthorize("isAnonymous()")
++ @PreAuthorize("#user.id == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/490222013d458b57cf596712c33ae389b4363c58
+
+[COMMIT MESSAGE]:perusteen korjaus julkaisun jälkeen||Lisättu KORJAUS-oikeus update-palveluihin (WIP)
+=========================================================
+
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'LUKU')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'LUKU')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'perusteenmetatiedot', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#po.dto.id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#po.dto.id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#po.dto.id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#po.id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#po.id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#po.id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS') or hasPermission(#viiteId, 'tutkinnonosaviite', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS') or hasPermission(#id, 'perusteenosa', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#tov.id, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#tov.id, 'tutkinnonosaviite', 'MUOKKAUS') or hasPermission(#tov.id, 'tutkinnonosaviite', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+- @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS') or hasPermission(#perusteId, 'peruste', 'KORJAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/2db3e0c5cd0b87853de9c42511c0b5eccbb27c07
+
+[COMMIT MESSAGE]:Tutkinnon osa revert-note tukee nyt tutkinnonosaviitettä.||
+=========================================================
+
++ @PreAuthorize("hasPermission(#id, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#tov.id, 'tutkinnonosaviite', 'MUOKKAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/8537365888800646f1bd2243b76a9cfacb546537
+
+[COMMIT MESSAGE]:Tutkinnon osien käsittely viitteiden avulla refactorointi.||
+=========================================================
+
++ @PreAuthorize("hasPermission(#perusteId, 'peruste', 'MUOKKAUS')")
++ @PreAuthorize("isAuthenticated()")
+- @PreAuthorize("returnObject?.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'perusteenosa', 'LUKU')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
+- @PreAuthorize("hasPermission(#id, 'perusteenosa', 'LUKU')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'tutkinnonosaviite', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'tutkinnonosaviite', 'LUKU')")
++ @PreAuthorize("hasPermission(#id, 'tutkinnonosaviite', 'LUKU')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'MUOKKAUS')")
++ @PreAuthorize("hasPermission(#viiteId, 'tutkinnonosaviite', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/a5450d42d1c032bb495ee6fe990e5583a24f32dd
+
+[COMMIT MESSAGE]:MIFOS-6100: While disbursing the loan, if the charges are debited thr…||…ough the savings account, the entry is not getting generated in the Savings Account. But the loan contract is credited with the charges
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/6cb006d0fe21e49e64fb2a740c1c93526184c215
+
+[COMMIT MESSAGE]:MIFOSAC-72: Check guarantors||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/85039d5c8d37c0104e2bc214b41171c67156ac90
+
+[COMMIT MESSAGE]:MIFOS-5627: Ability to remove guaranty||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/186a9abadf60e3cf326f80fd9a0c7a580dba4981
+
+[COMMIT MESSAGE]:MIFOS-5627: Link Guarantor to Clients||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/a8bfc3f08a3e72eae7ef9952cae8119c8eac32d8
+
+[COMMIT MESSAGE]:MIFOS-5961: Fixed interest amount not equal for clients with fee and …||…without fee
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/497cfca531457afdef1b439a7e42c81171b4fddf
+
+[COMMIT MESSAGE]:MIFOS-5917: Added possibility to attach files during Loan creation||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/b47f05bb265cc399fd082da8b3fffd1c3e8c5ae0
+
+[COMMIT MESSAGE]:MIFOS-5807: Added group loan repayment ability.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/4dc99242672dceb464a63d2b0ce3ab4be7b810b5
+
+[COMMIT MESSAGE]:MIFOS-5616: added possibility to attach admin documents to payments.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/71f7363aee6a27169c81aa65ee402e5205564368
+
+[COMMIT MESSAGE]:MIFOS-5408: configured spring security 'hasPermission' expression eva…||…luator. Custom PermissionEvaluator and Permission implementation.
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+- @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK') and hasPermission(#accountsForUpdate, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasPermission(#accountForUpdate, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/e12ac51c6b027a192f098acf976a01222bf7da80
+
+[COMMIT MESSAGE]:MIFOS-5588: Fixed, added methods which no need role||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/d0d4ed460ff7bc7578e391ecb926f63b42d7376b
+
+[COMMIT MESSAGE]:MIFOS-5456: Support for savings payments in 'Repay loan' screen||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/becf76db367a4c42cfef9f27c144728ee2986033
+
+[COMMIT MESSAGE]:MIFOS-5432: added GLIM details and 'original repayment schedule' mobi…||…le view.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/994bf5effd69002e5223ca46c860ab8046012527
+
+[COMMIT MESSAGE]:MIFOS-5182: Added interface for pre-payments||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/9cfd59785fa9372adc439683074396b613dea76f
+
+[COMMIT MESSAGE]:FIXED MIFOS-5451: Add option to apply automatic penalties via Apply C…||…harges dropdown
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/3142fa715d7a51a6d4c6a6f73e138a134921c1bf
+
+[COMMIT MESSAGE]:MIFOS-5387: Added possibility to remove penalties from loan account||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/af00cac18309425d2bba177b38261df25d50ddb1
+
+[COMMIT MESSAGE]:MIFOS-3305: Added the possibility to clear overpayments.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/356bdb9827088420a09cf33e06d189ed67463a44
+
+[COMMIT MESSAGE]:Merge branch 'g-maint'||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/4802eaadaac7ed3f0262e09b30c577d28d8c6a10
+
+[COMMIT MESSAGE]:MIFOS-5223 Implement REST Api method for repaying the whole Loan amount||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/7da43862a460c443cd970abb6e35edd4fcf41c42
+
+[COMMIT MESSAGE]:Merge branch 'g-maint'||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/3eb9b7eb5bf96d19662c865098b9f9fe1bf3a3d4
+
+[COMMIT MESSAGE]:FIXED MIFOS-5148: Added getLoanRepaymentScheduleByNumber method.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/ecdfd14f3804f77a8da2f37139f2fa3dba1e9899
+
+[COMMIT MESSAGE]:support overpayment for demo. no interest recalculation at present.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/846686cf8aa9829f7389266b30ce95dac88b7aa0
+
+[COMMIT MESSAGE]:Merge branch 'g-maint'||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
+- @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/b8a2800ef78b27dc8b88bf73df81aca5573934c8
+
+[COMMIT MESSAGE]:MIFOS-5079: add permissions to create loan, redo loan and create savi…||…ngs account services.
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
+- @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
+- @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/cd7bdd6d75f63687d3aa5606668bb36febdbcf3f
+
+[COMMIT MESSAGE]:MIFOS-5067: remove legacy service methods for loan creation and redo.…||… remove cashflow struts adaptor and commented out code in loan account action.
+=========================================================
+
+- @PreAuthorize("isFullyAuthenticated()")
+- @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gregturn/flights/commit/e7bac803c562c2c646205fe86e07a7ebe1e6c204
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreAuthorize("hasAuthority('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/habuma/SpringREST/commit/528819bc4d74527164d0e32f4c3ade7a585939f6
+
+[COMMIT MESSAGE]:Add SDR/OAuth example||
+=========================================================
+
++ @PreAuthorize("#oauth2.hasScope('read')")
++ @PreAuthorize("#oauth2.hasScope('read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/madhavjava/gkhead/commit/b558861eb8b7fb11c5cce8965400582b6221336c
+
+[COMMIT MESSAGE]:twentyone||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_PENALTY')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_PENALTY')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_PAYMENT_TO_ACCOUNT_USING_SAVINGS_TRANSFER') and hasRole('Can repay loan')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_UPDATE_LATENESS_DORMANCY')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_DEFINE_PRODUCT_MIX', 'ROLE_CAN_EDIT_PRODUCT_MIX')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_HIDDEN_MANDATORY_FIELDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_HIDDEN_MANDATORY_FIELDS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_ACCEPTED_PAYMENT_TYPES')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_PRODUCT_CATEGORIES')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_PRODUCT_CATEGORIES')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_PRODUCT', 'ROLE_CAN_EDIT_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_PRODUCT', 'ROLE_CAN_EDIT_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_SAVINGS_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_LOAN_PRODUCT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_UPDATE_BATCH_JOBS_CONFIGURATION')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_RUN_BATCH_JOBS_ON_DEMAND')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_DEFINE_CHECKLIST', 'ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_CHECKLIST')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CHART_OF_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_FEE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_DEFINE_FEE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_FEE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SET_MONTH_CLOSING_DATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CREATE_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_MODIFY_USER')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_OPEN_SHUTDOWN_PAGE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SHUT_DOWN_MIFOS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_SHUT_DOWN_MIFOS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_VIEW_SYSTEM_INFO')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_CLIENTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_IMPORT_SAVINGS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_CENTER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_NEW_CENTER')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CENTER_INFORMATION_AND_CHANGE_CENTER_STATUS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MODIFY_CENTER_INFORMATION_AND_CHANGE_CENTER_STATUS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_CLIENT_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_CLIENT_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and (hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO') or (hasRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE') and hasPermission(#clientStatus, 'CLIENT_STATUS') and hasPermission(#loanOfficerId, 'LOAN_OFFICER_ID')))")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and (hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO') or (hasRole('ROLE_CREATE_CLIENT_IN_SAVE_FOR_LATER_STATE') and hasPermission(#clientStatus, 'CLIENT_STATUS') and hasPermission(#loanOfficerId, 'LOAN_OFFICER_ID')))")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_UNBLACKLIST_CLIENT') and hasRole('ROLE_CHANGE_CLIENT_ACTIVE_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_PERSONAL_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_MFI_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_EDIT_CLIENT_MFI_INFO')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REMOVE_CLIENT_FROM_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REMOVE_CLIENT_FROM_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_UPDATE_GROUP_MEMBERSHIP_OF_CLIENT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_GROUP_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_GROUP_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CREATE_GROUP_IN_SAVE_FOR_LATER_STATE', 'ROLE_CREATE_GROUP_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_CENTER_MEMBERSHIP_OF_GROUP')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_CENTER_MEMBERSHIP_OF_GROUP')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_LOAN_IN_SAVE_FOR_LATER_STATE', 'ROLE_CAN_CREATE_NEW_LOAN_IN_SUBMIT_FOR_APPROVAL_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_REDO_CAN_CREATE_BACKDATED_LOANS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DISBURSE_LOAN')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_DISBURSE_LOAN')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_APPROVE_LOANS_IN_BULK', 'ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_APPROVE_LOANS_IN_BULK', 'ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_APPROVE_LOANS_IN_BULK') and hasPermission(#accountsForUpdate, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated() and hasPermission(#accountForUpdate, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_REVERSE_LOAN_DISBURSAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_REVERSE_LOAN_DISBURSAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CREATE_MULTIPLE_LOAN_ACCOUNTS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CLOSE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CLOSE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_MAKE_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_EDIT_UPDATE_SAVINGS_ACCOUNT')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_WAIVE_NEXT_SAVINGS_DEPOSIT_DUE_AMOUNT')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_WAIVE_OVER_DUE_SAVINGS_DEPOSITS')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasAnyRole('ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_APPROVAL_STATE', 'ROLE_CAN_CREATE_NEW_SAVINGS_ACCOUNT_IN_SAVE_FOR_LATER_STATE')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_TRANSFER_FUNDS')")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_ADJUST_SAVINGS_DEPOSIT_OR_WITHDRAWAL')")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated() and hasRole('ROLE_CAN_CHANGE_MIFOS_LOGO')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/auntaru/jtelmon/commit/4c4d9bb456ffbe712b71d301c494cb1ee2708ebb
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PreAuthorize("hasAuthority('VIEW_TICKETS')")
++ @PreAuthorize("hasAuthority('VIEW_TICKETS')")
++ @PreAuthorize("hasAuthority('VIEW_TICKET')")
++ @PreAuthorize("#ticket.id == 0 and hasAuthority('CREATE_TICKET')")
++ @PreAuthorize("(authentication.principal.equals(#ticket.customer) and " +
++ @PreAuthorize("hasAuthority('DELETE_TICKET')")
++ @PreAuthorize("hasAuthority('VIEW_COMMENTS')")
++ @PreAuthorize("#comment.id == 0 and hasAuthority('CREATE_COMMENT')")
++ @PreAuthorize("(authentication.principal.equals(#comment.customer) and " +
++ @PreAuthorize("hasAuthority('DELETE_COMMENT')")
++ @PreAuthorize("hasAuthority('VIEW_ATTACHMENT')")
++ @PreAuthorize("authentication.principal.username.equals(#user) and " +
++ @PreAuthorize("authentication.principal.username.equals(#user) and " +
++ @PreAuthorize("authentication.principal.username.equals(#user) and " +
++ @PreAuthorize("authentication.principal.username.equals(#message.user) and " +
++ @PreAuthorize("hasAuthority('VIEW_CHAT_REQUESTS')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=25&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tekul/spring-security/commit/4e4242d01096f268a1f293a94515545dc6f3c8f4
+
+[COMMIT MESSAGE]:SEC-1354: Added integration tests for combinations of @PreAuthorize and||@Secured annotations.
+=========================================================
+
++ @PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('ROLE_A')")
++ @PreAuthorize("hasRole('ROLE_A')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/matsev/spring-testing/commit/46403f8518fbdf12e49c0f2e68a8a0f5c7657b67
+
+[COMMIT MESSAGE]:Added Spring Security and implemented Basic Auth.||
+=========================================================
+
++ @PreAuthorize("hasAuthority('ACCOUNT_OWNER')")
++ @PreAuthorize("hasAuthority('ACCOUNT_OWNER')")
++ @PreAuthorize("hasAuthority('ACCOUNT_OWNER')")
++ @PreAuthorize("hasAuthority('ACCOUNT_OWNER')")
++ @PreAuthorize("hasAuthority('ACCOUNT_OWNER')")
++ @PreAuthorize("hasAuthority('ACCOUNT_OWNER')")
++ @PreAuthorize("hasAuthority('ACCOUNT_OWNER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mrjabba/spring-security/commit/4e4242d01096f268a1f293a94515545dc6f3c8f4
+
+[COMMIT MESSAGE]:SEC-1354: Added integration tests for combinations of @PreAuthorize and||@Secured annotations.
+=========================================================
+
++ @PreAuthorize("denyAll")
++ @PreAuthorize("hasRole('ROLE_A')")
++ @PreAuthorize("hasRole('ROLE_A')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bozzz91/board/commit/65a701586d34a71e95bfdc8d261780025f26215e
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ @PreAuthorize("hasRole('ROLE_ANONYMOUS')")
++ @PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("hasRole('ROLE_USER')")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("hasRole('ROLE_USER')")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("hasRole('ROLE_USER')")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("hasRole('ROLE_USER')")
++ //@PreAuthorize("isAuthenticated()")
++ //@PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
++ @PreAuthorize("hasRole('ROLE_ADMIN')")
++ @PreAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/51731ef2e233b354b7d0a43d2e19227f46179e08
+
+[COMMIT MESSAGE]:MIFOS-5632: Added ability to permission based editing Question Group.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/fe50b1749353a6bf8dbc9bed1e49005c3a242dbb
+
+[COMMIT MESSAGE]:MIFOS-5408: UI input for mifos role activity restriction.||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/bda9889808e3836b1b555c3709b3454333b47ebb
+
+[COMMIT MESSAGE]:MIFOS-5562: Added permissions checking in Pentaho reports||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/6e45ab3e7995ff9fb91e48aa5c005a4c7563dc97
+
+[COMMIT MESSAGE]:Added service facade for roles and permissions||
+=========================================================
+
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
++ @PreAuthorize("isFullyAuthenticated()")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=26&q=%40PreAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
