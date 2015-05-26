@@ -1777,7 +1777,7 @@ Need to be updated and tested in the future
 [CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/c53d6bd143b7774c67a449e358165145acf8ecc7
 
 [COMMIT MESSAGE]:After many days I finally have the authorization done.||Seriously, it was all because I had my business services in the
-servlet XML file instead of the application context files. ****.
+servlet XML file instead of the application context fileks. ****.
 =========================================================
 
 - @PreAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_GROUP_ADMIN')")
@@ -8004,7 +8004,7 @@ Need to be updated and tested in the future
 + @PreAuthorize("isFullyAuthenticated()")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/714aec950c0708ac7100b9fcd4075d0257f4f0b9
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/714aec950c0708ac7100b9fcd4075d0257f4f0b9 [MARKER]
 
 [COMMIT MESSAGE]:MIFOS-4322: service facade for loan redo.||
 =========================================================
@@ -8097,7 +8097,7 @@ Need to be updated and tested in the future
 + @PreAuthorize("isFullyAuthenticated()")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/48716ac5887a548763c3f69ae1e457f469bc72b6
+[CODE-CHANGE-URL]:https://github.com/vorburger/mifos-head/commit/48716ac5887a548763c3f69ae1e457f469bc72b6 [MARKER 2]
 
 [COMMIT MESSAGE]:MIFOS-4137: add service facade for waive of overdue deposits.||
 =========================================================
@@ -8444,7 +8444,7 @@ Change-Id: Ie14e6fbdf9eb2339460c0c7f7e8ca5cea1dacc23
 + @PreAuthorize("hasAnyRole('nsa','admin')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/9550dcd244a2bbc8c683962cd47aae51315406ef
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/9550dcd244a2bbc8c683962cd47aae51315406ef [HERE]
 
 [COMMIT MESSAGE]:Lisätty käyttäjäpreferenssit||
 =========================================================

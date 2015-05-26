@@ -1,0 +1,73 @@
+[COMMIT MESSAGE]:Fixed typo in SettingsService||
+[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+* Fixed problem with starting core bundles before non-core bundles
+ These changes fixes issue #26.
+ These changes fixes issue #26.
+* Fixed problem with starting core bundles before non-core bundles
+* Fixed problem with starting core bundles before non-core bundles
+[COMMIT MESSAGE]:Fixed MIFOS-4270 - Groups mandatory savings account wasnt recalculate…||…d after removing client from group with mandatory savings per individual
+MIFOS-5844 - Enabled and fixed automated test veryfing group savings TotalAmountDue calculation, while removing client from group
+MIFOS-5844 - Fixed intendations
+[COMMIT MESSAGE]:fix merge conflicts||
+[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+[COMMIT MESSAGE]:fix merge conflicts||
+[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+[COMMIT MESSAGE]:Uusia rajapintoja ja korjattu bugi perustelistauksen linkkien generoi…||…nnissa
+[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+[COMMIT MESSAGE]:Oikeuksien muokkausta.||Oikeuksien suomennos; kommentoinin oikeuksien bugikorjaus.
+[COMMIT MESSAGE]:MIFOS-5652: fixed problem with refresh dropdowns||
+[COMMIT MESSAGE]:FIXED MIFOS-5231: Added methods to retrieve charges for Groups and Ce…||…nters.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades around viewing waiving overdue charge…||…s and removing fees for customer accounts. remove unused imports warnings using eclipse quick fix
+[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests. refactor dto belonging to c…||…enter get details.
+[COMMIT MESSAGE]:MIFOS-5588: Fixed, added methods which no need role||
+[COMMIT MESSAGE]:FIXED MIFOS-5335: Added getAcceptedPaymentTypes method.||
+[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security fo…||…r viewing and updating labels
+[COMMIT MESSAGE]:MIFOS-5562: Fixed report names||
+[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security fo…||…r viewing and updating labels
+[COMMIT MESSAGE]:MIFOS-5961: Fixed interest amount not equal for clients with fee and …||…without fee
+[COMMIT MESSAGE]:MIFOS-5588: Fixed, added methods which no need role||
+[COMMIT MESSAGE]:FIXED MIFOS-5451: Add option to apply automatic penalties via Apply C…||…harges dropdown
+[COMMIT MESSAGE]:FIXED MIFOS-5148: Added getLoanRepaymentScheduleByNumber method.||
+[COMMIT MESSAGE]:MIFOS-4322: fix failing tests due to loan details broken, service fac…||…ade for repay loan.
+[COMMIT MESSAGE]:MIFOS-4322: fix failing acceptance tests for reversal of loan disburs…||…als, service facade for creating multipe loan accounts
+[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+[COMMIT MESSAGE]:fix merge conflicts||
+* Fixed problem with starting core bundles before non-core bundles
+[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+* Fixed problem with starting core bundles before non-core bundles
+[COMMIT MESSAGE]:Fixes to multiple issues including indexing study errors and binder p…||…ages with study (requires reindexing said study) and moving parts of error to separate json files.
+[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+[COMMIT MESSAGE]:Fixes to multiple issues including indexing study errors and binder p…||…ages with study (requires reindexing said study) and moving parts of error to separate json files.
+[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+[COMMIT MESSAGE]:MIFOS-4190: add service facades around viewing waiving overdue charge…||…s and removing fees for customer accounts. remove unused imports warnings using eclipse quick fix
+[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests. refactor dto belonging to c…||…enter get details.
+[COMMIT MESSAGE]:FIXED MIFOS-5450: Added permissions to create and edit penalties||
+[COMMIT MESSAGE]:FIXED MIFOS-5382: added necessary classes and views, created tests||
+[COMMIT MESSAGE]:FIXED MIFOS-3368: remove permission around view ogranisation settings||
+* Fixed problem with starting core bundles before non-core bundles
+[COMMIT MESSAGE]:Loads of fixes||
+[COMMIT MESSAGE]:FIXED MIFOS-5451: Add option to apply automatic penalties via Apply C…||…harges dropdown
+[COMMIT MESSAGE]:FIXED MIFOS-5382: added necessary classes and views, created tests||
+[COMMIT MESSAGE]:fix acl issue||
+[COMMIT MESSAGE]:Fixed MIFOS-6060: Stack trace appears during apply payment from savin…||…gs account
+[COMMIT MESSAGE]:FIXED MIFOS-5231: Added methods to retrieve charges for Groups and Ce…||…nters.
+[COMMIT MESSAGE]:FIXED MIFOS-5151: Added getClientChargesByNumber method.||
+[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+[COMMIT MESSAGE]:Revert "MIFOS-4190: add service facades around client family details."||Attempting to fix the build by revert to last know working version
+[COMMIT MESSAGE]:Revert "MIFOS-4190: fix failing acceptance tests"||This reverts commit 3f47848.
+[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+[COMMIT MESSAGE]:fix conflicts from 5d92ffc||
+[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used t=VLOOKUP(A10,A$2:B$5,2,FALSE)no set values to null
+[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+-Bugfix: Users are now allowed to create a new post in any groups they
+[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring sec…||…urity for view and create fund service facade methods
+[COMMIT MESSAGE]:Fixed whitelisting approach to AccountService.||
+[COMMIT MESSAGE]:Bugfix: update index when changing the permission||
+[COMMIT MESSAGE]:Bugfix: update index when changing the permission||
+[COMMIT MESSAGE]:fix tests, rename all addRecovery => addRecoveries||
+[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring sec…||…urity for view and create fund service facade methods
+[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+-Bugfix: Users are now allowed to create a new post in any groups they

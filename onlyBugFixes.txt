@@ -1,0 +1,1056 @@
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:fix User Domain Model.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:fixed email search for member
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed problem when changing user's email and password on the same session not working.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Removed username from use (using email instead) in profile.jsp. Changing user's password is working without any validation and no checking if the old password is correct (UserProfileController, -Service and implementations and userDao and implementation). Printing in console for easier debugging.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Loads of fixes
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:fix bug.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Loads of fixes
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Rearange classes, bug fix in retreat checker, comment out facebook bean
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fix: Update selects
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed injecting SystemUserDAO and SystemUserService
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:lwyszomirski | #319 | Refactored open id support and fix config handling
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Bugfixes and new SQL sample tables. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Bugfixes and new SQL sample tables. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:uploaded photo orientation fix.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:moving to mongodb: fixed tests for travis
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIX MIFOS-3478: Make Mifos Database Version a link to a page that displays rows in applied_upgrades
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIX MIFOS-3478: Make Mifos Database Version a link to a page that displays rows in applied_upgrades
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-5992: Added permissions, Pentaho reports parameters and other minor fixes
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:bugfix loading configuration and more
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Bugfix: update index when changing the permission
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Bugfixes and new SQL sample tables. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Bugfixes and new SQL sample tables. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Bugfixes and new SQL sample tables. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed Full updates (@PUT)
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Bugfixes and new SQL sample tables. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Rename directories. Still need to fix the poms
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixes for beta testing version
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring security for view and create fund service facade methods
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:[FIXED MIFOS-3040]: Moved FundServiceFacade to proper module, used general exception.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIXED MIFOS-4723 using a shell script.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring security for view and create fund service facade methods
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:[FIXED MIFOS-3040]: Moved FundServiceFacade to proper module, used general exception.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixing component creating/saving and mapping from Domain to DTO
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:user orderfixes
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security for viewing and updating labels
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:GWT: Publishing RESTFul backend, and other fixes..
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Minor fix to REST interface
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed proxing
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Tones of bugfixes etc
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed MIFOS-4270 - Groups mandatory savings account wasnt recalculated after removing client from group with mandatory savings per individual
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIXED MIFOS-4723 using a shell script.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:fix merge conflicts
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-4137: fix failing integration test, add service facade for waive of next deposit due on savings.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-4137: fix integration tests
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:fix merge conflicts
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:added more acl rules, fixed a bug in the existing acl
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed padding of navbar.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed CHECKSTYLE errors and misc build warnings
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Roy|1151|Fix to refresh user context once a permission is deleted.Added comments as per review.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog view date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Added developer create edit and view. Fix developer bug on unique name. Fix bug on non editabel unit layout and floor plan values. Added view with desired css. Added static images, icon and js. Added gallery, video and keyword to model.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-5588: Fixed, added methods which no need role
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIXED MIFOS-5335: Added getAcceptedPaymentTypes method.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIXED MIFOS-4723 using a shell script.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security for viewing and updating labels
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:activities and CompetenceStatus fixed
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed links on home and view pages
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fix search feature. Minor cleanup.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog view date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed links on home and view pages
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog view date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers. 
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:provider login fixed
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixed MIFOS-6060: Stack trace appears during apply payment from savings account
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIXED MIFOS-5231: Added methods to retrieve charges for Groups and Centers.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIXED MIFOS-5151: Added getClientChargesByNumber method.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:FIXED MIFOS-4723 using a shell script.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Revert "MIFOS-4190: fix failing acceptance tests"
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-4137: fix failing integration test, add service facade for waive of next deposit due on savings.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-4137: fix integration tests
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:fix merge conflicts
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-3867: fix compilation
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:MIFOS-3866: fix pmd warnings.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Server: Bug fixes to Kodi Audio Transcoder.
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fix bad import
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixing some more issues around logs and chronographs
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixing some bugs with the chronograph system
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:Fixing hibernate lazyloading issue, and data type for create note, and assigning the correct note relationship when creating a note
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:activities and CompetenceStatus fixed
+CrawlerOutput.txt_comments.bk:[COMMIT MESSAGE]:fix geoserver settings submit view
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixed typo in SettingsService||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixed MIFOS-4270 - Groups mandatory savings account wasnt recalculate…||…d after removing client from group with mandatory savings per individual
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Uusia rajapintoja ja korjattu bugi perustelistauksen linkkien generoi…||…nnissa
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Oikeuksien muokkausta.||Oikeuksien suomennos; kommentoinin oikeuksien bugikorjaus.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-5652: fixed problem with refresh dropdowns||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5231: Added methods to retrieve charges for Groups and Ce…||…nters.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: add service facades around viewing waiving overdue charge…||…s and removing fees for customer accounts. remove unused imports warnings using eclipse quick fix
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests. refactor dto belonging to c…||…enter get details.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-5588: Fixed, added methods which no need role||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5335: Added getAcceptedPaymentTypes method.||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security fo…||…r viewing and updating labels
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-5562: Fixed report names||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-3323: fix acceptance test and support same level of security fo…||…r viewing and updating labels
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-5961: Fixed interest amount not equal for clients with fee and …||…without fee
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-5588: Fixed, added methods which no need role||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5451: Add option to apply automatic penalties via Apply C…||…harges dropdown
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5148: Added getLoanRepaymentScheduleByNumber method.||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4322: fix failing tests due to loan details broken, service fac…||…ade for repay loan.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4322: fix failing acceptance tests for reversal of loan disburs…||…als, service facade for creating multipe loan accounts
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixes to multiple issues including indexing study errors and binder p…||…ages with study (requires reindexing said study) and moving parts of error to separate json files.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixes to multiple issues including indexing study errors and binder p…||…ages with study (requires reindexing said study) and moving parts of error to separate json files.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: add service facades around viewing waiving overdue charge…||…s and removing fees for customer accounts. remove unused imports warnings using eclipse quick fix
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests. refactor dto belonging to c…||…enter get details.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5450: Added permissions to create and edit penalties||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5382: added necessary classes and views, created tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-3368: remove permission around view ogranisation settings||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Loads of fixes||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5451: Add option to apply automatic penalties via Apply C…||…harges dropdown
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5382: added necessary classes and views, created tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix acl issue||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixed MIFOS-6060: Stack trace appears during apply payment from savin…||…gs account
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5231: Added methods to retrieve charges for Groups and Ce…||…nters.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:FIXED MIFOS-5151: Added getClientChargesByNumber method.||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "MIFOS-4190: add service facades around client family details."||Attempting to fix the build by revert to last know working version
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Revert "MIFOS-4190: fix failing acceptance tests"||This reverts commit 3f47848.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix conflicts from 5d92ffc||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring sec…||…urity for view and create fund service facade methods
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixed whitelisting approach to AccountService.||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Bugfix: update index when changing the permission||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Bugfix: update index when changing the permission||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:fix tests, rename all addRecovery => addRecoveries||
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:MIFOS-3040: fix failing acceptance tests for funds and add spring sec…||…urity for view and create fund service facade methods
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages1.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Uusia rajapintoja ja korjattu bugi perustelistauksen linkkien generoi…||…nnissa
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:fixes||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:FIX MIFOS-3478: Make Mifos Database Version a link to a page that dis…||…plays rows in applied_upgrades
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:FIX MIFOS-3478: Make Mifos Database Version a link to a page that dis…||…plays rows in applied_upgrades
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-4552: fix checklist functionality for edit and create||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixes to multiple issues including indexing study errors and binder p…||…ages with study (requires reindexing said study) and moving parts of error to separate json files.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Restriction validation framework is mostly done disregarding bugs and…||… some obscure features.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Loads of fixes||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-5992: Added permissions, Pentaho reports parameters and other m…||…inor fixes
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:FIX MIFOS-3478: Make Mifos Database Version a link to a page that dis…||…plays rows in applied_upgrades
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-4507: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Last fixing||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Revert "MIFOS-4190: add service facades around client family details."||Attempting to fix the build by revert to last know working version
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Revert "MIFOS-4190: fix failing acceptance tests"||This reverts commit 3f47848.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:MIFOS-4190: fix failing acceptance tests||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed sql in passwordReset function and a typo in PostService.java||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user. There was a lot of cross-repository w…||…ork happening in the UserRepository that has been moved to the UserService#deleteUser method.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added feature image sorting for amenity and gallery. Fix bugs and cle…||…anups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed sql in passwordReset function and a typo in PostService.java||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:cong thanh fix||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed sql in passwordReset function and a typo in PostService.java||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:cong thanh fix||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed sql in passwordReset function and a typo in PostService.java||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added method security on service layer, update RegUser fix||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:fixed SampleObjectService||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed logic of deleting a user. There was a lot of cross-repository w…||…ork happening in the UserRepository that has been moved to the UserService#deleteUser method.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:fix frontend tests and add PreAuthorize to actions||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Fixed the el expression||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:Added method security on service layer, update RegUser fix||
+CrawlerOutputWithCommitMessages2.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages3.txt_07March:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:#1276 Fix spring security rules for service not allowed and login form||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed security so that there is only a white list||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed healthcheck security||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:#5530 Add searches by individual/role. Fix fill contact list in IE||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:#5534 Fixes/improvements in CSV export. Export selection in PDF with …||…same fields as CSV
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Re-Fix Issue #153||Apparently there may still be links which use the 2 char language code -i.e. "fr" which get redirected to "fre". In order for these links to work we need to allow for 2 to 3 chars for the language.
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix for issue 153||Updated the regular expression related to the languages to be more specific.
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:#1276 Fix spring security rules for service not allowed and login form||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed security so that there is only a white list||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed healthcheck security||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix proxy use when using multinode mode.||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix proxy use when using multinode mode.||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix proxy use when using multinode mode.||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed redirect for @json||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Remove wro4j config for web module. Restore search suggestion. Fix mo…||…dal mode.
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Statistics / Fix table export service name.||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix service name #828.||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix service name #828.||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fixes #774||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix for reset password||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fixes regarding writing to zip files and adding tests for that and me…||…f export.
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Add xml_view,||fix formatter resources service
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:removed old services that have been changed to mvc services||fixed logging,  not all logs were being written
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fixed several issues with formatters and changed name to md.format.<t…||…ype>
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fix issues (security,small bugs, UI issues)||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fix issues||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fix sme issue in user flow; add show_client page||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fix issue with adverts & addditions pages||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Deployment configuration updates and bugfixes.||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Bug fixes||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Bug fixes||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Bugs - need to working on passing timetable object between pages. Works||from page 1 to page 2. Not from page 2 to page 3. Try using set methods
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Bugs corrigidos:||Last Login - somente a cada login este campo é atualizado.
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Correção de bug onde era possível um usuário, através do meu atualiza…||…r cadastro, alterar dados de qualquer outro usuário, inclusive do Administrador
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Release 1.0||Corrigidos bugs da verificação - data era retornada vazia.
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:User management fix||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Migration H2. Bug fix on Time parameter on BookingDAO||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix project structure||Add gradle build tool and also keep the maven as well
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed cook page, added method setCook for pizza service & dao||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed show pages by Role||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed login||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed updateOrder||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed java.sql.SQLException: Недопустимый тип столбца||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed security context||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:QAN-1244 - URL Change PostCode Fix||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:EMployee creation and transaction review fixes||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:presentation fix||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fix permissions||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:change update user ui and fix related errors||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:change update user ui and fix related errors||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fix wrong permission||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix bugs||Add Files to Database
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix kill time||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fixed all controllers and JSP pages for working with Spring Security.||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:fixed LoginController and spring-security.xml||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fixed client registration error. Started including of spring security…||… in project. Created spring-security.xml and changed web.xml.
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:Fix en security||- Se solucionan los problemas de acceso a tos y about.
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:trying to fix an el problem - servlet npe||
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:transfermoneytouser.jsp bug fixed, invalidinput.jsp added, some refac…||…toring done
+CrawlerOutputWithCommitMessages3.txt_08March:[COMMIT MESSAGE]:transfermoneytouser.jsp bug fixed, invalidinput.jsp added, some refac…||…toring done
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Friend manager methods fixed, Privacy manager methods fixed||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed Issue #5 (User can now edit password)||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed searching logs, sorting maneuvers.||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed viewing documents.||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Maneuver statement done. Need to fix places.||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed small bugs and mistakes.||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed viewing documents.||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Maneuver statement done. Need to fix places.||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed viewing logs in admin cabinet.||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed racer security||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed Adding and Editing Competition without login||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed topic addition||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:@Async and @Scheduled should now play nicely Issue #85. Fixed lazy in…||…it exceptions for lazy loading objects.
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:@Async and @Scheduled should now play nicely Issue #85. Fixed lazy in…||…it exceptions for lazy loading objects.
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:@Async and @Scheduled should now play nicely Issue #85. Fixed lazy in…||…it exceptions for lazy loading objects.
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fix user configuration screen.||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Worked on the picture adding form (fixed adding multiple files at once,||also the pics are now showned on the form page)
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed the User form||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:FIX #9||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fixed bugs. Added Ads||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:fixed redirection issue and renamed index to api for swagger UI (#210)||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:fixed redirection issue and renamed index to api for swagger UI (#210)||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Some issues fixed but still not able to autowire datasource to UserDe…||…tailsService
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Removed confirm logout page and fixed add new patient by VC to get bl…||…ank issue
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Added new columns in volunteer tables for research DB, and fixed some…||… busg on volunteer, patient and message screens
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:fixed patient survey page||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:fixed #35, #42, #46||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:fixed #35, #42, #46||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:fixed #35, #42, #46||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:Fix bug 43||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:fixed survey redirects + added save survey results to db||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:A few fixes, disable accounts...||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:activate/user fix||
+CrawlerOutputWithCommitMessages3.txt_08March1:[COMMIT MESSAGE]:fix soe bug like email pattern and https||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fixed links creation, started creating search page||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fixed security, better layout for routes||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:JC-1634: fixed unauthorized access to /outbox/||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:#JC-1458 fix after review||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:#JC-1381 - Fixed security and javascript problems||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:admin page test + fixed bug with gpx files with a single point in a t…||…rkseg
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Bug fixing||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Upgraded and fixed Spring Security for EAP6||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Se corrige bug en los grids||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Se corrige bug en los grids||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:orders fixes||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:try to do search orders, start to do plan work for analytic, change o…||…rders view and analyticView (some bug fix)
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:admin fixes||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Add dynamic data table in project||Fix CreateUser
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fixed: #441 #477 #478 #479 #481||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fixed: rbac #437 #438 #439 #441||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fixed: #427||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fixed: #436 #428||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Generally mapped modules for RBAC and fixed sessionTimeOut||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Samples for Pentaho integration, Fix on #244||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fix spring-security config so js and css files wont show up upon login||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:fixes - preproduction version||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:some fixes of autocomplete.||Add route details in schedule
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:buy ticket redirect to ticket view and some fixes||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:fixes - preproduction version||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:some fixes of autocomplete.||Add route details in schedule
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:buy ticket redirect to ticket view and some fixes||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Save Translations bug and login/logout||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:little fixes||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fix to permit DWR calls||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:architecture updated, pom updated, lazy initialization fixed||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:fix in user security||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:security fixed||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:security fix||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Small fix at login page||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:fix login status||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fixing the password change navigation||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:Fixing a few bugs in the access restriction for first responders||
+CrawlerOutputWithCommitMessages3.txt_08March2:[COMMIT MESSAGE]:fixed Orders display||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed links creation, started creating search page||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed security, better layout for routes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:JC-1634: fixed unauthorized access to /outbox/||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:#JC-1458 fix after review||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:#JC-1381 - Fixed security and javascript problems||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:admin page test + fixed bug with gpx files with a single point in a t…||…rkseg
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Bug fixing||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Upgraded and fixed Spring Security for EAP6||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Se corrige bug en los grids||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Se corrige bug en los grids||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:orders fixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:try to do search orders, start to do plan work for analytic, change o…||…rders view and analyticView (some bug fix)
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:admin fixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Add dynamic data table in project||Fix CreateUser
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed: #441 #477 #478 #479 #481||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed: rbac #437 #438 #439 #441||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed: #427||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed: #436 #428||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Generally mapped modules for RBAC and fixed sessionTimeOut||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Samples for Pentaho integration, Fix on #244||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix spring-security config so js and css files wont show up upon login||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixes - preproduction version||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:some fixes of autocomplete.||Add route details in schedule
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:buy ticket redirect to ticket view and some fixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixes - preproduction version||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:some fixes of autocomplete.||Add route details in schedule
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:buy ticket redirect to ticket view and some fixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Save Translations bug and login/logout||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:little fixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix to permit DWR calls||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:architecture updated, pom updated, lazy initialization fixed||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fix in user security||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:security fixed||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:security fix||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Small fix at login page||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fix login status||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixing the password change navigation||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixing a few bugs in the access restriction for first responders||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed Orders display||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:all fixed. Unit tests||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:unit tests. some fixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Bugs fixed. UI-improved. Librarian - done||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Checkstyled. Left side genres. Fix bugs. UI||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:FIX: Prev commit missed a changes to security-context||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed the screwup with the names -all the requests are /get/*||Removed redundant files.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix cloudfront issues||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Merge branchFix security issue and get current userAdd LIFIA new site…||… example
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:- Improve parallel calls||- Fix icon rendering
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:- Improve parallel calls||- Fix icon rendering
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix for css to show||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix for css to show||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:This commit contains bug fixes for BDRS v1.0||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Possibility to specify a many to many to a list in automapper||Some bugfixing
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Thymeleaf dialects fixed on menu||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Email sender has been fixed. Order purchasing has been completle||implemented.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:all server changes, primarily for oracle and cas, a few actual bugs.||Most changes should be moved out to the eurekastreams-oracle project
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Nuevo cambios, correccion de bugs, pantalla de modificacion, avisos||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Final fix||Ordini manager modificati, Confirm, API per GasDroid
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:issue #67 fixed remember me login-password-social, new cookies||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:issue #67 fixed remember me login-password-social, new cookies||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:[ABICLOUDPREMIUM-3591]-INFRASTRUCTURE_PRIVILEGES_FIXED||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:ABICLOUDPREMIUM-3629 - Wrong privileges to delete and retrieve extra …||…Hard Disks. FIXED
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:ABICLOUDPREMIUM-3593 - The privilege "VAPP_CREATE_INSTANCE" does not …||…allow to an user to create an instance. FIXED
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:[ABICLOUDPREMIUM-3563]-PRIVATE_NETWORK_FIXED_PRIVILEGES||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed merge conflicts||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:[ABICLOUDPREMIUM-3594]Deprecated link in security-beans.FIXED||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:conflicts fixed||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed merge conflicts||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:[ABICLOUDPREMIUM-3386]The same privileges should be necessary to retr…||…ieve the list of tiers and to retrieve a tier.FIXED
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fix error||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fix error||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fix merge||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix merge||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed security config.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed rolling stock forms.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed signup, added roles hierarchy.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed rolling stock creation view.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Bug fixing.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed security config.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed security configuration.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed security.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed bug: When admin updates account profile, the page was not||redirected.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix #415||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:1. Fixed multi language support.||2. GUI integration , export for each user role, show only user country.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed security for delete user||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:#68 print controller, summary controller, did some merge and other mi…||…nor fix
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed spring security issues in grantauth||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:-added security to graffiti keywords api||-fixed showing keyword checkbox for regular users
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed security intercept forcing https on signup, but still having||redirect from http to https issue
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Added 1000 actors to database, age is real, or should be real if not …||…dead. Some age are made up cause imdb didn't have it. Sex is randomized because imdb doesn't have that information. 70% male 30% female, because hollywood didn't have many female roles. Fixed a lot of things.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed some permissions||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed somethings, optimizing code, working on employee editing custom…||…er data.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed security layer.||Adding presentation layer.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix bugs||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed a major bug with JUnit Test||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed some securities issues, Completed the support for login, and ad…||…ded support for logout
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:bug fixing...||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:change: (way too many) small bugfixes.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:new: test data functions, translation, and small bugfixes.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:bug with links fixed, autologin added, rights for anonym ext||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Bug with prefferedWeekDays:workaround,Security changes: users open to…||… view, email protected
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:profiles an bugfixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:security fix profiles created||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:added captch , fixed security with reminder.html, added login error m…||…essage
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:adding the changes on 4/19/2014 to fix the issue for static resources||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed some class name bugs. more work on the oncoprint key||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:ARMS-292 #done Fixed assessor roles permissions so they can no longer…||… edit a record in assessment.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix issues with Shibboleth plug in||Fix remove unpack old Shibboleth interface - it overwrites ours
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix/change security settings||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:ProducerService fixed, revised UI||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:ProducerService fixed, revised UI||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:adding the changes on 4/19/2014 to fix the issue for static resources||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:1. Fixed multi language support.||2. GUI integration , export for each user role, show only user country.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed security for delete user||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:#68 print controller, summary controller, did some merge and other mi…||…nor fix
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed spring security issues in grantauth||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:some bug fixes and design changes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Debugged version. Working now.||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Updated login with JPA, not using hibernate from now on. still buggy||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix bug||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:[Ravi/Gaurav] - Fixing a bug where when tag was null, null was shown …||…as the tag in the homepage
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fix content search +(reset pass work in progress)||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Bugfix: Web Browser back button||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed spring-security.xml: fixed access for user and post||paged for logged users
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Various improvements to tests and main code.||Fixes to Spring-based HttpClient4 classes and tests
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixes #20||CHANGED: rest url's to be prefixed with /api/ for calls that need authentication, and /api/pub/ for public calls
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Delete Scenario fix||- various fixes for secnario deletion
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fix simplePage.jsp||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Code review fixes||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:#JC-189 Fix Spring configuration issues with new mapping||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:checking: fixed error page|| fixed error page
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixes||fixes
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Refactoring Dao Layer and fixing tests||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:spring security fixes, error pages...||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixing bug CT054||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fixed logger, fixed link in email, set user as a guest before||confirm email
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:fix for async SecurityContext propagation||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Dheeru | #000 | Fixing security defect w.r.t. excel exports belonging…||… only to CMF Admin
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Shruthi | #0 | Fixing application security context to allow CMFAdmin …||…to adjust phase dates
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixing some files for UI||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Dheeru | #000 | Fixing security defect w.r.t. excel exports belonging…||… only to CMF Admin
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Shruthi | #0 | Fixing application security context to allow CMFAdmin …||…to adjust phase dates
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed encoding issue after spring-security integration||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix issue #217 - Hides User tab for unprivileged users||* /currentuser.js exposes the logged user
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fix issue #217 - Hides User tab for unprivileged users||* /currentuser.js exposes the logged user
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:added project edit page + edit button on show page. fixed the returni…||…ng of projects for account
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:bug fixing||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:bug fixing||
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:- fix load context twice time when start server||- change applicationContext.xml to spring-context.xml
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Sri, Sharvani | #0000| Fixing the security issue to not allow reports…||… to be downloaded without logging in as admin.
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed updates display (shouldn't have shown management option for unp…||…riviledged user),
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:Fixed updates display (shouldn't have shown management option for unp…||…riviledged user),
+CrawlerOutputWithCommitMessages3.txt_08March3:[COMMIT MESSAGE]:contracts fixes||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:added more acl rules, fixed a bug in the existing acl||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixes to multiple issues including indexing study errors and binder p…||…ages with study (requires reindexing said study) and moving parts of error to separate json files.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixes to multiple issues including indexing study errors and binder p…||…ages with study (requires reindexing said study) and moving parts of error to separate json files.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed sql in passwordReset function and a typo in PostService.java||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Allow @EnableGlobalMethodSecurity in a non webapp||Fixes gh-202
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #30 by added service methods that makes it possible to validate…||… mail address.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:multiple bug fixes, security improvements and styling updates||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:bug fix: allow users to update account||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:multiple bug fixes, security improvements and styling updates||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:bug fix: allow users to update account||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:multiple bug fixes, security improvements and styling updates||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:bug fix: allow users to update account||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed some bugs and refactored code.Make flickr async||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixup All||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:fixed up some deps and tests||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:cleanup of old samples using xml signatures, and also fixed up the||authorities authentication provider stuff.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.||Removed obsolete dependency declarations from pom.xml. Rewrote test cases to use Spring MVC test support instead of a running server and RestTemplate. Fixed Security configuration to allow bootstrap in Spring MVC test context. Formatting, JavaDoc.
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed sql in passwordReset function and a typo in PostService.java||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fix for #14474: Import session using bulk requests||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #12048: Allow answer deletion based on question variant||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fix for #14474: Import session using bulk requests||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed #12048: Allow answer deletion based on question variant||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed some bugs||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed some bugs||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:minor bug fixes, estability, admin module.||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:minor bug fixes, estability, admin module.||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:minor bug fixes, estability, admin module.||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:minor bug fixes, estability, admin module.||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:minor bug fixes, estability, admin module.||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:login fix||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:minor bug fixes, estability, admin module.||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:More bug fixes||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixing AdminController||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:* Fix bunch of checks using||> ant format
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:* Fix bunch of checks||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Several refinements. Fixed hanging install status bug.||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:SEC-2595: @EnableGlobalMethodSecurity AspectJ fixes||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:SEC-2595: @EnableGlobalMethodSecurity AspectJ fixes||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Version 1.0-beta||Contain all files and bugs
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixing AdminController||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Small bug fix with permissions||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Removed auto-start of game and fixed game controls on admin screen.||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixing AdminController||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:Fixing AdminController||
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:FP-730||payments tests fixes
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:FP-617||fix regestry view breat crumb, fix payment point statistics
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:FP-730||payments tests fixes
+CrawlerOutputWithCommitMessages3.txt_bk:[COMMIT MESSAGE]:FP-617||fix regestry view breat crumb, fix payment point statistics
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.||Removed obsolete dependency declarations from pom.xml. Rewrote test cases to use Spring MVC test support instead of a running server and RestTemplate. Fixed Security configuration to allow bootstrap in Spring MVC test context. Formatting, JavaDoc.
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:fix frontend tests and add PreAuthorize to actions||
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:fixed validation||
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:fix vertical-aligment, add workflow creation||
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:fixes||
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Fixed authentication errors||
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:ROLE_ADMIN can no longer modify/create UserAccount; changed student q…||…uery to list CatalogRequirement degree code prefixes in its list instead of an enum
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+CrawlerOutputWithCommitMessages3.txt_bk10:[COMMIT MESSAGE]:Fixup All||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.||Removed obsolete dependency declarations from pom.xml. Rewrote test cases to use Spring MVC test support instead of a running server and RestTemplate. Fixed Security configuration to allow bootstrap in Spring MVC test context. Formatting, JavaDoc.
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:fix frontend tests and add PreAuthorize to actions||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:fixed validation||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:fix vertical-aligment, add workflow creation||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:fixes||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Fixed authentication errors||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:ROLE_ADMIN can no longer modify/create UserAccount; changed student q…||…uery to list CatalogRequirement degree code prefixes in its list instead of an enum
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:more security changes; minor fixes to view work effort voter; ROLE_US…||…ER should now be able to view everything but change nothing; ROLE_ADMIN and ROLE_SUPERUSER have access to CRUD anything; ROLE_STUDENT may only view their own work efforts
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Fixup All||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Added admin frontend, fixes||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Added admin frontend, fixes||
+CrawlerOutputWithCommitMessages3.txt_bk11:[COMMIT MESSAGE]:Added admin frontend, fixes||
+CrawlerOutputWithCommitMessages3.txt_bk13:[COMMIT MESSAGE]:temp server fixes||
+CrawlerOutputWithCommitMessages3.txt_bk13:[COMMIT MESSAGE]:Fixup All||
+CrawlerOutputWithCommitMessages3.txt_bk13:[COMMIT MESSAGE]:Fixed some bugs and refactored code.Make flickr async||
+CrawlerOutputWithCommitMessages3.txt_bk14:[COMMIT MESSAGE]:fixed menuitem query to orderby weight||
+CrawlerOutputWithCommitMessages3.txt_bk14:[COMMIT MESSAGE]:more fixes for the Mail settings||
+CrawlerOutputWithCommitMessages3.txt_bk14:[COMMIT MESSAGE]:fixed access||
+CrawlerOutputWithCommitMessages3.txt_bk14:[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:价格汇总bug修改||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:fixing question bugs, adding tags to passages. adding gridins||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:bug fixing for password recovery||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:fixed minor bugs||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:first commit, need to fix Flyway not working||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:fixes and adds to usergroup rest api and user group update system||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixed Account password length. Hibernate now creates user "root". Exc…||…ursion and Customer is secured on both layers. AuthCommons has new utility method for redirecting to "denied" page.
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Several fixes. Several refinements. Implemented DataFormatInput.||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixed adding rule. New DAOs introduced.||
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk3:[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:价格汇总bug修改||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:fixing question bugs, adding tags to passages. adding gridins||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:bug fixing for password recovery||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:fixed minor bugs||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:first commit, need to fix Flyway not working||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:fixes and adds to usergroup rest api and user group update system||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixed Account password length. Hibernate now creates user "root". Exc…||…ursion and Customer is secured on both layers. AuthCommons has new utility method for redirecting to "denied" page.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Several fixes. Several refinements. Implemented DataFormatInput.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixed adding rule. New DAOs introduced.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Add new views and fix unauthorized error||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:#fix to use annotations in spring security ....||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Seguridad final testeada.||Arreglado bug de API history durante la navegación por el calendario de disponibilidad.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Several updates and fixes based on Ståle's test plan.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.||Submitted by: dinebennett
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes for #35||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Fixes for #54||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Split between api and site.||Fixed authorization for site controller.
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:RCP controller + css fixes||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:fixes the season liquibase burg||
+CrawlerOutputWithCommitMessages3.txt_bk4:[COMMIT MESSAGE]:Improve update attribute rest method. fix #90||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:价格汇总bug修改||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixing question bugs, adding tags to passages. adding gridins||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:bug fixing for password recovery||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed minor bugs||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:first commit, need to fix Flyway not working||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixes and adds to usergroup rest api and user group update system||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed Account password length. Hibernate now creates user "root". Exc…||…ursion and Customer is secured on both layers. AuthCommons has new utility method for redirecting to "denied" page.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Several fixes. Several refinements. Implemented DataFormatInput.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed adding rule. New DAOs introduced.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Add new views and fix unauthorized error||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:#fix to use annotations in spring security ....||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Seguridad final testeada.||Arreglado bug de API history durante la navegación por el calendario de disponibilidad.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Several updates and fixes based on Ståle's test plan.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.||Submitted by: dinebennett
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes for #35||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixes for #54||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Split between api and site.||Fixed authorization for site controller.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:RCP controller + css fixes||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixes the season liquibase burg||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Improve update attribute rest method. fix #90||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed: rennable||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed: rennable||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:ADD: Payees view, service, repo and presenter||FIX: Some wrong variable name
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixes and adds to usergroup rest api and user group update system||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed adding rule. New DAOs introduced.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Added merging of objects that contain virtually the same data. Bug fi…||…xes.
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Several updates and fixes based on Ståle's test plan.||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed: rennable||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Add new views and fix unauthorized error||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixing git ignore||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixing git ignore||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixing git ignore||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixing git ignore||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixing checkstyle errors in the OAuth demo||git-svn-id: https://svn.apache.org/repos/asf/cxf/trunk@1177361 13f79535-47bb-0310-9956-ffa450edef68
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:RCP controller + css fixes||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Temp fix||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed bug in repository||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_bk5:[COMMIT MESSAGE]:fixed bug in repository||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Domains and repositories can now be deleted (bug #37). Minor code cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:价格汇总bug修改||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixing question bugs, adding tags to passages. adding gridins||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:bug fixing for password recovery||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed minor bugs||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:first commit, need to fix Flyway not working||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixes and adds to usergroup rest api and user group update system||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed Account password length. Hibernate now creates user "root". Exc…||…ursion and Customer is secured on both layers. AuthCommons has new utility method for redirecting to "denied" page.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes to most of webserver issues, proper property file handling, sec…||…urity
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Several fixes. Several refinements. Implemented DataFormatInput.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed adding rule. New DAOs introduced.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Add new views and fix unauthorized error||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:#fix to use annotations in spring security ....||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Seguridad final testeada.||Arreglado bug de API history durante la navegación por el calendario de disponibilidad.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Several updates and fixes based on Ståle's test plan.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #448: Auto-map forms in the user access list fields on the wiza…||…rds when a user is given study permissions. Submitted by dagmar (With formatting modifications).
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #514: Enable management of form data failing to export.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #573: Project cleanup, eliminates warnings reported in eclipse.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #525: Optimizing performance of study/form maps in user wizard.||Submitted by: dagmar
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes #519: Form count doesn't match displayed forms.||Submitted by: dinebennett
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Added performance tweaks to the NewStudyForm wizard (only loading stu…||…dy and form names for the drop down lists and only loading study and form when selected). fixed a few bugs with the wizard - particularly when going back + next.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed #109.||Removed old api and site and refactored according to it.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes for #29 & #35||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes for #35||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixes for #54||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Split between api and site.||Fixed authorization for site controller.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed @Secured and added more unit tests.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:RCP controller + css fixes||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:FixingAll||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Made it possible to edit recipes. Fixes #18.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixes the season liquibase burg||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Improve update attribute rest method. fix #90||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed: rennable||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed: rennable||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:ADD: Payees view, service, repo and presenter||FIX: Some wrong variable name
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixes and adds to usergroup rest api and user group update system||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Multiple fixes to hibernate config + imlementation to changes to back…||…end datamodel
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed adding rule. New DAOs introduced.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Added merging of objects that contain virtually the same data. Bug fi…||…xes.
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Several updates and fixes based on Ståle's test plan.||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed: rennable||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Add new views and fix unauthorized error||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixing git ignore||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixing git ignore||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixing git ignore||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixing git ignore||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixing checkstyle errors in the OAuth demo||git-svn-id: https://svn.apache.org/repos/asf/cxf/trunk@1177361 13f79535-47bb-0310-9956-ffa450edef68
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:RCP controller + css fixes||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Temp fix||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed bug in repository||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_bk5_only:[COMMIT MESSAGE]:fixed bug in repository||
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:Authorization was messed up -- trying to fix.||
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:Fixes||
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:added more acl rules, fixed a bug in the existing acl||
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68
+CrawlerOutputWithCommitMessages3.txt_bk6:[COMMIT MESSAGE]:Fixed issue with null values. Everything but file upload is working.||Notice wierd qwerk with hibernate and embedded objects.  It is updating
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:Fixed issue with null values. Everything but file upload is working.||Notice wierd qwerk with hibernate and embedded objects.  It is updating
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:Fixed a permissions-related issue in the upload files functionality||where a user was being authorised for a null domain object.
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:Add: support for basic authentication to restricted GeoServer.||Add: wmc ui elements, added support for namespace prefixes in jaxb
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:Loads of fixes||
+CrawlerOutputWithCommitMessages3.txt_bk7:[COMMIT MESSAGE]:Loads of fixes||
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Bugfix: update index when changing the permission||
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fixed Full updates (@PUT)||-full update can be used to set values to null
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Multiple fixes to Task on the resource and service layers.||Post is implemented by is inactive for this commit.  I'll activate and
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:added more models, enums; fixed css and js issues||
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:cong thanh fix||
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+CrawlerOutputWithCommitMessages3.txt_bk8:[COMMIT MESSAGE]:Added feature image sorting for amenity and gallery. Fix bugs and cle…||…anups.
+CrawlerOutputWithCommitMessages3.txt_bk9:[COMMIT MESSAGE]:Fix floorPlan bug. Add change password and logout. Add fix on blog vi…||…ew date. Fix developer view. Add spring secu taglibs. Minor Cleanups.
+CrawlerOutputWithCommitMessages3.txt_bk9:[COMMIT MESSAGE]:#21 - Polished Spring Data REST + Spring Security example.||Removed obsolete dependency declarations from pom.xml. Rewrote test cases to use Spring MVC test support instead of a running server and RestTemplate. Fixed Security configuration to allow bootstrap in Spring MVC test context. Formatting, JavaDoc.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed some bugs.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed security so that there is only a white list||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed healthcheck security||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#5530 Add searches by individual/role. Fix fill contact list in IE||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#5534 Fixes/improvements in CSV export. Export selection in PDF with …||…same fields as CSV
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Re-Fix Issue #153||Apparently there may still be links which use the 2 char language code -i.e. "fr" which get redirected to "fre". In order for these links to work we need to allow for 2 to 3 chars for the language.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix for issue 153||Updated the regular expression related to the languages to be more specific.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:#1276 Fix spring security rules for service not allowed and login form||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed security so that there is only a white list||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed healthcheck security||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix proxy use when using multinode mode.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix proxy use when using multinode mode.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix proxy use when using multinode mode.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed redirect for @json||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Remove wro4j config for web module. Restore search suggestion. Fix mo…||…dal mode.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Statistics / Fix table export service name.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix service name #828.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix service name #828.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixes #774||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix for reset password||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixes regarding writing to zip files and adding tests for that and me…||…f export.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Add xml_view,||fix formatter resources service
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:removed old services that have been changed to mvc services||fixed logging,  not all logs were being written
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixed several issues with formatters and changed name to md.format.<t…||…ype>
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fix issues (security,small bugs, UI issues)||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fix issues||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fix sme issue in user flow; add show_client page||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fix issue with adverts & addditions pages||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Deployment configuration updates and bugfixes.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Bug fixes||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Bug fixes||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixed a few bugs. Introduced methods to send email to all. Changed||permissions
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Bugs - need to working on passing timetable object between pages. Works||from page 1 to page 2. Not from page 2 to page 3. Try using set methods
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Bugs corrigidos:||Last Login - somente a cada login este campo é atualizado.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Correção de bug onde era possível um usuário, através do meu atualiza…||…r cadastro, alterar dados de qualquer outro usuário, inclusive do Administrador
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Release 1.0||Corrigidos bugs da verificação - data era retornada vazia.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:User management fix||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Migration H2. Bug fix on Time parameter on BookingDAO||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix project structure||Add gradle build tool and also keep the maven as well
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed cook page, added method setCook for pizza service & dao||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed show pages by Role||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed login||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed updateOrder||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed java.sql.SQLException: Недопустимый тип столбца||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed security context||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:QAN-1244 - URL Change PostCode Fix||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:EMployee creation and transaction review fixes||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:presentation fix||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fix permissions||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:change update user ui and fix related errors||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:change update user ui and fix related errors||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fix wrong permission||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix bugs||Add Files to Database
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix kill time||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixed all controllers and JSP pages for working with Spring Security.||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:fixed LoginController and spring-security.xml||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixed client registration error. Started including of spring security…||… in project. Created spring-security.xml and changed web.xml.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fix en security||- Se solucionan los problemas de acceso a tos y about.
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:transfermoneytouser.jsp bug fixed, invalidinput.jsp added, some refac…||…toring done
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:transfermoneytouser.jsp bug fixed, invalidinput.jsp added, some refac…||…toring done
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:trying to fix an el problem - servlet npe||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Friend manager methods fixed, Privacy manager methods fixed||
+CrawlerOutputWithCommitMessages3.txt_intercept_bk1:[COMMIT MESSAGE]:Fixed Issue #5 (User can now edit password)||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Cleaned Code, Refactored Code, Added Comments, Improved General Search||(including Multi Word Fix), Tag Search Added back in.
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Minor styling and error reporting (string) fixes.||Added custom authentication
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Fixes /batchLists to only be accessible to data custodians [#60335916]||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Added check out view to finalize ticket reservations into allocations…||…. Still need to debug method to calculate total cost of tickets as well as method to update seats that have already been allocated.
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Fixed cglib dependency issue. Debugged Spring Security implementation…||… so that event and venue details can be seen by all viewers, but only users can allocate seats (i.e. view pages with a /bookings/** extension). Next step is to add encryption to user passwords and add logout capabilities.
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Add 'ticketmonster-security-context.xml' to classpath for Spring Secu…||…rity 3.1.0.RC2 support. Added security - /venues/** and /events/** can be viewed by all but /bookings/** must be viewed by a User. Security has not been debugged yet due to project deployment issues related to injection of CGLIB2 dependency in pom.xml.
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:fix bug||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:FIX added missing push path to filter||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Spring Security, fix template of miniblog with phones||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:XSRF fixes||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:security fixes||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Tomcat Non-Blocking IO added.||Favicon added, is not shown on tab, but change fixed the favicon
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Fix path when running with or without root context.||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Fix path when running with or without root context.||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Laptop Just fixed!||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Added Module InternalCost and fix url for projectresourcename/list||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Fixed links throughout app, added initial cut of CL Groups, additiona…||…l code for view/edit CL
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:fixed css path problem||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:uploaded photo orientation fix.||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Bugs||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:fix carmodel dropdown - security blocked the controller's url and the js||files
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Fixed a problem with preview project requiring login.||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:fixed a minor bug||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Fix machanic access to user edit page.||
+CrawlerOutputWithCommitMessages3.txt__March09:[COMMIT MESSAGE]:Fixed. Ready to test deploy. Change passwords.||
+CrawlerOutputWithCommitMessages3.txt_march10_bk1:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_march11_bk1:[COMMIT MESSAGE]:Adds fix for creating new lines on front end display and miscellaneous||other fixes.
+CrawlerOutputWithCommitMessages3.txt_march11_bk1:[COMMIT MESSAGE]:Adds fix for creating new lines on front end display and miscellaneous||other fixes.
+CrawlerOutputWithCommitMessages3.txt_march11_bk1:[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+CrawlerOutputWithCommitMessages3.txt_march11_bk1:[COMMIT MESSAGE]:Fixed form creator not being able to see all responses.||The method that fixed it was Carl's idea.
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Adds fix for creating new lines on front end display and miscellaneous||other fixes.
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Adds fix for creating new lines on front end display and miscellaneous||other fixes.
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Fixed form creator not being able to see all responses.||The method that fixed it was Carl's idea.
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Fixed #41||
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:fix acl issue||
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Added Tasks!||Known bugs: 
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:Fixes for beta testing version||
+CrawlerOutputWithCommitMessages3.txt_march12_bk2:[COMMIT MESSAGE]:fix acl issue||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:fixed bug in repository||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:fixed bug in repository||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:CLOUD-200 fixed security issue||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:CLOUD-200 fixed method structure||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:Fixes||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:Authorization was messed up -- trying to fix.||
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+CrawlerOutputWithCommitMessages3.txt_march13_bk1:[COMMIT MESSAGE]:added more acl rules, fixed a bug in the existing acl||
+CrawlerOutputWithCommitMessages3.txt_march13_bk2:[COMMIT MESSAGE]:STATISTIK-872 Har fixat de CSV-exporter som inte fungerade||
+CrawlerOutputWithCommitMessages3.txt_march13_bk2:[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+CrawlerOutputWithCommitMessages3.txt_march16_bk1:[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+CrawlerOutputWithCommitMessages3.txt_march16_bk1:[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68
+CrawlerOutputWithCommitMessages3.txt_march16_bk1:[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68
+CrawlerOutputWithCommitMessages3.txt_march16_bk1:[COMMIT MESSAGE]:Fixed issue with null values. Everything but file upload is working.||Notice wierd qwerk with hibernate and embedded objects.  It is updating
+CrawlerOutputWithCommitMessages3.txt_march16_bk1:[COMMIT MESSAGE]:Fixed issue with null values. Everything but file upload is working.||Notice wierd qwerk with hibernate and embedded objects.  It is updating
+CrawlerOutputWithCommitMessages3.txt_march16_bk1:[COMMIT MESSAGE]:Fixed academicTerm y degree (except to mantain de value of showAll be…||…tween pages)
+CrawlerOutputWithCommitMessages3.txt_march16_bk1:[COMMIT MESSAGE]:Fixed a permissions-related issue in the upload files functionality||where a user was being authorised for a null domain object.
+CrawlerOutputWithCommitMessages3.txt_march16_bk1:[COMMIT MESSAGE]:Add: support for basic authentication to restricted GeoServer.||Add: wmc ui elements, added support for namespace prefixes in jaxb
+CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:Removed username from use (using email instead) in profile.jsp. Chang…||…ing user's password is working without any validation and no checking if the old password is correct (UserProfileController, -Service and implementations and userDao and implementation). Printing in console for easier debugging.
+CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:Fixed typo in SettingsService||
+CrawlerOutputWithCommitMessagesOnly.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Removed username from use (using email instead) in profile.jsp. Chang…||…ing user's password is working without any validation and no checking if the old password is correct (UserProfileController, -Service and implementations and userDao and implementation). Printing in console for easier debugging.
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Fixed typo in SettingsService||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:DRAFTs can now be released and claimed. Reorganized the documentation…||… somewhat, made sure that allUML-graphs were up to date and fixed errors in Java-implementation. Removed deprecated and some temporary documentation.
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Fixed MIFOS-4270 - Groups mandatory savings account wasnt recalculate…||…d after removing client from group with mandatory savings per individual
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:MIFOS-4137: fix integration tests||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:fix merge conflicts||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Käyttäjän omien projektien refactorointi. Käyttäjäprofiili perustepro…||…jekti yhteys poistettu. Perusopetuksen opetussuunnitelman perusteen perusteprojektin luonnin bugi fixejä.
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Uusia rajapintoja ja korjattu bugi perustelistauksen linkkien generoi…||…nnissa
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:bugikorjaus tekstikappaleen lisäykseen||
+CrawlerOutputWithCommitMessages.txt:[COMMIT MESSAGE]:Oikeuksien muokkausta.||Oikeuksien suomennos; kommentoinin oikeuksien bugikorjaus.
