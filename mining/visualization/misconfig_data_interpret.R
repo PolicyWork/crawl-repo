@@ -11,7 +11,7 @@ totalScoreVector=as.numeric(as.character(filterdata_contextcode$"total.of.contex
 hist(totalScoreVector,main="Considering Context and Code Change Both",xlab="Score", ylab="Frequency")
 
 #########################################################################################
-# Code to plot code change only 
+# Code to plot histogram for code change only 
 #
 #########################################################################################
 
@@ -22,7 +22,7 @@ View(filterdata_codeonly)
 CodeChangeScoreVector=as.numeric(as.character(filterdata_codeonly$"Commit.change.score"))
 
 
-hist(CodeChangeScoreVector)
+hist(CodeChangeScoreVector,main="Considering Code Change Only",xlab="Score", ylab="Frequency")
 
 #check=filterdata_contextcode[1800:2200,]
 
@@ -31,3 +31,28 @@ hist(CodeChangeScoreVector)
 #nrow(dataset)
 
 #nrow(filterdata_contextcode)
+
+
+#########################################################################################
+# Code to plot barplot for code change only 
+#
+#########################################################################################
+
+# Draw the barplot:
+barplot(table(CodeChangeScoreVector),main="BarPlot Considering Code Change Only",xlab="Score", ylab="Frequency")
+
+# Draw the barplot:
+barplot(table(totalScoreVector),main="BarPlot Considering Context and Code Change Both",xlab="Score", ylab="Frequency")
+
+
+#View(dataForBarPlot)
+#plot(dataForBarPlot$weight,cdc$wtdesire)
+
+
+
+
+
+
+
+
+
