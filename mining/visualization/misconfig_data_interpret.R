@@ -2,13 +2,13 @@ dataset=misconfig_dataset.xlsx...Round3
 
 View(dataset)
 
-filterdata_contextcode=subset(dataset,dataset$"total.of.context.score.and.commit.change.score" != "#N/A")
+filterdata_contextcode=subset(dataset,dataset$"New.Total.Score.Context.score...Change.Score" != "#N/A")
 
-totalScoreVector=as.numeric(as.character(filterdata_contextcode$"total.of.context.score.and.commit.change.score"))
+totalScoreVector=as.numeric(as.character(filterdata_contextcode$"New.Total.Score.Context.score...Change.Score"))
 
 #The below will draw the total score histogram
 
-hist(totalScoreVector,main="Considering Context and Code Change Both",xlab="Score", ylab="Frequency")
+hist(totalScoreVector,main="Considering Context and Code Change Both",xlab="Score", ylab="Frequency",breaks=7)
 
 #########################################################################################
 # Code to plot histogram for code change only 
