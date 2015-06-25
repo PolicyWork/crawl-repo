@@ -1,0 +1,249 @@
+select prh.action as action, prh.created_at as created_at, u.login as user
+  from pull_request_history prh, users u
+  where prh.actor_id = u.id;
+
+
+
+  select * from pull_request_comments prc, 
+
+
+
+  select owner_id,name,committer_id,p.*
+  from projects p, commits c
+  where p.forked_from is not null
+  and p.id = c.project_id
+  limit 10;
+
+
+56279 rows for below query
+   select count(*)
+  from projects p, commits c
+  where p.forked_from is not null
+  and p.id = c.project_id
+  and p.owner_id != committer_id
+  limit 10;
+
+4702 rows found for below query
+select distinct email from users
+where id in (select distinct committer_id
+  from projects p, commits c
+  where p.forked_from is not null
+  and p.id = c.project_id
+  and p.owner_id != committer_id)
+
+select p.*
+  from projects p, commits c
+  where p.forked_from is not null
+  and p.id = c.project_id
+  and p.owner_id = committer_id
+  limit 20;
+
+
+
+Did not merge and closed it
+
+  select count(*) from pull_requests pr
+  where pr.merged = 0
+  and pr.pullreq_id in (select pull_request_id from pull_request_history
+  where action = 'closed');
+
+//All pull requests which got closed but did not get merged due to some reason
+
+    select * from pull_requests pr
+  where pr.merged = 0
+  and pr.pullreq_id in (select pull_request_id from pull_request_history
+  where action = 'closed')
+  limit 20
+
+
+mysql> 
+mysql>     select * from pull_requests pr
+    ->   where pr.merged = 0
+    ->   and pr.pullreq_id in (select pull_request_id from pull_request_history
+    ->   where action = 'closed')
+    ->   limit 20;
++----+--------------+--------------+----------------+----------------+---------+------------+--------------+--------+
+| id | head_repo_id | base_repo_id | head_commit_id | base_commit_id | user_id | pullreq_id | intra_branch | merged |
++----+--------------+--------------+----------------+----------------+---------+------------+--------------+--------+
+|  2 |           14 |            4 |            194 |             60 |      24 |          1 |            0 |      0 |
+|  9 |         NULL |            3 |           NULL |            168 |     142 |          4 |            0 |      0 |
+| 10 |           72 |            3 |            199 |            175 |      85 |          2 |            0 |      0 |
+| 11 |           69 |            3 |            202 |            175 |      82 |          1 |            0 |      0 |
+| 14 |          735 |            7 |           2519 |            699 |    1110 |        180 |            0 |      0 |
+| 24 |          822 |            7 |            656 |            652 |     965 |        202 |            0 |      0 |
+| 44 |          718 |            7 |           2530 |            765 |    1106 |        152 |            0 |      0 |
+| 47 |          718 |            7 |            766 |            771 |    1106 |        146 |            0 |      0 |
+| 49 |          718 |            7 |           2568 |            799 |    1106 |        127 |            0 |      0 |
+| 50 |          786 |            7 |           2571 |            812 |    1359 |        126 |            0 |      0 |
+| 51 |         1290 |            2 |           2573 |           1170 |    1807 |        347 |            0 |      0 |
+| 52 |         1275 |            2 |           2576 |           1174 |    1179 |        340 |            0 |      0 |
+| 55 |         1231 |            2 |           2578 |           1176 |    1753 |        334 |            0 |      0 |
+| 58 |          899 |            2 |           2581 |           1188 |    1184 |        331 |            0 |      0 |
+| 61 |          735 |            7 |           2582 |            851 |    1110 |        116 |            0 |      0 |
+| 63 |         1215 |            2 |           2585 |           1192 |    1738 |        327 |            0 |      0 |
+| 67 |         1206 |            2 |           2592 |           1192 |     850 |        324 |            0 |      0 |
+| 73 |         1179 |            2 |           1320 |           1308 |    1195 |        309 |            0 |      0 |
+| 74 |         1165 |            2 |           2597 |           1339 |    1696 |        307 |            0 |      0 |
+| 75 |          718 |            7 |           2598 |            929 |    1106 |         96 |            0 |      0 |
++----+--------------+--------------+----------------+----------------+---------+------------+--------------+--------+
+20 rows in set (0.01 sec)
+
+
+pull request comments seems to contain only reviewer comments?
+
+ideally it should contain all comments
+
+mysql> desc pull_request_comments;
++-----------------+--------------+------+-----+-------------------+-------+
+| Field           | Type         | Null | Key | Default           | Extra |
++-----------------+--------------+------+-----+-------------------+-------+
+| pull_request_id | int(11)      | NO   | MUL | NULL              |       |
+| user_id         | int(11)      | NO   | MUL | NULL              |       |
+| comment_id      | mediumtext   | NO   |     | NULL              |       |
+| position        | int(11)      | YES  |     | NULL              |       |
+| body            | varchar(256) | YES  |     | NULL              |       |
+| commit_id       | int(11)      | NO   | MUL | NULL              |       |
+| created_at      | timestamp    | NO   |     | CURRENT_TIMESTAMP |       |
+| ext_ref_id      | varchar(24)  | NO   |     | 0                 |       |
++-----------------+--------------+------+-----+-------------------+-------+
+8 rows in set (0.00 sec)
+
+mysql> desc commits;
++--------------+-------------+------+-----+-------------------+----------------+
+| Field        | Type        | Null | Key | Default           | Extra          |
++--------------+-------------+------+-----+-------------------+----------------+
+| id           | int(11)     | NO   | PRI | NULL              | auto_increment |
+| sha          | varchar(40) | YES  | UNI | NULL              |                |
+| author_id    | int(11)     | YES  | MUL | NULL              |                |
+| committer_id | int(11)     | YES  | MUL | NULL              |                |
+| project_id   | int(11)     | YES  | MUL | NULL              |                |
+| created_at   | timestamp   | NO   |     | CURRENT_TIMESTAMP |                |
+| ext_ref_id   | varchar(24) | NO   |     | 0                 |                |
++--------------+-------------+------+-----+-------------------+----------------+
+7 rows in set (0.00 sec)
+
+
+select prc.*
+from pull_request_comments prc,commits c,projects p
+where prc.commit_id = c.id
+and c.project_id = p.id
+and p.name = 'ProjectTemplate'
+limit 10;
+
+
+mysql> select prc.*
+    -> from pull_request_comments prc,commits c,projects p
+    -> where prc.commit_id = c.id
+    -> and c.project_id = p.id
+    -> and p.name = 'ProjectTemplate'
+    -> limit 10;
++-----------------+---------+------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------+--------------------------+
+| pull_request_id | user_id | comment_id | position | body                                                                                                                                                                                                                                                            | commit_id | created_at          | ext_ref_id               |
++-----------------+---------+------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------+--------------------------+
+|               5 |       3 | 2717312    |       11 | I'm a little confused by this combination. Could you give an example?                                                                                                                                                                                           |       102 | 2013-01-21 13:38:15 | 52343f49bd35436de80000c0 |
+|               5 |      58 | 2722940    |       11 | The idea here is that the settings specified in the .sql file will override the settings in the .sql-connection file. The most common case (for which I wrote this) would be that they are not actually overlapping, like:
+
+maindb.sql-connection
+type: mysq |       102 | 2013-01-22 02:38:46 | 52343f49bd35436de80000c1 |
+|               5 |      58 | 2723020    |       11 | ...I just test-ran this code again and realized that the c() call actually does not work the way I have described here, I'll get back with corrected code.                                                                                                      |       102 | 2013-01-22 02:49:02 | 52343f49bd35436de80000c2 |
+|               5 |      58 | 2724044    |       11 | Ok, I am pretty new to R so this was an interesting exercise in trying to figure out the data types. It turns out that the code actually does work the way I described, just not for the reason I thought. When running c with the arguments in that order, it  |       102 | 2013-01-22 04:46:03 | 52343f49bd35436de80000c3 |
++-----------------+---------+------------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------+---------------------+--------------------------+
+4 rows in set (0.04 sec)
+
+mysql> select * from users where id in (3,58);
++----+----------------+------------------+----------------------+--------------+---------------------------+---------------------+--------------------------+------+
+| id | login          | name             | company              | location     | email                     | created_at          | ext_ref_id               | type |
++----+----------------+------------------+----------------------+--------------+---------------------------+---------------------+--------------------------+------+
+|  3 | johnmyleswhite | John Myles White | Princeton University | Brooklyn, NY | jmw@johnmyleswhite.com    | 2008-08-26 10:24:56 | 52343eecbd35436de8000001 | USR  |
+| 58 | cortex         | Joakim Lundborg  | NULL                 | NULL         | joakim.lundborg@gmail.com | 2009-11-26 02:09:53 | 52343f25bd35436de8000066 | USR  |
++----+----------------+------------------+----------------------+--------------+---------------------------+---------------------+--------------------------+------+
+2 rows in set (0.00 sec)
+
+mysql> 
+
+
+
+https://github.com/johnmyleswhite/ProjectTemplate/pull/10
+
+mysql> select * from users where id in (3,58);
++----+----------------+------------------+----------------------+--------------+---------------------------+---------------------+--------------------------+------+
+| id | login          | name             | company              | location     | email                     | created_at          | ext_ref_id               | type |
++----+----------------+------------------+----------------------+--------------+---------------------------+---------------------+--------------------------+------+
+|  3 | johnmyleswhite | John Myles White | Princeton University | Brooklyn, NY | jmw@johnmyleswhite.com    | 2008-08-26 10:24:56 | 52343eecbd35436de8000001 | USR  |
+| 58 | cortex         | Joakim Lundborg  | NULL                 | NULL         | joakim.lundborg@gmail.com | 2009-11-26 02:09:53 | 52343f25bd35436de8000066 | USR  |
++----+----------------+------------------+----------------------+--------------+---------------------------+---------------------+--------------------------+------+
+2 rows in set (0.00 sec)
+
+3 is owner
+58 is submitter
+
+select p.owner_id as REVIEWER,
+from pull_request_comments prc,commits c,projects p
+where prc.commit_id = c.id
+and c.project_id = p.id
+and p.name = 'ProjectTemplate'
+limit 10;
+
+
+
+select p.owner_id as REVIEWER,pr.user_id
+from pull_request_comments prc,commits c,projects p, pull_requests pr
+where prc.commit_id = c.id
+and c.project_id = p.id
+and p.name = 'ProjectTemplate'
+and prc.pull_request_id = pr.id
+limit 10;
+
++----------+---------+
+| REVIEWER | user_id |
++----------+---------+
+|        3 |      58 |
+|        3 |      58 |
+|        3 |      58 |
+|        3 |      58 |
++----------+---------+
+4 rows in set (0.00 sec)
+
+select p.owner_id as REVIEWER,pr.user_id
+from pull_request_comments prc,commits c,projects p,
+pull_requests pr,pull_request_history prh
+where prc.commit_id = c.id
+and c.project_id = p.id
+and p.name = 'ProjectTemplate'
+and prc.pull_request_id = pr.id
+and pr.merged = 0
+and pr.id = prh.pull_request_id
+and prh.action = 'closed'
+limit 10;
+
+
+
+
+select distinct p.owner_id as REVIEWER,pr.user_id as CONTRIBUTER, 
+p.name as PROJECT_NAME,p.url as PROJECT_URL,
+p.description as PROJECT_DESCRIPTION,p.language as LANGUAGE
+from pull_request_comments prc,commits c,projects p,
+pull_requests pr,pull_request_history prh
+where prc.commit_id = c.id
+and c.project_id = p.id
+and prc.pull_request_id = pr.id
+and pr.merged = 0
+and pr.id = prh.pull_request_id
+and prh.action = 'closed'
+limit 10;
+
+select distinct p.owner_id as REVIEWER,pr.user_id as CONTRIBUTOR,
+u.name as CONTRIBUTOR_NAME,u.location as LOCATION,
+p.name as PROJECT_NAME,p.url as PROJECT_URL,
+p.description as PROJECT_DESCRIPTION,p.language as LANGUAGE
+from pull_request_comments prc,commits c,projects p,
+pull_requests pr,pull_request_history prh,users u
+where prc.commit_id = c.id
+and c.project_id = p.id
+and prc.pull_request_id = pr.id
+and pr.merged = 0
+and pr.id = prh.pull_request_id
+and prh.action = 'closed'
+and pr.user_id = u.id
+limit 1000;
+
