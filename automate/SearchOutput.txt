@@ -2,30 +2,4 @@
 ============================ OUTPUT : CHECK BELOW FILES  ==========================================
 
 
- FILE_NAME: /home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages1.txt 	 LINE_NUMBER: 13893 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages1.txt 	 LINE_NUMBER: 13895 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk1 	 LINE_NUMBER: 436 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk1 	 LINE_NUMBER: 438 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/Output1.txt_bk2 	 LINE_NUMBER: 1782 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/Output1.txt_bk2 	 LINE_NUMBER: 1784 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/total 	 LINE_NUMBER: 4604 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/total 	 LINE_NUMBER: 4606 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/output 	 LINE_NUMBER: 3050 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/output 	 LINE_NUMBER: 3052 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2_run3.txt 	 LINE_NUMBER: 6144 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2_run3.txt 	 LINE_NUMBER: 6146 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/PREAUTHORIZE/allInOne.txt 	 LINE_NUMBER: 7758 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/PREAUTHORIZE/allInOne.txt 	 LINE_NUMBER: 7760 
+ FILE_NAME: /home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages1.txt 	 LINE_NUMBER: 4070 

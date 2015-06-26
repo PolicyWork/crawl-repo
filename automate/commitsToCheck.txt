@@ -1,14 +1,1 @@
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
-[CODE-CHANGE-URL]:https://github.com/mifos/head/commit/875297d9193642203f068da635880012cb2de068
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/490222013d458b57cf596712c33ae389b4363c58
