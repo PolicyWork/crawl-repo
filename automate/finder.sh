@@ -33,10 +33,29 @@ do
      
      		searchPattern=$fileName":"$newLineNumber
 
+        #echo "searchPattern=$searchPattern"
      
      		codeChange2=`grep $searchPattern output2|awk 'BEGIN { FS=":" };{print $3 }'`
+        lineNumber2=`grep $searchPattern output2|awk 'BEGIN { FS=":" };{print $2 }'`
 
-     		if [ $? -eq 0 ] && [ "$codeChange1" != "$codeChange2" ] && [ "$codeChange2" != "" ]
+
+        #codeChange2Search=`echo $codeChange2|sed 's/\"/\\\"/g'` 
+
+        #echo "+++++ codeChange2Search=$codeChange2Search"
+
+
+        #lineNumber2=`grep -F "$codeChange2" output2|awk 'BEGIN { FS=":" };{print $2 }'`
+
+        #echo "------ lineNumber2=$lineNumber2"
+
+        if [ "$lineNumber2" == "" ] || [ $newLineNumber -ne $lineNumber2 ]
+        then
+              continue;
+        fi
+
+
+
+     		if [ "$codeChange1" != "$codeChange2" ] && [ "$codeChange2" != "" ]
      		then
      			        #echo "codeChange1=$codeChange1";
      			   #echo "codeChange2=$codeChange2";
@@ -44,8 +63,9 @@ do
            		   echo -e "\n FILE_NAME: $fileName \t LINE_NUMBER: $lineNumber "  >> SearchOutput.txt
 
            		   let counter=0
-           		   let commitLineNumber=lineNumber
+           		   let commitLineNumber=lineNumber+1
            		   
+                #awk -v var="$commitLineNumber" 'NR==var' $fileName|grep "CODE.*CHANGE.*URL" >/dev/null
            		   while true 
            		   do
            		   		 awk -v var="$commitLineNumber" 'NR==var' $fileName|grep "CODE.*CHANGE.*URL" >/dev/null
@@ -66,6 +86,8 @@ do
     fi
 
 done<output1
+
+echo "=================================================================================================="
 
 sort -u commitsToCheck.txt
 

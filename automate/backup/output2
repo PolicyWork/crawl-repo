@@ -1,0 +1,1 @@
+/home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages1.txt:1549:+ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
