@@ -1,0 +1,76 @@
+➜  automate git:(master) ✗ vi test
+➜  automate git:(master) ✗ grep "@PreAuthorize\(" test
+grep: Unmatched ( or \(
+➜  automate git:(master) ✗ grep -F "@PreAuthorize\(" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(" test
+/home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk0:14053:+ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+➜  automate git:(master) ✗ grep -F "@PreAuthorize("isFullyAuthenticated()" test
+function dquote> 
+➜  automate git:(master) ✗ 
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated()" test
+/home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk0:14053:+ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus," test
+/home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk0:14053:+ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus,'MAX_LOAN_AMOUNT_FOR_APPROVE')" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus,\'MAX_LOAN_AMOUNT_FOR_APPROVE\')\" test
+dquote> 
+➜  automate git:(master) ✗ 
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus,\'MAX_LOAN_AMOUNT_FOR_APPROVE\')\"" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus,\'MAX_LOAN_AMOUNT_FOR_APPROVE\')" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus,\'MAX_LOAN_A" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus," test
+/home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk0:14053:+ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus, \'" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus,  \'" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus, \'" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus, \'MA" test
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT" test
+/home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk0:14053:+ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+➜  automate git:(master) ✗ grep -F "@PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')\")" test
+/home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk0:14053:+ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+➜  automate git:(master) ✗ grep -F "+ @PreAuthorize(\"isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')\")" test
+/home/manish/workspace/crawl-repo/CrawlerOutput_restart1.txt_bk0:14053:+ @PreAuthorize("isFullyAuthenticated() and hasPermission(#updateStatus, 'MAX_LOAN_AMOUNT_FOR_APPROVE')")
+➜  automate git:(master) ✗ var=thorize("isFu
+dquote> 
+➜  automate git:(master) ✗ 
+➜  automate git:(master) ✗ var=thorize("isF
+dquote> 
+➜  automate git:(master) ✗ 
+➜  automate git:(master) ✗ var="\"hell"
+➜  automate git:(master) ✗ echo $var
+"hell
+➜  automate git:(master) ✗ echo $var|perl -pi -e "s/\"/\\\"/g"
+-i used with no filenames on the command line, reading from STDIN.
+"hell
+➜  automate git:(master) ✗ echo $var|perl -pi -e "s/h/d/g"
+-i used with no filenames on the command line, reading from STDIN.
+"dell
+➜  automate git:(master) ✗ echo $var|perl -pi -e "s/"/\"/g"
+pipe dquote> 
+➜  automate git:(master) ✗ 
+➜  automate git:(master) ✗ echo $var|perl -pi -e "s/\"/\\/g"
+-i used with no filenames on the command line, reading from STDIN.
+Substitution replacement not terminated at -e line 1.
+➜  automate git:(master) ✗ echo ${var/\"/\\}
+\hell
+➜  automate git:(master) ✗ var="\"hell"
+➜  automate git:(master) ✗ echo $var
+"hell
+➜  automate git:(master) ✗ echo ${var/\"/\\\"}
+\"hell
+➜  automate git:(master) ✗ echo $var|perl -pi -e "s/\"/\\\"/g"
+-i used with no filenames on the command line, reading from STDIN.
+"hell
+➜  automate git:(master) ✗  echo $var|perl -p -e "s/\"/\\\"/g"
+"hell
+➜  automate git:(master) ✗ echo $var > var
+➜  automate git:(master) ✗ perl -pi -e "s/\"/\\\"/g" var
+➜  automate git:(master) ✗ cat var
+"hell
+➜  automate git:(master) ✗ sed 's/\"/\\\"/g' var
+\"hell
+➜  automate git:(master) ✗ echo $var|sed 's/\"/\\\"/g'
+\"hell
+➜  automate git:(master) ✗ s /home/manish/workspace/crawl-repo/OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/output
+➜  automate git:(master) ✗ 
+

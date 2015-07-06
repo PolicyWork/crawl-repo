@@ -1,0 +1,13 @@
+grep "CODE-CHANGE-URL" CrawlerOutput_Round2_run1.txt|sort -u|cut -d "]" -f2|perl -pi -e "s/:https/https/g"
+
+
+grep "CODE-CHANGE-URL" allInOne.txt|sort -u|cut -d "]" -f2|perl -pi -e "s/:https/https/g"
+
+➜  PREAUTHORIZE git:(master) ✗ grep "CODE-CHANGE-URL" allInOne.txt|sort -u|cut -d "]" -f2|perl -pi -e "s/:https/https/g"|wc -l
+-i used with no filenames on the command line, reading from STDIN.
+1149
+➜  PREAUTHORIZE git:(master) ✗ grep "CODE-CHANGE-URL" allInOne.txt|sort -u|cut -d "]" -f2|perl -pi -e "s/:https/https/g" > AllLinksForRound2SortedUniq.txt
+-i used with no filenames on the command line, reading from STDIN.
+➜  PREAUTHORIZE git:(master) ✗ cl
+
+

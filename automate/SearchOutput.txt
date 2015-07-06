@@ -1,5 +1,3 @@
 
 ============================ OUTPUT : CHECK BELOW FILES  ==========================================
 
-
- FILE_NAME: /home/manish/workspace/crawl-repo/CrawlerOutputWithCommitMessages1.txt 	 LINE_NUMBER: 7554 

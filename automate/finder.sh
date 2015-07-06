@@ -1,6 +1,6 @@
 #!/bin/bash
 
-clear;
+#clear;
 
 
 rm -f SearchOutput.txt
@@ -44,6 +44,7 @@ do
         #echo "+++++ codeChange2Search=$codeChange2Search"
 
 
+        #lineNumber2=`grep -F "$codeChange2" output2|awk 'BEGIN { FS=":" };{print $2 }'|head -1`
         #lineNumber2=`grep -F "$codeChange2" output2|awk 'BEGIN { FS=":" };{print $2 }'`
 
         #echo "------ lineNumber2=$lineNumber2"
@@ -80,7 +81,7 @@ do
            		   done
 
            		   echo `awk -v var="$commitLineNumber" 'NR==var' $fileName` >> commitsToCheck.txt 
-           		    break; 
+           		    #break; 
      		fi
 
     fi
