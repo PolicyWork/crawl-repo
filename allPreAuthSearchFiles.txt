@@ -1,0 +1,11 @@
+Binary file bin/NewCrawlerForPostAuthorize.class matches
+CrawlerOutputWithCommitMessages3.txt_bk5   11 pages of github crawled
+CrawlerOutputWithCommitMessages3.txt_bk6    CONTINUED from page 12 to page 29
+CrawlerOutputWithCommitMessages3.txt_bk7    continued from page 30 to page 34 
+CrawlerOutputWithCommitMessages3.txt_march13_bk1 again new run of postauth from page 2 to page 23
+CrawlerOutputWithCommitMessages3.txt_march13_bk2  continued from page 24 to 25
+CrawlerOutputWithCommitMessages3.txt_march16_bk1  continued from page 26 to page 35
+GitCommitMessages.txt  only commit messages of all postauth
+OUTPUT/BEST_MATCH/CrawlerOutput_Round2_run1.txt   contains all from 2 to page 36
+OUTPUT/POSTAUTHORIZE/Output1.txt_01Aug_2129
+src/NewCrawlerForPostAuthorize.java

@@ -232,8 +232,14 @@ and pr.id = prh.pull_request_id
 and prh.action = 'closed'
 limit 10;
 
+
+
+
+//Query to get the reviewer and contributer for each pull request present in the database
+// It further extracts pull requests which were raised but got closed without merging into main project due to some reasons
+
 select distinct p.owner_id as REVIEWER,pr.user_id as CONTRIBUTOR,
-u.name as CONTRIBUTOR_NAME,u.location as LOCATION,
+u.name as CONTRIBUTOR_NAME,u.location as LOCATION,u.email as EMAIL,
 p.name as PROJECT_NAME,p.url as PROJECT_URL,
 p.description as PROJECT_DESCRIPTION,p.language as LANGUAGE
 from pull_request_comments prc,commits c,projects p,
@@ -245,5 +251,5 @@ and pr.merged = 0
 and pr.id = prh.pull_request_id
 and prh.action = 'closed'
 and pr.user_id = u.id
-limit 1000;
+limit 10;  //Remove this to view all records
 

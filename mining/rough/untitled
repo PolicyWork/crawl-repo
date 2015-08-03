@@ -1,0 +1,89 @@
+
+class MinStack {
+
+
+    int theArray[];
+
+    int topOfStack = -1;
+    
+    int stackSize = 200;
+
+    MinStack(){
+    	theArray = new int[stackSize];
+    }
+    
+    public void push(int x) {
+
+	if(topOfStack + 1 == stackSize){
+		System.out.println("Stack is already full. Cannot push");
+		return;
+	}
+	else
+	{ 
+		System.out.println("topOfStack = "+topOfStack);
+		theArray[0] = x;
+		System.out.println("Marker1");
+		System.out.println("Element pushed into the stack successfully");
+		return;
+
+	} // end of else part
+    } // end of push method
+
+
+
+    public void pop() {
+	
+	if(topOfStack == -1){
+		System.out.println("Stack is already empty. Nothing to pop");
+		return ;
+	}
+	else
+	{
+		System.out.println("Top of stack is :"+theArray[topOfStack--]);
+		return;
+	} //end of else part
+
+    } // end of pop method
+
+
+    public int top() {
+
+    if(topOfStack != -1)
+	return theArray[topOfStack];
+    else
+	return -1;        
+
+    }  // End of top method
+
+
+
+    public int getMin() {
+
+       if(topOfStack == -1){
+		System.out.println("Stack is empty. So minimum is -1 which indicates empty stack");
+		return -1;
+	}
+	else
+	{
+		int min= theArray[topOfStack];
+	
+		while(topOfStack != -1){
+			
+			if( theArray[topOfStack] < min)
+				min=theArray[topOfStack];
+
+			topOfStack--;
+
+		} // End of while loop 
+
+
+		return min;
+	} // End of else part
+
+    } // end of getMin method
+
+
+
+} //End of class
+
+

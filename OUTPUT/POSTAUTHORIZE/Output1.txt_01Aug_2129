@@ -1,0 +1,63 @@
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=2&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=3&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=4&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rooneyp1976/SiA3/commit/f327c169c8ab54b29a4fb7267f0afe00636ffc0c
+
+[COMMIT MESSAGE]:sia||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=5&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dineshbabu/spring3-trial/commit/d847648cc947b5c4725b7c02010c6033891088f1
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=6&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/heichenhardt/SpringInAction/commit/6bbee367285990831921d0599a5415620ea8b698
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=7&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bvassilis/SpringInAction/commit/0b9fdad8d38dc327773883595b0258b107061f05
+
+[COMMIT MESSAGE]:sia3||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=8&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/careermasud/SpringBooks/commit/393f54ed1c94c177d6381cf1b91962f303b82707
+
+[COMMIT MESSAGE]:Spring In Action created.||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=9&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=xml&o=asc&p=10&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+

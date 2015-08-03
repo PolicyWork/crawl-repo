@@ -1,0 +1,73 @@
+grep -inr "hasrole.*ROLE_MODERATOR"|grep ":+"|grep -v "bk"|cut -d ":" -f1|sort -u
+
+
+
+grep -inr "hasrole.*ROLE_USER"|grep ":+"|grep -v "bk"|cut -d ":" -f1|sort -u
+
+
+
+grep -inr "\+.*PreAuthorize(\"hasRole('ROLE_MODERATOR')\")"|grep -v "bk" |cut -d ":" -f1|sort -u 
+
+➜  crawl-repo git:(master) ✗ grep -inr "hasrole.*ROLE_MODERATOR"|grep ":+"|grep -v "bk"|cut -d ":" -f1|sort -u
+CrawlerOutputPreAuthorize.txt
+CrawlerOutput.txt_19FEB
+CrawlerOutputWithCommitMessages1.txt
+CrawlerOutputWithCommitMessages2.txt
+CrawlerOutputWithCommitMessages.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/allInOne.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2_run3.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2_run4.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2.txt
+OUTPUT/RECENTLY_USED/BACKUP/output
+➜  crawl-repo git:(master) ✗ s CrawlerOutputWithCommitMessages2.txt
+➜  crawl-repo git:(master) ✗ 
+
+
+
+
+
+
+grep -inr "\+.*PreAuthorize(\"isFullyauthenticated() and hasRole('ROLE_CAN_DEFINE_LABELS')\")"|grep -v "bk" |cut -d ":" -f1|sort -u 
+
+
+
+grep -inr "\+.*PreAuthorize(\"denyAll\")"|grep -v "bk" |cut -d ":" -f1|sort -u 
+
+
+
+grep -inr "\+.*PreAuthorize(\"hasRole('ROLE_USER')\")"|grep -v "bk" |cut -d ":" -f1|sort -u 
+grep -inr "\+.*PreAuthorize(\"hasRole('ROLE_ADMIN')\")"|grep -v "bk" |cut -d ":" -f1|sort -u 
+
+➜  crawl-repo git:(master) ✗ grep -inr "\+.*PreAuthorize(\"hasRole('ROLE_USER')\")"|grep -v "bk" |cut -d ":" -f1|sort -u 
+CrawlerOutputPreAuthorize.txt
+CrawlerOutput.txt_18Feb
+CrawlerOutput.txt_19FEB
+CrawlerOutput.txt_PreAuthorize_Search
+CrawlerOutputWithCommitMessages1.txt
+CrawlerOutputWithCommitMessages2.txt
+CrawlerOutputWithCommitMessages.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/allInOne.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2_run2.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2_run3.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2_run4.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2.txt
+OUTPUT/BEST_MATCH/PREAUTHORIZE/CrawlerOutput_Round2.txt_forxml
+OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/output
+OUTPUT/LEAST_RECENTLY_INDEXED/BACKUP/total
+OUTPUT/LEAST_RECENTLY_INDEXED/Output1.txt
+OUTPUT/RECENTLY_USED/BACKUP/output
+OUTPUT/RECENTLY_USED/Output1.txt
+
+
+
+➜  crawl-repo git:(master) grep -inr "\-.*\@PreAuthorize.*hasrole.*role_admin"|grep -v "bk"|grep -iv "feb"|grep -v "CrawlerOutputWithCommitMessages2.txt"|grep -v "CrawlerOutputPreAuthorize.txt"|grep -v "CrawlerOutputWithCommitMessages.txt"|grep -v "allInOne"|grep -v "CrawlerOutput_Round2_run3"|grep -v "CrawlerOutput_Round2_run4.txt"|grep -v "CrawlerOutput_Round2.txt"|grep -v "output"|grep -v "Output1"|grep -v "CrawlerOutputWithCommitMessages1.txt"|grep -v "total"
+automate/test.txt:7:- @PreAuthorize("hasPermission(#user, 'DELETE') or hasRole('ROLE_ADMIN')")
+automate/test.txt:8:- @PreAuthorize("hasRole('ROLE_ADMIN')")
+Binary file .CrawlerOutput.txt.swp matches
+Binary file .CrawlerOutput.txt.swo matches
+➜  crawl-repo git:(master) 
+
+
+
+grep -inr "\-.*@PreAuthorize.*isfullyauthenticated()\")$"|grep -v "bk"|grep -v "automate"
+

@@ -1,0 +1,86 @@
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=6&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=7&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=8&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=9&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=10&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/32a1bd7fe28f4787278b6a37cc3666c69796e1ef
+
+[COMMIT MESSAGE]:adding sources||
+=========================================================
+
++ @PostAuthorize("(returnObject.email == principal.Username) or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=11&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=12&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+E-URL]:https://github.com/search?l=java&p=12&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=13&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=14&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=15&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vovanlau/Samples/commit/1a2ef0746015e1f52b07381413292f45960d7848
+
+[COMMIT MESSAGE]:spring security||
+=========================================================
+
++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=16&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/getting-started-springsecurity-31/commit/dc812de3bac6d915bf49eb38d0e99d5adf19228e
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=17&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=18&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=19&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=20&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=21&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=22&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=23&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/brendel/edufarm-soowoowon/commit/577786067a498ffc888ad939d1a2b9f23147da51
+
+[COMMIT MESSAGE]:Final Version.||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
++ @PostAuthorize("hasRole('ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/brendel/edufarm-soowoowon/commit/570a8f987cfdc8bf417cf7f7cdf6516029e0b118
+
+[COMMIT MESSAGE]:Edited MySavedRequestAwareAuthenticationHandler.||Now redirect to original url after login.
+Add reservation detail page.
+can create reservation.
+can create and delete reply.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=24&q=security%3Aauthorize&type=Code&utf8=%E2%9C%93
+
