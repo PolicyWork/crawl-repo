@@ -109,7 +109,26 @@ public class ExcelFiller {
 					//Below works
 					//List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]"));
 					
-					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
+//					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[3]//span[1]/ancestor::span[2]/ancestor::td[1]"));
+					
+					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//td[contains(@class,'blob-num blob-num-expandable')]/a[1]"));
+					
+					String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]")).get(0).getAttribute("data-url");
+					
+					String[] arrayOfValues=listChanges1.split("&");
+					
+					for(String value:arrayOfValues){
+						if(value.toLowerCase().contains("path")){
+							String[] pathArray=value.split("%2F");
+							System.out.println("FileName:"+pathArray[pathArray.length-1]);
+						}
+					}
+						
+					
+					
+					System.out.println("+++++++++++++++++++++++++++++++");
+					
+					System.out.println("listChanges:"+listChanges1);
 					
 					System.out.println("+++++++++++++++++++++++++++++++");
 					
@@ -130,7 +149,7 @@ public class ExcelFiller {
 							System.out.println("listChanges:"+listChanges.get(count));
 							
 							
-							String lineNumber = listChanges.get(count).getAttribute("data-line-number");
+							String lineNumber = listChanges.get(count).getAttribute("data-line");
 							
 							System.out.println("Line Number :"+lineNumber);							
 
