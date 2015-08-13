@@ -111,26 +111,32 @@ public class ExcelFiller {
 					
 //					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[3]//span[1]/ancestor::span[2]/ancestor::td[1]"));
 					
-					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//td[contains(@class,'blob-num blob-num-expandable')]/a[1]"));
+//					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//td[contains(@class,'blob-num blob-num-expandable')]/a[1]"));
+					
+					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
 					
 					String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]")).get(0).getAttribute("data-url");
 					
 					String[] arrayOfValues=listChanges1.split("&");
 					
+					String[] pathArray;
+					
+					String fileName="";
+					
 					for(String value:arrayOfValues){
 						if(value.toLowerCase().contains("path")){
-							String[] pathArray=value.split("%2F");
-							System.out.println("FileName:"+pathArray[pathArray.length-1]);
+							pathArray=value.split("%2F");
+							fileName=pathArray[pathArray.length-1];
+							
 						}
 					}
+					
+					System.out.println("FileName:"+fileName);
+					
+					System.out.println("CommitMessage:"+commitMessage);
 						
 					
-					
-					System.out.println("+++++++++++++++++++++++++++++++");
-					
-					System.out.println("listChanges:"+listChanges1);
-					
-					System.out.println("+++++++++++++++++++++++++++++++");
+					System.out.println("ListChanges are:"+listChanges);
 					
 					System.out.println("ListChanges size is :"+ listChanges.size());
 					
@@ -149,7 +155,7 @@ public class ExcelFiller {
 							System.out.println("listChanges:"+listChanges.get(count));
 							
 							
-							String lineNumber = listChanges.get(count).getAttribute("data-line");
+							String lineNumber = listChanges.get(count).getAttribute("data-line-number");
 							
 							System.out.println("Line Number :"+lineNumber);							
 
