@@ -1,0 +1,1122 @@
+size of urls is:5
+size of urls is:6
+size of urls is:7
+size of urls is:8
+size of urls is:9
+size of urls is:10
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/bb35fe8cf345658c1f9e930443a98f57e89ba44b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :343
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/21488f1d44e17c1de2823a5190cd48ca8ab2d147
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :88
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/2e2249ddfe052a4a9702a0d6ab6c85794de4417c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :99
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/140b53c057948ad56a1f0afbea01237c0745544c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1099
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/544bf7f509c0e3939cb11974f812d9d1a75fde58
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/9c48894da157529ea4d588ddb2f9fc6aa2dd99eb
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :188
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/cf32a28a23debaaa911d7800805186c00d0099f5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :58
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/9ad808ba866c3a6799e9f53c44aececb5c033139
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :557
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/d550171dc4a36313c127232a3a6572dd0a99fb1a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :91
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/f7abf7a0ab8844eca1ccfaeb78d283a761d416c6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :39
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/1b185df56db1e358ff1f16bac3cde6b08852e020
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :298
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/11da6908654c2451d2cba76cba009b7ed4accfc4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2189
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/eb7176e4db444c67869511edb4d923bae9e5c903
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :24
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/c6a9dbbc45eac09a14a9b1a5c998dd055879e27e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :19585
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/a07465c490eabe053af01a86ba6d113090e566d4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :56
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/77fb93bf697de2bdc60583f32fc5ac928ad3ce89
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :17
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/0f5a377f4f3439cc45aa021a601941e99017dae2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :415
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/b7dcbb79328730e84c44d835d9be9311d1f2d0f4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :212
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/a39b93b95aefd74c1f3ccf685e12272be6764078
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :8
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/f5307d777fbbee27be23b1fc73c91e48664d459c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :22
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/63d5b61facb646b142f7ade61d305e71a8ba33d7
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/cad2c3f442b4bbb04e7aa276938fd2ea7823eb1a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :329
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/ff398799e942e38e4db9901b3d6cc48dfa8c7302
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :22
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/47d011ccf056a5576b2361b54f8b53a5486e6179
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/451b59bfee00c1b84b7be07e1bfc2825ac1d381e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :67
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/48e3c368c85ee9e7d2374ab34d35703dc9332452
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :104
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/d7b643e1efa6e8393ac7e7bfca8b9e506e471bf7
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :120
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/6625faaaf48562f1d94daa4c6deb142774148fbe
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :38
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/4a3c108c94028dc1692f558ec0f52c59220012ea
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :129
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/bc5dd2cd8cfe64b31f72b19ce1936a8a0811081c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :104
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/6429447289eb5fe9a524cb42df991edda9526c1b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :274
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/85f97ae58182ff1458a36b423c3689ea84134e2d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :192
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/1b1bde0c72c16973cc220b495aff3a714f078e5c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :423
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/28bca89332f0df7810e93ef6059a889f39c02409
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :51
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/c0b215b7cb56e3053c2287e11200be506c42cc6d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :12
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/dcab0ff5e5055c2eae34f0dc7573ec0273e26fc5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :4
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/87a7192925bb9be3dee0feb2c0d8c720d7253abe
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :4
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/02ef4fbcf2b6f00d35a9f6cefe9aefe407d56789
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :284
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/df5f8d5f7afdb78c154d01ed08458f07cd4e24ab
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :13
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/86a453c713ac9bdaf395ba39b8373156d2b3b18e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :12104
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/a07465c490eabe053af01a86ba6d113090e566d4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :56
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/4e8450e3a780a60d43eb929ba97caa510bab6851
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/40c07f91ab0d6ae3b2dc9d1d3d2323a843c66e79
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/557ceafe75928d7059b43d0e664956b4c887f65b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :43
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/53dec5a68e7a21053cb871571da673faf1fd7a51
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2071
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/17c1cdb0ee105cbc4e0640f0911cf2e455a61f90
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/4a3c108c94028dc1692f558ec0f52c59220012ea
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :129
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/1d6590d4f4e11f1d679f24e2f390755c581b59bb
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1336
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/7b95dac8b77ca2a2d1d79fd339b09540cc2e49c0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :8
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/e57624f9f57fe4c383d49adf466d5f0673ab1b22
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1925
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/576ad875ae0cd9ace249a062273f40b66fe82b8a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :161
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/e324098f4604007052e7596254269eb5279f39fd
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :16029
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/e8858601de91cdb651b9522cc6cc7da5d36c9185
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :340
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/557ceafe75928d7059b43d0e664956b4c887f65b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :43
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/53dec5a68e7a21053cb871571da673faf1fd7a51
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2071
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/2c8d8b6232e5a1fd5351bd19ca9c99e81690c327
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/f6d08426450574854d62fa8ce029e107c0a3585f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :66
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/21062cef07ac2476553b41e4d186d4487b7e06fb
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :356
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/02ef4fbcf2b6f00d35a9f6cefe9aefe407d56789
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :284
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/a19750fcce623d95c5195a810f48d9a7fcafe1f6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :81
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/499e658aa3e575df83f2e49c170b5239e398dac3
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :40
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/58bb4517f5cb0f83957a6a54b3f40e3af1be8c4f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :125
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/aeb519320b0cb447b397afb0db91d2f80a415a32
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :14
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/11da6908654c2451d2cba76cba009b7ed4accfc4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2189
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/e324098f4604007052e7596254269eb5279f39fd
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :16029
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/a07465c490eabe053af01a86ba6d113090e566d4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :56
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/938fcef46eb58e1ca7242bf6dc2d139a502c1720
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/53dec5a68e7a21053cb871571da673faf1fd7a51
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2071
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/bc5dd2cd8cfe64b31f72b19ce1936a8a0811081c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :104
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/21786ce81f8c6d6e3e35efdea6f87f6c6cd757ae
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :51
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/98cfd318267aff5e06f741c4352b20aad2e13403
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :8
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/6b41547a85f7e243d056b58b6a6136ca91393f0b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :20
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/4c5b0de48607cf3aae02b9fb5c0dc2e21db6cabf
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :252
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/9955d3a52f334dc29c9c62248a14e7f9366b9a18
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :125
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/488b06e5467cbc56a22b5e74fa3944f7e559761b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3943
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/6f440317337844f69b43adcde8417cfec1ffd72c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :253
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/0f4984631c6b2adb31c62de7eee7137bd31ed0f2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :18
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/930ce31a72a6cee9a9e040285ff658ccf32fcb16
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/d1be36a40eb449ba7d35f7a8d7c14a0ee46cdc7c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :25
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/631f118a54a249d78f20e2044a310062f59b8b6a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :20
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/bff8084e963899d029d3c1499dc579080e6f5773
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :345
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/3f30a49c7cb917029dbda904af0d993964e991ee
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :186
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/e5ab1027016b7279798520e1ee71fa23449f96f1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/8ea9fe0c77e5153f4e57d41212d5f2c984c605b5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/8b822979d0452a383df2532ad4176b6860152d0d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :15
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/e244afa1dbec08fe8486657634f69d3a54cb0f65
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :523
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/4047233198bbb715cce856a42b4a8d8840e5f410
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :28736
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/d2aa5b8f779d4af673705be69373ddf7e0386d05
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :57
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/affec85803b43a8de2771c920e5530080c312a00
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :48
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/f6dbaeda025d1ceed3a676dbe3188691b9b603e5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :158
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/c3c771fa9ee2652faeb8f10a3b47bebf41c98faf
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :112
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/7839d344abf4231aa7e5259c6d6baa6745a84414
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :277
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/3ecabeea77c3f5008d111bad7fb091cbe0dad0be
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :221
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/467bb7833afcb69566fe376a903ff472fb9201ce
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :32
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/4e9b3a5c8647a67876a0c2ca54796fdf06d55d31
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :127
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/de325cf7401734ceb1afa32b77347fe99954728e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :367
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/a19750fcce623d95c5195a810f48d9a7fcafe1f6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :81
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/772dcc29e112db46e9f16862752014ce24f3aed8
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :709
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/63a42be07b5ec29334811b433d60002206c33392
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :38
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/fafd180ffbb40c2c1f037a612ae261f7b53caa91
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/2e3a947f9ba7f7e89620f84855d8f5fcd1db7c39
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :96
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/3d943945cdcc25b0f2141d37fed4eeddc534e2aa
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :4
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/98a85ef9edbba785b0f376510fd2fd86517330df
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :21
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/d3bd510b57c32776fa642ee57451742ecb681e81
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :19
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/5734e538bd477e5728e1125b69a45bfd361647fd
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :175
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/1b185df56db1e358ff1f16bac3cde6b08852e020
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :298
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/11da6908654c2451d2cba76cba009b7ed4accfc4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2189
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/eb7176e4db444c67869511edb4d923bae9e5c903
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :24
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/25cdc4e3572489d6910ed286ec5b5d3d829c072b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1810
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/197c7aca50b4f714440826d44e5cf95ecf13a91e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :60
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/f9f94f751396841ddc04147b53d129c1b4f0e61d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :360
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/e324098f4604007052e7596254269eb5279f39fd
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :16029
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/8d7c86bc1c04fdb50c03fd076c78c620dd91e073
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :75
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/c385a41da2218211441dd044ede83c6adcbfebeb
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :102
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/0f5a377f4f3439cc45aa021a601941e99017dae2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :415
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/4baa2c51eb6cf0f5c83e1ba8e36800df5f417d3a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/6ef05f115f5835afd220cc409c87eaa165cd74bf
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :46
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/fb873bd1d80c6050fe7518d16816633debf64d86
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :78
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/e8858601de91cdb651b9522cc6cc7da5d36c9185
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :340
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/25e3033679c0a426e6ad4a2fda11571190f98275
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :32
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/1f48628a0c9a05f10adcecc684ed17e7aaf0d85b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :310
+codeChangeUrl:->https://github.com/tingletech/xtf-dsc/commit/8450693cc44830746146615ae45d2114650a30f0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3
+codeChangeUrl:->https://github.com/cflewis/argouml/commit/edcb7e0161b65efe8615bec5d6dd4173364a05b8
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :12291
+codeChangeUrl:->https://github.com/cflewis/argouml/commit/02af4a02c7440062d3857c5f3455adf854282e99
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :36
+codeChangeUrl:->https://github.com/cflewis/argouml/commit/78451529180a99a278a4007c1599b133e324e22e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :4183
+codeChangeUrl:->https://github.com/cflewis/argouml/commit/c615633b955fdd4d4fedd17783e795cf913dd9f4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5032
+codeChangeUrl:->https://github.com/cflewis/argouml/commit/9edb5a6817395789c9e3ed78aaa50b28113d4256
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :4882
+codeChangeUrl:->https://github.com/cflewis/argouml/commit/08837fccf0cb9cf3d3ab3f34af4a8728145264c0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :23238
+codeChangeUrl:->https://github.com/dimagi/FormDesigner/commit/f3f312a22d2e23f709bd4c0a51090e0ea16f191c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :32374
+codeChangeUrl:->https://github.com/dimagi/FormDesigner/commit/cbb8a375ab55531295ba72022d12bb439b830c39
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :247
+codeChangeUrl:->https://github.com/dimagi/FormDesigner/commit/b048a150763093dc401efc2ad31027ee196bfb53
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :17064
+codeChangeUrl:->https://github.com/longkerdandy/chii2/commit/24660781c5f6b219d95af02ddc3d6af7ec072094
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :22141
+codeChangeUrl:->https://github.com/longkerdandy/chii2/commit/d42327e12ff3166395b314c5ef2af7e81b654ad5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2117
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/9ba7d74b92616b4263bf1497b35f249de314267b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :16
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/8e3248b6bd9e01dfa0a2eb584be51702f49dd9b6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/db5c8b7061daaae7c3bd7e68038d57f0121a0c34
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :11
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/a1ca32947344710ce845d6696993b232f5a859f5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :44
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/200a853ea3d6d81617974d0507f65e4695ca0d03
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :31
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/e8413847e878d5af8171c74916635016d3132c3c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :163
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/9faa8e1aa23c59cc2d1d3371292674d29e857c4d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :15
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/91c74c8df6fc7852eec1c27ad14e372415f0b5d8
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :22
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/d90f1c4655761877a2c7d1f3c3b9e8e4efbee89b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :192
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/c486fa27cb34f99a3cc9b49fa5f4c3e96ea936a8
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :306
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/a7bea4beb65babe7113672bf8f0e8c51068c1759
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :31195
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/6413e998b6a0c50d04a31e283ae95af6bfcb1663
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :37786
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/22789e122f100e37c7930fd24587403336be3010
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/a7bea4beb65babe7113672bf8f0e8c51068c1759
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :31195
+codeChangeUrl:->https://github.com/mebigfatguy/apophysis-j/commit/6413e998b6a0c50d04a31e283ae95af6bfcb1663
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :37786
+BEFORE GOING TO NEXT PAGE <><><>
+BEFORE GET REQUEST _+_+_+_+_+_+
+Next Page URL is <><><><>:https://github.com/search?l=java&o=asc&p=12&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+size of urls is:2
+size of urls is:3
+size of urls is:4
+size of urls is:5
+size of urls is:6
+size of urls is:7
+size of urls is:8
+size of urls is:9
+size of urls is:10
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/f391453d328c2d894e192a82132cdc984ffa0a50
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/9754d096dfcafb1af001d969b0d2e7b2593a2268
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :31
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/e093151afafa488bf5865da9d155e8b48c115055
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/8ebc13aa2e579366e1b665c470d8302db56b629f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :38
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/be995aba3f3dfd3492b247e1426e1092d641f790
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/27db42c5a687c848ead05d2de7f32b79878ea405
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :14
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/64becab891d82b178bafea72a07134224e29821c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :33
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/5a7e5859b24d04dbcc23f20ae10e66dd96d0c51f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :143
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/f08ad9c2a485b58bababd972ef83f61b33f16dbc
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/6ac001b07537f85aeb5f44aa9a77e0ecc9e16621
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :10
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/aeefbbefaf74210f545774de781ec7daeb0f05f9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3110
+codeChangeUrl:->https://github.com/joewalnes/idea-community/commit/6c1f9ecb9a0bf5e3ca2ee253080124d41cf4ca2e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :0
+codeChangeUrl:->https://github.com/robjcaskey/Unofficial-Coffee-Mud-Upstream/commit/bd153d552972ba4a0eb53c7d5c19050a383f910f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :28163
+codeChangeUrl:->https://github.com/welterde/ewok/commit/56eb58a4f8dc45a7082d599d32008e6836c54170
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :28177
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/ad7598f6db133f78574ad01b1f31008a3a1f20d6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :775
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/d48c872a523355afe80985b57ad6fe817814b63d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2772
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/c1f6e98dc48bbd3e2738a30166fca71511c1de0b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :850
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e1b824c5f1eddf6f4ae0ee2a8b7d699380e5205b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1018
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/b8cec4cca33b9a72206dad310bd108aa4fc148f4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :677
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/38c278794be7ed28d571d23f2600190bb2b9245f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3269
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/bd0cddcff5de5e5a442bef2580b1e3fe64345bd9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7440
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e085cee48aaf7da833fbfea98635cdee4a2eb615
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27471
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6df84a21a4d35577ab5c22ba0c213b6857c89eef
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :64
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6fb848e4e6c42827849a27ea6359abe005473f46
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6237
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/0b17804b770d83a614700374f1ae4d61f4f65e4a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :29140
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/19f1f96e39cee7b29578a0e5c35c3784f11e51c0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1002
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/7f4b26282fd48015a96b81154ed4265e37687973
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1045
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6198ddf67df5d3f23080ffcb42e24b75166e4392
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :380
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6514297ec9c6187e399e587adfe3dc147094808c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :4035
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/c6d0b4263963f36808c1263a765568cd2c6877e6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :505
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e1b824c5f1eddf6f4ae0ee2a8b7d699380e5205b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1018
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/0645ec154a33a6aca5164a146aac85d7c41d9f7c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :356
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/06baa854a444836a0263af8c1cdd68e5764f68d2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5811
+codeChangeUrl:->https://github.com/Override
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/06baa854a444836a0263af8c1cdd68e5764f68d2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5811
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6bfbef004f960798a1729c628dc52b8872b3dcca
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3099
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/3f40b5e8469be354d73514982c7c28f806905175
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :315
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/dbc6545c92cf182f0a35831346b26015514e4a9c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :502
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/1cf391db6291c8b3094f4f2fe3ec9bc6bacfa937
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :13267
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/bd0cddcff5de5e5a442bef2580b1e3fe64345bd9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7440
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e085cee48aaf7da833fbfea98635cdee4a2eb615
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27471
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/c307ea1f205273e44627acda5f75a098cc01644d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :49
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/0b17804b770d83a614700374f1ae4d61f4f65e4a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :29140
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6b3bac901259b28f8c00f50055163e9f314f2bae
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1752
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/26c6a4697b6c7ce781cc6b58ece72347d37b8167
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :200
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/19f1f96e39cee7b29578a0e5c35c3784f11e51c0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1002
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/3d2927a88ce9ed4045147feaded41d4af5e96cc6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :467
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6514297ec9c6187e399e587adfe3dc147094808c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :4035
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/3b87c8dff5d7ef84520a61f2025fde8f2ff62eab
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :75
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/c6d0b4263963f36808c1263a765568cd2c6877e6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :505
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e1b824c5f1eddf6f4ae0ee2a8b7d699380e5205b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1018
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/0645ec154a33a6aca5164a146aac85d7c41d9f7c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :356
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6bfbef004f960798a1729c628dc52b8872b3dcca
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3099
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/43229a3cbf66d8806fcfe83848ae0b95edc94bfb
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :234
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/88990a9ab9f1a73f938bfd2a1d5e2f810e8b4eac
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2299
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e1b824c5f1eddf6f4ae0ee2a8b7d699380e5205b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1018
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6f8df86e4f33ec50e90c56bbbb49acab559e2fa1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1310
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/06baa854a444836a0263af8c1cdd68e5764f68d2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5811
+codeChangeUrl:->https://github.com/Override
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/06baa854a444836a0263af8c1cdd68e5764f68d2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5811
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/fd71684bfc9faf23d7e43e83d79b98a7f7f536ea
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7986
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/65a50bf23ccc5705de7149659e86a08fdfca4e2e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :11
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6bfbef004f960798a1729c628dc52b8872b3dcca
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3099
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/269c28ae04c404db87974cb1f29067d1f9068ecc
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :23980
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/22d904645b6b40a0b338780787bd737dac0783ca
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :24529
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/d2d5d97c46f1c6a40208398be61fa5983ac844ac
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :265
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/38c278794be7ed28d571d23f2600190bb2b9245f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3269
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/62db67d2c8ad821e640779636fef2e07d0f0e9ff
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :420
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/1302a37ee116867b054369d25f6a5b007b24a475
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :213
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/1cf391db6291c8b3094f4f2fe3ec9bc6bacfa937
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :13267
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6bde15516293dfae1fda1f9128e1ade4f0579095
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :503
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/9f3074693f9adb88dfd5d116899b46d8f280918a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/aeea6c7e2db2d77313782ae794b752f71746e9db
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :197
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/53772b209251b3a624e242e088720a9ee8f2451d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :276
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/722c1a7886f871d538a4f25006e155f7c69f426c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1016
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/bd0cddcff5de5e5a442bef2580b1e3fe64345bd9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7440
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e085cee48aaf7da833fbfea98635cdee4a2eb615
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27471
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/c307ea1f205273e44627acda5f75a098cc01644d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :49
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/fa25bd5a423411ded2ee27ccf3c4c2c134ff33cd
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :585
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6fb848e4e6c42827849a27ea6359abe005473f46
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6237
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/55f40bdd4f177d295a4f644bbdfc78942449799c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :458
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/0b17804b770d83a614700374f1ae4d61f4f65e4a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :29140
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/9c6fdc98274ada9002480cb304a97edcf544d13c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :345
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6b3bac901259b28f8c00f50055163e9f314f2bae
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1752
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/300e4a7689076fab292530a9f40b5b40181aadee
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :179
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e8d037456386b797e6eff214b74a8c7a588f386b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :11
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/5afb2c6f08060af4d108f43661e4583f9fe469a2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :87
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/26c6a4697b6c7ce781cc6b58ece72347d37b8167
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :200
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/19f1f96e39cee7b29578a0e5c35c3784f11e51c0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1002
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/7f4b26282fd48015a96b81154ed4265e37687973
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1045
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/a0fe3226b0d376c230d1a283c9b57cbe53837f18
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :266
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/c6d0b4263963f36808c1263a765568cd2c6877e6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :505
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/0645ec154a33a6aca5164a146aac85d7c41d9f7c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :356
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/dfa65f7684280230be54e95499853bff5672de2c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :739
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/ec1b796364da8b2f42e750ea28cd571b2d3e43e7
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :4
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/90a54090510465430a4e3012df0c2fdb69313d02
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :75
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/a8cb29986eaacdeab643edeb897768a7ac03fd32
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :87
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/606841257ba58ceba955aaa3e7015d41ca57415e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/9b985db1f453965760a8579c173ca9b91e8d7f89
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :28
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/40f2aa6f1279926d48ef50339f95c1060acaf49d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :596
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/1676e8111b6c3409ead171fa03bac37bfb10d1cd
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :581
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/269c28ae04c404db87974cb1f29067d1f9068ecc
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :23980
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/22d904645b6b40a0b338780787bd737dac0783ca
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :24529
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/3f40b5e8469be354d73514982c7c28f806905175
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :315
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/d45e71aa45e88c69eb320911ce86567ab97dbe85
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1538
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/29b91c9e45b3f82d30d0c3aea9bda4990188db80
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :104
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/5b22576392e7e2488a329e9d5b65bfb9b8dac1f5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :575
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/2d21de57584fe4df0ef2e927f5056ca7fdbfef72
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :354
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/c0dfc82343e4c71d3791384d7f6d64969f9b43f5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :12
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/38c278794be7ed28d571d23f2600190bb2b9245f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3269
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/1302a37ee116867b054369d25f6a5b007b24a475
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :213
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/dbc6545c92cf182f0a35831346b26015514e4a9c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :502
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/bd0cddcff5de5e5a442bef2580b1e3fe64345bd9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7440
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/e085cee48aaf7da833fbfea98635cdee4a2eb615
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27471
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/3bc4671e16393da49d2d481dab331dd22b75abaf
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :438
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/fa25bd5a423411ded2ee27ccf3c4c2c134ff33cd
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :585
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6fb848e4e6c42827849a27ea6359abe005473f46
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6237
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/0b17804b770d83a614700374f1ae4d61f4f65e4a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :29140
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/abeca8f7da96efd4c09353aa9c0f0c6c48c383db
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :26
+codeChangeUrl:->https://github.com/EngineHub/CommandHelper/commit/6b3bac901259b28f8c00f50055163e9f314f2bae
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1752
+Exception in thread "main" org.openqa.selenium.WebDriverException: org.apache.http.conn.ConnectTimeoutException: Connect to github.com:443 [github.com/192.30.252.128] failed: connect timed out
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'manish-Inspiron-3521', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-61-generic', java.version: '1.7.0_79'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:493)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:469)
+	at NewCrawlerForPreFilter.main(NewCrawlerForPreFilter.java:132)
+Caused by: org.apache.http.conn.ConnectTimeoutException: Connect to github.com:443 [github.com/192.30.252.128] failed: connect timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:132)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:318)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:178)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1313)
+	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1230)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:338)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:407)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:480)
+	... 2 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:239)
+	at com.gargoylesoftware.htmlunit.HtmlUnitSSLConnectionSocketFactory.connectSocket(HtmlUnitSSLConnectionSocketFactory.java:155)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:123)
+	... 16 more
+

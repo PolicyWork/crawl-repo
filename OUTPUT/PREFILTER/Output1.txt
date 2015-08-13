@@ -1,0 +1,28 @@
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=2&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=3&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=4&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=5&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=6&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=7&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=8&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=9&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/davilj/projectman/commit/7f49c03f6939e531770e9a2a6fd3a29bab1104e4
+
+[COMMIT MESSAGE]:Initialize git||
+=========================================================
+
++ @PreFilter("filterObject.email == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=10&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=11&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+

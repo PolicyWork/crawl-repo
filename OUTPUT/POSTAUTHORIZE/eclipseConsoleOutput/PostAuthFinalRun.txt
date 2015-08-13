@@ -1,0 +1,1665 @@
+codeChangeUrl:->https://github.com/mulesoft/mule-cookbook-tutorial/commit/9e85a9162defa5830009f62d260ff8bb4d64ddd8
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :102
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+BEFORE GOING TO NEXT PAGE <><><>
+BEFORE GET REQUEST _+_+_+_+_+_+
+Next Page URL is <><><><>:https://github.com/search?l=java&o=asc&p=62&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+size of urls is:2
+size of urls is:3
+size of urls is:4
+size of urls is:5
+size of urls is:6
+size of urls is:7
+size of urls is:8
+size of urls is:9
+size of urls is:10
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :27242
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("this.belongsToTenant(returnObject)")
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/7b36f530967d6cacfc84b1bfde05dd67c0598447
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :87
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/81cf17579ebe389a47e4cd94293ae1e7339488cb
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :192
+Commit Message:->provide endpoints for next/previous picture ref #31||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("@paa.hasAccess(returnObject)")
+Commit Message:->provide endpoints for next/previous picture ref #31||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("@paa.hasAccess(returnObject)")
+codeChangeUrl:->https://github.com/cherimojava/orchidae/issues/31
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/7c1a1d98c340ec3db47c4b3b9b9c8e6e39c8bba0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :14
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/a330bbf1ab13e787e14cebf53f1a5242a4d88d68
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :281
+codeChangeUrl:->https://github.com/cherimojava/orchidae/issues/34
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/3c13a101144db95c3c8e136d90babc1999baf4ad
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :75
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/1c4e20410529865b18e822cb2c7adccec1ecce25
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :128
+codeChangeUrl:->https://github.com/cherimojava/orchidae/issues/34
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/be923fa3c74593bfbe6ac4bda8428716c5b1ffd0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :695
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/7b36f530967d6cacfc84b1bfde05dd67c0598447
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :87
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/81cf17579ebe389a47e4cd94293ae1e7339488cb
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :192
+Commit Message:->provide endpoints for next/previous picture ref #31||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("@paa.hasAccess(returnObject)")
+Commit Message:->provide endpoints for next/previous picture ref #31||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("@paa.hasAccess(returnObject)")
+codeChangeUrl:->https://github.com/cherimojava/orchidae/issues/31
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/7c1a1d98c340ec3db47c4b3b9b9c8e6e39c8bba0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :14
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/3c13a101144db95c3c8e136d90babc1999baf4ad
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :75
+codeChangeUrl:->https://github.com/cherimojava/orchidae/commit/be923fa3c74593bfbe6ac4bda8428716c5b1ffd0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :695
+codeChangeUrl:->https://github.com/reghor/repotest/commit/8e36ee371009a2b2d368050a3c65ada023143504
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :10504
+codeChangeUrl:->https://github.com/jefeweisen/motech/commit/1fce2b96d75164606be915fd709148037163db13
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :940
+codeChangeUrl:->https://github.com/jefeweisen/motech/commit/819a0b5acbe9cac58594851864af770a600a610e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1438
+codeChangeUrl:->https://github.com/jefeweisen/motech/commit/0a5caccd03db54ab7846211738f8140a7df57328
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :10
+codeChangeUrl:->https://github.com/jefeweisen/motech/commit/3716fa5013f64310eed1c86055f4c9691c5e8dc9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :549
+codeChangeUrl:->https://github.com/jefeweisen/motech/commit/07e78bd13af5a069c37f5047332e97b25d43b18f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :198
+codeChangeUrl:->https://github.com/jefeweisen/motech/commit/385bf06313e317c65daabf6cec46d615532435c6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :510
+codeChangeUrl:->https://github.com/jefeweisen/motech/commit/9bb0b5fa5548decfbd706f998328cb7574a00df2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :207
+BEFORE GOING TO NEXT PAGE <><><>
+BEFORE GET REQUEST _+_+_+_+_+_+
+Next Page URL is <><><><>:https://github.com/search?l=java&o=asc&p=63&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+size of urls is:2
+size of urls is:3
+size of urls is:4
+size of urls is:5
+size of urls is:6
+size of urls is:7
+size of urls is:8
+size of urls is:9
+size of urls is:10
+codeChangeUrl:->https://github.com/famer/restful-api-service/commit/3e48ee51f222088d7a8c883571cd61b49348c18b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1257
+codeChangeUrl:->https://github.com/hitaware/miscellaneous/commit/1d635ffb047764bbe8b8a686f0158739fa0ca8e5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :13104
+codeChangeUrl:->https://github.com/hitaware/miscellaneous/commit/1d635ffb047764bbe8b8a686f0158739fa0ca8e5
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :13104
+codeChangeUrl:->https://github.com/sequenceiq/cloudbreak/commit/fb87eb2339da14f868b68bee9975345a6b2a1f0f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :31
+codeChangeUrl:->https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1811
+Commit Message:->CLOUD-872 create new security- group and rule resources||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject,'read')")
+Commit Message:->CLOUD-872 create new security- group and rule resources||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject,'read')")
+codeChangeUrl:->https://github.com/sequenceiq/cloudbreak/commit/8eb4382ec35a9107fdb748a3f84c24a6c9107e86
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :816
+codeChangeUrl:->https://github.com/sequenceiq/cloudbreak/commit/1e5453750e59be4422dec70f139a3b0581afb81c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :754
+codeChangeUrl:->https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1571
+Commit Message:->CLOUD-659 create network abstraction||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject,'read')")
+Commit Message:->CLOUD-659 create network abstraction||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject,'read')")
+codeChangeUrl:->https://github.com/sequenceiq/cloudbreak/commit/bc54ae82bff931fdb8383fd6d5aaff68622970aa
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1103
+codeChangeUrl:->https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7493
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+codeChangeUrl:->https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7493
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+codeChangeUrl:->https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7493
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+Commit Message:->No commit message||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+codeChangeUrl:->https://github.com/karthikrameskum/motech/commit/1fce2b96d75164606be915fd709148037163db13
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :940
+codeChangeUrl:->https://github.com/karthikrameskum/motech/commit/819a0b5acbe9cac58594851864af770a600a610e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1438
+codeChangeUrl:->https://github.com/karthikrameskum/motech/commit/0a5caccd03db54ab7846211738f8140a7df57328
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :10
+codeChangeUrl:->https://github.com/karthikrameskum/motech/commit/3716fa5013f64310eed1c86055f4c9691c5e8dc9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :549
+codeChangeUrl:->https://github.com/karthikrameskum/motech/commit/07e78bd13af5a069c37f5047332e97b25d43b18f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :198
+codeChangeUrl:->https://github.com/karthikrameskum/motech/commit/385bf06313e317c65daabf6cec46d615532435c6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :510
+codeChangeUrl:->https://github.com/karthikrameskum/motech/commit/9bb0b5fa5548decfbd706f998328cb7574a00df2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :207
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/6f53568cc9da16c86c71e21ba88a7b6ce6cc0959
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/3ca1a4e2f575f5d7184a7ebff55024b548794132
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3
+Commit Message:->Don't try to validate deleted entity.||
+IT IS TRUE ******************************
+********
+- @PostAuthorize("hasPermission(#entity, 'write')")
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/9ae18c6f766f241771837dc2f50b60d1e58ec732
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :19
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/1d56743aafa46b6ec794a97a6943ebab253175f9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :758
+Commit Message:->Extended support for Restrictable entities.||
+IT IS TRUE ******************************
+********
+- @PostAuthorize("hasPermission(returnObject, 'read')")
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/94a62a1999f66997088a2f906cc24d35b22b8c71
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :113
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/0a5811fe9153fcef77bc908d1da9430d8fad549e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+Commit Message:->Check permissions on refreshed version of updated entity.||
+IT IS TRUE ******************************
+********
+- @PostAuthorize("hasPermission(#entity, 'write')")
+Commit Message:->Check permissions on refreshed version of updated entity.||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'write')")
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/55809ef78a0a86fa32c187c1d038e8a5bf38c233
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :184
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/81f5d43c69765fcfd80d34e93bd89bc43ae7c9c7
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :22
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/bd9e953010d6a4da63ee8bab5ebc570fad78b1f2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :295
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/b80e8dea13b353f33465a2e2bea066b5160fc76c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :141
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/8540c1de69556dacd7366250209f51577c4c4603
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :37
+Commit Message:->Authorization was messed up -- trying to fix.||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(#entity, 'write')")
+Commit Message:->Authorization was messed up -- trying to fix.||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(#entity, 'read')")
+Commit Message:->Authorization was messed up -- trying to fix.||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(#entity, 'write')")
+Commit Message:->Authorization was messed up -- trying to fix.||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(#entity, 'write')")
+Commit Message:->Authorization was messed up -- trying to fix.||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'read') and hasPermission(returnObject, 'write')")
+codeChangeUrl:->https://github.com/spebbe/cryson/commit/6bcfce6ed2ccb7f410d4175ea85faf9ccda00a4f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7565
+Commit Message:->Imported server and client sources.||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+codeChangeUrl:->https://github.com/nagase2/SpSecuTe/commit/711e25d8c7b48b2f1ecb0f9ca557142b1fa95f4c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :330
+BEFORE GOING TO NEXT PAGE <><><>
+BEFORE GET REQUEST _+_+_+_+_+_+
+Next Page URL is <><><><>:https://github.com/search?l=java&o=asc&p=64&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+size of urls is:2
+size of urls is:3
+size of urls is:4
+size of urls is:5
+size of urls is:6
+size of urls is:7
+size of urls is:8
+size of urls is:9
+size of urls is:10
+codeChangeUrl:->https://github.com/nagase2/SpSecuTe/commit/dbce045a3adb7d04fcccd38315e1f72776e848cc
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/nagase2/SpSecuTe/commit/2aaade3dea4e12eeec05287537d7795d918f3f14
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :99
+codeChangeUrl:->https://github.com/ZhernakovMikhail/spring-acl-sample/commit/51f7accc0feb646758de36b276c63bced95eb864
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :572
+Commit Message:->Добавил простейший интерфейс||
+IT IS TRUE ******************************
+********
+- @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
+Commit Message:->Добавил простейший интерфейс||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'CREATE') or hasPermission(returnObject, 'DELETE') or hasPermission(returnObject, 'ADMINISTRATION')")
+codeChangeUrl:->https://github.com/ZhernakovMikhail/spring-acl-sample/commit/c4c869bcf60e4b01645b4f64fb36dde42ad86cee
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1379
+Commit Message:->вынес конфигурацию из xml||
+IT IS TRUE ******************************
+********
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
+Commit Message:->вынес конфигурацию из xml||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
+codeChangeUrl:->https://github.com/ZhernakovMikhail/spring-acl-sample/commit/e29994529549bfa5d5cd9582bd4285ceee67d969
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7
+codeChangeUrl:->https://github.com/ZhernakovMikhail/spring-acl-sample/commit/6219f94237f9c4255f645779fd4d917bbb8946d6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :42
+codeChangeUrl:->https://github.com/ZhernakovMikhail/spring-acl-sample/commit/2833ddfb778877a4ac4bb902beee5065cd0123d1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2095
+Commit Message:->Initial Commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+codeChangeUrl:->https://github.com/HenryXi/Spring_in_action/commit/19f36a42da5dcdd67d18ee8dc11f7967e8619901
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :9445
+Commit Message:->commit all files||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("returnObject.length() == #input.length()")
+Commit Message:->commit all files||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+codeChangeUrl:->https://github.com/HenryXi/Spring_in_action/commit/19f36a42da5dcdd67d18ee8dc11f7967e8619901
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :9445
+Commit Message:->commit all files||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("returnObject.length() == #input.length()")
+Commit Message:->commit all files||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+codeChangeUrl:->https://github.com/biyefeilan/uums/commit/8d3b05cb620ede3f3334e705a17fdbd27d7f60f6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5390
+Commit Message:->first commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("returnObject.id == T(Long).parseLong(principal.username) or hasRole('ROLE_ADMIN')")
+codeChangeUrl:->https://github.com/Deutsche-Digitale-Bibliothek/aas-LDAP4DDB/commit/6f1db15d33386a1b908614a33c00bde29f4b7f93
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :70
+codeChangeUrl:->https://github.com/Deutsche-Digitale-Bibliothek/aas-LDAP4DDB/commit/9f047a306a40bb1f11240d805dc5e08665034f58
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :794
+codeChangeUrl:->https://github.com/Deutsche-Digitale-Bibliothek/aas-LDAP4DDB/commit/552bb73703df43be0db37f8150922769bcf2ddf0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :21
+codeChangeUrl:->https://github.com/Deutsche-Digitale-Bibliothek/aas-LDAP4DDB/commit/ff189222d066c82f455128543220ec0737f33962
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :96
+codeChangeUrl:->https://github.com/Deutsche-Digitale-Bibliothek/aas-LDAP4DDB/commit/2ca29e3c57effa64ea401c71067a35e6b53b51f7
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :97
+codeChangeUrl:->https://github.com/Deutsche-Digitale-Bibliothek/aas-LDAP4DDB/commit/fc65b2a172d406de3ac2683a39a54ff4b3c9d065
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :538
+codeChangeUrl:->https://github.com/Deutsche-Digitale-Bibliothek/aas-LDAP4DDB/commit/084634f2283adb1f66da740a917805905f5f2c61
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :329
+codeChangeUrl:->https://github.com/Deutsche-Digitale-Bibliothek/aas-LDAP4DDB/commit/c9bea173f79977cc25f97d39fb31a46891784c23
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :370
+codeChangeUrl:->https://github.com/RBGKew/eMonocot/commit/3f0c5d6c4ed8c562250a1b1d8c1f2884ddce9daf
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :5502
+codeChangeUrl:->https://github.com/RBGKew/eMonocot/commit/69818f02dd3d3c60d792400da50d35bff578d7e8
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1348
+codeChangeUrl:->https://github.com/RBGKew/eMonocot/commit/af4d58b5389aa9f6f7bd31dc80537ca333dd98fe
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :599
+codeChangeUrl:->https://github.com/RBGKew/eMonocot/commit/c65b6b219c0fe3f805266b3adbbf0cc6cef85553
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :3352
+codeChangeUrl:->https://github.com/chpladmin/chpl-api/commit/98c2667870092129c865e9b2c0bdafb6bd06c398
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2
+codeChangeUrl:->https://github.com/chpladmin/chpl-api/commit/a79beb5ab763d2fa81f52b9b07d4629681389f6c
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :72
+codeChangeUrl:->https://github.com/chpladmin/chpl-api/commit/57db02fd4cf11eed8ba2ffd22e54e611ecba098f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :19
+Commit Message:->Fixed issue in UserManagementController which prevented users from||changing their passwords.
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_USER_AUTHENTICATOR') or hasRole('ROLE_ADMIN') or hasPermission(returnObject, 'read') or hasPermission(returnObject, admin)")
+codeChangeUrl:->https://github.com/chpladmin/chpl-api/commit/a83be076bfd883b20da864eb352c99e17f62fb16
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :22510
+codeChangeUrl:->https://github.com/chpladmin/chpl-api/commit/84631c379e0e3595264cfb973d231f4066b123b0
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :485
+codeChangeUrl:->https://github.com/kTT/adjule/commit/84022c9b8464f1a5d42f4eb887ed9082bf1171c9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :299
+codeChangeUrl:->https://github.com/kTT/adjule/commit/3aa0bc5268bc9d823dd165ad6654bcb2db5baff8
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :155
+codeChangeUrl:->https://github.com/kTT/adjule/commit/168b9089310df2ed15ed6ad62d6a110f0a8beef7
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :6
+codeChangeUrl:->https://github.com/kTT/adjule/commit/c453c19f7e4622d27499b7a45c498ee7ab1f042a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :193
+codeChangeUrl:->https://github.com/kTT/adjule/commit/7737cce525f996ee58e7c6b3ec3237b6fdd734e6
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :26
+codeChangeUrl:->https://github.com/kTT/adjule/commit/753c343d994e5f08407a2386a05f6384f5d2c323
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :118
+Commit Message:->Upgrades dependecies||
+IT IS TRUE ******************************
+********
+- @PostAuthorize("hasRole('admin') or principal.username == returnObject.teamName")
+Commit Message:->Upgrades dependecies||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal.username == returnObject.teamName")
+codeChangeUrl:->https://github.com/kTT/adjule/commit/f2901320c50ef22d3ac192191f9af72ad15234b2
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :182
+codeChangeUrl:->https://github.com/kTT/adjule/commit/720c6d27bccff9da368461a4cc0d304447962de9
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :260
+codeChangeUrl:->https://github.com/kTT/adjule/commit/a5bf6d766e0ebe5d35a8efc8064d960cd440373f
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :914
+codeChangeUrl:->https://github.com/kTT/adjule/commit/e5c1de60f152ec5c2ccb3ba53c2450a251d7cd95
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :260
+codeChangeUrl:->https://github.com/kTT/adjule/commit/867f82f07101839a217102b419d826f6593e1fdb
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :595
+codeChangeUrl:->https://github.com/mulesoft/mule-cookbook/commit/4db2c3f7304169de5174abd4cb56e10a4bf0c294
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :11
+codeChangeUrl:->https://github.com/mulesoft/mule-cookbook/commit/61f6540fe88127a99323885653abf020fff67825
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1284
+codeChangeUrl:->https://github.com/mulesoft/mule-cookbook/commit/bd005d4701fddfa18c8d531e1f68ac10510b34e1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1806
+BEFORE GOING TO NEXT PAGE <><><>
+BEFORE GET REQUEST _+_+_+_+_+_+
+Next Page URL is <><><><>:https://github.com/search?l=java&o=asc&p=65&q=%40PostAuthorize%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+Marker...
+size of urls is:1
+size of urls is:2
+size of urls is:3
+size of urls is:4
+size of urls is:5
+size of urls is:6
+size of urls is:7
+size of urls is:8
+size of urls is:9
+size of urls is:10
+codeChangeUrl:->https://github.com/galihlasahido/spring-boot-tutorial/commit/e4304bb0323b6587813e842e1359c093a929b4a1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :16977
+codeChangeUrl:->https://github.com/galihlasahido/spring-boot-tutorial/commit/e4304bb0323b6587813e842e1359c093a929b4a1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :16977
+codeChangeUrl:->https://github.com/galihlasahido/spring-boot-tutorial/commit/e4304bb0323b6587813e842e1359c093a929b4a1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :16977
+codeChangeUrl:->https://github.com/galihlasahido/spring-boot-tutorial/commit/e4304bb0323b6587813e842e1359c093a929b4a1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :16977
+codeChangeUrl:->https://github.com/danielberecz/petclinic/commit/fcc12e07ebb11225be19a3860f380cebfc4b7529
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :655
+Commit Message:->Introduced Hystrix||
+IT IS TRUE ******************************
+********
+- @PostAuthorize("returnObject.owner.domainUser.username == principal.username or hasRole('ROLE_VET')")
+Commit Message:->Introduced Hystrix||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("principal.username == returnObject.owner.domainUser.username or hasRole('ROLE_VET')")
+codeChangeUrl:->https://github.com/Rukavitsya/IdeaProjects/commit/f45430aff637aa73df1cdffc6da94924081e4c4e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :10685
+codeChangeUrl:->https://github.com/Rukavitsya/IdeaProjects/commit/f45430aff637aa73df1cdffc6da94924081e4c4e
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :10685
+codeChangeUrl:->https://github.com/spring-projects/spring-security/commit/ad1d858e2bbe06e51230e6fd5b30bdff17b08bbd
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :503
+Commit Message:->SEC-3056 - Fix JavaDoc errors.||Fixed JavaDoc errors accross multiple modules in order to make javadoc happy with Java 8.
+IT IS TRUE ******************************
+********
+- * @PostAuthorize("#to == returnObject.to")
+Commit Message:->SEC-3056 - Fix JavaDoc errors.||Fixed JavaDoc errors accross multiple modules in order to make javadoc happy with Java 8.
+IT IS TRUE ******************************
+********
++ * {@code @PostAuthorize("#to == returnObject.to")}
+Commit Message:->SEC-3056 - Fix JavaDoc errors.||Fixed JavaDoc errors accross multiple modules in order to make javadoc happy with Java 8.
+IT IS TRUE ******************************
+********
+- * @PostAuthorize("#to == returnObject.to")
+Commit Message:->SEC-3056 - Fix JavaDoc errors.||Fixed JavaDoc errors accross multiple modules in order to make javadoc happy with Java 8.
+IT IS TRUE ******************************
+********
++ * {@code @PostAuthorize("#to == returnObject.to")}
+codeChangeUrl:->https://github.com/spring-projects/spring-security/commit/ae6af5d73ce77f93926379f96371e84b1e9401f1
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :24310
+codeChangeUrl:->https://github.com/spring-projects/spring-security/commit/61e6acb3f43a6f89fd439591c4bd426210633d19
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :25
+codeChangeUrl:->https://github.com/spring-projects/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :583
+Commit Message:->SEC-2151: Support binding method arguments with Annotations||This allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.
+IT IS TRUE ******************************
+********
++ @PostAuthorize("#o?.contains('grant')")
+Commit Message:->SEC-2151: Support binding method arguments with Annotations||This allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.
+IT IS TRUE ******************************
+********
++ * @PostAuthorize("#to == returnObject.to")
+Commit Message:->SEC-2151: Support binding method arguments with Annotations||This allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.
+IT IS TRUE ******************************
+********
++ * @PostAuthorize("#to == returnObject.to")
+codeChangeUrl:->https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :2886
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("(returnObject.email == principal.Username) or hasRole('ROLE_ADMIN')")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
++- @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("hasRole('ROLE_USER')")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.length() == #input.length()")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.length() == #input.length()")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.length() == #input.length()")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.length() == #input.length()")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.length() == #input.length()")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
++@PostAuthorize("
+Commit Message:->committing all changes till now||
+IT IS TRUE ******************************
+********
+-/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/CrawlerOutput_Round2_run1.txt:1332:+ @PostAuthorize("returnObject == null or returnObject.julkinen or isAuthenticated()")
+codeChangeUrl:->https://github.com/biyefeilan/xyplatform/commit/299458aeffa92860f4435b4c16941342bab59068
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :7136
+Commit Message:->first commit||
+IT IS TRUE ******************************
+********
++ @PostAuthorize("returnObject.id == T(Long).parseLong(principal.username) or hasRole('ROLE_ADMIN')")
+BEFORE GOING TO NEXT PAGE <><><>
+BEFORE GET REQUEST _+_+_+_+_+_+
+Next Page URL is <><><><>:null
+Marker...
+size of urls is:1
+codeChangeUrl:->https://github.com/serdyuk-alex/RestaurantSample/commit/ab28a89a86e62228ff0f766cdeebaec166431a7a
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :779
+codeChangeUrl:->https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1344
+Commit Message:->v2 version with good UI & edit dishes ability||+spring security update
++rest-webmvc
++light jsp templating lib
++remove useless tomcat plugin config
++readme
++html design
++update of ORM model (with many2many with extra field)
+IT IS TRUE ******************************
+********
++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
+Commit Message:->v2 version with good UI & edit dishes ability||+spring security update
++rest-webmvc
++light jsp templating lib
++remove useless tomcat plugin config
++readme
++html design
++update of ORM model (with many2many with extra field)
+IT IS TRUE ******************************
+********
++ @PostAuthorize("returnObject.owner.name == principal.username")
+codeChangeUrl:->https://github.com/serdyuk-alex/RestaurantSample/commit/9915fbdf9970bead51cdb78cd5bf0abfb2523bbe
+SEARCH STRING IS -->//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]
++++++++++++++++++++++++++++++++
+ListChanges size is :1050
+BEFORE GOING TO NEXT PAGE <><><>
+BEFORE GET REQUEST _+_+_+_+_+_+
+org.openqa.selenium.WebDriverException: java.net.MalformedURLException
+Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:02:37'
+System info: host: 'manish-Inspiron-3521', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '3.13.0-61-generic', java.version: '1.7.0_79'
+Driver info: driver.version: HtmlUnitDriver
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:466)
+	at NewCrawlerForPostAuthorize.main(NewCrawlerForPostAuthorize.java:245)
+Caused by: java.net.MalformedURLException
+	at java.net.URL.<init>(URL.java:619)
+	at java.net.URL.<init>(URL.java:482)
+	at java.net.URL.<init>(URL.java:431)
+	at org.openqa.selenium.htmlunit.HtmlUnitDriver.get(HtmlUnitDriver.java:464)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at java.net.URL.<init>(URL.java:524)
+	... 4 more
