@@ -1,1 +1,1 @@
-https://github.com/Opetushallitus/eperusteet/commit/deef82e74791ffa5a2fe5057ba9f3e7851cca7b5
+https://github.com/sequenceiq/cloudbreak/commit/f2a6d3b64475a7a92d3ecd26d8fbe33e136d71dd

@@ -72,6 +72,8 @@ public class ExcelFiller {
 			String urlToGet,commitTitle,commitMessageDesc;
 
 			while ((urlToGet = readHandle.readLine()) != null) {
+				
+				System.out.println("====================================================================================================================================");
 					
 					System.out.println("keywordLine:"+urlToGet);
 
@@ -115,23 +117,61 @@ public class ExcelFiller {
 					
 					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
 					
-					String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]")).get(0).getAttribute("data-url");
-					
-					String[] arrayOfValues=listChanges1.split("&");
-					
-					String[] pathArray;
-					
 					String fileName="";
+					String[] pathArray;
+					String lineNumber="";
 					
-					for(String value:arrayOfValues){
-						if(value.toLowerCase().contains("path")){
-							pathArray=value.split("%2F");
-							fileName=pathArray[pathArray.length-1];
-							
+					try{
+						
+						String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]")).get(0).getAttribute("data-url");
+						String[] arrayOfValues=listChanges1.split("&");
+												
+						for(String value:arrayOfValues){
+							if(value.toLowerCase().contains("path")){
+								pathArray=value.split("%2F");
+								fileName=pathArray[pathArray.length-1];
+							}
 						}
+						
+						
+					}catch(Exception e){
+						System.out.println("In Exception");
+						String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]/../..//span[contains(@class,'js-selectable-text')]")).get(0).getAttribute("title");
+						String[] arrayOfValues=listChanges1.split("/");
+						fileName=arrayOfValues[arrayOfValues.length-1];
 					}
+						
+					System.out.println("fileName:"+fileName);
 					
-					System.out.println("FileName:"+fileName);
+					
+					
+					
+					
+//					String[] arrayOfValues=listChanges1.split("/");
+					
+//					String fileName=arrayOfValues[arrayOfValues.length-1];
+					
+					
+//					String[] pathArray;
+//					
+//					String fileName="";
+//					
+//					for(String value:arrayOfValues){
+//						if(value.toLowerCase().contains("path")){
+//							pathArray=value.split("%2F");
+//							fileName=pathArray[pathArray.length-1];
+//							
+//						}
+//					}
+//					
+//					System.out.println("FileName:"+fileName);
+//					
+//					
+//					}catch(Exception e){
+//						System.out.println("Exception occurred");
+//					}
+//					
+					
 					
 					System.out.println("CommitMessage:"+commitMessage);
 						
@@ -155,8 +195,9 @@ public class ExcelFiller {
 							System.out.println("listChanges:"+listChanges.get(count));
 							
 							
-							String lineNumber = listChanges.get(count).getAttribute("data-line-number");
+							lineNumber = listChanges.get(count).getAttribute("data-line-number");
 							
+							if(lineNumber != null)
 							System.out.println("Line Number :"+lineNumber);							
 
 							//To print only keyword matching lines
