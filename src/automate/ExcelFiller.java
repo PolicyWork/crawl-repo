@@ -99,7 +99,7 @@ public class ExcelFiller {
 								commitMessageDesc="";
 						}
 					
-					String commitMessage = commitTitle+"||"+commitMessageDesc;
+					String commitMessage = commitTitle+commitMessageDesc;
 			
 					String search="//td[contains(@class,'blob-code blob-code-addition')  or contains(@class,'blob-code blob-code-deletion')]";
 					
@@ -120,18 +120,34 @@ public class ExcelFiller {
 					String fileName="";
 					String[] pathArray;
 					String lineNumber="";
+					String changes="";
 					
 					try{
 						
-						String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]")).get(0).getAttribute("data-url");
-						String[] arrayOfValues=listChanges1.split("&");
-												
-						for(String value:arrayOfValues){
-							if(value.toLowerCase().contains("path")){
-								pathArray=value.split("%2F");
-								fileName=pathArray[pathArray.length-1];
+						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]"));
+						
+						System.out.println("listChanges1 size:"+listChanges1.size());
+						
+						for(WebElement w:listChanges1){
+							
+							changes=w.getAttribute("data-url");
+							
+							String[] arrayOfValues=changes.split("&");
+							
+							for(String value:arrayOfValues){
+								
+								if(value.toLowerCase().contains("path")){
+									
+									pathArray=value.split("%2F");
+									
+									fileName=pathArray[pathArray.length-1];
+								}
 							}
 						}
+						//String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]")).get(0).getAttribute("data-url");
+						
+												
+						
 						
 						
 					}catch(Exception e){
@@ -143,42 +159,14 @@ public class ExcelFiller {
 						
 					System.out.println("fileName:"+fileName);
 					
-					
-					
-					
-					
-//					String[] arrayOfValues=listChanges1.split("/");
-					
-//					String fileName=arrayOfValues[arrayOfValues.length-1];
-					
-					
-//					String[] pathArray;
-//					
-//					String fileName="";
-//					
-//					for(String value:arrayOfValues){
-//						if(value.toLowerCase().contains("path")){
-//							pathArray=value.split("%2F");
-//							fileName=pathArray[pathArray.length-1];
-//							
-//						}
-//					}
-//					
-//					System.out.println("FileName:"+fileName);
-//					
-//					
-//					}catch(Exception e){
-//						System.out.println("Exception occurred");
-//					}
-//					
-					
-					
 					System.out.println("CommitMessage:"+commitMessage);
+					
+					
 						
 					
-					System.out.println("ListChanges are:"+listChanges);
+//					System.out.println("ListChanges are:"+listChanges);
 					
-					System.out.println("ListChanges size is :"+ listChanges.size());
+//					System.out.println("ListChanges size is :"+ listChanges.size());
 					
 					Boolean isCodeChangeUrlPrinted = false;
 
@@ -192,13 +180,16 @@ public class ExcelFiller {
 							
 							String codeChanges = listChanges.get(count).getText();
 							
-							System.out.println("listChanges:"+listChanges.get(count));
+//							System.out.println("listChanges:"+listChanges.get(count));
 							
 							
 							lineNumber = listChanges.get(count).getAttribute("data-line-number");
 							
-							if(lineNumber != null)
-							System.out.println("Line Number :"+lineNumber);							
+							if(lineNumber != null){
+								System.out.println("Line Number :"+lineNumber);	
+								outputHandle.write(urlToGet+";\n"+commitMessage+";\n"+fileName+";\n"+lineNumber);
+							}
+													
 
 							//To print only keyword matching lines
 							
@@ -208,28 +199,11 @@ public class ExcelFiller {
 									{
 										isCodeChangeUrlPrinted=true;
 										
-										outputHandle.write("\n=========================================================\n");
+										outputHandle.write(urlToGet+";"+commitMessage+";"+fileName+";"+lineNumber);
 										
-										outputHandle.write("[CODE-CHANGE-URL]:"+urlToGet+"\n");
-										outputHandle.write("\n[COMMIT MESSAGE]:"+commitMessage+"\n");
 										
-										outputHandle.write("=========================================================\n\n");
 									}
 										
-											
-									System.out.println("Commit Message:->"+commitMessage);
-									
-//									outputHandle.write("\n[COMMIT MESSAGE]:"+commitMessage+"\n\n");
-									
-									System.out.println("IT IS TRUE ******************************");
-									
-									outputHandle.write(codeChanges);
-									
-									System.out.println("********");
-									
-									System.out.println(codeChanges);
-
-									outputHandle.write("\n");
 							}
 						}
 					}//This is end of if condition for listChanges.size
