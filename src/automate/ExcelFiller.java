@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -28,6 +29,28 @@ public class ExcelFiller {
 	/**
 	 * @param args
 	 */
+	public static String getLineNumber(List<WebElement> listChanges){
+		
+//		Boolean gotMatchingText=false;
+		
+		String lineNumber=null;
+		
+		if (listChanges.size()>0)
+		{
+			for (int count = 0; count < listChanges.size(); count++) {
+
+				lineNumber = listChanges.get(count).getAttribute("data-line-number");
+				
+				if(lineNumber != null){
+					return lineNumber;	
+				}
+			}
+		}
+		
+		return lineNumber;
+	}
+	
+	
 	public static void main(String[] args) throws InterruptedException,	IOException {
 
 		BufferedReader readHandle;
@@ -117,16 +140,26 @@ public class ExcelFiller {
 					
 					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
 					
+					System.out.println("listChanges:"+listChanges);
+					System.out.println("listChanges size:"+listChanges.size());
+					
 					String fileName="";
 					String[] pathArray;
 					String lineNumber="";
 					String changes="";
 					
+					List<String> fileNameList = new ArrayList<String>(100);
+					List<Integer> lineNumberList = new ArrayList<Integer>(100);
+					
 					try{
 						
 						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]"));
-						
+						System.out.println("==================================================");
 						System.out.println("listChanges1 size:"+listChanges1.size());
+						System.out.println("listChanges1:"+listChanges1);
+						System.out.println("==================================================");
+						
+						int i=0;
 						
 						for(WebElement w:listChanges1){
 							
@@ -141,8 +174,20 @@ public class ExcelFiller {
 									pathArray=value.split("%2F");
 									
 									fileName=pathArray[pathArray.length-1];
+									
+									fileNameList.add(fileName);
 								}
 							}
+							System.out.println("Webelement at i value:"+w);
+							System.out.println("list changes at i value:"+listChanges1.get(i));
+							lineNumber = listChanges.get(i).getAttribute("data-line-number");
+							System.out.println("LineNumber at i value:"+lineNumber);
+							System.out.println("FileName at i value:"+fileName);
+							
+						
+							
+							System.out.println("------------------------------------------------------------------------------------------\n\n\n\n\n\n");
+							
 						}
 						//String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]")).get(0).getAttribute("data-url");
 						
@@ -200,8 +245,6 @@ public class ExcelFiller {
 										isCodeChangeUrlPrinted=true;
 										
 										outputHandle.write(urlToGet+";"+commitMessage+";"+fileName+";"+lineNumber);
-										
-										
 									}
 										
 							}
