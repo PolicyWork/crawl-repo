@@ -1,0 +1,4 @@
+https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f;CLOUD-200 fixed security issue;BlueprintRepository.java;16
+https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f;CLOUD-200 fixed security issue;CredentialRepository.java;17
+https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f;CLOUD-200 fixed security issue;StackRepository.java;45
+https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f;CLOUD-200 fixed security issue;TemplateRepository.java;24

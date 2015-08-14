@@ -10,9 +10,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.logging.Level;
@@ -144,11 +143,17 @@ public class ExcelFiller {
 					//List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));  //previous working 12 Aug
 					
 					//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]//span[contains(.,'PostAuthorize')]/ancestor::tr[1] this gives line number and code change
+					//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]/../../../../../..//div[contains(@class,'file-header')]
 					
-					List<WebElement> listChanges = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
+					//===
 					
-					System.out.println("listChanges:"+listChanges);
-					System.out.println("listChanges size:"+listChanges.size());
+					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
+					
+					//List<WebElement> lineNumberElements = driver.findElements(By.xpath("//div[contains(@data-path,'src/main/java/com/sequenceiq/cloudbreak/repository/BlueprintRepository.java')]/..//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]/span[1]"));
+					
+					//List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]//span[contains(.,'PostAuthorize')]/ancestor::div[1]/..//span[contains(@title,'src/main/java/com/sequenceiq/cloudbreak/repository/BlueprintRepository.java')]"));
+					System.out.println("lineNumberElements:"+lineNumberElements);
+					System.out.println("lineNumberElements size:"+lineNumberElements.size());
 					
 					String fileName="";
 					String[] pathArray;
@@ -156,7 +161,7 @@ public class ExcelFiller {
 					String changes="";
 					Boolean notNullLineFound=false;
 					
-					HashMap<String,Integer> mapper = new HashMap<String,Integer>();  //Generate one hashmap per link that you analyze
+					Map<String,Integer> mapper = new LinkedHashMap<String,Integer>();  //Generate one hashmap per link that you analyze
 					Iterator<Map.Entry<String, Integer>> iterator ;
 //					List<String> fileNameList = new ArrayList<String>(100);
 //					List<Integer> lineNumberList = new ArrayList<Integer>(100);
@@ -165,43 +170,40 @@ public class ExcelFiller {
 						
 //						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]"));  //prev working but gives  files in any order						
 						
-						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]/../../../../../..//div[contains(@class,'file-header')]"));
+						List<WebElement> fileNames = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]/../../../../../..//div[contains(@class,'file-header')]"));
 						
 						System.out.println("==================================================");
-						System.out.println("listChanges1 size:"+listChanges1.size());
-						System.out.println("listChanges1:"+listChanges1);
+						System.out.println("listChanges1 size:"+fileNames.size());
+						System.out.println("listChanges1:"+fileNames);
 						System.out.println("==================================================");
 						
-						if(listChanges1.size() == 0)
+						if(fileNames.size() == 0)
 							continue;
 						
 						int i=0;
 						
 						
 						
-						for(WebElement w:listChanges1){
+						for(WebElement w:fileNames){
 							
-							changes=w.getAttribute("data-url");
+							fileName=w.getAttribute("data-path");
 							
-							String[] arrayOfValues=changes.split("&");
+							System.out.println("FILENAME:"+fileName);
 							
-							for(String value:arrayOfValues){
-								
-								if(value.toLowerCase().contains("path")){
-									
-									pathArray=value.split("%2F");
-									
-									fileName=pathArray[pathArray.length-1];
+							String[] arrayOfValues=fileName.split("/");
+							fileName=arrayOfValues[arrayOfValues.length-1];
 									
 									//fileNameList.add(fileName);
 									mapper.put(fileName, 1);
-								}
-							}
+									
+									System.out.println("Added "+fileName+" to hash table");
+								
+							
 						}
 						
 						iterator = mapper.entrySet().iterator() ;
 						
-						for(WebElement lineElement:listChanges){
+						for(WebElement lineElement:lineNumberElements){
 							lineNumber=lineElement.getAttribute("data-line-number");
 							System.out.println("++lineNumber:"+lineNumber);
 						System.out.println("Code Changes::"+lineElement.getText());

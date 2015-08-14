@@ -1,0 +1,5 @@
+//span[contains(.,'PostAuthorize')  and contains]/ancestor::tr[1]//
+
+//div[contains(@data-path,'src/main/java/com/sequenceiq/cloudbreak/repository/BlueprintRepository.java')]/..//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]/span[contains(@data-path,'src/main/java/com/sequenceiq/cloudbreak/repository/BlueprintRepository.java')]
+
+
