@@ -11,7 +11,10 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -138,7 +141,11 @@ public class ExcelFiller {
 					
 //					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//td[contains(@class,'blob-num blob-num-expandable')]/a[1]"));
 					
-					List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
+					//List<WebElement> listChanges = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));  //previous working 12 Aug
+					
+					//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]//span[contains(.,'PostAuthorize')]/ancestor::tr[1] this gives line number and code change
+					
+					List<WebElement> listChanges = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
 					
 					System.out.println("listChanges:"+listChanges);
 					System.out.println("listChanges size:"+listChanges.size());
@@ -147,19 +154,30 @@ public class ExcelFiller {
 					String[] pathArray;
 					String lineNumber="";
 					String changes="";
+					Boolean notNullLineFound=false;
 					
-					List<String> fileNameList = new ArrayList<String>(100);
-					List<Integer> lineNumberList = new ArrayList<Integer>(100);
+					HashMap<String,Integer> mapper = new HashMap<String,Integer>();  //Generate one hashmap per link that you analyze
+					Iterator<Map.Entry<String, Integer>> iterator ;
+//					List<String> fileNameList = new ArrayList<String>(100);
+//					List<Integer> lineNumberList = new ArrayList<Integer>(100);
 					
 					try{
 						
-						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]"));
+//						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]"));  //prev working but gives  files in any order						
+						
+						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]/../../../../../..//div[contains(@class,'file-header')]"));
+						
 						System.out.println("==================================================");
 						System.out.println("listChanges1 size:"+listChanges1.size());
 						System.out.println("listChanges1:"+listChanges1);
 						System.out.println("==================================================");
 						
+						if(listChanges1.size() == 0)
+							continue;
+						
 						int i=0;
+						
+						
 						
 						for(WebElement w:listChanges1){
 							
@@ -175,24 +193,63 @@ public class ExcelFiller {
 									
 									fileName=pathArray[pathArray.length-1];
 									
-									fileNameList.add(fileName);
+									//fileNameList.add(fileName);
+									mapper.put(fileName, 1);
 								}
 							}
-							System.out.println("Webelement at i value:"+w);
-							System.out.println("list changes at i value:"+listChanges1.get(i));
-							lineNumber = listChanges.get(i).getAttribute("data-line-number");
-							System.out.println("LineNumber at i value:"+lineNumber);
-							System.out.println("FileName at i value:"+fileName);
-							
+						}
 						
+						iterator = mapper.entrySet().iterator() ;
+						
+						for(WebElement lineElement:listChanges){
+							lineNumber=lineElement.getAttribute("data-line-number");
+							System.out.println("++lineNumber:"+lineNumber);
+						System.out.println("Code Changes::"+lineElement.getText());
 							
-							System.out.println("------------------------------------------------------------------------------------------\n\n\n\n\n\n");
+//							if(lineNumber != null){
+//								lineNumberList.add(Integer.parseInt(lineNumber));
+//							}
+							
+							System.out.println("HashMap Size:"+mapper.size());
+							
+							System.out.println("marker +++");
+					        
+							if(lineNumber != null && iterator.hasNext()){
+					        	
+								System.out.println("marker ***");
+					        	
+								notNullLineFound = true;
+					        	
+					            Map.Entry<String, Integer> mapEntry = iterator.next();
+					            
+					            System.out.println("BEFORE::"+mapEntry.getKey() +" :: "+ mapEntry.getValue());
+					            
+					            System.out.println("***************");
+					            
+					            mapEntry.setValue(Integer.parseInt(lineNumber));
+					            
+					            System.out.println("AFTER::"+mapEntry.getKey() +" :: "+ mapEntry.getValue());
+					        }
+						}
+						
+						if(notNullLineFound == true){
+							
+							System.out.println("+*+*+*");
+							
+							for(String key: mapper.keySet()){
+					            System.out.println(key  +" :: "+ mapper.get(key));
+					            outputHandle.write(urlToGet+";"+commitMessage+";"+key+";"+mapper.get(key)+"\n");
+				         }						
+						 outputHandle.flush();
 							
 						}
+						 
+						
+						//System.out.println("Size of lineNumberList :"+lineNumberList.size());
+						//System.out.println("Size of fileNameList :"+fileNameList.size());
+						
+						
 						//String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]")).get(0).getAttribute("data-url");
-						
-												
-						
 						
 						
 					}catch(Exception e){
@@ -206,51 +263,6 @@ public class ExcelFiller {
 					
 					System.out.println("CommitMessage:"+commitMessage);
 					
-					
-						
-					
-//					System.out.println("ListChanges are:"+listChanges);
-					
-//					System.out.println("ListChanges size is :"+ listChanges.size());
-					
-					Boolean isCodeChangeUrlPrinted = false;
-
-//					Boolean gotMatchingText=false;
-					
-					if (listChanges.size()>0)
-					{
-						for (int count = 0; count < listChanges.size(); count++) {
-
-							//prints all the code changes associated with each commit
-							
-							String codeChanges = listChanges.get(count).getText();
-							
-//							System.out.println("listChanges:"+listChanges.get(count));
-							
-							
-							lineNumber = listChanges.get(count).getAttribute("data-line-number");
-							
-							if(lineNumber != null){
-								System.out.println("Line Number :"+lineNumber);	
-								outputHandle.write(urlToGet+";\n"+commitMessage+";\n"+fileName+";\n"+lineNumber);
-							}
-													
-
-							//To print only keyword matching lines
-							
-							if(codeChanges.toLowerCase().contains(keyword.toLowerCase()))
-							{
-									if(isCodeChangeUrlPrinted == false)
-									{
-										isCodeChangeUrlPrinted=true;
-										
-										outputHandle.write(urlToGet+";"+commitMessage+";"+fileName+";"+lineNumber);
-									}
-										
-							}
-						}
-					}//This is end of if condition for listChanges.size
-
 			} // end of while loop for reading input file containing keywords
 			
 			outputHandle.close(); //close the file only after reading all the keywords from the input file
