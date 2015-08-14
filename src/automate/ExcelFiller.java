@@ -10,7 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Iterator;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -147,7 +147,7 @@ public class ExcelFiller {
 					
 					//===
 					
-					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]//span[contains(.,'PostAuthorize')]/ancestor::tr[1]/td[2]"));
+					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion') or contains(@class,'blob-code blob-code-deletion selected-line')]//span[contains(.,'PostAuthorize') and contains(.,'@')]/ancestor::tr[1]/td[2]"));
 					
 					//List<WebElement> lineNumberElements = driver.findElements(By.xpath("//div[contains(@data-path,'src/main/java/com/sequenceiq/cloudbreak/repository/BlueprintRepository.java')]/..//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]/span[1]"));
 					
@@ -160,15 +160,20 @@ public class ExcelFiller {
 					String lineNumber="";
 					String changes="";
 					Boolean notNullLineFound=false;
+					WebElement fileNameHandle = null;
+					String prevFileName;
+					List<Integer> listNumbersForMap=null;
 					
-					Map<String,Integer> mapper = new LinkedHashMap<String,Integer>();  //Generate one hashmap per link that you analyze
-					Iterator<Map.Entry<String, Integer>> iterator ;
+					//Map<String,Integer[]> mapper = new LinkedHashMap<String,Integer[]>();  //Generate one hashmap per link that you analyze
+					Map<String,List<Integer>> mapper = new LinkedHashMap<String,List<Integer>>();  //Generate one hashmap per link that you analyze
+//					Iterator<Map.Entry<String, Integer>> iterator ;
 //					List<String> fileNameList = new ArrayList<String>(100);
 //					List<Integer> lineNumberList = new ArrayList<Integer>(100);
+//					List<Integer> listNumbersForMap = new ArrayList<Integer>();
 					
 					try{
 						
-//						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]"));  //prev working but gives  files in any order						
+/*//						List<WebElement> listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]"));  //prev working but gives  files in any order						
 						
 						List<WebElement> fileNames = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]//a[contains(@class,'diff-expander js-expand')]/../../../../../..//div[contains(@class,'file-header')]"));
 						
@@ -180,11 +185,11 @@ public class ExcelFiller {
 						if(fileNames.size() == 0)
 							continue;
 						
-						int i=0;
+						int i=0;*/
 						
 						
 						
-						for(WebElement w:fileNames){
+/*						for(WebElement w:fileNames){
 							
 							fileName=w.getAttribute("data-path");
 							
@@ -199,50 +204,120 @@ public class ExcelFiller {
 									System.out.println("Added "+fileName+" to hash table");
 								
 							
-						}
+						}*/
 						
-						iterator = mapper.entrySet().iterator() ;
+						/*iterator = mapper.entrySet().iterator() ;*/
+						
+						int counter=0;
 						
 						for(WebElement lineElement:lineNumberElements){
+							
+							counter++;
+							
+							System.out.println("LINE ELEMENT::"+lineElement);
+							
 							lineNumber=lineElement.getAttribute("data-line-number");
+							
+							if(lineNumber == null)
+								continue;
+							
 							System.out.println("++lineNumber:"+lineNumber);
-						System.out.println("Code Changes::"+lineElement.getText());
+							System.out.println("Code Changes::"+lineElement.getText());
+							System.out.println("td id value::"+lineElement.getAttribute("id"));
 							
-//							if(lineNumber != null){
-//								lineNumberList.add(Integer.parseInt(lineNumber));
-//							}
+							String searchFileName="//td[contains(@id,'"+lineElement.getAttribute("id")+"')]/ancestor::div[1]/..//div[contains(@class,'file-header')]";
+							fileNameHandle = driver.findElements(By.xpath(searchFileName)).get(0);
 							
-							System.out.println("HashMap Size:"+mapper.size());
+							System.out.println("\n\nFILEHANDLE:"+fileNameHandle+"\n\n");
 							
-							System.out.println("marker +++");
-					        
-							if(lineNumber != null && iterator.hasNext()){
-					        	
-								System.out.println("marker ***");
-					        	
-								notNullLineFound = true;
-					        	
-					            Map.Entry<String, Integer> mapEntry = iterator.next();
-					            
-					            System.out.println("BEFORE::"+mapEntry.getKey() +" :: "+ mapEntry.getValue());
-					            
-					            System.out.println("***************");
-					            
-					            mapEntry.setValue(Integer.parseInt(lineNumber));
-					            
-					            System.out.println("AFTER::"+mapEntry.getKey() +" :: "+ mapEntry.getValue());
+							System.out.println("============================================++++++++++++++++++++++++++++++++++"+lineNumber);
+							
+							if(fileNameHandle.toString().contains("data-path")){
+								fileName=fileNameHandle.getAttribute("data-path");
+								//System.out.println("Exception filename:"+fileName);
+								
+								if(fileName.contains("/")){
+									String[] arrayOfValues=fileName.split("/");
+									fileName=arrayOfValues[arrayOfValues.length-1];
+//									System.out.println("\n BEFORE FILENAME:"+fileName);
+									fileName = fileName.substring(0, fileName.length());
+//									System.out.println("\n AFTER FILENAME:"+fileName);
+								}
+							}
+							else
+							{
+								String[] arrayOfValues=fileNameHandle.toString().split("/");
+								fileName=arrayOfValues[arrayOfValues.length-1];
+								fileName = fileName.substring(0, fileName.length()-3);
+							}
+							
+							prevFileName=fileName;
+//							System.out.println("\n\n\nFileName Found By New Method ->>>>"+fileName);
+							
+							
+							
+							if(lineNumber != null){
+								System.out.println("************************Inserting into HASHMAP line number:"+lineNumber);
+								
+//								listNumbersForMap.add(Integer.parseInt(lineNumber))
+								
+								if((mapper.get(fileName) == null) /*|| (counter == lineNumberElements.size())*/) {
+									
+									listNumbersForMap = new ArrayList<Integer>();		//for every new file, create a new list
+									listNumbersForMap.add(Integer.parseInt(lineNumber));
+									mapper.put(fileName,listNumbersForMap);
+									
+									/*if(mapper.size()!=0){
+										mapper.put(prevFileName,listNumbersForMap);
+										System.out.println("Adding to map when map already has element");
+									}
+									else
+									{
+										
+										mapper.put(fileName,listNumbersForMap);
+										System.out.println("Adding for first time");
+									}*/
+									
+									
+								}
+								else
+								{
+									System.out.println(" ADDING IN THE ARRAY LIST NOW ...");
+									listNumbersForMap.add(Integer.parseInt(lineNumber));
+								}
+								//mapper.put(fileName,Integer.parseInt(lineNumber));
+								
+								
+								
+//								System.out.println("marker+++++++++++");
+								notNullLineFound=true;
 					        }
 						}
+//						System.out.println("marker+++++++++++");
 						
 						if(notNullLineFound == true){
 							
-							System.out.println("+*+*+*");
+//							System.out.println("+*+*+*");
 							
-							for(String key: mapper.keySet()){
+							System.out.println("HASHMAP SIZE:"+mapper.size());
+							
+							for (Map.Entry<String, List<Integer>> entry : mapper.entrySet()) {
+								System.out.println("\n\n\n\n *********Entry********\n\n ");
+								
+								System.out.println("Entry key:"+entry.getKey());
+								System.out.println("Entry key:"+entry.getValue());
+						        for(int lineNumberFromMap : entry.getValue()){
+						        	
+						        	System.out.println(urlToGet+"|"+commitMessage+"|"+entry.getKey()+"|"+lineNumberFromMap+"\n");
+						        	outputHandle.write(urlToGet+"|"+commitMessage+"|"+entry.getKey()+"|"+lineNumberFromMap+"\n");
+						        }
+						    }
+							
+							/*for(String key: mapper.keySet()){
 					            System.out.println(key  +" :: "+ mapper.get(key));
-					            outputHandle.write(urlToGet+";"+commitMessage+";"+key+";"+mapper.get(key)+"\n");
-				         }						
-						 outputHandle.flush();
+					            outputHandle.write(urlToGet+"|"+commitMessage+"|"+key+"|"+mapper.get(key)+"\n");
+				         }	*/					
+//						 outputHandle.flush();
 							
 						}
 						 
@@ -255,15 +330,22 @@ public class ExcelFiller {
 						
 						
 					}catch(Exception e){
-						System.out.println("In Exception");
-						String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]/../..//span[contains(@class,'js-selectable-text')]")).get(0).getAttribute("title");
+						System.out.println("In Exception***********************************************\n");
+						System.out.println("In Exception***********************************************\n");
+						/*String listChanges1 = driver.findElements(By.xpath("//span[contains(.,'PostAuthorize')]/ancestor::table[1]/../..//span[contains(@class,'js-selectable-text')]")).get(0).getAttribute("title");
 						String[] arrayOfValues=listChanges1.split("/");
-						fileName=arrayOfValues[arrayOfValues.length-1];
+						fileName=arrayOfValues[arrayOfValues.length-1];*/
+						
+						/*fileName=fileNameHandle.getAttribute("data-path");
+						System.out.println("Exception filename:"+fileName);
+						*/
+						
+						
 					}
 						
-					System.out.println("fileName:"+fileName);
+//					System.out.println("fileName:"+fileName);
 					
-					System.out.println("CommitMessage:"+commitMessage);
+//					System.out.println("CommitMessage:"+commitMessage);
 					
 			} // end of while loop for reading input file containing keywords
 			

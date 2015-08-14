@@ -1,4 +1,34 @@
-https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f;CLOUD-200 fixed security issue;BlueprintRepository.java;16
-https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f;CLOUD-200 fixed security issue;CredentialRepository.java;17
-https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f;CLOUD-200 fixed security issue;StackRepository.java;45
-https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f;CLOUD-200 fixed security issue;TemplateRepository.java;24
+https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160|CLOUD-872 create new security- group and rule resources|SecurityGroupRepository.java|15
+https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160|CLOUD-872 create new security- group and rule resources|SecurityGroupRepository.java|18
+https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253|CLOUD-659 create network abstraction|NetworkRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253|CLOUD-659 create network abstraction|NetworkRepository.java|16
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|ClusterRepository.java|14
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|13
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|16
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|13
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|16
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|ClusterRepository.java|14
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|13
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|16
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|13
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|16
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|ClusterRepository.java|14
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|13
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|16
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|13
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|16
+https://github.com/sequenceiq/periscope/commit/a7296fef4af9b0b3d59d7b8601422f862e9e59d2|PERI-28 history added for scaling events|HistoryRepository.java|15
+https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d|v2 version with good UI & edit dishes ability+spring security update
++rest-webmvc
++light jsp templating lib
++remove useless tomcat plugin config
++readme
++html design
++update of ORM model (with many2many with extra field)|OrderRepository.java|14
+https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d|v2 version with good UI & edit dishes ability+spring security update
++rest-webmvc
++light jsp templating lib
++remove useless tomcat plugin config
++readme
++html design
++update of ORM model (with many2many with extra field)|OrderRepository.java|18

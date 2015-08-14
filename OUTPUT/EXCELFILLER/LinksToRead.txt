@@ -1,1 +1,7 @@
-https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f
+https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160
+https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0
+https://github.com/sequenceiq/periscope/commit/a7296fef4af9b0b3d59d7b8601422f862e9e59d2
+https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d

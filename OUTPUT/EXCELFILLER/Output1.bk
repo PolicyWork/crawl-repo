@@ -1,0 +1,715 @@
+https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab|init|ExpressionBasedPostInvocationAdvice.java|53
+https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab|init|package-info.java|2
+https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab|init|PostAuthorize.java|20
+https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab|init|PostInvocationAdviceProvider.java|15
+https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab|init|PostInvocationAttribute.java|6
+https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab|init|PrePostAnnotationSecurityMetadataSource.java|49
+https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab|init|AnnotationParameterNameDiscoverer.java|75
+https://github.com/a150b464/synergy-bank/commit/50f95405c53b315a507e417590c37574dbe3fe8a|Lock and Unlock|BankAuthServiceImpl.java|45
+https://github.com/abhishek333/ted-young/commit/903aef6134b523727a04ee6fd83cc361a8bc2ce3|No commit message|_6B.java|24
+https://github.com/adr-wisniewski/inz-sd/commit/7645256ec2b4128ee271228b8c32d9c1767cb936|implementacja rc1|NotificationServiceImpl.java|52
+https://github.com/akuepfer/coursera-mobile-cloud-computing-with-android/commit/718095fbb5839655a2f59c1787bc2256ca58b8f4|Initial commit|UserService.java|92
+https://github.com/akuepfer/coursera-mobile-cloud-computing-with-android/commit/718095fbb5839655a2f59c1787bc2256ca58b8f4|Initial commit|PatientRepository.java|23
+https://github.com/alapierre/altkom_2004_10_06/commit/7a5edf5ea12cf4a33272b878d950a91ecf517bb5|spring-security-acl on Derby|EventServiceImpl.java|50
+https://github.com/alapierre/sample/commit/d581e20f55625ceb3e21c7b3eaa625a03f0e1620|I have added ACL support example|EventServiceImpl.java|50
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultInvoiceService.java|298
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultPaymentMethodService.java|104
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultTransactionReceiptService.java|90
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultGymnastService.java|297
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultMemberService.java|303
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultQuestionService.java|72
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultNotificationService.java|167
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultAgeGroupService.java|52
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultCourseService.java|73
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultCourseTypeService.java|53
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultLocationService.java|72
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultMakeupService.java|124
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultProgramService.java|66
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultCartService.java|201
+https://github.com/anadon/spring-security-new-login/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|MethodSecurityService.groovy|60
+https://github.com/anadon/spring-security-new-login/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|AnnotationParameterNameDiscoverer.java|74
+https://github.com/anadon/spring-security-new-login/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|el-access.xml|220
+https://github.com/Angry-Quester/applicationtracker/commit/29f0782d57cc7d8403cf781877fbf552c31ac968|Added 'Login controller' and simple logic to process login failure. S……witched off method security.|ApplicationServiceImpl.java|27
+https://github.com/Angry-Quester/applicationtracker/commit/305cd0ac19044e04f1af00fecbd436628a312749|Wip commit. Added some stupid code experiments with controller. Chang……ed all tabs to spaces|ApplicationServiceImpl.java|40
+https://github.com/Angry-Quester/applicationtracker/commit/de843a7fd3238f183253fe1aff259380f3ea5db5|Big success. Somehow it feels mute though. ACL started to work, event……ually. Everything that is left is to create administrative tools, and the whole infrastructure to support security requirements. As simple as an apple pie :) Just agonising, don't mind...|ApplicationServiceImpl.java|27
+https://github.com/anu-doi/anudc/commit/097da165cfe5ebf32c31c910f35b3aaff18add4d|Fixed a permissions-related issue in the upload files functionalitywhere a user was being authorised for a null domain object.|FedoraObjectService.java|340
+https://github.com/anu-doi/anudc/commit/4ce7a2845d8e25127e2303b846f6bd195fdf55da|Added gitignore to root, updated CustomAuthenticationEntryPoint class…… so requests missing user agents get 401 instead of redirect response. Added object-level security to the web service.|WebServiceResource.java|324
+https://github.com/anu-doi/DataCommons/commit/159ea0f29343c3c64941fab0cce463fcd5535a81|Added Spring security to bag download, upload and file download throu……gh dropbox.|UploadService.java|528
+https://github.com/anu-doi/DataCommons/commit/1c9277b929836441b2a2a6efd82f19059906e53f|Merge branch 'master' of ssh://github.com/anu-doi/DataCommonsConflicts:
+	DataCommons/src/main/java/au/edu/anu/datacommons/collectionrequest/CollectionRequestService.java|UploadService.java|527
+https://github.com/apache/rave/commit/0acaf1f25e712b4ec3c9930bec04baa62f7e841e|In case Widget object was coming null for new URL @PostAuthorize was ……throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|132
+https://github.com/apache/rave/commit/1bd8c9e663ea6c17cdaad1769e89c03d61615ee1|Fixed service permission annotation (RAVE-1054)git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|100
+https://github.com/apache/rave/commit/2bc596199b198853e08c6abc174e64f27b5240c6|RAVE-310: fixed incorrect security annotation on updateWidget (admins…… can now update non-owned widgets)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|124
+https://github.com/apache/rave/commit/2dbe0052b0f45741f4e5db56d9dbb2ebd2dc540f|RAVE-319: Widget persistence not workingAdded @Transaction annotation to the registerNewWidget and updateWidget methods to ensure JPA commits
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190457 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|123
+https://github.com/apache/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107|RAVE-307: RegionWidget ModelPermissionEvaluator and Service AnnotationsApplied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68|RegionWidgetService.java|36
+https://github.com/apache/rave/commit/7a43cad0deac81e5e5a08fb50906c2b90bf7ca84|Fill out controllers, add 204 response filtergit-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1510718 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|76
+https://github.com/apache/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd|RAVE-310: Widget ModelPermissionEvaluator and Service Annotationsgit-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|113
+https://github.com/apache/rave/commit/91c2fda6a260a84bb8b8387802788feb055d24e8|Code to support RAVE-298 (unchecked page manipulations):- implemented DefaultPagePermissionEvaluator
+- protected one PageService method: getPage
+- added handleAccessDeniedException to o.a.r.p.w.a.rest.PageApi
+- fixed permissionEvaluator bean definition in applicationContext-security.xml to prevent duplicate bean creation
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1183496 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|42
+https://github.com/apache/rave/commit/9c5aed234502a56f789d2319caa3b0e0a5d23132|RAVE-731 Refactored WidgetComment to no longer need the widgetID attr……ibute.
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/branches/model-split@1394834 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|197
+https://github.com/apache/rave/commit/9cbfd16293260a48e5e5895c556ac7142330df49|RAVE-1011: Update page service to support get all / get limitedgit-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1508584 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|103
+https://github.com/apache/rave/commit/a94b16a309511b320c9e0f64479a25ece0eab12a|RAVE-475: Create Person Profile page based off of a PageTemplategit-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1294003 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|56
+https://github.com/apache/rave/commit/cc247d6114bb520ecdf0dda32cc8e6f30ccb03c0|Updates and changes to implement page sharing between rave users. See…… RAVE-103. (Support shared spaces.)
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1335687 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|37
+https://github.com/apache/rave/commit/e3f7f4c6034697b476db9e7ca8e6021fcf4395b4|Updated page service to create instances of pages by page template id…… RAVE-1066
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1531267 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|128
+https://github.com/apache/rave/commit/ef31170d554b8d7b25e0af2f2f8cefc9f0dcf188|Changes in support of RAVE-298:- created common AbstractRestApi class
+- updated the DefaultPagePermissionEvaluator to handle permission checks when the object to be checked differs from the returned Object
+- secured remaining PageService methods that deal with Page objects, except addNewDefaultPage (see RAVE-303)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1185340 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|79
+https://github.com/apache/rave/commit/f7084fdd8f1b5c8dcf1d2215dc906927eec0d04e|Code in support of RAVE-458: Person Profile multiple sub-pages- added infrastructure to allow for a hierarchy of Page objects for any Page Type (USER, PERSON_PROFILE)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1291474 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|108
+https://github.com/bartosz25/library-sample-project/commit/3cb1e6d5e612ad81359dd9a79f3b90c277ec7535|Maven project structure, pom.xml and one new todo|SubscriberController.java|178
+https://github.com/bender-futur/pujcovna-stroju/commit/4fb80761a94c866b8083bcb7d5afaeea4daeed46|Authorization mostly on service layer|LoanService.java|60
+https://github.com/bender-futur/pujcovna-stroju/commit/4fb80761a94c866b8083bcb7d5afaeea4daeed46|Authorization mostly on service layer|SystemUserService.java|131
+https://github.com/blacknight1982/IDCloud/commit/4ac8bf263d21796da23edfdfbcb86e298c5c75d5|Items: 10, 6, 0, 5, 9, 20. Better UI, clean the project - following
+0.1 Clean up the CSS file - following
+1. Website published to http://idcloud.iego.net/
+1.1 Synchronize Database - script on the dropbox
+1.2 Check out the code on laptop - has problem
+2. Social integration - fb integrated, twitter needs to be checked
+4. Image upload through nicEditor is 3rd party Web - done with self
+developed image upload service - almost done
+5. User sign up email sending  - Not Started
+5.1 User sign up anti-robot protection - Not Started
+6. Publish file upload - Not Started
+7. Spring REST/oDATA - half way
+9. Server side Cache enabling - Not Started
+10. Apache access control - Ready to Start
+
+New: REST service, image upload service, CORS filter, Add inspiration
+authorizations
+
+Signed-off-by: John Liu <blacknight1982@gmail.com>|InspirationDao.java|20
+https://github.com/blacknight1982/IDCloud/commit/54db7fc2769c4c4e3f12ee16f30153250e753673|Items: 0, 2, 5, 90. Better UI, clean the project - following
+1. Publish the website - done! http://idcloud.iego.net/
+1.1 Synchronize Database - on the way
+2. Social integration - fb integrated, twitter needs to be checked
+3. iFrame/embed problem - solved! cancel the sliding panel
+4. Image upload through nicEditor is 3rd party Web - done with self
+developed image upload service 
+5. User sign up email sending
+6.1 User sign up anti-robot protection
+7. Spring REST/oDATA - half way
+8. Enable scrolling framework only for inspiration table page, not
+other page - done
+9. Cache enabling
+
+New: REST service, image upload service, CORS filter
+
+Signed-off-by: John Liu <blacknight1982@gmail.com>|InspirationDao.java|13
+https://github.com/bogic-past/waterchannel/commit/748c7459177564814f4b5bdb84eb0f7971c3264d|Added changes|AddressResource.java|44
+https://github.com/bogic-past/waterchannel/commit/748c7459177564814f4b5bdb84eb0f7971c3264d|Added changes|WaterMeterResource.java|35
+https://github.com/briancody/roscode-dtp/commit/704dc1b6af65f5804f60326cfd90801a741ef081|Security!|UserRepository.java|16
+https://github.com/bvassilis/SpringInAction/commit/0b9fdad8d38dc327773883595b0258b107061f05|sia3|SecuredClass.java|27
+https://github.com/bvassilis/SpringInAction/commit/0b9fdad8d38dc327773883595b0258b107061f05|sia3|SecuredInterface.java|17
+https://github.com/careermasud/SpringBooks/commit/393f54ed1c94c177d6381cf1b91962f303b82707|Spring In Action created.|SecuredClass.java|27
+https://github.com/careermasud/SpringBooks/commit/393f54ed1c94c177d6381cf1b91962f303b82707|Spring In Action created.|SecuredInterface.java|17
+https://github.com/cherimojava/orchidae/commit/81cf17579ebe389a47e4cd94293ae1e7339488cb|provide endpoints for next/previous picture ref #31|PictureController.java|168
+https://github.com/cherimojava/orchidae/commit/81cf17579ebe389a47e4cd94293ae1e7339488cb|provide endpoints for next/previous picture ref #31|_PictureController.java|283
+https://github.com/chinab/owaconnector/commit/181abd50d82930899def064d2cdb60a9427abead|authentication.name instead of principal|CalendarConfiguration.java|58
+https://github.com/chinab/owaconnector/commit/89daa79b0de77dbe357e047620e93512d7260d1e|moved find* methods to java class so they can be modified. Secured th……em using spring security.|CalendarConfiguration.java|56
+https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84|locked down the security backend|AlbumService.java|33
+https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84|locked down the security backend|ItemService.java|37
+https://github.com/chpladmin/chpl-api/commit/57db02fd4cf11eed8ba2ffd22e54e611ecba098f|Fixed issue in UserManagementController which prevented users fromchanging their passwords.|SecuredUserManagerImpl.java|183
+https://github.com/chudanic/spring-security-acl-demo/commit/a919cfdbfb0ce94579f540d7d23608a921ffdfb3|Initial commit of Spring Security ACL in Google Cloud DataStore Demo|ProjectsService.java|60
+https://github.com/code4j-chen/example-code/commit/498826fbc92b86dfd7e00c948e7968447fa690b1|Initial commit|SecuredClass.java|27
+https://github.com/code4j-chen/example-code/commit/498826fbc92b86dfd7e00c948e7968447fa690b1|Initial commit|SecuredInterface.java|17
+https://github.com/code-examples/sping-in-action-book-third-edition-code-examples/commit/74bf3899498ab67859ead50be838915bb41e9e43|first commit|SecuredClass.java|27
+https://github.com/code-examples/sping-in-action-book-third-edition-code-examples/commit/74bf3899498ab67859ead50be838915bb41e9e43|first commit|SecuredInterface.java|17
+https://github.com/danielberecz/petclinic/commit/fcc12e07ebb11225be19a3860f380cebfc4b7529|Introduced Hystrix|PetController.java|28
+https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/5257ad14ea28d0b1539f25d719a5a0e8730ff4ec|+Implemented enable/disable and public/restricted security for the fo……rms resource.
+
++Added "PHONE" to the validation enum
++Added a default "PLAIN" value when creating a new Form|FormService.java|71
+https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/71d000be167d856372e8d65f528151400fd9f0a8|Fixed issue with null values. Everything but file upload is working.Notice wierd qwerk with hibernate and embedded objects.  It is updating
+them unnecissarily.|FormResponseService.java|71
+https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/8ffff3ce48d9da997e91ecf13f8a32f1098116fa|+Checks for expired forms+If getFormById fails because of authorization or privacy levels or expired then return a hollow form with just meta data|FormService.java|71
+https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd|-Added fuctionality to get all responses for a given form id.-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.|FormResponseService.java|71
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/71d000be167d856372e8d65f528151400fd9f0a8|Fixed issue with null values. Everything but file upload is working.Notice wierd qwerk with hibernate and embedded objects.  It is updating
+them unnecissarily.|FormResponseService.java|71
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd|-Added fuctionality to get all responses for a given form id.-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.|FormResponseService.java|71
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f43ee645c6ed2c86f82bbc4f47d25647c914e7|changes made to be running with transfer app.Added fields for NA values of dates.|MilitaryService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/02f43ee645c6ed2c86f82bbc4f47d25647c914e7|changes made to be running with transfer app.Added fields for NA values of dates.|TransferActivityService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|[<div class="file-header" data-path="README.md|25
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|ActivityService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|ApplicationService.java|49
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|AwardService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|ChildService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|CourseworkService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|EmploymentService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|ScholarshipService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|UniversityService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|UserService.java|54
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a3d7b93349b74065f0ad016c17ae0435761a0e96|switched App and backend to preserve issues in the right place|VolunteerService.java|41
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/ab2a98580f8ac2e53384d19c353ddeb2f415b6dd|added TarnsferApplication Resourcecleaning getMyUser|TransferApplicationService.java|47
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/eef3e42178786eee018a6dd5f11a4401499e8a78|everything working for education page in transfer_app|InstitutionService.java|41
+https://github.com/devshred/spring-security/commit/00341f1eeaf499805d1ffd3165c867db2535032a|check read permissions on messages|MessageServiceImpl.java|41
+https://github.com/dineshbabu/spring3-trial/commit/d847648cc947b5c4725b7c02010c6033891088f1|first commit|SecuredClass.java|27
+https://github.com/dineshbabu/spring3-trial/commit/d847648cc947b5c4725b7c02010c6033891088f1|first commit|SecuredInterface.java|17
+https://github.com/dlee0113/spring_in_action/commit/96f2afa1a30121f0fe5f8c7c24cf77ef41884e3c|initial upload|SecuredClass.java|27
+https://github.com/dlee0113/spring_in_action/commit/96f2afa1a30121f0fe5f8c7c24cf77ef41884e3c|initial upload|SecuredInterface.java|17
+https://github.com/dschadow/JavaSecurity/commit/46589ca192324a9ea7ef0be8bcd2a11c4137a7c3|Introduced service class with method level security|ContactService.java|39
+https://github.com/eaglestorm/Eldar-Works/commit/7a2180655228565d596d2152d372b5a3dada0848|changed to web api and client.|ResourceController.java|71
+https://github.com/eugenp/course/commit/114fd74014a77830df458d01976fee075a42fb31|acl work|PossessionService.java|30
+https://github.com/eugenp/course/commit/8495c5fbba77cf5ed41f890c4150b57d8b94be3c|sql and security work|PossessionService.java|30
+https://github.com/eugenp/course/commit/8b519558fbeb002b69a931eb895468e7c6608480|section 7 work|PossessionService.java|29
+https://github.com/eugenp/course/commit/cfc8dccf8064e569f2681d626fbf49d288d4d0c5|security work|PossessionService.java|29
+https://github.com/europeana/Europeana-Cloud/commit/87c3f45f102965c981325a15a84f52f77567fffe|ECL-441: permission-rest-api, permissions for repr-versions, + tests|RepresentationResource.java|70
+https://github.com/europeana/Europeana-Cloud/commit/99b1f5da1e0763c4a88c8a6522fddf2208da61f3|ECL-109 - fix bug - files are not deleted from openstack|RepresentationResource.java|70
+https://github.com/excilys/excilys-bank/commit/bdf822dce4b103683eef7922f48d8dca0741c905|first big commit|BankServiceImpl.java|73
+https://github.com/ezajko/mx-hero-src/commit/296ebe880482ebcd493dc091d04de5c9caa95a39|No commit message|UserDomainController.java|38
+https://github.com/ezajko/mx-hero-src/commit/3e766437ab4474111f7a4c8a980f5f2e9574094e|No commit message|UserDomainController.java|39
+https://github.com/ezajko/mx-hero-src/commit/901b2d29e797a7e1c33ae3c1a5d7fd8ab575a733|No commit message|UserDomainAccountController.java|21
+https://github.com/filber/JavaRepo/commit/82831db085cadb98415c9ac23d3c36a6ded14760|snippets.|security.xml|158
+https://github.com/filber/JavaRepo/commit/ecdfbee7e04a1a803d5772fdd7b095da1a681743|spitter|SecuredClass.java|27
+https://github.com/filber/JavaRepo/commit/ecdfbee7e04a1a803d5772fdd7b095da1a681743|spitter|SecuredInterface.java|17
+https://github.com/flybigcat/TicTacToeGame/commit/bab05b3c16da11659e8c17522f893a6f6c9cd3a6|TicTacToe Game (full version)|GameDaoImpl.java|24
+https://github.com/flybigcat/TicTacToeGame/commit/bab05b3c16da11659e8c17522f893a6f6c9cd3a6|TicTacToe Game (full version)|hw6.txt|29
+https://github.com/fmacicasan/FreeDaysIntern/commit/31f3da5dbf8ee93cde70dbf9c068f2f70381d1fa|Permissions changes for regular user listing and profiles.|RegularUserController.java|294
+https://github.com/fmacicasan/FreeDaysIntern/commit/4372c2f27a02714c4cd3415984c34b6a16eaf6e1|changed project name to hrapp|RegularUserController.java|207
+https://github.com/fmacicasan/FreeDaysIntern/commit/7f81dcdccfd7e678a16016f86f621e2ddf2ce1de|added hrapp again on master|RegularUserController.java|207
+https://github.com/fmacicasan/FreeDaysIntern/commit/b2687a12bd24f1ad574d46985f96f2c8409ff725|added helpfull links, todo, security some comments vacation display.|RegularUserController.java|150
+https://github.com/fmacicasan/FreeDaysIntern/commit/b2687a12bd24f1ad574d46985f96f2c8409ff725|added helpfull links, todo, security some comments vacation display.|RegularUserController_Roo_Controller.aj|14
+https://github.com/fredondo/javacro2014-springsecurity3/commit/d34c1d694334e087358662c5fbe237cff301dae6|secure method invocation with SpEL expressions in annotations|FileManagerService.java|22
+https://github.com/gavin-feng/SpringInActionStudy/commit/25dc18bdce6efce993ec3fcf73a681eab5c614e7|base src from manning website|SecuredClass.java|27
+https://github.com/gavin-feng/SpringInActionStudy/commit/25dc18bdce6efce993ec3fcf73a681eab5c614e7|base src from manning website|SecuredInterface.java|17
+https://github.com/GGkBand/spring/commit/e8d27407fb6f2c99139b687c69aab8d10cddeb92|init spring|SecuredClass.java|27
+https://github.com/GGkBand/spring/commit/e8d27407fb6f2c99139b687c69aab8d10cddeb92|init spring|SecuredInterface.java|17
+https://github.com/gpimblott/SpringBootStarter/commit/7f8fd07bc66982cb9071dce3da111a03ca8fdcbd|Move gradle build file and sort out dependencies|PersonService.java|25
+https://github.com/hajimezhao/code-dojo/commit/b6d0116fa88d774fb6076e79d7c597feff5cf138|add sample source codes of Spring in Action - 3 edition|SecuredClass.java|27
+https://github.com/hajimezhao/code-dojo/commit/b6d0116fa88d774fb6076e79d7c597feff5cf138|add sample source codes of Spring in Action - 3 edition|SecuredInterface.java|17
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|AdminPostService.java|20
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|PersonalPostService.java|19
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|PublicPostService.java|19
+https://github.com/heichenhardt/SpringInAction/commit/6bbee367285990831921d0599a5415620ea8b698|Initial commit|SecuredClass.java|27
+https://github.com/heichenhardt/SpringInAction/commit/6bbee367285990831921d0599a5415620ea8b698|Initial commit|SecuredInterface.java|17
+https://github.com/HenryXi/Spring_in_action/commit/19f36a42da5dcdd67d18ee8dc11f7967e8619901|commit all files|SecuredClass.java|27
+https://github.com/HenryXi/Spring_in_action/commit/19f36a42da5dcdd67d18ee8dc11f7967e8619901|commit all files|SecuredInterface.java|17
+https://github.com/HuberyChen/spring-pratice-project/commit/27bc595b057e00fc083a330430a4f6bf668e1a16|snippets|security.xml|158
+https://github.com/HuberyChen/spring-pratice-project/commit/8fa0d610e125444ba9d60ce709d3eccb9ae0ab03|123|SecuredClass.java|27
+https://github.com/HuberyChen/spring-pratice-project/commit/8fa0d610e125444ba9d60ce709d3eccb9ae0ab03|123|SecuredInterface.java|17
+https://github.com/hyperaeon/SpringLearn/commit/2957b94461db34d6dfc96412f3c049c93f2cabfb|init commit|AuthController.java|28
+https://github.com/icefireunicorn/springinaction3rd-demo/commit/3661beb56d7253c83d6faa6c3b9b108cf890229b|add|SecuredClass.java|27
+https://github.com/icefireunicorn/springinaction3rd-demo/commit/3661beb56d7253c83d6faa6c3b9b108cf890229b|add|SecuredInterface.java|17
+https://github.com/ideng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17|Spring In Action 3 source code|SecuredClass.java|27
+https://github.com/ideng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17|Spring In Action 3 source code|SecuredInterface.java|17
+https://github.com/if052java/if052/commit/53eec2e6b02a5300c6d3ca82cf3278741050d01f|address/{addressId} rest endpoint secured with CustomPermissonEvaluator|AddressResource.java|54
+https://github.com/if052java/if052/commit/81542881cdec2bb941636fc9dbcc15efaed0a030|AddressResource methods secured|AddressResource.java|53
+https://github.com/if052java/if052/commit/d0f27ebe37f1b0e6ab3afd269d6d0e6b70e0d961|Conflicts resolved|AddressResource.java|44
+https://github.com/if052java/if052/commit/d0f27ebe37f1b0e6ab3afd269d6d0e6b70e0d961|Conflicts resolved|WaterMeterResource.java|35
+https://github.com/if052java/if052/commit/da45ad863b33b9fc29216c4e65d214c9216b2cdb|WaterMeterResource methods secured|WaterMeterResource.java|46
+https://github.com/ivanplese/spring-security-demo/commit/ee1244591e480f8c3b318f1a09819e21ad70fa61|inital commit|GenericService.java|4
+https://github.com/ivanplese/spring-security-demo/commit/ee1244591e480f8c3b318f1a09819e21ad70fa61|inital commit|AdminService.java|7
+https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd|initial commit|BackendService.java|32
+https://github.com/Jasig/uPortal/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b|UP-2950 Adding support and configuration for Spring Security annotati……on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.|EntitiesRESTController.java|69
+https://github.com/jasolangi/jasolangi.github.io/commit/5701caf9bd7cde3ec09eb35b9e787145b2df8130|Merge branch 'master' of https://github.com/OpenLMIS/open-lmisConflicts:
+	modules/core/src/main/java/org/openlmis/core/domain/Product.java
+	modules/core/src/main/java/org/openlmis/core/domain/ProgramProduct.java
+	modules/core/src/main/java/org/openlmis/core/repository/mapper/ProgramProductMapper.java
+	modules/core/src/main/java/org/openlmis/core/service/ProgramProductService.java
+	modules/openlmis-web/src/main/java/org/openlmis/web/controller/RequisitionController.java
+	modules/openlmis-web/src/main/resources/messages_en.properties
+	modules/openlmis-web/src/main/webapp/public/js/rnr/controller/create/create-requisition-controller.js
+	modules/openlmis-web/src/main/webapp/public/js/rnr/model/regular-rnr-line-item.js
+	modules/openlmis-web/src/test/java/org/openlmis/web/controller/RequisitionControllerTest.java
+	modules/requisition/src/main/java/org/openlmis/rnr/service/RequisitionService.java
+	modules/requisition/src/test/java/org/openlmis/rnr/domain/RnrLineItemTest.java
+	modules/shipment/src/main/java/org/openlmis/shipment/domain/ShipmentLineItem.java
+	modules/shipment/src/main/java/org/openlmis/shipment/dto/ShipmentLineItemDTO.java
+	modules/shipment/src/main/java/org/openlmis/shipment/repository/mapper/ShipmentMapper.java
+	modules/shipment/src/test/java/org/openlmis/shipment/ShipmentLineItemTransformerTest.java
+	modules/shipment/src/test/java/org/openlmis/shipment/dto/ShipmentLineItemDTOTest.java|RequisitionController.java|106
+https://github.com/jasolangi/jasolangi.github.io/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470||#1404| +Riya| sending numberOfMonths present in previous period to c……lient side on initiating rnr and fetching it again.|RequisitionController.java|106
+https://github.com/jasolangi/jasolangi.github.io/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566||#1050| PostAuthorize permission evaluator for print and get requisition|RequisitionController.java|224
+https://github.com/jasolangi/jasolangi.github.io/commit/ef895654aa8b15447f00954f1b6467cccf273b96||#1318| Adding post authorize to get api of pod.|PODController.java|67
+https://github.com/jinloes/secrets/commit/3a703ff8a57ca2842641d72e155111f2af6c1a99|added get secret|SecretServiceImpl.java|46
+https://github.com/jinloes/secrets/commit/d9fb8dd760826703aa3f30b4a9bad74bc94b561e|added security to the secrets|SecretServiceImpl.java|28
+https://github.com/jmisur/javaagent/commit/2e7692adc1a85f520b4c7229ecff849ff4a6b9ef|spring security poc|SpringSecTest.java|76
+https://github.com/johndoe90/ProductReviews/commit/78b4d33f8c3c9dc57d8e018b2414c4a76c82a37c|First Commit|ReviewServiceImpl.java|32
+https://github.com/jonatanvicente/spring/commit/9c2a5eb0d0bb3ee7100b80a1fdfe4063326b35c0|Creacion del proyecto|SecuredClass.java|27
+https://github.com/jonatanvicente/spring/commit/9c2a5eb0d0bb3ee7100b80a1fdfe4063326b35c0|Creacion del proyecto|SecuredInterface.java|17
+https://github.com/judywangsg/spring-security-full-acl/commit/1063affd3f84a0b4bf81038ee27d77f414f06ba5|spring acl tutorial full versionspring acl tutorial full version|GenericService.java|30
+https://github.com/keslerm/reloader-tracker/commit/37dfa71afd6c3f64cb5061306d00d333b8babcea|Updating some security related things around recipes and just changingthe struture of things a bit around handling domain objects.
+
+DTO Mapping is moving to the Controller layer.|RecipeService.java|50
+https://github.com/keslerm/reloader-tracker/commit/3ff236d31d3bee2b25303da815079646f2c52d8d|Cleaning up some old dependencies and working on refactoring a lot ofthe old getByUserId and using Spring Security pre/post filtering and
+authorization.|RecipeService.java|52
+https://github.com/keslerm/reloader-tracker/commit/f284c93a90bf554a9f7b8b8adf280c8294bf5846|Adding security and domain model changes to components|ComponentService.java|45
+https://github.com/KostadinP/web-programming-project/commit/a17ea80355881b4db8442da777b3e98674509360|first commit|OrderServiceImpl.java|37
+https://github.com/KosteCZ/so-tired-information-system/commit/9b700787a8304bbf3f0ef1a090b9466ed505ac5f|- Service security|CustomerServiceImpl.java|45
+https://github.com/KosteCZ/so-tired-information-system/commit/9b700787a8304bbf3f0ef1a090b9466ed505ac5f|- Service security|OrderServiceImpl.java|46
+https://github.com/kTT/adjule/commit/753c343d994e5f08407a2386a05f6384f5d2c323|Upgrades dependecies|SubmissionEndpoint.java|107
+https://github.com/kumlien/school/commit/d542eadb04839c32abd634d14f2eb91054abee82|Lägg till lite mer security|UserController.java|42
+https://github.com/KUTCO/SchoolHub/commit/4b351554a0832e31a48921317fb5d567af0c6ad8|Adjustments update book feature + delete book feature completed|BookShopController.java|142
+https://github.com/KUTCO/SchoolHub/commit/5b7bb2e236491583e8205cd717ae1715c765b7dc|link Course with CourseResource|LinkerController.java|116
+https://github.com/KUTCO/SchoolHub/commit/754c500156e368ecd052157737b04f7598524a8c|add required login for getAllCoursesUser|CourseController.java|68
+https://github.com/KUTCO/SchoolHub/commit/8b3bc7ad66f8a092f336c6f55dabf77d703c4d02|Add clean course functions|CourseController.java|67
+https://github.com/KUTCO/SchoolHub/commit/8b4d84b0a37ea4c3a4f0fe907d94d172718ef92b|add basic CourseGroup functions|CourseGroupController.java|51
+https://github.com/KUTCO/SchoolHub/commit/937d4f9bd54f99f387950dfe5928b6320f09e52d|Add book feature completed|BookShopController.java|89
+https://github.com/KUTCO/SchoolHub/commit/a7364071dee8e59297502dbd871970403e008913|Use the new access method.|ManageActionController.java|91
+https://github.com/KUTCO/SchoolHub/commit/a7364071dee8e59297502dbd871970403e008913|Use the new access method.|ManageRoleController.java|91
+https://github.com/KUTCO/SchoolHub/commit/a7364071dee8e59297502dbd871970403e008913|Use the new access method.|ManageUserController.java|111
+https://github.com/KUTCO/SchoolHub/commit/b01319ba05dadd30afb4a02df2b19630f5c8a703|Tried to add a book update feature, added some comments|BookShopController.java|130
+https://github.com/KUTCO/SchoolHub/commit/b3926395de09afc1bb2b4ebcc0e516e727939413|Add update course function|CourseController.java|47
+https://github.com/KUTCO/SchoolHub/commit/be4b206ad5bda4329be81a470a9074df17a89153|Add permission to json getAllCourse|CourseController.java|49
+https://github.com/KUTCO/SchoolHub/commit/c25ae7693c42b96cf3c613fcabe3ffdd070ebb52|Link User with coursegroups|LinkerController.java|86
+https://github.com/KUTCO/SchoolHub/commit/df76c4b09d25824960ce6df7de846229b0e3ba7c|Add LinkerControl functions for views|LinkerController.java|37
+https://github.com/KUTCO/SchoolHub/commit/ea83b3a39405a316a6d577a1cddea4976a62cd43|Refactor: give the User, Admin and authentication methods a seperatedcontroller.|AdminController.java|38
+https://github.com/liuxianqiang/spring-in-action/commit/8ae3382f7c0731059af55ad41cf4542e37a12ec8|init spring-in-actionall sample code from http://www.manning.com/walls4/|SecuredClass.java|27
+https://github.com/liuxianqiang/spring-in-action/commit/8ae3382f7c0731059af55ad41cf4542e37a12ec8|init spring-in-actionall sample code from http://www.manning.com/walls4/|SecuredInterface.java|17
+https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571|Proyeto montado con tomcat Rave|CategoryService.java|73
+https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571|Proyeto montado con tomcat Rave|PageService.java|161
+https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571|Proyeto montado con tomcat Rave|RegionWidgetService.java|37
+https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571|Proyeto montado con tomcat Rave|WidgetService.java|198
+https://github.com/loki2302/spring-security-experiment/commit/58cf3461cd2bf038b80d296d879347144594b23c|Converted to JUnit tests|Calculator.java|24
+https://github.com/luj1985/dionysus/commit/b293fce0e552fb24f39188834b037d11f237ff6a|little fix|ProfileRepository.java|11
+https://github.com/luversof/bluesky-project/commit/05a889763c0a10029feb0fac5d6b820c16d90000|jpa auditing은 어떻게 설정하는거지..|ArticleController.java|93
+https://github.com/machak/rave/commit/2bc596199b198853e08c6abc174e64f27b5240c6|RAVE-310: fixed incorrect security annotation on updateWidget (admins…… can now update non-owned widgets)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|124
+https://github.com/machak/rave/commit/2dbe0052b0f45741f4e5db56d9dbb2ebd2dc540f|RAVE-319: Widget persistence not workingAdded @Transaction annotation to the registerNewWidget and updateWidget methods to ensure JPA commits
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190457 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|123
+https://github.com/machak/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107|RAVE-307: RegionWidget ModelPermissionEvaluator and Service AnnotationsApplied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68|RegionWidgetService.java|36
+https://github.com/machak/rave/commit/755068177ebf796d7014b9e095bb251fd34f8d55|Code in support of RAVE-458: Person Profile multiple sub-pages- added infrastructure to allow for a hierarchy of Page objects for any Page Type (USER, PERSON_PROFILE)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1291474 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|108
+https://github.com/machak/rave/commit/75c363593ad90a1328c656c2be150be6f66fd6fe|RAVE-475: Create Person Profile page based off of a PageTemplategit-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1294003 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|56
+https://github.com/machak/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd|RAVE-310: Widget ModelPermissionEvaluator and Service Annotationsgit-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|113
+https://github.com/machak/rave/commit/91c2fda6a260a84bb8b8387802788feb055d24e8|Code to support RAVE-298 (unchecked page manipulations):- implemented DefaultPagePermissionEvaluator
+- protected one PageService method: getPage
+- added handleAccessDeniedException to o.a.r.p.w.a.rest.PageApi
+- fixed permissionEvaluator bean definition in applicationContext-security.xml to prevent duplicate bean creation
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1183496 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|42
+https://github.com/machak/rave/commit/adf2a6c521a0a873a07be5c849b4cac7d8798df7|In case Widget object was coming null for new URL @PostAuthorize was ……throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|132
+https://github.com/machak/rave/commit/d891d17cfa248220c2a38f99b36758b9c91ffb03|RAVE-341 patch to add security features to WidgetCommentsgit-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1207613 13f79535-47bb-0310-9956-ffa450edef68|WidgetCommentService.java|24
+https://github.com/machak/rave/commit/ef31170d554b8d7b25e0af2f2f8cefc9f0dcf188|Changes in support of RAVE-298:- created common AbstractRestApi class
+- updated the DefaultPagePermissionEvaluator to handle permission checks when the object to be checked differs from the returned Object
+- secured remaining PageService methods that deal with Page objects, except addNewDefaultPage (see RAVE-303)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1185340 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|79
+https://github.com/marroqui69/lucychang2/commit/89eed03deb52813d1b70a6a5018b9dd249dea406|init|BrainstormController.java|17
+https://github.com/marroqui69/lucychang2/commit/89eed03deb52813d1b70a6a5018b9dd249dea406|init|MenuController.java|60
+https://github.com/marroqui69/lucychang2/commit/89eed03deb52813d1b70a6a5018b9dd249dea406|init|OrganisatorController.java|15
+https://github.com/maxwellt0/mathmaps/commit/7f187c67d9e3a3d211daa9a1df17c68a6a2b4904|added admin page, found a bug in security: doesn't secure user's page……s from other users|UserController.java|90
+https://github.com/maxwellt0/mathmaps/commit/9d67cea7f0a2f453960419b04c6146c0ebb5dca9|Change all joins|UserController.java|25
+https://github.com/mff-uk/ODCS/commit/638ebe28563e951b6a8393554a531048d8b47fd1|Facades split into interfaces and implementations|PipelineFacadeImpl.java|134
+https://github.com/mff-uk/ODCS/commit/638ebe28563e951b6a8393554a531048d8b47fd1|Facades split into interfaces and implementations|UserFacadeImpl.java|86
+https://github.com/Michielst/lucychangREST/commit/1c4a9ca6d8b938bfd44c369b34d519f75f971f5b|changes|BrainstormController.java|17
+https://github.com/Michielst/lucychangREST/commit/1c4a9ca6d8b938bfd44c369b34d519f75f971f5b|changes|MenuController.java|60
+https://github.com/Michielst/lucychangREST/commit/1c4a9ca6d8b938bfd44c369b34d519f75f971f5b|changes|OrganisatorController.java|15
+https://github.com/mikesobczak/ProSpringSecurity/commit/d01133a97d79cdb58087ae0ecf69f78fb0271797|More training.|MoviesServiceImpl.java|29
+https://github.com/mikewiesner/spring-security-3.1-sample/commit/101fe953afaedcec943689befc43628648860d70|Solution|HolidayServiceImpl.java|72
+https://github.com/miraclezyk/StudyPlan/commit/4ac3360faeaa6bdea0997c3f9cc2b51aefa49204|code1|PlanDaoImpl.java|21
+https://github.com/mishgunn/regataiades-app/commit/1ec66ae7e5b7008f903c067f3a9d5a239279e26f|Fixes|AuthenticationService.java|24
+https://github.com/mkjasinski/spring-security-acl/commit/351f06fdffed6b991a767f891785d58939a4a3d7|Initial commit|EventServiceImpl.java|46
+https://github.com/mkjasinski/spring-security-acl/commit/a9e67e4c44f23f6867ada3e0ebaad535b17d0e3b|I have added ACL support|EventServiceImpl.java|50
+https://github.com/mornhuang/example/commit/e91f741a11ab4a888526d4215be3a820c2a4804b|增加Spring In Action 第三版的代码|SecuredClass.java|27
+https://github.com/mornhuang/example/commit/e91f741a11ab4a888526d4215be3a820c2a4804b|增加Spring In Action 第三版的代码|SecuredInterface.java|17
+https://github.com/mycellar/mycellar/commit/286b32121a9803e1f81746e0d0d81940d9c78e8a|big update:use mocha for protractor
+update angularjs and other js libs
+better separation of rest services (admin and others)
+fix token repository cleaner
+fix password generator tool|BookingWebService.java|67
+https://github.com/mycena/Security-3.2/commit/567c8027b416acd36a1af44a247105822a8a790d|Teapatea with security 3.2|MessageRepository.java|31
+https://github.com/Myhall/PA165_DeliveryService/commit/33456fd2a71a5223d6ac11c28f18138fe6fcb796|Access rights for service layer methods + facade|CustomerServiceImpl.java|103
+https://github.com/Myhall/PA165_DeliveryService/commit/33456fd2a71a5223d6ac11c28f18138fe6fcb796|Access rights for service layer methods + facade|DeliveryServiceImpl.java|73
+https://github.com/nazar-art/SpringInAction/commit/f365c09374613f658939706b8d89ebfe2f1452a6|Initial commit|SecuredClass.java|26
+https://github.com/nazar-art/SpringInAction/commit/f365c09374613f658939706b8d89ebfe2f1452a6|Initial commit|SecuredInterface.java|16
+https://github.com/netkuba/pengurus/commit/c60f10d5517c2863228024c6ff5e8b5edb335ceb|[minor] Client accessChange-Id: Iaae5b30d6263819295733d554927965bf613a9c1|QuoteServiceImpl.java|82
+https://github.com/netkuba/pengurus/commit/c7d573e65e4eb1a4d1c1643413a1c341e495b7a9|[CRM-23] Services server side authorization.Change-Id: I79ebb863bb13fdf6de0de75a7880480f39409725|ProjectServiceImpl.java|91
+https://github.com/netkuba/pengurus/commit/c7d573e65e4eb1a4d1c1643413a1c341e495b7a9|[CRM-23] Services server side authorization.Change-Id: I79ebb863bb13fdf6de0de75a7880480f39409725|QuoteServiceImpl.java|82
+https://github.com/newlifewj/projects/commit/1bf2a16f3d6e518eec734335781fd4cefb146ae3|first time|applicationContext-security.xml|76
+https://github.com/newlifewj/projects/commit/1bf2a16f3d6e518eec734335781fd4cefb146ae3|first time|MessageServiceImple.java|62
+https://github.com/newlifewj/projects/commit/1bf2a16f3d6e518eec734335781fd4cefb146ae3|first time|AppUserServiceImpl.java|54
+https://github.com/newlifewj/projects/commit/1bf2a16f3d6e518eec734335781fd4cefb146ae3|first time|AppUserSummaryServiceImpl.java|7
+https://github.com/nickguletskii/OpenOlympus/commit/13263c6eab2a35f4088ab0632a02dae9d423c868|Squash partial rewrite branch and move into an orphan branchSquashed and orphaned a local branch to avoid problems with incorrect
+license headers, deleted dependencies, etc...
+
+This is a partial rewrite/refactored version of OpenOlympus 0.0.1.
+The web server is now used to provide a JSON API to a frontend written
+in Angular and Bootstrap. This should make it easier to test. The
+backend now utilises @JsonView and Spring Security expressions. JOOQ
+is now used to generate native queries.|TaskService.java|129
+https://github.com/nickguletskii/OpenOlympus/commit/d29c3a37cc3b6d46f92512aadb099d697a921db1|Secure services and controllers|TaskService.java|135
+https://github.com/OpenConext/OpenConext-api/commit/0a7472e20d0f21c90257471ec44afc5873e2013c|BACKLOG-387: implementation of person api: access control; mock ldap ……service; mock eb service;|PersonService.java|52
+https://github.com/OpenConext/OpenConext-api/commit/7f2b4d61730b1cdcb586cb7519c919dd0396febb|Added sortBy, startIndex, count support on the External Group Provide……r to be used in SURFteams|PersonService.java|52
+https://github.com/OpenConext/OpenConext-api/commit/986af4fa0770f9e78fda840dbf4f0f205ac190de|re enabled restrictions on group service and person service calls|PersonService.java|52
+https://github.com/OpenGeoportal/OGP2/commit/4c8534a867fe608f322cdde347042a184867000e|Add: support for basic authentication to restricted GeoServer.Add: wmc ui elements, added support for namespace prefixes in jaxb
+implementation
+
+Update: libraries; Spring, Spring Security, Jackson, underscore,
+backbone, etc. (see pom.xml)
+
+fix: removed version numbers from Spring application context schema
+locations
+
+fix: reimplemented load indicators: sometimes indicator wouldn't go away
+after load.|GetFeatureInfoController.java|71
+https://github.com/OpenLMIS/open-lmis/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470||#1404| +Riya| sending numberOfMonths present in previous period to c……lient side on initiating rnr and fetching it again.|RequisitionController.java|106
+https://github.com/OpenLMIS/open-lmis/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566||#1050| PostAuthorize permission evaluator for print and get requisition|RequisitionController.java|224
+https://github.com/OpenLMIS/open-lmis/commit/ef895654aa8b15447f00954f1b6467cccf273b96||#1318| Adding post authorize to get api of pod.|PODController.java|67
+https://github.com/openmhealth/omh-dsu-ri/commit/52606c28c271e3853ab04168d6a077bd2b98c014|Update the data point controller with OAuth2 authorization annotations.|DataPointController.java|158
+https://github.com/Opetushallitus/eperusteet/commit/19acef700f7233b47809d58bda2ef5c26730c569|korjaa tiedotteiden oikeustarkastelu|TiedoteService.java|18
+https://github.com/Opetushallitus/eperusteet/commit/8537365888800646f1bd2243b76a9cfacb546537|Tutkinnon osien käsittely viitteiden avulla refactorointi.|PerusteService.java|62
+https://github.com/Opetushallitus/eperusteet/commit/cb2223acb6d48c0b4db0a01950fee2da7d3f7913|pieniä parannuksia rajapintaan|PerusteService.java|152
+https://github.com/Opetushallitus/eperusteet/commit/deef82e74791ffa5a2fe5057ba9f3e7851cca7b5|Oikeustarkistelun toteutusta.Perusteenosiin liittyvän perusteprojektin hakeminen. Perustetta tai
+perusteen osaa ei voi enää muokata ellei se kuulu käynnissä olevaan
+perusteprojektiin (osa tarkistuksista puuttuu yhä).|PerusteenOsaService.java|63
+https://github.com/Opetushallitus/eperusteet/commit/fc0d75709de4b59142028bfb118704ab5ffcc28d|Muokattu tekstikappalenäkymä tukemaan viiteid:tä|PerusteenOsaService.java|69
+https://github.com/Opetushallitus/eperusteet/commit/feecc4fd868c42eef0b8233dc14b4403d1c81b58|kosmeettisia muutoksia|PerusteenOsaService.java|46
+https://github.com/oradev/sping-in-action-code-examples/commit/8507798cd70b1b8f254aa801cb29062747a2cb8f|first commit|SecuredClass.java|27
+https://github.com/oradev/sping-in-action-code-examples/commit/8507798cd70b1b8f254aa801cb29062747a2cb8f|first commit|SecuredInterface.java|17
+https://github.com/pascal-gehring/mycomm-portal/commit/0a5699a5a276777dd160237c3a7c78279b489d0d|- Securing of Services|AppService.java|34
+https://github.com/pascal-gehring/mycomm-portal/commit/0a5699a5a276777dd160237c3a7c78279b489d0d|- Securing of Services|RoleService.java|23
+https://github.com/pascal-gehring/mycomm-portal/commit/0a5699a5a276777dd160237c3a7c78279b489d0d|- Securing of Services|UserService.java|7
+https://github.com/pascal-gehring/mycomm-portal/commit/63c361e1a7069e519831506c0ad16a8fd2023134|- Securing the service layer|UserService.java|35
+https://github.com/pascal-gehring/mycomm-portal/commit/cb0661ea4f3a2417988c34a5ee34682b13370e62|- Securing the service layer|UserService.java|52
+https://github.com/pascal-gehring/mycomm-portal/commit/f4e071e6f6a07f69c2636e5dd95180eeed9406d3|initial import|WebContentService.java|18
+https://github.com/pavelkuchin/checkers/commit/ef77d6f86251d9ee502a4ef42928336f8a583579|Enhancement security! Common security gaps have been closed but I should think things thoroughly here in future.
++ Consts class with constants (ME, and Security constants have been implemented)
+! LoginLastTime is not working yet. I know why, but don't known how i can fix it.
+! See server warning logs. From now all service layer exceptions (included security) will be posted here.
+! getAllUsers becomes protected from ROLE_USER (Only ROLE_ADMIN has have access here)|StepServiceImpl.java|41
+https://github.com/peterarsentev/Spring-Security-Acl-MongoDB/commit/18b8fc5fb4300c9fee927488a7bfe8c5c5ed5c8a|added the login page, client page, create client dialog|ICRUDController.java|26
+https://github.com/pisarski/SpringSampleApp/commit/2dc10397f211cdfd768405b4b702455e2aa2478e|Add security tests|UserService.java|40
+https://github.com/pisarski/SpringSampleApp/commit/bef28bf5448f70a1a191e961e3a0366b3c428ef1|Add rights to view and logic|SpittleService.java|31
+https://github.com/pisarski/SpringSampleApp/commit/bef28bf5448f70a1a191e961e3a0366b3c428ef1|Add rights to view and logic|UserService.java|40
+https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d|committing all changes till now|[<div class="file-header" data-path="CrawlerOutputWithCommitMessages3.txt_test|84
+https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d|committing all changes till now|Output1.txt|1
+https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d|committing all changes till now|Output1.txt_01Aug_2129|62
+https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d|committing all changes till now|[<div class="file-header" data-path="PostAuthorizeKeyword.txt|1
+https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d|committing all changes till now|[<div class="file-header" data-path="allPreAuthSearchFiles.txt|11
+https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d|committing all changes till now|CopyOfCrawlerWithHtmlUnitPostAuthorize.java|31
+https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d|committing all changes till now|NewCrawlerForPostAuthorize.java|34
+https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d|committing all changes till now|README.md|6
+https://github.com/prafulmantale/MobileDevelopment/commit/fceb5dfe6211c3261da55a6b56c345cfb17930b9|dhpn|UsersRepository.java|35
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|AssaySecureService.java|25
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|FileSecureService.java|18
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|ProjectSecureService.java|27
+https://github.com/qiaoma/tic_tac_toe/commit/b76b8f3f67ef8146688235a64a84e69b2e4607e4|Initial commit on Tic Tac Toe app|UserDaoImpl.java|23
+https://github.com/razbomi/boxing-spring-boot/commit/5529952140175ce237cc234d1782df4a5f3b89b5|initial commitGreeting service and file uploads, playing|SubmissionController.java|51
+https://github.com/remi-san/security-model/commit/c9019dc123581626c672d1fbf29d1107c1d26aee|moved some files from utils|SecurityRoleServiceImpl.java|32
+https://github.com/RigasGrigoropoulos/spring-security-acl-cassandra/commit/5f74f304c5510c5566284ff8a1e85e71b87a53e3|more tests|ReportServiceImpl.java|28
+https://github.com/RigasGrigoropoulos/spring-security-acl-cassandra/commit/87322a8445f58989915a9de636af6ab1ff55a82b|added test service to test acl functionality|ReportServiceImpl.java|28
+https://github.com/ristes/finki-wp/commit/28f52bbbf68a43362acbd1812924938436562db3|- spring security with custom user details and user details service- preparation of rest forms with angular for city and country|OrderServiceImpl.java|36
+https://github.com/rodrigoataides/educarmais/commit/584901efa3b7d6618c93763af2b6f53636c59d57|Comit de arquivo grande|AnnotationSecurityAspect.aj.svn-base|39
+https://github.com/rodrigoataides/educarmais/commit/584901efa3b7d6618c93763af2b6f53636c59d57|Comit de arquivo grande|AnnotationSecurityAspect.aj|39
+https://github.com/rodrigoataides/educarmais/commit/584901efa3b7d6618c93763af2b6f53636c59d57|Comit de arquivo grande|AnnotationACLDeclare.aj.svn-base|17
+https://github.com/rodrigoataides/educarmais/commit/584901efa3b7d6618c93763af2b6f53636c59d57|Comit de arquivo grande|AnnotationACLDeclare.aj|17
+https://github.com/rooneyp1976/SiA3/commit/f327c169c8ab54b29a4fb7267f0afe00636ffc0c|sia|SecuredClass.java|27
+https://github.com/rooneyp1976/SiA3/commit/f327c169c8ab54b29a4fb7267f0afe00636ffc0c|sia|SecuredInterface.java|17
+https://github.com/rwinch/finance/commit/4b3740d1b749b3388168452db86413a0faaf6656|Start of presentation|ExpenseRepository.java|16
+https://github.com/rwinch/finance/commit/d49c9cf701d1c814d939b0e04b02c2ed7df6210b|initial|ExpenseRepository.java|15
+https://github.com/rwinch/getting-started-springsecurity-31/commit/dc812de3bac6d915bf49eb38d0e99d5adf19228e|initial|MessageRepository.java|8
+https://github.com/rwinch/spring-security-0-to-4.0/commit/dda960c125c4ef2cfb34f5bb8c9942ffc1b8b46f|initial|MessageRepository.java|33
+https://github.com/rwinch/spring-security-0-to-4.0/commit/f748c86c221ef7f5707fee40cd5a0b3d6c8264aa|initial|MessageRepository.java|33
+https://github.com/rwinch/spring-security-cjug/commit/866f1c5ebeb7119f772cf89752b93a01bd2e8a59|Initial|MessageRepository.java|34
+https://github.com/rwinch/spring-security-modern/commit/9f232ef5a67121af039000d238d6cef4c7a3aa09|Use Spring Security|MessageRepository.java|34
+https://github.com/rwinch/spring-security-samples-securemail/commit/1669232a4592668db9347c5b416a7180d071bbfd|Finished moving to mailuser and added jdbc namespace|JdbcMessageService.java|58
+https://github.com/rwinch/spring-security-samples-securemail/commit/6b22d786029ce7e2f142f25d21cd931effa6d2e0|initial commit|JdbcMessageService.java|58
+https://github.com/rwinch/spring-security-samples-securemail/commit/6b22d786029ce7e2f142f25d21cd931effa6d2e0|initial commit|MessagePermissionEvaluator.java|29
+https://github.com/rwinch/spring-state-securing-restful-apis/commit/d76e602641224b980bfec36dfbb5618605831da7|initial|MessageRepository.java|46
+https://github.com/salutmonde/spitter-web/commit/6bb22d68e76b73c41dfad74bc0494677b90f17fd|first commit of all file|SecuredClass.java|27
+https://github.com/salutmonde/spitter-web/commit/6bb22d68e76b73c41dfad74bc0494677b90f17fd|first commit of all file|SecuredInterface.java|17
+https://github.com/sequenceiq/cloudbreak/commit/08abfd183c78d571e46ebea5b4c450f4c78dd525|CLOUD-200 added new method to credentialrepository|CredentialRepository.java|24
+https://github.com/sequenceiq/cloudbreak/commit/178aef66e13f176928a7e7d06f0419f96a3addce|CLOUD-200 added template methods|TemplateRepository.java|24
+https://github.com/sequenceiq/cloudbreak/commit/329fd50427f86ab604738c4cd0d7452834ddaf5e|CLOUD-216 cluster endpoints basic implementation|ClusterRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/329fd50427f86ab604738c4cd0d7452834ddaf5e|CLOUD-216 cluster endpoints basic implementation|StackRepository.java|14
+https://github.com/sequenceiq/cloudbreak/commit/3765b12bb85dbff185e6c073c3cd403136f799b7|fixed bug in repository|CredentialRepository.java|10
+https://github.com/sequenceiq/cloudbreak/commit/3765b12bb85dbff185e6c073c3cd403136f799b7|fixed bug in repository|TemplateRepository.java|10
+https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160|CLOUD-872 create new security- group and rule resources|SecurityGroupRepository.java|18
+https://github.com/sequenceiq/cloudbreak/commit/59581969d918de719feed0efb8155fd141a4f865|CLOUD-216 credential endpoints basic implementation|CredentialRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/643b94cc8da2c7f148c2805d3eb6ad5456e5e055|CLOUD-216 template endpoints basic implementation|TemplateRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/7c067e58348b889a453d78f7c0d921fe0c617d8f|CLOUD-216 blueprint endpoints basic implementation|BlueprintRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/913ac8d85759f12836f0ac3fd0503df9b3df477d|CLOUD-200 added cluster methods|StackRepository.java|43
+https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f|CLOUD-200 fixed security issue|BlueprintRepository.java|16
+https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f|CLOUD-200 fixed security issue|CredentialRepository.java|17
+https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f|CLOUD-200 fixed security issue|StackRepository.java|45
+https://github.com/sequenceiq/cloudbreak/commit/98a6df3c638ff7703570611e8fa372582e8b104f|CLOUD-200 fixed security issue|TemplateRepository.java|24
+https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253|CLOUD-659 create network abstraction|NetworkRepository.java|16
+https://github.com/sequenceiq/cloudbreak/commit/e0603fe2d074b8b240fdcc525a213b4a57438584|CLOUD-338 Separated instance groups and host groups|RecipeRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/f2a6d3b64475a7a92d3ecd26d8fbe33e136d71dd|CLOUD-216 permission management for findOne calls|BlueprintRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/f2a6d3b64475a7a92d3ecd26d8fbe33e136d71dd|CLOUD-216 permission management for findOne calls|CredentialRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/f2a6d3b64475a7a92d3ecd26d8fbe33e136d71dd|CLOUD-216 permission management for findOne calls|StackRepository.java|14
+https://github.com/sequenceiq/cloudbreak/commit/f2a6d3b64475a7a92d3ecd26d8fbe33e136d71dd|CLOUD-216 permission management for findOne calls|TemplateRepository.java|13
+https://github.com/sequenceiq/cloudbreak/commit/f590600b28282a9a7dbb73e5ecc0ec80f59a5897|CLOUD-200 added new method to blueprintrepository|BlueprintRepository.java|24
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|ClusterRepository.java|14
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|16
+https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|16
+https://github.com/sequenceiq/periscope/commit/a7296fef4af9b0b3d59d7b8601422f862e9e59d2|PERI-28 history added for scaling events|HistoryRepository.java|15
+https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d|v2 version with good UI & edit dishes ability+spring security update
++rest-webmvc
++light jsp templating lib
++remove useless tomcat plugin config
++readme
++html design
++update of ORM model (with many2many with extra field)|OrderRepository.java|18
+https://github.com/Serge009/security-acl/commit/dff12ffd452fcebab2517cafb9522612ab710171|Initial commit|GenericService.java|30
+https://github.com/sergiofgonzalez/spring-examples-repo/commit/1ca75a3cb5f864a58533b1d1eebb44b61a98f928|Added 005-view-authorization-using-acls|ForumsService.java|65
+https://github.com/sergiofgonzalez/spring-examples-repo/commit/a79dc2dde57d34fe478c83e01a9fef7fe67941d9|Added 004-method-authorization-using-acls.|ForumsService.java|65
+https://github.com/SergiySobolev/SecurityTest/commit/d064bd5ce29ee6b8e0793613bb4f0e1fb1f0b1be|base acl configuration|GenericService.java|22
+https://github.com/shamim-ahmed/spring-demo/commit/4a8687af6ff756386e4c5d35bb31d24058818877|added restriction retrieving and adding messages using pre-post annot……ations|MessageService.java|38
+https://github.com/shamim-ahmed/spring-demo/commit/592dde8b3f63c786489ead4aa113297fe6e2e682|added a new project to demonstrate how to implement a custom permissi……on evaluator|MessageService.java|38
+https://github.com/shamim-ahmed/spring-demo/commit/da8782dce00739dcfd78db925e8758da8f78ea76|now the custom permission evaluator is used while retrieving a messag……e by its id|MessageService.java|38
+https://github.com/Sheparzo/sia3-code/commit/08a2a0f48f8c615d6dda1305a7aecfd2fb13507e|Initial commit of book code provided by publisher at http://manning.c……om/walls4/|SecuredClass.java|27
+https://github.com/Sheparzo/sia3-code/commit/08a2a0f48f8c615d6dda1305a7aecfd2fb13507e|Initial commit of book code provided by publisher at http://manning.c……om/walls4/|SecuredInterface.java|17
+https://github.com/sikm31/yuri3/commit/e0766118f5a802446221d89bbaf4f81a58a24d9d|spring1springproject|SecuredClass.java|27
+https://github.com/sikm31/yuri3/commit/e0766118f5a802446221d89bbaf4f81a58a24d9d|spring1springproject|SecuredInterface.java|17
+https://github.com/slovi/kolomet/commit/05497cc0d509aa63ebf1c8badec71e15fa2aa78e|editace profilu, captcha atd.|ProductServiceImpl.java|17
+https://github.com/slovi/kolomet/commit/47f0dd1945dae7979bdff681d7e8a9a05fc2e759|pridani podpory pro logovani|ProductServiceImpl.java|42
+https://github.com/slovi/kolomet/commit/47f0dd1945dae7979bdff681d7e8a9a05fc2e759|pridani podpory pro logovani|SellerServiceImpl.java|97
+https://github.com/slovi/kolomet/commit/6ad9916702f7f90b282b9fa561977e0cecccc3e5|oprava drobnych chyb|SellerServiceImpl.java|101
+https://github.com/slovi/kolomet/commit/8f04e52503abdade8db194278140037da3a83edf|nova verze|ProductServiceImpl.java|29
+https://github.com/slovi/kolomet/commit/8f04e52503abdade8db194278140037da3a83edf|nova verze|SellerServiceImpl.java|64
+https://github.com/slovi/kolomet/commit/c45447e04603745d6c9aa5dc934d9074087fe660|uprava zabezpeceni|ApplicationUserServiceImpl.java|8
+https://github.com/slovi/kolomet/commit/c45447e04603745d6c9aa5dc934d9074087fe660|uprava zabezpeceni|SellerServiceImpl.java|29
+https://github.com/slovi/kolomet/commit/fc327c0dfd7b996a2e185588c2b31f49d648660f|zabezpeceni, uprava editace inzeratu|ProductServiceImpl.java|15
+https://github.com/snicki0201/myapp/commit/9a290b5f191ac5a18eef5c3a6234d94b15642a58|Experiment for custom UserDetailsService and UserDetails.|MyService.java|34
+https://github.com/sovanegger/filmplanning/commit/9cb65dafdbaabdbaeb60f7b159c430ca5d1d5538|commiting all src/|FilmProjectServiceImpl.java|51
+https://github.com/spebbe/cryson/commit/0a5811fe9153fcef77bc908d1da9430d8fad549e|Check permissions on refreshed version of updated entity.|CrysonRepository.java|136
+https://github.com/spebbe/cryson/commit/6bcfce6ed2ccb7f410d4175ea85faf9ccda00a4f|Imported server and client sources.|CrysonRepository.java|49
+https://github.com/spebbe/cryson/commit/8540c1de69556dacd7366250209f51577c4c4603|Authorization was messed up -- trying to fix.|CrysonRepository.java|130
+https://github.com/spring-projects/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|MethodSecurityService.groovy|60
+https://github.com/spring-projects/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|AnnotationParameterNameDiscoverer.java|74
+https://github.com/spring-projects/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|el-access.xml|220
+https://github.com/spring-projects/spring-security/commit/ad1d858e2bbe06e51230e6fd5b30bdff17b08bbd|SEC-3056 - Fix JavaDoc errors.Fixed JavaDoc errors accross multiple modules in order to make javadoc happy with Java 8.|AnnotationParameterNameDiscoverer.java|73
+https://github.com/spring-sprout/springsprout/commit/32a1bd7fe28f4787278b6a37cc3666c69796e1ef|adding sources|MemberServiceImpl.java|88
+https://github.com/spring-sprout/springsprout/commit/90a67a6947c165e270236713a152b108608ef569|- 개인 페이지 기능 추가 /member/{id}|MemberServiceImpl.java|90
+https://github.com/steveschrader/SE4/commit/2a5a39f6073d87b3eb8cea027bdb9d916a3a0842|Layout en het creëeren en bewerken van de rol van een partij werkt numet een wrapper klasse. Het valideren lukt niet goed, nakijken!|AdministratorController.java|37
+https://github.com/steveschrader/SE4/commit/2a5a39f6073d87b3eb8cea027bdb9d916a3a0842|Layout en het creëeren en bewerken van de rol van een partij werkt numet een wrapper klasse. Het valideren lukt niet goed, nakijken!|MenuController.java|81
+https://github.com/steveschrader/SE4/commit/d79a3f80c25f3b9f499a2a1da66efa1c460e6152|Administrator Rol werkt volledig met inloggen en de juiste pagina'sworden dan ook getoond|MenuController.java|46
+https://github.com/steveschrader/SE4/commit/fb8e472476808a7c5aa2282b494cbfe726da6fd8|commit|MenuController.java|55
+https://github.com/stondofitz/thegains/commit/290c1058483e2cf3fba93dd61f4f6a12faaf18c5|Messing with security crap|UserRepository.java|25
+https://github.com/svn2github/rave/commit/2b3b144d1fb7fd43891b8f682768b7d6affceb47|Updates and changes to implement page sharing between rave users. See…… RAVE-103. (Support shared spaces.)
+
+git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1335687 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|37
+https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc|Promote rave to a TLP -- INFRA-4573git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68|CategoryService.java|51
+https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc|Promote rave to a TLP -- INFRA-4573git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|105
+https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc|Promote rave to a TLP -- INFRA-4573git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68|RegionWidgetService.java|36
+https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc|Promote rave to a TLP -- INFRA-4573git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68|WidgetCommentService.java|24
+https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc|Promote rave to a TLP -- INFRA-4573git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|132
+https://github.com/svn2github/rave/commit/39fa37b0e8c544bb1cacc5a2c7e0246bfef12664|RAVE-835 Merge all from model-split at 1403154 (reintegration)git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1403166 13f79535-47bb-0310-9956-ffa450edef68|WidgetService.java|198
+https://github.com/svn2github/rave/commit/6e886c74aa02a87db9705ef27ebf8bae70f7689b|Updated page service to create instances of pages by page template id…… RAVE-1066
+
+git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1531267 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|128
+https://github.com/svn2github/rave/commit/c3bc0ff1f19a992bb6891aa17ea16d47bc6138eb|Fill out controllers, add 204 response filtergit-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1510718 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|76
+https://github.com/svn2github/rave/commit/ceb1665b0d5653ff71f2ef7f0ade85f098ca1631|Fixed service permission annotation (RAVE-1054)git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|100
+https://github.com/svn2github/rave/commit/f9bb62c515751b1859af25c5af4fff7e41ec8de7|RAVE-1011: Update page service to support get all / get limitedgit-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1508584 13f79535-47bb-0310-9956-ffa450edef68|PageService.java|103
+https://github.com/swcho/ex_spring_old/commit/b6752ee9029baf3e8f9c794c11ab3f609ac15dde|Spring in Action example|SecuredClass.java|27
+https://github.com/swcho/ex_spring_old/commit/b6752ee9029baf3e8f9c794c11ab3f609ac15dde|Spring in Action example|SecuredInterface.java|17
+https://github.com/szekai/restful-example/commit/e2875a3bfb2e33223a0f04feb776f7fb29eeeb32|add spring-security-full-acl-restful|GenericService.java|30
+https://github.com/taraktikos/JavaSpring/commit/6453ce1271b61a9abb94407d18c86ca79fe385bf|acl|PostService.java|38
+https://github.com/taraktikos/JavaSpring/commit/aa6cda3a4e6bd889002665c7355437166580785d|acl|UserService.java|39
+https://github.com/taraktikos/JavaSpring/commit/ba271d50ab6de2d0ef70948bb655eeb751cd6a11|test|PostService.java|38
+https://github.com/taraktikos/JavaSpring/commit/ba271d50ab6de2d0ef70948bb655eeb751cd6a11|test|UserService.java|39
+https://github.com/taraktikos/JavaSpring/commit/dbe428aec6bd468c2f06efb4a2905c0adf7e01f1|security|PostService.java|38
+https://github.com/taraktikos/JavaSpring/commit/dbe428aec6bd468c2f06efb4a2905c0adf7e01f1|security|UserService.java|39
+https://github.com/techdev-solutions/jaxenter-showcase/commit/c3762b96b6a70be248550806e0361745328d084a|Step 3: Add security|PersonRepository.java|23
+https://github.com/techdev-solutions/spring-test-example/commit/5a559b434112aaffdaf55a1f33b2b9799a109e10|Further defined security in the repository.Added parameters switch to gradle build.|EmployeeRepository.java|22
+https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef|TRACKR-221 - Use ?. operator in principal id checks for security|ReportRepository.java|27
+https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef|TRACKR-221 - Use ?. operator in principal id checks for security|SickDaysRepository.java|27
+https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef|TRACKR-221 - Use ?. operator in principal id checks for security|VacationRequestRepository.java|19
+https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef|TRACKR-221 - Use ?. operator in principal id checks for security|WorkTimeRepository.java|30
+https://github.com/techdev-solutions/trackr-backend/commit/2b064dcb11054571b854b51e4232dab891e21829|TRACKR-174 - Track sick days|SickDaysRepository.java|27
+https://github.com/techdev-solutions/trackr-backend/commit/57ba23678866e81655f8aa996c2bd9d6c7bcbae7|TRACKR-234 - Track employee's contact address* Added an address reference to an employee.
+* Made the SelfEmployee DTO more powerful by including all fields needed for the self display. Refactored all logic from the EmployeeController into a service.|SelfEmployeeRepository.java|27
+https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74|Convert trackr to Spring Boot.This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.|EmployeeRepository.java|19
+https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74|Convert trackr to Spring Boot.This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.|ReportRepository.java|24
+https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74|Convert trackr to Spring Boot.This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.|SickDaysRepository.java|24
+https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74|Convert trackr to Spring Boot.This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.|VacationRequestRepository.java|17
+https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74|Convert trackr to Spring Boot.This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.|WorkTimeRepository.java|27
+https://github.com/techdev-solutions/trackr-backend/commit/e95acdf019c27d69c989913538180d66ab6f45b5|TRACKR-54 - Request vacationAdded further vacation request tests and an event handler|VacationRequestRepository.java|18
+https://github.com/tekul/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|MethodSecurityService.groovy|60
+https://github.com/tekul/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|AnnotationParameterNameDiscoverer.java|74
+https://github.com/tekul/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4|SEC-2151: Support binding method arguments with AnnotationsThis allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.|el-access.xml|220
+https://github.com/terrestris/shogun2/commit/df4b07c6525a0c40eba4e0043af4e201d08e88e4|Add basic security annotations to the CRUD service|AbstractCrudService.java|39
+https://github.com/TheGreenLark/plantApp/commit/a09c07008b2608c877315bd8f7597b0d7be3b954|replaced honors.uh.edu with dash as package|[<div class="file-header" data-path="README.md|46
+https://github.com/TheGreenLark/plantApp/commit/a09c07008b2608c877315bd8f7597b0d7be3b954|replaced honors.uh.edu with dash as package|UserService.java|54
+https://github.com/thepresbyterian/topchef/commit/2ef860afaf9d4a218818400ef057a8b4f3b5f0ea|Publishing to GitHub|RecipesController.java|34
+https://github.com/thepresbyterian/topchef/commit/2ef860afaf9d4a218818400ef057a8b4f3b5f0ea|Publishing to GitHub|UsersController.java|114
+https://github.com/thm-projects/arsnova-lms-connector/commit/1ed82afa2bb2684c0e4dcd8fbf4aec9836e13582|Added methods for random test question requests|UniRepService.java|41
+https://github.com/thm-projects/arsnova-lms-connector/commit/1f0aeed3f5df7710b2017439b8c3b7cd28200894|Added authentification filter, handler and tokenservice.|AuthenticationTokenService.java|34
+https://github.com/thm-projects/arsnova-lms-connector/commit/80093b27c1b429d7da6796ee628f8fb3db522c57|Added new security rules and configuration|UniRepService.java|32
+https://github.com/thm-projects/arsnova-lms-connector/commit/a98e5e8a174e8441e6cbcfb0f065a86e506c4783|Added source param in order to acquire all questions from an (random)ilias test|UniRepService.java|43
+https://github.com/thpeng/spring-time/commit/12afa668338b5a5824fb387ece54fa1b5161bcf2|added more acl rules, fixed a bug in the existing acl|UserService.java|53
+https://github.com/thpeng/spring-time/commit/2350be6eebce396ef4d404e1ddd6475b1f9ad54a|expanded timesheet including delete / put|TimesheetService.java|47
+https://github.com/thpeng/spring-time/commit/c10a0e8872838b32551861cbdce226ea482e1e73|expanding the timesheet domain.|TimesheetService.java|47
+https://github.com/tiggermug/sia3-code/commit/a3e9a514a28bf38c8a8f1a17a18eced7e2f5d040|initial commit|SecuredClass.java|27
+https://github.com/tiggermug/sia3-code/commit/a3e9a514a28bf38c8a8f1a17a18eced7e2f5d040|initial commit|SecuredInterface.java|17
+https://github.com/timeu/geno-phen-browser/commit/525e9454a43acd45b27e910e8749f502a9f20ff8|Initial import server packages|ExperimentService.java|16
+https://github.com/timeu/geno-phen-browser/commit/525e9454a43acd45b27e910e8749f502a9f20ff8|Initial import server packages|TraitUomService.java|15
+https://github.com/timeu/geno-phen-browser/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3|Introduction of AclManager and refactoring of service methods|TraitUomService.java|19
+https://github.com/timeu/geno-phen-browser-OLD/commit/89eb9c2c7d116a594005efed06c5baf1c1607881|Initial Checkin|ExperimentService.java|16
+https://github.com/timeu/geno-phen-browser-OLD/commit/96ad55ca93c151b476e68381cec74e2c5b2e4222|Latest changes|TraitUomService.java|12
+https://github.com/timeu/GWA-Portal/commit/525e9454a43acd45b27e910e8749f502a9f20ff8|Initial import server packages|ExperimentService.java|16
+https://github.com/timeu/GWA-Portal/commit/525e9454a43acd45b27e910e8749f502a9f20ff8|Initial import server packages|TraitUomService.java|15
+https://github.com/timeu/GWA-Portal/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3|Introduction of AclManager and refactoring of service methods|TraitUomService.java|19
+https://github.com/tom87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771|download from http://www.manning.com/walls4http://www.manning.com/walls4/|SecuredClass.java|27
+https://github.com/tom87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771|download from http://www.manning.com/walls4http://www.manning.com/walls4/|SecuredInterface.java|17
+https://github.com/tomekl007/spitterMVCplusHibernate/commit/0bac83428d85ca0e8c4e7d474bdcd0b4735f1805|add RESTfull services|SpitterServiceImplDeclarative.java|88
+https://github.com/tomekl007/spitterMVCplusHibernate/commit/56eaf6be846c07a276af1d021b26caa3922a22af|add custom login, using plain Text, DB, or ldap|SpitterServiceImplDeclarative.java|88
+https://github.com/tony78it/homir/commit/016dcf40defb249d61983511d42522bc154c54ae|start on security config|AppUserRepository.java|19
+https://github.com/UnifiedViews/Core/commit/059f2ed034b9d1eb96f092e120d3c3ac7858bb20|Further permission fixes according to documentation|PipelineFacadeImpl.java|422
+https://github.com/UnifiedViews/Core/commit/3418b4045c3ef65458ac00e4265d8e6a04231f6e|Permissions refactoring; User permissions removed, only user.manageme……nt permission remained. DPU template screen is now protected with new permission;|UserFacadeImpl.java|86
+https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b|new permission model|PipelineFacadeImpl.java|143
+https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b|new permission model|UserFacadeImpl.java|80
+https://github.com/UnifiedViews/Core/commit/5d9842d583e56f25940ececf01799e82824bcc63|user provisioning a case integracia|UserFacadeImpl.java|80
+https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1|Facades split into interfaces and implementations|PipelineFacadeImpl.java|134
+https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1|Facades split into interfaces and implementations|UserFacadeImpl.java|86
+https://github.com/UnifiedViews/Core/commit/68229a28cd0f742ceeaf7964938f45fd4748ea97|user provisioning finished|UserFacadeImpl.java|80
+https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c|130 - the code was formatted by our template|UserFacadeImpl.java|75
+https://github.com/UnifiedViews/Core/commit/b376048c2e0a937d26953d4a1513135aaca09944|Fixes of permissions for scheduling pipeline runs and fixed bug (cach……ing) in pipelines conflicts|ScheduleFacadeImpl.java|109
+https://github.com/UnifiedViews/Core/commit/d9e7beaa94ed382ee4a41f609b5c7ad013ad5f17|Bugfix of #367; Fixed security annotation on DPUFacadeImp|DPUFacadeImpl.java|125
+https://github.com/urko-vi/spring/commit/e3f68e0754a9cd509088c8f45852ecfaffc51bef|Initial|FileManagerService.java|22
+https://github.com/USAID-DELIVER-PROJECT/elmis/commit/5701caf9bd7cde3ec09eb35b9e787145b2df8130|Merge branch 'master' of https://github.com/OpenLMIS/open-lmisConflicts:
+	modules/core/src/main/java/org/openlmis/core/domain/Product.java
+	modules/core/src/main/java/org/openlmis/core/domain/ProgramProduct.java
+	modules/core/src/main/java/org/openlmis/core/repository/mapper/ProgramProductMapper.java
+	modules/core/src/main/java/org/openlmis/core/service/ProgramProductService.java
+	modules/openlmis-web/src/main/java/org/openlmis/web/controller/RequisitionController.java
+	modules/openlmis-web/src/main/resources/messages_en.properties
+	modules/openlmis-web/src/main/webapp/public/js/rnr/controller/create/create-requisition-controller.js
+	modules/openlmis-web/src/main/webapp/public/js/rnr/model/regular-rnr-line-item.js
+	modules/openlmis-web/src/test/java/org/openlmis/web/controller/RequisitionControllerTest.java
+	modules/requisition/src/main/java/org/openlmis/rnr/service/RequisitionService.java
+	modules/requisition/src/test/java/org/openlmis/rnr/domain/RnrLineItemTest.java
+	modules/shipment/src/main/java/org/openlmis/shipment/domain/ShipmentLineItem.java
+	modules/shipment/src/main/java/org/openlmis/shipment/dto/ShipmentLineItemDTO.java
+	modules/shipment/src/main/java/org/openlmis/shipment/repository/mapper/ShipmentMapper.java
+	modules/shipment/src/test/java/org/openlmis/shipment/ShipmentLineItemTransformerTest.java
+	modules/shipment/src/test/java/org/openlmis/shipment/dto/ShipmentLineItemDTOTest.java|RequisitionController.java|106
+https://github.com/USAID-DELIVER-PROJECT/elmis/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470||#1404| +Riya| sending numberOfMonths present in previous period to c……lient side on initiating rnr and fetching it again.|RequisitionController.java|106
+https://github.com/USAID-DELIVER-PROJECT/elmis/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566||#1050| PostAuthorize permission evaluator for print and get requisition|RequisitionController.java|224
+https://github.com/USAID-DELIVER-PROJECT/elmis/commit/ef895654aa8b15447f00954f1b6467cccf273b96||#1318| Adding post authorize to get api of pod.|PODController.java|67
+https://github.com/Ventiv-Technology/AppConfig/commit/0b38017f9b485aae8c5daf35dc08b41d8ba4a55e|Enforce Environment is 'Writable' before attempting to overwrite it. ……This ensures that one can't hijack the environment simply because they can see it|UpdateUtility.java|32
+https://github.com/Ventiv-Technology/AppConfig/commit/0e6fe4c82b9ea1fe3f1281b78fb70626e1e64bba|Refactor so spring configuration can be changed via properties|ApplicationRepository.java|25
+https://github.com/Ventiv-Technology/AppConfig/commit/0f37cab76f3f62eebe77b20de8af69d6bcc5e66a|Updated to add delete application functionality|ApplicationRepository.java|36
+https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05|Move to hardcoded logic Permissions. Add properties based authentication|Environment.groovy|25
+https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05|Move to hardcoded logic Permissions. Add properties based authentication|ApplicationRepository.java|31
+https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05|Move to hardcoded logic Permissions. Add properties based authentication|EnvironmentRepository.java|34
+https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05|Move to hardcoded logic Permissions. Add properties based authentication|PrivateKeyRepository.java|10
+https://github.com/Ventiv-Technology/AppConfig/commit/349a0edc4a3878af394324a43e8d915d2e880bff|Initial work on Client Library. This includes work to ensure security…… is in place on the server side. Lots of work sourrounding inheritance and security.|EnvironmentRepository.java|50
+https://github.com/Ventiv-Technology/AppConfig/commit/cb0e06531b5e2ffe425a010b449d947af9c89160|Change getEnvironments to go through Repository so it can be filtered…… by security. Environment list now only shows 'visible' environments|EnvironmentRepository.java|44
+https://github.com/vimsvarcode/elmis/commit/5701caf9bd7cde3ec09eb35b9e787145b2df8130|Merge branch 'master' of https://github.com/OpenLMIS/open-lmisConflicts:
+	modules/core/src/main/java/org/openlmis/core/domain/Product.java
+	modules/core/src/main/java/org/openlmis/core/domain/ProgramProduct.java
+	modules/core/src/main/java/org/openlmis/core/repository/mapper/ProgramProductMapper.java
+	modules/core/src/main/java/org/openlmis/core/service/ProgramProductService.java
+	modules/openlmis-web/src/main/java/org/openlmis/web/controller/RequisitionController.java
+	modules/openlmis-web/src/main/resources/messages_en.properties
+	modules/openlmis-web/src/main/webapp/public/js/rnr/controller/create/create-requisition-controller.js
+	modules/openlmis-web/src/main/webapp/public/js/rnr/model/regular-rnr-line-item.js
+	modules/openlmis-web/src/test/java/org/openlmis/web/controller/RequisitionControllerTest.java
+	modules/requisition/src/main/java/org/openlmis/rnr/service/RequisitionService.java
+	modules/requisition/src/test/java/org/openlmis/rnr/domain/RnrLineItemTest.java
+	modules/shipment/src/main/java/org/openlmis/shipment/domain/ShipmentLineItem.java
+	modules/shipment/src/main/java/org/openlmis/shipment/dto/ShipmentLineItemDTO.java
+	modules/shipment/src/main/java/org/openlmis/shipment/repository/mapper/ShipmentMapper.java
+	modules/shipment/src/test/java/org/openlmis/shipment/ShipmentLineItemTransformerTest.java
+	modules/shipment/src/test/java/org/openlmis/shipment/dto/ShipmentLineItemDTOTest.java|RequisitionController.java|106
+https://github.com/vimsvarcode/elmis/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470||#1404| +Riya| sending numberOfMonths present in previous period to c……lient side on initiating rnr and fetching it again.|RequisitionController.java|106
+https://github.com/vimsvarcode/elmis/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566||#1050| PostAuthorize permission evaluator for print and get requisition|RequisitionController.java|224
+https://github.com/vimsvarcode/elmis/commit/ef895654aa8b15447f00954f1b6467cccf273b96||#1318| Adding post authorize to get api of pod.|PODController.java|67
+https://github.com/vinutaNagaraddi/SpringStrutsTest/commit/d2ec5b44192ae4e8d7a235e20c1708a536739e55|First Commit of Spring_Struts projecct|PersonDAOImpl.java|52
+https://github.com/vovanlau/Samples/commit/1a2ef0746015e1f52b07381413292f45960d7848|spring security|MessageRepository.java|8
+https://github.com/vsushko/research/commit/db98634c7cd83a2053b6245bf3cdc26382b9fc85|complete chapter10|HibernateSpitterDao.java|67
+https://github.com/wdiskowski/spring/commit/6f0ace4f44624fb8505c32396314708064145476|ACL eingebaut|KindDao.java|30
+https://github.com/yadna13/synergy-bank/commit/b3f9220c40256f04f0482d49415c29a61d6bb88e|Base version of synergy-bank|BankAuthServiceImpl.java|45
+https://github.com/yadna13/synergy-credit-card/commit/b3f9220c40256f04f0482d49415c29a61d6bb88e|Base version of synergy-bank|BankAuthServiceImpl.java|45
+https://github.com/yaroslav-nikolaiko/LingvoMovie/commit/60ffc8a1d1276a83e56d8037de4579b95da0de0b|security try|UserRepository.java|14
+https://github.com/yecllsl/sia3-code/commit/b0e8bf2386fe9c91e8767c18874d623fddf0ba03|初始化|SecuredClass.java|27
+https://github.com/yecllsl/sia3-code/commit/b0e8bf2386fe9c91e8767c18874d623fddf0ba03|初始化|SecuredInterface.java|17
+https://github.com/YellowBinary/server/commit/9fc85572dcdf63b8e226b29dfd89f5e2d215c7ad|Renamed authorization method to something more logical.|CreateAccess.java|16
+https://github.com/YellowBinary/server/commit/9fc85572dcdf63b8e226b29dfd89f5e2d215c7ad|Renamed authorization method to something more logical.|DeleteAccess.java|16
+https://github.com/YellowBinary/server/commit/9fc85572dcdf63b8e226b29dfd89f5e2d215c7ad|Renamed authorization method to something more logical.|ReadAccess.java|16
+https://github.com/YellowBinary/server/commit/9fc85572dcdf63b8e226b29dfd89f5e2d215c7ad|Renamed authorization method to something more logical.|WriteAccess.java|16
+https://github.com/YellowBinary/server/commit/d72c34796e0521cea95c1e13e96fe9529050eee1|Basic Security.|CreateAccess.java|16
+https://github.com/YellowBinary/server/commit/d72c34796e0521cea95c1e13e96fe9529050eee1|Basic Security.|DeleteAccess.java|16
+https://github.com/YellowBinary/server/commit/d72c34796e0521cea95c1e13e96fe9529050eee1|Basic Security.|ReadAccess.java|16
+https://github.com/YellowBinary/server/commit/d72c34796e0521cea95c1e13e96fe9529050eee1|Basic Security.|WriteAccess.java|16
+https://github.com/ymlai87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771|download from http://www.manning.com/walls4http://www.manning.com/walls4/|SecuredClass.java|27
+https://github.com/ymlai87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771|download from http://www.manning.com/walls4http://www.manning.com/walls4/|SecuredInterface.java|17
+https://github.com/ymssdeng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17|Spring In Action 3 source code|SecuredClass.java|27
+https://github.com/ymssdeng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17|Spring In Action 3 source code|SecuredInterface.java|17
+https://github.com/yoshutch/mybyu/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b|UP-2950 Adding support and configuration for Spring Security annotati……on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.|EntitiesRESTController.java|69
+https://github.com/zenMycena/teahouse/commit/ee2ffbf1fa7f012b350cefe5cc9d9b420bd57877|initial commit Restful & WebMVC & Security & H2 JPA repository|MessageRepository.java|31
+https://github.com/ZhernakovMikhail/spring-acl-sample/commit/2833ddfb778877a4ac4bb902beee5065cd0123d1|Initial Commit|SecuredRepository.java|19
+https://github.com/ZhernakovMikhail/spring-acl-sample/commit/51f7accc0feb646758de36b276c63bced95eb864|Добавил простейший интерфейс|SecuredRepository.java|20
+https://github.com/ZhernakovMikhail/spring-acl-sample/commit/c4c869bcf60e4b01645b4f64fb36dde42ad86cee|вынес конфигурацию из xml|SecuredRepository.java|20
+https://github.com/zliumichael/SpingInAction_SampleCode/commit/76656d40604b1fefd4c87fc34a75304a474f4799|add sia|SecuredClass.java|27
+https://github.com/zliumichael/SpingInAction_SampleCode/commit/76656d40604b1fefd4c87fc34a75304a474f4799|add sia|SecuredInterface.java|17
