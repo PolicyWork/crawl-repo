@@ -147,7 +147,9 @@ public class ExcelFiller {
 					
 					//===
 					
-					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion') or contains(@class,'blob-code blob-code-deletion selected-line')]//span[contains(.,'PostAuthorize') and contains(.,'@')]/ancestor::tr[1]/td[2]"));
+//					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion') or contains(@class,'blob-code blob-code-deletion selected-line')]//span[contains(.,'PostAuthorize') and contains(.,'@')]/ancestor::tr[1]/td[2]"));
+					
+					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion') or contains(@class,'blob-code blob-code-deletion selected-line')]//span[contains(.,'PostAuthorize') and contains(.,'@')]/ancestor::tr[1]/*")); //this works for deleted postauthorize also
 					
 					//List<WebElement> lineNumberElements = driver.findElements(By.xpath("//div[contains(@data-path,'src/main/java/com/sequenceiq/cloudbreak/repository/BlueprintRepository.java')]/..//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]/span[1]"));
 					

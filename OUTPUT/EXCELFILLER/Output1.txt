@@ -1,34 +1,51 @@
-https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160|CLOUD-872 create new security- group and rule resources|SecurityGroupRepository.java|15
-https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160|CLOUD-872 create new security- group and rule resources|SecurityGroupRepository.java|18
-https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253|CLOUD-659 create network abstraction|NetworkRepository.java|13
-https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253|CLOUD-659 create network abstraction|NetworkRepository.java|16
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|ClusterRepository.java|14
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|13
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|16
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|13
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|16
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|ClusterRepository.java|14
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|13
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|16
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|13
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|16
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|ClusterRepository.java|14
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|13
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|MetricAlertRepository.java|16
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|13
-https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0|PERI-28 leverage Ambari's metric system|TimeAlertRepository.java|16
-https://github.com/sequenceiq/periscope/commit/a7296fef4af9b0b3d59d7b8601422f862e9e59d2|PERI-28 history added for scaling events|HistoryRepository.java|15
-https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d|v2 version with good UI & edit dishes ability+spring security update
-+rest-webmvc
-+light jsp templating lib
-+remove useless tomcat plugin config
-+readme
-+html design
-+update of ORM model (with many2many with extra field)|OrderRepository.java|14
-https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d|v2 version with good UI & edit dishes ability+spring security update
-+rest-webmvc
-+light jsp templating lib
-+remove useless tomcat plugin config
-+readme
-+html design
-+update of ORM model (with many2many with extra field)|OrderRepository.java|18
+https://github.com/vimsvarcode/elmis/commit/5701caf9bd7cde3ec09eb35b9e787145b2df8130|Merge branch 'master' of https://github.com/OpenLMIS/open-lmisConflicts:
+	modules/core/src/main/java/org/openlmis/core/domain/Product.java
+	modules/core/src/main/java/org/openlmis/core/domain/ProgramProduct.java
+	modules/core/src/main/java/org/openlmis/core/repository/mapper/ProgramProductMapper.java
+	modules/core/src/main/java/org/openlmis/core/service/ProgramProductService.java
+	modules/openlmis-web/src/main/java/org/openlmis/web/controller/RequisitionController.java
+	modules/openlmis-web/src/main/resources/messages_en.properties
+	modules/openlmis-web/src/main/webapp/public/js/rnr/controller/create/create-requisition-controller.js
+	modules/openlmis-web/src/main/webapp/public/js/rnr/model/regular-rnr-line-item.js
+	modules/openlmis-web/src/test/java/org/openlmis/web/controller/RequisitionControllerTest.java
+	modules/requisition/src/main/java/org/openlmis/rnr/service/RequisitionService.java
+	modules/requisition/src/test/java/org/openlmis/rnr/domain/RnrLineItemTest.java
+	modules/shipment/src/main/java/org/openlmis/shipment/domain/ShipmentLineItem.java
+	modules/shipment/src/main/java/org/openlmis/shipment/dto/ShipmentLineItemDTO.java
+	modules/shipment/src/main/java/org/openlmis/shipment/repository/mapper/ShipmentMapper.java
+	modules/shipment/src/test/java/org/openlmis/shipment/ShipmentLineItemTransformerTest.java
+	modules/shipment/src/test/java/org/openlmis/shipment/dto/ShipmentLineItemDTOTest.java|RequisitionController.java|106
+https://github.com/vimsvarcode/elmis/commit/5701caf9bd7cde3ec09eb35b9e787145b2df8130|Merge branch 'master' of https://github.com/OpenLMIS/open-lmisConflicts:
+	modules/core/src/main/java/org/openlmis/core/domain/Product.java
+	modules/core/src/main/java/org/openlmis/core/domain/ProgramProduct.java
+	modules/core/src/main/java/org/openlmis/core/repository/mapper/ProgramProductMapper.java
+	modules/core/src/main/java/org/openlmis/core/service/ProgramProductService.java
+	modules/openlmis-web/src/main/java/org/openlmis/web/controller/RequisitionController.java
+	modules/openlmis-web/src/main/resources/messages_en.properties
+	modules/openlmis-web/src/main/webapp/public/js/rnr/controller/create/create-requisition-controller.js
+	modules/openlmis-web/src/main/webapp/public/js/rnr/model/regular-rnr-line-item.js
+	modules/openlmis-web/src/test/java/org/openlmis/web/controller/RequisitionControllerTest.java
+	modules/requisition/src/main/java/org/openlmis/rnr/service/RequisitionService.java
+	modules/requisition/src/test/java/org/openlmis/rnr/domain/RnrLineItemTest.java
+	modules/shipment/src/main/java/org/openlmis/shipment/domain/ShipmentLineItem.java
+	modules/shipment/src/main/java/org/openlmis/shipment/dto/ShipmentLineItemDTO.java
+	modules/shipment/src/main/java/org/openlmis/shipment/repository/mapper/ShipmentMapper.java
+	modules/shipment/src/test/java/org/openlmis/shipment/ShipmentLineItemTransformerTest.java
+	modules/shipment/src/test/java/org/openlmis/shipment/dto/ShipmentLineItemDTOTest.java|RequisitionController.java|222
+https://github.com/vimsvarcode/elmis/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470||#1404| +Riya| sending numberOfMonths present in previous period to c……lient side on initiating rnr and fetching it again.|RequisitionController.java|106
+https://github.com/vimsvarcode/elmis/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470||#1404| +Riya| sending numberOfMonths present in previous period to c……lient side on initiating rnr and fetching it again.|RequisitionController.java|227
+https://github.com/vimsvarcode/elmis/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566||#1050| PostAuthorize permission evaluator for print and get requisition|RequisitionController.java|214
+https://github.com/vimsvarcode/elmis/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566||#1050| PostAuthorize permission evaluator for print and get requisition|RequisitionController.java|224
+https://github.com/vimsvarcode/elmis/commit/ef895654aa8b15447f00954f1b6467cccf273b96||#1318| Adding post authorize to get api of pod.|PODController.java|67
+https://github.com/yadna13/synergy-bank/commit/b3f9220c40256f04f0482d49415c29a61d6bb88e|Base version of synergy-bank|BankAuthServiceImpl.java|45
+https://github.com/yadna13/synergy-credit-card/commit/b3f9220c40256f04f0482d49415c29a61d6bb88e|Base version of synergy-bank|BankAuthServiceImpl.java|45
+https://github.com/yaroslav-nikolaiko/LingvoMovie/commit/60ffc8a1d1276a83e56d8037de4579b95da0de0b|security try|UserRepository.java|14
+https://github.com/ymlai87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771|download from http://www.manning.com/walls4http://www.manning.com/walls4/|SecuredClass.java|26
+https://github.com/ymlai87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771|download from http://www.manning.com/walls4http://www.manning.com/walls4/|SecuredInterface.java|8
+https://github.com/ymssdeng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17|Spring In Action 3 source code|SecuredClass.java|26
+https://github.com/ymssdeng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17|Spring In Action 3 source code|SecuredInterface.java|8
+https://github.com/ZhernakovMikhail/spring-acl-sample/commit/2833ddfb778877a4ac4bb902beee5065cd0123d1|Initial Commit|SecuredRepository.java|19
+https://github.com/ZhernakovMikhail/spring-acl-sample/commit/51f7accc0feb646758de36b276c63bced95eb864|Добавил простейший интерфейс|SecuredRepository.java|20
+https://github.com/ZhernakovMikhail/spring-acl-sample/commit/51f7accc0feb646758de36b276c63bced95eb864|Добавил простейший интерфейс|SecuredRepository.java|20
+https://github.com/ZhernakovMikhail/spring-acl-sample/commit/c4c869bcf60e4b01645b4f64fb36dde42ad86cee|вынес конфигурацию из xml|SecuredRepository.java|20
+https://github.com/ZhernakovMikhail/spring-acl-sample/commit/c4c869bcf60e4b01645b4f64fb36dde42ad86cee|вынес конфигурацию из xml|SecuredRepository.java|20
