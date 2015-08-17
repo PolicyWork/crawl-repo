@@ -2339,3 +2339,31 @@ Maven upgrades
 + @PostFilter("filterObject.startsWith('a')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=50&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/e42b388b90b224b23864d325b5d18495dbad2d74
+
+[COMMIT MESSAGE]:[minor] Expert Access + some bugs||Change-Id: I6e3f9fb813cf6fb07e2909f94e839036eacf1c3f
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/8c8da3bbb933ac4726364714d366226a38ea23e9
+
+[COMMIT MESSAGE]:[CRM-23] Task, Job filters added.||Change-Id: Iadb7f5114e38733bddf2382b4d3ac8ebf69731d0
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
++ @PostFilter("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_PROJECTMANAGER', 'ROLE_ACCOUNTANT') or hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/samitkumarpatel/demo-spring-security/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0
+
+[COMMIT MESSAGE]:initial checkins||spring security based example
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=51&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
