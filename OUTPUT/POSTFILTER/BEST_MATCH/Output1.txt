@@ -2627,3 +2627,30 @@ Maven upgrades
 + @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=59&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mglazer/sIMLE/commit/c53d6bd143b7774c67a449e358165145acf8ecc7
+
+[COMMIT MESSAGE]:After many days I finally have the authorization done.||Seriously, it was all because I had my business services in the
+servlet XML file instead of the application context files. ****.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'administration') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/r0t0r-r0t0r/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/liberty914/getting-started-with-spring-framework-2edition/commit/83fb40ac4a125c9e60fb15e5c07c1f6ad49f9c65
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=60&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
