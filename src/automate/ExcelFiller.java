@@ -59,9 +59,9 @@ public class ExcelFiller {
 		
 		System.out.println("marker1");
 
-		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/Output1.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/PreFilter_Output1.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/ErrorLogging.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/PreFilter_ErrorLogging.txt"); //We write into this file
 
 		try {
 			
@@ -70,7 +70,7 @@ public class ExcelFiller {
 			BufferedWriter outputHandle = new BufferedWriter(new FileWriter(file));
 			BufferedWriter logHandle = new BufferedWriter(new FileWriter(logFile));
 			
-			String keyword = "@PostAuthorize"; // this will contain each of the keywords as the program reads line by line
+			String keyword = "PreFilter"; // this will contain each of the keywords as the program reads line by line
 			
 			WebDriver driver = new HtmlUnitDriver();
 			
@@ -149,7 +149,9 @@ public class ExcelFiller {
 					
 //					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion') or contains(@class,'blob-code blob-code-deletion selected-line')]//span[contains(.,'PostAuthorize') and contains(.,'@')]/ancestor::tr[1]/td[2]"));
 					
-					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion') or contains(@class,'blob-code blob-code-deletion selected-line')]//span[contains(.,'PostAuthorize') and contains(.,'@')]/ancestor::tr[1]/*")); //this works for deleted postauthorize also
+					//List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion') or contains(@class,'blob-code blob-code-deletion selected-line')]//span[contains(.,'PostAuthorize') and contains(.,'@')]/ancestor::tr[1]/*")); //this works for deleted postauthorize also
+					
+					List<WebElement> lineNumberElements = driver.findElements(By.xpath("//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition') or contains(@class,'blob-code blob-code-deletion') or contains(@class,'blob-code blob-code-deletion selected-line')]//span[contains(.,'"+keyword+"') and contains(.,'@')]/ancestor::tr[1]/*")); //this works for deleted postauthorize also
 					
 					//List<WebElement> lineNumberElements = driver.findElements(By.xpath("//div[contains(@data-path,'src/main/java/com/sequenceiq/cloudbreak/repository/BlueprintRepository.java')]/..//td[contains(@class,'blob-code blob-code-addition selected-line') or contains(@class,'blob-code blob-code-addition')]/span[1]"));
 					

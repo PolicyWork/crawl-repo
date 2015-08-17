@@ -19,19 +19,19 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.python.antlr.ast.keyword;
 
 
-public class NewCrawlerForPreFilter {
+public class NewCrawlerForPostFilter {
 
 	public static void main(String[] args) throws InterruptedException,	IOException {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/PREFILTER/Output10.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTFILTER/BEST_MATCH/Output1.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/PREFILTER/ErrorLogging.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTFILTER/BEST_MATCH/ErrorLogging.txt"); //We write into this file
 
 		try {
 			
-			readHandle = new BufferedReader(new FileReader("/home/manish/workspace/crawl-repo/PreFilterKeyword.txt"));  //Input file containing keywords
+			readHandle = new BufferedReader(new FileReader("/home/manish/workspace/crawl-repo/PostFilterKeyword.txt"));  //Input file containing keywords
 			
 			BufferedWriter outputHandle = new BufferedWriter(new FileWriter(file));
 			BufferedWriter logHandle = new BufferedWriter(new FileWriter(logFile));
@@ -62,7 +62,7 @@ public class NewCrawlerForPreFilter {
 					
 					if(restart == true)
 					{
-						urlToGet = "https://github.com/search?l=java&o=asc&p=98&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
+						urlToGet = "https://github.com/search?l=java&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93"; //for restart
 //						keywordLine = "intercept-url pattern";
 						restart=false;	
 					}

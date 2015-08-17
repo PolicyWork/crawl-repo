@@ -1,0 +1,28 @@
+https://github.com/barakawei/miwork/commit/5f7da6ec1b2a2baf612b5d72abb222504c06387c|init|UserService.java|32
+https://github.com/davilj/projectman/commit/7f49c03f6939e531770e9a2a6fd3a29bab1104e4|Initialize git|PersonService.java|39
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|IProductDao.java|33
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|IProductDao.java|34
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductDao.java|59
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|23
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|33
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|34
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|59
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|23
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|33
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|34
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|59
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|23
+https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050|add more files|d1db23be8534f3ab0cc2a9f603e5be9745a6682f.svn-base|39
+https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050|add more files|PersonService.java|39
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|IProductDao.java|33
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|IProductDao.java|34
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductDao.java|59
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|23
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|33
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|34
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|59
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|23
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|33
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|34
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|59
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|23

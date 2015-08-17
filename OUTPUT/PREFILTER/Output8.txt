@@ -1,0 +1,28 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/officiallysingh/homework/commit/430ea13309de2946a1e04e0050f37d074d0bf651
+
+[COMMIT MESSAGE]:adding spring template projects||
+=========================================================
+
++ @PreFilter("filterObject.email == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=70&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=71&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=72&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=73&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=74&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=75&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=76&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=77&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=78&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=79&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
