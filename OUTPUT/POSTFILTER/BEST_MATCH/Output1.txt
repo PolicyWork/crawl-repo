@@ -2600,3 +2600,30 @@ Maven upgrades
 + @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=58&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mcka1n/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ogofo/spring-finance-manager/commit/d40f9713717c9c6a45336ea7fc4a54e2195f13ab
+
+[COMMIT MESSAGE]:Upgrading to Spring Framework 3.0.0.M3, Spring Web Flow 2.0.7.RELEASE||Initial commit for integration of Spring Security 3.0.0.M1.
+=========================================================
+
++ @PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jerenmb/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=59&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+

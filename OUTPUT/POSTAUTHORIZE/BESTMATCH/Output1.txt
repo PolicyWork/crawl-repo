@@ -685,3 +685,5 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + @PostAuthorize("hasPermission(returnObject, 'read')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=10&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=11&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
