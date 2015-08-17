@@ -2367,3 +2367,13 @@ Maven upgrades
 + @PostFilter("filterObject.startsWith('a')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=51&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/beginning-spring-4/commit/0eb2aae35620c3aa6295d50110ae622e0d1a7917
+
+[COMMIT MESSAGE]:<시작하세요! 스프링 4 프로그래밍> 예제 코드||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=52&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+

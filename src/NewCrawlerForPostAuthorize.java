@@ -25,9 +25,9 @@ public class NewCrawlerForPostAuthorize {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTAUTHORIZE/Output1.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTAUTHORIZE/BESTMATCH/Output1.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTAUTHORIZE/ErrorLogging.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTAUTHORIZE/BESTMATCH/ErrorLogging.txt"); //We write into this file
 
 		try {
 			
@@ -50,9 +50,9 @@ public class NewCrawlerForPostAuthorize {
 			
 //			Integer counter = 0; //Only for tracking and debugging
 			
-//			boolean restart=true;
+			boolean restart=true;
 			
-			boolean restart=false;
+//			boolean restart=false;
 
 			while ((keywordLine = readHandle.readLine()) != null) {
 
@@ -62,7 +62,7 @@ public class NewCrawlerForPostAuthorize {
 					
 					if(restart == true)
 					{
-						urlToGet = "https://github.com/search?l=java&o=asc&p=3&q=%40Secured%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
+						urlToGet = "https://github.com/search?l=java&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93"; //for restart
 //						keywordLine = "intercept-url pattern";
 						restart=false;
 					}
