@@ -131,3 +131,67 @@
 + @PostAuthorize("returnObject.spitter.username == principal.username")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=3&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hajimezhao/code-dojo/commit/b6d0116fa88d774fb6076e79d7c597feff5cf138
+
+[COMMIT MESSAGE]:add sample source codes of Spring in Action - 3 edition||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/code4j-chen/example-code/commit/498826fbc92b86dfd7e00c948e7968447fa690b1
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bvassilis/SpringInAction/commit/0b9fdad8d38dc327773883595b0258b107061f05
+
+[COMMIT MESSAGE]:sia3||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/8fa0d610e125444ba9d60ce709d3eccb9ae0ab03
+
+[COMMIT MESSAGE]:123||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nazar-art/SpringInAction/commit/f365c09374613f658939706b8d89ebfe2f1452a6
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/periscope/commit/a7296fef4af9b0b3d59d7b8601422f862e9e59d2
+
+[COMMIT MESSAGE]:PERI-28 history added for scaling events||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/salutmonde/spitter-web/commit/6bb22d68e76b73c41dfad74bc0494677b90f17fd
+
+[COMMIT MESSAGE]:first commit of all file||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=4&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
