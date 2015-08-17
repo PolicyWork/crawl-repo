@@ -628,3 +628,60 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + @PostAuthorize("hasPermission(returnObject, 'isAccessibleProject') or hasRole('ADMINISTRATOR')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=9&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/0f37cab76f3f62eebe77b20de8af69d6bcc5e66a
+
+[COMMIT MESSAGE]:Updated to add delete application functionality||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05
+
+[COMMIT MESSAGE]:Move to hardcoded logic Permissions. Add properties based authentication||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/0e6fe4c82b9ea1fe3f1281b78fb70626e1e64bba
+
+[COMMIT MESSAGE]:Refactor so spring configuration can be changed via properties||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=10&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
