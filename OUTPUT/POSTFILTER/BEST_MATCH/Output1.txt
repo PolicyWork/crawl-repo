@@ -2557,3 +2557,46 @@ Maven upgrades
 + @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=57&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/cb0e06531b5e2ffe425a010b449d947af9c89160
+
+[COMMIT MESSAGE]:Change getEnvironments to go through Repository so it can be filtered…||… by security. Environment list now only shows 'visible' environments
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05
+
+[COMMIT MESSAGE]:Move to hardcoded logic Permissions. Add properties based authentication||
+=========================================================
+
++ @PostFilter("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/psu1025/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mcka1n/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ogofo/spring-finance-manager/commit/d40f9713717c9c6a45336ea7fc4a54e2195f13ab
+
+[COMMIT MESSAGE]:Upgrading to Spring Framework 3.0.0.M3, Spring Web Flow 2.0.7.RELEASE||Initial commit for integration of Spring Security 3.0.0.M1.
+=========================================================
+
++ @PostFilter("filterObject.owners.email == principal.username or hasRole('ROLE_ADMIN')")
++ @PostFilter("filterObject.email == principal.username or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=58&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
