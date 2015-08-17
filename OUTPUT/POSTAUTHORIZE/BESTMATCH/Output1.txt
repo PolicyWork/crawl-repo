@@ -547,3 +547,84 @@
 + @PostAuthorize("returnObject.Id == principal.id || returnObject.doctorId == principal.id")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=8&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/blacknight1982/IDCloud/commit/4ac8bf263d21796da23edfdfbcb86e298c5c75d5
+
+[COMMIT MESSAGE]:Items: 10, 6, 0, 5, 9, 2||0. Better UI, clean the project - following
+0.1 Clean up the CSS file - following
+1. Website published to http://idcloud.iego.net/
+1.1 Synchronize Database - script on the dropbox
+1.2 Check out the code on laptop - has problem
+2. Social integration - fb integrated, twitter needs to be checked
+4. Image upload through nicEditor is 3rd party Web - done with self
+developed image upload service - almost done
+5. User sign up email sending  - Not Started
+5.1 User sign up anti-robot protection - Not Started
+6. Publish file upload - Not Started
+7. Spring REST/oDATA - half way
+9. Server side Cache enabling - Not Started
+10. Apache access control - Ready to Start
+
+New: REST service, image upload service, CORS filter, Add inspiration
+authorizations
+
+Signed-off-by: John Liu <blacknight1982@gmail.com>
+=========================================================
+
+- //@PostAuthorize("returnObject?.author == authentication.name")
++ @PostAuthorize("returnObject?.authLevel < 2 or returnObject?.author == authentication.name or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/blacknight1982/IDCloud/commit/54db7fc2769c4c4e3f12ee16f30153250e753673
+
+[COMMIT MESSAGE]:Items: 0, 2, 5, 9||0. Better UI, clean the project - following
+1. Publish the website - done! http://idcloud.iego.net/
+1.1 Synchronize Database - on the way
+2. Social integration - fb integrated, twitter needs to be checked
+3. iFrame/embed problem - solved! cancel the sliding panel
+4. Image upload through nicEditor is 3rd party Web - done with self
+developed image upload service 
+5. User sign up email sending
+6.1 User sign up anti-robot protection
+7. Spring REST/oDATA - half way
+8. Enable scrolling framework only for inspiration table page, not
+other page - done
+9. Cache enabling
+
+New: REST service, image upload service, CORS filter
+
+Signed-off-by: John Liu <blacknight1982@gmail.com>
+=========================================================
+
++ //@PostAuthorize("returnObject?.author == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/f4e071e6f6a07f69c2636e5dd95180eeed9406d3
+
+[COMMIT MESSAGE]:initial import||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fredondo/javacro2014-springsecurity3/commit/d34c1d694334e087358662c5fbe237cff301dae6
+
+[COMMIT MESSAGE]:secure method invocation with SpEL expressions in annotations||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ASSISTANT_DIRECTOR') or returnObject.investigador == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d
+
+[COMMIT MESSAGE]:move archive securiry package to new location||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleAssay') or hasRole('ADMINISTRATOR')")
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleAssay') or hasRole('ADMINISTRATOR')")
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleFile') or hasRole('ADMINISTRATOR')")
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleProject') or hasRole('ADMINISTRATOR')")
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleProject') or hasRole('ADMINISTRATOR')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=9&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
