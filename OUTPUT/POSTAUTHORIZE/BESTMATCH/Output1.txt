@@ -195,3 +195,59 @@
 + @PostAuthorize("returnObject.spitter.username == principal.username")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=4&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mornhuang/example/commit/e91f741a11ab4a888526d4215be3a820c2a4804b
+
+[COMMIT MESSAGE]:增加Spring In Action 第三版的代码||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tiggermug/sia3-code/commit/a3e9a514a28bf38c8a8f1a17a18eced7e2f5d040
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/oradev/sping-in-action-code-examples/commit/8507798cd70b1b8f254aa801cb29062747a2cb8f
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sikm31/yuri3/commit/e0766118f5a802446221d89bbaf4f81a58a24d9d
+
+[COMMIT MESSAGE]:spring1||springproject
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ymlai87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771
+
+[COMMIT MESSAGE]:download from http://www.manning.com/walls4||http://www.manning.com/walls4/
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/icefireunicorn/springinaction3rd-demo/commit/3661beb56d7253c83d6faa6c3b9b108cf890229b
+
+[COMMIT MESSAGE]:add||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=5&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
