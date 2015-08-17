@@ -251,3 +251,299 @@
 + @PostAuthorize("returnObject.spitter.username == principal.username")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=5&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gavin-feng/SpringInActionStudy/commit/25dc18bdce6efce993ec3fcf73a681eab5c614e7
+
+[COMMIT MESSAGE]:base src from manning website||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/heichenhardt/SpringInAction/commit/6bbee367285990831921d0599a5415620ea8b698
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ymssdeng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17
+
+[COMMIT MESSAGE]:Spring In Action 3 source code||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/serdyuk-alex/RestaurantSample/commit/44cdcd35eb6622ebfec781d1562a1e32cdc55abe
+
+[COMMIT MESSAGE]:l2 cache, tx service, fixes||+l2 cache ehcache
++transactional service
++split order page
++security for group order read
++nice icons
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or @groupOrderSecurity.isMemberOrGroupOwner(returnObject)")
+- @PostAuthorize("returnObject.owner.name == principal.username")
++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Sheparzo/sia3-code/commit/08a2a0f48f8c615d6dda1305a7aecfd2fb13507e
+
+[COMMIT MESSAGE]:Initial commit of book code provided by publisher at http://manning.c…||…om/walls4/
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HenryXi/Spring_in_action/commit/19f36a42da5dcdd67d18ee8dc11f7967e8619901
+
+[COMMIT MESSAGE]:commit all files||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jonatanvicente/spring/commit/9c2a5eb0d0bb3ee7100b80a1fdfe4063326b35c0
+
+[COMMIT MESSAGE]:Creacion del proyecto||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/YellowBinary/server/commit/9fc85572dcdf63b8e226b29dfd89f5e2d215c7ad
+
+[COMMIT MESSAGE]:Renamed authorization method to something more logical.||
+=========================================================
+
+-@PostAuthorize("hasMethodPermission(returnObject,'create')")
++@PostAuthorize("isAuthorized(returnObject,'create')")
+-@PostAuthorize("hasMethodPermission(returnObject,'delete')")
++@PostAuthorize("isAuthorized(returnObject,'delete')")
+-@PostAuthorize("hasMethodPermission(returnObject,'read')")
++@PostAuthorize("isAuthorized(returnObject,'read')")
+-@PostAuthorize("hasMethodPermission(returnObject,'write')")
++@PostAuthorize("isAuthorized(returnObject,'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/YellowBinary/server/commit/d72c34796e0521cea95c1e13e96fe9529050eee1
+
+[COMMIT MESSAGE]:Basic Security.||
+=========================================================
+
++@PostAuthorize("hasMethodPermission(returnObject,'create')")
++@PostAuthorize("hasMethodPermission(returnObject,'delete')")
++@PostAuthorize("hasMethodPermission(returnObject,'read')")
++@PostAuthorize("hasMethodPermission(returnObject,'write')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=6&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/YellowBinary/server/commit/9fc85572dcdf63b8e226b29dfd89f5e2d215c7ad
+
+[COMMIT MESSAGE]:Renamed authorization method to something more logical.||
+=========================================================
+
+-@PostAuthorize("hasMethodPermission(returnObject,'create')")
++@PostAuthorize("isAuthorized(returnObject,'create')")
+-@PostAuthorize("hasMethodPermission(returnObject,'delete')")
++@PostAuthorize("isAuthorized(returnObject,'delete')")
+-@PostAuthorize("hasMethodPermission(returnObject,'read')")
++@PostAuthorize("isAuthorized(returnObject,'read')")
+-@PostAuthorize("hasMethodPermission(returnObject,'write')")
++@PostAuthorize("isAuthorized(returnObject,'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/YellowBinary/server/commit/d72c34796e0521cea95c1e13e96fe9529050eee1
+
+[COMMIT MESSAGE]:Basic Security.||
+=========================================================
+
++@PostAuthorize("hasMethodPermission(returnObject,'create')")
++@PostAuthorize("hasMethodPermission(returnObject,'delete')")
++@PostAuthorize("hasMethodPermission(returnObject,'read')")
++@PostAuthorize("hasMethodPermission(returnObject,'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/YellowBinary/server/commit/9fc85572dcdf63b8e226b29dfd89f5e2d215c7ad
+
+[COMMIT MESSAGE]:Renamed authorization method to something more logical.||
+=========================================================
+
+-@PostAuthorize("hasMethodPermission(returnObject,'create')")
++@PostAuthorize("isAuthorized(returnObject,'create')")
+-@PostAuthorize("hasMethodPermission(returnObject,'delete')")
++@PostAuthorize("isAuthorized(returnObject,'delete')")
+-@PostAuthorize("hasMethodPermission(returnObject,'read')")
++@PostAuthorize("isAuthorized(returnObject,'read')")
+-@PostAuthorize("hasMethodPermission(returnObject,'write')")
++@PostAuthorize("isAuthorized(returnObject,'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/YellowBinary/server/commit/d72c34796e0521cea95c1e13e96fe9529050eee1
+
+[COMMIT MESSAGE]:Basic Security.||
+=========================================================
+
++@PostAuthorize("hasMethodPermission(returnObject,'create')")
++@PostAuthorize("hasMethodPermission(returnObject,'delete')")
++@PostAuthorize("hasMethodPermission(returnObject,'read')")
++@PostAuthorize("hasMethodPermission(returnObject,'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/YellowBinary/server/commit/9fc85572dcdf63b8e226b29dfd89f5e2d215c7ad
+
+[COMMIT MESSAGE]:Renamed authorization method to something more logical.||
+=========================================================
+
+-@PostAuthorize("hasMethodPermission(returnObject,'create')")
++@PostAuthorize("isAuthorized(returnObject,'create')")
+-@PostAuthorize("hasMethodPermission(returnObject,'delete')")
++@PostAuthorize("isAuthorized(returnObject,'delete')")
+-@PostAuthorize("hasMethodPermission(returnObject,'read')")
++@PostAuthorize("isAuthorized(returnObject,'read')")
+-@PostAuthorize("hasMethodPermission(returnObject,'write')")
++@PostAuthorize("isAuthorized(returnObject,'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/YellowBinary/server/commit/d72c34796e0521cea95c1e13e96fe9529050eee1
+
+[COMMIT MESSAGE]:Basic Security.||
+=========================================================
+
++@PostAuthorize("hasMethodPermission(returnObject,'create')")
++@PostAuthorize("hasMethodPermission(returnObject,'delete')")
++@PostAuthorize("hasMethodPermission(returnObject,'read')")
++@PostAuthorize("hasMethodPermission(returnObject,'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/GGkBand/spring/commit/e8d27407fb6f2c99139b687c69aab8d10cddeb92
+
+[COMMIT MESSAGE]:init spring||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/careermasud/SpringBooks/commit/393f54ed1c94c177d6381cf1b91962f303b82707
+
+[COMMIT MESSAGE]:Spring In Action created.||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dineshbabu/spring3-trial/commit/d847648cc947b5c4725b7c02010c6033891088f1
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hyperaeon/SpringLearn/commit/2957b94461db34d6dfc96412f3c049c93f2cabfb
+
+[COMMIT MESSAGE]:init commit||
+=========================================================
+
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/snicki0201/myapp/commit/9a290b5f191ac5a18eef5c3a6234d94b15642a58
+
+[COMMIT MESSAGE]:Experiment for custom UserDetailsService and UserDetails.||
+=========================================================
+
++// @PostAuthorize("isAuthenticated() and returnObject?.id == principal.username")
++// @PostAuthorize("isAuthenticated() and returnObject?.id == principal.acid") // using null safe operator.
++// @PostAuthorize("isAuthenticated() and returnObject != null ? returnObject.id == principal.acid : true")
++ @PostAuthorize("returnObject != null ? returnObject.id == principal.acid : true") // causes error in the case of an unauthenticated.
++// @PostAuthorize("#returnObject != null ? returnObject.id == principal.acid : true") // # causes error.
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/yaroslav-nikolaiko/LingvoMovie/commit/60ffc8a1d1276a83e56d8037de4579b95da0de0b
+
+[COMMIT MESSAGE]:security try||
+=========================================================
+
++//@PostAuthorize("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=7&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/urko-vi/spring/commit/e3f68e0754a9cd509088c8f45852ecfaffc51bef
+
+[COMMIT MESSAGE]:Initial||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ASSISTANT_DIRECTOR') or returnObject.investigador == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/stondofitz/thegains/commit/290c1058483e2cf3fba93dd61f4f6a12faaf18c5
+
+[COMMIT MESSAGE]:Messing with security crap||
+=========================================================
+
++ @PostAuthorize("returnObject.getUsername() == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/geno-phen-browser-OLD/commit/89eb9c2c7d116a594005efed06c5baf1c1607881
+
+[COMMIT MESSAGE]:Initial Checkin||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/periscope/commit/9f75ccac2b567c7ce2762344de6fd7d51f96f6a0
+
+[COMMIT MESSAGE]:PERI-28 leverage Ambari's metric system||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/finance/commit/4b3740d1b749b3388168452db86413a0faaf6656
+
+[COMMIT MESSAGE]:Start of presentation||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/finance/commit/d49c9cf701d1c814d939b0e04b02c2ed7df6210b
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/akuepfer/coursera-mobile-cloud-computing-with-android/commit/718095fbb5839655a2f59c1787bc2256ca58b8f4
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.doctorId == principal.id")
++ @PostAuthorize("returnObject.doctorId == authentication.id")
++ @PostAuthorize("returnObject.Id == principal.id || returnObject.doctorId == principal.id")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=8&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

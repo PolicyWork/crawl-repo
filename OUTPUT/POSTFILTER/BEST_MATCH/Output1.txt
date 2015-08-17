@@ -2518,3 +2518,29 @@ Maven upgrades
 + @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=55&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/J-LiNDBERG/spring4_ex/commit/fdb617a892f2ebf28e4c4d1d8630f5b428036a1f
+
+[COMMIT MESSAGE]:spring4||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wiltro/security-demo/commit/0be299520e244d923f73647b799fd25c859945b6
+
+[COMMIT MESSAGE]:preparation LorraineJug||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vpatel536/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=56&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
