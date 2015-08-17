@@ -687,3 +687,21 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=11&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thepresbyterian/topchef/commit/2ef860afaf9d4a218818400ef057a8b4f3b5f0ea
+
+[COMMIT MESSAGE]:Publishing to GitHub||
+=========================================================
+
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("isAuthenticated()")
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN') and @methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or @methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=12&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
