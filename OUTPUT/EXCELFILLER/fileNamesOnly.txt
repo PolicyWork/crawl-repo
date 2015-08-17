@@ -1,0 +1,207 @@
+_6B.java
+
+- Se cargan permisos de 3 módulos de menú con respecto a 3 roles entablas de acl.
+- Se corrigen dependecias de librerías de seguridad.
+
+12
+
+- Se cargan permisos de 3 módulos de menú con respecto a 3 roles entablas de acl.
+- Se corrigen dependecias de librerías de seguridad.
+
+22
+
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+16
+
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+21
+
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+28
+
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+24
+
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+24
+AccountService.java
+PersonService.java
+SecuredService.java
+AnnotationSecurityAspectTests.java
+AnnotationSecurityAspectTests.java
+ObjectFactory.java
+ObjectFactory.java
+ObjectFactory.java
+BookRepository.java
+CalendarConfiguration.java
+CalendarConfiguration.java
+CalendarConfiguration.java
+CalendarConfiguration.java
+CalendarConfiguration.java
+CalendarConfiguration.java
+CalendarConfiguration.java
+CalendarConfiguration.java
+
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+24
+
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+24
+AccountService.java
+PersonService.java
+IProductService.java
+IProductService.java
+ProductServiceImpl.java
+
++ bash script for running ad-hoc Tomcat in production mode
+
+hibernate parameters moved in properties file 
++ loaded in applicationContext.xml
+
+ACLs for menu (user / admin):
++ CSVs 
++ annotated Service
+
+13
+AccountService.java
+PersonService.java
+IProductService.java
+IProductService.java
+IProductService.java
+IProductService.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+OnLineLibraryService.java
+OnLineLibraryService.java
+OnLineLibraryService.java
+OnLineLibraryService.java
+OnLineLibraryService.java
+package-info.java
+package-info.java
+AnnotationSecurityAspect.aj
+AnnotationSecurityAspectTests.java
+d1db23be8534f3ab0cc2a9f603e5be9745a6682f.svn-base
+f97357d5b0100fbf7bbf5d0dfa9a0ab829c46747.svn-base
+AccountService.java
+PersonService.java
+FileManagerService.java
+IProductService.java
+IProductService.java
+ProductServiceImpl.java
+AdminPostService.java
+AdminPostService.java
+AdminPostService.java
+PersonalPostService.java
+PersonalPostService.java
+PersonalPostService.java
+PublicPostService.java
+PublicPostService.java
+PublicPostService.java
+IProductService.java
+IProductService.java
+IProductService.java
+IProductService.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+package-info.java
+package-info.java
+AnnotationSecurityAspect.aj
+AnnotationSecurityAspectTests.java
+package-info.java
+package-info.java
+AnnotationSecurityAspect.aj
+AnnotationSecurityAspectTests.java
+AuthController.java
+ICompanyService.java
+
+16
+ItemService.java
+ItemService.java
+DocumentController.java
+AccountService.java
+PersonService.java
+TiedoteService.java
+WebContentService.java
+AppService.java
+NavigationService.java
+ObjectFactory.java
+ICRUDController.java
+IGRUDController.java
+IPetController.java
+IProductService.java
+IProductService.java
+IProductService.java
+IProductService.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ObjectFactory.java
+ObjectFactory.java
+ObjectFactory.java
+ObjectFactory.java
+ObjectFactory.java
+ObjectFactory.java
+ObjectFactory.java
+ObjectFactory.java
+package-info.java
+package-info.java
+AnnotationSecurityAspect.aj
+AnnotationSecurityAspectTests.java
+AnnotationSecurityAspectTests.java
+AnnotationSecurityAspectTests.java
+ObjectFactory.java
+AbstractCrudService.java
+FileManagerService.java
+IProductService.java
+IProductService.java
+IProductService.java
+IProductService.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java
+ProductServiceImpl.java

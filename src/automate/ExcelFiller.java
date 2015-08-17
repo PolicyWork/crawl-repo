@@ -59,18 +59,18 @@ public class ExcelFiller {
 		
 		System.out.println("marker1");
 
-		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/PreFilter_Output1.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/PostFilter_Output1.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/PreFilter_ErrorLogging.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/PostFilter_ErrorLogging.txt"); //We write into this file
 
 		try {
 			
-			readHandle = new BufferedReader(new FileReader("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/LinksToRead.txt"));  //Input file containing keywords
+			readHandle = new BufferedReader(new FileReader("/home/manish/workspace/crawl-repo/OUTPUT/EXCELFILLER/LinksToReadPostFilter.txt"));  //Input file containing keywords
 			
 			BufferedWriter outputHandle = new BufferedWriter(new FileWriter(file));
 			BufferedWriter logHandle = new BufferedWriter(new FileWriter(logFile));
 			
-			String keyword = "PreFilter"; // this will contain each of the keywords as the program reads line by line
+			String keyword = "PostFilter"; // this will contain each of the keywords as the program reads line by line
 			
 			WebDriver driver = new HtmlUnitDriver();
 			

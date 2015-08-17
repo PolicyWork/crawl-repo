@@ -1,0 +1,207 @@
+29
+
+- Se cargan permisos de 3 módulos de menú con respecto a 3 roles entablas de acl.
+- Se corrigen dependecias de librerías de seguridad.
+
+
+
+- Se cargan permisos de 3 módulos de menú con respecto a 3 roles entablas de acl.
+- Se corrigen dependecias de librerías de seguridad.
+
+
+
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+
+
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+
+
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+
+
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+
+
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+
+23
+28
+24
+183
+192
+8
+8
+8
+18
+50
+50
+51
+65
+67
+68
+50
+65
+
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+
+
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+
+23
+28
+16
+17
+20
+
++ bash script for running ad-hoc Tomcat in production mode
+
+hibernate parameters moved in properties file 
++ loaded in applicationContext.xml
+
+ACLs for menu (user / admin):
++ CSVs 
++ annotated Service
+
+
+24
+28
+21
+22
+23
+24
+21
+21
+22
+23
+24
+21
+21
+22
+23
+24
+21
+21
+25
+28
+30
+34
+2
+4
+43
+184
+28
+24
+24
+28
+18
+16
+17
+21
+14
+23
+26
+13
+22
+25
+13
+22
+25
+21
+22
+23
+24
+21
+21
+22
+23
+24
+21
+2
+4
+43
+184
+2
+4
+43
+184
+23
+15
+
+
+17
+20
+18
+24
+28
+14
+25
+33
+17
+8
+30
+20
+14
+21
+22
+23
+24
+21
+21
+22
+23
+24
+21
+21
+22
+23
+24
+21
+8
+8
+8
+9
+11
+8
+8
+11
+2
+4
+43
+184
+183
+192
+8
+48
+18
+21
+22
+23
+24
+21
+21
+22
+23
+24
+21

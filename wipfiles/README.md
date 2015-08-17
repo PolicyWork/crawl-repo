@@ -3,10 +3,10 @@ grep -ir "PostAuthorize(" *
 grep -irl "PostAuthorize(" *|grep -i "crawler"
 
 [manish crawl-repo]$  grep -irl "PostAuthorize(" *|grep -i "crawler" 
-CrawlerOutputPostAuthorize.txt
-CrawlerOutput_restart1.txt_bk4
-CrawlerOutput.txt_hasRole_bk1
-CrawlerOutput.txt_permission_keyword
+CrawlerOutputPostAuthorize.txt  Aug 1 2015
+CrawlerOutput_restart1.txt_bk4   looks less than one page of github
+CrawlerOutput.txt_hasRole_bk1     has 96 postauthorize   
+CrawlerOutput.txt_permission_keyword  has only 4 so ignore
 CrawlerOutputWithCommitMessages3.txt
 CrawlerOutputWithCommitMessages3.txt_bk10
 CrawlerOutputWithCommitMessages3.txt_bk11

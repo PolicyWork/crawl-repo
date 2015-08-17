@@ -1,0 +1,207 @@
+https://github.com/abhishek333/ted-young/commit/903aef6134b523727a04ee6fd83cc361a8bc2ce3|No commit message|_6B.java|29
+https://github.com/alex-pi/plataforma-spring/commit/7c3be3fba42e3a9e10d3018de98fc6e5c4ac6f47|- Se configura seguridad con ALC's para SpringSecurity 3.1.0.- Se configuran tests del módulo de seguridad para la nueva conf.
+- Se cargan permisos de 3 módulos de menú con respecto a 3 roles entablas de acl.
+- Se corrigen dependecias de librerías de seguridad.
+
+Nota: Para objetos tipo OpcionMenu no se cargó información de ACL's. Las opciones debajo de los módulos serán visibles para todos los SID's|MenuSeguridadServicio.java|12
+https://github.com/alex-pi/plataforma-spring/commit/7c3be3fba42e3a9e10d3018de98fc6e5c4ac6f47|- Se configura seguridad con ALC's para SpringSecurity 3.1.0.- Se configuran tests del módulo de seguridad para la nueva conf.
+- Se cargan permisos de 3 módulos de menú con respecto a 3 roles entablas de acl.
+- Se corrigen dependecias de librerías de seguridad.
+
+Nota: Para objetos tipo OpcionMenu no se cargó información de ACL's. Las opciones debajo de los módulos serán visibles para todos los SID's|MenuSeguridadServicioImpl.java|22
+https://github.com/alex-pi/plataforma-spring-mnegocio/commit/f51768349b454c429c2c87bd9e5c0d268f8b32e9|- Se crean módulos mneg-infra-modelo, mneg-infra-seguridad, mneg-tlp-……web.
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+- Se crea página con ejemplos de características de la arquitectura.|MenuSeguridadServicio.java|16
+https://github.com/alex-pi/plataforma-spring-mnegocio/commit/f51768349b454c429c2c87bd9e5c0d268f8b32e9|- Se crean módulos mneg-infra-modelo, mneg-infra-seguridad, mneg-tlp-……web.
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+- Se crea página con ejemplos de características de la arquitectura.|MenuSeguridadServicio.java|21
+https://github.com/alex-pi/plataforma-spring-mnegocio/commit/f51768349b454c429c2c87bd9e5c0d268f8b32e9|- Se crean módulos mneg-infra-modelo, mneg-infra-seguridad, mneg-tlp-……web.
+
+- Se configura seguridad para permitir zona pública y restringida.
+- Se añaden librerías de jquery, jquery-ui y requireJS.
+- Se crea página con ejemplos de características de la arquitectura.|seguridad-tlp-config.xml|28
+https://github.com/alexsimo/spring-finance-manager/commit/07379f36e5515eed90dca5d5d295ee4c746f2398|Updating versions of:- Spring framework 3.0.0.M4
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+- fixes for minor issues|AccountService.java|24
+https://github.com/alexsimo/spring-finance-manager/commit/07379f36e5515eed90dca5d5d295ee4c746f2398|Updating versions of:- Spring framework 3.0.0.M4
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+- fixes for minor issues|AccountService.java|24
+https://github.com/alexsimo/spring-finance-manager/commit/d40f9713717c9c6a45336ea7fc4a54e2195f13ab|Upgrading to Spring Framework 3.0.0.M3, Spring Web Flow 2.0.7.RELEASEInitial commit for integration of Spring Security 3.0.0.M1.|AccountService.java|23
+https://github.com/alexsimo/spring-finance-manager/commit/d40f9713717c9c6a45336ea7fc4a54e2195f13ab|Upgrading to Spring Framework 3.0.0.M3, Spring Web Flow 2.0.7.RELEASEInitial commit for integration of Spring Security 3.0.0.M1.|PersonService.java|28
+https://github.com/altfatterz/spring-security-fun/commit/286a5e22d1324ffff9aac4cf62a58b5cc5c155d2|add @PostFilter test|SecuredService.java|24
+https://github.com/anadon/spring-security-new-login/commit/ae6af5d73ce77f93926379f96371e84b1e9401f1|SEC-2915: Updated Java Code Formatting|AnnotationSecurityAspectTests.java|183
+https://github.com/anadon/spring-security-new-login/commit/ae6af5d73ce77f93926379f96371e84b1e9401f1|SEC-2915: Updated Java Code Formatting|AnnotationSecurityAspectTests.java|192
+https://github.com/avihavai/wad-2012/commit/613b242939d4f1860bdac01ade19959e3e363c8e|security-runkoja|ObjectFactory.java|8
+https://github.com/avihavai/wad-2012/commit/613b242939d4f1860bdac01ade19959e3e363c8e|security-runkoja|ObjectFactory.java|8
+https://github.com/avihavai/wad-2012/commit/9a704022557c9793115d59ffa1bc170058853fe0|herokun db-konffit|ObjectFactory.java|8
+https://github.com/charybr/spring-data-rest-acl/commit/2deca36d13faed67c253d3e401e64bdd87a590da|Added initial files|BookRepository.java|18
+https://github.com/chinab/owaconnector/commit/181abd50d82930899def064d2cdb60a9427abead|authentication.name instead of principal|CalendarConfiguration.java|50
+https://github.com/chinab/owaconnector/commit/181abd50d82930899def064d2cdb60a9427abead|authentication.name instead of principal|CalendarConfiguration.java|50
+https://github.com/chinab/owaconnector/commit/181abd50d82930899def064d2cdb60a9427abead|authentication.name instead of principal|CalendarConfiguration.java|51
+https://github.com/chinab/owaconnector/commit/181abd50d82930899def064d2cdb60a9427abead|authentication.name instead of principal|CalendarConfiguration.java|65
+https://github.com/chinab/owaconnector/commit/181abd50d82930899def064d2cdb60a9427abead|authentication.name instead of principal|CalendarConfiguration.java|67
+https://github.com/chinab/owaconnector/commit/181abd50d82930899def064d2cdb60a9427abead|authentication.name instead of principal|CalendarConfiguration.java|68
+https://github.com/chinab/owaconnector/commit/89daa79b0de77dbe357e047620e93512d7260d1e|moved find* methods to java class so they can be modified. Secured th……em using spring security.|CalendarConfiguration.java|50
+https://github.com/chinab/owaconnector/commit/89daa79b0de77dbe357e047620e93512d7260d1e|moved find* methods to java class so they can be modified. Secured th……em using spring security.|CalendarConfiguration.java|65
+https://github.com/chithra86/spring-finance-manager/commit/07379f36e5515eed90dca5d5d295ee4c746f2398|Updating versions of:- Spring framework 3.0.0.M4
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+- fixes for minor issues|AccountService.java|24
+https://github.com/chithra86/spring-finance-manager/commit/07379f36e5515eed90dca5d5d295ee4c746f2398|Updating versions of:- Spring framework 3.0.0.M4
+- Spring security 3.0.0.M2
+- Spring JS 2.0.8.RELEASE
+- Validtation API
+- Hibernate Validator beta2
+
+- fixes for minor issues|AccountService.java|24
+https://github.com/chithra86/spring-finance-manager/commit/d40f9713717c9c6a45336ea7fc4a54e2195f13ab|Upgrading to Spring Framework 3.0.0.M3, Spring Web Flow 2.0.7.RELEASEInitial commit for integration of Spring Security 3.0.0.M1.|AccountService.java|23
+https://github.com/chithra86/spring-finance-manager/commit/d40f9713717c9c6a45336ea7fc4a54e2195f13ab|Upgrading to Spring Framework 3.0.0.M3, Spring Web Flow 2.0.7.RELEASEInitial commit for integration of Spring Security 3.0.0.M1.|PersonService.java|28
+https://github.com/chotom73/myDevelop/commit/6905be046570eadf6385b4a15d954af8e61d7dde|spring security|IProductService.java|16
+https://github.com/chotom73/myDevelop/commit/6905be046570eadf6385b4a15d954af8e61d7dde|spring security|IProductService.java|17
+https://github.com/chotom73/myDevelop/commit/6905be046570eadf6385b4a15d954af8e61d7dde|spring security|ProductServiceImpl.java|20
+https://github.com/cosminrentea/roda/commit/d96b9e83141ac33a1591d6dc0dcf1c946b6b8d78|Spring profiles+ local/production properties files
++ bash script for running ad-hoc Tomcat in production mode
+
+hibernate parameters moved in properties file 
++ loaded in applicationContext.xml
+
+ACLs for menu (user / admin):
++ CSVs 
++ annotated Service
+
+Maven upgrades|CmsMenuTreeService.java|13
+https://github.com/davilj/projectman/commit/7f49c03f6939e531770e9a2a6fd3a29bab1104e4|Initialize git|AccountService.java|24
+https://github.com/davilj/projectman/commit/7f49c03f6939e531770e9a2a6fd3a29bab1104e4|Initialize git|PersonService.java|28
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|IProductService.java|21
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|IProductService.java|22
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|IProductService.java|23
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|IProductService.java|24
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|21
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|21
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|22
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|23
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|24
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|21
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|21
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|22
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|23
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|24
+https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae|initial commit|ProductServiceImpl.java|21
+https://github.com/debjava/spring-pre-post-filter1/commit/bef70e16569d139ab36d781c03c46ac820d63d84|Files committed for Spring Security using @PreFilter and @PostFilter|OnLineLibraryService.java|21
+https://github.com/debjava/spring-pre-post-filter1/commit/bef70e16569d139ab36d781c03c46ac820d63d84|Files committed for Spring Security using @PreFilter and @PostFilter|OnLineLibraryService.java|25
+https://github.com/debjava/spring-pre-post-filter1/commit/bef70e16569d139ab36d781c03c46ac820d63d84|Files committed for Spring Security using @PreFilter and @PostFilter|OnLineLibraryService.java|28
+https://github.com/debjava/spring-pre-post-filter1/commit/bef70e16569d139ab36d781c03c46ac820d63d84|Files committed for Spring Security using @PreFilter and @PostFilter|OnLineLibraryService.java|30
+https://github.com/debjava/spring-pre-post-filter1/commit/bef70e16569d139ab36d781c03c46ac820d63d84|Files committed for Spring Security using @PreFilter and @PostFilter|OnLineLibraryService.java|34
+https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78|testing|package-info.java|2
+https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78|testing|package-info.java|4
+https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78|testing|AnnotationSecurityAspect.aj|43
+https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78|testing|AnnotationSecurityAspectTests.java|184
+https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050|add more files|d1db23be8534f3ab0cc2a9f603e5be9745a6682f.svn-base|28
+https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050|add more files|f97357d5b0100fbf7bbf5d0dfa9a0ab829c46747.svn-base|24
+https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050|add more files|AccountService.java|24
+https://github.com/eric2323223/springlab/commit/6ea6160255c4dea916161741f5014610ba4c7050|add more files|PersonService.java|28
+https://github.com/fredondo/javacro2014-springsecurity3/commit/d34c1d694334e087358662c5fbe237cff301dae6|secure method invocation with SpEL expressions in annotations|FileManagerService.java|18
+https://github.com/haczqyf/SpringSecurity/commit/9da0f83bbfd4400a8e2aeb696768690f2df6723e|add chapter 5-0 with layer service and @PreFilter,@PostFilter|IProductService.java|16
+https://github.com/haczqyf/SpringSecurity/commit/9da0f83bbfd4400a8e2aeb696768690f2df6723e|add chapter 5-0 with layer service and @PreFilter,@PostFilter|IProductService.java|17
+https://github.com/haczqyf/SpringSecurity/commit/9da0f83bbfd4400a8e2aeb696768690f2df6723e|add chapter 5-0 with layer service and @PreFilter,@PostFilter|ProductServiceImpl.java|21
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|AdminPostService.java|14
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|AdminPostService.java|23
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|AdminPostService.java|26
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|PersonalPostService.java|13
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|PersonalPostService.java|22
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|PersonalPostService.java|25
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|PublicPostService.java|13
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|PublicPostService.java|22
+https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b|No commit message|PublicPostService.java|25
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|IProductService.java|21
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|IProductService.java|22
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|IProductService.java|23
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|IProductService.java|24
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|ProductServiceImpl.java|21
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|ProductServiceImpl.java|21
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|ProductServiceImpl.java|22
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|ProductServiceImpl.java|23
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|ProductServiceImpl.java|24
+https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6|first release|ProductServiceImpl.java|21
+https://github.com/huapuyu/huapuyu/commit/3c850e4eb0c0f061c27934cb76a28a91c97b7948|No commit message|package-info.java|2
+https://github.com/huapuyu/huapuyu/commit/3c850e4eb0c0f061c27934cb76a28a91c97b7948|No commit message|package-info.java|4
+https://github.com/huapuyu/huapuyu/commit/3c850e4eb0c0f061c27934cb76a28a91c97b7948|No commit message|AnnotationSecurityAspect.aj|43
+https://github.com/huapuyu/huapuyu/commit/3c850e4eb0c0f061c27934cb76a28a91c97b7948|No commit message|AnnotationSecurityAspectTests.java|184
+https://github.com/huapuyu/huapuyu/commit/bb950a51e8e315ff2c91dadee53c4d4e3ec8eec1|No commit message|package-info.java|2
+https://github.com/huapuyu/huapuyu/commit/bb950a51e8e315ff2c91dadee53c4d4e3ec8eec1|No commit message|package-info.java|4
+https://github.com/huapuyu/huapuyu/commit/bb950a51e8e315ff2c91dadee53c4d4e3ec8eec1|No commit message|AnnotationSecurityAspect.aj|43
+https://github.com/huapuyu/huapuyu/commit/bb950a51e8e315ff2c91dadee53c4d4e3ec8eec1|No commit message|AnnotationSecurityAspectTests.java|184
+https://github.com/hyperaeon/SpringLearn/commit/2957b94461db34d6dfc96412f3c049c93f2cabfb|init commit|AuthController.java|23
+https://github.com/JasonHao123/ibook/commit/4032a2f40c2c6cdd6aaa775ec9199a0c74451eb0|fix security settings|ICompanyService.java|15
+https://github.com/javiersvg/spring-phonecat/commit/ada691459a85958a27bd02b84749bca21498ded6|step-3 add security  - Add url secured based security
+  - Add method based security|UserRepository.java|16
+https://github.com/leela03/test-app/commit/56069f5aec7b3bb2c85f5ed7135ca8c2d7ef94b0|Initial version|ItemService.java|17
+https://github.com/leela03/test-app/commit/56069f5aec7b3bb2c85f5ed7135ca8c2d7ef94b0|Initial version|ItemService.java|20
+https://github.com/mpi/SpringSecurityUnitTesting/commit/0c2904467ff355ed9408dbd74e3f7fabe38dabb6|early draft|DocumentController.java|18
+https://github.com/officiallysingh/homework/commit/430ea13309de2946a1e04e0050f37d074d0bf651|adding spring template projects|AccountService.java|24
+https://github.com/officiallysingh/homework/commit/430ea13309de2946a1e04e0050f37d074d0bf651|adding spring template projects|PersonService.java|28
+https://github.com/Opetushallitus/eperusteet/commit/74be72f45d35faafd086f4a56ce87bccba7244e1|Vaihdettu tiedotteen oikeustarkastelu annotaatioon|TiedoteService.java|14
+https://github.com/pascal-gehring/mycomm-portal/commit/f4e071e6f6a07f69c2636e5dd95180eeed9406d3|initial import|WebContentService.java|25
+https://github.com/pascal-gehring/mycomm-portal/commit/f4e071e6f6a07f69c2636e5dd95180eeed9406d3|initial import|AppService.java|33
+https://github.com/pascal-gehring/mycomm-portal/commit/f4e071e6f6a07f69c2636e5dd95180eeed9406d3|initial import|NavigationService.java|17
+https://github.com/pasuuna/oma-kirjautuminen/commit/74cb96f669ea53efa3071057b916373f059b2fe7|huahue|ObjectFactory.java|8
+https://github.com/peterarsentev/Spring-Security-Acl-MongoDB/commit/18b8fc5fb4300c9fee927488a7bfe8c5c5ed5c8a|added the login page, client page, create client dialog|ICRUDController.java|30
+https://github.com/peterarsentev/Spring-Security-Acl-MongoDB/commit/18b8fc5fb4300c9fee927488a7bfe8c5c5ed5c8a|added the login page, client page, create client dialog|IGRUDController.java|20
+https://github.com/peterarsentev/Spring-Security-Acl-MongoDB/commit/18b8fc5fb4300c9fee927488a7bfe8c5c5ed5c8a|added the login page, client page, create client dialog|IPetController.java|14
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|IProductService.java|21
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|IProductService.java|22
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|IProductService.java|23
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|IProductService.java|24
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|21
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|21
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|22
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|23
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|24
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|21
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|21
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|22
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|23
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|24
+https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674|Add Maven-ized Chapters 3-12|ProductServiceImpl.java|21
+https://github.com/rase-/tsoha/commit/6839f06d72640066071619e684e668231732b723|initial commit|ObjectFactory.java|8
+https://github.com/rase-/tsoha/commit/76324a98155935aba12abb56841b431625cc926a|first commit|ObjectFactory.java|8
+https://github.com/rase-/tsoha/commit/d06d36509657eb4ee67de98a7f47ad14549fb506|some views added|ObjectFactory.java|8
+https://github.com/rase-/wad/commit/3595c5df11cb44eb901d4ec98893e482d2984f0e|refactored|ObjectFactory.java|9
+https://github.com/rase-/wad/commit/3595c5df11cb44eb901d4ec98893e482d2984f0e|refactored|ObjectFactory.java|11
+https://github.com/rase-/wad/commit/6d992a3d09e95535afb4ff70955c39c4da5eb48a|vikan viikon ekoja|ObjectFactory.java|8
+https://github.com/rase-/wad/commit/6d992a3d09e95535afb4ff70955c39c4da5eb48a|vikan viikon ekoja|ObjectFactory.java|8
+https://github.com/rase-/wad/commit/f21aded665e3b0ad76ed3ac4c63bb67f14da2b45|some improvements and broken course-ilmo|ObjectFactory.java|11
+https://github.com/samitkumarpatel/demo-spring-security/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0|initial checkinsspring security based example|package-info.java|2
+https://github.com/samitkumarpatel/demo-spring-security/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0|initial checkinsspring security based example|package-info.java|4
+https://github.com/samitkumarpatel/demo-spring-security/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0|initial checkinsspring security based example|AnnotationSecurityAspect.aj|43
+https://github.com/samitkumarpatel/demo-spring-security/commit/8c05abf0ef0da9fb9c41721a2ec472c9d6534bf0|initial checkinsspring security based example|AnnotationSecurityAspectTests.java|184
+https://github.com/spring-projects/spring-security/commit/ae6af5d73ce77f93926379f96371e84b1e9401f1|SEC-2915: Updated Java Code Formatting|AnnotationSecurityAspectTests.java|183
+https://github.com/spring-projects/spring-security/commit/ae6af5d73ce77f93926379f96371e84b1e9401f1|SEC-2915: Updated Java Code Formatting|AnnotationSecurityAspectTests.java|192
+https://github.com/stade/WAD/commit/834f5cc883f177ec033a1675ff4eba8f826e5ff3|commit all course assigment sourcecode|ObjectFactory.java|8
+https://github.com/terrestris/shogun2/commit/df4b07c6525a0c40eba4e0043af4e201d08e88e4|Add basic security annotations to the CRUD service|AbstractCrudService.java|48
+https://github.com/urko-vi/spring/commit/e3f68e0754a9cd509088c8f45852ecfaffc51bef|Initial|FileManagerService.java|18
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|IProductService.java|21
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|IProductService.java|22
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|IProductService.java|23
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|IProductService.java|24
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|ProductServiceImpl.java|21
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|ProductServiceImpl.java|21
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|ProductServiceImpl.java|22
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|ProductServiceImpl.java|23
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|ProductServiceImpl.java|24
+https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b|<스프링 시큐리티 3> 소스코드|ProductServiceImpl.java|21
