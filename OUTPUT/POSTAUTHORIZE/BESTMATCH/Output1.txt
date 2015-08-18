@@ -1130,3 +1130,67 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + @PostAuthorize("returnObject.spitter.username == principal.username")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=18&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/heichenhardt/SpringInAction/commit/6bbee367285990831921d0599a5415620ea8b698
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ymssdeng/winter/commit/7eaad2baff3df401d1708691f60ac4ceff3ada17
+
+[COMMIT MESSAGE]:Spring In Action 3 source code||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-0-to-4.0/commit/dda960c125c4ef2cfb34f5bb8c9942ffc1b8b46f
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pisarski/SpringSampleApp/commit/bef28bf5448f70a1a191e961e3a0366b3c428ef1
+
+[COMMIT MESSAGE]:Add rights to view and logic||
+=========================================================
+
++ @PostAuthorize("hasAuthority('EDIT_ALL_SPITTLES') or (hasAuthority('EDIT_OWN_SPITTLE') and principal.user.id == returnObject.createUser.id)")
++ @PostAuthorize("principal.user.id != returnObject.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pisarski/SpringSampleApp/commit/2dc10397f211cdfd768405b4b702455e2aa2478e
+
+[COMMIT MESSAGE]:Add security tests||
+=========================================================
+
+- @PostAuthorize("principal.user.id != returnObject.id")
++ @PostAuthorize("hasAuthority('USER_MANAGEMENT') and principal.user.id != returnObject.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pisarski/SpringSampleApp/commit/bef28bf5448f70a1a191e961e3a0366b3c428ef1
+
+[COMMIT MESSAGE]:Add rights to view and logic||
+=========================================================
+
++ @PostAuthorize("hasAuthority('EDIT_ALL_SPITTLES') or (hasAuthority('EDIT_OWN_SPITTLE') and principal.user.id == returnObject.createUser.id)")
++ @PostAuthorize("principal.user.id != returnObject.id")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=19&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

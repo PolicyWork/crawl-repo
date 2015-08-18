@@ -2828,3 +2828,59 @@ Missing Features
 + @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=64&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jakubnabrdalik/spring-security-starter/commit/673ec896040766e644dfc321f23ab74ae5a9d2fd
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
++ @PostFilter("filterObject.assignee == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/siddharthm87/getting-started-with-spring-framework-2edition/commit/83fb40ac4a125c9e60fb15e5c07c1f6ad49f9c65
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sshyun33/getting-started-with-spring-framework-2edition/commit/83fb40ac4a125c9e60fb15e5c07c1f6ad49f9c65
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gruteke/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=65&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
