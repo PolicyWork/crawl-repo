@@ -1054,3 +1054,79 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + @PostAuthorize("hasPermission(returnObject, 'WRITE')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=17&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tiggermug/sia3-code/commit/a3e9a514a28bf38c8a8f1a17a18eced7e2f5d040
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ymlai87416/SpringInActionSourceCode/commit/49a6436acf379863c0307cc9fa47c2dab172a771
+
+[COMMIT MESSAGE]:download from http://www.manning.com/walls4||http://www.manning.com/walls4/
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/briancody/roscode-dtp/commit/704dc1b6af65f5804f60326cfd90801a741ef081
+
+[COMMIT MESSAGE]:Security!||
+=========================================================
+
++// @PostAuthorize("returnObejct.id == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wdiskowski/spring/commit/6f0ace4f44624fb8505c32396314708064145476
+
+[COMMIT MESSAGE]:ACL eingebaut||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Ventiv-Technology/AppConfig/commit/225c73186a5a37f2d8dce9d9d25503266575dc05
+
+[COMMIT MESSAGE]:Move to hardcoded logic Permissions. Add properties based authentication||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/peterarsentev/Spring-Security-Acl-MongoDB/commit/18b8fc5fb4300c9fee927488a7bfe8c5c5ed5c8a
+
+[COMMIT MESSAGE]:added the login page, client page, create client dialog||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/icefireunicorn/springinaction3rd-demo/commit/3661beb56d7253c83d6faa6c3b9b108cf890229b
+
+[COMMIT MESSAGE]:add||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/gavin-feng/SpringInActionStudy/commit/25dc18bdce6efce993ec3fcf73a681eab5c614e7
+
+[COMMIT MESSAGE]:base src from manning website||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=18&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
