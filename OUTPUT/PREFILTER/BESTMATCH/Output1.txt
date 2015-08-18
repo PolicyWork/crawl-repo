@@ -747,3 +747,48 @@
 + @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=43&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/barakawei/miwork/commit/5f7da6ec1b2a2baf612b5d72abb222504c06387c
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ // @PreFilter("filterObject.account == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mkanchwala/sample-spring4/commit/0732428df79fb66e50ff6e7c0e6a95a4a68296c0
+
+[COMMIT MESSAGE]:Spring Security Example with ACL demo||
+=========================================================
+
++ @PreFilter("hasPermission(filterObject, 'administration')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/loki2302/spring-security-experiment/commit/58cf3461cd2bf038b80d296d879347144594b23c
+
+[COMMIT MESSAGE]:Converted to JUnit tests||
+=========================================================
+
+- @PreFilter("filterObject % 2 == 0")
++ @PreFilter("filterObject % 2 == 0")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=44&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/haczqyf/SpringSecurity/commit/9da0f83bbfd4400a8e2aeb696768690f2df6723e
+
+[COMMIT MESSAGE]:add chapter 5-0 with layer service and @PreFilter,@PostFilter||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/haczqyf/SpringSecurity/commit/9da0f83bbfd4400a8e2aeb696768690f2df6723e
+
+[COMMIT MESSAGE]:add chapter 5-0 with layer service and @PreFilter,@PostFilter||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=45&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+
