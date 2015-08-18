@@ -4001,3 +4001,39 @@ Missing Features
 + @PostFilter("hasPermission(filterObject, 'READ')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=93&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ekesken/springacltutorial/commit/006916b61cff95c05f0e7ca873199b96e0b386a1
+
+[COMMIT MESSAGE]:added userprepostinterceptor used with runasmanager||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/35ae786f5005c3dabb48dbd2325538d831a8a10b
+
+[COMMIT MESSAGE]:1||
+=========================================================
+
+-@PostFilter("filterObject.spitter.username == principal.name")
+-@PostFilter("hasPermission(filterObject, 'delete')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/27bc595b057e00fc083a330430a4f6bf668e1a16
+
+[COMMIT MESSAGE]:snippets||
+=========================================================
+
++@PostFilter("filterObject.spitter.username == principal.name")
++@PostFilter("hasPermission(filterObject, 'delete')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/szekai/restful-example/commit/e2875a3bfb2e33223a0f04feb776f7fb29eeeb32
+
+[COMMIT MESSAGE]:add spring-security-full-acl-restful||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=94&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
