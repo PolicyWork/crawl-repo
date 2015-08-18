@@ -4072,3 +4072,58 @@ them unnecissarily.
 + @PostAuthorize("hasPermission(returnObject,'read')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=47&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/fc0d75709de4b59142028bfb118704ab5ffcc28d
+
+[COMMIT MESSAGE]:Muokattu tekstikappalenäkymä tukemaan viiteid:tä||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject.id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/8537365888800646f1bd2243b76a9cfacb546537
+
+[COMMIT MESSAGE]:Tutkinnon osien käsittely viitteiden avulla refactorointi.||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject.tutkinnonOsaDto.id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/42bbfc5e21a637e84c942fd0e4ce94b53f1a495e
+
+[COMMIT MESSAGE]:oikeustarkisteluja.||Lisätty oikeustarkisteluja ja refaktoroitu julkista palvelukerroksen
+API:a.
+=========================================================
+
+- @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+- @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/feecc4fd868c42eef0b8233dc14b4403d1c81b58
+
+[COMMIT MESSAGE]:kosmeettisia muutoksia||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject.id, 'perusteenosa', 'MUOKKAUS')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/deef82e74791ffa5a2fe5057ba9f3e7851cca7b5
+
+[COMMIT MESSAGE]:Oikeustarkistelun toteutusta.||Perusteenosiin liittyvän perusteprojektin hakeminen. Perustetta tai
+perusteen osaa ei voi enää muokata ellei se kuulu käynnissä olevaan
+perusteprojektiin (osa tarkistuksista puuttuu yhä).
+=========================================================
+
++ @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
++ @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sovanegger/filmplanning/commit/9cb65dafdbaabdbaeb60f7b159c430ca5d1d5538
+
+[COMMIT MESSAGE]:commiting all src/||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'ADMINISTRATION')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=48&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
