@@ -3573,3 +3573,126 @@ git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f795
 +@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=41&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dschadow/JavaSecurity/commit/46589ca192324a9ea7ef0be8bcd2a11c4137a7c3
+
+[COMMIT MESSAGE]:Introduced service class with method level security||
+=========================================================
+
++ @PostAuthorize("returnObject.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/michaelkrog/orderly-server/commit/c5e12311f1aac85693d9b7db11a06d660c6cba8c
+
+[COMMIT MESSAGE]:Lots of work on CORS and details that make things start to work on mo…||…bile.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or @relationService.isRelated(principal.person, returnObject.domain)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ivanplese/spring-security-demo/commit/ee1244591e480f8c3b318f1a09819e21ad70fa61
+
+[COMMIT MESSAGE]:inital commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/75c363593ad90a1328c656c2be150be6f66fd6fe
+
+[COMMIT MESSAGE]:RAVE-475: Create Person Profile page based off of a PageTemplate||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1294003 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/755068177ebf796d7014b9e095bb251fd34f8d55
+
+[COMMIT MESSAGE]:Code in support of RAVE-458: Person Profile multiple sub-pages||- added infrastructure to allow for a hierarchy of Page objects for any Page Type (USER, PERSON_PROFILE)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1291474 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107
+
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations||Applied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/ef31170d554b8d7b25e0af2f2f8cefc9f0dcf188
+
+[COMMIT MESSAGE]:Changes in support of RAVE-298:||- created common AbstractRestApi class
+- updated the DefaultPagePermissionEvaluator to handle permission checks when the object to be checked differs from the returned Object
+- secured remaining PageService methods that deal with Page objects, except addNewDefaultPage (see RAVE-303)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1185340 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/91c2fda6a260a84bb8b8387802788feb055d24e8
+
+[COMMIT MESSAGE]:Code to support RAVE-298 (unchecked page manipulations):||- implemented DefaultPagePermissionEvaluator
+- protected one PageService method: getPage
+- added handleAccessDeniedException to o.a.r.p.w.a.rest.PageApi
+- fixed permissionEvaluator bean definition in applicationContext-security.xml to prevent duplicate bean creation
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1183496 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/5b7bb2e236491583e8205cd717ae1715c765b7dc
+
+[COMMIT MESSAGE]:link Course with CourseResource||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/c25ae7693c42b96cf3c613fcabe3ffdd070ebb52
+
+[COMMIT MESSAGE]:Link User with coursegroups||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/df76c4b09d25824960ce6df7de846229b0e3ba7c
+
+[COMMIT MESSAGE]:Add LinkerControl functions for views||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=42&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
