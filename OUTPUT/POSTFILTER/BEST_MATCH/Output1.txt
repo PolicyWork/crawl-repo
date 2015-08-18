@@ -2998,3 +2998,100 @@ for details about permission requirements for each use case.
 + @PostFilter("hasPermission(filterObject, 'Manager')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=70&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostFilter("this.belongsToTenant(filterObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(filterObject, authentication.name))")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(filterObject, authentication.name)")
++ @PostFilter("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(filterObject, authentication.name)")
++ @PostFilter("this.belongsToTenant(filterObject) and this.canRead(filterObject, authentication.authorities)")
++ @PostFilter("this.belongsToTenant(filterObject) and (hasRole('ROLE_ADMIN_GYMNAST') or this.belongsToUser(filterObject, authentication.name))")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(filterObject, authentication.name)")
++ @PostFilter("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(filterObject, authentication.name)")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("this.belongsToTenant(filterObject)")
++ @PostFilter("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(filterObject, authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/76d79bbbdbdedf6d5eb68544bdcad57f0c34d0f5
+
+[COMMIT MESSAGE]:first version of CHW Backend ready, needs some testing||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d9892bfece1f53ad56fa883822d346bb59f458ee
+
+[COMMIT MESSAGE]:started ..||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919
+
+[COMMIT MESSAGE]:Changes:||Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/GWA-Portal/commit/d37ec900db3bc5bb3ff8a14dfbfb2477dbb97f90
+
+[COMMIT MESSAGE]:Enhancement: Add support for permissions to AlleleAssay DTO||ACL permissions were added to the AlleleAssay DTO. In addition a new
+Permission ("Run") was added to the CustomPermission class. Some additional
+tests and a security bugfix for lack of permission check  of the CdvService
+findAlleleAsssaysWithStats function were added.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ') and hasPermission(filterObject,'USE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/GWA-Portal/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3
+
+[COMMIT MESSAGE]:Introduction of AclManager and refactoring of service methods||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dschadow/JavaSecurity/commit/46589ca192324a9ea7ef0be8bcd2a11c4137a7c3
+
+[COMMIT MESSAGE]:Introduced service class with method level security||
+=========================================================
+
++ @PostFilter("filterObject.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=71&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
