@@ -3696,3 +3696,80 @@ git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1183496 13f795
 + * @PostAuthorize("#to == returnObject.to")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=42&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=43&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/newlifewj/projects/commit/1bf2a16f3d6e518eec734335781fd4cefb146ae3
+
+[COMMIT MESSAGE]:first time||
+=========================================================
+
++ @PostAuthorize("returnObject.createdBy==principal.username")
++ @PostAuthorize("returnObject.username==principal.username or hasAnyRole('adminPrivilege','managerPrivilege')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Myhall/PA165_DeliveryService/commit/33456fd2a71a5223d6ac11c28f18138fe6fcb796
+
+[COMMIT MESSAGE]:Access rights for service layer methods + facade||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Myhall/PA165_DeliveryService/commit/33456fd2a71a5223d6ac11c28f18138fe6fcb796
+
+[COMMIT MESSAGE]:Access rights for service layer methods + facade||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/3e766437ab4474111f7a4c8a980f5f2e9574094e
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or (hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ezajko/mx-hero-src/commit/296ebe880482ebcd493dc091d04de5c9caa95a39
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_ADMIN') or (hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain) or (hasRole('ROLE_DOMAIN_ACCOUNT') and #username == principal.username)")
++ @PostAuthorize("hasRole('ROLE_DOMAIN_ADMIN') and returnObject.domain == principal.domain")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107
+
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations||Applied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Jasig/uPortal/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b
+
+[COMMIT MESSAGE]:UP-2950 Adding support and configuration for Spring Security annotati…||…on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'VIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107
+
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations||Applied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=44&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
