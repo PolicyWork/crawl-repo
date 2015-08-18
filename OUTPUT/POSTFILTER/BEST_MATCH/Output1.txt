@@ -4058,3 +4058,5 @@ Missing Features
 + @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=95&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=96&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+

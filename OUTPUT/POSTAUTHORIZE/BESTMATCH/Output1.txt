@@ -5266,3 +5266,5 @@ interfaces prior to JDK 8.
 + @PostAuthorize("#username == principal.name")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=58&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=59&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
