@@ -4127,3 +4127,62 @@ perusteprojektiin (osa tarkistuksista puuttuu yhä).
 + @PostAuthorize("hasPermission(returnObject, 'ADMINISTRATION')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=48&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/71d000be167d856372e8d65f528151400fd9f0a8
+
+[COMMIT MESSAGE]:Fixed issue with null values. Everything but file upload is working.||Notice wierd qwerk with hibernate and embedded objects.  It is updating
+them unnecissarily.
+=========================================================
+
+- @PostAuthorize("hasPermission(#returnObject, 'read') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'read') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd
+
+[COMMIT MESSAGE]:-Added fuctionality to get all responses for a given form id.||-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.
+=========================================================
+
++ @PostAuthorize("hasPermission(#returnObject, 'read') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/8ffff3ce48d9da997e91ecf13f8a32f1098116fa
+
+[COMMIT MESSAGE]:+Checks for expired forms||+If getFormById fails because of authorization or privacy levels or expired then return a hollow form with just meta data
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read') or hasRole('ROLE_ADMIN') or returnObject.getEnabled()==true and returnObject.getPubli()==true or returnObject.getEnabled()==true and hasRole('ROLE_USER')" )
++ @PostAuthorize("hasPermission(returnObject, 'read') or hasRole('ROLE_ADMIN') or returnObject.getEnabled()==true and returnObject.getPubli()==true and returnObject.isExpired()==false or returnObject.getEnabled()==true and hasRole('ROLE_USER') and returnObject.isExpired()==false" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/FormBuilderBackend/commit/5257ad14ea28d0b1539f25d719a5a0e8730ff4ec
+
+[COMMIT MESSAGE]:+Implemented enable/disable and public/restricted security for the fo…||…rms resource.
+
++Added "PHONE" to the validation enum
++Added a default "PLAIN" value when creating a new Form
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read') or hasRole('ROLE_ADMIN') or returnObject.getEnabled()==true and returnObject.getPubli()==true or returnObject.getEnabled()==true and hasRole('ROLE_USER')" )
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bogic-past/waterchannel/commit/748c7459177564814f4b5bdb84eb0f7971c3264d
+
+[COMMIT MESSAGE]:Added changes||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'getAddress')")
++ @PostAuthorize("hasPermission(returnObject, 'getWaterMeter')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KosteCZ/so-tired-information-system/commit/9b700787a8304bbf3f0ef1a090b9466ed505ac5f
+
+[COMMIT MESSAGE]:- Service security||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=49&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

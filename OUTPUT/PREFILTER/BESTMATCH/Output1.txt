@@ -408,3 +408,14 @@
 
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=38&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thiagoandrade6/security-acl/commit/84d6f4ad0738b3aad02624f956c67493e804256c
+
+[COMMIT MESSAGE]:some improvements on acl||
+=========================================================
+
++ @PreFilter("hasPermission(filterObject, 'administration')")
+- @PreFilter("hasPermission(filterObject, 'administration')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=39&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+
