@@ -2884,3 +2884,73 @@ Missing Features
 + @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=65&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/CEOCTO/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/noherczeg/necora/commit/13a1bbc29cf97b8c073ecbf9a2ec684dd6d8e6b2
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasAuthority('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=66&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/5fc0a4c2fcdf893dacc040c422e0a025bd9822cf
+
+[COMMIT MESSAGE]:Add permissions and limitations to publish locations and templates.||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject,'PUBLISH')")
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/592dde8b3f63c786489ead4aa113297fe6e2e682
+
+[COMMIT MESSAGE]:added a new project to demonstrate how to implement a custom permissi…||…on evaluator
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/f144eb60f7fe66b427d322a032f15787b1cf5408
+
+[COMMIT MESSAGE]:added an example usage of @PostFilter annotation to filter a list of …||…messages
+=========================================================
+
++ @PostFilter("filterObject.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/f144eb60f7fe66b427d322a032f15787b1cf5408
+
+[COMMIT MESSAGE]:added an example usage of @PostFilter annotation to filter a list of …||…messages
+=========================================================
+
++ @PostFilter("filterObject.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pkeunhee/spring-security-acls-study/commit/ff295a43903411928cc67045f2c43c82ddd3b3f4
+
+[COMMIT MESSAGE]:프로젝트 생성||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read')")
++ @PostFilter("hasPermission(filterObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/MarchoPOLO/getting-started-with-spring-framework-2edition/commit/2896fa4f622d693aade09a40b9d6e9ffff00e8e4
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=67&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+

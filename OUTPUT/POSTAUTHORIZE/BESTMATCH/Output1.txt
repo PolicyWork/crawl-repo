@@ -1280,3 +1280,269 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 +@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=20&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/danillogontijo/geddireto/commit/f370a7f0979a0f9b3fd27ac2a90a6391b2407208
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @PostAuthorize("(returnObject == null) or (returnObject.granted)")
++ /*@PostAuthorize("(returnObject == null) or (returnObject.granted)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/danillogontijo/geddireto/commit/205db7780a257e0ebe88c40b1255742283ee9398
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
+- @PostAuthorize("(returnObject == null) or (returnObject.carteira.idCarteira == principal.idCarteira)")
++ //@PostAuthorize("(returnObject == null) or (returnObject.carteira.idCarteira == principal.idCarteira)")
++ @PostAuthorize("(returnObject == null) or (returnObject.granted)")
++ @PostAuthorize("(returnObject == null) or (returnObject.granted)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/danillogontijo/geddireto/commit/79b832137f6c67b1c1778eabe52ec0dce3a5ec25
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ //@PostAuthorize("returnObject.idCarteira == principal.idCarteira")
++ //@PostAuthorize("returnObject.idCarteira == principal.idCarteira")
++ @PostAuthorize("(returnObject == null) or (returnObject.carteira.idCarteira == principal.idCarteira)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-state-securing-restful-apis/commit/d76e602641224b980bfec36dfbb5618605831da7
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("#message?.from?.id == principal?.id && (!#oauth2.oAuth || #oauth2.hasScope('write'))")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("#message?.from?.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-state-securing-restful-apis/commit/d76e602641224b980bfec36dfbb5618605831da7
+
+[COMMIT MESSAGE]:initial||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("#message?.from?.id == principal?.id && (!#oauth2.oAuth || #oauth2.hasScope('write'))")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("#message?.from?.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-modern/commit/9f232ef5a67121af039000d238d6cef4c7a3aa09
+
+[COMMIT MESSAGE]:Use Spring Security||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/serdyuk-alex/RestaurantSample/commit/e87243385c9e7b8a75b6e28217f921a01f930d94
+
+[COMMIT MESSAGE]:fixes, refactoring||+escape errorMessage string for js
++handle user creation in service
++show all orders for admin at home page
++don't send ajax save on load of page (first model change event)
++don't show buttons on submitted and not user orders
++forbid group deletion if there are some orders in it
+=========================================================
+
+- @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/serdyuk-alex/RestaurantSample/commit/44cdcd35eb6622ebfec781d1562a1e32cdc55abe
+
+[COMMIT MESSAGE]:l2 cache, tx service, fixes||+l2 cache ehcache
++transactional service
++split order page
++security for group order read
++nice icons
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or @groupOrderSecurity.isMemberOrGroupOwner(returnObject)")
+- @PostAuthorize("returnObject.owner.name == principal.username")
++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d
+
+[COMMIT MESSAGE]:v2 version with good UI & edit dishes ability||+spring security update
++rest-webmvc
++light jsp templating lib
++remove useless tomcat plugin config
++readme
++html design
++update of ORM model (with many2many with extra field)
+=========================================================
+
++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("returnObject.owner.name == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jonatanvicente/spring/commit/9c2a5eb0d0bb3ee7100b80a1fdfe4063326b35c0
+
+[COMMIT MESSAGE]:Creacion del proyecto||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/GGkBand/spring/commit/e8d27407fb6f2c99139b687c69aab8d10cddeb92
+
+[COMMIT MESSAGE]:init spring||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Michielst/lucychangREST/commit/1c4a9ca6d8b938bfd44c369b34d519f75f971f5b
+
+[COMMIT MESSAGE]:changes||
+=========================================================
+
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++ @PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-cjug/commit/866f1c5ebeb7119f772cf89752b93a01bd2e8a59
+
+[COMMIT MESSAGE]:Initial||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=21&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/careermasud/SpringBooks/commit/393f54ed1c94c177d6381cf1b91962f303b82707
+
+[COMMIT MESSAGE]:Spring In Action created.||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/8b4d84b0a37ea4c3a4f0fe907d94d172718ef92b
+
+[COMMIT MESSAGE]:add basic CourseGroup functions||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/8495c5fbba77cf5ed41f890c4150b57d8b94be3c
+
+[COMMIT MESSAGE]:sql and security work||
+=========================================================
+
+- // @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/8b519558fbeb002b69a931eb895468e7c6608480
+
+[COMMIT MESSAGE]:section 7 work||
+=========================================================
+
++ // @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/63c361e1a7069e519831506c0ad16a8fd2023134
+
+[COMMIT MESSAGE]:- Securing the service layer||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/cb0661ea4f3a2417988c34a5ee34682b13370e62
+
+[COMMIT MESSAGE]:- Securing the service layer||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/0a5699a5a276777dd160237c3a7c78279b489d0d
+
+[COMMIT MESSAGE]:- Securing of Services||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/f4e071e6f6a07f69c2636e5dd95180eeed9406d3
+
+[COMMIT MESSAGE]:initial import||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/a7364071dee8e59297502dbd871970403e008913
+
+[COMMIT MESSAGE]:Use the new access method.||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/a7364071dee8e59297502dbd871970403e008913
+
+[COMMIT MESSAGE]:Use the new access method.||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=22&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
