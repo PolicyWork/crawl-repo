@@ -3769,3 +3769,16 @@ Missing Features
 + //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=79&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=80&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/filber/JavaRepo/commit/82831db085cadb98415c9ac23d3c36a6ded14760
+
+[COMMIT MESSAGE]:snippets.||
+=========================================================
+
++@PostFilter("filterObject.spitter.username == principal.name")
++@PostFilter("hasPermission(filterObject, 'delete')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=81&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
