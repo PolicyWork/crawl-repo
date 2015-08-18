@@ -3035,3 +3035,83 @@ switching on and off features instead of being just prod, qs and dev.
 + @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=36&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/a150b464/synergy-bank/commit/50f95405c53b315a507e417590c37574dbe3fe8a
+
+[COMMIT MESSAGE]:Lock and Unlock||
+=========================================================
+
++ @PostAuthorize("returnObject.validateUserId(principal.username)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vsushko/research/commit/db98634c7cd83a2053b6245bf3cdc26382b9fc85
+
+[COMMIT MESSAGE]:complete chapter10||
+=========================================================
+
++ @PostAuthorize("returnObject.spitter.username == pincipal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/cfc8dccf8064e569f2681d626fbf49d288d4d0c5
+
+[COMMIT MESSAGE]:security work||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ // @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eugenp/course/commit/114fd74014a77830df458d01976fee075a42fb31
+
+[COMMIT MESSAGE]:acl work||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/GWA-Portal/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3
+
+[COMMIT MESSAGE]:Introduction of AclManager and refactoring of service methods||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'READ')")
++ @PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/GWA-Portal/commit/9f186fdbace60cecada0d35b805d9ae819785fcb
+
+[COMMIT MESSAGE]:new simpler permission system||
+=========================================================
+
+-@PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/timeu/GWA-Portal/commit/525e9454a43acd45b27e910e8749f502a9f20ff8
+
+[COMMIT MESSAGE]:Initial import server packages||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'READ')")
++ @PostAuthorize("hasPermission(returnObject,'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/keslerm/reloader-tracker/commit/37dfa71afd6c3f64cb5061306d00d333b8babcea
+
+[COMMIT MESSAGE]:Updating some security related things around recipes and just changing||the struture of things a bit around handling domain objects.
+
+DTO Mapping is moving to the Controller layer.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject.userId == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/keslerm/reloader-tracker/commit/3ff236d31d3bee2b25303da815079646f2c52d8d
+
+[COMMIT MESSAGE]:Cleaning up some old dependencies and working on refactoring a lot of||the old getByUserId and using Spring Security pre/post filtering and
+authorization.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject == null || returnObject.userId == principal.id")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=37&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

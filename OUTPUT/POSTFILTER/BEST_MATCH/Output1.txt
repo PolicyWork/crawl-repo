@@ -3373,3 +3373,109 @@ Missing Features
 + //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=75&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/SergiySobolev/SecurityTest/commit/28d31a8b15a695eafb56c3912e84864d063f5e85
+
+[COMMIT MESSAGE]:role hierarchy||
+=========================================================
+
++@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'WRITE')")
+- @PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'WRITE')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/SergiySobolev/SecurityTest/commit/d064bd5ce29ee6b8e0793613bb4f0e1fb1f0b1be
+
+[COMMIT MESSAGE]:base acl configuration||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=76&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
