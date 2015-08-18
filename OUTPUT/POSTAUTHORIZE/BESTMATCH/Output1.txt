@@ -2922,3 +2922,30 @@ switching on and off features instead of being just prod, qs and dev.
 + @PostAuthorize("hasPermission(returnObject, 'show')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=34&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/yadna13/synergy-credit-card/commit/b3f9220c40256f04f0482d49415c29a61d6bb88e
+
+[COMMIT MESSAGE]:Base version of synergy-bank||
+=========================================================
+
++ @PostAuthorize("returnObject.validateUserId(principal.username)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ristes/finki-wp/commit/28f52bbbf68a43362acbd1812924938436562db3
+
+[COMMIT MESSAGE]:- spring security with custom user details and user details service||- preparation of rest forms with angular for city and country
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_USERS') and returnObject.user == authentication.name")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=35&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
