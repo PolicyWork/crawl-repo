@@ -4852,3 +4852,106 @@ ROLE_USER is now allowed to edit object permissions.
 + @PostAuthorize("@fulfillmentPermissionService.hasPermission(principal, returnObject.body.data.get(\"order\").getId(), 'MANAGE_POD')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=54&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/europeana/Europeana-Cloud/commit/87c3f45f102965c981325a15a84f52f77567fffe
+
+[COMMIT MESSAGE]:ECL-441: permission-rest-api, permissions for repr-versions, + tests||
+=========================================================
+
++ @PostAuthorize("hasPermission"
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/europeana/Europeana-Cloud/commit/011ac27420e62a4b1cabdfca3ed46df37d00fb40
+
+[COMMIT MESSAGE]:mcs-rest: moved permissions at version-level||
+=========================================================
+
+- @PostAuthorize("hasPermission"
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/europeana/Europeana-Cloud/commit/99b1f5da1e0763c4a88c8a6522fddf2208da61f3
+
+[COMMIT MESSAGE]:ECL-109 - fix bug - files are not deleted from openstack||
+=========================================================
+
++ @PostAuthorize("hasPermission"
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/90a67a6947c165e270236713a152b108608ef569
+
+[COMMIT MESSAGE]:- 개인 페이지 기능 추가 /member/{id}||
+=========================================================
+
+- @PostAuthorize("(returnObject.email == principal.Username) or hasRole('ROLE_ADMIN')")
++// @PostAuthorize("(returnObject.email == principal.Username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-sprout/springsprout/commit/32a1bd7fe28f4787278b6a37cc3666c69796e1ef
+
+[COMMIT MESSAGE]:adding sources||
+=========================================================
+
++ @PostAuthorize("(returnObject.email == principal.Username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OpenGeoportal/OGP2/commit/4c8534a867fe608f322cdde347042a184867000e
+
+[COMMIT MESSAGE]:Add: support for basic authentication to restricted GeoServer.||Add: wmc ui elements, added support for namespace prefixes in jaxb
+implementation
+
+Update: libraries; Spring, Spring Security, Jackson, underscore,
+backbone, etc. (see pom.xml)
+
+fix: removed version numbers from Spring application context schema
+locations
+
+fix: reimplemented load indicators: sometimes indicator wouldn't go away
+after load.
+=========================================================
+
++ //@PostAuthorize("hasPermission(#layerInfo, 'download')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nickguletskii/OpenOlympus/commit/d29c3a37cc3b6d46f92512aadb099d697a921db1
+
+[COMMIT MESSAGE]:Secure services and controllers||
+=========================================================
+
+- @PostAuthorize("hasAuthority('SUPERUSER') or #returnObject.published")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nickguletskii/OpenOlympus/commit/13263c6eab2a35f4088ab0632a02dae9d423c868
+
+[COMMIT MESSAGE]:Squash partial rewrite branch and move into an orphan branch||Squashed and orphaned a local branch to avoid problems with incorrect
+license headers, deleted dependencies, etc...
+
+This is a partial rewrite/refactored version of OpenOlympus 0.0.1.
+The web server is now used to provide a JSON API to a frontend written
+in Angular and Bootstrap. This should make it easier to test. The
+backend now utilises @JsonView and Spring Security expressions. JOOQ
+is now used to generate native queries.
+=========================================================
+
++ @PostAuthorize("hasAuthority('SUPERUSER') or #returnObject.published")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/if052java/if052/commit/d0f27ebe37f1b0e6ab3afd269d6d0e6b70e0d961
+
+[COMMIT MESSAGE]:Conflicts resolved||
+=========================================================
+
+-// @PostAuthorize("returnObject.user.userId == principal.username")
+- @PostAuthorize("hasPermission(returnObject, 'get')")
++ @PostAuthorize("hasPermission(returnObject, 'getAddress')")
++ @PostAuthorize("hasPermission(returnObject, 'getWaterMeter')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/if052java/if052/commit/da45ad863b33b9fc29216c4e65d214c9216b2cdb
+
+[COMMIT MESSAGE]:WaterMeterResource methods secured||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'getWaterMeter')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=55&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
