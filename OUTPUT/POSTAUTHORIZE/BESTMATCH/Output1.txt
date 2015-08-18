@@ -1546,3 +1546,23 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=22&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dineshbabu/spring3-trial/commit/d847648cc947b5c4725b7c02010c6033891088f1
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/keslerm/reloader-tracker/commit/f284c93a90bf554a9f7b8b8adf280c8294bf5846
+
+[COMMIT MESSAGE]:Adding security and domain model changes to components||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject == null || returnObject.userId == principal.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject == null || returnObject.userId == principal.id")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=23&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
