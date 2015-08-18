@@ -673,3 +673,77 @@
 + @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=42&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hnccho/spring-security3/commit/4df1d7b314536598fcc0a9a2bed62cc57e479fa6
+
+[COMMIT MESSAGE]:first release||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=43&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+

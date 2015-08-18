@@ -4758,3 +4758,97 @@ perusteprojektiin (osa tarkistuksista puuttuu yhä).
 + @PostAuthorize("hasPermission(returnObject, 'read')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=52&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/qiaoma/tic_tac_toe/commit/b76b8f3f67ef8146688235a64a84e69b2e4607e4
+
+[COMMIT MESSAGE]:Initial commit on Tic Tac Toe app||
+=========================================================
+
++ //@PostAuthorize("principal.username == returnObject.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/47f0dd1945dae7979bdff681d7e8a9a05fc2e759
+
+[COMMIT MESSAGE]:pridani podpory pro logovani||
+=========================================================
+
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/8f04e52503abdade8db194278140037da3a83edf
+
+[COMMIT MESSAGE]:nova verze||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_sellers_all') or returnObject.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/05497cc0d509aa63ebf1c8badec71e15fa2aa78e
+
+[COMMIT MESSAGE]:editace profilu, captcha atd.||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/fc327c0dfd7b996a2e185588c2b31f49d648660f
+
+[COMMIT MESSAGE]:zabezpeceni, uprava editace inzeratu||
+=========================================================
+
++ @PostAuthorize("isAnonymous() or returnObject.seller.id == principal.sellerId")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=53&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheGreenLark/plantApp/commit/7573106cf1b92176585ab549e6a4b563afd46160
+
+[COMMIT MESSAGE]:Bugfixes and new SQL sample tables.||-fixed "Unable to locate ACE" error by changing the third contructor
+bean for the aclAuthorizationStrategyImpl in aclConfig.xml so that
+ROLE_USER is now allowed to edit object permissions.
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/TheGreenLark/plantApp/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+- @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+- @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/openmhealth/omh-dsu-ri/commit/52606c28c271e3853ab04168d6a077bd2b98c014
+
+[COMMIT MESSAGE]:Update the data point controller with OAuth2 authorization annotations.||
+=========================================================
+
++ @PostAuthorize("returnObject.body == null || returnObject.body.userId == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chpladmin/chpl-api/commit/57db02fd4cf11eed8ba2ffd22e54e611ecba098f
+
+[COMMIT MESSAGE]:Fixed issue in UserManagementController which prevented users from||changing their passwords.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_USER_AUTHENTICATOR') or hasRole('ROLE_ADMIN') or hasPermission(returnObject, 'read') or hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OpenLMIS/open-lmis/commit/ef895654aa8b15447f00954f1b6467cccf273b96
+
+[COMMIT MESSAGE]:|#1318| Adding post authorize to get api of pod.||
+=========================================================
+
++ @PostAuthorize("@fulfillmentPermissionService.hasPermission(principal, returnObject.body.data.get(\"order\").getId(), 'MANAGE_POD')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=54&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
