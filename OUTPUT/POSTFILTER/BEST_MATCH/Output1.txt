@@ -2956,3 +2956,45 @@ Missing Features
 
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=68&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/JasonHao123/ibook/commit/4032a2f40c2c6cdd6aaa775ec9199a0c74451eb0
+
+[COMMIT MESSAGE]:fix security settings||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=69&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/82dbae279664bfa339a8369c036187aef2ca2ed1
+
+[COMMIT MESSAGE]:Untested but hopefully functional backend code, will test tomorrow on…||…ce I finish the corresponding DB.
+=========================================================
+
+- //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/2d60f01a583878bfc61cd7386c8955ae9902ec3c
+
+[COMMIT MESSAGE]:Basic structure for the backend formbuilder. This is not a working bu…||…ild, but I need to pull changes before I finish it.
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')"
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/CombinedBackend/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8
+
+[COMMIT MESSAGE]:Added membership and manager functionality for groups. See||GroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'MEMBER')")
++ @PostFilter("hasPermission(filterObject, 'Manager')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=70&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+

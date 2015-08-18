@@ -1795,3 +1795,533 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + //@PostAuthorize("returnObject?.to?.id == principal?.id")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=26&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/cb0661ea4f3a2417988c34a5ee34682b13370e62
+
+[COMMIT MESSAGE]:- Securing the service layer||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/0a5699a5a276777dd160237c3a7c78279b489d0d
+
+[COMMIT MESSAGE]:- Securing of Services||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/f4e071e6f6a07f69c2636e5dd95180eeed9406d3
+
+[COMMIT MESSAGE]:initial import||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/handiono/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/PolicyWork/crawl-repo/commit/83036191816b4643851691195e08c167244a1aac
+
+[COMMIT MESSAGE]:committing.||
+=========================================================
+
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("@paa.hasAccess(returnObject)")
+++ @PostAuthorize("@paa.hasAccess(returnObject)")
+++ @PostAuthorize("@paa.hasAccess(returnObject)")
+++ @PostAuthorize("@paa.hasAccess(returnObject)")
+++ @PostAuthorize("hasPermission(returnObject,'read')")
+++ @PostAuthorize("hasPermission(returnObject,'read')")
+++ @PostAuthorize("hasPermission(returnObject,'read')")
+++ @PostAuthorize("hasPermission(returnObject,'read')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++- @PostAuthorize("hasPermission(#entity, 'write')")
++- @PostAuthorize("hasPermission(returnObject, 'read')")
++- @PostAuthorize("hasPermission(#entity, 'write')")
+++ @PostAuthorize("hasPermission(returnObject, 'write')")
+++ @PostAuthorize("hasPermission(#entity, 'write')")
+++ @PostAuthorize("hasPermission(#entity, 'read')")
+++ @PostAuthorize("hasPermission(#entity, 'write')")
+++ @PostAuthorize("hasPermission(#entity, 'write')")
+++ @PostAuthorize("hasPermission(returnObject, 'read') and hasPermission(returnObject, 'write')")
+++ @PostAuthorize("hasPermission(returnObject, 'read')")
++- @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
+++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'CREATE') or hasPermission(returnObject, 'DELETE') or hasPermission(returnObject, 'ADMINISTRATION')")
++- @PostAuthorize("hasPermission(returnObject, 'READ')")
+++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
+++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++ @PostAuthorize("returnObject.id == T(Long).parseLong(principal.username) or hasRole('ROLE_ADMIN')")
+++ @PostAuthorize("hasRole('ROLE_USER_AUTHENTICATOR') or hasRole('ROLE_ADMIN') or hasPermission(returnObject, 'read') or hasPermission(returnObject, admin)")
++- @PostAuthorize("hasRole('admin') or principal.username == returnObject.teamName")
+++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal.username == returnObject.teamName")
++- @PostAuthorize("returnObject.owner.domainUser.username == principal.username or hasRole('ROLE_VET')")
+++ @PostAuthorize("principal.username == returnObject.owner.domainUser.username or hasRole('ROLE_VET')")
++- * @PostAuthorize("#to == returnObject.to")
+++ * {@code @PostAuthorize("#to == returnObject.to")}
++- * @PostAuthorize("#to == returnObject.to")
+++ * {@code @PostAuthorize("#to == returnObject.to")}
+++ @PostAuthorize("#o?.contains('grant')")
+++ * @PostAuthorize("#to == returnObject.to")
+++ * @PostAuthorize("#to == returnObject.to")
++++ @PostAuthorize("(returnObject.email == principal.Username) or hasRole('ROLE_ADMIN')")
++++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
++++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
+++- @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
++++ @PostAuthorize("hasRole('ROLE_USER')")
++++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
++++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
++++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++@PostAuthorize("
++-/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/CrawlerOutput_Round2_run1.txt:1332:+ @PostAuthorize("returnObject == null or returnObject.julkinen or isAuthenticated()")
+++ @PostAuthorize("returnObject.id == T(Long).parseLong(principal.username) or hasRole('ROLE_ADMIN')")
+++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
+++ @PostAuthorize("returnObject.owner.name == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/terasolunaorg/terasoluna-tourreservation/commit/d0699a596b61da63fa11fc3244246e21d23c645b
+
+[COMMIT MESSAGE]:Implement access control for other owner resource. terasolunaorg/tera…||…soluna-tourreservation#213
+=========================================================
+
++ @PostAuthorize("returnObject == null or returnObject.customer.customerCode == principal.customer.customerCode")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chudanic/spring-security-acl-demo/commit/a919cfdbfb0ce94579f540d7d23608a921ffdfb3
+
+[COMMIT MESSAGE]:Initial commit of Spring Security ACL in Google Cloud DataStore Demo||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'VIEWER') or (returnObject.user.login == authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/marroqui69/lucychang2/commit/89eed03deb52813d1b70a6a5018b9dd249dea406
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++ @PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=27&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ZhernakovMikhail/spring-acl-sample/commit/51f7accc0feb646758de36b276c63bced95eb864
+
+[COMMIT MESSAGE]:Добавил простейший интерфейс||
+=========================================================
+
+- @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'CREATE') or hasPermission(returnObject, 'DELETE') or hasPermission(returnObject, 'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ZhernakovMikhail/spring-acl-sample/commit/c4c869bcf60e4b01645b4f64fb36dde42ad86cee
+
+[COMMIT MESSAGE]:вынес конфигурацию из xml||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ZhernakovMikhail/spring-acl-sample/commit/2833ddfb778877a4ac4bb902beee5065cd0123d1
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/57ba23678866e81655f8aa996c2bd9d6c7bcbae7
+
+[COMMIT MESSAGE]:TRACKR-234 - Track employee's contact address||* Added an address reference to an employee.
+* Made the SelfEmployee DTO more powerful by including all fields needed for the self display. Refactored all logic from the EmployeeController into a service.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or returnObject.email == principal?.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74
+
+[COMMIT MESSAGE]:Convert trackr to Spring Boot.||This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.employee?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.email == principal?.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74
+
+[COMMIT MESSAGE]:Convert trackr to Spring Boot.||This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.employee?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.email == principal?.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/2b064dcb11054571b854b51e4232dab891e21829
+
+[COMMIT MESSAGE]:TRACKR-174 - Track sick days||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74
+
+[COMMIT MESSAGE]:Convert trackr to Spring Boot.||This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.employee?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.email == principal?.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Michielst/lucychangREST/commit/1c4a9ca6d8b938bfd44c369b34d519f75f971f5b
+
+[COMMIT MESSAGE]:changes||
+=========================================================
+
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++ @PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=28&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
