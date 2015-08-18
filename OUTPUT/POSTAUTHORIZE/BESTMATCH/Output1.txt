@@ -3338,3 +3338,113 @@ authorization.
 + @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=39&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/eaglestorm/Eldar-Works/commit/7a2180655228565d596d2152d372b5a3dada0848
+
+[COMMIT MESSAGE]:changed to web api and client.||
+=========================================================
+
++ //@PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tomekl007/spitterMVCplusHibernate/commit/0bac83428d85ca0e8c4e7d474bdcd0b4735f1805
+
+[COMMIT MESSAGE]:add RESTfull services||
+=========================================================
+
+- @PostAuthorize("returnObject.spitter.username==principal.username")
++ //@PostAuthorize("returnObject.spitter.username==principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tomekl007/spitterMVCplusHibernate/commit/56eaf6be846c07a276af1d021b26caa3922a22af
+
+[COMMIT MESSAGE]:add custom login, using plain Text, DB, or ldap||
+=========================================================
+
++ @PostAuthorize("returnObject.spitter.username==principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/flybigcat/TicTacToeGame/commit/bab05b3c16da11659e8c17522f893a6f6c9cd3a6
+
+[COMMIT MESSAGE]:TicTacToe Game (full version)||
+=========================================================
+
++ @PostAuthorize("principal.username == returnObject.player1.username")
++@PostAuthorize("principal.username == returnObject.player1.username") is used for method
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jinloes/secrets/commit/3a703ff8a57ca2842641d72e155111f2af6c1a99
+
+[COMMIT MESSAGE]:added get secret||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+- //@PostAuthorize("1 == 2")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jinloes/secrets/commit/d9fb8dd760826703aa3f30b4a9bad74bc94b561e
+
+[COMMIT MESSAGE]:added security to the secrets||
+=========================================================
+
++ //@PostAuthorize("1 == 2")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/marroqui69/lucychang2/commit/89eed03deb52813d1b70a6a5018b9dd249dea406
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++ @PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/steveschrader/SE4/commit/2a5a39f6073d87b3eb8cea027bdb9d916a3a0842
+
+[COMMIT MESSAGE]:Layout en het creëeren en bewerken van de rol van een partij werkt nu||met een wrapper klasse. Het valideren lukt niet goed, nakijken!
+=========================================================
+
++ //@PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
+- @PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
++// @PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/steveschrader/SE4/commit/d79a3f80c25f3b9f499a2a1da66efa1c460e6152
+
+[COMMIT MESSAGE]:Administrator Rol werkt volledig met inloggen en de juiste pagina's||worden dan ook getoond
+=========================================================
+
++ @PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/steveschrader/SE4/commit/fb8e472476808a7c5aa2282b494cbfe726da6fd8
+
+[COMMIT MESSAGE]:commit||
+=========================================================
+
++ @PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=40&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

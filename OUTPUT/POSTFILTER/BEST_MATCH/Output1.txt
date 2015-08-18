@@ -3580,3 +3580,102 @@ Missing Features
 + //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=77&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/huapuyu/huapuyu/commit/bb950a51e8e315ff2c91dadee53c4d4e3ec8eec1
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/huapuyu/huapuyu/commit/3c850e4eb0c0f061c27934cb76a28a91c97b7948
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/f1e73d9962d6253ecdc3ae2c7c48566b77136032
+
+[COMMIT MESSAGE]:merge after aclupdates||
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/1a386b81ccefe3628071807f10c55199d71aebcf
+
+[COMMIT MESSAGE]:Overwrote the project to bring it up to date and provided a sample||implementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table
+=========================================================
+
++ //@PostFilter("hasPermission(filterObject, 'READ')"
+- @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
++ @PostFilter("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a09c07008b2608c877315bd8f7597b0d7be3b954
+
+[COMMIT MESSAGE]:replaced honors.uh.edu with dash as package||
+=========================================================
+
+- @PostFilter("hasPermission(filterObject, 'READ')")
++ @PostFilter("hasPermission(filterObject, 'READ') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/judywangsg/spring-security-full-acl/commit/1063affd3f84a0b4bf81038ee27d77f414f06ba5
+
+[COMMIT MESSAGE]:spring acl tutorial full version||spring acl tutorial full version
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=78&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
