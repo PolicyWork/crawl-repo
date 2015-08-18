@@ -3831,3 +3831,118 @@ them unnecissarily.
 + @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=45&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/c60f10d5517c2863228024c6ff5e8b5edb335ceb
+
+[COMMIT MESSAGE]:[minor] Client access||Change-Id: Iaae5b30d6263819295733d554927965bf613a9c1
+=========================================================
+
+- @PostAuthorize("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(#quoteDTO, 'write')")
++ @PostAuthorize("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(returnObject, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/c7d573e65e4eb1a4d1c1643413a1c341e495b7a9
+
+[COMMIT MESSAGE]:[CRM-23] Services server side authorization.||Change-Id: I79ebb863bb13fdf6de0de75a7880480f39409725
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(#quoteDTO, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/razbomi/boxing-spring-boot/commit/5529952140175ce237cc234d1782df4a5f3b89b5
+
+[COMMIT MESSAGE]:initial commit||Greeting service and file uploads, playing
+=========================================================
+
++ // @PostAuthorize("hasPermission(returnObject, read)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/39fa37b0e8c544bb1cacc5a2c7e0246bfef12664
+
+[COMMIT MESSAGE]:RAVE-835 Merge all from model-split at 1403154 (reintegration)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1403166 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc
+
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/if052java/if052/commit/81542881cdec2bb941636fc9dbcc15efaed0a030
+
+[COMMIT MESSAGE]:AddressResource methods secured||
+=========================================================
+
+-// @PostAuthorize("returnObject.user.userId == principal.username")
+- @PostAuthorize("hasPermission(returnObject, 'get')")
++ @PostAuthorize("hasPermission(returnObject, 'getAddress')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/if052java/if052/commit/53eec2e6b02a5300c6d3ca82cf3278741050d01f
+
+[COMMIT MESSAGE]:address/{addressId} rest endpoint secured with CustomPermissonEvaluator||
+=========================================================
+
++// @PostAuthorize("returnObject.user.userId == principal.username")
++ @PostAuthorize("hasPermission(returnObject, 'get')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=46&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
