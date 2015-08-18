@@ -3946,3 +3946,129 @@ them unnecissarily.
 + @PostAuthorize("hasPermission(returnObject, 'read')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=46&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160
+
+[COMMIT MESSAGE]:CLOUD-872 create new security- group and rule resources||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253
+
+[COMMIT MESSAGE]:CLOUD-659 create network abstraction||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160
+
+[COMMIT MESSAGE]:CLOUD-872 create new security- group and rule resources||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=47&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
