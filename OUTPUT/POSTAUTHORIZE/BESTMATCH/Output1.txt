@@ -1566,3 +1566,82 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject == null || returnObject.userId == principal.id")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=23&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chinab/owaconnector/commit/181abd50d82930899def064d2cdb60a9427abead
+
+[COMMIT MESSAGE]:authentication.name instead of principal||
+=========================================================
+
+- @PostAuthorize("returnObject.owner.username == principal")
++ // @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("returnObject.owner.username == authentication.name")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chinab/owaconnector/commit/89daa79b0de77dbe357e047620e93512d7260d1e
+
+[COMMIT MESSAGE]:moved find* methods to java class so they can be modified. Secured th…||…em using spring security.
+=========================================================
+
++ @PostAuthorize("returnObject.owner.username == principal")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ivanplese/spring-security-demo/commit/ee1244591e480f8c3b318f1a09819e21ad70fa61
+
+[COMMIT MESSAGE]:inital commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/b3926395de09afc1bb2b4ebcc0e516e727939413
+
+[COMMIT MESSAGE]:Add update course function||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/8b3bc7ad66f8a092f336c6f55dabf77d703c4d02
+
+[COMMIT MESSAGE]:Add clean course functions||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
+- @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
+- @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
++ @PostAuthorize("@access.hasPermission('user', false, true, false, false)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/754c500156e368ecd052157737b04f7598524a8c
+
+[COMMIT MESSAGE]:add required login for getAllCoursesUser||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+- @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/be4b206ad5bda4329be81a470a9074df17a89153
+
+[COMMIT MESSAGE]:Add permission to json getAllCourse||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/008xiaoman/abc/commit/8af31fd4685d7375a8486cd15bb61094f02f8bab
+
+[COMMIT MESSAGE]:init||
+=========================================================
+
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=24&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

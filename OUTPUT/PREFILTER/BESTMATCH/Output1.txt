@@ -196,3 +196,85 @@
 + @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=20&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pmularien/springsecuritybook/commit/9560f61ec15261db835fa8ab20970f2d41e81674
+
+[COMMIT MESSAGE]:Add Maven-ized Chapters 3-12||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=21&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+
