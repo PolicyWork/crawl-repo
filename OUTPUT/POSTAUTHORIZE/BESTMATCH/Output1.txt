@@ -5185,3 +5185,84 @@ interfaces prior to JDK 8.
 + @PostAuthorize("@fulfillmentPermissionService.hasPermission(principal, returnObject.body.data.get(\"order\").getId(), 'MANAGE_POD')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=57&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/PolicyWork/crawl-repo/commit/8879e0e2b1bbcb1e97c50abf927a229a2cb7fa6d
+
+[COMMIT MESSAGE]:committing all changes till now||
+=========================================================
+
+++ @PostAuthorize("(returnObject.email == principal.Username) or hasRole('ROLE_ADMIN')")
+++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
+++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
++- @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
+++ @PostAuthorize("hasRole('ROLE_USER')")
+++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
+++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
+++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
++@PostAuthorize("
+-/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/CrawlerOutput_Round2_run1.txt:1332:+ @PostAuthorize("returnObject == null or returnObject.julkinen or isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-samples-securemail/commit/1669232a4592668db9347c5b416a7180d071bbfd
+
+[COMMIT MESSAGE]:Finished moving to mailuser and added jdbc namespace||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("returnObject.fromUser.id == principal.id or returnObject.toUser.id == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-samples-securemail/commit/6b22d786029ce7e2f142f25d21cd931effa6d2e0
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/steveschrader/SE4/commit/2a5a39f6073d87b3eb8cea027bdb9d916a3a0842
+
+[COMMIT MESSAGE]:Layout en het creëeren en bewerken van de rol van een partij werkt nu||met een wrapper klasse. Het valideren lukt niet goed, nakijken!
+=========================================================
+
++ //@PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
+- @PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
++// @PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maxwellt0/mathmaps/commit/c8549bd81ec9ff103203bae046e8332a4c755e87
+
+[COMMIT MESSAGE]:pre-post security configured||
+=========================================================
+
+- @PostAuthorize("#username == principal.name")
+- @PostAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maxwellt0/mathmaps/commit/7f187c67d9e3a3d211daa9a1df17c68a6a2b4904
+
+[COMMIT MESSAGE]:added admin page, found a bug in security: doesn't secure user's page…||…s from other users
+=========================================================
+
++ @PostAuthorize("hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/maxwellt0/mathmaps/commit/9d67cea7f0a2f453960419b04c6146c0ebb5dca9
+
+[COMMIT MESSAGE]:Change all joins||
+=========================================================
+
++ @PostAuthorize("#username == principal.name")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=58&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
