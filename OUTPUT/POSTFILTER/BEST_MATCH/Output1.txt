@@ -3991,3 +3991,13 @@ Missing Features
 + @PostFilter("filterObject.startsWith('a')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=92&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Serge009/security-acl/commit/dff12ffd452fcebab2517cafb9522612ab710171
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=93&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+

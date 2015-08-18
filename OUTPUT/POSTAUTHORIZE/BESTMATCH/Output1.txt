@@ -5086,4 +5086,33 @@ is now used to generate native queries.
 + @PostAuthorize("hasPermission(returnObject, 'view')")
 
 =========================================================
-[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a53
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vimsvarcode/elmis/commit/ef895654aa8b15447f00954f1b6467cccf273b96
+
+[COMMIT MESSAGE]:|#1318| Adding post authorize to get api of pod.||
+=========================================================
+
++ @PostAuthorize("@fulfillmentPermissionService.hasPermission(principal, returnObject.body.data.get(\"order\").getId(), 'MANAGE_POD')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anadon/spring-security-new-login/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4
+
+[COMMIT MESSAGE]:SEC-2151: Support binding method arguments with Annotations||This allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.
+=========================================================
+
++ @PostAuthorize("#o?.contains('grant')")
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=56&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
