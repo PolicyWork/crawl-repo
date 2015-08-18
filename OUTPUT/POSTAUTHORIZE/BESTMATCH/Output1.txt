@@ -4461,3 +4461,298 @@ git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f795
 + @PostAuthorize("hasPermission(returnObject, 'read')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=51&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rwinch/spring-security-samples-securemail/commit/6b22d786029ce7e2f142f25d21cd931effa6d2e0
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/e3f7f4c6034697b476db9e7ca8e6021fcf4395b4
+
+[COMMIT MESSAGE]:Updated page service to create instances of pages by page template id…||… RAVE-1066
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1531267 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/87f01bea2a8ccc9eb8c0396c837429d6383a4bae
+
+[COMMIT MESSAGE]:Changing to filter permission annotation (RAVE-1054)||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1521535 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/1bd8c9e663ea6c17cdaad1769e89c03d61615ee1
+
+[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/7a43cad0deac81e5e5a08fb50906c2b90bf7ca84
+
+[COMMIT MESSAGE]:Fill out controllers, add 204 response filter||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1510718 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/9cbfd16293260a48e5e5895c556ac7142330df49
+
+[COMMIT MESSAGE]:RAVE-1011: Update page service to support get all / get limited||git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1508584 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/cc247d6114bb520ecdf0dda32cc8e6f30ccb03c0
+
+[COMMIT MESSAGE]:Updates and changes to implement page sharing between rave users. See…||… RAVE-103. (Support shared spaces.)
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/trunk@1335687 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/a94b16a309511b320c9e0f64479a25ece0eab12a
+
+[COMMIT MESSAGE]:RAVE-475: Create Person Profile page based off of a PageTemplate||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1294003 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/f7084fdd8f1b5c8dcf1d2215dc906927eec0d04e
+
+[COMMIT MESSAGE]:Code in support of RAVE-458: Person Profile multiple sub-pages||- added infrastructure to allow for a hierarchy of Page objects for any Page Type (USER, PERSON_PROFILE)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1291474 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/3c7f0a219ee40aac8fe4f8f4066bf71b2da4f107
+
+[COMMIT MESSAGE]:RAVE-307: RegionWidget ModelPermissionEvaluator and Service Annotations||Applied patch supplied by Venkat Mahadevan
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/ef31170d554b8d7b25e0af2f2f8cefc9f0dcf188
+
+[COMMIT MESSAGE]:Changes in support of RAVE-298:||- created common AbstractRestApi class
+- updated the DefaultPagePermissionEvaluator to handle permission checks when the object to be checked differs from the returned Object
+- secured remaining PageService methods that deal with Page objects, except addNewDefaultPage (see RAVE-303)
+
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1185340 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/91c2fda6a260a84bb8b8387802788feb055d24e8
+
+[COMMIT MESSAGE]:Code to support RAVE-298 (unchecked page manipulations):||- implemented DefaultPagePermissionEvaluator
+- protected one PageService method: getPage
+- added handleAccessDeniedException to o.a.r.p.w.a.rest.PageApi
+- fixed permissionEvaluator bean definition in applicationContext-security.xml to prevent duplicate bean creation
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1183496 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/6e886c74aa02a87db9705ef27ebf8bae70f7689b
+
+[COMMIT MESSAGE]:Updated page service to create instances of pages by page template id…||… RAVE-1066
+
+git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1531267 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/ad607595994288cd8e9cb343cf72278d0d44dedc
+
+[COMMIT MESSAGE]:Changing to filter permission annotation (RAVE-1054)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1521535 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/ceb1665b0d5653ff71f2ef7f0ade85f098ca1631
+
+[COMMIT MESSAGE]:Fixed service permission annotation (RAVE-1054)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1521345 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/c3bc0ff1f19a992bb6891aa17ea16d47bc6138eb
+
+[COMMIT MESSAGE]:Fill out controllers, add 204 response filter||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1510718 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/f9bb62c515751b1859af25c5af4fff7e41ec8de7
+
+[COMMIT MESSAGE]:RAVE-1011: Update page service to support get all / get limited||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1508584 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/39fa37b0e8c544bb1cacc5a2c7e0246bfef12664
+
+[COMMIT MESSAGE]:RAVE-835 Merge all from model-split at 1403154 (reintegration)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1403166 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2b3b144d1fb7fd43891b8f682768b7d6affceb47
+
+[COMMIT MESSAGE]:Updates and changes to implement page sharing between rave users. See…||… RAVE-103. (Support shared spaces.)
+
+git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1335687 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc
+
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/cb2223acb6d48c0b4db0a01950fee2da7d3f7913
+
+[COMMIT MESSAGE]:pieniä parannuksia rajapintaan||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject.id, 'peruste', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/8537365888800646f1bd2243b76a9cfacb546537
+
+[COMMIT MESSAGE]:Tutkinnon osien käsittely viitteiden avulla refactorointi.||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject.tutkinnonOsaDto.id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/42bbfc5e21a637e84c942fd0e4ce94b53f1a495e
+
+[COMMIT MESSAGE]:oikeustarkisteluja.||Lisätty oikeustarkisteluja ja refaktoroitu julkista palvelukerroksen
+API:a.
+=========================================================
+
+- @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+- @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/deef82e74791ffa5a2fe5057ba9f3e7851cca7b5
+
+[COMMIT MESSAGE]:Oikeustarkistelun toteutusta.||Perusteenosiin liittyvän perusteprojektin hakeminen. Perustetta tai
+perusteen osaa ei voi enää muokata ellei se kuulu käynnissä olevaan
+perusteprojektiin (osa tarkistuksista puuttuu yhä).
+=========================================================
+
++ @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
++ @PostAuthorize("returnObject.tila == T(fi.vm.sade.eperusteet.domain.PerusteTila).VALMIS or hasPermission(#id, 'perusteenosa', 'LUKU')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/305cd0ac19044e04f1af00fecbd436628a312749
+
+[COMMIT MESSAGE]:Wip commit. Added some stupid code experiments with controller. Chang…||…ed all tabs to spaces
+=========================================================
+
+-// @PostAuthorize("hasPermission(returnObject, admin)")
++// @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/29f0782d57cc7d8403cf781877fbf552c31ac968
+
+[COMMIT MESSAGE]:Added 'Login controller' and simple logic to process login failure. S…||…witched off method security.
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, admin)")
++// @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Angry-Quester/applicationtracker/commit/de843a7fd3238f183253fe1aff259380f3ea5db5
+
+[COMMIT MESSAGE]:Big success. Somehow it feels mute though. ACL started to work, event…||…ually. Everything that is left is to create administrative tools, and the whole infrastructure to support security requirements. As simple as an apple pie :) Just agonising, don't mind...
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @Pos
