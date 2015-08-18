@@ -2325,3 +2325,196 @@ switching on and off features instead of being just prod, qs and dev.
 +@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=28&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alapierre/sample/commit/d581e20f55625ceb3e21c7b3eaa625a03f0e1620
+
+[COMMIT MESSAGE]:I have added ACL support example||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("hasPermission(#event, write)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mkjasinski/spring-security-acl/commit/a9e67e4c44f23f6867ada3e0ebaad535b17d0e3b
+
+[COMMIT MESSAGE]:I have added ACL support||
+=========================================================
+
+-// @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("hasPermission(#event, write)")
+-// @PostAuthorize("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mkjasinski/spring-security-acl/commit/351f06fdffed6b991a767f891785d58939a4a3d7
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++// @PostAuthorize("hasPermission(returnObject, 'READ')")
++// @PostAuthorize("hasPermission(filterObject, 'READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KUTCO/SchoolHub/commit/a7364071dee8e59297502dbd871970403e008913
+
+[COMMIT MESSAGE]:Use the new access method.||
+=========================================================
+
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
++ @PostAuthorize("@access.hasPermission('admin', true, true, true, true)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/da8782dce00739dcfd78db925e8758da8f78ea76
+
+[COMMIT MESSAGE]:now the custom permission evaluator is used while retrieving a messag…||…e by its id
+=========================================================
+
+- @PostAuthorize("returnObject.username == principal.username")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/592dde8b3f63c786489ead4aa113297fe6e2e682
+
+[COMMIT MESSAGE]:added a new project to demonstrate how to implement a custom permissi…||…on evaluator
+=========================================================
+
++ @PostAuthorize("returnObject.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/shamim-ahmed/spring-demo/commit/4a8687af6ff756386e4c5d35bb31d24058818877
+
+[COMMIT MESSAGE]:added restriction retrieving and adding messages using pre-post annot…||…ations
+=========================================================
+
++ @PostAuthorize("returnObject.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/netkuba/pengurus/commit/c7d573e65e4eb1a4d1c1643413a1c341e495b7a9
+
+[COMMIT MESSAGE]:[CRM-23] Services server side authorization.||Change-Id: I79ebb863bb13fdf6de0de75a7880480f39409725
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasRole('ROLE_EXECUTIVE') or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasAnyRole('ROLE_EXECUTIVE', 'ROLE_ACCOUNTANT') or hasPermission(#quoteDTO, 'write')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=29&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/39fa37b0e8c544bb1cacc5a2c7e0246bfef12664
+
+[COMMIT MESSAGE]:RAVE-835 Merge all from model-split at 1403154 (reintegration)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1403166 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc
+
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/alapierre/altkom_2004_10_06/commit/7a5edf5ea12cf4a33272b878d950a91ecf517bb5
+
+[COMMIT MESSAGE]:spring-security-acl on Derby||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("hasPermission(#event, write)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/cb0661ea4f3a2417988c34a5ee34682b13370e62
+
+[COMMIT MESSAGE]:- Securing the service layer||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/0a5699a5a276777dd160237c3a7c78279b489d0d
+
+[COMMIT MESSAGE]:- Securing of Services||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pascal-gehring/mycomm-portal/commit/f4e071e6f6a07f69c2636e5dd95180eeed9406d3
+
+[COMMIT MESSAGE]:initial import||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84
+
+[COMMIT MESSAGE]:locked down the security backend||
+=========================================================
+
++ @PostAuthorize("hasAnyRole('ROLE_USER','ROLE_ADMIN') or returnObject.isPublic() == true")
++ @PostAuthorize("hasAnyRole('ROLE_USER','ROLE_ADMIN') or returnObject.isPublic() == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/szekai/restful-example/commit/e2875a3bfb2e33223a0f04feb776f7fb29eeeb32
+
+[COMMIT MESSAGE]:add spring-security-full-acl-restful||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=30&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

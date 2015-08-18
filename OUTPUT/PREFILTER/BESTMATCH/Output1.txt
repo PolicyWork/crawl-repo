@@ -352,3 +352,29 @@
 + @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=22&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/danillogontijo/geddireto/commit/097aec3b84caa99b1bb0e7f95fed1c5070d22904
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PreFilter("(!filterObject.onlyAdmin and !filterObject.onlyProtocolista)" +
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/haczqyf/SpringSecurity/commit/9da0f83bbfd4400a8e2aeb696768690f2df6723e
+
+[COMMIT MESSAGE]:add chapter 5-0 with layer service and @PreFilter,@PostFilter||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/haczqyf/SpringSecurity/commit/9da0f83bbfd4400a8e2aeb696768690f2df6723e
+
+[COMMIT MESSAGE]:add chapter 5-0 with layer service and @PreFilter,@PostFilter||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=23&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+
