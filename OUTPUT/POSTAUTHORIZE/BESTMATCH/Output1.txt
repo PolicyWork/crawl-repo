@@ -4755,4 +4755,6 @@ perusteprojektiin (osa tarkistuksista puuttuu yhä).
 + @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
 +// @PostAuthorize("hasPermission(returnObject, 'read')")
 + @PostAuthorize("hasPermission(returnObject, 'create')")
-+ @Pos
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=52&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
