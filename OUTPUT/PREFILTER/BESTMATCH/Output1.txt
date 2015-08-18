@@ -501,3 +501,73 @@
 + @PreFilter("hasPermission(filterObject, 'WRITE')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=40&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotom73/myDevelop/commit/6905be046570eadf6385b4a15d954af8e61d7dde
+
+[COMMIT MESSAGE]:spring security||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=41&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+

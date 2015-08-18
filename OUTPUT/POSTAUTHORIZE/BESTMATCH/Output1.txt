@@ -4324,3 +4324,140 @@ them unnecissarily.
 + @PostAuthorize("hasRole('ROLE_ADMIN')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=50&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/9c5aed234502a56f789d2319caa3b0e0a5d23132
+
+[COMMIT MESSAGE]:RAVE-731 Refactored WidgetComment to no longer need the widgetID attr…||…ibute.
+
+git-svn-id: https://svn.apache.org/repos/asf/rave/branches/model-split@1394834 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/0acaf1f25e712b4ec3c9930bec04baa62f7e841e
+
+[COMMIT MESSAGE]:In case Widget object was coming null for new URL @PostAuthorize was …||…throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/0acaf1f25e712b4ec3c9930bec04baa62f7e841e
+
+[COMMIT MESSAGE]:In case Widget object was coming null for new URL @PostAuthorize was …||…throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/2dbe0052b0f45741f4e5db56d9dbb2ebd2dc540f
+
+[COMMIT MESSAGE]:RAVE-319: Widget persistence not working||Added @Transaction annotation to the registerNewWidget and updateWidget methods to ensure JPA commits
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190457 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- * @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/2bc596199b198853e08c6abc174e64f27b5240c6
+
+[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ * @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/apache/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/newlifewj/projects/commit/1bf2a16f3d6e518eec734335781fd4cefb146ae3
+
+[COMMIT MESSAGE]:first time||
+=========================================================
+
++ @PostAuthorize("returnObject.createdBy==principal.username")
++ @PostAuthorize("returnObject.username==principal.username or hasAnyRole('adminPrivilege','managerPrivilege')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/newlifewj/projects/commit/1bf2a16f3d6e518eec734335781fd4cefb146ae3
+
+[COMMIT MESSAGE]:first time||
+=========================================================
+
++ @PostAuthorize("returnObject.createdBy==principal.username")
++ @PostAuthorize("returnObject.username==principal.username or hasAnyRole('adminPrivilege','managerPrivilege')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/39fa37b0e8c544bb1cacc5a2c7e0246bfef12664
+
+[COMMIT MESSAGE]:RAVE-835 Merge all from model-split at 1403154 (reintegration)||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1403166 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/svn2github/rave/commit/2da933e9653c5317d1d84b8ae5c6f94e38e2cacc
+
+[COMMIT MESSAGE]:Promote rave to a TLP -- INFRA-4573||git-svn-id: http://svn.apache.org/repos/asf/rave/trunk@1305402 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/lletsica/my_test_repo/commit/c628bccc4139c56c83cd221a6e6ff09d6895a571
+
+[COMMIT MESSAGE]:Proyeto montado con tomcat Rave||
+=========================================================
+
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=51&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
