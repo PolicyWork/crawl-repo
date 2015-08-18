@@ -1,0 +1,125 @@
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultInvoiceService.java|306
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultInvoiceService.java|864
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultPaymentMethodService.java|93
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultTransactionReceiptService.java|79
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultCommentService.java|70
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultGymnastService.java|310
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultMemberService.java|317
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultQuestionService.java|51
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultQuestionService.java|64
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultNotificationService.java|91
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultNotificationService.java|177
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultAgeGroupService.java|43
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultCourseService.java|85
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultCourseTypeService.java|44
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultLocationService.java|63
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultMakeupService.java|114
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultProgramService.java|56
+https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e|Initial Commit|DefaultCartService.java|239
+https://github.com/btpka3/btpka3.github.com/commit/de177fda6ace536ad0d61d788636ec2bfed441fc|copy Spring Security ACL samples|ContactManager.java|45
+https://github.com/DataAnalyticsinStudentHands/CombinedBackend/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8|Added membership and manager functionality for groups. SeeGroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.|GroupService.java|46
+https://github.com/DataAnalyticsinStudentHands/CombinedBackend/commit/5ba21229bb9e1bd4069754f4c2b713c6c40c75a8|Added membership and manager functionality for groups. SeeGroupResource.java for accepted methods and paths, and GroupService.java
+for details about permission requirements for each use case.|GroupService.java|50
+https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/76d79bbbdbdedf6d5eb68544bdcad57f0c34d0f5|first version of CHW Backend ready, needs some testing|UserService.java|42
+https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954|replaced honors.uh.edu with dash as package|UserService.java|43
+https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/a09c07008b2608c877315bd8f7597b0d7be3b954|replaced honors.uh.edu with dash as package|UserService.java|43
+https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/d9892bfece1f53ad56fa883822d346bb59f458ee|started ..|LocationService.java|42
+https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919|Changes:Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.|UserService.java|43
+https://github.com/DataAnalyticsinStudentHands/CommunityHealthWorkersBackend/commit/f55729eaa82bbad2582ca7fb2b07bdac6d69e919|Changes:Users
+-to recieve the user object of the current user make a get request to
+/user/myUser
+-to recieve the collection of all user objects make get request to /user
+-changed permission requirement of get all users so that anyone can make
+this request and will actually return all users.
+
+Post
+-Bugfix: Users are now allowed to create a new post in any groups they
+are manager of.  Previously was mistakenly restricted to only users.|UserService.java|47
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/1a386b81ccefe3628071807f10c55199d71aebcf|Overwrote the project to bring it up to date and provided a sampleimplementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table|SampleObjectService.java|54
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/1a386b81ccefe3628071807f10c55199d71aebcf|Overwrote the project to bring it up to date and provided a sampleimplementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table|UserService.java|43
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/1a386b81ccefe3628071807f10c55199d71aebcf|Overwrote the project to bring it up to date and provided a sampleimplementation of a basic resource.
+
+-A truncated version of the current VMA backend
+-Includes require User Resource and a full implementation of ACLs 
+-Added a SampleObject to exibhit how to implement a new resource
+-Added the required mySQL table|UserService.java|47
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/2d60f01a583878bfc61cd7386c8955ae9902ec3c|Basic structure for the backend formbuilder. This is not a working bu……ild, but I need to pull changes before I finish it.|FormService.java|53
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/2d60f01a583878bfc61cd7386c8955ae9902ec3c|Basic structure for the backend formbuilder. This is not a working bu……ild, but I need to pull changes before I finish it.|QuestionService.java|53
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/2d60f01a583878bfc61cd7386c8955ae9902ec3c|Basic structure for the backend formbuilder. This is not a working bu……ild, but I need to pull changes before I finish it.|ResponseService.java|53
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/5508392a623cb7e849121e4aaea6a901095e14d6|The backend is now fully functional to create forms and responses and…… to make edits to them.
+
+Know issues
+-Delete resource is not available, will re-enable
+
+Missing Features
+-"nested questions" where one question is displayed if another question is answered particular way
+-"themes" or tags which allow easy filtering of questions|FormResponseService.java|57
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/5508392a623cb7e849121e4aaea6a901095e14d6|The backend is now fully functional to create forms and responses and…… to make edits to them.
+
+Know issues
+-Delete resource is not available, will re-enable
+
+Missing Features
+-"nested questions" where one question is displayed if another question is answered particular way
+-"themes" or tags which allow easy filtering of questions|QuestionService.java|53
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/82dbae279664bfa339a8369c036187aef2ca2ed1|Untested but hopefully functional backend code, will test tomorrow on……ce I finish the corresponding DB.|FormService.java|53
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/82dbae279664bfa339a8369c036187aef2ca2ed1|Untested but hopefully functional backend code, will test tomorrow on……ce I finish the corresponding DB.|FormService.java|54
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/82dbae279664bfa339a8369c036187aef2ca2ed1|Untested but hopefully functional backend code, will test tomorrow on……ce I finish the corresponding DB.|FormService.java|57
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a09c07008b2608c877315bd8f7597b0d7be3b954|replaced honors.uh.edu with dash as package|UserService.java|43
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a09c07008b2608c877315bd8f7597b0d7be3b954|replaced honors.uh.edu with dash as package|UserService.java|43
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd|-Added fuctionality to get all responses for a given form id.-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.|FormResponseService.java|56
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd|-Added fuctionality to get all responses for a given form id.-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.|FormResponseService.java|57
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd|-Added fuctionality to get all responses for a given form id.-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.|FormResponseService.java|74
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/f1e73d9962d6253ecdc3ae2c7c48566b77136032|merge after aclupdates|SampleObjectService.java|59
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/f1e73d9962d6253ecdc3ae2c7c48566b77136032|merge after aclupdates|UserService.java|43
+https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/f1e73d9962d6253ecdc3ae2c7c48566b77136032|merge after aclupdates|UserService.java|46
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/a64013b19f00fedc10845cdeb9f12f6b1d30d59c|Cleaning outAdded getMyUser function to be used with DatabaseModule|UserService.java|47
+https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/ab2a98580f8ac2e53384d19c353ddeb2f415b6dd|added TarnsferApplication Resourcecleaning getMyUser|TransferApplicationService.java|37
+https://github.com/dschadow/JavaSecurity/commit/46589ca192324a9ea7ef0be8bcd2a11c4137a7c3|Introduced service class with method level security|ContactService.java|55
+https://github.com/filber/JavaRepo/commit/82831db085cadb98415c9ac23d3c36a6ded14760|snippets.|security.java|3
+https://github.com/filber/JavaRepo/commit/82831db085cadb98415c9ac23d3c36a6ded14760|snippets.|security.java|12
+https://github.com/judywangsg/spring-security-full-acl/commit/1063affd3f84a0b4bf81038ee27d77f414f06ba5|spring acl tutorial full versionspring acl tutorial full version|GenericService.java|39
+https://github.com/mikesobczak/ProSpringSecurity/commit/02f5876e150f175c062f3dbb9de57bf21e4cf0e1|More stuff.|MoviesServiceImpl.java|45
+https://github.com/mikesobczak/ProSpringSecurity/commit/d01133a97d79cdb58087ae0ecf69f78fb0271797|More training.|MoviesServiceImpl.java|45
+https://github.com/peengtao123/pt/commit/c73a815b3d628a569f36401839d7576c2b7f008b|No commit message|ContactManager.java|45
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|AssaySecureService.java|29
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|ProteinIdentificationSecureSearchService.java|29
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|ProteinIdentificationSecureSearchService.java|33
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|32
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|36
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|40
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|44
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|48
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|52
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|104
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|108
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|112
+https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d|move archive securiry package to new location|PsmSecureSearchService.java|122
+https://github.com/timeu/GWA-Portal/commit/d37ec900db3bc5bb3ff8a14dfbfb2477dbb97f90|Enhancement: Add support for permissions to AlleleAssay DTOACL permissions were added to the AlleleAssay DTO. In addition a new
+Permission ("Run") was added to the CustomPermission class. Some additional
+tests and a security bugfix for lack of permission check  of the CdvService
+findAlleleAsssaysWithStats function were added.|CdvService.java|34
+https://github.com/timeu/GWA-Portal/commit/dfaea8487bc567b92f7725c13e1f4d277188dcc3|Introduction of AclManager and refactoring of service methods|CdvService.java|23
