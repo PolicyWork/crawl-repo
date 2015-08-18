@@ -3773,3 +3773,61 @@ git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1189266 13f795
 + @PostAuthorize("hasPermission(returnObject, 'read')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=44&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/71d000be167d856372e8d65f528151400fd9f0a8
+
+[COMMIT MESSAGE]:Fixed issue with null values. Everything but file upload is working.||Notice wierd qwerk with hibernate and embedded objects.  It is updating
+them unnecissarily.
+=========================================================
+
+- @PostAuthorize("hasPermission(#returnObject, 'read') or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasPermission(returnObject, 'read') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/RESTFUL-WS/commit/a561ade948aac1f2a4186c81bd0c593dd2ae1afd
+
+[COMMIT MESSAGE]:-Added fuctionality to get all responses for a given form id.||-Implemented new sorting and pagination method.
+-Made adjustments to security requirements.
+=========================================================
+
++ @PostAuthorize("hasPermission(#returnObject, 'read') or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kumlien/school/commit/d542eadb04839c32abd634d14f2eb91054abee82
+
+[COMMIT MESSAGE]:Lägg till lite mer security||
+=========================================================
+
++ @PostAuthorize("(returnObject.body != null and returnObject.body.username == principal.username) or hasRole('ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/2c9a3b348c45042c3e16b2f33f9d74f7fd06bcae
+
+[COMMIT MESSAGE]:Authorization - service layer + presentation - need some testing and …||…cleaning, but otherwise done
+=========================================================
+
+- @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+- @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/4fb80761a94c866b8083bcb7d5afaeea4daeed46
+
+[COMMIT MESSAGE]:Authorization mostly on service layer||
+=========================================================
+
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/DataAnalyticsinStudentHands/TerryApplicationBackend/commit/ab2a98580f8ac2e53384d19c353ddeb2f415b6dd
+
+[COMMIT MESSAGE]:added TarnsferApplication Resource||cleaning getMyUser
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ') or hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=45&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
