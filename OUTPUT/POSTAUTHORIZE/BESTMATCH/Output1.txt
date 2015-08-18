@@ -3448,3 +3448,128 @@ authorization.
 + @PostAuthorize("#model.get('rol').partij.emailadres == authentication.principal.username")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=40&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/3ca1a4e2f575f5d7184a7ebff55024b548794132
+
+[COMMIT MESSAGE]:Don't try to validate deleted entity.||
+=========================================================
+
+- @PostAuthorize("hasPermission(#entity, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/1d56743aafa46b6ec794a97a6943ebab253175f9
+
+[COMMIT MESSAGE]:Extended support for Restrictable entities.||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/0a5811fe9153fcef77bc908d1da9430d8fad549e
+
+[COMMIT MESSAGE]:Check permissions on refreshed version of updated entity.||
+=========================================================
+
+- @PostAuthorize("hasPermission(#entity, 'write')")
++ @PostAuthorize("hasPermission(returnObject, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/8540c1de69556dacd7366250209f51577c4c4603
+
+[COMMIT MESSAGE]:Authorization was messed up -- trying to fix.||
+=========================================================
+
++ @PostAuthorize("hasPermission(#entity, 'write')")
++ @PostAuthorize("hasPermission(#entity, 'read')")
++ @PostAuthorize("hasPermission(#entity, 'write')")
++ @PostAuthorize("hasPermission(#entity, 'write')")
++ @PostAuthorize("hasPermission(returnObject, 'read') and hasPermission(returnObject, 'write')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spebbe/cryson/commit/6bcfce6ed2ccb7f410d4175ea85faf9ccda00a4f
+
+[COMMIT MESSAGE]:Imported server and client sources.||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/adf2a6c521a0a873a07be5c849b4cac7d8798df7
+
+[COMMIT MESSAGE]:In case Widget object was coming null for new URL @PostAuthorize was …||…throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/adf2a6c521a0a873a07be5c849b4cac7d8798df7
+
+[COMMIT MESSAGE]:In case Widget object was coming null for new URL @PostAuthorize was …||…throwing Access is denied.RAVE-400
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1230851 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("returnObject == null or hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'read')")
++// @PostAuthorize("hasPermission(returnObject, 'read')")
+- @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/2dbe0052b0f45741f4e5db56d9dbb2ebd2dc540f
+
+[COMMIT MESSAGE]:RAVE-319: Widget persistence not working||Added @Transaction annotation to the registerNewWidget and updateWidget methods to ensure JPA commits
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190457 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
+- * @PostAuthorize("hasPermission(returnObject, 'create')")
++ @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/2bc596199b198853e08c6abc174e64f27b5240c6
+
+[COMMIT MESSAGE]:RAVE-310: fixed incorrect security annotation on updateWidget (admins…||… can now update non-owned widgets)
+
+git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190386 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ * @PostAuthorize("hasPermission(returnObject, 'create')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/machak/rave/commit/84f0183dada8cc7e92433e39e14f89200c15f5cd
+
+[COMMIT MESSAGE]:RAVE-310: Widget ModelPermissionEvaluator and Service Annotations||git-svn-id: https://svn.apache.org/repos/asf/incubator/rave/trunk@1190019 13f79535-47bb-0310-9956-ffa450edef68
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/yoshutch/mybyu/commit/d0c37171d5da56d4b2681cfd56da45293771fc2b
+
+[COMMIT MESSAGE]:UP-2950 Adding support and configuration for Spring Security annotati…||…on-based permission expressions under a pre-authentication setup. This commit also includes adding support for SpringMVC's ContentNegotiatingViewResolver.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'VIEW')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Michielst/lucychangREST/commit/1c4a9ca6d8b938bfd44c369b34d519f75f971f5b
+
+[COMMIT MESSAGE]:changes||
+=========================================================
+
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++ @PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
++@PostAuthorize("#model.get('rol').persoon.emailadres == authentication.principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=41&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
