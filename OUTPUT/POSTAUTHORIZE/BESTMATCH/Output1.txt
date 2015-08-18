@@ -828,3 +828,166 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + @PostAuthorize("hasPermission(returnObject, 'READ')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=14&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/spring-test-example/commit/5a559b434112aaffdaf55a1f33b2b9799a109e10
+
+[COMMIT MESSAGE]:Further defined security in the repository.||Added parameters switch to gradle build.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or ( returnObject != null && (isAuthenticated() and returnObject.id == principal.id) )")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/yecllsl/sia3-code/commit/b0e8bf2386fe9c91e8767c18874d623fddf0ba03
+
+[COMMIT MESSAGE]:初始化||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/dlee0113/spring_in_action/commit/96f2afa1a30121f0fe5f8c7c24cf77ef41884e3c
+
+[COMMIT MESSAGE]:initial upload||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/Opetushallitus/eperusteet/commit/19acef700f7233b47809d58bda2ef5c26730c569
+
+[COMMIT MESSAGE]:korjaa tiedotteiden oikeustarkastelu||
+=========================================================
+
++ @PostAuthorize("returnObject == null or returnObject.julkinen or isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/code-examples/sping-in-action-book-third-edition-code-examples/commit/74bf3899498ab67859ead50be838915bb41e9e43
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thm-projects/arsnova-lms-connector/commit/a98e5e8a174e8441e6cbcfb0f065a86e506c4783
+
+[COMMIT MESSAGE]:Added source param in order to acquire all questions from an (random)||ilias test
+=========================================================
+
++ @PostAuthorize("isAuthenticated() and (hasRole('ADMIN') or hasPermission(#refId,'uniRepQuestion','read'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thm-projects/arsnova-lms-connector/commit/05c7f8133c73739e438889c9f9d701e88929982f
+
+[COMMIT MESSAGE]:Simplified getQuestion and getRandomQuestion for IlliasConnector and||made them more dynamic.
+=========================================================
+
+- @PostAuthorize("isAuthenticated() and (hasRole('ADMIN') or hasPermission(#refId,'uniRepQuestion','read'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thm-projects/arsnova-lms-connector/commit/1ed82afa2bb2684c0e4dcd8fbf4aec9836e13582
+
+[COMMIT MESSAGE]:Added methods for random test question requests||
+=========================================================
+
++ @PostAuthorize("isAuthenticated() and (hasRole('ADMIN') or hasPermission(#refId,'uniRepQuestion','read'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thm-projects/arsnova-lms-connector/commit/80093b27c1b429d7da6796ee628f8fb3db522c57
+
+[COMMIT MESSAGE]:Added new security rules and configuration||
+=========================================================
+
++ @PostAuthorize("isAuthenticated() and (hasRole('ADMIN') or hasPermission(#refId,'uniRepTree','read'))")
++ @PostAuthorize("isAuthenticated() and (hasRole('ADMIN') or hasPermission(#refId,'uniRepQuestion','read'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rooneyp1976/SiA3/commit/f327c169c8ab54b29a4fb7267f0afe00636ffc0c
+
+[COMMIT MESSAGE]:sia||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/hajimezhao/code-dojo/commit/b6d0116fa88d774fb6076e79d7c597feff5cf138
+
+[COMMIT MESSAGE]:add sample source codes of Spring in Action - 3 edition||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=15&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/prafulmantale/MobileDevelopment/commit/fceb5dfe6211c3261da55a6b56c345cfb17930b9
+
+[COMMIT MESSAGE]:dhpn||
+=========================================================
+
++ @PostAuthorize("returnObject.emailId == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/code4j-chen/example-code/commit/498826fbc92b86dfd7e00c948e7968447fa690b1
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bvassilis/SpringInAction/commit/0b9fdad8d38dc327773883595b0258b107061f05
+
+[COMMIT MESSAGE]:sia3||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HuberyChen/spring-pratice-project/commit/8fa0d610e125444ba9d60ce709d3eccb9ae0ab03
+
+[COMMIT MESSAGE]:123||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/nazar-art/SpringInAction/commit/f365c09374613f658939706b8d89ebfe2f1452a6
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/danielberecz/petclinic/commit/fcc12e07ebb11225be19a3860f380cebfc4b7529
+
+[COMMIT MESSAGE]:Introduced Hystrix||
+=========================================================
+
+- @PostAuthorize("returnObject.owner.domainUser.username == principal.username or hasRole('ROLE_VET')")
++ @PostAuthorize("principal.username == returnObject.owner.domainUser.username or hasRole('ROLE_VET')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/PRIDE-Archive/security/commit/7d9145194f523b0f60d78feabf0f2143dfc11f1d
+
+[COMMIT MESSAGE]:move archive securiry package to new location||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleAssay') or hasRole('ADMINISTRATOR')")
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleAssay') or hasRole('ADMINISTRATOR')")
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleFile') or hasRole('ADMINISTRATOR')")
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleProject') or hasRole('ADMINISTRATOR')")
++ @PostAuthorize("hasPermission(returnObject, 'isAccessibleProject') or hasRole('ADMINISTRATOR')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=16&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

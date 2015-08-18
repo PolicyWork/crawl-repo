@@ -2706,3 +2706,21 @@ servlet XML file instead of the application context files. ****.
 + @PostFilter("hasPermission(filterObject, 'READ')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=61&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/andy1126/getting-started-with-spring-framework-2edition/commit/83fb40ac4a125c9e60fb15e5c07c1f6ad49f9c65
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/not-for-me/getting-started-with-spring-framework-2edition/commit/83fb40ac4a125c9e60fb15e5c07c1f6ad49f9c65
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=62&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
