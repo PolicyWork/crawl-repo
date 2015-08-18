@@ -991,3 +991,66 @@ Signed-off-by: John Liu <blacknight1982@gmail.com>
 + @PostAuthorize("hasPermission(returnObject, 'isAccessibleProject') or hasRole('ADMINISTRATOR')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=16&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/salutmonde/spitter-web/commit/6bb22d68e76b73c41dfad74bc0494677b90f17fd
+
+[COMMIT MESSAGE]:first commit of all file||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mornhuang/example/commit/e91f741a11ab4a888526d4215be3a820c2a4804b
+
+[COMMIT MESSAGE]:增加Spring In Action 第三版的代码||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/tiggermug/sia3-code/commit/a3e9a514a28bf38c8a8f1a17a18eced7e2f5d040
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/jaxenter-showcase/commit/c3762b96b6a70be248550806e0361745328d084a
+
+[COMMIT MESSAGE]:Step 3: Add security||
+=========================================================
+
++ @PostAuthorize("returnObject.firstName == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/oradev/sping-in-action-code-examples/commit/8507798cd70b1b8f254aa801cb29062747a2cb8f
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sikm31/yuri3/commit/e0766118f5a802446221d89bbaf4f81a58a24d9d
+
+[COMMIT MESSAGE]:spring1||springproject
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ivanplese/spring-security-demo/commit/ee1244591e480f8c3b318f1a09819e21ad70fa61
+
+[COMMIT MESSAGE]:inital commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=17&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

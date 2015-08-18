@@ -2724,3 +2724,13 @@ servlet XML file instead of the application context files. ****.
 + @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=62&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/santosh32/java-poc/commit/76a250b4977d04fdd2a2f4c6f8258bd5b22cc616
+
+[COMMIT MESSAGE]:added spring-framework project||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, read) or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=63&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
