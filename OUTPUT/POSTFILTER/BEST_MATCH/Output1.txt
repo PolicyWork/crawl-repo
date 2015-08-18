@@ -4037,3 +4037,24 @@ Missing Features
 + @PostFilter("hasPermission(filterObject, 'READ')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=94&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/fbc9ff4ab41f2e7aa0e2684b3871d1f86d162e84
+
+[COMMIT MESSAGE]:locked down the security backend||
+=========================================================
+
+- @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chotchki/pgGallery/commit/9c45a62286b19c093cdf4618419499f1f548c339
+
+[COMMIT MESSAGE]:added hiding of non public albums/items||
+=========================================================
+
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic() == true")
++ @PostFilter("hasAnyRole('ROLE_USER','ROLE_ADMIN') or filterObject.isPublic == true")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=95&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
