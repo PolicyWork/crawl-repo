@@ -4186,3 +4186,141 @@ them unnecissarily.
 + @PostAuthorize("hasRole('ROLE_ADMIN') or "
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=49&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/KosteCZ/so-tired-information-system/commit/9b700787a8304bbf3f0ef1a090b9466ed505ac5f
+
+[COMMIT MESSAGE]:- Service security||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
++ @PostAuthorize("hasRole('ROLE_ADMIN') or "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/6ad9916702f7f90b282b9fa561977e0cecccc3e5
+
+[COMMIT MESSAGE]:oprava drobnych chyb||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplaySeller(returnObject)")
+- @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplaySeller(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/47f0dd1945dae7979bdff681d7e8a9a05fc2e759
+
+[COMMIT MESSAGE]:pridani podpory pro logovani||
+=========================================================
+
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/8f04e52503abdade8db194278140037da3a83edf
+
+[COMMIT MESSAGE]:nova verze||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_sellers_all') or returnObject.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/c45447e04603745d6c9aa5dc934d9074087fe660
+
+[COMMIT MESSAGE]:uprava zabezpeceni||
+=========================================================
+
++ @PostAuthorize("isAnonymous() or hasRole('ROLE_per_sellers_all') or returnObject.id == principal.sellerId")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/05497cc0d509aa63ebf1c8badec71e15fa2aa78e
+
+[COMMIT MESSAGE]:editace profilu, captcha atd.||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/akuepfer/coursera-mobile-cloud-computing-with-android/commit/718095fbb5839655a2f59c1787bc2256ca58b8f4
+
+[COMMIT MESSAGE]:Initial commit||
+=========================================================
+
++ @PostAuthorize("returnObject.doctorId == principal.id")
++ @PostAuthorize("returnObject.doctorId == authentication.id")
++ @PostAuthorize("returnObject.Id == principal.id || returnObject.doctorId == principal.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253
+
+[COMMIT MESSAGE]:CLOUD-659 create network abstraction||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/a79dc2dde57d34fe478c83e01a9fef7fe67941d9
+
+[COMMIT MESSAGE]:Added 004-method-authorization-using-acls.||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("(hasPermission(returnObject, read) and returnObject.visible) or hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sergiofgonzalez/spring-examples-repo/commit/1ca75a3cb5f864a58533b1d1eebb44b61a98f928
+
+[COMMIT MESSAGE]:Added 005-view-authorization-using-acls||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, read)")
++ @PostAuthorize("(hasPermission(returnObject, read) and returnObject.visible) or hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thepresbyterian/topchef/commit/2ef860afaf9d4a218818400ef057a8b4f3b5f0ea
+
+[COMMIT MESSAGE]:Publishing to GitHub||
+=========================================================
+
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("isAuthenticated()")
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN') and @methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("@methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or @methodSecurity.principalIsUser(principal,#userid)")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=50&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

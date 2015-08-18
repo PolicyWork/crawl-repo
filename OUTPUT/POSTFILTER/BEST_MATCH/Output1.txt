@@ -3808,3 +3808,13 @@ Missing Features
 
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=86&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/micros-uz/javamicros/commit/68b459dc72bc675bc0d72897f0db73ae11477763
+
+[COMMIT MESSAGE]:Added: security samples||
+=========================================================
+
++ @PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=87&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
