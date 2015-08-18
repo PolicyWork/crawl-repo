@@ -2949,3 +2949,89 @@ switching on and off features instead of being just prod, qs and dev.
 + @PostAuthorize("hasRole('ROLE_USERS') and returnObject.user == authentication.name")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=35&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74
+
+[COMMIT MESSAGE]:Convert trackr to Spring Boot.||This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.employee?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.email == principal?.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e9146edeec352d15c1cf81872f146fdade0c7e74
+
+[COMMIT MESSAGE]:Convert trackr to Spring Boot.||This introduces a lot of new stuff and removes some.
+
+Features that are not anymore in trackr are:
+* Credentials and authorities. They are provided from the tech portal.
+* Automatic deactivation of employees.
+
+The Spring profiles in trackr are less technical and allow gradually
+switching on and off features instead of being just prod, qs and dev.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject?.employee?.email == principal?.username")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.username == returnObject.employee.email")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.email == principal?.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/006ab0533fba6e0cd3011aa1ae46b03a92b7c6ef
+
+[COMMIT MESSAGE]:TRACKR-221 - Use ?. operator in principal id checks for security||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+- @PostAuthorize("hasRole('ROLE_ADMIN') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or principal?.id == returnObject.employee.id")
+- @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and returnObject.employee.id == principal.id )")
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or returnObject.employee.id == principal?.id")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/techdev-solutions/trackr-backend/commit/e95acdf019c27d69c989913538180d66ab6f45b5
+
+[COMMIT MESSAGE]:TRACKR-54 - Request vacation||Added further vacation request tests and an event handler
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_SUPERVISOR') or ( isAuthenticated() and principal.id == returnObject.employee.id )")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=36&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+

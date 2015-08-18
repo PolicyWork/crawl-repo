@@ -3280,3 +3280,96 @@ Missing Features
 +// @PostFilter("hasPermission(filterObject.projectAccession, 'isAccessibleProjectAccession')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=74&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/debdayal/spring-security/commit/9954af28ea39688f6a4a6da3dee1215f429e3bae
+
+[COMMIT MESSAGE]:initial commit||
+=========================================================
+
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
++ //@PostFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ //@PostFilter("hasPermission(filterObject, 'READ') or hasPermission(filterObject, 'ADMIN_READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=75&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
+
