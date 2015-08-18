@@ -3115,3 +3115,94 @@ authorization.
 + @PostAuthorize("hasRole('ROLE_ADMIN') || returnObject == null || returnObject.userId == principal.id")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=37&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/2c9a3b348c45042c3e16b2f33f9d74f7fd06bcae
+
+[COMMIT MESSAGE]:Authorization - service layer + presentation - need some testing and …||…cleaning, but otherwise done
+=========================================================
+
+- @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+- @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bender-futur/pujcovna-stroju/commit/4fb80761a94c866b8083bcb7d5afaeea4daeed46
+
+[COMMIT MESSAGE]:Authorization mostly on service layer||
+=========================================================
+
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR hasRole('EMPLOYEE') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
++ @PostAuthorize("hasRole('ADMINISTRATOR') OR "
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/biyefeilan/xyplatform/commit/271465ebb650bc4437bf92c6ada783684436af5f
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.id == T(Long).parseLong(principal.username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/thm-projects/arsnova-lms-connector/commit/1f0aeed3f5df7710b2017439b8c3b7cd28200894
+
+[COMMIT MESSAGE]:Added authentification filter, handler and tokenservice.||
+=========================================================
+
++ @PostAuthorize("isAuthenticated()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/danillogontijo/geddireto/commit/79b832137f6c67b1c1778eabe52ec0dce3a5ec25
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ //@PostAuthorize("returnObject.idCarteira == principal.idCarteira")
++ //@PostAuthorize("returnObject.idCarteira == principal.idCarteira")
++ @PostAuthorize("(returnObject == null) or (returnObject.carteira.idCarteira == principal.idCarteira)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jmisur/javaagent/commit/2e7692adc1a85f520b4c7229ecff849ff4a6b9ef
+
+[COMMIT MESSAGE]:spring security poc||
+=========================================================
+
++ @PostAuthorize("returnObject.token == principal.username.toUpperCase()")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vinutaNagaraddi/SpringStrutsTest/commit/d2ec5b44192ae4e8d7a235e20c1708a536739e55
+
+[COMMIT MESSAGE]:First Commit of Spring_Struts projecct||
+=========================================================
+
++ //@PostAuthorize("returnObject.person.lastName == 'Naga'")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=38&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
