@@ -5766,3 +5766,116 @@ fix password generator tool
 + @PostAuthorize("hasPermission(returnObject, 'view')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=65&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/059f2ed034b9d1eb96f092e120d3c3ac7858bb20
+
+[COMMIT MESSAGE]:Further permission fixes according to documentation||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'pipelineExecution.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b
+
+[COMMIT MESSAGE]:new permission model||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'pipeline.read')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'user.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/1c9277b929836441b2a2a6efd82f19059906e53f
+
+[COMMIT MESSAGE]:Merge branch 'master' of ssh://github.com/anu-doi/DataCommons||Conflicts:
+	DataCommons/src/main/java/au/edu/anu/datacommons/collectionrequest/CollectionRequestService.java
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/DataCommons/commit/159ea0f29343c3c64941fab0cce463fcd5535a81
+
+[COMMIT MESSAGE]:Added Spring security to bag download, upload and file download throu…||…gh dropbox.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/bartosz25/library-sample-project/commit/3cb1e6d5e612ad81359dd9a79f3b90c277ec7535
+
+[COMMIT MESSAGE]:Maven project structure, pom.xml and one new todo||
+=========================================================
+
++ // @PostAuthorize("(#subscriber.login == principal.username) or (#subscriber.login == #user.username)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=66&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+[NEXT-PAGE-URL]:null
+
