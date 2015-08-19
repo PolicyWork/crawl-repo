@@ -37,3 +37,5 @@ hasPermission() now delegates to a PermissionEvaluator interface, with a default
 +@PostFilter("hasPermission(filterObject, 'read') or hasPermission(filterObject, admin)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=6&q=%40PostFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
 
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=asc&p=7&q=%40PostFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93
+
