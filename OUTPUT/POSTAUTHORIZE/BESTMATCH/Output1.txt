@@ -5409,3 +5409,46 @@ interfaces prior to JDK 8.
 
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=62&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/097da165cfe5ebf32c31c910f35b3aaff18add4d
+
+[COMMIT MESSAGE]:Fixed a permissions-related issue in the upload files functionality||where a user was being authorised for a null domain object.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
+- @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/pavelkuchin/checkers/commit/ef77d6f86251d9ee502a4ef42928336f8a583579
+
+[COMMIT MESSAGE]:Enhancement security||! Common security gaps have been closed but I should think things thoroughly here in future.
++ Consts class with constants (ME, and Security constants have been implemented)
+! LoginLastTime is not working yet. I know why, but don't known how i can fix it.
+! See server warning logs. From now all service layer exceptions (included security) will be posted here.
+! getAllUsers becomes protected from ROLE_USER (Only ROLE_ADMIN has have access here)
+=========================================================
+
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN,ROLE_USER')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OpenLMIS/open-lmis/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470
+
+[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to c…||…lient side on initiating rnr and fetching it again.
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+- @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/OpenLMIS/open-lmis/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566
+
+[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition||
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.model.get(\"rnr\"), 'VIEW_REQUISITION')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=63&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
