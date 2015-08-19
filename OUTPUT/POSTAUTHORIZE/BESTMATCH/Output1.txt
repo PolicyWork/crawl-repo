@@ -5680,3 +5680,89 @@ interfaces prior to JDK 8.
 + @PostAuthorize("@paa.hasAccess(returnObject)")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=64&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jasolangi/jasolangi.github.io/commit/5701caf9bd7cde3ec09eb35b9e787145b2df8130
+
+[COMMIT MESSAGE]:Merge branch 'master' of https://github.com/OpenLMIS/open-lmis||Conflicts:
+	modules/core/src/main/java/org/openlmis/core/domain/Product.java
+	modules/core/src/main/java/org/openlmis/core/domain/ProgramProduct.java
+	modules/core/src/main/java/org/openlmis/core/repository/mapper/ProgramProductMapper.java
+	modules/core/src/main/java/org/openlmis/core/service/ProgramProductService.java
+	modules/openlmis-web/src/main/java/org/openlmis/web/controller/RequisitionController.java
+	modules/openlmis-web/src/main/resources/messages_en.properties
+	modules/openlmis-web/src/main/webapp/public/js/rnr/controller/create/create-requisition-controller.js
+	modules/openlmis-web/src/main/webapp/public/js/rnr/model/regular-rnr-line-item.js
+	modules/openlmis-web/src/test/java/org/openlmis/web/controller/RequisitionControllerTest.java
+	modules/requisition/src/main/java/org/openlmis/rnr/service/RequisitionService.java
+	modules/requisition/src/test/java/org/openlmis/rnr/domain/RnrLineItemTest.java
+	modules/shipment/src/main/java/org/openlmis/shipment/domain/ShipmentLineItem.java
+	modules/shipment/src/main/java/org/openlmis/shipment/dto/ShipmentLineItemDTO.java
+	modules/shipment/src/main/java/org/openlmis/shipment/repository/mapper/ShipmentMapper.java
+	modules/shipment/src/test/java/org/openlmis/shipment/ShipmentLineItemTransformerTest.java
+	modules/shipment/src/test/java/org/openlmis/shipment/dto/ShipmentLineItemDTOTest.java
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+- @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jasolangi/jasolangi.github.io/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470
+
+[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to c…||…lient side on initiating rnr and fetching it again.
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+- @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/jasolangi/jasolangi.github.io/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566
+
+[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition||
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.model.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anu-doi/anudc/commit/4ce7a2845d8e25127e2303b846f6bd195fdf55da
+
+[COMMIT MESSAGE]:Added gitignore to root, updated CustomAuthenticationEntryPoint class…||… so requests missing user agents get 401 instead of redirect response. Added object-level security to the web service.
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/rodrigoataides/educarmais/commit/584901efa3b7d6618c93763af2b6f53636c59d57
+
+[COMMIT MESSAGE]:Comit de arquivo grande||
+=========================================================
+
++ declare @method: public * (@Entity * && !br.com.core.log.Log && !br.com.core.modelo.acl.*).find*(Long): @PostAuthorize("hasPermission(returnObject, 'READ')");
++// declare @method: public * (@Entity * && !br.com.core.log.Log && !br.com.core.modelo.acl.*).find*(Long): @PostAuthorize("hasPermission(returnObject, 'READ')");
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mycellar/mycellar/commit/286b32121a9803e1f81746e0d0d81940d9c78e8a
+
+[COMMIT MESSAGE]:big update:||use mocha for protractor
+update angularjs and other js libs
+better separation of rest services (admin and others)
+fix token repository cleaner
+fix password generator tool
+=========================================================
+
++ // TODO @PostAuthorize("") to check booking is owned by
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/mff-uk/ODCS/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=65&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
