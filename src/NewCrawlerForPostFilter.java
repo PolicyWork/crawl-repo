@@ -25,9 +25,9 @@ public class NewCrawlerForPostFilter {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTFILTER/BEST_MATCH/Output1.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTFILTER/LEAST_RECENTLY_INDEXED/Output1.txt"); //We write into this file
 		
-		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTFILTER/BEST_MATCH/ErrorLogging.txt"); //We write into this file
+		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/POSTFILTER/LEAST_RECENTLY_INDEXED/ErrorLogging.txt"); //We write into this file
 
 		try {
 			
@@ -62,7 +62,7 @@ public class NewCrawlerForPostFilter {
 					
 					if(restart == true)
 					{
-						urlToGet = "https://github.com/search?l=java&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93"; //for restart
+						urlToGet = "https://github.com/search?l=java&o=asc&q=%40PostFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
 //						keywordLine = "intercept-url pattern";
 						restart=false;	
 					}
