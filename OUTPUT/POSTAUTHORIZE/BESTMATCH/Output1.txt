@@ -942,3 +942,57 @@ interfaces prior to JDK 8.
 + @PostAuthorize("principal.username == returnObject.owner.domainUser.username or hasRole('ROLE_VET')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=5&q=%40PostAuthorize%28%22&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/chpladmin/chpl-api/commit/57db02fd4cf11eed8ba2ffd22e54e611ecba098f
+
+[COMMIT MESSAGE]:Fixed issue in UserManagementController which prevented users from||changing their passwords.
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_USER_AUTHENTICATOR') or hasRole('ROLE_ADMIN') or hasPermission(returnObject, 'read') or hasPermission(returnObject, admin)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HenryXi/Spring_in_action/commit/19f36a42da5dcdd67d18ee8dc11f7967e8619901
+
+[COMMIT MESSAGE]:commit all files||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/HenryXi/Spring_in_action/commit/19f36a42da5dcdd67d18ee8dc11f7967e8619901
+
+[COMMIT MESSAGE]:commit all files||
+=========================================================
+
++ @PostAuthorize("returnObject.length() == #input.length()")
++ @PostAuthorize("returnObject.spitter.username == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ZhernakovMikhail/spring-acl-sample/commit/51f7accc0feb646758de36b276c63bced95eb864
+
+[COMMIT MESSAGE]:Добавил простейший интерфейс||
+=========================================================
+
+- @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'CREATE') or hasPermission(returnObject, 'DELETE') or hasPermission(returnObject, 'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ZhernakovMikhail/spring-acl-sample/commit/c4c869bcf60e4b01645b4f64fb36dde42ad86cee
+
+[COMMIT MESSAGE]:вынес конфигурацию из xml||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'READ')")
++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/ZhernakovMikhail/spring-acl-sample/commit/2833ddfb778877a4ac4bb902beee5065cd0123d1
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=6&q=%40PostAuthorize%28%22&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93
+
