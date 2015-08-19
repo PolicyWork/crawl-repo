@@ -667,3 +667,278 @@
 + @PostAuthorize("hasPermission(returnObject,'read')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=3&q=%40PostAuthorize%28%22&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160
+
+[COMMIT MESSAGE]:CLOUD-872 create new security- group and rule resources||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253
+
+[COMMIT MESSAGE]:CLOUD-659 create network abstraction||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160
+
+[COMMIT MESSAGE]:CLOUD-872 create new security- group and rule resources||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/bc498a2f04214d86154da94bdca635574a669253
+
+[COMMIT MESSAGE]:CLOUD-659 create network abstraction||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/biyefeilan/xyplatform/commit/271465ebb650bc4437bf92c6ada783684436af5f
+
+[COMMIT MESSAGE]:first commit||
+=========================================================
+
++ @PostAuthorize("returnObject.id == T(Long).parseLong(principal.username) or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cherimojava/orchidae/commit/eb1bb9427d58eb15c5c97b4319fbd7e5729dbc6b
+
+[COMMIT MESSAGE]:reformat code||
+=========================================================
+
+- @PostAuthorize("@paa.hasAccess(returnObject)")
+- @PostAuthorize("@paa.hasAccess(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cherimojava/orchidae/commit/81cf17579ebe389a47e4cd94293ae1e7339488cb
+
+[COMMIT MESSAGE]:provide endpoints for next/previous picture ref #31||
+=========================================================
+
++ @PostAuthorize("@paa.hasAccess(returnObject)")
++ @PostAuthorize("@paa.hasAccess(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/terasolunaorg/terasoluna-tourreservation/commit/d0699a596b61da63fa11fc3244246e21d23c645b
+
+[COMMIT MESSAGE]:Implement access control for other owner resource. terasolunaorg/tera…||…soluna-tourreservation#213
+=========================================================
+
++ @PostAuthorize("returnObject == null or returnObject.customer.customerCode == principal.customer.customerCode")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=4&q=%40PostAuthorize%28%22&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93
+
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/serdyuk-alex/RestaurantSample/commit/e87243385c9e7b8a75b6e28217f921a01f930d94
+
+[COMMIT MESSAGE]:fixes, refactoring||+escape errorMessage string for js
++handle user creation in service
++show all orders for admin at home page
++don't send ajax save on load of page (first model change event)
++don't show buttons on submitted and not user orders
++forbid group deletion if there are some orders in it
+=========================================================
+
+- @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/serdyuk-alex/RestaurantSample/commit/44cdcd35eb6622ebfec781d1562a1e32cdc55abe
+
+[COMMIT MESSAGE]:l2 cache, tx service, fixes||+l2 cache ehcache
++transactional service
++split order page
++security for group order read
++nice icons
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or @groupOrderSecurity.isMemberOrGroupOwner(returnObject)")
+- @PostAuthorize("returnObject.owner.name == principal.username")
++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/serdyuk-alex/RestaurantSample/commit/548fb0e5f64ad68ccfeb074b8f52b93ac6fb820d
+
+[COMMIT MESSAGE]:v2 version with good UI & edit dishes ability||+spring security update
++rest-webmvc
++light jsp templating lib
++remove useless tomcat plugin config
++readme
++html design
++update of ORM model (with many2many with extra field)
+=========================================================
+
++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
++ @PostAuthorize("returnObject.owner.name == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kTT/adjule/commit/753c343d994e5f08407a2386a05f6384f5d2c323
+
+[COMMIT MESSAGE]:Upgrades dependecies||
+=========================================================
+
+- @PostAuthorize("hasRole('admin') or principal.username == returnObject.teamName")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal.username == returnObject.teamName")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/serdyuk-alex/RestaurantSample/commit/44cdcd35eb6622ebfec781d1562a1e32cdc55abe
+
+[COMMIT MESSAGE]:l2 cache, tx service, fixes||+l2 cache ehcache
++transactional service
++split order page
++security for group order read
++nice icons
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or @groupOrderSecurity.isMemberOrGroupOwner(returnObject)")
+- @PostAuthorize("returnObject.owner.name == principal.username")
++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-projects/spring-security/commit/ad1d858e2bbe06e51230e6fd5b30bdff17b08bbd
+
+[COMMIT MESSAGE]:SEC-3056 - Fix JavaDoc errors.||Fixed JavaDoc errors accross multiple modules in order to make javadoc happy with Java 8.
+=========================================================
+
+- * @PostAuthorize("#to == returnObject.to")
++ * {@code @PostAuthorize("#to == returnObject.to")}
+- * @PostAuthorize("#to == returnObject.to")
++ * {@code @PostAuthorize("#to == returnObject.to")}
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spring-projects/spring-security/commit/a09756745fd95bcfa8c05eb977227ef06d929ad4
+
+[COMMIT MESSAGE]:SEC-2151: Support binding method arguments with Annotations||This allow utilizing method arguments for method access control on
+interfaces prior to JDK 8.
+=========================================================
+
++ @PostAuthorize("#o?.contains('grant')")
++ * @PostAuthorize("#to == returnObject.to")
++ * @PostAuthorize("#to == returnObject.to")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/danielberecz/petclinic/commit/fcc12e07ebb11225be19a3860f380cebfc4b7529
+
+[COMMIT MESSAGE]:Introduced Hystrix||
+=========================================================
+
+- @PostAuthorize("returnObject.owner.domainUser.username == principal.username or hasRole('ROLE_VET')")
++ @PostAuthorize("principal.username == returnObject.owner.domainUser.username or hasRole('ROLE_VET')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=5&q=%40PostAuthorize%28%22&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93
+
