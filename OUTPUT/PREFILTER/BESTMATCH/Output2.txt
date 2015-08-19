@@ -18,3 +18,5 @@
 + @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=51&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
 
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=52&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+

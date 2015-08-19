@@ -174,4 +174,256 @@
 ++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
 ++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
 ++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
-++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(ret
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
+++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("this.belongsToTenant(returnObject)")
+++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+++ @PostAuthorize("@paa.hasAccess(returnObject)")
+++ @PostAuthorize("@paa.hasAccess(returnObject)")
+++ @PostAuthorize("@paa.hasAccess(returnObject)")
+++ @PostAuthorize("@paa.hasAccess(returnObject)")
+++ @PostAuthorize("hasPermission(returnObject,'read')")
+++ @PostAuthorize("hasPermission(returnObject,'read')")
+++ @PostAuthorize("hasPermission(returnObject,'read')")
+++ @PostAuthorize("hasPermission(returnObject,'read')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++- @PostAuthorize("hasPermission(#entity, 'write')")
++- @PostAuthorize("hasPermission(returnObject, 'read')")
++- @PostAuthorize("hasPermission(#entity, 'write')")
+++ @PostAuthorize("hasPermission(returnObject, 'write')")
+++ @PostAuthorize("hasPermission(#entity, 'write')")
+++ @PostAuthorize("hasPermission(#entity, 'read')")
+++ @PostAuthorize("hasPermission(#entity, 'write')")
+++ @PostAuthorize("hasPermission(#entity, 'write')")
+++ @PostAuthorize("hasPermission(returnObject, 'read') and hasPermission(returnObject, 'write')")
+++ @PostAuthorize("hasPermission(returnObject, 'read')")
++- @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
+++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'CREATE') or hasPermission(returnObject, 'DELETE') or hasPermission(returnObject, 'ADMINISTRATION')")
++- @PostAuthorize("hasPermission(returnObject, 'READ')")
+++ @PostAuthorize("hasAuthority('ADMIN') or hasPermission(returnObject, 'READ') or hasPermission(returnObject, 'WRITE') or hasPermission(returnObject, 'ADMINISTRATION')")
+++ @PostAuthorize("hasPermission(returnObject, 'READ')")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++ @PostAuthorize("returnObject.length() == #input.length()")
+++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++ @PostAuthorize("returnObject.id == T(Long).parseLong(principal.username) or hasRole('ROLE_ADMIN')")
+++ @PostAuthorize("hasRole('ROLE_USER_AUTHENTICATOR') or hasRole('ROLE_ADMIN') or hasPermission(returnObject, 'read') or hasPermission(returnObject, admin)")
++- @PostAuthorize("hasRole('admin') or principal.username == returnObject.teamName")
+++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal.username == returnObject.teamName")
++- @PostAuthorize("returnObject.owner.domainUser.username == principal.username or hasRole('ROLE_VET')")
+++ @PostAuthorize("principal.username == returnObject.owner.domainUser.username or hasRole('ROLE_VET')")
++- * @PostAuthorize("#to == returnObject.to")
+++ * {@code @PostAuthorize("#to == returnObject.to")}
++- * @PostAuthorize("#to == returnObject.to")
+++ * {@code @PostAuthorize("#to == returnObject.to")}
+++ @PostAuthorize("#o?.contains('grant')")
+++ * @PostAuthorize("#to == returnObject.to")
+++ * @PostAuthorize("#to == returnObject.to")
++++ @PostAuthorize("(returnObject.email == principal.Username) or hasRole('ROLE_ADMIN')")
++++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
++++/* @PostAuthorize("returnObject?.summary == authentication.name")*/
+++- @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
++++ @PostAuthorize("hasRole('ROLE_USER')")
++++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
++++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.user.email")
++++ @PostAuthorize("hasRole('ROLE_ADMIN') or authentication.name == returnObject.email")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
++++ @PostAuthorize("returnObject.length() == #input.length()")
++++ @PostAuthorize("returnObject.spitter.username == principal.username")
+++@PostAuthorize("
++-/home/manish/workspace/crawl-repo/OUTPUT/BEST_MATCH/CrawlerOutput_Round2_run1.txt:1332:+ @PostAuthorize("returnObject == null or returnObject.julkinen or isAuthenticated()")
+++ @PostAuthorize("returnObject.id == T(Long).parseLong(principal.username) or hasRole('ROLE_ADMIN')")
+++ @PostAuthorize("returnObject.owner.name == principal.username or hasRole('ROLE_ADMIN')")
+++ @PostAuthorize("returnObject.owner.name == principal.username")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/3418b4045c3ef65458ac00e4265d8e6a04231f6e
+
+[COMMIT MESSAGE]:Permissions refactoring; User permissions removed, only user.manageme…||…nt permission remained. DPU template screen is now protected with new permission;
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'user.read')")
++ @PostAuthorize("hasPermission(returnObject, 'user.management')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b
+
+[COMMIT MESSAGE]:new permission model||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'pipeline.read')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'user.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/68229a28cd0f742ceeaf7964938f45fd4748ea97
+
+[COMMIT MESSAGE]:user provisioning finished||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/5d9842d583e56f25940ececf01799e82824bcc63
+
+[COMMIT MESSAGE]:user provisioning a case integracia||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/d9e7beaa94ed382ee4a41f609b5c7ad013ad5f17
+
+[COMMIT MESSAGE]:Bugfix of #367; Fixed security annotation on DPUFacadeImp||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'dpuTemplate.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/d9e7beaa94ed382ee4a41f609b5c7ad013ad5f17
+
+[COMMIT MESSAGE]:Bugfix of #367; Fixed security annotation on DPUFacadeImp||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'dpuTemplate.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/059f2ed034b9d1eb96f092e120d3c3ac7858bb20
+
+[COMMIT MESSAGE]:Further permission fixes according to documentation||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'pipelineExecution.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b
+
+[COMMIT MESSAGE]:new permission model||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'pipeline.read')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'user.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/b376048c2e0a937d26953d4a1513135aaca09944
+
+[COMMIT MESSAGE]:Fixes of permissions for scheduling pipeline runs and fixed bug (cach…||…ing) in pipelines conflicts
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'scheduleRule.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/059f2ed034b9d1eb96f092e120d3c3ac7858bb20
+
+[COMMIT MESSAGE]:Further permission fixes according to documentation||
+==========
