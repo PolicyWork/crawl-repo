@@ -5270,3 +5270,140 @@ interfaces prior to JDK 8.
 
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=60&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/kTT/adjule/commit/753c343d994e5f08407a2386a05f6384f5d2c323
+
+[COMMIT MESSAGE]:Upgrades dependecies||
+=========================================================
+
+- @PostAuthorize("hasRole('admin') or principal.username == returnObject.teamName")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or principal.username == returnObject.teamName")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/7f81dcdccfd7e678a16016f86f621e2ddf2ce1de
+
+[COMMIT MESSAGE]:added hrapp again on master||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or hasPermission(#id,'RegularUser', 'own')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/9097d48f21188012ff299b2ff67f24d9476fc26d
+
+[COMMIT MESSAGE]:removed hrapp||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_ADMIN') or hasPermission(#id,'RegularUser', 'own')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/4372c2f27a02714c4cd3415984c34b6a16eaf6e1
+
+[COMMIT MESSAGE]:changed project name to hrapp||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or hasPermission(#id,'RegularUser', 'own')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/d9e7beaa94ed382ee4a41f609b5c7ad013ad5f17
+
+[COMMIT MESSAGE]:Bugfix of #367; Fixed security annotation on DPUFacadeImp||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'dpuTemplate.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/d9e7beaa94ed382ee4a41f609b5c7ad013ad5f17
+
+[COMMIT MESSAGE]:Bugfix of #367; Fixed security annotation on DPUFacadeImp||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'dpuTemplate.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/059f2ed034b9d1eb96f092e120d3c3ac7858bb20
+
+[COMMIT MESSAGE]:Further permission fixes according to documentation||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'pipelineExecution.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b
+
+[COMMIT MESSAGE]:new permission model||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'pipeline.read')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'user.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/b376048c2e0a937d26953d4a1513135aaca09944
+
+[COMMIT MESSAGE]:Fixes of permissions for scheduling pipeline runs and fixed bug (cach…||…ing) in pipelines conflicts
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'scheduleRule.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/059f2ed034b9d1eb96f092e120d3c3ac7858bb20
+
+[COMMIT MESSAGE]:Further permission fixes according to documentation||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'pipelineExecution.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b
+
+[COMMIT MESSAGE]:new permission model||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'pipeline.read')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'user.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=61&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
