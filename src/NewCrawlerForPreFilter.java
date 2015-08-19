@@ -25,7 +25,7 @@ public class NewCrawlerForPreFilter {
 
 		BufferedReader readHandle;
 
-		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/PREFILTER/BESTMATCH/Output1.txt"); //We write into this file
+		File file = new File("/home/manish/workspace/crawl-repo/OUTPUT/PREFILTER/BESTMATCH/Output2.txt"); //We write into this file
 		
 		File logFile = new File("/home/manish/workspace/crawl-repo/OUTPUT/PREFILTER/BESTMATCH/ErrorLogging.txt"); //We write into this file
 
@@ -63,7 +63,7 @@ public class NewCrawlerForPreFilter {
 					if(restart == true)
 					{
 						//urlToGet = "https://github.com/search?l=java&o=asc&p=98&q=%40PreFilter%28%22&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
-						urlToGet = "https://github.com/search?l=java&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93";
+						urlToGet = "https://github.com/search?l=java&p=50&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93";
 //						keywordLine = "intercept-url pattern";
 						restart=false;	
 					}

@@ -62,7 +62,7 @@ public class NewCrawlerForPostAuthorize {
 					
 					if(restart == true)
 					{
-						urlToGet = "https://github.com/search?l=java&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93"; //for restart
+						urlToGet = "https://github.com/search?l=java&o=desc&q=%40PostAuthorize%28%22&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93"; //for restart
 //						keywordLine = "intercept-url pattern";
 						restart=false;
 					}
