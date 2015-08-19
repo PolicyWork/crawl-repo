@@ -4107,3 +4107,22 @@ hasPermission() now delegates to a PermissionEvaluator interface, with a default
 + @PostFilter("filterObject.startsWith('a')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=100&q=%40PostFilter%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/diego04/WebsiteImageSharing/commit/447ca44efaaf51b0ddc87765723bfe2e54585e78
+
+[COMMIT MESSAGE]:testing||
+=========================================================
+
++ @PostFilter("filterObject.startsWith('a')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/anadon/spring-security-new-login/commit/ae6af5d73ce77f93926379f96371e84b1e9401f1
+
+[COMMIT MESSAGE]:SEC-2915: Updated Java Code Formatting||
+=========================================================
+
+- @PostFilter("filterObject.startsWith('a')")
++ @PostFilter("filterObject.startsWith('a')")
+[NEXT-PAGE-URL]:null
+
