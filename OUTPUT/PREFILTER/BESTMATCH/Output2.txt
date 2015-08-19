@@ -1,0 +1,20 @@
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/wikibook/springsecurity/commit/8a975b7e6aec99d71abe977dc050bd0ef0cabd1b
+
+[COMMIT MESSAGE]:<스프링 시큐리티 3> 소스코드||
+=========================================================
+
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
++ @PreFilter("(!filterObject.customersOnly) or (filterObject.customersOnly and hasRole('ROLE_ADMIN'))")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=51&q=%40PreFilter%28%22&ref=searchresults&type=Code&utf8=%E2%9C%93
+
