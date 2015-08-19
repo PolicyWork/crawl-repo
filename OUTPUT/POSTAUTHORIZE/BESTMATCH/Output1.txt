@@ -426,4 +426,88 @@
 [CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/059f2ed034b9d1eb96f092e120d3c3ac7858bb20
 
 [COMMIT MESSAGE]:Further permission fixes according to documentation||
-==========
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'pipelineExecution.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b
+
+[COMMIT MESSAGE]:new permission model||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'pipeline.read')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'user.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/817237840498ada06aa99fd03fdc315a6b6fae0c
+
+[COMMIT MESSAGE]:130 - the code was formatted by our template||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/638ebe28563e951b6a8393554a531048d8b47fd1
+
+[COMMIT MESSAGE]:Facades split into interfaces and implementations||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'view')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'view')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/059f2ed034b9d1eb96f092e120d3c3ac7858bb20
+
+[COMMIT MESSAGE]:Further permission fixes according to documentation||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'pipelineExecution.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/UnifiedViews/Core/commit/3f9ddecf74cad1bc6758c331c6953c4154e0f82b
+
+[COMMIT MESSAGE]:new permission model||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'view')")
++ @PostAuthorize("hasPermission(returnObject,'pipeline.read')")
+- @PostAuthorize("hasPermission(returnObject, 'view')")
++ @PostAuthorize("hasPermission(returnObject, 'user.read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spanishkangaroo/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spanishkangaroo/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/spanishkangaroo/rooacl/commit/8f7cd8b190a6f3b8778b8afd9680b189214f858b
+
+[COMMIT MESSAGE]:No commit message||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
++ @PostAuthorize("hasPermission(returnObject, 'WRITE')")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&o=desc&p=2&q=%40PostAuthorize%28%22&ref=searchresults&s=indexed&type=Code&utf8=%E2%9C%93
+
