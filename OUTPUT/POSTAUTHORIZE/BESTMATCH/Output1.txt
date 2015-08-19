@@ -5452,3 +5452,231 @@ interfaces prior to JDK 8.
 + @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.model.get(\"rnr\"), 'VIEW_REQUISITION')")
 [NEXT-PAGE-URL]:https://github.com/search?l=java&p=63&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
 
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/9c88ba965bd4a135842c8dfdf2db2a0c76d2808a
+
+[COMMIT MESSAGE]:CLOUD-41897 Remove Security annotations from DB layer||
+=========================================================
+
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
+- @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/sequenceiq/cloudbreak/commit/43c9a6374c8206bf64babb2c4a3c42a6881c7160
+
+[COMMIT MESSAGE]:CLOUD-872 create new security- group and rule resources||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject,'read')")
++ @PostAuthorize("hasPermission(returnObject,'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vimsvarcode/elmis/commit/5701caf9bd7cde3ec09eb35b9e787145b2df8130
+
+[COMMIT MESSAGE]:Merge branch 'master' of https://github.com/OpenLMIS/open-lmis||Conflicts:
+	modules/core/src/main/java/org/openlmis/core/domain/Product.java
+	modules/core/src/main/java/org/openlmis/core/domain/ProgramProduct.java
+	modules/core/src/main/java/org/openlmis/core/repository/mapper/ProgramProductMapper.java
+	modules/core/src/main/java/org/openlmis/core/service/ProgramProductService.java
+	modules/openlmis-web/src/main/java/org/openlmis/web/controller/RequisitionController.java
+	modules/openlmis-web/src/main/resources/messages_en.properties
+	modules/openlmis-web/src/main/webapp/public/js/rnr/controller/create/create-requisition-controller.js
+	modules/openlmis-web/src/main/webapp/public/js/rnr/model/regular-rnr-line-item.js
+	modules/openlmis-web/src/test/java/org/openlmis/web/controller/RequisitionControllerTest.java
+	modules/requisition/src/main/java/org/openlmis/rnr/service/RequisitionService.java
+	modules/requisition/src/test/java/org/openlmis/rnr/domain/RnrLineItemTest.java
+	modules/shipment/src/main/java/org/openlmis/shipment/domain/ShipmentLineItem.java
+	modules/shipment/src/main/java/org/openlmis/shipment/dto/ShipmentLineItemDTO.java
+	modules/shipment/src/main/java/org/openlmis/shipment/repository/mapper/ShipmentMapper.java
+	modules/shipment/src/test/java/org/openlmis/shipment/ShipmentLineItemTransformerTest.java
+	modules/shipment/src/test/java/org/openlmis/shipment/dto/ShipmentLineItemDTOTest.java
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+- @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vimsvarcode/elmis/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470
+
+[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to c…||…lient side on initiating rnr and fetching it again.
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+- @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/vimsvarcode/elmis/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566
+
+[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition||
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.model.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/excilys/excilys-bank/commit/bdf822dce4b103683eef7922f48d8dca0741c905
+
+[COMMIT MESSAGE]:first big commit||
+=========================================================
+
++ @PostAuthorize("hasPermission(returnObject, 'read')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/USAID-DELIVER-PROJECT/elmis/commit/5701caf9bd7cde3ec09eb35b9e787145b2df8130
+
+[COMMIT MESSAGE]:Merge branch 'master' of https://github.com/OpenLMIS/open-lmis||Conflicts:
+	modules/core/src/main/java/org/openlmis/core/domain/Product.java
+	modules/core/src/main/java/org/openlmis/core/domain/ProgramProduct.java
+	modules/core/src/main/java/org/openlmis/core/repository/mapper/ProgramProductMapper.java
+	modules/core/src/main/java/org/openlmis/core/service/ProgramProductService.java
+	modules/openlmis-web/src/main/java/org/openlmis/web/controller/RequisitionController.java
+	modules/openlmis-web/src/main/resources/messages_en.properties
+	modules/openlmis-web/src/main/webapp/public/js/rnr/controller/create/create-requisition-controller.js
+	modules/openlmis-web/src/main/webapp/public/js/rnr/model/regular-rnr-line-item.js
+	modules/openlmis-web/src/test/java/org/openlmis/web/controller/RequisitionControllerTest.java
+	modules/requisition/src/main/java/org/openlmis/rnr/service/RequisitionService.java
+	modules/requisition/src/test/java/org/openlmis/rnr/domain/RnrLineItemTest.java
+	modules/shipment/src/main/java/org/openlmis/shipment/domain/ShipmentLineItem.java
+	modules/shipment/src/main/java/org/openlmis/shipment/dto/ShipmentLineItemDTO.java
+	modules/shipment/src/main/java/org/openlmis/shipment/repository/mapper/ShipmentMapper.java
+	modules/shipment/src/test/java/org/openlmis/shipment/ShipmentLineItemTransformerTest.java
+	modules/shipment/src/test/java/org/openlmis/shipment/dto/ShipmentLineItemDTOTest.java
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+- @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/USAID-DELIVER-PROJECT/elmis/commit/9c0309e77847dd10c96083f6cde841c1c8ba0470
+
+[COMMIT MESSAGE]:|#1404| +Riya| sending numberOfMonths present in previous period to c…||…lient side on initiating rnr and fetching it again.
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+- @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/USAID-DELIVER-PROJECT/elmis/commit/a1fa7b0c7950e75d7e4c4bc1afaf10b6c8dab566
+
+[COMMIT MESSAGE]:|#1050| PostAuthorize permission evaluator for print and get requisition||
+=========================================================
+
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.body.data.get(\"rnr\"), 'VIEW_REQUISITION')")
++ @PostAuthorize("@requisitionPermissionService.hasPermission(principal, returnObject.model.get(\"rnr\"), 'VIEW_REQUISITION')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/31f3da5dbf8ee93cde70dbf9c068f2f70381d1fa
+
+[COMMIT MESSAGE]:Permissions changes for regular user listing and profiles.||
+=========================================================
+
+- @PostAuthorize("hasRole('ROLE_ADMIN') or hasPermission(#id,'RegularUser', 'own')")
++ @PostAuthorize("hasRole('ROLE_ADMIN') or hasRole('ROLE_FDADMIN') or hasPermission(#id,'RegularUser', 'own')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/fmacicasan/FreeDaysIntern/commit/b2687a12bd24f1ad574d46985f96f2c8409ff725
+
+[COMMIT MESSAGE]:added helpfull links, todo, security some comments vacation display.||
+=========================================================
+
++ @PostAuthorize("hasRole('ROLE_ADMIN') or hasPermission(#id,'RegularUser', 'own')")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/AmericanConsultants/gsa-aeec-pool2-prototype/commit/8c875d1d8daca8f53ac1f28bf4c2428d59c2ed9e
+
+[COMMIT MESSAGE]:Initial Commit||
+=========================================================
+
++ @PostAuthorize("this.belongsToTenant(returnObject) && (hasAnyRole('ROLE_ADMIN_INVOICE','ROLE_RUN_AS_ADMIN_INVOICE') or this.belongsToUser(returnObject, authentication.name))")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_ADMIN_MEMBER') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("hasRole('ROLE_REINDEX') or (this.belongsToTenant(returnObject) and (hasAnyRole('ROLE_ADMIN_GYMNAST','ROLE_RUN_AS_ADMIN_GYMNAST') or this.belongsToUser(returnObject, authentication.name) or this.userIsInstructor(authentication.name) or this.sanitize(returnObject)))")
++ @PostAuthorize("this.belongsToTenant(returnObject) or hasRole('ROLE_REINDEX')")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasRole('ROLE_ALL_NOTIFICATIONS') or this.belongsToUser(returnObject, authentication.name)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("this.belongsToTenant(returnObject)")
++ @PostAuthorize("hasAnyRole('ROLE_ADMIN_CART','ROLE_RUN_AS_ADMIN_CART') or this.belongsToUser(returnObject, authentication.name)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/slovi/kolomet/commit/8f04e52503abdade8db194278140037da3a83edf
+
+[COMMIT MESSAGE]:nova verze||
+=========================================================
+
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_products_all') or returnObject.seller.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isCapableToDisplayProduct(returnObject)")
+- @PostAuthorize("isAnonymous() or hasRole('ROLE_per_sellers_all') or returnObject.id == principal.sellerId")
++ @PostAuthorize("isAnonymous() or principal.isSellerOwner(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cherimojava/orchidae/commit/81cf17579ebe389a47e4cd94293ae1e7339488cb
+
+[COMMIT MESSAGE]:provide endpoints for next/previous picture ref #31||
+=========================================================
+
++ @PostAuthorize("@paa.hasAccess(returnObject)")
++ @PostAuthorize("@paa.hasAccess(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cherimojava/orchidae/commit/eb1bb9427d58eb15c5c97b4319fbd7e5729dbc6b
+
+[COMMIT MESSAGE]:reformat code||
+=========================================================
+
+- @PostAuthorize("@paa.hasAccess(returnObject)")
+- @PostAuthorize("@paa.hasAccess(returnObject)")
+
+=========================================================
+[CODE-CHANGE-URL]:https://github.com/cherimojava/orchidae/commit/81cf17579ebe389a47e4cd94293ae1e7339488cb
+
+[COMMIT MESSAGE]:provide endpoints for next/previous picture ref #31||
+=========================================================
+
++ @PostAuthorize("@paa.hasAccess(returnObject)")
++ @PostAuthorize("@paa.hasAccess(returnObject)")
+[NEXT-PAGE-URL]:https://github.com/search?l=java&p=64&q=%40PostAuthorize%28%22&type=Code&utf8=%E2%9C%93
+
